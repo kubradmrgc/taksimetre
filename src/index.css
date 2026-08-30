@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-taxi: #f5c400;
+  --color-taxi-dim: #c9a000;
+  --color-ink: #14151a;
+  --color-paper: #f4efe6;
+  --color-card: #fffdf8;
+  --color-night: #0c0d11;
+  --color-panel: #15171e;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+html.dark body {
+  background-color: var(--color-night);
+  color: #ece8df;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-taxi) 55%, transparent);
+}
+
+input[type="text"]::-webkit-outer-spin-button,
+input[type="text"]::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
