@@ -1,0 +1,155 @@
+import { calculateFare } from "./calculateFare.js";
+
+const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
+const OSRM_URL = "https://router.project-osrm.org/route/v1/driving";
+
+/** Şehir merkezi yedekleri (konum alınamazsa rota başlangıcı). */
+export const CITY_CENTERS = {
+  istanbul: { lat: 41.0082, lon: 28.9784 },
+  ankara: { lat: 39.9208, lon: 32.8541 },
+  izmir: { lat: 38.4192, lon: 27.1287 },
+  custom: { lat: 41.0082, lon: 28.9784 },
+};
+
+/**
+ * Türkiye'de adres / yer adı arar (Nominatim).
+ * Kullanım politikası: makul istek sıklığı + User-Agent benzeri Referer.
+ */
+export async function searchPlaces(query, { signal, limit = 5 } = {}) {
+  const trimmed = String(query || "").trim();
+  if (trimmed.length < 3) return [];
+
+  const params = new URLSearchParams({
+    q: trimmed,
+    format: "json",
+    addressdetails: "1",
+    limit: String(limit),
+    countrycodes: "tr",
+  });
+
+  const response = await fetch(`${NOMINATIM_URL}?${params}`, {
+    signal,
+    headers: {
+      Accept: "application/json",
+      "Accept-Language": "tr",
+    },
+  });
+
+  if (!response.ok) {
+    throw new Error("Adres araması başarısız oldu. Biraz sonra tekrar deneyin.");
+  }
+
+  const data = await response.json();
+  return data.map((item) => ({
+    id: String(item.place_id),
+    label: item.display_name,
+    lat: Number(item.lat),
+    lon: Number(item.lon),
+  }));
+}
+
+/**
+ * OSRM ile sürüş rotası: mesafe (km), süre (sn), polyline [[lon,lat], ...].
+ */
+export async function fetchDrivingRoute(from, to, { signal } = {}) {
+  const coords = `${from.lon},${from.lat};${to.lon},${to.lat}`;
+  const url = `${OSRM_URL}/${coords}?overview=full&geometries=geojson`;
+
+  const response = await fetch(url, {
+    signal,
+    headers: { Accept: "application/json" },
+  });
+
+  if (!response.ok) {
+    throw new Error("Rota hesaplanamadı. Bağlantınızı kontrol edin.");
+  }
+
+  const data = await response.json();
+  const route = data.routes?.[0];
+
+  if (!route) {
+    throw new Error("Bu noktalar arasında sürüş rotası bulunamadı.");
+  }
+
+  return {
+    distanceKm: route.distance / 1000,
+    durationSeconds: route.duration,
+    polyline: route.geometry?.coordinates ?? [],
+  };
+}
+
+/**
+ * Tahmini rota üzerinden min / ortalama / max ücret aralığı.
+ *
+ * Min: tahmini km, 0 dk bekleme (indi-bindi dahil)
+ * Ortalama: km + OSRM süresinin ~%25'i bekleme
+ * Max: km × 1.15 + OSRM süresinin ~%45'i bekleme
+ */
+export function estimateFareRange(route, tariff) {
+  const base = {
+    openingFee: tariff.openingFee,
+    perKmFee: tariff.perKmFee,
+    perMinuteFee: tariff.perMinuteFee,
+    minimumFee: tariff.minimumFee,
+  };
+
+  const durationMinutes = route.durationSeconds / 60;
+
+  const minFare = calculateFare({
+    ...base,
+    distanceKm: route.distanceKm,
+    waitingMinutes: 0,
+  }).total;
+
+  const avgFare = calculateFare({
+    ...base,
+    distanceKm: route.distanceKm,
+    waitingMinutes: durationMinutes * 0.25,
+  }).total;
+
+  const maxFare = calculateFare({
+    ...base,
+    distanceKm: route.distanceKm * 1.15,
+    waitingMinutes: durationMinutes * 0.45,
+  }).total;
+
+  return {
+    minFare,
+    avgFare,
+    maxFare,
+    distanceKm: route.distanceKm,
+    durationSeconds: route.durationSeconds,
+  };
+}
+
+export function getFallbackOrigin(cityId) {
+  return CITY_CENTERS[cityId] ?? CITY_CENTERS.istanbul;
+}
+
+/** Tek seferlik konum; reddedilirse null. */
+export function getCurrentPositionOnce(options = {}) {
+  return new Promise((resolve) => {
+    if (!navigator.geolocation) {
+      resolve(null);
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        resolve({
+          lat: position.coords.latitude,
+          lon: position.coords.longitude,
+          accuracy: position.coords.accuracy,
+          timestamp: position.timestamp,
+        });
+      },
+      () => resolve(null),
+      {
+        enableHighAccuracy: true,
+        timeout: 8000,
+        maximumAge: 60_000,
+        ...options,
+      },
+    );
+  });
+}

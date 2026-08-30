@@ -1,6 +1,6 @@
 import { NumberField } from "./NumberField.jsx";
 
-export function FareForm({ values, onChange }) {
+export function FareForm({ values, onChange, tripLocked = false }) {
   return (
     <form
       className="grid gap-4 sm:grid-cols-2"
@@ -10,6 +10,8 @@ export function FareForm({ values, onChange }) {
         id="distanceKm"
         label="Gidilen mesafe"
         suffix="km"
+        hint={tripLocked ? "GPS ile güncelleniyor" : undefined}
+        readOnly={tripLocked}
         value={values.distanceKm}
         onChange={(value) => onChange("distanceKm", value)}
       />
@@ -17,6 +19,8 @@ export function FareForm({ values, onChange }) {
         id="waitingMinutes"
         label="Bekleme süresi"
         suffix="dk"
+        hint={tripLocked ? "Hız < 10 km/s iken birikir" : undefined}
+        readOnly={tripLocked}
         value={values.waitingMinutes}
         onChange={(value) => onChange("waitingMinutes", value)}
       />

@@ -1,29 +1,41 @@
 import { useAnimatedNumber } from "../hooks/useAnimatedNumber.js";
 import { formatDecimal, formatLira } from "../lib/formatCurrency.js";
 
-export function FareResult({ fare, cityLabel }) {
+export function FareResult({ fare, cityLabel, compact = false }) {
   const animatedTotal = useAnimatedNumber(fare.total);
 
   return (
     <section
       aria-live="polite"
-      className="overflow-hidden rounded-3xl border border-white/10 bg-meter text-stone-100 shadow-[0_20px_50px_-24px_rgba(0,0,0,0.65)]"
+      className="overflow-hidden rounded-3xl border border-white/10 bg-[#12141a] text-stone-100 shadow-[0_20px_50px_-24px_rgba(0,0,0,0.65)]"
     >
-      <div className="flex items-center justify-between border-b border-white/10 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-taxi">
-        <span>Taksimetre</span>
-        <span className="truncate pl-3 text-stone-400">{cityLabel}</span>
-      </div>
+      {!compact ? (
+        <>
+          <div className="flex items-center justify-between border-b border-white/10 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-taxi">
+            <span>Taksimetre</span>
+            <span className="truncate pl-3 text-stone-400">{cityLabel}</span>
+          </div>
 
-      <div className="px-5 py-6">
-        <p className="text-xs font-medium uppercase tracking-widest text-stone-400">
-          {fare.appliedMinimum ? "İndi-bindi uygulandı" : "Hesaplanan tutar"}
-        </p>
-        <p className="mt-2 font-mono text-4xl font-semibold tabular-nums tracking-tight text-taxi sm:text-5xl">
-          {formatLira(animatedTotal)}
-        </p>
-      </div>
+          <div className="px-5 py-6">
+            <p className="text-xs font-medium uppercase tracking-widest text-stone-400">
+              {fare.appliedMinimum ? "İndi-bindi uygulandı" : "Hesaplanan tutar"}
+            </p>
+            <p className="mt-2 font-mono text-4xl font-semibold tabular-nums tracking-tight text-taxi sm:text-5xl">
+              {formatLira(animatedTotal)}
+            </p>
+          </div>
+        </>
+      ) : (
+        <div className="border-b border-white/10 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-stone-400">
+          Ücret kırılımı
+        </div>
+      )}
 
-      <ul className="divide-y divide-white/10 border-t border-white/10 bg-black/25 text-sm">
+      <ul
+        className={`divide-y divide-white/10 bg-black/25 text-sm ${
+          compact ? "" : "border-t border-white/10"
+        }`}
+      >
         <BreakdownRow label="Açılış" amount={fare.openingFee} />
         <BreakdownRow label="Mesafe" amount={fare.distanceCost} />
         <BreakdownRow label="Bekleme" amount={fare.waitingCost} />

@@ -1,0 +1,3298 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9c16db4[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32m# Logs[m
+[32m+[m[32mlogs[m
+[32m+[m[32m*.log[m
+[32m+[m[32mnpm-debug.log*[m
+[32m+[m[32myarn-debug.log*[m
+[32m+[m[32myarn-error.log*[m
+[32m+[m[32mpnpm-debug.log*[m
+[32m+[m[32mlerna-debug.log*[m
+[32m+[m
+[32m+[m[32mnode_modules[m
+[32m+[m[32mdist[m
+[32m+[m[32mdist-ssr[m
+[32m+[m[32m*.local[m
+[32m+[m
+[32m+[m[32m# Editor[m
+[32m+[m[32m.vscode/*[m
+[32m+[m[32m!.vscode/extensions.json[m
+[32m+[m[32m.idea[m
+[32m+[m[32m.DS_Store[m
+[32m+[m[32m*.suo[m
+[32m+[m[32m*.ntvs*[m
+[32m+[m[32m*.njsproj[m
+[32m+[m[32m*.sln[m
+[32m+[m[32m*.sw?[m
+[32m+[m
+[32m+[m[32m# Env[m
+[32m+[m[32m.env[m
+[32m+[m[32m.env.*[m
+[32m+[m[32m!.env.example[m
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c2f4d26[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,26 @@[m
+[32m+[m[32m# Taksimetre[m
+[32m+[m
+[32m+[m[32mMesafe, bekleme süresi ve tarife bilgileriyle taksi ücretini anlık hesaplayan web uygulaması.[m
+[32m+[m
+[32m+[m[32m## Çalıştırma[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mnpm install[m
+[32m+[m[32mnpm run dev[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mÜretim derlemesi:[m
+[32m+[m
+[32m+[m[32m```bash[m
+[32m+[m[32mnpm run build[m
+[32m+[m[32mnpm run preview[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m## Hesap[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mAra toplam = Açılış + (Mesafe × Km başı) + (Bekleme × Dakika başı)[m
+[32m+[m[32mNihai tutar = max(Ara toplam, İndi-bindi)[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mİstanbul, Ankara ve İzmir butonları 2026 belediye / oda duyurularındaki sarı taksi tarifelerini forma doldurur. Değerler elle değiştirilebilir.[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c97a4a8[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,34 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="tr">[m
+[32m+[m[32m  <head>[m
+[32m+[m[32m    <meta charset="UTF-8" />[m
+[32m+[m[32m    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+[32m+[m[32m    <meta[m
+[32m+[m[32m      name="description"[m
+[32m+[m[32m      content="Mesafe, bekleme ve tarife bilgileriyle anlık taksimetre ücreti hesaplayın."[m
+[32m+[m[32m    />[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.googleapis.com" />[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />[m
+[32m+[m[32m    <link[m
+[32m+[m[32m      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Outfit:wght@400;500;600;700&display=swap"[m
+[32m+[m[32m      rel="stylesheet"[m
+[32m+[m[32m    />[m
+[32m+[m[32m    <title>Taksimetre</title>[m
+[32m+[m[32m    <script>[m
+[32m+[m[32m      try {[m
+[32m+[m[32m        var theme = localStorage.getItem("taksimetre-theme");[m
+[32m+[m[32m        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;[m
+[32m+[m[32m        if (theme === "dark" || (theme !== "light" && prefersDark)) {[m
+[32m+[m[32m          document.documentElement.classList.add("dark");[m
+[32m+[m[32m        }[m
+[32m+[m[32m      } catch (error) {[m
+[32m+[m[32m        /* tema tercihi okunamazsa varsayılan aydınlık kalır */[m
+[32m+[m[32m      }[m
+[32m+[m[32m    </script>[m
+[32m+[m[32m  </head>[m
+[32m+[m[32m  <body>[m
+[32m+[m[32m    <div id="root"></div>[m
+[32m+[m[32m    <script type="module" src="/src/main.jsx"></script>[m
+[32m+[m[32m  </body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a3c010a[m
+[1m--- /dev/null[m
+[1m+++ b/package-lock.json[m
+[36m@@ -0,0 +1,2404 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "name": "taksimetre",[m
+[32m+[m[32m  "version": "1.0.0",[m
+[32m+[m[32m  "lockfileVersion": 3,[m
+[32m+[m[32m  "requires": true,[m
+[32m+[m[32m  "packages": {[m
+[32m+[m[32m    "": {[m
+[32m+[m[32m      "name": "taksimetre",[m
+[32m+[m[32m      "version": "1.0.0",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "react": "^19.1.1",[m
+[32m+[m[32m        "react-dom": "^19.1.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "devDependencies": {[m
+[32m+[m[32m        "@tailwindcss/vite": "^4.1.13",[m
+[32m+[m[32m        "@vitejs/plugin-react": "^5.0.2",[m
+[32m+[m[32m        "tailwindcss": "^4.1.13",[m
+[32m+[m[32m        "vite": "^7.1.5"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/code-frame": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/helper-validator-identifier": "^7.29.7",[m
+[32m+[m[32m        "js-tokens": "^4.0.0",[m
+[32m+[m[32m        "picocolors": "^1.1.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/compat-data": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-locTkQyKvwIEgBzVrn8693ebc97F2U8ZHjbXwDXJ5Fn2TCpNwTlKcaKLkdHop5c/icOFE7qt7Q9JC5hnKNa6Gg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/core": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RgHBCvtjbOK2gXSNBNIkNoEc9qoVEtau3hj8gEqKQuL3HZAibKarWFEI3Lfm6EYKkLalOh8eSrj9b+ch9H/VBA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/code-frame": "^7.29.7",[m
+[32m+[m[32m        "@babel/generator": "^7.29.7",[m
+[32m+[m[32m        "@babel/helper-compilation-targets": "^7.29.7",[m
+[32m+[m[32m        "@babel/helper-module-transforms": "^7.29.7",[m
+[32m+[m[32m        "@babel/helpers": "^7.29.7",[m
+[32m+[m[32m        "@babel/parser": "^7.29.7",[m
+[32m+[m[32m        "@babel/template": "^7.29.7",[m
+[32m+[m[32m        "@babel/traverse": "^7.29.7",[m
+[32m+[m[32m        "@babel/types": "^7.29.7",[m
+[32m+[m[32m        "@jridgewell/remapping": "^2.3.5",[m
+[32m+[m[32m        "convert-source-map": "^2.0.0",[m
+[32m+[m[32m        "debug": "^4.1.0",[m
+[32m+[m[32m        "gensync": "^1.0.0-beta.2",[m
+[32m+[m[32m        "json5": "^2.2.3",[m
+[32m+[m[32m        "semver": "^6.3.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/babel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/generator": {[m
+[32m+[m[32m      "version": "7.29.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-gZbepsdh3WDtgZKWL+vTPh71LSBrm/Y4/QDZBVCcYfmeTEEuoOYwlSy+G1StfJg+/Zy550u/3TATbm7qDbbMtg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/parser": "^7.29.8",[m
+[32m+[m[32m        "@babel/types": "^7.29.8",[m
+[32m+[m[32m        "@jridgewell/gen-mapping": "^0.3.12",[m
+[32m+[m[32m        "@jridgewell/trace-mapping": "^0.3.28",[m
+[32m+[m[32m        "jsesc": "^3.0.2"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-compilation-targets": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-wem6WaBj4NaVYVdNhLPPVacES6ZJ+KBBfSkTMD3YZxbP3rm3Di85tJU5ljaUNhaOynt+Aj0xruhYuzQBt8n71g==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/compat-data": "^7.29.7",[m
+[32m+[m[32m        "@babel/helper-validator-option": "^7.29.7",[m
+[32m+[m[32m        "browserslist": "^4.24.0",[m
+[32m+[m[32m        "lru-cache": "^5.1.1",[m
+[32m+[m[32m        "semver": "^6.3.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-globals": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-3nQVUAtvkKH9zahfWgw96Jc/uFOmjACE1kQz82E2lqWmHBgjzbNlsC22nuQTfahmWeQtTq5nQ/4Nnd2A1wj4zA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-module-imports": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ejHwrQQYcm9xnTivShn2IDOlIzInN34AXskvq9QicvCtEzq1Vzclu/tKF8Jq1Cg8JG2GL6/EmjgsCT7lXepE3g==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/traverse": "^7.29.7",[m
+[32m+[m[32m        "@babel/types": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-module-transforms": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-UPUVSyXbOh627KiCIGQSgwWzGeBKLkaJ9PJEdrngIwMSzxLR4jS4+f1f1jb7VzBbg8nFLaYotvVPFCTqdrmTAg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/helper-module-imports": "^7.29.7",[m
+[32m+[m[32m        "@babel/helper-validator-identifier": "^7.29.7",[m
+[32m+[m[32m        "@babel/traverse": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "@babel/core": "^7.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-plugin-utils": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-string-parser": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-validator-identifier": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helper-validator-option": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-N9ZErrD+yW5geCDtBqnOoxmR8+tNKiGuxKlDpuJxfsqpa2dFcexaziGAE/qoHLiDDreVNMupxGmSoNlyvsA3gw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/helpers": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-1k2lAGRMfHTcwuNYcCNUmaUffmQv8KWMfh2iJUUeRlwlwH4FdNG7mfPI10NPfLHJFThE4Tyr4mv7kTNZOiPuBg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/template": "^7.29.7",[m
+[32m+[m[32m        "@babel/types": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/parser": {[m
+[32m+[m[32m      "version": "7.29.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-E8lTAYNB1KW+FH+VGJuZM1ioAx2E6oVlvQFRrf5P8ZZmsiJXYAD9vTFV7yyEURNzgh1dFqMZuO6tUwcARbqFCA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/types": "^7.29.8"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "parser": "bin/babel-parser.js"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/plugin-transform-react-jsx-self": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-TL0hMc9xzy86VD31nUiwzd5otRAcyEPcsegCxolO0PvcXuH1v0kECe/UIznYFihpkvU5wg/jk4v0TTEFfm53fw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/helper-plugin-utils": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "@babel/core": "^7.0.0-0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/plugin-transform-react-jsx-source": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-06IyK09H3wi4cGbhDBwp5gUGo0IKtnYa8tyTiephirPCK6fbobVGiXMMI5zLQ4aKEYP3wZ3ArU44o+8KMrSG/Q==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/helper-plugin-utils": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "@babel/core": "^7.0.0-0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/template": {[m
+[32m+[m[32m      "version": "7.29.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-puq+Gf35oI24FeN11LkoUQFqv9uwNeWpxXZi/Ji3rRIoKAzKnxRaZ+Gkj0vKS9ZCiTESfng1N9LyOyXvo+m+Gg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/code-frame": "^7.29.7",[m
+[32m+[m[32m        "@babel/parser": "^7.29.7",[m
+[32m+[m[32m        "@babel/types": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/traverse": {[m
+[32m+[m[32m      "version": "7.29.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-I5z7H3bf/41ktsNVLtpN0wAa336HkqIHQ5BuPLEhTkt1jVSyZpeNKIzTgEWmlxjdg81R0IgUCcaE+Ok3NvrfZg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/code-frame": "^7.29.7",[m
+[32m+[m[32m        "@babel/generator": "^7.29.8",[m
+[32m+[m[32m        "@babel/helper-globals": "^7.29.7",[m
+[32m+[m[32m        "@babel/parser": "^7.29.8",[m
+[32m+[m[32m        "@babel/template": "^7.29.7",[m
+[32m+[m[32m        "@babel/types": "^7.29.8",[m
+[32m+[m[32m        "debug": "^4.3.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@babel/types": {[m
+[32m+[m[32m      "version": "7.29.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/helper-string-parser": "^7.29.7",[m
+[32m+[m[32m        "@babel/helper-validator-identifier": "^7.29.7"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/aix-ppc64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-XExcO+dvLKvVtNTibSTBej1NCAbaGhWn9Ww1ZPx80qsahhPFe/8jgWP0IchNe0F3HwkU7n8ejhH8bjonqht8mQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ppc64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "aix"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/android-arm": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-kXXoiPVVGQcnIYGOeaovwOURpniDBpSq4A03qkQ+BMQqtGG6HYap3xne9C1O1yo4TR3qxlCX5IqqmX6fFo2Lqg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/android-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-5YfKeeI8qWfBZIX+u2xZC3Zlb3Os/gLS2sbEKM+I4ZOcsWmHS2WLysCcQZDAFRslDUU5Oiq44gf6PYN1vGwG5A==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/android-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-O387ite7SzUyCcy3JQX4P4bLtEA7bLLkx+esve5JHnyYfNTxcVpXZo9jhdB0lTKN44gztELTdU7nS8Nr16Fs1Q==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/darwin-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-n4KqkOQrraxHJcgjM1RvwbigfQKIKJVpM7xp+KsxiyUSrRdIXnt73VhrPAx0fV44hgfmIVKjxMN9J1t5jySVkw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/darwin-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-uq6suIWYP37qzGddBKPw5QEQPi6HiLGsO7UmkpfyaYNQ3D+rN6w6WfwH+nuqcGXWvawGwxOEroO4YGnFh95azw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/freebsd-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-n+I0BTSRIoy+d6RPKnEVwql5UwBJolytvY4mAOIEJorKlqgPII8ix6slVVrfZ5Tnj7glIZvloylbB/EJPMWEXw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "freebsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/freebsd-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-78XJTJkvPs0kz2w61301PJjXl4g7q3JqiYMZ/M/yVI73EHBrCRTgkhu9oqG7vPqq+a/yadEW8aD+agKlk5xrmg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "freebsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-arm": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-XlDnu2q5yoqems+xay6wSAcg9DDD7K9RLKZEBOMZm3ckNpJBvOX20tSfby8KfrrhINDyv9V2YVZKY/SpoGJI8w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-pW4AC0P3it8c7do9MVM4p51FzHzdM/TZrerurgRcHJ2WTa1VQ1CIq18xncfpBJw4ojkiZZrKW2yIBWBP92j6Ug==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-ia32": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-CYbnj78HsIeA+DhgUKgFCfvNsTHFhMMrinUrMZpDXJXKN8T3XViTZ/+wtHeVxEWY8ewSzTFN+nRmSwO2tZaLUQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ia32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-loong64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-buwkd8nsph4R+ajRvw0qM5Hja/TXQow3ptzWO2EbG/cqcIkHloRrdlBtQlshyYGTNFvfkfJ5tpPLVkY4DtsPfQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "loong64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-mips64el": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ZVykbDyk7519VwiNb9Lcj9m8XM6v5V9uKPvrEMkkEedVewf+0itkhahp4HDpgERXhwLRpWFypsGbG/J8s0QjJA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "mips64el"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-ppc64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-CAXl+Dtd9UUuJd8pKKdwh6MLm3MUMiqMPmhZ3tTSXPqfyQ3vDl6R5hZdZ/kYojK4ofXtdfSv1tFq8XzWx3heNQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ppc64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-riscv64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-GeXCej4IQtU1B+QlDV8W/RRvbzI3O/Stss+/bCXv4lZls5WGRtu2a+3JkA3i4qIUlMXpcHebWpF8AkJhATowuA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "riscv64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-s390x": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-3H1weTYZPxt/WOhByszQZybS9w5lKzUn1FDMsgEChbHWQwHYQQRfBxgCcZvPhjHfKyJjIievvMmEUawJrdY9Dg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "s390x"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/linux-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-4xTZr1FUmSoQW4XIWmit3tzQrUTZM+N3P0XV8xROKYF50XfI7xeO90+1bZvNwxIufQ9hDQVRJH5YhgPVF8A/HQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/netbsd-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-sSATRjPeDBg3pdgHoQfoYBob11Kk1FGa9lui5RIHZCoCkJa9QKlvl3/vKz2usCmYYjs7ymJR/2Nnsqe+Hjt5nw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "netbsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/netbsd-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-lqnzCV+mM0gIADaKihiCg6ifgfU2L3h5E33rNQBN1Y4MaVGnzryzmvvf7UHxprpQdE8hpqLolJ9Rl+SkIRDpyw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "netbsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/openbsd-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-AL2qJILH7lNjrDmCQDvdxMfAUIv8KMNZOvrwAQ8i8//ntL9FflhOyMJ8OZSMBb8/AWXe3/5v5S20y3zCoZWKoQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "openbsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/openbsd-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-QtiuPytchRyC4rwUKhexJdQKvDuZ6hWloi3igqPQNUJCS1/v9EiO3UTOXR6A3FoMo4fnAKbWJdqaIwhOzh8qEw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "openbsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/openharmony-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-WkhYDmpTjLvGlScA1rwjRUmhl4k8oXR3cIbtqWmELgU/dFeHHlEllxDvdWcNJV9rbzCexB5vz8gtNewWLgCT7Q==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "openharmony"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/sunos-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-GPMSkTOtMnv2U2F8gxe4Io6qmVs+YKyp832Etqqxr0hFngmXQ3rzwytelm3GIn7T4VviRUlf3sOgBOiTdvaf7g==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "sunos"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/win32-arm64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-PIhhEkE9uPBleRBrQEJpUn7MBnibZzbGzYWPmY3x+YoVg/95zbjB4CxPPOQ8l5tYYM4mMaCthF8/1DIfBQQyWQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/win32-ia32": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-YmJbfTlvU7Sdn9BB+4PRES4oB6pxgS37MAONj+hBr/cpXS1aBPKXxNnDbu+QCWPj0o9dgyxeq79g6c5P8KeuYA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ia32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@esbuild/win32-x64": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@jridgewell/gen-mapping": {[m
+[32m+[m[32m      "version": "0.3.13",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",[m
+[32m+[m[32m      "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@jridgewell/sourcemap-codec": "^1.5.0",[m
+[32m+[m[32m        "@jridgewell/trace-mapping": "^0.3.24"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@jridgewell/remapping": {[m
+[32m+[m[32m      "version": "2.3.5",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz",[m
+[32m+[m[32m      "integrity": "sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@jridgewell/gen-mapping": "^0.3.5",[m
+[32m+[m[32m        "@jridgewell/trace-mapping": "^0.3.24"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@jridgewell/resolve-uri": {[m
+[32m+[m[32m      "version": "3.1.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@jridgewell/sourcemap-codec": {[m
+[32m+[m[32m      "version": "1.6.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@jridgewell/trace-mapping": {[m
+[32m+[m[32m      "version": "0.3.31",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",[m
+[32m+[m[32m      "integrity": "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@jridgewell/resolve-uri": "^3.1.0",[m
+[32m+[m[32m        "@jridgewell/sourcemap-codec": "^1.4.14"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@napi-rs/lzma-linux-x64-gnu": {[m
+[32m+[m[32m      "version": "1.5.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@napi-rs/lzma-linux-x64-gnu/-/lzma-linux-x64-gnu-1.5.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-oTXEIha4SsuXdTA4Iyskj0kpdx2yVXdhd75c2v3xGrHFfVMsbhTPZU/nMPL4sWKo4pBHm3aucLaqGlF696dTyQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^22.20 || ^24.12 || >=25"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rolldown/pluginutils": {[m
+[32m+[m[32m      "version": "1.0.0-rc.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-eybk3TjzzzV97Dlj5c+XrBFW57eTNhzod66y9HrBlzJ6NsCrWCp/2kaPS3K9wJmurBC0Tdw4yPjXKZqlznim3Q==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-android-arm-eabi": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-UZ8sUxPTiHWYX9QNdJedb1kDZSpS1t/VPWBWGSgqHNi9w3Cu6IXvu2mzbhiTiPvtrqgTQJ+zqiAq2iPIPilpaQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-android-arm64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-cQ4nFQABN5cDvDpbvJ7bMStCpnaVxynZrRMfUJYgxcIk9Sh54FIO1vtfkg0B69REjER77ioZ/ov+eAApx/KmLQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-darwin-arm64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-FQNqd1lRy/0QhDk3xeRIkSBiCpXCiDnZO3YLVdcDKN1UBiKToNftCzcXYNLshmPDUMlu2TdeS8tGcsU6f3YF1Q==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-darwin-x64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-pvD16V939D3CloK0+qikpGaxiPrDUXTe7Y5cWOMkMSy7m1cawa8EGy/kXYi/G/cKAC4HDAbSnzCIk1WmsoOKXg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-freebsd-arm64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-pcFGeL2345VwdTnJhA6zLbew+YgWB0qBG2+dMtXjCicf6+rm6kO6cOoh5VnTe0ZMrMRgRyuHmCJxZWrIdzYuOw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "freebsd"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-freebsd-x64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-mRJlqSRulVzcKq/LKA6ICSIc3K/l4fzlVn/gePn2nXIHy8seRi5z/eeRE0d/XMBxcMldiXtQTSpRj0tkkC3g8Q==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "freebsd"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-arm-gnueabihf": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-YDUNvVM85TI3g/1OpnqKP1h4NeW/j64DfWMf+G3M809xNk1bJSnpFp4sh83NpmVE5DXnkh8ULor4LTVZKoYLHw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-arm-musleabihf": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-7Mcn71p9ZuQFAj+h+dhQXy/yeLePRS2yKRnmW1DijA9thKO5qap0GNOIQK4yQ6iP3SU0Mrb/yWo8h8vgRba8lw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-arm64-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-4YiLQTX6U4CSl0L9cluep9A9W6UmTfqBDc2/CH6wlu54pl4E7Jn3cOD8oxzvBDEGk/JMKgJ47C8g+radF7mwvg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-arm64-musl": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-2ra8F7w8OquwZN9z2/fKFnli69wa8PLwaVzRMIPGb13ByMJwC28Fbp8YcVGoUhlYMTt7j5j9bNgpysrN2UM+vw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-loong64-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Sy20ncyhjmBP0Ml+UvQbimjlk6VFgjW5uNP+qqwHB00mTE8Bl2C1TuHTlRwK2YoXeZbee5lP2XevBWVkAQAtSQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "loong64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-loong64-musl": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-noITLp8oNjYliPnGWmLyelIHwULGqbHloQHGw1rtxbWhTuWooRpnZarZQJ1y9EUC4szuCusCc+HEpUtxpIwYvA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "loong64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-ppc64-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-hlxxXd+F1mWiAcaFR7Sv9ZQT6m6UfI8+Vy/kFJzztq2pDMU/0wZ9sish0iszNZvsQDo8Gc0i5yuFEOz5dDf6fA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ppc64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-ppc64-musl": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-EF7OpqQTQ/BvGqLzUi4rEHuagCV9MugAUXSHemwPW5vxZ75RR+jxO/2j95Ph2dalMpFHSVECjRoioHZgA9zOYA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ppc64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-riscv64-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-wQO3JesW9PRkwlabQ27y7sPfVOOTLRG73I4F2UYHG5PXun3J9U3y+b7ezVKSYbsvSKGQ1k1cq8Qlun4C9kLt3w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "riscv64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-riscv64-musl": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ouAGwhO6wHRXdnOVCOsB0tRFkA7nhNB2Nwax6oECXN0YiN8EYUTBAOudADOB1PI+yDL61TeNx/u7MVCzksNbkQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "riscv64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-s390x-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-q2R38Sn+1J8RxhfJ+T54wSWmyKXWec+9jgDfqO2AtArEqHO5R2aeayp5H5OYLr5UYDVGsVaZPEFUooMhYCdz5A==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "s390x"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-x64-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-gfI5T24WLLuFfSKw7Go/zDXjAAV0fny0swTaDv+WjK7vqcw4cRhFfdsyKL1n+ukI+ooBxn3bVQnyrn06WpI50w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-linux-x64-musl": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-4h6XqthmB4Hspji84wvgk+ElodTsGj+dbZqHJHHtKxj4mYq0ANSEEPX9ys3moJueqsRjwpaJYH7874Itwnj2ow==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-openbsd-x64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-dlfCOa87o1VAYegLQ9EKilx2JCeRofiyPGhTCmqnuXZ6bMPiycO1rq1+sKoulAp7pGLIsTIw+1x5R+zgh5LhhA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "openbsd"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-openharmony-arm64": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-cjkLbOlfcm3QGhMM1J5zaZjsw1GggbN6rw9UTSSRrPrR1KkcXnN7Uq9rPw34xImQ9VOY9GN+6u2Zj80B9ptkcw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "openharmony"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-win32-arm64-msvc": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Li1KdUnWGE4N3e1F/B4RTB1ms+nG4WBgjByO46pkeBVX/2UBsY53xf5vK9WygVmnH3RwncIST7lkSdLSY6P9lg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-win32-ia32-msvc": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-t4ZYOSoLTgwhuFMrmTMLx/+i1DQVK7HYqMc6kY46EApwi8X0nIVphzdNoThU3xt6n+N5urG1/gxBdCaKDLavfg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "ia32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-win32-x64-gnu": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RgroPfMmKlD1RzSDxvwgcPiy2HNQKoYV7OmwIXDsk73uKW5t6B/V8KIy27SMv/FNXFo/oSBtWc9J0X7t91ezZg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@rollup/rollup-win32-x64-msvc": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-at8QVep6S3h5Y6gSbdGU06bRY5WJkf6WUduM9YtvYMbYhB1MOFfUgc6kehitQXzOtMSaT70q7f9ydPhpqu821w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/node": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-/T8IKEsf9VTU6tLjgC7+sv2mOPtQxzE2jMw7u4Tt40Tx+QSZxpzh95/H6cMKoja9XuW7iMdLJYBB0o9G1CaAgg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@jridgewell/remapping": "^2.3.5",[m
+[32m+[m[32m        "enhanced-resolve": "^5.24.1",[m
+[32m+[m[32m        "jiti": "^2.7.0",[m
+[32m+[m[32m        "lightningcss": "1.32.0",[m
+[32m+[m[32m        "magic-string": "^0.30.21",[m
+[32m+[m[32m        "source-map-js": "^1.2.1",[m
+[32m+[m[32m        "tailwindcss": "4.3.3"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-krXjAikiaFSPaK/FkAQT5UTx3VormQaiZ5hBFlJZ9UFQGB/rwg1MZIhHAG9smMQRTdyJxP6Qt5MwMtdyU5FWrA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "optionalDependencies": {[m
+[32m+[m[32m        "@tailwindcss/oxide-android-arm64": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-darwin-arm64": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-darwin-x64": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-freebsd-x64": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-linux-arm-gnueabihf": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-linux-arm64-gnu": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-linux-arm64-musl": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-linux-x64-gnu": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-linux-x64-musl": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-wasm32-wasi": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-win32-arm64-msvc": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide-win32-x64-msvc": "4.3.3"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-android-arm64": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Y85A2gmPSkl5Ve5qR86GL4HT509cFqQh1aes9p3sSkyTPwt0Pppf3GkwGe4JPACcRYjgJIEhQgM6dBClnr0NYw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-darwin-arm64": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-BiaWatpBcERQFDlOjRDpIVXuFK5PJez5SA4JMg6VYZdBYU+qKfV/vqjcIs+IYmtitf1xYQZTwXvU/8y4lfZUGw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-darwin-x64": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-fAeUqfV5ndhxRwai8cXGzdLvul9utWOmeTkv69unv4ZXixjn61Z+p9lCWdwOwA3TYboG3BwdVuN/RDjhBRl0mw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-freebsd-x64": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-iyf5bV6+wnAlflVeEy7R25dupxTNECZN5QMI0qNT6eT+EgaGdZcKhGkr5SdoaWiLJ3spLqIY9VCeSGrwmtg4kw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "freebsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-linux-arm-gnueabihf": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-aAYUprJAJQWWbRrPvtjdroZ56Md+JM8pMiopS6xGEwDfLhqj+2ver2p4nU4Mb3CRqcMmNBjo8KkUgcxhkzVQGQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-linux-arm64-gnu": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-nDxldcEENOxZRzC2uu9jrutZdAAQtb+8WWDCSnWL1zvBk1+FN+x6MtDViPB5AJMfttVCUhehGWus3XBPgatM/w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-linux-arm64-musl": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Md44bD6veX/PC5iyF8cDVnw4HBIANZepRZZ7a8DQOvkfo5WUBwcp6iAuCUz23u+4SUkhJlD3eL7hNdW8ezd/kA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-linux-x64-gnu": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-tx7us1muwOKAKWao2v/GaafFeQboE6aj88vC6ziN2NCGcRm8gWUhwjzg+YdVB1e4boAtdtma4L43onunI6NS4w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-linux-x64-musl": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-SJxX60smvHgasZoBy11dX6YRjXJFovwWBoedhbQPOBzgFWBHGB+TVPWB9BxzR7TTxU8FQZAI2AyiNCMzFm8Img==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-wasm32-wasi": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-jx1+rPhY/5Ympkktd656HBWEBLxP7dH06losBLjjf5vgCODXvi9KhtftWcMIwTFIDqBr7cRnQkdLnAG+IOlGvQ==",[m
+[32m+[m[32m      "bundleDependencies": [[m
+[32m+[m[32m        "@napi-rs/wasm-runtime",[m
+[32m+[m[32m        "@emnapi/core",[m
+[32m+[m[32m        "@emnapi/runtime",[m
+[32m+[m[32m        "@tybys/wasm-util",[m
+[32m+[m[32m        "@emnapi/wasi-threads",[m
+[32m+[m[32m        "tslib"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "wasm32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@emnapi/core": "^1.11.1",[m
+[32m+[m[32m        "@emnapi/runtime": "^1.11.1",[m
+[32m+[m[32m        "@emnapi/wasi-threads": "^1.2.2",[m
+[32m+[m[32m        "@napi-rs/wasm-runtime": "^1.1.4",[m
+[32m+[m[32m        "@tybys/wasm-util": "^0.10.2",[m
+[32m+[m[32m        "tslib": "^2.8.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=14.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-win32-arm64-msvc": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-3rc292Ca2ceK6Ulcc/bAVnTs/3nDtoPhyEKlgPv+yQJQi/JS/AMJlqzxvlDacL1nekbrcf6bTqp/jV4qgnPxNQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/oxide-win32-x64-msvc": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-yJ0pwIVc/nYeGoV02WtsN8KYyLQv7kyI2wDnkezyJlGGjkd4QLwDGAwl47YpPJeuI0M0ObaXGSPjvWDPeTPggw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 20"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@tailwindcss/vite": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-yYU8cogLeSh/ms2jh8Fj7jaba/EWa7Ja6GoUqYZaraEuCI5YS6ms6ObZgjjedm+jm6XZjdNRWBpPP6Z86oOxcw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@tailwindcss/node": "4.3.3",[m
+[32m+[m[32m        "@tailwindcss/oxide": "4.3.3",[m
+[32m+[m[32m        "tailwindcss": "4.3.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "vite": "^5.2.0 || ^6 || ^7 || ^8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@types/babel__core": {[m
+[32m+[m[32m      "version": "7.20.5",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz",[m
+[32m+[m[32m      "integrity": "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/parser": "^7.20.7",[m
+[32m+[m[32m        "@babel/types": "^7.20.7",[m
+[32m+[m[32m        "@types/babel__generator": "*",[m
+[32m+[m[32m        "@types/babel__template": "*",[m
+[32m+[m[32m        "@types/babel__traverse": "*"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@types/babel__generator": {[m
+[32m+[m[32m      "version": "7.27.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/types": "^7.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@types/babel__template": {[m
+[32m+[m[32m      "version": "7.4.4",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz",[m
+[32m+[m[32m      "integrity": "sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/parser": "^7.1.0",[m
+[32m+[m[32m        "@babel/types": "^7.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@types/babel__traverse": {[m
+[32m+[m[32m      "version": "7.28.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/types": "^7.28.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@types/estree": {[m
+[32m+[m[32m      "version": "1.0.9",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz",[m
+[32m+[m[32m      "integrity": "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/@vitejs/plugin-react": {[m
+[32m+[m[32m      "version": "5.2.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.2.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-YmKkfhOAi3wsB1PhJq5Scj3GXMn3WvtQ/JC0xoopuHoXSdmtdStOpFrYaT1kie2YgFBcIe64ROzMYRjCrYOdYw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@babel/core": "^7.29.0",[m
+[32m+[m[32m        "@babel/plugin-transform-react-jsx-self": "^7.27.1",[m
+[32m+[m[32m        "@babel/plugin-transform-react-jsx-source": "^7.27.1",[m
+[32m+[m[32m        "@rolldown/pluginutils": "1.0.0-rc.3",[m
+[32m+[m[32m        "@types/babel__core": "^7.20.5",[m
+[32m+[m[32m        "react-refresh": "^0.18.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^20.19.0 || >=22.12.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "vite": "^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/baseline-browser-mapping": {[m
+[32m+[m[32m      "version": "2.11.20",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.20.tgz",[m
+[32m+[m[32m      "integrity": "sha512-H0ulySigv6icDJ1F7SjtdCD6PrhTpdYCmP0CactWy1+ekh0AFd0o1Wn5T8b+hnTmdBx19u9yhL6wvCylXMY7zw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "Apache-2.0",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "baseline-browser-mapping": "dist/cli.cjs"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/browserslist": {[m
+[32m+[m[32m      "version": "4.28.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-V2NpofLblG64mfOtSgDhOJESZEGogzDMBv/q+W6oc4LXWP/q75eOXoOaaOu1EOadB9U4Bwx/e0yzbvwKH8zalA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "funding": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "opencollective",[m
+[32m+[m[32m          "url": "https://opencollective.com/browserslist"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "tidelift",[m
+[32m+[m[32m          "url": "https://tidelift.com/funding/github/npm/browserslist"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "github",[m
+[32m+[m[32m          "url": "https://github.com/sponsors/ai"[m
+[32m+[m[32m        }[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "baseline-browser-mapping": "^2.11.12",[m
+[32m+[m[32m        "caniuse-lite": "^1.0.30001809",[m
+[32m+[m[32m        "electron-to-chromium": "^1.5.402",[m
+[32m+[m[32m        "node-releases": "^2.0.53",[m
+[32m+[m[32m        "update-browserslist-db": "^1.3.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "browserslist": "cli.js"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/caniuse-lite": {[m
+[32m+[m[32m      "version": "1.0.30001810",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz",[m
+[32m+[m[32m      "integrity": "sha512-TITQPUkaz+aVk5GL6NhOdwk1aEaNTSDPsGFWrTuhKGtjTF70jL/Oht2W4c6rXUe5fu7Ie19VIahAXHIIiWWNeg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "funding": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "opencollective",[m
+[32m+[m[32m          "url": "https://opencollective.com/browserslist"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "tidelift",[m
+[32m+[m[32m          "url": "https://tidelift.com/funding/github/npm/caniuse-lite"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "github",[m
+[32m+[m[32m          "url": "https://github.com/sponsors/ai"[m
+[32m+[m[32m        }[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "license": "CC-BY-4.0"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/convert-source-map": {[m
+[32m+[m[32m      "version": "2.0.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/debug": {[m
+[32m+[m[32m      "version": "4.4.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "ms": "^2.1.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependenciesMeta": {[m
+[32m+[m[32m        "supports-color": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/detect-libc": {[m
+[32m+[m[32m      "version": "2.1.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "Apache-2.0",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/electron-to-chromium": {[m
+[32m+[m[32m      "version": "1.5.416",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.416.tgz",[m
+[32m+[m[32m      "integrity": "sha512-K6bvB2BjnNrugtIih6ewlbBI9DXa976jIdiIlRLHhBoEI9a4JaQjjHyF+A1IQI543aQYR4LnmOrT/K5fZj0aPA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "ISC"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/enhanced-resolve": {[m
+[32m+[m[32m      "version": "5.24.5",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.24.5.tgz",[m
+[32m+[m[32m      "integrity": "sha512-L1l8TNvomm6UVW5B253AGxQagSQr+vGwhMlrrfRS2qmhx46AMpMVJKQYLvWYbysTMY8VoicOvzHzoHMbyzB+4A==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "graceful-fs": "^4.2.4",[m
+[32m+[m[32m        "tapable": "^2.3.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=10.13.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/esbuild": {[m
+[32m+[m[32m      "version": "0.28.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "hasInstallScript": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "esbuild": "bin/esbuild"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "optionalDependencies": {[m
+[32m+[m[32m        "@esbuild/aix-ppc64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/android-arm": "0.28.2",[m
+[32m+[m[32m        "@esbuild/android-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/android-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/darwin-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/darwin-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/freebsd-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/freebsd-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-arm": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-ia32": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-loong64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-mips64el": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-ppc64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-riscv64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-s390x": "0.28.2",[m
+[32m+[m[32m        "@esbuild/linux-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/netbsd-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/netbsd-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/openbsd-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/openbsd-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/openharmony-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/sunos-x64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/win32-arm64": "0.28.2",[m
+[32m+[m[32m        "@esbuild/win32-ia32": "0.28.2",[m
+[32m+[m[32m        "@esbuild/win32-x64": "0.28.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/escalade": {[m
+[32m+[m[32m      "version": "3.2.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/fdir": {[m
+[32m+[m[32m      "version": "6.5.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "picomatch": "^3 || ^4"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependenciesMeta": {[m
+[32m+[m[32m        "picomatch": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/fsevents": {[m
+[32m+[m[32m      "version": "2.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "hasInstallScript": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/gensync": {[m
+[32m+[m[32m      "version": "1.0.0-beta.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6.9.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/graceful-fs": {[m
+[32m+[m[32m      "version": "4.2.11",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "ISC"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/jiti": {[m
+[32m+[m[32m      "version": "2.7.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "jiti": "lib/jiti-cli.mjs"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/js-tokens": {[m
+[32m+[m[32m      "version": "4.0.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/jsesc": {[m
+[32m+[m[32m      "version": "3.1.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "jsesc": "bin/jsesc"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/json5": {[m
+[32m+[m[32m      "version": "2.2.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "json5": "lib/cli.js"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "detect-libc": "^2.0.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "optionalDependencies": {[m
+[32m+[m[32m        "lightningcss-android-arm64": "1.32.0",[m
+[32m+[m[32m        "lightningcss-darwin-arm64": "1.32.0",[m
+[32m+[m[32m        "lightningcss-darwin-x64": "1.32.0",[m
+[32m+[m[32m        "lightningcss-freebsd-x64": "1.32.0",[m
+[32m+[m[32m        "lightningcss-linux-arm-gnueabihf": "1.32.0",[m
+[32m+[m[32m        "lightningcss-linux-arm64-gnu": "1.32.0",[m
+[32m+[m[32m        "lightningcss-linux-arm64-musl": "1.32.0",[m
+[32m+[m[32m        "lightningcss-linux-x64-gnu": "1.32.0",[m
+[32m+[m[32m        "lightningcss-linux-x64-musl": "1.32.0",[m
+[32m+[m[32m        "lightningcss-win32-arm64-msvc": "1.32.0",[m
+[32m+[m[32m        "lightningcss-win32-x64-msvc": "1.32.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-android-arm64": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-android-arm64/-/lightningcss-android-arm64-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-YK7/ClTt4kAK0vo6w3X+Pnm0D2cf2vPHbhOXdoNti1Ga0al1P4TBZhwjATvjNwLEBCnKvjJc2jQgHXH0NEwlAg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "android"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-darwin-arm64": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-RzeG9Ju5bag2Bv1/lwlVJvBE3q6TtXskdZLLCyfg5pt+HLz9BqlICO7LZM7VHNTTn/5PRhHFBSjk5lc4cmscPQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-darwin-x64": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-U+QsBp2m/s2wqpUYT/6wnlagdZbtZdndSmut/NJqlCcMLTWp5muCrID+K5UJ6jqD2BFshejCYXniPDbNh73V8w==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "darwin"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-freebsd-x64": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-JCTigedEksZk3tHTTthnMdVfGf61Fky8Ji2E4YjUTEQX14xiy/lTzXnu1vwiZe3bYe0q+SpsSH/CTeDXK6WHig==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "freebsd"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-linux-arm-gnueabihf": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-x6rnnpRa2GL0zQOkt6rts3YDPzduLpWvwAF6EMhXFVZXD4tPrBkEFqzGowzCsIWsPjqSK+tyNEODUBXeeVHSkw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-linux-arm64-gnu": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-0nnMyoyOLRJXfbMOilaSRcLH3Jw5z9HDNGfT/gwCPgaDjnx0i8w7vBzFLFR1f6CMLKF8gVbebmkUN3fa/kQJpQ==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-linux-arm64-musl": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-UpQkoenr4UJEzgVIYpI80lDFvRmPVg6oqboNHfoH4CQIfNA+HOrZ7Mo7KZP02dC6LjghPQJeBsvXhJod/wnIBg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-linux-x64-gnu": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-V7Qr52IhZmdKPVr+Vtw8o+WLsQJYCTd8loIfpDaMRWGUZfBOYEJeyJIkqGIDMZPwPx24pUMfwSxxI8phr/MbOA==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-linux-x64-musl": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "linux"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-win32-arm64-msvc": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-8SbC8BR40pS6baCM8sbtYDSwEVQd4JlFTOlaD3gWGHfThTcABnNDBda6eTZeqbofalIJhFx0qKzgHJmcPTnGdw==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "arm64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lightningcss-win32-x64-msvc": {[m
+[32m+[m[32m      "version": "1.32.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Amq9B/SoZYdDi1kFrojnoqPLxYhQ4Wo5XiL8EVJrVsB8ARoC1PWW6VGtT0WKCemjy8aC+louJnjS7U18x3b06Q==",[m
+[32m+[m[32m      "cpu": [[m
+[32m+[m[32m        "x64"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MPL-2.0",[m
+[32m+[m[32m      "optional": true,[m
+[32m+[m[32m      "os": [[m
+[32m+[m[32m        "win32"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">= 12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/parcel"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/lru-cache": {[m
+[32m+[m[32m      "version": "5.1.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "ISC",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "yallist": "^3.0.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/magic-string": {[m
+[32m+[m[32m      "version": "0.30.21",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz",[m
+[32m+[m[32m      "integrity": "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@jridgewell/sourcemap-codec": "^1.5.5"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/ms": {[m
+[32m+[m[32m      "version": "2.1.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/nanoid": {[m
+[32m+[m[32m      "version": "3.3.18",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz",[m
+[32m+[m[32m      "integrity": "sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "funding": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "github",[m
+[32m+[m[32m          "url": "https://github.com/sponsors/ai"[m
+[32m+[m[32m        }[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "nanoid": "bin/nanoid.cjs"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/node-releases": {[m
+[32m+[m[32m      "version": "2.0.54",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.54.tgz",[m
+[32m+[m[32m      "integrity": "sha512-YHs7BmmcsdAI5Ozuf8JZo6PT0mv2GIWC9vMfvUC3dp65M8hn7Ux8CPL+2oBI7juNuj9d0ndhTcznq2ODBps9cQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/picocolors": {[m
+[32m+[m[32m      "version": "1.1.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "ISC"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/picomatch": {[m
+[32m+[m[32m      "version": "4.0.7",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",[m
+[32m+[m[32m      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=12"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "url": "https://github.com/sponsors/jonschlinkert"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/postcss": {[m
+[32m+[m[32m      "version": "8.5.26",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.26.tgz",[m
+[32m+[m[32m      "integrity": "sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "funding": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "opencollective",[m
+[32m+[m[32m          "url": "https://opencollective.com/postcss/"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "tidelift",[m
+[32m+[m[32m          "url": "https://tidelift.com/funding/github/npm/postcss"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "github",[m
+[32m+[m[32m          "url": "https://github.com/sponsors/ai"[m
+[32m+[m[32m        }[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "nanoid": "^3.3.17",[m
+[32m+[m[32m        "picocolors": "^1.1.1",[m
+[32m+[m[32m        "source-map-js": "^1.2.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^10 || ^12 || >=14"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react": {[m
+[32m+[m[32m      "version": "19.2.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react/-/react-19.2.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=0.10.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react-dom": {[m
+[32m+[m[32m      "version": "19.2.8",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz",[m
+[32m+[m[32m      "integrity": "sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==",[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "scheduler": "^0.27.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "react": "^19.2.8"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/react-refresh": {[m
+[32m+[m[32m      "version": "0.18.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-refresh/-/react-refresh-0.18.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=0.10.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/rollup": {[m
+[32m+[m[32m      "version": "4.63.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/rollup/-/rollup-4.63.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-3Df9jsstwhccuEfmAMi9l8XUh/GOkVObmFTU7CCVBysEbcOZLl84jCtaAZMcPiMz2EGKsATzQcU+Xr3n/wU6cg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "@types/estree": "1.0.9"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "rollup": "dist/bin/rollup"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=18.0.0",[m
+[32m+[m[32m        "npm": ">=8.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "optionalDependencies": {[m
+[32m+[m[32m        "@napi-rs/lzma-linux-x64-gnu": "1.5.1",[m
+[32m+[m[32m        "@rollup/rollup-android-arm-eabi": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-android-arm64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-darwin-arm64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-darwin-x64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-freebsd-arm64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-freebsd-x64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-arm-gnueabihf": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-arm-musleabihf": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-arm64-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-arm64-musl": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-loong64-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-loong64-musl": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-ppc64-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-ppc64-musl": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-riscv64-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-riscv64-musl": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-s390x-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-x64-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-linux-x64-musl": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-openbsd-x64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-openharmony-arm64": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-win32-arm64-msvc": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-win32-ia32-msvc": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-win32-x64-gnu": "4.63.1",[m
+[32m+[m[32m        "@rollup/rollup-win32-x64-msvc": "4.63.1",[m
+[32m+[m[32m        "fsevents": "~2.3.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/scheduler": {[m
+[32m+[m[32m      "version": "0.27.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==",[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/semver": {[m
+[32m+[m[32m      "version": "6.3.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "ISC",[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "semver": "bin/semver.js"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/source-map-js": {[m
+[32m+[m[32m      "version": "1.2.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "BSD-3-Clause",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=0.10.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/tailwindcss": {[m
+[32m+[m[32m      "version": "4.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT"[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/tapable": {[m
+[32m+[m[32m      "version": "2.3.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=6"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "type": "opencollective",[m
+[32m+[m[32m        "url": "https://opencollective.com/webpack"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/tinyglobby": {[m
+[32m+[m[32m      "version": "0.2.17",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",[m
+[32m+[m[32m      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "fdir": "^6.5.0",[m
+[32m+[m[32m        "picomatch": "^4.0.4"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": ">=12.0.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "url": "https://github.com/sponsors/SuperchupuDev"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/update-browserslist-db": {[m
+[32m+[m[32m      "version": "1.3.2",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.2.tgz",[m
+[32m+[m[32m      "integrity": "sha512-UQ+MSxlhRm1bzjhU+DcuXfjFO1FzNtqhK5+9Yvlp90ItDLk5vT932A0rFu619nf7RVS+Y/VeaUW1jaRDqZ8VJw==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "funding": [[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "opencollective",[m
+[32m+[m[32m          "url": "https://opencollective.com/browserslist"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "tidelift",[m
+[32m+[m[32m          "url": "https://tidelift.com/funding/github/npm/browserslist"[m
+[32m+[m[32m        },[m
+[32m+[m[32m        {[m
+[32m+[m[32m          "type": "github",[m
+[32m+[m[32m          "url": "https://github.com/sponsors/ai"[m
+[32m+[m[32m        }[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "escalade": "^3.2.0",[m
+[32m+[m[32m        "picocolors": "^1.1.1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "update-browserslist-db": "cli.js"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "browserslist": ">= 4.21.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/vite": {[m
+[32m+[m[32m      "version": "7.3.6",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/vite/-/vite-7.3.6.tgz",[m
+[32m+[m[32m      "integrity": "sha512-4XP60spRGjSZFf1qYH+dJIkK2znL3zQfl9KkOV9MkkRR/3Dls0dxaBsQPTloEc5BLXWPL9vsOxopxyKoMmDueg==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "MIT",[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "esbuild": "^0.27.0 || ^0.28.0",[m
+[32m+[m[32m        "fdir": "^6.5.0",[m
+[32m+[m[32m        "picomatch": "^4.0.3",[m
+[32m+[m[32m        "postcss": "^8.5.6",[m
+[32m+[m[32m        "rollup": "^4.43.0",[m
+[32m+[m[32m        "tinyglobby": "^0.2.15"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "bin": {[m
+[32m+[m[32m        "vite": "bin/vite.js"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "engines": {[m
+[32m+[m[32m        "node": "^20.19.0 || >=22.12.0"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "funding": {[m
+[32m+[m[32m        "url": "https://github.com/vitejs/vite?sponsor=1"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "optionalDependencies": {[m
+[32m+[m[32m        "fsevents": "~2.3.3"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependencies": {[m
+[32m+[m[32m        "@types/node": "^20.19.0 || >=22.12.0",[m
+[32m+[m[32m        "jiti": ">=1.21.0",[m
+[32m+[m[32m        "less": "^4.0.0",[m
+[32m+[m[32m        "lightningcss": "^1.21.0",[m
+[32m+[m[32m        "sass": "^1.70.0",[m
+[32m+[m[32m        "sass-embedded": "^1.70.0",[m
+[32m+[m[32m        "stylus": ">=0.54.8",[m
+[32m+[m[32m        "sugarss": "^5.0.0",[m
+[32m+[m[32m        "terser": "^5.16.0",[m
+[32m+[m[32m        "tsx": "^4.8.1",[m
+[32m+[m[32m        "yaml": "^2.4.2"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "peerDependenciesMeta": {[m
+[32m+[m[32m        "@types/node": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "jiti": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "less": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "lightningcss": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "sass": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "sass-embedded": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "stylus": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "sugarss": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "terser": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "tsx": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        },[m
+[32m+[m[32m        "yaml": {[m
+[32m+[m[32m          "optional": true[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "node_modules/yallist": {[m
+[32m+[m[32m      "version": "3.1.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==",[m
+[32m+[m[32m      "dev": true,[m
+[32m+[m[32m      "license": "ISC"[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[1mdiff --git a/package.json b/package.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3ce28e7[m
+[1m--- /dev/null[m
+[1m+++ b/package.json[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "name": "taksimetre",[m
+[32m+[m[32m  "private": true,[m
+[32m+[m[32m  "version": "1.0.0",[m
+[32m+[m[32m  "type": "module",[m
+[32m+[m[32m  "scripts": {[m
+[32m+[m[32m    "dev": "vite",[m
+[32m+[m[32m    "build": "vite build",[m
+[32m+[m[32m    "preview": "vite preview"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "dependencies": {[m
+[32m+[m[32m    "react": "^19.1.1",[m
+[32m+[m[32m    "react-dom": "^19.1.1"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  "devDependencies": {[m
+[32m+[m[32m    "@tailwindcss/vite": "^4.1.13",[m
+[32m+[m[32m    "@vitejs/plugin-react": "^5.0.2",[m
+[32m+[m[32m    "tailwindcss": "^4.1.13",[m
+[32m+[m[32m    "vite": "^7.1.5"[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[1mdiff --git a/public/favicon.svg b/public/favicon.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6d8e65f[m
+[1m--- /dev/null[m
+[1m+++ b/public/favicon.svg[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">[m
+[32m+[m[32m  <rect width="32" height="32" rx="8" fill="#14151a"/>[m
+[32m+[m[32m  <path d="M7 20h18l-1.4-6.2A3 3 0 0 0 20.7 11H11.3a3 3 0 0 0-2.9 2.8L7 20Z" fill="#F5C400"/>[m
+[32m+[m[32m  <rect x="11" y="7" width="10" height="3.2" rx="1" fill="#F5C400"/>[m
+[32m+[m[32m  <circle cx="10.2" cy="22.4" r="2.1" fill="#ece8df"/>[m
+[32m+[m[32m  <circle cx="21.8" cy="22.4" r="2.1" fill="#ece8df"/>[m
+[32m+[m[32m</svg>[m
+[1mdiff --git a/src/App.jsx b/src/App.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bc755a8[m
+[1m--- /dev/null[m
+[1m+++ b/src/App.jsx[m
+[36m@@ -0,0 +1,90 @@[m
+[32m+[m[32mimport { useMemo, useState } from "react";[m
+[32m+[m[32mimport { CityPresets } from "./components/CityPresets.jsx";[m
+[32m+[m[32mimport { FareForm } from "./components/FareForm.jsx";[m
+[32m+[m[32mimport { FareResult } from "./components/FareResult.jsx";[m
+[32m+[m[32mimport { Header } from "./components/Header.jsx";[m
+[32m+[m[32mimport { useTheme } from "./hooks/useTheme.js";[m
+[32m+[m[32mimport { calculateFare } from "./lib/calculateFare.js";[m
+[32m+[m[32mimport {[m
+[32m+[m[32m  DEFAULT_CITY_ID,[m
+[32m+[m[32m  getCityTariff,[m
+[32m+[m[32m  tariffToFormValues,[m
+[32m+[m[32m} from "./lib/tariffs.js";[m
+[32m+[m
+[32m+[m[32mconst TRIP_FIELDS = new Set(["distanceKm", "waitingMinutes"]);[m
+[32m+[m
+[32m+[m[32mfunction createInitialValues() {[m
+[32m+[m[32m  return {[m
+[32m+[m[32m    distanceKm: "",[m
+[32m+[m[32m    waitingMinutes: "",[m
+[32m+[m[32m    ...tariffToFormValues(getCityTariff(DEFAULT_CITY_ID)),[m
+[32m+[m[32m  };[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport default function App() {[m
+[32m+[m[32m  const { theme, toggleTheme } = useTheme();[m
+[32m+[m[32m  const [cityId, setCityId] = useState(DEFAULT_CITY_ID);[m
+[32m+[m[32m  const [values, setValues] = useState(createInitialValues);[m
+[32m+[m
+[32m+[m[32m  const selectedCity = getCityTariff(cityId);[m
+[32m+[m[32m  const cityLabel = cityId === "custom" ? "Özel tarife" : selectedCity.name;[m
+[32m+[m
+[32m+[m[32m  const fare = useMemo([m
+[32m+[m[32m    () =>[m
+[32m+[m[32m      calculateFare({[m
+[32m+[m[32m        distanceKm: values.distanceKm,[m
+[32m+[m[32m        waitingMinutes: values.waitingMinutes,[m
+[32m+[m[32m        openingFee: values.openingFee,[m
+[32m+[m[32m        perKmFee: values.perKmFee,[m
+[32m+[m[32m        perMinuteFee: values.perMinuteFee,[m
+[32m+[m[32m        minimumFee: values.minimumFee,[m
+[32m+[m[32m      }),[m
+[32m+[m[32m    [values],[m
+[32m+[m[32m  );[m
+[32m+[m
+[32m+[m[32m  function handleFieldChange(field, value) {[m
+[32m+[m[32m    setValues((current) => ({ ...current, [field]: value }));[m
+[32m+[m
+[32m+[m[32m    if (!TRIP_FIELDS.has(field)) {[m
+[32m+[m[32m      setCityId("custom");[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  function handleCitySelect(nextCityId) {[m
+[32m+[m[32m    const tariff = getCityTariff(nextCityId);[m
+[32m+[m[32m    setCityId(nextCityId);[m
+[32m+[m[32m    setValues((current) => ({[m
+[32m+[m[32m      ...current,[m
+[32m+[m[32m      ...tariffToFormValues(tariff),[m
+[32m+[m[32m    }));[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <div className="relative min-h-dvh overflow-hidden">[m
+[32m+[m[32m      <div[m
+[32m+[m[32m        aria-hidden="true"[m
+[32m+[m[32m        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(245,196,0,0.18),transparent_32%),radial-gradient(circle_at_bottom_left,rgba(20,21,26,0.08),transparent_40%)] dark:bg-[radial-gradient(circle_at_top_right,rgba(245,196,0,0.12),transparent_36%),radial-gradient(circle_at_bottom_left,rgba(255,255,255,0.04),transparent_42%)]"[m
+[32m+[m[32m      />[m
+[32m+[m
+[32m+[m[32m      <main className="relative mx-auto flex min-h-dvh max-w-5xl flex-col gap-8 px-4 py-6 sm:px-6 sm:py-10 lg:py-14">[m
+[32m+[m[32m        <Header theme={theme} onToggleTheme={toggleTheme} />[m
+[32m+[m
+[32m+[m[32m        <div className="grid items-start gap-6 lg:grid-cols-[1.05fr_0.95fr]">[m
+[32m+[m[32m          <div className="order-2 space-y-6 rounded-3xl border border-stone-300/70 bg-card p-5 shadow-sm sm:p-6 dark:border-white/10 dark:bg-panel lg:order-1">[m
+[32m+[m[32m            <CityPresets selectedId={cityId} onSelect={handleCitySelect} />[m
+[32m+[m[32m            <FareForm values={values} onChange={handleFieldChange} />[m
+[32m+[m[32m            <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">[m
+[32m+[m[32m              {cityId === "custom"[m
+[32m+[m[32m                ? "Özel tarife kullanılıyor. Şehir butonlarından güncel tarifeye dönebilirsiniz."[m
+[32m+[m[32m                : `${selectedCity.note}. Resmi tarife değişebilir; değerleri dilediğiniz gibi düzenleyebilirsiniz.`}[m
+[32m+[m[32m            </p>[m
+[32m+[m[32m          </div>[m
+[32m+[m
+[32m+[m[32m          <div className="order-1 lg:sticky lg:top-8 lg:order-2">[m
+[32m+[m[32m            <FareResult fare={fare} cityLabel={cityLabel} />[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </main>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/components/CityPresets.jsx b/src/components/CityPresets.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1558dba[m
+[1m--- /dev/null[m
+[1m+++ b/src/components/CityPresets.jsx[m
+[36m@@ -0,0 +1,40 @@[m
+[32m+[m[32mimport { CITY_TARIFFS } from "../lib/tariffs.js";[m
+[32m+[m
+[32m+[m[32mexport function CityPresets({ selectedId, onSelect }) {[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <section aria-labelledby="city-presets-title">[m
+[32m+[m[32m      <div className="mb-3 flex items-end justify-between gap-3">[m
+[32m+[m[32m        <h2 id="city-presets-title" className="text-sm font-semibold">[m
+[32m+[m[32m          Şehir tarifesi[m
+[32m+[m[32m        </h2>[m
+[32m+[m[32m        <p className="text-xs text-stone-500 dark:text-stone-400">[m
+[32m+[m[32m          2026 güncel sarı taksi[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m      </div>[m
+[32m+[m
+[32m+[m[32m      <div className="grid grid-cols-3 gap-2">[m
+[32m+[m[32m        {CITY_TARIFFS.map((city) => {[m
+[32m+[m[32m          const isActive = selectedId === city.id;[m
+[32m+[m
+[32m+[m[32m          return ([m
+[32m+[m[32m            <button[m
+[32m+[m[32m              key={city.id}[m
+[32m+[m[32m              type="button"[m
+[32m+[m[32m              onClick={() => onSelect(city.id)}[m
+[32m+[m[32m              className={`rounded-2xl border px-3 py-3 text-left transition ${[m
+[32m+[m[32m                isActive[m
+[32m+[m[32m                  ? "border-taxi bg-taxi text-ink shadow-sm"[m
+[32m+[m[32m                  : "border-stone-300/80 bg-white hover:border-taxi/70 dark:border-white/10 dark:bg-white/5 dark:hover:border-taxi/50"[m
+[32m+[m[32m              }`}[m
+[32m+[m[32m            >[m
+[32m+[m[32m              <span className="block text-[11px] font-semibold tracking-wider opacity-70">[m
+[32m+[m[32m                {city.shortName}[m
+[32m+[m[32m              </span>[m
+[32m+[m[32m              <span className="mt-0.5 block text-sm font-semibold">{city.name}</span>[m
+[32m+[m[32m            </button>[m
+[32m+[m[32m          );[m
+[32m+[m[32m        })}[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/components/FareForm.jsx b/src/components/FareForm.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7c20d4b[m
+[1m--- /dev/null[m
+[1m+++ b/src/components/FareForm.jsx[m
+[36m@@ -0,0 +1,55 @@[m
+[32m+[m[32mimport { NumberField } from "./NumberField.jsx";[m
+[32m+[m
+[32m+[m[32mexport function FareForm({ values, onChange }) {[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <form[m
+[32m+[m[32m      className="grid gap-4 sm:grid-cols-2"[m
+[32m+[m[32m      onSubmit={(event) => event.preventDefault()}[m
+[32m+[m[32m    >[m
+[32m+[m[32m      <NumberField[m
+[32m+[m[32m        id="distanceKm"[m
+[32m+[m[32m        label="Gidilen mesafe"[m
+[32m+[m[32m        suffix="km"[m
+[32m+[m[32m        value={values.distanceKm}[m
+[32m+[m[32m        onChange={(value) => onChange("distanceKm", value)}[m
+[32m+[m[32m      />[m
+[32m+[m[32m      <NumberField[m
+[32m+[m[32m        id="waitingMinutes"[m
+[32m+[m[32m        label="Bekleme süresi"[m
+[32m+[m[32m        suffix="dk"[m
+[32m+[m[32m        value={values.waitingMinutes}[m
+[32m+[m[32m        onChange={(value) => onChange("waitingMinutes", value)}[m
+[32m+[m[32m      />[m
+[32m+[m[32m      <NumberField[m
+[32m+[m[32m        id="openingFee"[m
+[32m+[m[32m        label="Açılış ücreti"[m
+[32m+[m[32m        suffix="₺"[m
+[32m+[m[32m        value={values.openingFee}[m
+[32m+[m[32m        onChange={(value) => onChange("openingFee", value)}[m
+[32m+[m[32m      />[m
+[32m+[m[32m      <NumberField[m
+[32m+[m[32m        id="perKmFee"[m
+[32m+[m[32m        label="Kilometre başına ücret"[m
+[32m+[m[32m        suffix="₺"[m
+[32m+[m[32m        value={values.perKmFee}[m
+[32m+[m[32m        onChange={(value) => onChange("perKmFee", value)}[m
+[32m+[m[32m      />[m
+[32m+[m[32m      <NumberField[m
+[32m+[m[32m        id="perMinuteFee"[m
+[32m+[m[32m        label="Dakika başına ücret"[m
+[32m+[m[32m        hint="Bekleme / zaman tarifesi"[m
+[32m+[m[32m        suffix="₺"[m
+[32m+[m[32m        value={values.perMinuteFee}[m
+[32m+[m[32m        onChange={(value) => onChange("perMinuteFee", value)}[m
+[32m+[m[32m      />[m
+[32m+[m[32m      <NumberField[m
+[32m+[m[32m        id="minimumFee"[m
+[32m+[m[32m        label="Minimum (indi-bindi)"[m
+[32m+[m[32m        hint="Ara toplam bunun altındaysa bu tutar alınır"[m
+[32m+[m[32m        suffix="₺"[m
+[32m+[m[32m        value={values.minimumFee}[m
+[32m+[m[32m        onChange={(value) => onChange("minimumFee", value)}[m
+[32m+[m[32m      />[m
+[32m+[m[32m    </form>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/components/FareResult.jsx b/src/components/FareResult.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a565467[m
+[1m--- /dev/null[m
+[1m+++ b/src/components/FareResult.jsx[m
+[36m@@ -0,0 +1,54 @@[m
+[32m+[m[32mimport { useAnimatedNumber } from "../hooks/useAnimatedNumber.js";[m
+[32m+[m[32mimport { formatDecimal, formatLira } from "../lib/formatCurrency.js";[m
+[32m+[m
+[32m+[m[32mexport function FareResult({ fare, cityLabel }) {[m
+[32m+[m[32m  const animatedTotal = useAnimatedNumber(fare.total);[m
+[32m+[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <section[m
+[32m+[m[32m      aria-live="polite"[m
+[32m+[m[32m      className="overflow-hidden rounded-3xl border border-white/10 bg-meter text-stone-100 shadow-[0_20px_50px_-24px_rgba(0,0,0,0.65)]"[m
+[32m+[m[32m    >[m
+[32m+[m[32m      <div className="flex items-center justify-between border-b border-white/10 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-taxi">[m
+[32m+[m[32m        <span>Taksimetre</span>[m
+[32m+[m[32m        <span className="truncate pl-3 text-stone-400">{cityLabel}</span>[m
+[32m+[m[32m      </div>[m
+[32m+[m
+[32m+[m[32m      <div className="px-5 py-6">[m
+[32m+[m[32m        <p className="text-xs font-medium uppercase tracking-widest text-stone-400">[m
+[32m+[m[32m          {fare.appliedMinimum ? "İndi-bindi uygulandı" : "Hesaplanan tutar"}[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m        <p className="mt-2 font-mono text-4xl font-semibold tabular-nums tracking-tight text-taxi sm:text-5xl">[m
+[32m+[m[32m          {formatLira(animatedTotal)}[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m      </div>[m
+[32m+[m
+[32m+[m[32m      <ul className="divide-y divide-white/10 border-t border-white/10 bg-black/25 text-sm">[m
+[32m+[m[32m        <BreakdownRow label="Açılış" amount={fare.openingFee} />[m
+[32m+[m[32m        <BreakdownRow label="Mesafe" amount={fare.distanceCost} />[m
+[32m+[m[32m        <BreakdownRow label="Bekleme" amount={fare.waitingCost} />[m
+[32m+[m[32m        <BreakdownRow label="Ara toplam" amount={fare.subtotal} emphasized />[m
+[32m+[m[32m        {fare.appliedMinimum ? ([m
+[32m+[m[32m          <BreakdownRow[m
+[32m+[m[32m            label="Taban (indi-bindi)"[m
+[32m+[m[32m            amount={fare.minimumFee}[m
+[32m+[m[32m            emphasized[m
+[32m+[m[32m          />[m
+[32m+[m[32m        ) : null}[m
+[32m+[m[32m      </ul>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfunction BreakdownRow({ label, amount, emphasized = false }) {[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <li[m
+[32m+[m[32m      className={`flex items-center justify-between px-5 py-2.5 ${[m
+[32m+[m[32m        emphasized ? "font-medium text-stone-100" : "text-stone-300"[m
+[32m+[m[32m      }`}[m
+[32m+[m[32m    >[m
+[32m+[m[32m      <span>{label}</span>[m
+[32m+[m[32m      <span className="font-mono tabular-nums">{formatDecimal(amount)} ₺</span>[m
+[32m+[m[32m    </li>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/components/Header.jsx b/src/components/Header.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0877522[m
+[1m--- /dev/null[m
+[1m+++ b/src/components/Header.jsx[m
+[36m@@ -0,0 +1,30 @@[m
+[32m+[m[32mimport { ThemeToggle } from "./ThemeToggle.jsx";[m
+[32m+[m
+[32m+[m[32mexport function Header({ theme, onToggleTheme }) {[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <header className="flex items-center justify-between gap-4">[m
+[32m+[m[32m      <div className="flex items-center gap-3">[m
+[32m+[m[32m        <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-ink text-taxi shadow-sm dark:bg-taxi dark:text-ink">[m
+[32m+[m[32m          <svg viewBox="0 0 32 32" className="h-6 w-6" fill="none" aria-hidden="true">[m
+[32m+[m[32m            <path[m
+[32m+[m[32m              d="M6 20h20l-1.5-6.5A3 3 0 0 0 21.6 11H10.4a3 3 0 0 0-2.9 2.5L6 20Z"[m
+[32m+[m[32m              fill="currentColor"[m
+[32m+[m[32m            />[m
+[32m+[m[32m            <rect x="11" y="7" width="10" height="3" rx="1" fill="currentColor" />[m
+[32m+[m[32m            <circle cx="10.5" cy="22.5" r="2" fill="currentColor" opacity="0.55" />[m
+[32m+[m[32m            <circle cx="21.5" cy="22.5" r="2" fill="currentColor" opacity="0.55" />[m
+[32m+[m[32m          </svg>[m
+[32m+[m[32m        </span>[m
+[32m+[m[32m        <div>[m
+[32m+[m[32m          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-taxi-dim dark:text-taxi">[m
+[32m+[m[32m            Anlık hesap[m
+[32m+[m[32m          </p>[m
+[32m+[m[32m          <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">[m
+[32m+[m[32m            Taksimetre[m
+[32m+[m[32m          </h1>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <ThemeToggle theme={theme} onToggle={onToggleTheme} />[m
+[32m+[m[32m    </header>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/components/NumberField.jsx b/src/components/NumberField.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d9c598b[m
+[1m--- /dev/null[m
+[1m+++ b/src/components/NumberField.jsx[m
+[36m@@ -0,0 +1,38 @@[m
+[32m+[m[32mexport function NumberField({[m
+[32m+[m[32m  id,[m
+[32m+[m[32m  label,[m
+[32m+[m[32m  hint,[m
+[32m+[m[32m  suffix,[m
+[32m+[m[32m  value,[m
+[32m+[m[32m  onChange,[m
+[32m+[m[32m  placeholder = "0",[m
+[32m+[m[32m}) {[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <label htmlFor={id} className="block">[m
+[32m+[m[32m      <span className="text-sm font-medium text-ink/80 dark:text-stone-200">[m
+[32m+[m[32m        {label}[m
+[32m+[m[32m      </span>[m
+[32m+[m[32m      <div className="relative mt-1.5">[m
+[32m+[m[32m        <input[m
+[32m+[m[32m          id={id}[m
+[32m+[m[32m          inputMode="decimal"[m
+[32m+[m[32m          autoComplete="off"[m
+[32m+[m[32m          placeholder={placeholder}[m
+[32m+[m[32m          value={value}[m
+[32m+[m[32m          onChange={(event) => onChange(event.target.value)}[m
+[32m+[m[32m          className="w-full rounded-xl border border-stone-300/80 bg-white px-3.5 py-2.5 pr-12 text-base text-ink shadow-sm outline-none transition placeholder:text-stone-400 focus:border-taxi focus:ring-2 focus:ring-taxi/30 dark:border-white/10 dark:bg-white/5 dark:text-stone-100 dark:placeholder:text-stone-500"[m
+[32m+[m[32m        />[m
+[32m+[m[32m        {suffix ? ([m
+[32m+[m[32m          <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center text-xs font-medium tracking-wide text-stone-500 dark:text-stone-400">[m
+[32m+[m[32m            {suffix}[m
+[32m+[m[32m          </span>[m
+[32m+[m[32m        ) : null}[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      {hint ? ([m
+[32m+[m[32m        <span className="mt-1 block text-xs text-stone-500 dark:text-stone-400">[m
+[32m+[m[32m          {hint}[m
+[32m+[m[32m        </span>[m
+[32m+[m[32m      ) : null}[m
+[32m+[m[32m    </label>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/components/ThemeToggle.jsx b/src/components/ThemeToggle.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6646065[m
+[1m--- /dev/null[m
+[1m+++ b/src/components/ThemeToggle.jsx[m
+[36m@@ -0,0 +1,33 @@[m
+[32m+[m[32mexport function ThemeToggle({ theme, onToggle }) {[m
+[32m+[m[32m  const isDark = theme === "dark";[m
+[32m+[m
+[32m+[m[32m  return ([m
+[32m+[m[32m    <button[m
+[32m+[m[32m      type="button"[m
+[32m+[m[32m      onClick={onToggle}[m
+[32m+[m[32m      aria-label={isDark ? "Aydınlık temaya geç" : "Karanlık temaya geç"}[m
+[32m+[m[32m      className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-stone-300/80 bg-white text-ink transition hover:border-taxi hover:bg-taxi/20 dark:border-white/10 dark:bg-white/5 dark:text-stone-100 dark:hover:bg-taxi/15"[m
+[32m+[m[32m    >[m
+[32m+[m[32m      {isDark ? ([m
+[32m+[m[32m        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden="true">[m
+[32m+[m[32m          <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.8" />[m
+[32m+[m[32m          <path[m
+[32m+[m[32m            d="M12 3v1.6M12 19.4V21M4.9 4.9l1.1 1.1M18 18l1.1 1.1M3 12h1.6M19.4 12H21M4.9 19.1 6 18M18 6l1.1-1.1"[m
+[32m+[m[32m            stroke="currentColor"[m
+[32m+[m[32m            strokeWidth="1.8"[m
+[32m+[m[32m            strokeLinecap="round"[m
+[32m+[m[32m          />[m
+[32m+[m[32m        </svg>[m
+[32m+[m[32m      ) : ([m
+[32m+[m[32m        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden="true">[m
+[32m+[m[32m          <path[m
+[32m+[m[32m            d="M16.5 13.2A6.2 6.2 0 0 1 10.8 7.5 6.4 6.4 0 1 0 16.5 13.2Z"[m
+[32m+[m[32m            stroke="currentColor"[m
+[32m+[m[32m            strokeWidth="1.8"[m
+[32m+[m[32m            strokeLinejoin="round"[m
+[32m+[m[32m          />[m
+[32m+[m[32m        </svg>[m
+[32m+[m[32m      )}[m
+[32m+[m[32m    </button>[m
+[32m+[m[32m  );[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/hooks/useAnimatedNumber.js b/src/hooks/useAnimatedNumber.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4413ee7[m
+[1m--- /dev/null[m
+[1m+++ b/src/hooks/useAnimatedNumber.js[m
+[36m@@ -0,0 +1,39 @@[m
+[32m+[m[32mimport { useEffect, useRef, useState } from "react";[m
+[32m+[m
+[32m+[m[32m/** Hedef tutara ease-out ile yumuşak geçiş yapar. */[m
+[32m+[m[32mexport function useAnimatedNumber(target, durationMs = 420) {[m
+[32m+[m[32m  const [displayValue, setDisplayValue] = useState(target);[m
+[32m+[m[32m  const displayRef = useRef(target);[m
+[32m+[m
+[32m+[m[32m  useEffect(() => {[m
+[32m+[m[32m    const from = displayRef.current;[m
+[32m+[m[32m    const delta = target - from;[m
+[32m+[m
+[32m+[m[32m    if (Math.abs(delta) < 0.005) {[m
+[32m+[m[32m      displayRef.current = target;[m
+[32m+[m[32m      setDisplayValue(target);[m
+[32m+[m[32m      return undefined;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    const startedAt = performance.now();[m
+[32m+[m[32m    let frameId;[m
+[32m+[m
+[32m+[m[32m    const tick = (now) => {[m
+[32m+[m[32m      const progress = Math.min(1, (now - startedAt) / durationMs);[m
+[32m+[m[32m      const eased = 1 - (1 - progress) ** 3;[m
+[32m+[m[32m      const next = from + delta * eased;[m
+[32m+[m
+[32m+[m[32m      displayRef.current = next;[m
+[32m+[m[32m      setDisplayValue(next);[m
+[32m+[m
+[32m+[m[32m      if (progress < 1) {[m
+[32m+[m[32m        frameId = requestAnimationFrame(tick);[m
+[32m+[m[32m      }[m
+[32m+[m[32m    };[m
+[32m+[m
+[32m+[m[32m    frameId = requestAnimationFrame(tick);[m
+[32m+[m[32m    return () => cancelAnimationFrame(frameId);[m
+[32m+[m[32m  }, [target, durationMs]);[m
+[32m+[m
+[32m+[m[32m  return displayValue;[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/hooks/useTheme.js b/src/hooks/useTheme.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b877e7c[m
+[1m--- /dev/null[m
+[1m+++ b/src/hooks/useTheme.js[m
+[36m@@ -0,0 +1,36 @@[m
+[32m+[m[32mimport { useEffect, useState } from "react";[m
+[32m+[m
+[32m+[m[32mconst STORAGE_KEY = "taksimetre-theme";[m
+[32m+[m
+[32m+[m[32mfunction getPreferredTheme() {[m
+[32m+[m[32m  const stored = localStorage.getItem(STORAGE_KEY);[m
+[32m+[m[32m  if (stored === "light" || stored === "dark") return stored;[m
+[32m+[m
+[32m+[m[32m  return window.matchMedia("(prefers-color-scheme: dark)").matches[m
+[32m+[m[32m    ? "dark"[m
+[32m+[m[32m    : "light";[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfunction applyTheme(theme) {[m
+[32m+[m[32m  document.documentElement.classList.toggle("dark", theme === "dark");[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport function useTheme() {[m
+[32m+[m[32m  const [theme, setTheme] = useState(() => {[m
+[32m+[m[32m    if (typeof window === "undefined") return "light";[m
+[32m+[m[32m    const initial = getPreferredTheme();[m
+[32m+[m[32m    applyTheme(initial);[m
+[32m+[m[32m    return initial;[m
+[32m+[m[32m  });[m
+[32m+[m
+[32m+[m[32m  useEffect(() => {[m
+[32m+[m[32m    applyTheme(theme);[m
+[32m+[m[32m    localStorage.setItem(STORAGE_KEY, theme);[m
+[32m+[m[32m  }, [theme]);[m
+[32m+[m
+[32m+[m[32m  function toggleTheme() {[m
+[32m+[m[32m    setTheme((current) => (current === "dark" ? "light" : "dark"));[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  return { theme, toggleTheme };[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/index.css b/src/index.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3d84ab9[m
+[1m--- /dev/null[m
+[1m+++ b/src/index.css[m
+[36m@@ -0,0 +1,42 @@[m
+[32m+[m[32m@import "tailwindcss";[m
+[32m+[m
+[32m+[m[32m@custom-variant dark (&:where(.dark, .dark *));[m
+[32m+[m
+[32m+[m[32m@theme {[m
+[32m+[m[32m  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;[m
+[32m+[m[32m  --font-mono: "IBM Plex Mono", ui-monospace, monospace;[m
+[32m+[m[32m  --color-taxi: #f5c400;[m
+[32m+[m[32m  --color-taxi-dim: #c9a000;[m
+[32m+[m[32m  --color-ink: #14151a;[m
+[32m+[m[32m  --color-paper: #f4efe6;[m
+[32m+[m[32m  --color-card: #fffdf8;[m
+[32m+[m[32m  --color-night: #0c0d11;[m
+[32m+[m[32m  --color-panel: #15171e;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mhtml,[m
+[32m+[m[32mbody,[m
+[32m+[m[32m#root {[m
+[32m+[m[32m  min-height: 100%;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mbody {[m
+[32m+[m[32m  font-family: var(--font-sans);[m
+[32m+[m[32m  background-color: var(--color-paper);[m
+[32m+[m[32m  color: var(--color-ink);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mhtml.dark body {[m
+[32m+[m[32m  background-color: var(--color-night);[m
+[32m+[m[32m  color: #ece8df;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m::selection {[m
+[32m+[m[32m  background: color-mix(in srgb, var(--color-taxi) 55%, transparent);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32minput[type="text"]::-webkit-outer-spin-button,[m
+[32m+[m[32minput[type="text"]::-webkit-inner-spin-button {[m
+[32m+[m[32m  appearance: none;[m
+[32m+[m[32m  margin: 0;[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/lib/calculateFare.js b/src/lib/calculateFare.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..da2bcb1[m
+[1m--- /dev/null[m
+[1m+++ b/src/lib/calculateFare.js[m
+[36m@@ -0,0 +1,52 @@[m
+[32m+[m[32m/**[m
+[32m+[m[32m * Taksimetre ücret hesabı.[m
+[32m+[m[32m *[m
+[32m+[m[32m * Temel formül:[m
+[32m+[m[32m *   araToplam = açılış + (mesafeKm × kmBaşıÜcret) + (beklemeDk × dakikaBaşıÜcret)[m
+[32m+[m[32m *[m
+[32m+[m[32m * Taban ücret kuralı:[m
+[32m+[m[32m *   Hesaplanan ara toplam, girilen minimum (indi-bindi) ücretten küçükse[m
+[32m+[m[32m *   yolcuya yansıtılan nihai tutar indi-bindi ücretidir.[m
+[32m+[m[32m */[m
+[32m+[m[32mexport function calculateFare({[m
+[32m+[m[32m  distanceKm,[m
+[32m+[m[32m  waitingMinutes,[m
+[32m+[m[32m  openingFee,[m
+[32m+[m[32m  perKmFee,[m
+[32m+[m[32m  perMinuteFee,[m
+[32m+[m[32m  minimumFee,[m
+[32m+[m[32m}) {[m
+[32m+[m[32m  const distance = toNonNegativeNumber(distanceKm);[m
+[32m+[m[32m  const waiting = toNonNegativeNumber(waitingMinutes);[m
+[32m+[m[32m  const opening = toNonNegativeNumber(openingFee);[m
+[32m+[m[32m  const kmRate = toNonNegativeNumber(perKmFee);[m
+[32m+[m[32m  const minuteRate = toNonNegativeNumber(perMinuteFee);[m
+[32m+[m[32m  const minimum = toNonNegativeNumber(minimumFee);[m
+[32m+[m
+[32m+[m[32m  const distanceCost = distance * kmRate;[m
+[32m+[m[32m  const waitingCost = waiting * minuteRate;[m
+[32m+[m[32m  const subtotal = opening + distanceCost + waitingCost;[m
+[32m+[m[32m  const appliedMinimum = subtotal < minimum;[m
+[32m+[m[32m  const total = appliedMinimum ? minimum : subtotal;[m
+[32m+[m
+[32m+[m[32m  return {[m
+[32m+[m[32m    openingFee: opening,[m
+[32m+[m[32m    distanceCost,[m
+[32m+[m[32m    waitingCost,[m
+[32m+[m[32m    subtotal,[m
+[32m+[m[32m    minimumFee: minimum,[m
+[32m+[m[32m    appliedMinimum,[m
+[32m+[m[32m    total,[m
+[32m+[m[32m  };[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/** Boş, negatif veya geçersiz girdileri 0 kabul eder. */[m
+[32m+[m[32mexport function toNonNegativeNumber(value) {[m
+[32m+[m[32m  if (value === "" || value == null) return 0;[m
+[32m+[m
+[32m+[m[32m  const normalized = String(value).trim().replace(",", ".");[m
+[32m+[m[32m  const parsed = Number(normalized);[m
+[32m+[m
+[32m+[m[32m  if (!Number.isFinite(parsed) || parsed < 0) return 0;[m
+[32m+[m[32m  return parsed;[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/lib/formatCurrency.js b/src/lib/formatCurrency.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..27e2135[m
+[1m--- /dev/null[m
+[1m+++ b/src/lib/formatCurrency.js[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m[32mconst trLira = new Intl.NumberFormat("tr-TR", {[m
+[32m+[m[32m  style: "currency",[m
+[32m+[m[32m  currency: "TRY",[m
+[32m+[m[32m  minimumFractionDigits: 2,[m
+[32m+[m[32m  maximumFractionDigits: 2,[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m[32mconst trDecimal = new Intl.NumberFormat("tr-TR", {[m
+[32m+[m[32m  minimumFractionDigits: 2,[m
+[32m+[m[32m  maximumFractionDigits: 2,[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m[32mexport function formatLira(amount) {[m
+[32m+[m[32m  return trLira.format(Number.isFinite(amount) ? amount : 0);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport function formatDecimal(amount) {[m
+[32m+[m[32m  return trDecimal.format(Number.isFinite(amount) ? amount : 0);[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/lib/tariffs.js b/src/lib/tariffs.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a3c2351[m
+[1m--- /dev/null[m
+[1m+++ b/src/lib/tariffs.js[m
+[36m@@ -0,0 +1,53 @@[m
+[32m+[m[32m/**[m
+[32m+[m[32m * Büyükşehir sarı taksi tarifeleri (2026 belediye / oda duyuruları).[m
+[32m+[m[32m *[m
+[32m+[m[32m * Dakika başı bekleme ücreti, duyurulan saatlik bedelin 60'a bölümüdür.[m
+[32m+[m[32m * Resmi tarife değişebileceği için değerler formda düzenlenebilir bırakılmıştır.[m
+[32m+[m[32m */[m
+[32m+[m[32mexport const CITY_TARIFFS = [[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: "istanbul",[m
+[32m+[m[32m    name: "İstanbul",[m
+[32m+[m[32m    shortName: "İST",[m
+[32m+[m[32m    note: "İBB, 20 Temmuz 2026 · sarı taksi",[m
+[32m+[m[32m    openingFee: 71.94,[m
+[32m+[m[32m    perKmFee: 47.92,[m
+[32m+[m[32m    perMinuteFee: Number((598.9 / 60).toFixed(2)),[m
+[32m+[m[32m    minimumFee: 230,[m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: "ankara",[m
+[32m+[m[32m    name: "Ankara",[m
+[32m+[m[32m    shortName: "ANK",[m
+[32m+[m[32m    note: "ABB, 1 Mart 2026",[m
+[32m+[m[32m    openingFee: 65,[m
+[32m+[m[32m    perKmFee: 40,[m
+[32m+[m[32m    perMinuteFee: 7,[m
+[32m+[m[32m    minimumFee: 200,[m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: "izmir",[m
+[32m+[m[32m    name: "İzmir",[m
+[32m+[m[32m    shortName: "İZM",[m
+[32m+[m[32m    note: "İzBB, 1 Mayıs 2026",[m
+[32m+[m[32m    openingFee: 40,[m
+[32m+[m[32m    perKmFee: 54,[m
+[32m+[m[32m    perMinuteFee: 4,[m
+[32m+[m[32m    minimumFee: 210,[m
+[32m+[m[32m  },[m
+[32m+[m[32m];[m
+[32m+[m
+[32m+[m[32mexport const DEFAULT_CITY_ID = "istanbul";[m
+[32m+[m
+[32m+[m[32mexport function getCityTariff(cityId) {[m
+[32m+[m[32m  return CITY_TARIFFS.find((city) => city.id === cityId) ?? CITY_TARIFFS[0];[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport function tariffToFormValues(tariff) {[m
+[32m+[m[32m  return {[m
+[32m+[m[32m    openingFee: String(tariff.openingFee),[m
+[32m+[m[32m    perKmFee: String(tariff.perKmFee),[m
+[32m+[m[32m    perMinuteFee: String(tariff.perMinuteFee),[m
+[32m+[m[32m    minimumFee: String(tariff.minimumFee),[m
+[32m+[m[32m  };[m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main.jsx b/src/main.jsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e51b9ef[m
+[1m--- /dev/null[m
+[1m+++ b/src/main.jsx[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32mimport { StrictMode } from "react";[m
+[32m+[m[32mimport { createRoot } from "react-dom/client";[m
+[32m+[m[32mimport App from "./App.jsx";[m
+[32m+[m[32mimport "./index.css";[m
+[32m+[m
+[32m+[m[32mcreateRoot(document.getElementById("root")).render([m
+[32m+[m[32m  <StrictMode>[m
+[32m+[m[32m    <App />[m
+[32m+[m[32m  </StrictMode>,[m
+[32m+[m[32m);[m
+[1mdiff --git a/taksimetre/out/production/taksimetre/Main.class b/taksimetre/out/production/taksimetre/Main.class[m
+[1mdeleted file mode 100644[m
+[1mindex 65756da..0000000[m
+Binary files a/taksimetre/out/production/taksimetre/Main.class and /dev/null differ
+[1mdiff --git a/taksimetre/src/Main.java b/taksimetre/src/Main.java[m
+[1mdeleted file mode 100644[m
+[1mindex e4392a1..0000000[m
+[1m--- a/taksimetre/src/Main.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,24 +0,0 @@[m
+[31m-import java.util.Scanner;[m
+[31m-[m
+[31m-public class Main {[m
+[31m-    public static void main(String[] args) {[m
+[31m-[m
+[31m-        System.out.println("TAKSİMETRE PROGRAMI");[m
+[31m-        System.out.println("Taksimetre KM başına 2.20 TL tutmaktadır.\n" +[m
+[31m-                "Minimum ödenecek tutar 20 TL'dir. 20 TL altında ki ücretlerde yine 20 TL alınacaktır.\n" +[m
+[31m-                "Taksimetre açılış ücreti 10 TL'dir.");[m
+[31m-        Scanner data = new Scanner(System.in);[m
+[31m-        System.out.print("Gidilen yolu km cinsinden yazınız : ");[m
+[31m-        int km  = data.nextInt();[m
+[31m-        if ((km*2.20+10)<= 20){[m
+[31m-            System.out.println("Öednecek tutar 20 TL'dir.");[m
+[31m-[m
+[31m-        }[m
+[31m-        else{[m
+[31m-            System.out.println("Ödenecek tutar "+(km*2.20+10)+" TL'dir.");[m
+[31m-        }[m
+[31m-        data.close();[m
+[31m-[m
+[31m-[m
+[31m-    }[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/taksimetre/taksimetre.iml b/taksimetre/taksimetre.iml[m
+[1mdeleted file mode 100644[m
+[1mindex 9465dd8..0000000[m
+[1m--- a/taksimetre/taksimetre.iml[m
+[1m+++ /dev/null[m
+[36m@@ -1,11 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<module type="JAVA_MODULE" version="4">[m
+[31m-  <component name="NewModuleRootManager" inherit-compiler-output="true">[m
+[31m-    <exclude-output />[m
+[31m-    <content url="file://$MODULE_DIR$">[m
+[31m-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />[m
+[31m-    </content>[m
+[31m-    <orderEntry type="inheritedJdk" />[m
+[31m-    <orderEntry type="sourceFolder" forTests="false" />[m
+[31m-  </component>[m
+[31m-</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/vite.config.js b/vite.config.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0ce1839[m
+[1m--- /dev/null[m
+[1m+++ b/vite.config.js[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32mimport { defineConfig } from "vite";[m
+[32m+[m[32mimport react from "@vitejs/plugin-react";[m
+[32m+[m[32mimport tailwindcss from "@tailwindcss/vite";[m
+[32m+[m
+[32m+[m[32mexport default defineConfig({[m
+[32m+[m[32m  plugins: [react(), tailwindcss()],[m
+[32m+[m[32m});[m
