@@ -18,7 +18,11 @@ export function FareResult({ fare, cityLabel, compact = false }) {
 
           <div className="px-5 py-6">
             <p className="text-xs font-medium uppercase tracking-widest text-stone-400">
-              {fare.appliedMinimum ? "İndi-bindi uygulandı" : "Hesaplanan tutar"}
+              {fare.appliedMinimum
+                ? "İndi-bindi uygulandı"
+                : fare.roundTrip
+                  ? "Gidiş-dönüş tahmini"
+                  : "Hesaplanan tutar"}
             </p>
             <p className="mt-2 font-mono text-4xl font-semibold tabular-nums tracking-tight text-taxi sm:text-5xl">
               {formatLira(animatedTotal)}
@@ -46,6 +50,16 @@ export function FareResult({ fare, cityLabel, compact = false }) {
             amount={fare.minimumFee}
             emphasized
           />
+        ) : null}
+        {fare.roundTrip ? (
+          <BreakdownRow
+            label="Gidiş-dönüş (×2)"
+            amount={fare.tripTotal}
+            emphasized
+          />
+        ) : null}
+        {fare.tolls > 0 ? (
+          <BreakdownRow label="Geçişler" amount={fare.tolls} />
         ) : null}
       </ul>
     </section>

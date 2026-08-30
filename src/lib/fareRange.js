@@ -15,10 +15,14 @@ export function buildFareRange({
   perKmFee,
   perMinuteFee,
   minimumFee,
+  tolls = 0,
+  roundTrip = false,
 }) {
   const distance = toNonNegativeNumber(distanceKm);
   const waiting = toNonNegativeNumber(waitingMinutes);
   const durationMinutes = toNonNegativeNumber(durationSeconds) / 60;
+  const tollAmount = toNonNegativeNumber(tolls);
+  const legs = roundTrip ? 2 : 1;
 
   const base = {
     openingFee,
@@ -38,23 +42,32 @@ export function buildFareRange({
           ? Math.max(2, distance * 0.4)
           : 0;
 
-  const minFare = calculateFare({
-    ...base,
-    distanceKm: distance,
-    waitingMinutes: 0,
-  }).total;
+  const minFare =
+    calculateFare({
+      ...base,
+      distanceKm: distance,
+      waitingMinutes: 0,
+    }).total *
+      legs +
+    tollAmount;
 
-  const avgFare = calculateFare({
-    ...base,
-    distanceKm: distance,
-    waitingMinutes: avgWaiting,
-  }).total;
+  const avgFare =
+    calculateFare({
+      ...base,
+      distanceKm: distance,
+      waitingMinutes: avgWaiting,
+    }).total *
+      legs +
+    tollAmount;
 
-  const maxFare = calculateFare({
-    ...base,
-    distanceKm: distance * 1.15,
-    waitingMinutes: maxWaiting,
-  }).total;
+  const maxFare =
+    calculateFare({
+      ...base,
+      distanceKm: distance * 1.15,
+      waitingMinutes: maxWaiting,
+    }).total *
+      legs +
+    tollAmount;
 
   return {
     minFare,

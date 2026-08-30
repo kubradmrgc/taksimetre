@@ -1,4 +1,4 @@
-import { calculateFare } from "./calculateFare.js";
+import { buildFareRange } from "./fareRange.js";
 import { PROVINCES } from "./provinces.js";
 
 const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
@@ -85,40 +85,16 @@ export async function fetchDrivingRoute(from, to, { signal } = {}) {
  * Max: km × 1.15 + OSRM süresinin ~%45'i bekleme
  */
 export function estimateFareRange(route, tariff) {
-  const base = {
+  return buildFareRange({
+    distanceKm: route.distanceKm,
+    durationSeconds: route.durationSeconds,
     openingFee: tariff.openingFee,
     perKmFee: tariff.perKmFee,
     perMinuteFee: tariff.perMinuteFee,
     minimumFee: tariff.minimumFee,
-  };
-
-  const durationMinutes = route.durationSeconds / 60;
-
-  const minFare = calculateFare({
-    ...base,
-    distanceKm: route.distanceKm,
-    waitingMinutes: 0,
-  }).total;
-
-  const avgFare = calculateFare({
-    ...base,
-    distanceKm: route.distanceKm,
-    waitingMinutes: durationMinutes * 0.25,
-  }).total;
-
-  const maxFare = calculateFare({
-    ...base,
-    distanceKm: route.distanceKm * 1.15,
-    waitingMinutes: durationMinutes * 0.45,
-  }).total;
-
-  return {
-    minFare,
-    avgFare,
-    maxFare,
-    distanceKm: route.distanceKm,
-    durationSeconds: route.durationSeconds,
-  };
+    tolls: tariff.tolls,
+    roundTrip: tariff.roundTrip,
+  });
 }
 
 export function getFallbackOrigin(cityId) {

@@ -8,6 +8,7 @@ import { FareRangeCard } from "./components/FareRangeCard.jsx";
 import { FareResult } from "./components/FareResult.jsx";
 import { Header } from "./components/Header.jsx";
 import { RouteEstimate } from "./components/RouteEstimate.jsx";
+import { TariffMetaCard } from "./components/TariffMetaCard.jsx";
 import { TripControls } from "./components/TripControls.jsx";
 import { TripHud } from "./components/TripHud.jsx";
 import { useTheme } from "./hooks/useTheme.js";
@@ -19,11 +20,17 @@ import {
   mergeAlerts,
 } from "./lib/fareRange.js";
 import {
+  DEFAULT_ISTANBUL_SEGMENT_ID,
+  getIstanbulSegment,
+  segmentToFormValues,
+} from "./lib/istanbulSegments.js";
+import {
   estimateFareRange,
   fetchDrivingRoute,
   getCurrentPositionOnce,
   getFallbackOrigin,
 } from "./lib/routing.js";
+import { sumTollIds } from "./lib/tolls.js";
 import {
   DEFAULT_CITY_ID,
   formatFetchedAt,
@@ -32,11 +39,18 @@ import {
 } from "./lib/tariffs.js";
 
 const TRIP_FIELDS = new Set(["distanceKm", "waitingMinutes"]);
+const TARIFF_FIELDS = new Set([
+  "openingFee",
+  "perKmFee",
+  "perMinuteFee",
+  "minimumFee",
+]);
 
 function createInitialValues() {
   return {
     distanceKm: "",
     waitingMinutes: "",
+    tolls: "",
     ...tariffToFormValues(getCityTariff(DEFAULT_CITY_ID)),
   };
 }
@@ -49,6 +63,9 @@ function formatTripField(value, digits = 2) {
 export default function App() {
   const { theme, toggleTheme } = useTheme();
   const [cityId, setCityId] = useState(DEFAULT_CITY_ID);
+  const [segmentId, setSegmentId] = useState(DEFAULT_ISTANBUL_SEGMENT_ID);
+  const [roundTrip, setRoundTrip] = useState(false);
+  const [selectedTollIds, setSelectedTollIds] = useState([]);
   const [values, setValues] = useState(createInitialValues);
   const [destination, setDestination] = useState(null);
   const [estimate, setEstimate] = useState(null);
@@ -56,8 +73,15 @@ export default function App() {
   const [estimateError, setEstimateError] = useState(null);
   const estimateAbortRef = useRef(null);
 
-  const selectedCity = getCityTariff(cityId);
-  const cityLabel = cityId === "custom" ? "Özel tarife" : selectedCity.name;
+  const selectedCity = getCityTariff(cityId === "custom" ? DEFAULT_CITY_ID : cityId);
+  const segment =
+    cityId === "istanbul" ? getIstanbulSegment(segmentId) : null;
+  const cityLabel =
+    cityId === "custom"
+      ? "Özel tarife"
+      : segment
+        ? `${selectedCity.name} · ${segment.name}`
+        : selectedCity.name;
 
   const fare = useMemo(
     () =>
@@ -68,8 +92,10 @@ export default function App() {
         perKmFee: values.perKmFee,
         perMinuteFee: values.perMinuteFee,
         minimumFee: values.minimumFee,
+        tolls: values.tolls,
+        roundTrip,
       }),
-    [values],
+    [values, roundTrip],
   );
 
   /** Varış rotası varsa o; yoksa forma girilen mesafe üzerinden aralık. */
@@ -94,8 +120,10 @@ export default function App() {
       perKmFee: values.perKmFee,
       perMinuteFee: values.perMinuteFee,
       minimumFee: values.minimumFee,
+      tolls: values.tolls,
+      roundTrip,
     });
-  }, [estimate, values]);
+  }, [estimate, values, roundTrip]);
 
   const trip = useTrip({
     estimate,
@@ -127,14 +155,9 @@ export default function App() {
       distanceKm: formatTripField(trip.distanceKm, 3),
       waitingMinutes: formatTripField(trip.waitingMinutes, 2),
     }));
-  }, [
-    trip.isLive,
-    trip.status,
-    trip.distanceKm,
-    trip.waitingMinutes,
-  ]);
+  }, [trip.isLive, trip.status, trip.distanceKm, trip.waitingMinutes]);
 
-  // Tarife değişince tahmini fiyat aralığını güncelle
+  // Tarife / gidiş-dönüş / geçiş değişince tahmini fiyat aralığını güncelle
   useEffect(() => {
     if (!estimate || !destination) return;
 
@@ -143,6 +166,8 @@ export default function App() {
       perKmFee: values.perKmFee,
       perMinuteFee: values.perMinuteFee,
       minimumFee: values.minimumFee,
+      tolls: values.tolls,
+      roundTrip,
     };
 
     const range = estimateFareRange(
@@ -163,12 +188,14 @@ export default function App() {
           }
         : current,
     );
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- yalnızca tarife alanları
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- yalnızca tarife / seçenek alanları
   }, [
     values.openingFee,
     values.perKmFee,
     values.perMinuteFee,
     values.minimumFee,
+    values.tolls,
+    roundTrip,
   ]);
 
   async function buildEstimate(place) {
@@ -190,6 +217,8 @@ export default function App() {
         perKmFee: values.perKmFee,
         perMinuteFee: values.perMinuteFee,
         minimumFee: values.minimumFee,
+        tolls: values.tolls,
+        roundTrip,
       });
 
       setEstimate({
@@ -211,7 +240,11 @@ export default function App() {
 
     setValues((current) => ({ ...current, [field]: value }));
 
-    if (!TRIP_FIELDS.has(field)) {
+    if (field === "tolls") {
+      setSelectedTollIds([]);
+    }
+
+    if (TARIFF_FIELDS.has(field)) {
       setCityId("custom");
     }
   }
@@ -219,9 +252,30 @@ export default function App() {
   function handleCitySelect(nextCityId) {
     const tariff = getCityTariff(nextCityId);
     setCityId(nextCityId);
+    setSelectedTollIds([]);
+
+    if (nextCityId === "istanbul") {
+      const nextSegment = getIstanbulSegment(DEFAULT_ISTANBUL_SEGMENT_ID);
+      setSegmentId(nextSegment.id);
+      setValues((current) => ({
+        ...current,
+        ...segmentToFormValues(nextSegment),
+        tolls: "",
+        ...(tripLocked
+          ? {
+              distanceKm: current.distanceKm,
+              waitingMinutes: current.waitingMinutes,
+            }
+          : {}),
+      }));
+      return;
+    }
+
+    setSegmentId(DEFAULT_ISTANBUL_SEGMENT_ID);
     setValues((current) => ({
       ...current,
       ...tariffToFormValues(tariff),
+      tolls: "",
       ...(tripLocked
         ? {
             distanceKm: current.distanceKm,
@@ -229,6 +283,32 @@ export default function App() {
           }
         : {}),
     }));
+  }
+
+  function handleSegmentChange(nextSegmentId) {
+    const nextSegment = getIstanbulSegment(nextSegmentId);
+    setSegmentId(nextSegment.id);
+    setCityId("istanbul");
+    setValues((current) => ({
+      ...current,
+      ...segmentToFormValues(nextSegment),
+    }));
+  }
+
+  function handleToggleToll(tollId) {
+    setSelectedTollIds((current) => {
+      const next = current.includes(tollId)
+        ? current.filter((id) => id !== tollId)
+        : [...current, tollId];
+      setValues((valuesCurrent) => {
+        const presetSum = sumTollIds(next);
+        return {
+          ...valuesCurrent,
+          tolls: presetSum > 0 ? String(presetSum) : "",
+        };
+      });
+      return next;
+    });
   }
 
   function handleDestinationSelect(place) {
@@ -261,6 +341,10 @@ export default function App() {
   }
 
   const showLiveHud = trip.status !== "idle";
+  const metaTariff =
+    cityId === "custom"
+      ? { source: "custom", sourceUrl: null, note: "Özel tarife" }
+      : selectedCity;
 
   return (
     <div className="relative min-h-dvh overflow-hidden">
@@ -320,20 +404,31 @@ export default function App() {
               values={values}
               onChange={handleFieldChange}
               tripLocked={tripLocked}
+              cityId={cityId}
+              segmentId={segmentId}
+              onSegmentChange={handleSegmentChange}
+              roundTrip={roundTrip}
+              onRoundTripChange={setRoundTrip}
+              selectedTollIds={selectedTollIds}
+              onToggleToll={handleToggleToll}
+            />
+
+            <TariffMetaCard
+              cityId={cityId}
+              cityLabel={cityLabel}
+              tariff={metaTariff}
+              segmentName={segment?.name}
             />
 
             <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">
               {cityId === "custom"
                 ? "Özel tarife kullanılıyor. Şehir butonlarından güncel tarifeye dönebilirsiniz."
                 : `${selectedCity.note}.`}{" "}
-              Tarifeler taksicilerodasi.com ve Hemen Hesap (CC BY 4.0)
-              bilgilendirme verisinden; resmi kurum değildir
+              Geçiş tutarları yaklaşık HGS sınıf 1 değerleridir
               {formatFetchedAt()
                 ? ` · son senkron ${formatFetchedAt()}`
                 : ""}
-              . Köprü / otoyol ek ücretleri dahil değildir. Değerleri
-              dilediğiniz gibi düzenleyebilirsiniz. Canlı yolculuk için konum
-              izni ve HTTPS (veya localhost) gerekir.
+              . Canlı yolculuk için konum izni ve HTTPS (veya localhost) gerekir.
             </p>
           </div>
 

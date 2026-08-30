@@ -22,8 +22,11 @@ Konum API’si yalnızca **HTTPS** veya **localhost** üzerinde çalışır. Can
 
 ```
 Ara toplam = Açılış + (Mesafe × Km başı) + (Bekleme × Dakika başı)
-Nihai tutar = max(Ara toplam, İndi-bindi)
+Yolculuk = max(Ara toplam, İndi-bindi)  [gidiş-dönüş ise ×2]
+Nihai tutar = Yolculuk + Geçişler
 ```
+
+İstanbul’da sarı / turkuaz / 8+1 / siyah segment seçilebilir (20 Temmuz 2026 İBB tarifesi). Köprü-tünel için hazır geçiş kısayolları veya manuel TL alanı vardır.
 
 Canlı yolculukta mesafe ardışık GPS noktaları arasında **Haversine** ile birikir. Anlık hız 10 km/s altındaysa geçen süre bekleme sayacına eklenir.
 

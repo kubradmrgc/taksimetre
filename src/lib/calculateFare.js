@@ -6,7 +6,10 @@
  *
  * Taban ücret kuralı:
  *   Hesaplanan ara toplam, girilen minimum (indi-bindi) ücretten küçükse
- *   yolcuya yansıtılan nihai tutar indi-bindi ücretidir.
+ *   yolcuya yansıtılan tutar indi-bindi ücretidir.
+ *
+ * Gidiş-dönüş: yolculuk bedeli (indi-bindi sonrası) × 2.
+ * Geçişler: yolculuk bedeline eklenir (çarpan uygulanmaz).
  */
 export function calculateFare({
   distanceKm,
@@ -15,6 +18,8 @@ export function calculateFare({
   perKmFee,
   perMinuteFee,
   minimumFee,
+  tolls = 0,
+  roundTrip = false,
 }) {
   const distance = toNonNegativeNumber(distanceKm);
   const waiting = toNonNegativeNumber(waitingMinutes);
@@ -22,12 +27,16 @@ export function calculateFare({
   const kmRate = toNonNegativeNumber(perKmFee);
   const minuteRate = toNonNegativeNumber(perMinuteFee);
   const minimum = toNonNegativeNumber(minimumFee);
+  const tollAmount = toNonNegativeNumber(tolls);
+  const legs = roundTrip ? 2 : 1;
 
   const distanceCost = distance * kmRate;
   const waitingCost = waiting * minuteRate;
   const subtotal = opening + distanceCost + waitingCost;
   const appliedMinimum = subtotal < minimum;
-  const total = appliedMinimum ? minimum : subtotal;
+  const oneWayTotal = appliedMinimum ? minimum : subtotal;
+  const tripTotal = oneWayTotal * legs;
+  const total = tripTotal + tollAmount;
 
   return {
     openingFee: opening,
@@ -36,6 +45,12 @@ export function calculateFare({
     subtotal,
     minimumFee: minimum,
     appliedMinimum,
+    oneWayTotal,
+    tripTotal,
+    tolls: tollAmount,
+    roundTrip: Boolean(roundTrip),
+    legs,
+    /** Geriye dönük: nihai ödenecek (yolculuk + geçişler) */
     total,
   };
 }
