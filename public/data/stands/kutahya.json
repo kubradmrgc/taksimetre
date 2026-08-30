@@ -1,12 +1,64 @@
 {
   "cityId": "kutahya",
   "cityName": "Kütahya",
-  "fetchedAt": "2026-08-30T21:21:14.703Z",
+  "fetchedAt": "2026-08-30T21:33:53.973Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "cavdarhisar",
+      "name": "Cavdarhisar",
+      "count": 7
+    },
+    {
+      "id": "domanic",
+      "name": "Domanic",
+      "count": 2
+    },
+    {
+      "id": "dumlupinar",
+      "name": "Dumlupinar",
+      "count": 1
+    },
+    {
+      "id": "gediz",
+      "name": "Gediz",
+      "count": 4
+    },
+    {
+      "id": "hisarcik",
+      "name": "Hisarcik",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 15
+    },
+    {
+      "id": "pazarlar",
+      "name": "Pazarlar",
+      "count": 3
+    },
+    {
+      "id": "saphane",
+      "name": "Saphane",
+      "count": 1
+    },
+    {
+      "id": "simav",
+      "name": "Simav",
+      "count": 5
+    },
+    {
+      "id": "tavsanli",
+      "name": "Tavsanli",
+      "count": 34
+    }
   ],
   "count": 90,
   "stands": [
@@ -14,9 +66,12 @@
       "id": "taksi724-05422251399-0",
       "name": "Çınar Taksi",
       "phone": "05422251399",
+      "website": null,
       "lat": 39.441581,
       "lon": 30.0062482,
       "address": "Taksi Durağı ·  · Vefa Mahallesi Eskişehir Yolu 2.km Otobüs Terminali No:95",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +81,12 @@
       "id": "taksi724-02742161141-1",
       "name": "Çınar Taksi",
       "phone": "02742161141",
+      "website": null,
       "lat": 39.549636,
       "lon": 29.494409,
       "address": "Ulucami Mah. Hayat Sok. 3 Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +96,12 @@
       "id": "taksi724-02742161141-2",
       "name": "Eda Taksi",
       "phone": "02742161141",
+      "website": null,
       "lat": 39.549818,
       "lon": 29.49430171,
       "address": "Ulucami Mah. Hayat Sok. Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +111,12 @@
       "id": "taksi724-05412636796-3",
       "name": "Garaj Taksi",
       "phone": "05412636796",
+      "website": null,
       "lat": 39.541902,
       "lon": 29.492253,
       "address": "Yeni Mah. Kuruçay Cad. 1 Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -63,9 +127,12 @@
       "id": "taksi724-05422251399-4",
       "name": "Has Taksi",
       "phone": "05422251399",
+      "website": null,
       "lat": 39.543815,
       "lon": 29.491254,
       "address": "Yeni Mah. Tavşanlı Belediyesi Otobüs Terminali Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -75,9 +142,12 @@
       "id": "taksi724-02742161543-5",
       "name": "İstasyon Taksi",
       "phone": "02742161543",
+      "website": null,
       "lat": 39.546106,
       "lon": 29.489022,
       "address": "Durak Mah. Kemal Zeytinoğlu Cad. Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -87,9 +157,12 @@
       "id": "taksi724-02742162339-6",
       "name": "Kemer Taksi",
       "phone": "02742162339",
+      "website": null,
       "lat": 39.420308,
       "lon": 30.000416,
       "address": "Taksi Durağı ·  · Yayla Sk. No:2",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -99,9 +172,12 @@
       "id": "taksi724-02742162000-7",
       "name": "Kütahya Arı Taksi",
       "phone": "02742162000",
+      "website": null,
       "lat": 39.41997,
       "lon": 29.97549,
       "address": "Taksi Durağı · Sırlıbayırı Sk. No:15",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -111,9 +187,12 @@
       "id": "taksi724-05462740113-8",
       "name": "Kütahya sağlık Taksi",
       "phone": "05462740113",
+      "website": null,
       "lat": 39.4231446,
       "lon": 29.9912985,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -124,9 +203,12 @@
       "id": "taksi724-05072334019-9",
       "name": "Kütahya Sağlık Taksi",
       "phone": "05072334019",
+      "website": null,
       "lat": 39.427176,
       "lon": 29.9596968,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -137,9 +219,12 @@
       "id": "taksi724-05011444343-10",
       "name": "Kütahya Taksi",
       "phone": "05011444343",
+      "website": null,
       "lat": 39.4280822,
       "lon": 29.9580027,
       "address": "Taksi Durağı ·  · Eken Paşa Cd. No:54",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -149,9 +234,12 @@
       "id": "taksi724-05315952620-11",
       "name": "Kütahya Taksi",
       "phone": "05315952620",
+      "website": null,
       "lat": 39.4183562,
       "lon": 29.9894035,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -161,9 +249,12 @@
       "id": "taksi724-05437240122-12",
       "name": "Kütahya Taksi",
       "phone": "05437240122",
+      "website": null,
       "lat": 39.4205268,
       "lon": 30.0002529,
       "address": "Taksi Durağı · İstasyon Sk. No:1",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -173,9 +264,12 @@
       "id": "taksi724-05437430103-13",
       "name": "Kütahya Taksi",
       "phone": "05437430103",
+      "website": null,
       "lat": 39.4198453,
       "lon": 29.9956061,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -185,9 +279,12 @@
       "id": "taksi724-05558880083-14",
       "name": "Kütahya Taksi",
       "phone": "05558880083",
+      "website": null,
       "lat": 39.4192367,
       "lon": 29.975748,
       "address": "Taksi Durağı · Lala Hüseyin Paşa Cd. No:100 D:1",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -197,9 +294,12 @@
       "id": "taksi724-05558800061-15",
       "name": "Evliya Çelebi Taksi",
       "phone": "05558800061",
+      "website": null,
       "lat": 39.395238,
       "lon": 30.034584,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -210,9 +310,12 @@
       "id": "taksi724-05412336410-16",
       "name": "Ssk Çınar Taksi",
       "phone": "05412336410",
+      "website": null,
       "lat": 39.4258765,
       "lon": 29.9639759,
       "address": "Taksi Durağı · Nafia - Garaj Yolu Cd. No:10/1",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -222,9 +325,12 @@
       "id": "taksi724-02742161141-17",
       "name": "Tavşanli Adliye Taksi",
       "phone": "02742161141",
+      "website": null,
       "lat": 39.54960291,
       "lon": 29.49428025,
       "address": "Ulucami Mah. Hayat Sok. Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -234,9 +340,12 @@
       "id": "taksi724-05365400033-18",
       "name": "TAVSANLI HAS TAKSi",
       "phone": "05365400033",
+      "website": null,
       "lat": 39.5358743,
       "lon": 29.5043675,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -247,9 +356,12 @@
       "id": "taksi724-05346975593-19",
       "name": "Tavşanlı 7/24 Taksi",
       "phone": "05346975593",
+      "website": null,
       "lat": 39.551892,
       "lon": 29.498294,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -259,9 +371,12 @@
       "id": "taksi724-05432745053-20",
       "name": "Tavşanlı Fenomen Taksi",
       "phone": "05432745053",
+      "website": null,
       "lat": 39.5397021,
       "lon": 29.5178553,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -272,9 +387,12 @@
       "id": "taksi724-05325539532-21",
       "name": "Tavşanlı Garaj Taksi",
       "phone": "05325539532",
+      "website": null,
       "lat": 39.5398136,
       "lon": 29.5187627,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -285,9 +403,12 @@
       "id": "taksi724-05557444141-22",
       "name": "anlı Otogar Taksi",
       "phone": "05557444141",
+      "website": null,
       "lat": 39.5397927,
       "lon": 29.5184072,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -298,9 +419,12 @@
       "id": "taksi724-05433377372-23",
       "name": "Tavșanlı Otogar Taksi",
       "phone": "05433377372",
+      "website": null,
       "lat": 39.5389448,
       "lon": 29.5185005,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -311,9 +435,12 @@
       "id": "taksi724-05419414343-24",
       "name": "Tavşanlı Taksi",
       "phone": "05419414343",
+      "website": null,
       "lat": 39.5438688,
       "lon": 29.4885995,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -324,9 +451,12 @@
       "id": "taksi724-05434301127-25",
       "name": "Tugay Taksi",
       "phone": "05434301127",
+      "website": null,
       "lat": 39.542995,
       "lon": 29.491698,
       "address": "Yeni Mah. Gaffar Okkan Cad. Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -336,9 +466,12 @@
       "id": "taksi724-05524430174-26",
       "name": "Yeni Devlet Hastanesi Taksi",
       "phone": "05524430174",
+      "website": null,
       "lat": 39.4136062,
       "lon": 30.0205997,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -350,9 +483,12 @@
       "id": "taksi724-05451281616-27",
       "name": "Zümrüt Taksi",
       "phone": "05451281616",
+      "website": null,
       "lat": 39.548053,
       "lon": 29.492581,
       "address": "Kavaklı Mah. Kır Sok. Tavşanlı, Kütahya",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -362,9 +498,12 @@
       "id": "taksi724-05303030300-28",
       "name": "kutahya-taksi",
       "phone": "05303030300",
+      "website": null,
       "lat": 39.543095,
       "lon": 29.4855951,
       "address": "Taksi Durağı · İstiklal Cd. No:18",
+      "districtId": "tavsanli",
+      "districtName": "Tavsanli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -374,9 +513,12 @@
       "id": "taksi724-05011444343-29",
       "name": "Birlik Taksi",
       "phone": "05011444343",
+      "website": null,
       "lat": 39.41831773,
       "lon": 29.98554946,
       "address": "Alipaşa Mah. Belediye Sok. Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -386,9 +528,12 @@
       "id": "taksi724-05442101100-30",
       "name": "Bulvar Taksi",
       "phone": "05442101100",
+      "website": null,
       "lat": 39.418528,
       "lon": 29.986463,
       "address": "Alipaşa Mah. Zafer Meydanı Belediye Sok. 1 Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -399,9 +544,12 @@
       "id": "taksi724-02742162373-31",
       "name": "Taksi durağı",
       "phone": "02742162373",
+      "website": null,
       "lat": 39.422334,
       "lon": 29.987649,
       "address": "Alipaşa Mah. Atatürk Blv. Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -411,9 +559,12 @@
       "id": "taksi724-05355535420-32",
       "name": "Çınar Taksi",
       "phone": "05355535420",
+      "website": null,
       "lat": 39.419155,
       "lon": 29.985278,
       "address": "Alipaşa Mah. Zafer Meydanı Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -423,9 +574,12 @@
       "id": "taksi724-02742161141-33",
       "name": "Dilek Taksi",
       "phone": "02742161141",
+      "website": null,
       "lat": 39.41737,
       "lon": 29.978553,
       "address": "G.Kemal Mah. Menzilhane Sok. Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -436,9 +590,12 @@
       "id": "taksi724-05527241313-34",
       "name": "Emniyet Taksi",
       "phone": "05527241313",
+      "website": null,
       "lat": 39.419702,
       "lon": 29.987687,
       "address": "Alipaşa Mah. Abdurrahman Karaa Blv. 3 Dk:3/B Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -448,9 +605,12 @@
       "id": "taksi724-02742261212-35",
       "name": "Kent Taksi",
       "phone": "02742261212",
+      "website": null,
       "lat": 39.42516,
       "lon": 29.975468,
       "address": "Fuatpaşa Mah. Aydınlık Cad. 7 Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -461,9 +621,12 @@
       "id": "taksi724-05451281616-36",
       "name": "Konak Taksi",
       "phone": "05451281616",
+      "website": null,
       "lat": 39.401291,
       "lon": 30.01664,
       "address": "75.Yıl Mah. Dumlupınar Blv. Atakent, Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -473,9 +636,12 @@
       "id": "taksi724-02742163674-37",
       "name": "Murat Taksi",
       "phone": "02742163674",
+      "website": null,
       "lat": 39.420587,
       "lon": 29.985725,
       "address": "Servi Mah. İkibülbül Sok. 2 Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -486,9 +652,12 @@
       "id": "taksi724-02742161266-38",
       "name": "Özen Taksi",
       "phone": "02742161266",
+      "website": null,
       "lat": 39.418802,
       "lon": 29.984293,
       "address": "Ali Paşa Mah. Akademi Sok. Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -499,9 +668,12 @@
       "id": "taksi724-39-39",
       "name": "Toki Taksi",
       "phone": null,
+      "website": null,
       "lat": 39.421676,
       "lon": 29.988144,
       "address": "Alipaşa Mah. Öğretmenler Cad. Uygun Sok. Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -511,9 +683,12 @@
       "id": "taksi724-05011444343-40",
       "name": "Zümrüt Taksi",
       "phone": "05011444343",
+      "website": null,
       "lat": 39.456379,
       "lon": 29.98104,
       "address": "Akkent Mah. 1. Ak Sok. Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -523,9 +698,12 @@
       "id": "taksi724-02742161818-41",
       "name": "kutahya-taksi",
       "phone": "02742161818",
+      "website": null,
       "lat": 39.419452,
       "lon": 29.981686,
       "address": "Ali Paşa Mah. Uzunzeybek Sok. 2/B Kütahya Merkez, Kütahya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -536,9 +714,12 @@
       "id": "taksi724-05427920120-42",
       "name": "Emet Taksi",
       "phone": "05427920120",
+      "website": null,
       "lat": 39.057997,
       "lon": 30.108556,
       "address": null,
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -549,9 +730,12 @@
       "id": "taksi724-05414615004-43",
       "name": "EmetTaksi",
       "phone": "05414615004",
+      "website": null,
       "lat": 39.342653,
       "lon": 29.2529119,
       "address": null,
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -561,9 +745,12 @@
       "id": "taksi724-05414615004-44",
       "name": "Kütahya Çelebi kemer Taksi",
       "phone": "05414615004",
+      "website": null,
       "lat": 39.338545,
       "lon": 29.259401,
       "address": "Taksi · Handan Sk. no 3",
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -574,9 +761,12 @@
       "id": "taksi724-05452740136-45",
       "name": "Kütahya Taksi",
       "phone": "05452740136",
+      "website": null,
       "lat": 39.4312541,
       "lon": 29.9538297,
       "address": "Taksi Durağı · Nar Sk. No:5",
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -587,9 +777,12 @@
       "id": "taksi724-05398594949-46",
       "name": "Toki Taksi",
       "phone": "05398594949",
+      "website": null,
       "lat": 39.4621077,
       "lon": 29.911026,
       "address": null,
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -599,9 +792,12 @@
       "id": "taksi724-05433774243-47",
       "name": "Zafer Airport Taksi",
       "phone": "05433774243",
+      "website": null,
       "lat": 39.4532069,
       "lon": 29.9837676,
       "address": "Ulaşım Hizmeti · Toki Taksi Durağı, Şehit İtfaiye Er Ömer Türk Cd No:9/1",
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -611,9 +807,12 @@
       "id": "taksi724-05422646284-48",
       "name": "EmetTaksi",
       "phone": "05422646284",
+      "website": null,
       "lat": 39.1165565,
       "lon": 30.1335756,
       "address": null,
+      "districtId": "cavdarhisar",
+      "districtName": "Cavdarhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -623,9 +822,12 @@
       "id": "taksi724-05442234555-49",
       "name": "Garaj Taksi",
       "phone": "05442234555",
+      "website": null,
       "lat": 38.987312,
       "lon": 29.396462,
       "address": "Özyurt Mah. Nakipoğlu Cad. 3 Gediz, Kütahya",
+      "districtId": "gediz",
+      "districtName": "Gediz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -637,9 +839,12 @@
       "id": "taksi724-05422251399-50",
       "name": "Gediz Aslan Taksi",
       "phone": "05422251399",
+      "website": null,
       "lat": 38.986712,
       "lon": 29.396462,
       "address": "Uluoymak Mah. Nakipoğlu Cad. Gediz, Kütahya",
+      "districtId": "gediz",
+      "districtName": "Gediz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -649,9 +854,12 @@
       "id": "taksi724-05449444022-51",
       "name": "Gediz Taksi",
       "phone": "05449444022",
+      "website": null,
       "lat": 38.9864865,
       "lon": 29.3886265,
       "address": null,
+      "districtId": "gediz",
+      "districtName": "Gediz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -661,9 +869,12 @@
       "id": "taksi724-05464120043-52",
       "name": "Gediz Aslan Taksi",
       "phone": "05464120043",
+      "website": null,
       "lat": 38.9882102,
       "lon": 29.3943889,
       "address": "Taksi Durağı · 166. Sk. no:2",
+      "districtId": "gediz",
+      "districtName": "Gediz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -674,9 +885,12 @@
       "id": "taksi724-02745131767-53",
       "name": "Simav Hastane Birlik Taksi",
       "phone": "02745131767",
+      "website": null,
       "lat": 39.088785,
       "lon": 28.977335,
       "address": null,
+      "districtId": "simav",
+      "districtName": "Simav",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -687,9 +901,12 @@
       "id": "taksi724-02745138090-54",
       "name": "Simav Taksi",
       "phone": "02745138090",
+      "website": null,
       "lat": 39.0882716,
       "lon": 28.9786014,
       "address": null,
+      "districtId": "simav",
+      "districtName": "Simav",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -700,9 +917,12 @@
       "id": "taksi724-05453757571-55",
       "name": "Simav Taksi",
       "phone": "05453757571",
+      "website": null,
       "lat": 39.0923239,
       "lon": 28.9776632,
       "address": null,
+      "districtId": "simav",
+      "districtName": "Simav",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -713,9 +933,12 @@
       "id": "taksi724-05468785657-56",
       "name": "Simav Taksi",
       "phone": "05468785657",
+      "website": null,
       "lat": 39.0925472,
       "lon": 28.9801311,
       "address": null,
+      "districtId": "simav",
+      "districtName": "Simav",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -725,9 +948,12 @@
       "id": "taksi724-05011001201-57",
       "name": "Kütahya toki Taksi",
       "phone": "05011001201",
+      "website": null,
       "lat": 39.4157272,
       "lon": 29.987415,
       "address": null,
+      "districtId": "pazarlar",
+      "districtName": "Pazarlar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -737,9 +963,12 @@
       "id": "taksi724-05061838888-58",
       "name": "Kütahya Toki Taksi",
       "phone": "05061838888",
+      "website": null,
       "lat": 39.4157632,
       "lon": 29.986403,
       "address": null,
+      "districtId": "pazarlar",
+      "districtName": "Pazarlar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -749,9 +978,12 @@
       "id": "taksi724-05407240009-59",
       "name": "Kütahya Toki Taksi",
       "phone": "05407240009",
+      "website": null,
       "lat": 39.4157452,
       "lon": 29.986909,
       "address": null,
+      "districtId": "pazarlar",
+      "districtName": "Pazarlar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -761,9 +993,12 @@
       "id": "taksi724-05512769807-60",
       "name": "Sefa Taksi",
       "phone": "05512769807",
+      "website": null,
       "lat": 39.8012652,
       "lon": 29.6129734,
       "address": "Taksi Durağı · Bursa Cd. No:1",
+      "districtId": "domanic",
+      "districtName": "Domanic",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -773,9 +1008,12 @@
       "id": "taksi724-05412336410-61",
       "name": "Sefa Taksi",
       "phone": "05412336410",
+      "website": null,
       "lat": 39.802718,
       "lon": 29.614545,
       "address": "Karşıyaka Mah. Bursa Cad. 2 Domaniç, Kütahya",
+      "districtId": "domanic",
+      "districtName": "Domanic",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -785,9 +1023,12 @@
       "id": "taksi724-05432741274-62",
       "name": "Sporkent Taksi",
       "phone": "05432741274",
+      "website": null,
       "lat": 39.4017081,
       "lon": 30.0351442,
       "address": "Taksi Durağı · Dumlupınar Mah. Enbiya Cad. No:1",
+      "districtId": "dumlupinar",
+      "districtName": "Dumlupinar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -797,9 +1038,12 @@
       "id": "taksi724-05434814344-63",
       "name": "Hisarcık Taksi",
       "phone": "05434814344",
+      "website": null,
       "lat": 39.249125,
       "lon": 29.232603,
       "address": "Cumhuriyet Mah. Uzun Çarşı Cad. Hisarcık, Kütahya",
+      "districtId": "hisarcik",
+      "districtName": "Hisarcik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -809,9 +1053,12 @@
       "id": "taksi724-05348353623-64",
       "name": "Kütahya Taksi",
       "phone": "05348353623",
+      "website": null,
       "lat": 39.479766,
       "lon": 29.9099118,
       "address": "Ulaşım Hizmeti · Hacı Hıfzı Emer Cd No:11",
+      "districtId": "saphane",
+      "districtName": "Saphane",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -822,9 +1069,12 @@
       "id": "taksicibul-05462740052-65",
       "name": "SERA TAKSİ",
       "phone": "05462740052",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -835,9 +1085,12 @@
       "id": "taksicibul-05428095994-66",
       "name": "Burak Sağlık Taksi",
       "phone": "05428095994",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -847,9 +1100,12 @@
       "id": "taksicibul-05424729127-67",
       "name": "KÜTAHYA TAKSİ 0122 ( 7 GÜN 24 SAAT GÜVENLİ HİZMET )",
       "phone": "05424729127",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -859,9 +1115,12 @@
       "id": "taksicibul-05528000043-68",
       "name": "Kütahya Merkez Sokak Taksi",
       "phone": "05528000043",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -872,9 +1131,12 @@
       "id": "taksicibul-05442740043-69",
       "name": "Kütahya Taksi",
       "phone": "05442740043",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -885,9 +1147,12 @@
       "id": "taksicibul-05412264550-70",
       "name": "Kütahya Taksi (43t0128)",
       "phone": "05412264550",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -898,9 +1163,12 @@
       "id": "taksiciler-05332340043-71",
       "name": "Tümü → Birlik Taksi 0137",
       "phone": "05332340043",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -910,9 +1178,12 @@
       "id": "taksiciler-05492740092-72",
       "name": "Kütahya Taksi - Emre",
       "phone": "05492740092",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -922,9 +1193,12 @@
       "id": "taksiciler-05469009025-73",
       "name": "Kütahya Taksi Ertuğrul Evirgen",
       "phone": "05469009025",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -934,9 +1208,12 @@
       "id": "taksiciler-05452740164-74",
       "name": "Kütahya Taksiler",
       "phone": "05452740164",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -946,9 +1223,12 @@
       "id": "taksiciler-05533403122-75",
       "name": "Sanayi Taksi",
       "phone": "05533403122",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -958,9 +1238,12 @@
       "id": "taksiciler-05466060343-76",
       "name": "Tümü → Yoncalı Taksi",
       "phone": "05466060343",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -970,9 +1253,12 @@
       "id": "taksiciler-05436611234-77",
       "name": "Tümü → Öncü Taksi",
       "phone": "05436611234",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -982,9 +1268,12 @@
       "id": "taksiciler-05316931328-78",
       "name": "Garaj Taksi Gediz",
       "phone": "05316931328",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -994,9 +1283,12 @@
       "id": "taksiciler-02745136205-79",
       "name": "Tümü → Garaj Taksi",
       "phone": "02745136205",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1006,9 +1298,12 @@
       "id": "taksiciler-05435512777-80",
       "name": "Tümü → Çınar Taksi",
       "phone": "05435512777",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1018,9 +1313,12 @@
       "id": "taksiciler-05424574577-81",
       "name": "Tavşanlı Gece Gündüz Taksi",
       "phone": "05424574577",
+      "website": null,
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1030,9 +1328,12 @@
       "id": "taksiciler-05374772241-82",
       "name": "Tavşanlı Zümrüt Taksi",
       "phone": "05374772241",
+      "website": "https://www.facebook.com/salih.sengun.5",
       "lat": 39.4167,
       "lon": 29.9833,
       "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavşanlı",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -1043,8 +1344,12 @@
       "id": "nerede360-05426452117-83",
       "name": "Adliye Taksi - Ali Evlek",
       "phone": "05426452117",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": "https://www.facebook.com/profile.php?id=100091836051430",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavşanlı",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1054,8 +1359,12 @@
       "id": "nerede360-05072820028-84",
       "name": "Evliya Çelebi Taksi - Hakan Öztürk",
       "phone": "05072820028",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1065,8 +1374,12 @@
       "id": "nerede360-05467980515-85",
       "name": "Hastane Birlik Taksi - Ali Altınkaya",
       "phone": "05467980515",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "simav",
+      "districtName": "Simav",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1076,8 +1389,12 @@
       "id": "nerede360-05070715187-86",
       "name": "Sera Taksi - Bekir Gündüz",
       "phone": "05070715187",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1087,8 +1404,12 @@
       "id": "nerede360-05414412243-87",
       "name": "Tavşanlı Taksi - Halil Gök",
       "phone": "05414412243",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavşanlı",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1098,8 +1419,12 @@
       "id": "nerede360-05059881957-88",
       "name": "Tavşanlı Taksi - Hasan Yiğit",
       "phone": "05059881957",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavşanlı",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1109,8 +1434,12 @@
       "id": "nerede360-05466164414-89",
       "name": "Tavşanlı Taksi - Onur Toker",
       "phone": "05466164414",
-      "lat": 39.4167,
-      "lon": 29.9833,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "tavsanli",
+      "districtName": "Tavşanlı",
       "approximate": true,
       "sources": [
         "nerede360"

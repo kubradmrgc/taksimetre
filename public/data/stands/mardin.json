@@ -1,12 +1,44 @@
 {
   "cityId": "mardin",
   "cityName": "Mardin",
-  "fetchedAt": "2026-08-30T21:21:52.285Z",
+  "fetchedAt": "2026-08-30T21:34:33.468Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "artuklu",
+      "name": "Artuklu",
+      "count": 45
+    },
+    {
+      "id": "derik",
+      "name": "Derik",
+      "count": 3
+    },
+    {
+      "id": "kiziltepe",
+      "name": "Kiziltepe",
+      "count": 13
+    },
+    {
+      "id": "midyat",
+      "name": "Midyat",
+      "count": 12
+    },
+    {
+      "id": "nusaybin",
+      "name": "Nusaybin",
+      "count": 15
+    },
+    {
+      "id": "savur",
+      "name": "Savur",
+      "count": 2
+    }
   ],
   "count": 114,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-05452074447-0",
       "name": "Alka Taksi",
       "phone": "05452074447",
+      "website": null,
       "lat": 37.3292061,
       "lon": 40.7250707,
       "address": "Taksi Durağı · Emniyet Cd. No:26",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +61,12 @@
       "id": "taksi724-04822131413-1",
       "name": "Altınşehir Taksi",
       "phone": "04822131413",
+      "website": null,
       "lat": 37.3136415,
       "lon": 40.7420704,
       "address": "Taksi Durağı · 50. Sk.",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +76,12 @@
       "id": "taksi724-05332314785-2",
       "name": "Artuklu Mardin Emek dörtyol Taksi",
       "phone": "05332314785",
+      "website": null,
       "lat": 37.3264662,
       "lon": 40.7481885,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +91,12 @@
       "id": "taksi724-05521290171-3",
       "name": "Artuklu Merkez Taksi",
       "phone": "05521290171",
+      "website": null,
       "lat": 37.3260193,
       "lon": 40.717593,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -62,9 +106,12 @@
       "id": "taksi724-05355866065-4",
       "name": "Bilem Taksi",
       "phone": "05355866065",
+      "website": null,
       "lat": 37.317509,
       "lon": 40.7560078,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -74,9 +121,12 @@
       "id": "taksi724-05306811647-5",
       "name": "Bilen Taksi",
       "phone": "05306811647",
+      "website": null,
       "lat": 37.32672459,
       "lon": 40.71375251,
       "address": "Yenişehir Mah. Vali Ozan Cad. Artuklu, Mardin",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -86,9 +136,12 @@
       "id": "taksi724-05306811647-6",
       "name": "Emirgan Taksi",
       "phone": "05306811647",
+      "website": null,
       "lat": 37.3230338,
       "lon": 40.7230282,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -98,9 +151,12 @@
       "id": "taksi724-05323906875-7",
       "name": "ESKi HÜKÜMET KONAĞI ÜÇYOL TAKSi",
       "phone": "05323906875",
+      "website": null,
       "lat": 37.32739541,
       "lon": 40.71402661,
       "address": "Yenişehir Mah. Vali Ozan Cad. Mardin Merkez, Mardin",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -110,9 +166,12 @@
       "id": "taksi724-05448690047-8",
       "name": "Güven Taksi",
       "phone": "05448690047",
+      "website": null,
       "lat": 37.3142849,
       "lon": 40.7440682,
       "address": "Taksi Durağı · Üç yol ağzı, 1. Cadde",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -123,9 +182,12 @@
       "id": "taksi724-05397378486-9",
       "name": "KARAYOLLARI TAKSi",
       "phone": "05397378486",
+      "website": null,
       "lat": 37.3159369,
       "lon": 40.7543706,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -135,9 +197,12 @@
       "id": "taksi724-05438444747-10",
       "name": "Karayolları park Taksi",
       "phone": "05438444747",
+      "website": null,
       "lat": 37.3240663,
       "lon": 40.7194384,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -147,9 +212,12 @@
       "id": "taksi724-05468032479-11",
       "name": "Kavşak Taksi",
       "phone": "05468032479",
+      "website": null,
       "lat": 37.3233027,
       "lon": 40.7200524,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -161,9 +229,12 @@
       "id": "taksi724-05452074447-12",
       "name": "Mardin 7/24 Taksi",
       "phone": "05452074447",
+      "website": null,
       "lat": 37.32739541,
       "lon": 40.71259139,
       "address": "Yenişehir Mah. Vali Ozan Cad. Mardin Merkez, Mardin",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -173,9 +244,12 @@
       "id": "taksi724-05309300647-13",
       "name": "Mardin Artuklu 7/24 Taksi",
       "phone": "05309300647",
+      "website": null,
       "lat": 37.3326458,
       "lon": 40.7196457,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -186,9 +260,12 @@
       "id": "taksi724-05452074447-14",
       "name": "Mardin Artuklu Taksi",
       "phone": "05452074447",
+      "website": null,
       "lat": 37.326222,
       "lon": 40.7241598,
       "address": "Taksi Durağı · Emniyet Cd. 1. Sk. No:4",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -198,9 +275,12 @@
       "id": "taksi724-05353254799-15",
       "name": "Mardin dekorkent Taksi",
       "phone": "05353254799",
+      "website": null,
       "lat": 37.331407,
       "lon": 40.7105863,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -210,9 +290,12 @@
       "id": "taksi724-05053470095-16",
       "name": "Mardin Destek Taksi",
       "phone": "05053470095",
+      "website": null,
       "lat": 37.3320836,
       "lon": 40.7255915,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -223,9 +306,12 @@
       "id": "taksi724-05323906875-17",
       "name": "MARDiN EĞiTiM VE ARAŞTIRMA HASTANESi TAKSi",
       "phone": "05323906875",
+      "website": null,
       "lat": 37.3260244,
       "lon": 40.7077946,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -235,9 +321,12 @@
       "id": "taksi724-05323906875-18",
       "name": "Mardin eğitim ve araştırma hastahanesi Taksi",
       "phone": "05323906875",
+      "website": null,
       "lat": 37.3377822,
       "lon": 40.7077255,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -247,9 +336,12 @@
       "id": "taksi724-05422024781-19",
       "name": "Mardin Emniyet Taksi",
       "phone": "05422024781",
+      "website": null,
       "lat": 37.3358737,
       "lon": 40.7061551,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -259,9 +351,12 @@
       "id": "taksi724-05396980547-20",
       "name": "Mardin Kasimiye Taksi",
       "phone": "05396980547",
+      "website": null,
       "lat": 37.3293414,
       "lon": 40.7248793,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -271,9 +366,12 @@
       "id": "taksi724-05428079364-21",
       "name": "Mardin Merkez 7/24 Taksi",
       "phone": "05428079364",
+      "website": null,
       "lat": 37.3120773,
       "lon": 40.7193362,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -285,9 +383,12 @@
       "id": "taksi724-05452074447-22",
       "name": "Mardin Merkez Taksi",
       "phone": "05452074447",
+      "website": null,
       "lat": 37.320707,
       "lon": 40.7267976,
       "address": "Taksi · 13 Mart Cd. No:1",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -297,9 +398,12 @@
       "id": "taksi724-05536905639-23",
       "name": "Mardin Otogar Taksi",
       "phone": "05536905639",
+      "website": null,
       "lat": 37.3324522,
       "lon": 40.7081685,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -309,9 +413,12 @@
       "id": "taksi724-05392283047-24",
       "name": "MARDiN Ravza Taksi",
       "phone": "05392283047",
+      "website": null,
       "lat": 37.3154556,
       "lon": 40.7555425,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -323,9 +430,12 @@
       "id": "taksi724-05334340176-25",
       "name": "Mardin Taksi",
       "phone": "05334340176",
+      "website": null,
       "lat": 37.3212168,
       "lon": 40.7186667,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -336,9 +446,12 @@
       "id": "taksi724-05444700423-26",
       "name": "7/24 EMEK DÖRTYOL Taksi",
       "phone": "05444700423",
+      "website": null,
       "lat": 37.3255223,
       "lon": 40.7314273,
       "address": "Taksi Durağı · 725. Sk.",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -349,9 +462,12 @@
       "id": "taksi724-05522770171-27",
       "name": "Durağı 7/24 Artuklu Merkez Taksi",
       "phone": "05522770171",
+      "website": null,
       "lat": 37.3261019,
       "lon": 40.717399,
       "address": "Taksi Durağı ·  · Dörtyol Taksi Durağı, Hürriyet Caddesi, 13 Mart Mahallesi, Mardin, Artuklu, Mardin, Güneydoğu Anadolu Bölgesi",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -361,9 +477,12 @@
       "id": "taksi724-05069476614-28",
       "name": "MERKEZ - ACiL TAKSi",
       "phone": "05069476614",
+      "website": null,
       "lat": 37.3247542,
       "lon": 40.723123,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -374,9 +493,12 @@
       "id": "taksi724-05526960622-29",
       "name": "Mardin Vefa Acil Toki Taksi",
       "phone": "05526960622",
+      "website": null,
       "lat": 37.3298222,
       "lon": 40.7138905,
       "address": "Taksi Durağı · 13 Mart, 39. Sk.",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -386,9 +508,12 @@
       "id": "taksi724-05432508096-30",
       "name": "Mardin YENi TOKi TAKSi",
       "phone": "05432508096",
+      "website": null,
       "lat": 37.3367244,
       "lon": 40.6960065,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -399,9 +524,12 @@
       "id": "taksi724-05320664721-31",
       "name": "Meydan Taksi",
       "phone": "05320664721",
+      "website": null,
       "lat": 37.3308655,
       "lon": 40.6802408,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -413,9 +541,12 @@
       "id": "taksi724-04822135817-32",
       "name": "Nokta Taksi",
       "phone": "04822135817",
+      "website": null,
       "lat": 37.313132,
       "lon": 40.734829,
       "address": "Şar Mah. Cumhuriyet Meydanı 1. Cad. Mardin Merkez, Mardin",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -427,9 +558,12 @@
       "id": "taksi724-05323906875-33",
       "name": "Ravza Taksi",
       "phone": "05323906875",
+      "website": null,
       "lat": 37.32672459,
       "lon": 40.71286549,
       "address": "Yenişehir Mah. Vali Ozan Cad. Artuklu, Mardin",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -439,9 +573,12 @@
       "id": "taksi724-04822135057-34",
       "name": "Sevgi Taksi",
       "phone": "04822135057",
+      "website": null,
       "lat": 37.3188042,
       "lon": 40.7211473,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -451,9 +588,12 @@
       "id": "taksi724-05467674758-35",
       "name": "Taksi durağı",
       "phone": "05467674758",
+      "website": null,
       "lat": 37.3255827,
       "lon": 40.720454,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -463,9 +603,12 @@
       "id": "taksi724-04822133353-36",
       "name": "Taksi",
       "phone": "04822133353",
+      "website": null,
       "lat": 37.3199187,
       "lon": 40.7246259,
       "address": "Taksi Durağı · SSK Cd. No:4",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -476,9 +619,12 @@
       "id": "taksi724-05438444747-37",
       "name": "Taksi",
       "phone": "05438444747",
+      "website": null,
       "lat": 37.3227465,
       "lon": 40.7197638,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -489,9 +635,12 @@
       "id": "taksi724-05354433347-38",
       "name": "Taksi Mardin Artuklu Yenişehir",
       "phone": "05354433347",
+      "website": null,
       "lat": 37.3338843,
       "lon": 40.7060851,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -503,9 +652,12 @@
       "id": "taksi724-05323867872-39",
       "name": "Yenişehir Taksi",
       "phone": "05323867872",
+      "website": null,
       "lat": 37.3205524,
       "lon": 40.7287255,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -515,9 +667,12 @@
       "id": "taksi724-05452074447-40",
       "name": "Yenişehir vip Taksi",
       "phone": "05452074447",
+      "website": null,
       "lat": 37.32721,
       "lon": 40.713309,
       "address": "Yenişehir Mah. Vali Ozan Cad. Mardin Merkez, Mardin",
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -528,9 +683,12 @@
       "id": "taksi724-05397374719-41",
       "name": "mardin-taksi",
       "phone": "05397374719",
+      "website": null,
       "lat": 37.3175284,
       "lon": 40.7224769,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -540,9 +698,12 @@
       "id": "taksi724-05436287979-42",
       "name": "Mardin Midyat Taksi",
       "phone": "05436287979",
+      "website": null,
       "lat": 37.424515,
       "lon": 41.33950017,
       "address": "Yeni Mah. Dr. Alaaddin Aslan Cad. 8 Dörtyol, Midyat, Mardin",
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -552,9 +713,12 @@
       "id": "taksi724-05413713021-43",
       "name": "Midyat dörtyol Taksi",
       "phone": "05413713021",
+      "website": null,
       "lat": 37.4182729,
       "lon": 41.3570341,
       "address": "Taksi Durağı · Cumhuriyet Blv. No:129",
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -564,9 +728,12 @@
       "id": "taksi724-05375044650-44",
       "name": "Midyat Estel Taksi",
       "phone": "05375044650",
+      "website": null,
       "lat": 37.4230691,
       "lon": 41.3592522,
       "address": null,
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -577,9 +744,12 @@
       "id": "taksi724-05436287979-45",
       "name": "Midyat Estel Taksi",
       "phone": "05436287979",
+      "website": null,
       "lat": 37.424515,
       "lon": 41.339586,
       "address": "Yeni Mah. Cumhuriyet Blv. 8 Midyat, Mardin",
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -589,9 +759,12 @@
       "id": "taksi724-05416183092-46",
       "name": "Midyat sağlık Taksi",
       "phone": "05416183092",
+      "website": null,
       "lat": 37.4211785,
       "lon": 41.3499592,
       "address": null,
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -601,9 +774,12 @@
       "id": "taksi724-05393693033-47",
       "name": "Midyat Taksi",
       "phone": "05393693033",
+      "website": null,
       "lat": 37.4111914,
       "lon": 41.3493892,
       "address": null,
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -614,9 +790,12 @@
       "id": "taksi724-05424723001-48",
       "name": "Midyat Taksi",
       "phone": "05424723001",
+      "website": null,
       "lat": 37.4153955,
       "lon": 41.3736051,
       "address": null,
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -627,9 +806,12 @@
       "id": "taksi724-05466832317-49",
       "name": "Midyat Taksi",
       "phone": "05466832317",
+      "website": null,
       "lat": 37.4174888,
       "lon": 41.3600533,
       "address": "Taksi Durağı ·  · Cumhuriyet Blv. No:10",
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -640,9 +822,12 @@
       "id": "taksi724-05377717347-50",
       "name": "Midyat Taksi",
       "phone": "05377717347",
+      "website": null,
       "lat": 37.4167648,
       "lon": 41.3693826,
       "address": "Taksi · Fatih Cd. No:42",
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -653,9 +838,12 @@
       "id": "taksi724-05413713021-51",
       "name": "Midyat Taksi",
       "phone": "05413713021",
+      "website": null,
       "lat": 37.424178,
       "lon": 41.367117,
       "address": "Cumhuriyet Mah. Dörtyol Meydanı Midyat, Mardin",
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -665,9 +853,12 @@
       "id": "taksi724-05356876503-52",
       "name": "MIDYAT TAKSI",
       "phone": "05356876503",
+      "website": null,
       "lat": 37.4155126,
       "lon": 41.3730473,
       "address": null,
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -677,9 +868,12 @@
       "id": "taksi724-05533657517-53",
       "name": "mardin-taksi",
       "phone": "05533657517",
+      "website": null,
       "lat": 37.4155719,
       "lon": 41.3721121,
       "address": null,
+      "districtId": "midyat",
+      "districtName": "Midyat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -690,9 +884,12 @@
       "id": "taksi724-05447687276-54",
       "name": "Nusaybin Acar Taksi",
       "phone": "05447687276",
+      "website": null,
       "lat": 37.083721,
       "lon": 41.2228337,
       "address": "Taksi · Aslan Sk. 4. Etap M3 01",
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -703,9 +900,12 @@
       "id": "taksi724-05524394700-55",
       "name": "Nusaybin Acil Taksi",
       "phone": "05524394700",
+      "website": null,
       "lat": 37.0826722,
       "lon": 41.2227175,
       "address": "Taksi · Şirin Blv. No:4 D:E",
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -716,9 +916,12 @@
       "id": "taksi724-05441554747-56",
       "name": "Nusaybin Merkez Taksi",
       "phone": "05441554747",
+      "website": null,
       "lat": 37.0913883,
       "lon": 41.189833,
       "address": "Taksi · Devlet Hastanesi, Acil Önü,8 Mart Mahallesi, İpekyolu Cd.",
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -729,9 +932,12 @@
       "id": "taksi724-05437269282-57",
       "name": "Nusaybin sarı Taksi",
       "phone": "05437269282",
+      "website": null,
       "lat": 37.0670994,
       "lon": 41.2165104,
       "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -742,9 +948,12 @@
       "id": "taksi724-05375431923-58",
       "name": "Nusaybin Taksi",
       "phone": "05375431923",
+      "website": null,
       "lat": 37.0691331,
       "lon": 41.2164635,
       "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -754,9 +963,12 @@
       "id": "taksi724-05415150547-59",
       "name": "Nusaybin Taksi",
       "phone": "05415150547",
+      "website": "https://www.facebook.com/profile.php?id=100091420511918",
       "lat": 37.0697607,
       "lon": 41.2204791,
       "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -767,9 +979,12 @@
       "id": "taksi724-05059967347-60",
       "name": "- Nusaybin En Yakın Taksi",
       "phone": "05059967347",
+      "website": null,
       "lat": 37.0841182,
       "lon": 41.232469,
       "address": "Taksi · Akın Sk.",
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -779,9 +994,12 @@
       "id": "taksi724-05056010942-61",
       "name": "Otogar Taksi",
       "phone": "05056010942",
+      "website": null,
       "lat": 37.1547809,
       "lon": 41.2126118,
       "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -791,9 +1009,12 @@
       "id": "taksi724-05454158847-62",
       "name": "Nusaybin ticari Taksi",
       "phone": "05454158847",
+      "website": null,
       "lat": 37.0894235,
       "lon": 41.2247531,
       "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -804,9 +1025,12 @@
       "id": "taksi724-05375431923-63",
       "name": "Nusaybin Acil Taksi",
       "phone": "05375431923",
+      "website": null,
       "lat": 37.0828529,
       "lon": 41.2257234,
       "address": "Taksi Durağı · 8 Mart mahallesi, Cumhuriyet caddesi No:8",
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -816,9 +1040,12 @@
       "id": "taksi724-05446474766-64",
       "name": "Kızıltepe Akasya Taksi",
       "phone": "05446474766",
+      "website": null,
       "lat": 37.1885361,
       "lon": 40.5843946,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -829,9 +1056,12 @@
       "id": "taksi724-05366959487-65",
       "name": "Kızıltepe Çiçek Taksi",
       "phone": "05366959487",
+      "website": null,
       "lat": 37.2050435,
       "lon": 40.6015735,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -841,9 +1071,12 @@
       "id": "taksi724-05427889664-66",
       "name": "Kızıltepe Taksi",
       "phone": "05427889664",
+      "website": null,
       "lat": 37.1923036,
       "lon": 40.581776,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -854,9 +1087,12 @@
       "id": "taksi724-05454137018-67",
       "name": "Kızıltepe Taksi",
       "phone": "05454137018",
+      "website": null,
       "lat": 37.186493,
       "lon": 40.5935786,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -866,9 +1102,12 @@
       "id": "taksi724-05425952072-68",
       "name": "Kızıltepe Taner 7/24 TOKi Taksi",
       "phone": "05425952072",
+      "website": null,
       "lat": 37.1884584,
       "lon": 40.5955334,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -878,9 +1117,12 @@
       "id": "taksi724-05422077322-69",
       "name": "Merkez Taksi",
       "phone": "05422077322",
+      "website": null,
       "lat": 37.2283585,
       "lon": 40.6255998,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -890,9 +1132,12 @@
       "id": "taksi724-05536905639-70",
       "name": "Mova Taksi",
       "phone": "05536905639",
+      "website": null,
       "lat": 37.191615,
       "lon": 40.586251,
       "address": "Tepebaşı Mah. Şanlıurfa Cad. Kızıltepe, Mardin",
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -903,9 +1148,12 @@
       "id": "taksi724-05359347539-71",
       "name": "Kızıltepe Çiçek Taksi",
       "phone": "05359347539",
+      "website": null,
       "lat": 37.2374002,
       "lon": 40.6382601,
       "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kiziltepe",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -915,9 +1163,12 @@
       "id": "taksi724-05434482800-72",
       "name": "Otogar Taksi",
       "phone": "05434482800",
+      "website": null,
       "lat": 37.4031235,
       "lon": 40.955198,
       "address": "Taksi Durağı · Cumhuriyet caddesi No:33",
+      "districtId": "derik",
+      "districtName": "Derik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -927,9 +1178,12 @@
       "id": "taksi724-05466998318-73",
       "name": "Yeşilli Taksi",
       "phone": "05466998318",
+      "website": null,
       "lat": 37.1880403,
       "lon": 40.5915935,
       "address": null,
+      "districtId": "derik",
+      "districtName": "Derik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -939,9 +1193,12 @@
       "id": "taksi724-05436873447-74",
       "name": "Yeşilli Taksi",
       "phone": "05436873447",
+      "website": null,
       "lat": 37.3394342,
       "lon": 40.8249367,
       "address": null,
+      "districtId": "derik",
+      "districtName": "Derik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -951,9 +1208,12 @@
       "id": "taksi724-05319727008-75",
       "name": "Savur Altın Taksi",
       "phone": "05319727008",
+      "website": null,
       "lat": 37.5370502,
       "lon": 40.8881101,
       "address": null,
+      "districtId": "savur",
+      "districtName": "Savur",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -964,9 +1224,12 @@
       "id": "taksi724-05312262116-76",
       "name": "Savur Altın Taksi",
       "phone": "05312262116",
+      "website": null,
       "lat": 37.5364165,
       "lon": 40.8877971,
       "address": "Taksi Durağı · Mehmet Sait Erdem Caddesi No: 50/B",
+      "districtId": "savur",
+      "districtName": "Savur",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -976,9 +1239,12 @@
       "id": "taksicibul-05352573510-77",
       "name": "Cesur Taksi VİP Mardin",
       "phone": "05352573510",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -988,9 +1254,12 @@
       "id": "taksicibul-05323278749-78",
       "name": "Karayollari Park Taksi",
       "phone": "05323278749",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1001,9 +1270,12 @@
       "id": "taksicibul-05453898956-79",
       "name": "Mardin K. Park Taksi 128",
       "phone": "05453898956",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1013,9 +1285,12 @@
       "id": "taksiciler-05455478047-80",
       "name": "Mardin 7/24 Taksi Ercan",
       "phone": "05455478047",
+      "website": "https://www.instagram.com/celil.0193/",
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -1026,9 +1301,12 @@
       "id": "taksiciler-05414424381-81",
       "name": "Mardin Taksi Artuklu Taksi",
       "phone": "05414424381",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1038,9 +1316,12 @@
       "id": "taksiciler-05303631646-82",
       "name": "Sağlık Taksi Artuklu AÇIK · 7 gün 24 saat Savurkapı, Mardin eski diş hastanesi s",
       "phone": "05303631646",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1050,9 +1331,12 @@
       "id": "taksiciler-05396044187-83",
       "name": "Tümü → Dargeçit Taksi",
       "phone": "05396044187",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1062,9 +1346,12 @@
       "id": "taksiciler-05413517996-84",
       "name": "Dargeçit Taksi Durağı AÇIK · 7 gün 24 saat BAHÇEBAŞI MAHALLESİ PAPATYA SOKAK NO ",
       "phone": "05413517996",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1074,9 +1361,12 @@
       "id": "taksiciler-05446053495-85",
       "name": "Kiziltepe Taksi",
       "phone": "05446053495",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1086,9 +1376,12 @@
       "id": "taksiciler-05431637596-86",
       "name": "Kızıltepe Çeçen Taksi Durağı",
       "phone": "05431637596",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1098,9 +1391,12 @@
       "id": "taksiciler-05433125449-87",
       "name": "Kızıltepe Devlet Hastanesi Taksi",
       "phone": "05433125449",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1110,9 +1406,12 @@
       "id": "taksiciler-05540080239-88",
       "name": "Kızıltepe Merkez Taksi",
       "phone": "05540080239",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1122,9 +1421,12 @@
       "id": "taksiciler-05057014320-89",
       "name": "Kızıltepe Otogar Taksi",
       "phone": "05057014320",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1134,9 +1436,12 @@
       "id": "taksiciler-05421776290-90",
       "name": "Kızıltepe Otogar Taksi Ali Kılınç",
       "phone": "05421776290",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1146,9 +1451,12 @@
       "id": "taksiciler-05308204725-91",
       "name": "Kızıltepe Taksi AÇIK · 7 gün 24 saat Tepebaşı, Hamit Çelik Kızıltepe Otogarı, 47",
       "phone": "05308204725",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1158,9 +1466,12 @@
       "id": "taksiciler-05442180693-92",
       "name": "Kızıltepe Toki Taksi Durağı AÇIK · 7 gün 24 saat YENİKENT, Hastane Cd. HUZUR KEN",
       "phone": "05442180693",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1170,9 +1481,12 @@
       "id": "taksiciler-05414401017-93",
       "name": "Mardin Taksi Durağı",
       "phone": "05414401017",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1182,9 +1496,12 @@
       "id": "taksiciler-05347312722-94",
       "name": "Taksi durağı",
       "phone": "05347312722",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1194,9 +1511,12 @@
       "id": "taksiciler-05421553036-95",
       "name": "Midyat Estel Taksi AÇIK · 7 gün 24 saat bahar sofra salonu önü, Cumhuriyet bulva",
       "phone": "05421553036",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1206,9 +1526,12 @@
       "id": "taksiciler-05058758577-96",
       "name": "Midyat Taksi",
       "phone": "05058758577",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1218,9 +1541,12 @@
       "id": "taksiciler-05454770050-97",
       "name": "Midyat Taksi Bayram",
       "phone": "05454770050",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1230,9 +1556,12 @@
       "id": "taksiciler-05372131182-98",
       "name": "Midyat Taksi Durağı 7/24",
       "phone": "05372131182",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1242,9 +1571,12 @@
       "id": "taksiciler-05524934700-99",
       "name": "Nusaybin Can Taksi",
       "phone": "05524934700",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1254,9 +1586,12 @@
       "id": "taksiciler-05442198780-100",
       "name": "Nusaybin Taksi Toki",
       "phone": "05442198780",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1266,9 +1601,12 @@
       "id": "taksiciler-05436009154-101",
       "name": "Savur Altın Taksi Durağı AÇIK · 7 gün 24 saat Kaplan, Mehmet Sait Erdem Caddesi ",
       "phone": "05436009154",
+      "website": null,
       "lat": 37.3129,
       "lon": 40.734,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1278,8 +1616,12 @@
       "id": "nerede360-05527197400-102",
       "name": "Büyük Mardin Oteli Taksi - Şeyhmus",
       "phone": "05527197400",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1289,8 +1631,12 @@
       "id": "nerede360-05458528572-103",
       "name": "Dilmenler Nusaybin Otogar Taksi - Bahyettin Budak",
       "phone": "05458528572",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1300,8 +1646,12 @@
       "id": "nerede360-05315508147-104",
       "name": "Hastane Taksi - Taner Demir",
       "phone": "05315508147",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kızıltepe",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1311,8 +1661,12 @@
       "id": "nerede360-05421029537-105",
       "name": "Kızıltepe Taksi - Mehmet Kılıç",
       "phone": "05421029537",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kızıltepe",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1322,8 +1676,12 @@
       "id": "nerede360-05355923459-106",
       "name": "Kızıltepe Taksi - Muhammed Cebe",
       "phone": "05355923459",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kızıltepe",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1333,8 +1691,12 @@
       "id": "nerede360-05456203868-107",
       "name": "Kızıltepe Taksi - Özcan Durğun",
       "phone": "05456203868",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kızıltepe",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1344,8 +1706,12 @@
       "id": "nerede360-04823120118-108",
       "name": "Mardin Havalimanı Taksi Kooperatifi",
       "phone": "04823120118",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kiziltepe",
+      "districtName": "Kızıltepe",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1355,8 +1721,12 @@
       "id": "nerede360-05444248747-109",
       "name": "Nusaybin Taksi - Halil Yalçın",
       "phone": "05444248747",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1366,8 +1736,12 @@
       "id": "nerede360-05393677274-110",
       "name": "Nusaybin Taksi - Hüseyin Geleş",
       "phone": "05393677274",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1377,8 +1751,12 @@
       "id": "nerede360-05325524003-111",
       "name": "Nusaybin Taksi - Murat Al",
       "phone": "05325524003",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1388,8 +1766,12 @@
       "id": "nerede360-05432276276-112",
       "name": "Nusaybin Taksi - Nuri Geleş",
       "phone": "05432276276",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "nusaybin",
+      "districtName": "Nusaybin",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1399,8 +1781,12 @@
       "id": "nerede360-05393850642-113",
       "name": "Sevgi Taksi - Ahmet Çakar",
       "phone": "05393850642",
-      "lat": 37.3129,
-      "lon": 40.734,
+      "website": "https://www.instagram.com/mardin_taksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "artuklu",
+      "districtName": "Artuklu",
       "approximate": true,
       "sources": [
         "nerede360"

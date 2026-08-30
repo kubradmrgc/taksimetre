@@ -1,12 +1,64 @@
 {
   "cityId": "malatya",
   "cityName": "Malatya",
-  "fetchedAt": "2026-08-30T21:21:23.332Z",
+  "fetchedAt": "2026-08-30T21:34:03.021Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akcadag",
+      "name": "Akcadag",
+      "count": 1
+    },
+    {
+      "id": "arapgir",
+      "name": "Arapgir",
+      "count": 1
+    },
+    {
+      "id": "arguvan",
+      "name": "Arguvan",
+      "count": 4
+    },
+    {
+      "id": "battalgazi",
+      "name": "Battalgazi",
+      "count": 11
+    },
+    {
+      "id": "darende",
+      "name": "Darende",
+      "count": 5
+    },
+    {
+      "id": "dogansehir",
+      "name": "Dogansehir",
+      "count": 1
+    },
+    {
+      "id": "doganyol",
+      "name": "Doganyol",
+      "count": 10
+    },
+    {
+      "id": "hekimhan",
+      "name": "Hekimhan",
+      "count": 4
+    },
+    {
+      "id": "kuluncak",
+      "name": "Kuluncak",
+      "count": 1
+    },
+    {
+      "id": "yesilyurt",
+      "name": "Yesilyurt",
+      "count": 56
+    }
   ],
   "count": 114,
   "stands": [
@@ -14,9 +66,12 @@
       "id": "taksi724-05353741313-0",
       "name": "Barguzu Bostanbaşı Horata Taksi",
       "phone": "05353741313",
+      "website": null,
       "lat": 38.335163,
       "lon": 38.272557,
       "address": "Çilesiz Mah. Abdurrahmangazi Sok. Yeşilyurt, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +81,12 @@
       "id": "taksi724-04222383850-1",
       "name": "Beydağı Taksi",
       "phone": "04222383850",
+      "website": null,
       "lat": 38.3373699,
       "lon": 38.2455336,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +96,12 @@
       "id": "taksi724-05075542716-2",
       "name": "Bizim Taksi",
       "phone": "05075542716",
+      "website": null,
       "lat": 38.3344809,
       "lon": 38.310985,
       "address": "Taksi Durağı ·  · Mehmet Akif Ersoy Cd. No:74 D:80",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -51,9 +112,12 @@
       "id": "taksi724-05365576167-3",
       "name": "Bostanbaşı Taksi",
       "phone": "05365576167",
+      "website": null,
       "lat": 38.345166,
       "lon": 38.290105,
       "address": "Zaviye Mah. Tevfik Temelli Cad. 15 Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -64,9 +128,12 @@
       "id": "taksi724-05466766848-4",
       "name": "Bulvar Taksi",
       "phone": "05466766848",
+      "website": null,
       "lat": 38.3323912,
       "lon": 38.2457504,
       "address": "Taksi Durağı ·  · Bostanbaşı Yolu No:47",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -76,9 +143,12 @@
       "id": "taksi724-05452120213-5",
       "name": "Cevatpaşa Taksi",
       "phone": "05452120213",
+      "website": null,
       "lat": 38.332603,
       "lon": 38.278959,
       "address": "Çilesiz Mah. Fahri Kayahan Blv. Mıhlıtut Cad. Yeşilyurt, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -88,9 +158,12 @@
       "id": "taksi724-05466783444-6",
       "name": "Çöşnük Taksi",
       "phone": "05466783444",
+      "website": null,
       "lat": 38.3416604,
       "lon": 38.262722,
       "address": "Taksi ·  · Güngör Cd. No:2 D:1",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -100,9 +173,12 @@
       "id": "taksi724-05445737444-7",
       "name": "DOĞA CADDE TAKSi",
       "phone": "05445737444",
+      "website": null,
       "lat": 38.3493367,
       "lon": 38.3468842,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -112,9 +188,12 @@
       "id": "taksi724-05366660330-8",
       "name": "Eğitim ve Araştırma Hastanesi Taksi",
       "phone": "05366660330",
+      "website": null,
       "lat": 38.3482146,
       "lon": 38.3072841,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -125,9 +204,12 @@
       "id": "taksi724-05336644476-9",
       "name": "Elit Taksi",
       "phone": "05336644476",
+      "website": null,
       "lat": 38.3508051,
       "lon": 38.2814538,
       "address": "Taksi Durağı ·  · İstasyon Cd. No:4",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -137,9 +219,12 @@
       "id": "taksi724-05423741550-10",
       "name": "Fahri Kayahan Ada Taksi",
       "phone": "05423741550",
+      "website": null,
       "lat": 38.355286,
       "lon": 38.3493215,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -150,9 +235,12 @@
       "id": "taksi724-05353741313-11",
       "name": "Horata Taksi",
       "phone": "05353741313",
+      "website": null,
       "lat": 38.3363869,
       "lon": 38.2748087,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -162,9 +250,12 @@
       "id": "taksi724-04222383850-12",
       "name": "Huzur Taksi",
       "phone": "04222383850",
+      "website": null,
       "lat": 38.339161,
       "lon": 38.251161,
       "address": "Karakavak Mah. Turgut Özal Blv. 161 Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -174,9 +265,12 @@
       "id": "taksi724-05453950884-13",
       "name": "Lojman Taksi",
       "phone": "05453950884",
+      "website": null,
       "lat": 38.362764,
       "lon": 38.311342,
       "address": "İlyas Mah. Turgut Temelli Cad. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -186,9 +280,12 @@
       "id": "taksi724-05355882744-14",
       "name": "Lojman Vip Taksi",
       "phone": "05355882744",
+      "website": null,
       "lat": 38.33076536,
       "lon": 38.26788573,
       "address": "Karakavak Mah. Fahri Kayahan Blv. Güngör Cad. 1 Yeşilyurt, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -198,9 +295,12 @@
       "id": "taksi724-05362009744-15",
       "name": "Malatya Anemon Taksi",
       "phone": "05362009744",
+      "website": null,
       "lat": 38.3432827,
       "lon": 38.2621215,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -211,9 +311,12 @@
       "id": "taksi724-05454866221-16",
       "name": "Malatya Battalgazi Devlet Hastanesi Taksi",
       "phone": "05454866221",
+      "website": null,
       "lat": 38.3346631,
       "lon": 38.2169718,
       "address": "Taksi Durağı · Anemon Otel bitişiği, Mehmet Akif Ersoy Cd. 1. Sk. No:3",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -223,9 +326,12 @@
       "id": "taksi724-05441568226-17",
       "name": "Malatya Birlik Taksi",
       "phone": "05441568226",
+      "website": null,
       "lat": 38.3455848,
       "lon": 38.334554,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -235,9 +341,12 @@
       "id": "taksi724-05447271348-18",
       "name": "Malatya Emek Taksi",
       "phone": "05447271348",
+      "website": null,
       "lat": 38.3336694,
       "lon": 38.2997566,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -247,9 +356,12 @@
       "id": "taksi724-05434480061-19",
       "name": "MALATYAPARK TAKSi",
       "phone": "05434480061",
+      "website": null,
       "lat": 38.3438329,
       "lon": 38.317222,
       "address": "Taksi Durağı · No:2/b, Adaçayı Sokağı No:2",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -260,9 +372,12 @@
       "id": "taksi724-04222117707-20",
       "name": "Malatya Park Taksi",
       "phone": "04222117707",
+      "website": null,
       "lat": 38.3479538,
       "lon": 38.2977397,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -272,9 +387,12 @@
       "id": "taksi724-04222117707-21",
       "name": "Malatya PTT Taksi",
       "phone": "04222117707",
+      "website": null,
       "lat": 38.347743,
       "lon": 38.294845,
       "address": "İnönü Mah. İnönü Cad. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -284,9 +402,12 @@
       "id": "taksi724-05432928986-22",
       "name": "Malatya Taksi",
       "phone": "05432928986",
+      "website": null,
       "lat": 38.3484822,
       "lon": 38.316152,
       "address": "Taksi Durağı ·  · Turgut Temelli Cd No:1",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -296,9 +417,12 @@
       "id": "taksi724-05545853972-23",
       "name": "lojman Taksi",
       "phone": "05545853972",
+      "website": null,
       "lat": 38.348562,
       "lon": 38.319052,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -308,9 +432,12 @@
       "id": "taksi724-05355882744-24",
       "name": "- Malatya Merkez Sizin Taksi",
       "phone": "05355882744",
+      "website": null,
       "lat": 38.3419029,
       "lon": 38.2636664,
       "address": "Taksi ·  · Karakavak Mahallesi Güngör Caddesi Fahri kayahan girişi Güngör Caddesi No:2 D:8 Fahrikayahan Bulvarı girişi Cevatpaşa mahallesi",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -320,9 +447,12 @@
       "id": "taksi724-05316435211-25",
       "name": "Malatya Taksi",
       "phone": "05316435211",
+      "website": null,
       "lat": 38.3499705,
       "lon": 38.3076455,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -332,9 +462,12 @@
       "id": "taksi724-05355224519-26",
       "name": "Malatya Tecde Ziraat Taksi",
       "phone": "05355224519",
+      "website": null,
       "lat": 38.3482137,
       "lon": 38.3208664,
       "address": "Taksi Durağı ·  · 5. Sk. No:1",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -345,9 +478,12 @@
       "id": "taksi724-05442290922-27",
       "name": "Malatya Viraj Taksi",
       "phone": "05442290922",
+      "website": null,
       "lat": 38.3237116,
       "lon": 38.2827027,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -357,9 +493,12 @@
       "id": "taksi724-05314344401-28",
       "name": "Malatya Yeşilyurt Taksi",
       "phone": "05314344401",
+      "website": null,
       "lat": 38.344931,
       "lon": 38.2871372,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -369,9 +508,12 @@
       "id": "taksi724-05432928986-29",
       "name": "Maşti Taksi",
       "phone": "05432928986",
+      "website": null,
       "lat": 38.327354,
       "lon": 38.310698,
       "address": "Taksi Durağı · Karagöz Cd. 2. Sk. 2. Ar. No:18",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -381,9 +523,12 @@
       "id": "taksi724-04222384730-30",
       "name": "Melekoğlu Taksi",
       "phone": "04222384730",
+      "website": null,
       "lat": 38.35519,
       "lon": 38.30946,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -394,9 +539,12 @@
       "id": "taksi724-05454480327-31",
       "name": "Meydan Taksi",
       "phone": "05454480327",
+      "website": null,
       "lat": 38.339094,
       "lon": 38.30762,
       "address": "Paşaköşkü Mah. İsmet Paşa Cad. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -406,9 +554,12 @@
       "id": "taksi724-05052427113-32",
       "name": "Mimarsinan Taksi",
       "phone": "05052427113",
+      "website": null,
       "lat": 38.344274,
       "lon": 38.321231,
       "address": "İstiklal Mah. Bozanoğlu Sok. 9 Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -418,9 +569,12 @@
       "id": "taksi724-04223248170-33",
       "name": "Orhan Taksi",
       "phone": "04223248170",
+      "website": null,
       "lat": 38.344456,
       "lon": 38.308355,
       "address": "Aslanbey Mah. Mimar Sinan Cad. Burak Apt. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -430,9 +584,12 @@
       "id": "taksi724-04222213620-34",
       "name": "Özalper Taksi",
       "phone": "04222213620",
+      "website": null,
       "lat": 38.3393537,
       "lon": 38.3124256,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -442,9 +599,12 @@
       "id": "taksi724-05301575333-35",
       "name": "Özel Taksi",
       "phone": "05301575333",
+      "website": null,
       "lat": 38.3401299,
       "lon": 38.2841107,
       "address": "Ulaşım Hizmeti · Özalper, 2. Cd. No:86, 44090 Malatya Merkez",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -454,9 +614,12 @@
       "id": "taksi724-05438746990-36",
       "name": "Melekoğlu Taksi",
       "phone": "05438746990",
+      "website": null,
       "lat": 38.3456616,
       "lon": 38.3314276,
       "address": "Taksi Durağı · Özel Hastane Sok. Fırat Mah. Merkez",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -466,9 +629,12 @@
       "id": "taksi724-05536660466-37",
       "name": "Ray Emniyet Taksi",
       "phone": "05536660466",
+      "website": null,
       "lat": 38.3409931,
       "lon": 38.3105733,
       "address": "Taksi Durağı ·  · 7. Sk.",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -479,9 +645,12 @@
       "id": "taksi724-04222124473-38",
       "name": "Ray Taksi",
       "phone": "04222124473",
+      "website": null,
       "lat": 38.3512023,
       "lon": 38.2841406,
       "address": "Taksi · İstasyon Cd. No:3",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -491,9 +660,12 @@
       "id": "taksi724-04222124473-39",
       "name": "RENKLi TAKSi",
       "phone": "04222124473",
+      "website": null,
       "lat": 38.34783,
       "lon": 38.285718,
       "address": "İnönü Mah. İstasyon Cad. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -503,9 +675,12 @@
       "id": "taksi724-05469120721-40",
       "name": "Şafak Taksi",
       "phone": "05469120721",
+      "website": null,
       "lat": 38.341753,
       "lon": 38.3058771,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -515,9 +690,12 @@
       "id": "taksi724-04223213525-41",
       "name": "Somuncu Baba Taksi",
       "phone": "04223213525",
+      "website": null,
       "lat": 38.352087,
       "lon": 38.321411,
       "address": "Topsöğüt-Akpınar Mah. Dışbudak Sok. 125/A Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -527,9 +705,12 @@
       "id": "taksi724-05445737444-42",
       "name": "Sümer Taksi",
       "phone": "05445737444",
+      "website": null,
       "lat": 38.345415,
       "lon": 38.344797,
       "address": "Çöşnük Mah. Eşref Bitlis Cad. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -539,9 +720,12 @@
       "id": "taksi724-05541770063-43",
       "name": "Taksi",
       "phone": "05541770063",
+      "website": null,
       "lat": 38.345496,
       "lon": 38.30207,
       "address": "Çukurdere Mah. Zabcıoğlu Cad. 32 Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -551,9 +735,12 @@
       "id": "taksi724-05431070444-44",
       "name": "Taksi",
       "phone": "05431070444",
+      "website": null,
       "lat": 38.33509,
       "lon": 38.2807556,
       "address": "Ulaşım Hizmeti · İnönü mahallesi Tevfik Temelli Yenibahar Cad, No:2/2 Malatya yakınında",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -563,9 +750,12 @@
       "id": "taksi724-05369834423-45",
       "name": "Tan Taksi",
       "phone": "05369834423",
+      "website": null,
       "lat": 38.3403127,
       "lon": 38.2568376,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -575,9 +765,12 @@
       "id": "taksi724-05356711744-46",
       "name": "Tan Taksi",
       "phone": "05356711744",
+      "website": null,
       "lat": 38.3570865,
       "lon": 38.3377533,
       "address": "Taksi Durağı · Fevzi Çakmak Cd. No:23",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -589,9 +782,12 @@
       "id": "taksi724-05377448613-47",
       "name": "Kayalık Taksi",
       "phone": "05377448613",
+      "website": null,
       "lat": 38.340016,
       "lon": 38.293497,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -601,9 +797,12 @@
       "id": "taksi724-05334754744-48",
       "name": "Temelli Taksi",
       "phone": "05334754744",
+      "website": null,
       "lat": 38.3231958,
       "lon": 38.2647008,
       "address": "Taksi Durağı ·  · Altın Kayısı Blv No:44/1",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -613,9 +812,12 @@
       "id": "taksi724-04222111623-49",
       "name": "Üçgen Park Taksi",
       "phone": "04222111623",
+      "website": null,
       "lat": 38.338182,
       "lon": 38.294993,
       "address": "Taksi Durağı · Tevfik Temelli Cd. No:94",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -625,9 +827,12 @@
       "id": "taksi724-05356114744-50",
       "name": "Yeşilevler Taksi",
       "phone": "05356114744",
+      "website": null,
       "lat": 38.342738,
       "lon": 38.323272,
       "address": "Hasan Varol Mah. Cengiz Topel Cad. Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -637,9 +842,12 @@
       "id": "taksi724-05336340584-51",
       "name": "Yeşilyurt çalık Taksi",
       "phone": "05336340584",
+      "website": null,
       "lat": 38.366215,
       "lon": 38.2789168,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -649,9 +857,12 @@
       "id": "taksi724-05551962944-52",
       "name": "Yüzakı Taksi",
       "phone": "05551962944",
+      "website": null,
       "lat": 38.3039822,
       "lon": 38.2506027,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -661,9 +872,12 @@
       "id": "taksi724-05431699296-53",
       "name": "Zafer Taksi",
       "phone": "05431699296",
+      "website": null,
       "lat": 38.3384704,
       "lon": 38.254735,
       "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -673,9 +887,12 @@
       "id": "taksi724-05442550957-54",
       "name": "malatya-taksi",
       "phone": "05442550957",
+      "website": null,
       "lat": 38.348228,
       "lon": 38.334437,
       "address": "Fırat Mah. Mehmet Buyruk Cad. 38 Malatya Merkez, Malatya",
+      "districtId": "yesilyurt",
+      "districtName": "Yesilyurt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -685,9 +902,12 @@
       "id": "taksi724-05466766848-55",
       "name": "Başak Taksi",
       "phone": "05466766848",
+      "website": null,
       "lat": 38.3224845,
       "lon": 38.2498455,
       "address": "Taksi Durağı · Bostanbaşı Yolu No:47",
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -697,9 +917,12 @@
       "id": "taksi724-04223212898-56",
       "name": "Doğu Taksi",
       "phone": "04223212898",
+      "website": null,
       "lat": 38.3506371,
       "lon": 38.3012496,
       "address": "Taksi · Topal Hafız Sk. No:44",
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -709,9 +932,12 @@
       "id": "taksi724-05349219904-57",
       "name": "Fahri kayahan Taksi",
       "phone": "05349219904",
+      "website": null,
       "lat": 38.3528521,
       "lon": 38.331756,
       "address": "Taksi · Binbaşı Sk. No:2",
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -722,9 +948,12 @@
       "id": "taksi724-05425642800-58",
       "name": "Garaj Taksi",
       "phone": "05425642800",
+      "website": null,
       "lat": 38.3380091,
       "lon": 38.2682624,
       "address": null,
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -734,9 +963,12 @@
       "id": "taksi724-04223249202-59",
       "name": "Gürsel Taksi",
       "phone": "04223249202",
+      "website": null,
       "lat": 38.349283,
       "lon": 38.300416,
       "address": "Taksi · Terminal Cad., Köy Garajı Önünde, Malatya Merkez, Malatya",
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -746,9 +978,12 @@
       "id": "taksi724-04222125810-60",
       "name": "Hasanbey Taksi",
       "phone": "04222125810",
+      "website": null,
       "lat": 38.3345516,
       "lon": 38.3018331,
       "address": null,
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -759,9 +994,12 @@
       "id": "taksi724-04223232789-61",
       "name": "Koyunoğlu Taksi",
       "phone": "04223232789",
+      "website": null,
       "lat": 38.3409082,
       "lon": 38.3015252,
       "address": "Taksi · Hasan Bey Cd. No: 1",
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -772,9 +1010,12 @@
       "id": "taksi724-05421819444-62",
       "name": "Öncü Taksi",
       "phone": "05421819444",
+      "website": null,
       "lat": 38.344652,
       "lon": 38.2962225,
       "address": null,
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -785,9 +1026,12 @@
       "id": "taksi724-05442140216-63",
       "name": "Ssk Taksi",
       "phone": "05442140216",
+      "website": null,
       "lat": 38.3309617,
       "lon": 38.2898533,
       "address": null,
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -797,9 +1041,12 @@
       "id": "taksi724-04222111388-64",
       "name": "Doğu Taksi",
       "phone": "04222111388",
+      "website": null,
       "lat": 38.2903897,
       "lon": 38.4844677,
       "address": null,
+      "districtId": "doganyol",
+      "districtName": "Doganyol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -809,9 +1056,12 @@
       "id": "taksi724-04228413244-65",
       "name": "Battalgazi Taksi Durağı",
       "phone": "04228413244",
+      "website": null,
       "lat": 38.4080083,
       "lon": 38.3618932,
       "address": null,
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -822,9 +1072,12 @@
       "id": "taksi724-05383673383-66",
       "name": "Çiçek Taksi",
       "phone": "05383673383",
+      "website": null,
       "lat": 38.4262354,
       "lon": 38.366335,
       "address": "Taksi Durağı ·  · Alacakapı mahallesi Turgut özal caddesi, Şht. Erdal Alpkılıç Sk. 18/1",
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -834,9 +1087,12 @@
       "id": "taksi724-05445737444-67",
       "name": "Malatya Taksi",
       "phone": "05445737444",
+      "website": null,
       "lat": 38.355575,
       "lon": 38.334614,
       "address": "Göztepe Mah. Fevzi Çakmak Cad. Battalgazi, Malatya",
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -848,9 +1104,12 @@
       "id": "taksi724-05368730534-68",
       "name": "Oba Taksi",
       "phone": "05368730534",
+      "website": null,
       "lat": 38.350848,
       "lon": 38.320384,
       "address": "Akpınar Mah. Battalgazi, Malatya",
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -860,9 +1119,12 @@
       "id": "taksi724-04223238444-69",
       "name": "Şahin Taksi",
       "phone": "04223238444",
+      "website": null,
       "lat": 38.347133,
       "lon": 38.32369,
       "address": "Saray Mah. Sinema Cad. 5 Battalgazi, Malatya",
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -872,9 +1134,12 @@
       "id": "taksi724-05516850082-70",
       "name": "içek Taksi",
       "phone": "05516850082",
+      "website": null,
       "lat": 38.346372,
       "lon": 38.323531,
       "address": "B.Hüseyinbey Mah. Atatürk Cad. Turfanda Sok. Battalgazi, Malatya",
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -884,9 +1149,12 @@
       "id": "taksi724-05373484423-71",
       "name": "Darende Taksi",
       "phone": "05373484423",
+      "website": null,
       "lat": 38.5569625,
       "lon": 37.4907353,
       "address": null,
+      "districtId": "darende",
+      "districtName": "Darende",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -896,9 +1164,12 @@
       "id": "taksi724-05365451991-72",
       "name": "Darende Taksi",
       "phone": "05365451991",
+      "website": null,
       "lat": 38.556664,
       "lon": 37.490605,
       "address": null,
+      "districtId": "darende",
+      "districtName": "Darende",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -908,9 +1179,12 @@
       "id": "taksi724-05426054894-73",
       "name": "Darende Taksi",
       "phone": "05426054894",
+      "website": null,
       "lat": 38.5570081,
       "lon": 37.4906626,
       "address": null,
+      "districtId": "darende",
+      "districtName": "Darende",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -921,9 +1195,12 @@
       "id": "taksi724-05376603591-74",
       "name": "Gürbüz Taksi",
       "phone": "05376603591",
+      "website": null,
       "lat": 38.5571561,
       "lon": 37.4904274,
       "address": null,
+      "districtId": "darende",
+      "districtName": "Darende",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -934,9 +1211,12 @@
       "id": "taksi724-05397441901-75",
       "name": "Darende Taksi",
       "phone": "05397441901",
+      "website": null,
       "lat": 38.5550945,
       "lon": 37.4998194,
       "address": null,
+      "districtId": "darende",
+      "districtName": "Darende",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -946,9 +1226,12 @@
       "id": "taksi724-05426874459-76",
       "name": "Hekimhan Taksi",
       "phone": "05426874459",
+      "website": null,
       "lat": 38.8168125,
       "lon": 37.9307074,
       "address": null,
+      "districtId": "hekimhan",
+      "districtName": "Hekimhan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -959,9 +1242,12 @@
       "id": "taksi724-05358508115-77",
       "name": "HEKIMHAN TAKSI",
       "phone": "05358508115",
+      "website": null,
       "lat": 38.815105,
       "lon": 37.9333678,
       "address": null,
+      "districtId": "hekimhan",
+      "districtName": "Hekimhan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -972,9 +1258,12 @@
       "id": "taksi724-05369511245-78",
       "name": "HEKIMHAN TAKSI",
       "phone": "05369511245",
+      "website": null,
       "lat": 38.8137815,
       "lon": 37.9313343,
       "address": null,
+      "districtId": "hekimhan",
+      "districtName": "Hekimhan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -985,9 +1274,12 @@
       "id": "taksi724-05438093658-79",
       "name": "Akçadağ Taksi",
       "phone": "05438093658",
+      "website": null,
       "lat": 38.3439562,
       "lon": 37.9714675,
       "address": "Taksi Durağı · Hükümet Cd. No:12",
+      "districtId": "akcadag",
+      "districtName": "Akcadag",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -997,9 +1289,12 @@
       "id": "taksi724-05357628946-80",
       "name": "Arapgir Taksi",
       "phone": "05357628946",
+      "website": null,
       "lat": 39.0414389,
       "lon": 38.492359,
       "address": "Taksi Durağı ·  · Gül Sk.",
+      "districtId": "arapgir",
+      "districtName": "Arapgir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1009,9 +1304,12 @@
       "id": "taksi724-81-81",
       "name": "Doğanşehir ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 38.088068,
       "lon": 37.879483,
       "address": "Yeni Mah. İnönü Cad. Doğanşehir, Malatya",
+      "districtId": "dogansehir",
+      "districtName": "Dogansehir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1021,9 +1319,12 @@
       "id": "taksi724-05368730534-82",
       "name": "Kuluncak ilçesindeki bazı taksi",
       "phone": "05368730534",
+      "website": null,
       "lat": 38.3524068,
       "lon": 38.3280417,
       "address": null,
+      "districtId": "kuluncak",
+      "districtName": "Kuluncak",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1033,9 +1334,12 @@
       "id": "taksicibul-04222129697-83",
       "name": "Akasya Taksi Durağı",
       "phone": "04222129697",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1045,9 +1349,12 @@
       "id": "taksicibul-05441584244-84",
       "name": "Şeyhbayram taksi",
       "phone": "05441584244",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1057,9 +1364,12 @@
       "id": "taksicibul-05069730076-85",
       "name": "MALATYA ARI TAKSİ",
       "phone": "05069730076",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1070,9 +1380,12 @@
       "id": "taksicibul-05448820844-86",
       "name": "Malatya 7/24 Taksi",
       "phone": "05448820844",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1082,9 +1395,12 @@
       "id": "taksicibul-04223229999-87",
       "name": "Sinan Taksi",
       "phone": "04223229999",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1095,9 +1411,12 @@
       "id": "taksiciler-05356666830-88",
       "name": "Tümü → Arapgir Taksi AÇIK · 7 gün 24 saat Köseoğlu, taksi durağı, Atatürk Cd., 4",
       "phone": "05356666830",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1107,9 +1426,12 @@
       "id": "taksiciler-05373583377-89",
       "name": "Beydağı Taksi AÇIK · 7 gün 24 saat Merkez Beydağı, Mehmet Akif Ersoy Cd. No:74 D",
       "phone": "05373583377",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1119,9 +1441,12 @@
       "id": "taksiciler-05373502444-90",
       "name": "Doğu Taksi 7/24",
       "phone": "05373502444",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1131,9 +1456,12 @@
       "id": "taksiciler-04223255091-91",
       "name": "Güzel Taksi",
       "phone": "04223255091",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1143,9 +1471,12 @@
       "id": "taksiciler-05451108444-92",
       "name": "Malatya Mesut Taksi",
       "phone": "05451108444",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1155,9 +1486,12 @@
       "id": "taksiciler-05313715275-93",
       "name": "Malatya Taksi Battalgazi",
       "phone": "05313715275",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1167,9 +1501,12 @@
       "id": "taksiciler-04223253792-94",
       "name": "Mimar Sinan Taksi AÇIK · 7 gün 24 saat Nuriye, Mimar Sinan Cd. No:68, 44120 Mala",
       "phone": "04223253792",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1179,9 +1516,12 @@
       "id": "taksiciler-05459555240-95",
       "name": "Paşaköşkü Taksi & Paşaköşkü Taksiler",
       "phone": "05459555240",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1191,9 +1531,12 @@
       "id": "taksiciler-05305079220-96",
       "name": "Petek Taksi 7/24 – Malatya Merkez/malatya",
       "phone": "05305079220",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1203,9 +1546,12 @@
       "id": "taksiciler-04223213131-97",
       "name": "Sizin Taksi AÇIK · 7 gün 24 saat Niyazi Mah. Niyazi Mısri Cad., Dabakhane, Malat",
       "phone": "04223213131",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1215,9 +1561,12 @@
       "id": "taksiciler-05382006827-98",
       "name": "Taksi",
       "phone": "05382006827",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1227,9 +1576,12 @@
       "id": "taksiciler-05339609173-99",
       "name": "Darende Yoldaş Taksi",
       "phone": "05339609173",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1239,9 +1591,12 @@
       "id": "taksiciler-05325800337-100",
       "name": "Tümü → Meydan Taksi Pütürge",
       "phone": "05325800337",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1251,9 +1606,12 @@
       "id": "taksiciler-05055192164-101",
       "name": "Tümü → Çağlar Taksi",
       "phone": "05055192164",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1263,9 +1621,12 @@
       "id": "taksiciler-05444764446-102",
       "name": "Taksi Durağı",
       "phone": "05444764446",
+      "website": null,
       "lat": 38.3552,
       "lon": 38.3095,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1275,8 +1636,12 @@
       "id": "nerede360-05441554434-103",
       "name": "Arguvan Taksi - Mehmet Maman",
       "phone": "05441554434",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": "https://www.instagram.com/mehmet_maman.44/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arguvan",
+      "districtName": "Arguvan",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1286,8 +1651,12 @@
       "id": "nerede360-05434106213-104",
       "name": "Arguvan Taksi - Metin Karasoy",
       "phone": "05434106213",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arguvan",
+      "districtName": "Arguvan",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1297,8 +1666,12 @@
       "id": "nerede360-05446872685-105",
       "name": "Arguvan Taksi - Mustafa Demir",
       "phone": "05446872685",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": "https://www.instagram.com/mustafadmir.1/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arguvan",
+      "districtName": "Arguvan",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1308,8 +1681,12 @@
       "id": "nerede360-05421423044-106",
       "name": "Arguvan Taksi - Şevket Maman",
       "phone": "05421423044",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arguvan",
+      "districtName": "Arguvan",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1319,8 +1696,12 @@
       "id": "nerede360-05434795859-107",
       "name": "Çelebi Taksi - Serkan Kırıcı",
       "phone": "05434795859",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "hekimhan",
+      "districtName": "Hekimhan",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1330,8 +1711,12 @@
       "id": "nerede360-05399600162-108",
       "name": "Hasanbey Taksi - Kenan Yavuz",
       "phone": "05399600162",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": "https://www.instagram.com/kenanyavuz105/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1341,8 +1726,12 @@
       "id": "nerede360-05382720648-109",
       "name": "Malatya Taksi - Asım Özdemir",
       "phone": "05382720648",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1352,8 +1741,12 @@
       "id": "nerede360-05443351390-110",
       "name": "Malatya Taksi - Mehmet Gençer",
       "phone": "05443351390",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1363,8 +1756,12 @@
       "id": "nerede360-05372880541-111",
       "name": "Malatya Taksi - Sefa Polat",
       "phone": "05372880541",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1374,8 +1771,12 @@
       "id": "nerede360-05079990012-112",
       "name": "Malatya Taksi - Ümit Erbil",
       "phone": "05079990012",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "battalgazi",
+      "districtName": "Battalgazi",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1385,8 +1786,12 @@
       "id": "nerede360-05352371138-113",
       "name": "Taksi Alim - Ali Çağlar Avşar",
       "phone": "05352371138",
-      "lat": 38.3552,
-      "lon": 38.3095,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yesilyurt",
+      "districtName": "Yeşilyurt",
       "approximate": true,
       "sources": [
         "nerede360"

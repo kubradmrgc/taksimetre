@@ -1,12 +1,39 @@
 {
   "cityId": "mus",
   "cityName": "Muş",
-  "fetchedAt": "2026-08-30T21:22:03.243Z",
+  "fetchedAt": "2026-08-30T21:34:45.498Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bulanik",
+      "name": "Bulanik",
+      "count": 14
+    },
+    {
+      "id": "haskoy",
+      "name": "Haskoy",
+      "count": 1
+    },
+    {
+      "id": "malazgirt",
+      "name": "Malazgirt",
+      "count": 4
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 11
+    },
+    {
+      "id": "varto",
+      "name": "Varto",
+      "count": 4
+    }
   ],
   "count": 49,
   "stands": [
@@ -14,9 +41,12 @@
       "id": "taksi724-05389419196-0",
       "name": "Hastane Taksi",
       "phone": "05389419196",
+      "website": null,
       "lat": 39.0944274,
       "lon": 42.2635287,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +56,12 @@
       "id": "taksi724-05350480749-1",
       "name": "Konak Taksi",
       "phone": "05350480749",
+      "website": null,
       "lat": 38.7448685,
       "lon": 41.5181371,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +71,12 @@
       "id": "taksi724-04362122525-2",
       "name": "Lale Taksi",
       "phone": "04362122525",
+      "website": null,
       "lat": 38.7408379,
       "lon": 41.4959505,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -51,9 +87,12 @@
       "id": "taksi724-04362127777-3",
       "name": "Lider Taksi",
       "phone": "04362127777",
+      "website": null,
       "lat": 38.7492228,
       "lon": 41.5007461,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -63,9 +102,12 @@
       "id": "taksi724-04363113088-4",
       "name": "Merkez Taksi",
       "phone": "04363113088",
+      "website": null,
       "lat": 39.0923363,
       "lon": 42.2719685,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -76,9 +118,12 @@
       "id": "taksi724-05312404910-5",
       "name": "HAVALiMANI TAKSi",
       "phone": "05312404910",
+      "website": null,
       "lat": 39.0923177,
       "lon": 42.2694092,
       "address": "Taksi Durağı ·  · 106. Sk. No:19",
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -89,9 +134,12 @@
       "id": "taksi724-05369200926-6",
       "name": "Muş Taksi",
       "phone": "05369200926",
+      "website": null,
       "lat": 38.7781403,
       "lon": 41.4979436,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -101,9 +149,12 @@
       "id": "taksi724-05301385549-7",
       "name": "Muş Zafer Taksi",
       "phone": "05301385549",
+      "website": null,
       "lat": 38.7415763,
       "lon": 41.5102696,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -113,9 +164,12 @@
       "id": "taksi724-04362162828-8",
       "name": "Ovam Taksi",
       "phone": "04362162828",
+      "website": null,
       "lat": 38.7589415,
       "lon": 41.5085121,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -125,9 +179,12 @@
       "id": "taksi724-04362121111-9",
       "name": "Sağlık Taksi",
       "phone": "04362121111",
+      "website": null,
       "lat": 38.7366775,
       "lon": 41.4847794,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -139,9 +196,12 @@
       "id": "taksi724-04362126363-10",
       "name": "Muş Taksi",
       "phone": "04362126363",
+      "website": null,
       "lat": 38.737542,
       "lon": 41.494237,
       "address": "Taksi Durağı ·  · 168. Sk.",
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -152,9 +212,12 @@
       "id": "taksi724-05427412570-11",
       "name": "Yeni Hastane Taksi",
       "phone": "05427412570",
+      "website": null,
       "lat": 38.7433635,
       "lon": 41.5128561,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -165,9 +228,12 @@
       "id": "taksi724-05312438571-12",
       "name": "Zafer Taksi",
       "phone": "05312438571",
+      "website": null,
       "lat": 39.0945956,
       "lon": 42.27551,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -177,9 +243,12 @@
       "id": "taksi724-04362162322-13",
       "name": "mus-taksi",
       "phone": "04362162322",
+      "website": null,
       "lat": 38.7497146,
       "lon": 41.5037228,
       "address": null,
+      "districtId": "bulanik",
+      "districtName": "Bulanik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -190,9 +259,12 @@
       "id": "taksi724-14-14",
       "name": "Bizim Taksi",
       "phone": null,
+      "website": null,
       "lat": 38.74266638,
       "lon": 41.50351938,
       "address": "Saray Mah. Murat Cad. 1 Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -202,9 +274,12 @@
       "id": "taksi724-04362120616-15",
       "name": "Çiçek Taksi",
       "phone": "04362120616",
+      "website": null,
       "lat": 38.747792,
       "lon": 41.502276,
       "address": "Sunay Mah. Atatürk Blv. İstasyon Cad. Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -215,9 +290,12 @@
       "id": "taksi724-04362161616-16",
       "name": "Havaalanı Taksi",
       "phone": "04362161616",
+      "website": null,
       "lat": 38.758618,
       "lon": 41.502212,
       "address": "Zafer Mah. Erzurum Cad. Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -227,9 +305,12 @@
       "id": "taksi724-05369200926-17",
       "name": "Huzur Taksi",
       "phone": "05369200926",
+      "website": null,
       "lat": 38.744161,
       "lon": 41.504984,
       "address": "Sunay Mah. Cumhuriyet Cad. Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -240,9 +321,12 @@
       "id": "taksi724-04362124444-18",
       "name": "Muş Birlik Vip Taksi",
       "phone": "04362124444",
+      "website": null,
       "lat": 38.736146,
       "lon": 41.491428,
       "address": "Hürriyet Mah. Lise Cad. Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -253,9 +337,12 @@
       "id": "taksi724-05312588995-19",
       "name": "Öz Muş Taksi",
       "phone": "05312588995",
+      "website": null,
       "lat": 38.738866,
       "lon": 41.499164,
       "address": "Dere Mah. Cumhuriyet Cad. 100 Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -265,9 +352,12 @@
       "id": "taksi724-04362121355-20",
       "name": "Umut Taksi",
       "phone": "04362121355",
+      "website": null,
       "lat": 38.730978,
       "lon": 41.488284,
       "address": "Minare Mah. Belediye Cad. (Belediye Yanı) Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -279,9 +369,12 @@
       "id": "taksi724-04362164141-21",
       "name": "Yeşilyurt Taksi",
       "phone": "04362164141",
+      "website": null,
       "lat": 38.75539,
       "lon": 41.502171,
       "address": "Zafer Mah. Barakalar Cad. Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -291,9 +384,12 @@
       "id": "taksi724-04362160101-22",
       "name": "Zafer Taksi",
       "phone": "04362160101",
+      "website": null,
       "lat": 38.748262,
       "lon": 41.508928,
       "address": "Yeşilyurt Mah. Millet Cad. 2/A Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -304,9 +400,12 @@
       "id": "taksi724-04362162828-23",
       "name": "mus-taksi",
       "phone": "04362162828",
+      "website": null,
       "lat": 38.760348,
       "lon": 41.510023,
       "address": "Zafer Mah. İstasyon Cad. Muş Merkez, Muş",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -318,9 +417,12 @@
       "id": "taksi724-04362161616-24",
       "name": "Güvenir Taksi",
       "phone": "04362161616",
+      "website": "https://www.instagram.com/cicek_taksi_mus/",
       "lat": 39.147906,
       "lon": 42.543197,
       "address": "Mengüçgazi Mah. Yılan Kıran Cad. Malazgirt, Muş",
+      "districtId": "malazgirt",
+      "districtName": "Malazgirt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -331,9 +433,12 @@
       "id": "taksi724-05334128049-25",
       "name": "Malazgirt Dilek Taksi",
       "phone": "05334128049",
+      "website": null,
       "lat": 39.147184,
       "lon": 42.542632,
       "address": "Saltukgazi Mah. Yılan Kıran Cad. 34 Malazgirt, Muş",
+      "districtId": "malazgirt",
+      "districtName": "Malazgirt",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -343,9 +448,12 @@
       "id": "taksi724-05075170226-26",
       "name": "Malazgirt Taksi",
       "phone": "05075170226",
+      "website": null,
       "lat": 39.1452651,
       "lon": 42.5407191,
       "address": "Taksi Durağı · 108. Sk.",
+      "districtId": "malazgirt",
+      "districtName": "Malazgirt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -356,9 +464,12 @@
       "id": "taksi724-05345882349-27",
       "name": "Malazgirt Dilek Taksi",
       "phone": "05345882349",
+      "website": null,
       "lat": 39.1438628,
       "lon": 42.535628,
       "address": "Taksi Durağı · 402. Sk.",
+      "districtId": "malazgirt",
+      "districtName": "Malazgirt",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -369,9 +480,12 @@
       "id": "taksi724-28-28",
       "name": "Merkez Taksi",
       "phone": null,
+      "website": null,
       "lat": 39.17449554,
       "lon": 41.45399244,
       "address": "Kültür Mah. Atatürk Cad. Varto, Muş",
+      "districtId": "varto",
+      "districtName": "Varto",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -381,9 +495,12 @@
       "id": "taksi724-05312588995-29",
       "name": "Muş Taksi",
       "phone": "05312588995",
+      "website": null,
       "lat": 39.172232,
       "lon": 41.453896,
       "address": "Kültür Mah. Cumhuriyet Cad. Varto, Muş",
+      "districtId": "varto",
+      "districtName": "Varto",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -394,9 +511,12 @@
       "id": "taksi724-05366054242-30",
       "name": "Varto Hastane Taksi",
       "phone": "05366054242",
+      "website": null,
       "lat": 39.1744568,
       "lon": 41.4503051,
       "address": null,
+      "districtId": "varto",
+      "districtName": "Varto",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -407,9 +527,12 @@
       "id": "taksi724-04367114777-31",
       "name": "Varto Hastane Taksi",
       "phone": "04367114777",
+      "website": null,
       "lat": 39.1572735,
       "lon": 41.4476478,
       "address": "Taksi Durağı · Gümgüm mahallesi Erzurum, Çaylar Cd. No:1",
+      "districtId": "varto",
+      "districtName": "Varto",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -419,9 +542,12 @@
       "id": "taksi724-32-32",
       "name": "Hasköy ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 39.979462,
       "lon": 32.8863179,
       "address": null,
+      "districtId": "haskoy",
+      "districtName": "Haskoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -431,9 +557,12 @@
       "id": "taksicibul-05424064177-33",
       "name": "AsVip Serbest Taksi",
       "phone": "05424064177",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -444,9 +573,12 @@
       "id": "taksicibul-05352020349-34",
       "name": "Muş Merkez Taksi",
       "phone": "05352020349",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -456,9 +588,12 @@
       "id": "taksicibul-05426812729-35",
       "name": "Muş Otogar Taksi ( reşat yayık)",
       "phone": "05426812729",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -469,9 +604,12 @@
       "id": "taksiciler-05383178015-36",
       "name": "Muş Otogar Taksi – Muş Havalimanı Taksi AÇIK · 7 gün 24 saat Şehirler arası otob",
       "phone": "05383178015",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -481,9 +619,12 @@
       "id": "taksiciler-05384612998-37",
       "name": "Mus Taksi 49",
       "phone": "05384612998",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -493,9 +634,12 @@
       "id": "taksiciler-05306626484-38",
       "name": "Class Taksi",
       "phone": "05306626484",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -505,9 +649,12 @@
       "id": "taksiciler-04363112626-39",
       "name": "Güven Taksi Bulanık",
       "phone": "04363112626",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -517,9 +664,12 @@
       "id": "taksiciler-05373517413-40",
       "name": "Tümü → Birlik Taksi",
       "phone": "05373517413",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -529,9 +679,12 @@
       "id": "taksiciler-04362124646-41",
       "name": "Kervan Taksi",
       "phone": "04362124646",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -541,9 +694,12 @@
       "id": "taksiciler-04365114009-42",
       "name": "Çiçek Taksi",
       "phone": "04365114009",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -553,9 +709,12 @@
       "id": "taksiciler-05393396055-43",
       "name": "Malazgirt Merkez Taksi",
       "phone": "05393396055",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -565,9 +724,12 @@
       "id": "taksiciler-04367113515-44",
       "name": "Tümü → Akasya Taksi Varto",
       "phone": "04367113515",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -577,9 +739,12 @@
       "id": "taksiciler-04367114727-45",
       "name": "Taksi durağı",
       "phone": "04367114727",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -589,9 +754,12 @@
       "id": "taksiciler-05055470945-46",
       "name": "Onur Taksi",
       "phone": "05055470945",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -601,9 +769,12 @@
       "id": "taksiciler-05373623421-47",
       "name": "Varto Hastane Taksi",
       "phone": "05373623421",
+      "website": null,
       "lat": 38.7346,
       "lon": 41.491,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -613,8 +784,12 @@
       "id": "nerede360-05523904849-48",
       "name": "Muş Taksi - Yusuf Gencer",
       "phone": "05523904849",
-      "lat": 38.7346,
-      "lon": 41.491,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

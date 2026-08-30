@@ -1,12 +1,64 @@
 {
   "cityId": "mugla",
   "cityName": "Muğla",
-  "fetchedAt": "2026-08-30T21:21:59.096Z",
+  "fetchedAt": "2026-08-30T21:34:41.022Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bodrum",
+      "name": "Bodrum",
+      "count": 51
+    },
+    {
+      "id": "dalaman",
+      "name": "Dalaman",
+      "count": 1
+    },
+    {
+      "id": "datca",
+      "name": "Datca",
+      "count": 5
+    },
+    {
+      "id": "fethiye",
+      "name": "Fethiye",
+      "count": 20
+    },
+    {
+      "id": "koycegiz",
+      "name": "Koycegiz",
+      "count": 13
+    },
+    {
+      "id": "marmaris",
+      "name": "Marmaris",
+      "count": 44
+    },
+    {
+      "id": "mentese",
+      "name": "Mentese",
+      "count": 27
+    },
+    {
+      "id": "milas",
+      "name": "Milas",
+      "count": 21
+    },
+    {
+      "id": "ortaca",
+      "name": "Ortaca",
+      "count": 3
+    },
+    {
+      "id": "ula",
+      "name": "Ula",
+      "count": 3
+    }
   ],
   "count": 242,
   "stands": [
@@ -14,9 +66,12 @@
       "id": "taksi724-05423562336-0",
       "name": "Azmakbaşı Taksi",
       "phone": "05423562336",
+      "website": null,
       "lat": 37.035101,
       "lon": 27.40275,
       "address": "Gümbet Mah. İsmet İnönü Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +81,12 @@
       "id": "taksi724-02523162883-1",
       "name": "Bardakçı Taksi",
       "phone": "02523162883",
+      "website": null,
       "lat": 37.033456,
       "lon": 27.433936,
       "address": "Çarşı Mah. Cumhuriyet Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +96,12 @@
       "id": "taksi724-02523168669-2",
       "name": "Bitez Ağaçlı Taksi",
       "phone": "02523168669",
+      "website": null,
       "lat": 37.031937,
       "lon": 27.409962,
       "address": "Eskiçeşme Mah. Osman Nuri Bilgin Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -51,9 +112,12 @@
       "id": "taksi724-05372611923-3",
       "name": "Bitez Ay Taksi",
       "phone": "05372611923",
+      "website": null,
       "lat": 37.0362476,
       "lon": 27.3921847,
       "address": "Taksi Durağı · Bitez Mahallesi Kavaklı Sarnıç Cad, 1405. Sk. No: 59 Sitesi Girişi",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -63,9 +127,12 @@
       "id": "taksi724-02523196122-4",
       "name": "Bitez Taksi",
       "phone": "02523196122",
+      "website": null,
       "lat": 37.0364136,
       "lon": 27.3924684,
       "address": null,
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -75,9 +142,12 @@
       "id": "taksi724-05413637755-5",
       "name": "Bodrum Taksi",
       "phone": "05413637755",
+      "website": null,
       "lat": 37.028502,
       "lon": 27.375777,
       "address": "Bitez-Bitez Mah. Şah Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -88,9 +158,12 @@
       "id": "taksi724-05559631112-6",
       "name": "ÇAĞLAR TAKSI",
       "phone": "05559631112",
+      "website": null,
       "lat": 37.033508,
       "lon": 27.419074,
       "address": "Eskiçeşme Mah. Şafak Sok. 70 Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -100,9 +173,12 @@
       "id": "taksi724-05436732713-7",
       "name": "Çukurbahçe Taksi",
       "phone": "05436732713",
+      "website": null,
       "lat": 37.0421661,
       "lon": 27.4330843,
       "address": null,
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -112,9 +188,12 @@
       "id": "taksi724-02523130338-8",
       "name": "Dost Taksi",
       "phone": "02523130338",
+      "website": null,
       "lat": 37.0350257,
       "lon": 27.432483,
       "address": "Taksi Durağı · Atatürk Cd. No:8",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -125,9 +204,12 @@
       "id": "taksi724-02523192300-9",
       "name": "Taksi durağı",
       "phone": "02523192300",
+      "website": null,
       "lat": 37.039387,
       "lon": 27.406754,
       "address": "Cevat Şakir Mah. İsmet İnönü Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -137,9 +219,12 @@
       "id": "taksi724-05441940908-10",
       "name": "Garaj Taksi",
       "phone": "05441940908",
+      "website": null,
       "lat": 37.0416324,
       "lon": 27.3821446,
       "address": "Taksi · Mandalin Cd. No: 47-45",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -149,9 +234,12 @@
       "id": "taksi724-02523823288-11",
       "name": "Gerence Taksi",
       "phone": "02523823288",
+      "website": null,
       "lat": 37.037461,
       "lon": 27.435284,
       "address": "Çarşı Mah. Cevat Şakir Cad. (Garaj İçi) Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -161,9 +249,12 @@
       "id": "taksi724-02523137770-12",
       "name": "Gül Taksi",
       "phone": "02523137770",
+      "website": null,
       "lat": 37.036373,
       "lon": 27.426154,
       "address": "Tepecik Mah. Neyzen Tevfik Sok. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -174,9 +265,12 @@
       "id": "taksi724-02523163898-13",
       "name": "Gümbet EskiÇeşme Taksi",
       "phone": "02523163898",
+      "website": null,
       "lat": 37.038076,
       "lon": 27.422159,
       "address": "Yeniköy Mah. Turgutreis Cad. 302 Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -186,9 +280,12 @@
       "id": "taksi724-02523194862-14",
       "name": "Gümbet İskandil Taksi",
       "phone": "02523194862",
+      "website": null,
       "lat": 37.03683,
       "lon": 27.40756,
       "address": "Taksi Durağı ·  · Kartal Sk.",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -199,9 +296,12 @@
       "id": "taksi724-02523192386-15",
       "name": "Gümbet Taksi",
       "phone": "02523192386",
+      "website": null,
       "lat": 37.034873,
       "lon": 27.397863,
       "address": "Taksi Durağı ·  · Oramiral Kemal Kayacan Cd. No:27",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -211,9 +311,12 @@
       "id": "taksi724-05559631112-16",
       "name": "Gümüşlük Taksi",
       "phone": "05559631112",
+      "website": null,
       "lat": 37.032147,
       "lon": 27.407189,
       "address": "Gümbet Mah. Mister Hadi Sok. 10 Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -224,9 +327,12 @@
       "id": "taksi724-02523943228-17",
       "name": "Güvercinlik Taksi",
       "phone": "02523943228",
+      "website": null,
       "lat": 37.034407,
       "lon": 27.43054,
       "address": "Taksi Durağı · Yalı Mevkii Sahil Cd. 1135 Sk. No :1",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -236,9 +342,12 @@
       "id": "taksi724-02523745129-18",
       "name": "İçmeler Taksi",
       "phone": "02523745129",
+      "website": null,
       "lat": 37.133576,
       "lon": 27.580035,
       "address": "Güvercinlik Köyü (Bodrum Milas Karayolu) Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -249,9 +358,12 @@
       "id": "taksi724-05350247181-19",
       "name": "Kadıkale Taksi",
       "phone": "05350247181",
+      "website": null,
       "lat": 37.0132376,
       "lon": 27.4530614,
       "address": null,
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -262,9 +374,12 @@
       "id": "taksi724-02523826361-20",
       "name": "Kardeşler Taksi",
       "phone": "02523826361",
+      "website": null,
       "lat": 37.007343,
       "lon": 27.259376,
       "address": "Turgutreis-Akçaalan Mah. Kadıkalesi, Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -274,9 +389,12 @@
       "id": "taksi724-05512734800-21",
       "name": "Kaya Taksi",
       "phone": "05512734800",
+      "website": null,
       "lat": 36.972329,
       "lon": 27.295306,
       "address": "Akyarlar Köyü Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -286,9 +404,12 @@
       "id": "taksi724-02523938484-22",
       "name": "Konacik Taksi",
       "phone": "02523938484",
+      "website": null,
       "lat": 36.971729,
       "lon": 27.295306,
       "address": "Akyarlar Köyü Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -299,9 +420,12 @@
       "id": "taksi724-05379991777-23",
       "name": "Kon Taksi",
       "phone": "05379991777",
+      "website": null,
       "lat": 37.046453,
       "lon": 27.400424,
       "address": "Taksi Durağı · Uslu Sk.",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -312,9 +436,12 @@
       "id": "taksi724-02523191473-24",
       "name": "Köşem Taksi",
       "phone": "02523191473",
+      "website": null,
       "lat": 37.04379,
       "lon": 27.403408,
       "address": "Merkez Mah. Şehit Barış Akay Cad. (Jandarma Karşısı) Konacık, Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -325,9 +452,12 @@
       "id": "taksi724-05441850041-25",
       "name": "Manastır Taksi",
       "phone": "05441850041",
+      "website": null,
       "lat": 37.033311,
       "lon": 27.437085,
       "address": "Kumbahçe Mah. Dere Sok. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -337,9 +467,12 @@
       "id": "taksi724-02523162957-26",
       "name": "Marina Taksi",
       "phone": "02523162957",
+      "website": null,
       "lat": 37.0292265,
       "lon": 27.4433076,
       "address": "Taksi Durağı · Mustafa Kemal Paşa Caddesi No: 37",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -349,9 +482,12 @@
       "id": "taksi724-02523161634-27",
       "name": "Marmara Taksi",
       "phone": "02523161634",
+      "website": null,
       "lat": 37.033525,
       "lon": 27.42206,
       "address": "Neyzen Tevfik Cad. 7 Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -361,9 +497,12 @@
       "id": "taksi724-02523161454-28",
       "name": "Mausoleum Taksi",
       "phone": "02523161454",
+      "website": null,
       "lat": 37.041229,
       "lon": 27.438478,
       "address": "Yokuşbaşı Mah. Kıbrıs Şehitleri Cad. 4 (Ticaret Odası Yanı Emniyet Müdürlüğü Karşısı) Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -374,9 +513,12 @@
       "id": "taksi724-02523163323-29",
       "name": "Merkez Taksi",
       "phone": "02523163323",
+      "website": null,
       "lat": 37.035773,
       "lon": 27.426154,
       "address": "Tepecik Mah. Neyzen Tevfik Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -387,9 +529,12 @@
       "id": "taksi724-05382414783-30",
       "name": "Metem Taksi",
       "phone": "05382414783",
+      "website": null,
       "lat": 37.037335,
       "lon": 27.430797,
       "address": "Çarşı Mah. Türkkuyusu Cad. 1 Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -399,9 +544,12 @@
       "id": "taksi724-02523196641-31",
       "name": "Myndos Taksi",
       "phone": "02523196641",
+      "website": null,
       "lat": 37.0259114,
       "lon": 27.3899197,
       "address": null,
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -412,9 +560,12 @@
       "id": "taksi724-02523168046-32",
       "name": "Nur Taksi",
       "phone": "02523168046",
+      "website": null,
       "lat": 37.0371814,
       "lon": 27.4169615,
       "address": "Taksi Durağı · Myndos Cd. No:43",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -425,9 +576,12 @@
       "id": "taksi724-05512734800-33",
       "name": "Oasıs Taksi",
       "phone": "05512734800",
+      "website": null,
       "lat": 37.036429,
       "lon": 27.420101,
       "address": "Eskiçeşme Mah. Çoban Yıldızı Sok. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -437,9 +591,12 @@
       "id": "taksi724-02523170680-34",
       "name": "Ortakent Yahşi Taksi",
       "phone": "02523170680",
+      "website": null,
       "lat": 37.042113,
       "lon": 27.409069,
       "address": "Cumhuriyet Mah. Giritli Mustafa Bey Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -450,9 +607,12 @@
       "id": "taksi724-02523585544-35",
       "name": "Özel Bodrum hastanesi Taksi",
       "phone": "02523585544",
+      "website": null,
       "lat": 37.0510254,
       "lon": 27.3849588,
       "address": null,
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -462,9 +622,12 @@
       "id": "taksi724-02523137231-36",
       "name": "Özlem Taksi",
       "phone": "02523137231",
+      "website": null,
       "lat": 37.0408282,
       "lon": 27.4299426,
       "address": null,
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -474,9 +637,12 @@
       "id": "taksi724-02522120071-37",
       "name": "Plaj Taksi",
       "phone": "02522120071",
+      "website": null,
       "lat": 37.038061,
       "lon": 27.435284,
       "address": "Çarşı Mah. Cevat Şakir Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -486,9 +652,12 @@
       "id": "taksi724-05512734800-38",
       "name": "Taksi durağı",
       "phone": "05512734800",
+      "website": null,
       "lat": 37.033588,
       "lon": 27.400697,
       "address": "Zengin Hüsetyin Sok. Gümbet, Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -498,9 +667,12 @@
       "id": "taksi724-02523168787-39",
       "name": "Tmt Taksi",
       "phone": "02523168787",
+      "website": null,
       "lat": 37.031878,
       "lon": 27.437967,
       "address": "Kumbahçe Mah. Cumhuriyet Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -510,9 +682,12 @@
       "id": "taksi724-05423161063-40",
       "name": "Torba Taksi",
       "phone": "05423161063",
+      "website": null,
       "lat": 37.025609,
       "lon": 27.44428,
       "address": "Kumbahçe Mah. Akçabük Sok. 178 Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -523,9 +698,12 @@
       "id": "taksi724-02523671191-41",
       "name": "Torba Taksi",
       "phone": "02523671191",
+      "website": null,
       "lat": 37.064033,
       "lon": 27.4643423,
       "address": "Taksi Durağı ·  · Rıza Anter Cd. No:3",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -536,9 +714,12 @@
       "id": "taksi724-05385688090-42",
       "name": "Turgutreis Garaj Taksi",
       "phone": "05385688090",
+      "website": null,
       "lat": 37.080201,
       "lon": 27.461676,
       "address": "Torba Mah. İsmet İnönü Blv. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -548,9 +729,12 @@
       "id": "taksi724-05411274848-43",
       "name": "Durağı - S.s. 146 Nolu Taksi",
       "phone": "05411274848",
+      "website": null,
       "lat": 37.006965,
       "lon": 27.258029,
       "address": "Turgutreis Mah. Mehmet Hilmi Cad. Belediye Garajı Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -560,9 +744,12 @@
       "id": "taksi724-02523826727-44",
       "name": "Turgutreis Nağme Taksi",
       "phone": "02523826727",
+      "website": null,
       "lat": 36.983371,
       "lon": 27.257088,
       "address": "Turgutreis Mah. Gazi Mustafa Kemal Blv. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -572,9 +759,12 @@
       "id": "taksi724-02523822845-45",
       "name": "Üç Kuyular Taksi",
       "phone": "02523822845",
+      "website": null,
       "lat": 36.980875,
       "lon": 27.260085,
       "address": "Turgutreis Mah. 4131 Sok. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -584,9 +774,12 @@
       "id": "taksi724-02523166723-46",
       "name": "Uğur Taksi",
       "phone": "02523166723",
+      "website": null,
       "lat": 37.035319,
       "lon": 27.4360928,
       "address": "Taksi Durağı · Üçkuyular Cd. No:30",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -597,9 +790,12 @@
       "id": "taksi724-02523167152-47",
       "name": "Yahşi Taksi",
       "phone": "02523167152",
+      "website": null,
       "lat": 37.032769,
       "lon": 27.438332,
       "address": "Kumbahçe Mah. Atatürk Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -610,9 +806,12 @@
       "id": "taksi724-02523483348-48",
       "name": "Yıldız Taksi",
       "phone": "02523483348",
+      "website": null,
       "lat": 37.040052,
       "lon": 27.437222,
       "address": "Ortakentyahşi-Yahşi Mah. Cevat Şakir Cad. Umurca, Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -622,9 +821,12 @@
       "id": "taksi724-02523163869-49",
       "name": "Zetaş Taksi",
       "phone": "02523163869",
+      "website": null,
       "lat": 37.03843,
       "lon": 27.442095,
       "address": "Omurça Mah. Dr. Mümtaz Ataman Cad. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -635,9 +837,12 @@
       "id": "taksi724-02523195333-50",
       "name": "mugla-taksi",
       "phone": "02523195333",
+      "website": null,
       "lat": 37.031572,
       "lon": 27.399516,
       "address": "Gümbet Mah. Ethem Kaptan Sok. Bodrum, Muğla",
+      "districtId": "bodrum",
+      "districtName": "Bodrum",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -647,9 +852,12 @@
       "id": "taksi724-02524175986-51",
       "name": "Anfi Taksi",
       "phone": "02524175986",
+      "website": null,
       "lat": 36.847456,
       "lon": 28.255234,
       "address": "Çıldır Mah. 167. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -660,9 +868,12 @@
       "id": "taksi724-02524126662-52",
       "name": "Anıt Taksi",
       "phone": "02524126662",
+      "website": null,
       "lat": 36.849544,
       "lon": 28.255342,
       "address": "Çıldır Mah. İnönü Cad. (Anfi Tiyatro Yanı) Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -672,9 +883,12 @@
       "id": "taksi724-02524126662-53",
       "name": "As Taksi",
       "phone": "02524126662",
+      "website": null,
       "lat": 36.855851,
       "lon": 28.256105,
       "address": "Taksi Durağı · 133. Sk. No:16",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -685,9 +899,12 @@
       "id": "taksi724-05512734800-54",
       "name": "Beldibi Özen Taksi",
       "phone": "05512734800",
+      "website": null,
       "lat": 36.854403,
       "lon": 28.268418,
       "address": "Kemeraltı Mah. Atatürk Cad. 60. Sok. (Abdi İpekçi Parkı Yanı) Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -697,9 +914,12 @@
       "id": "taksi724-05399777080-55",
       "name": "Bulvar Taksi",
       "phone": "05399777080",
+      "website": null,
       "lat": 36.870671,
       "lon": 28.266875,
       "address": "Beldibi-Cumhuriyet Mah. Sarıgül Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -709,9 +929,12 @@
       "id": "taksi724-02524130806-56",
       "name": "Çiçek Taksi",
       "phone": "02524130806",
+      "website": null,
       "lat": 36.8459375,
       "lon": 28.2565758,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -722,9 +945,12 @@
       "id": "taksi724-02524171643-57",
       "name": "Çınar Taksi",
       "phone": "02524171643",
+      "website": null,
       "lat": 36.848821,
       "lon": 28.246765,
       "address": "Armutalan Mah. Şehit Ahmet Benler Cad. 220. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -735,9 +961,12 @@
       "id": "taksi724-58-58",
       "name": "Deniz Taksi",
       "phone": null,
+      "website": null,
       "lat": 36.852739,
       "lon": 28.27274,
       "address": "Tepe Mah. 51. Sok. Merkez, Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -747,9 +976,12 @@
       "id": "taksi724-02524171338-59",
       "name": "Devlet Hastanesi Taksi",
       "phone": "02524171338",
+      "website": null,
       "lat": 36.827629,
       "lon": 28.2432031,
       "address": "Taksi Durağı · 102. Sk. No:2",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -760,9 +992,12 @@
       "id": "taksi724-60-60",
       "name": "Efes Taksi",
       "phone": null,
+      "website": null,
       "lat": 36.856567,
       "lon": 28.237536,
       "address": "Armutalan-Camiavlu Mah. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -772,9 +1007,12 @@
       "id": "taksi724-02524125240-61",
       "name": "Emniyet Taksi",
       "phone": "02524125240",
+      "website": null,
       "lat": 36.843432,
       "lon": 28.253745,
       "address": "Siteler Mah. Kemal Ergün Blv. 242. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -785,9 +1023,12 @@
       "id": "taksi724-05423562336-62",
       "name": "Eser Taksi",
       "phone": "05423562336",
+      "website": null,
       "lat": 36.852504,
       "lon": 28.239814,
       "address": "Armutalan-Merkez Mah. 248. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -797,9 +1038,12 @@
       "id": "taksi724-02524126772-63",
       "name": "Es Taksi",
       "phone": "02524126772",
+      "website": null,
       "lat": 36.850144,
       "lon": 28.255342,
       "address": "Çıldır Mah. İnönü Cad. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -810,9 +1054,12 @@
       "id": "taksi724-05424950882-64",
       "name": "Garaj Taksi",
       "phone": "05424950882",
+      "website": null,
       "lat": 36.853036,
       "lon": 28.271402,
       "address": "Tepe Mah. Kordon Cad. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -822,9 +1069,12 @@
       "id": "taksi724-05444954948-65",
       "name": "Garanti Taksi",
       "phone": "05444954948",
+      "website": null,
       "lat": 36.864588,
       "lon": 28.276412,
       "address": "Sarıana Mah. Mustafa Münir Seyfettin Elgin Cad. Marmaris Otogarı Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -834,9 +1084,12 @@
       "id": "taksi724-02524176575-66",
       "name": "Garden Taksi",
       "phone": "02524176575",
+      "website": null,
       "lat": 36.838051,
       "lon": 28.249184,
       "address": "Siteler Mah. 254. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -847,9 +1100,12 @@
       "id": "taksi724-02524171570-67",
       "name": "Güneş Taksi",
       "phone": "02524171570",
+      "website": null,
       "lat": 36.849471,
       "lon": 28.2417901,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -860,9 +1116,12 @@
       "id": "taksi724-68-68",
       "name": "Güven Taksi",
       "phone": null,
+      "website": null,
       "lat": 36.847479,
       "lon": 28.249464,
       "address": "Armutalan-Merkez Mah. 209. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -872,9 +1131,12 @@
       "id": "taksi724-05382414783-69",
       "name": "Içmeler Taksi",
       "phone": "05382414783",
+      "website": null,
       "lat": 36.848391,
       "lon": 28.258829,
       "address": "Çıldır Mah. 164. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -884,9 +1146,12 @@
       "id": "taksi724-02524553966-70",
       "name": "Işık Taksi",
       "phone": "02524553966",
+      "website": null,
       "lat": 36.799504,
       "lon": 28.233957,
       "address": "İçmeler-Cumhuriyet Mah. Kayabal Cad. 10 Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -896,9 +1161,12 @@
       "id": "taksi724-02524126308-71",
       "name": "Kervansaray Taksi",
       "phone": "02524126308",
+      "website": null,
       "lat": 36.845165,
       "lon": 28.254338,
       "address": "Siteler Mah. Kemal Seyfettin Elgin Blv. 208. Sok. 1 Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -908,9 +1176,12 @@
       "id": "taksi724-02524174905-72",
       "name": "Konak Taksi",
       "phone": "02524174905",
+      "website": null,
       "lat": 36.855225,
       "lon": 28.253879,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -921,9 +1192,12 @@
       "id": "taksi724-02524178214-73",
       "name": "Kozmopolitan Taksi",
       "phone": "02524178214",
+      "website": null,
       "lat": 36.842366,
       "lon": 28.2505988,
       "address": "Taksi Durağı · Cumhuriyet Blv. No:2",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -934,9 +1208,12 @@
       "id": "taksi724-02524133591-74",
       "name": "Lidya Taksi",
       "phone": "02524133591",
+      "website": null,
       "lat": 36.8575454,
       "lon": 28.2573992,
       "address": "Taksi Durağı · 139. Sk. No:93",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -947,9 +1224,12 @@
       "id": "taksi724-02524173394-75",
       "name": "Lidya Taksi",
       "phone": "02524173394",
+      "website": null,
       "lat": 36.837768,
       "lon": 28.246986,
       "address": "Siteler Mah. Cumhuriyet Blv. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -960,9 +1240,12 @@
       "id": "taksi724-02524129028-76",
       "name": "Marmaris Taksi",
       "phone": "02524129028",
+      "website": null,
       "lat": 36.8490136,
       "lon": 28.2819937,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -972,9 +1255,12 @@
       "id": "taksi724-05071514469-77",
       "name": "Taksi durağı",
       "phone": "05071514469",
+      "website": null,
       "lat": 36.851882,
       "lon": 28.266369,
       "address": "Kemeraltı Mah. Atatürk Cad. 66 Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -984,9 +1270,12 @@
       "id": "taksi724-05325605231-78",
       "name": "Marmaris Yalancıboğaz Taksi",
       "phone": "05325605231",
+      "website": null,
       "lat": 36.8567082,
       "lon": 28.2706032,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -996,9 +1285,12 @@
       "id": "taksi724-05314660075-79",
       "name": "Netsel Marina Taksi",
       "phone": "05314660075",
+      "website": null,
       "lat": 36.8176723,
       "lon": 28.3091476,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1008,9 +1300,12 @@
       "id": "taksi724-02524122954-80",
       "name": "Özen Taksi",
       "phone": "02524122954",
+      "website": null,
       "lat": 36.8534498,
       "lon": 28.2804642,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1021,9 +1316,12 @@
       "id": "taksi724-02524120119-81",
       "name": "Pazar Taksi",
       "phone": "02524120119",
+      "website": null,
       "lat": 36.8628287,
       "lon": 28.272391,
       "address": "Taksi Durağı · 243. Sk. No:11",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1034,9 +1332,12 @@
       "id": "taksi724-05512734800-82",
       "name": "Pıneta Taksi",
       "phone": "05512734800",
+      "website": null,
       "lat": 36.854946,
       "lon": 28.266462,
       "address": "Kemeraltı Mah. Genaral Mustafa Muğlalı Cad. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1046,9 +1347,12 @@
       "id": "taksi724-05346468899-83",
       "name": "Taksi durağı",
       "phone": "05346468899",
+      "website": null,
       "lat": 36.838294,
       "lon": 28.24523,
       "address": "Armutalan Mah. Kenan Evren Blv. 133. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1058,9 +1362,12 @@
       "id": "taksi724-05372161727-84",
       "name": "Şirin Taksi",
       "phone": "05372161727",
+      "website": null,
       "lat": 36.849637,
       "lon": 28.281761,
       "address": null,
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1070,9 +1377,12 @@
       "id": "taksi724-02524173272-85",
       "name": "Site Taksi",
       "phone": "02524173272",
+      "website": null,
       "lat": 36.833235,
       "lon": 28.242818,
       "address": "Armutalan-Şirinyer Mah. 116. Sok. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1083,9 +1393,12 @@
       "id": "taksi724-02524172184-86",
       "name": "Spor Taksi",
       "phone": "02524172184",
+      "website": null,
       "lat": 36.8357363,
       "lon": 28.2457667,
       "address": "Taksi Durağı · Cumhuriyet Blv. No:29",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1096,9 +1409,12 @@
       "id": "taksi724-05512734800-87",
       "name": "Star Taksi",
       "phone": "05512734800",
+      "website": null,
       "lat": 36.853283,
       "lon": 28.262898,
       "address": "Çıldır Mah. Hasan Işık Cad. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1108,9 +1424,12 @@
       "id": "taksi724-05445982800-88",
       "name": "Sunar Taksi",
       "phone": "05445982800",
+      "website": null,
       "lat": 36.847966,
       "lon": 28.258846,
       "address": "Çıldır Mah. Kemal Seyfettin Elgin Blv. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1120,9 +1439,12 @@
       "id": "taksi724-02524172817-89",
       "name": "Taksi",
       "phone": "02524172817",
+      "website": null,
       "lat": 36.851141,
       "lon": 28.252341,
       "address": "Armutalan Mah. Yunus Nadi Cad. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1133,9 +1455,12 @@
       "id": "taksi724-02524126278-90",
       "name": "Taksi",
       "phone": "02524126278",
+      "website": null,
       "lat": 36.8418393,
       "lon": 28.2523595,
       "address": "Taksi Durağı · 209. Sk. No:5",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1146,9 +1471,12 @@
       "id": "taksi724-05372161727-91",
       "name": "Turunç Taksi",
       "phone": "05372161727",
+      "website": null,
       "lat": 36.858224,
       "lon": 28.2776656,
       "address": "Taksi · Sarıana Mahallesi",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1158,9 +1486,12 @@
       "id": "taksi724-02524767121-92",
       "name": "Yalı Taksi",
       "phone": "02524767121",
+      "website": null,
       "lat": 36.773684,
       "lon": 28.247855,
       "address": "Turunç-Merkez Mah. Cumhuriyet Cad. Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1170,9 +1501,12 @@
       "id": "taksi724-05416143636-93",
       "name": "Yıldırım Taksi",
       "phone": "05416143636",
+      "website": null,
       "lat": 36.849708,
       "lon": 28.263319,
       "address": "Çıldır Mah. Kemal Seyfettin Elgin Blv. 1 Marmaris, Muğla",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1182,9 +1516,12 @@
       "id": "taksi724-05325599962-94",
       "name": "mugla-taksi",
       "phone": "05325599962",
+      "website": null,
       "lat": 36.854507,
       "lon": 28.2430177,
       "address": "Taksi Durağı · Mehmet Akif Ersoy Cd. No:9",
+      "districtId": "marmaris",
+      "districtName": "Marmaris",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1194,9 +1531,12 @@
       "id": "taksi724-05360533797-95",
       "name": "Garaj Taksi",
       "phone": "05360533797",
+      "website": null,
       "lat": 37.213872,
       "lon": 28.364343,
       "address": "Emirbeyazıt Mah. Zübeyde Hanım Cad. 2/B (Öğretmenevi Karşısı) Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1206,9 +1546,12 @@
       "id": "taksi724-05444954948-96",
       "name": "Has Taksi",
       "phone": "05444954948",
+      "website": null,
       "lat": 37.214767,
       "lon": 28.363049,
       "address": "Emirbeyazıt Mah. Özer Türk Cad. Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1218,9 +1561,12 @@
       "id": "taksi724-02522140096-97",
       "name": "Hey Güven Taksi",
       "phone": "02522140096",
+      "website": null,
       "lat": 37.215161,
       "lon": 28.368812,
       "address": "Orhaniye Mah. İsmet Çatak Cad. 22 Dk:20 Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1230,9 +1576,12 @@
       "id": "taksi724-05423562336-98",
       "name": "Kampüs Taksi",
       "phone": "05423562336",
+      "website": null,
       "lat": 37.217521,
       "lon": 28.365283,
       "address": "Şeyh Mah. İsmet İnönü Cad. Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1242,9 +1591,12 @@
       "id": "taksi724-05432526214-99",
       "name": "Kampüs Taksi",
       "phone": "05432526214",
+      "website": null,
       "lat": 37.178123,
       "lon": 28.3728,
       "address": "Kötekli Mah. Sıtkı Koçman Cad. Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1254,9 +1606,12 @@
       "id": "taksi724-05432526214-100",
       "name": "Kötekli Poyraz Taksi",
       "phone": "05432526214",
+      "website": null,
       "lat": 37.1719994,
       "lon": 28.376671,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1267,9 +1622,12 @@
       "id": "taksi724-05346468899-101",
       "name": "Kötekli Taksi",
       "phone": "05346468899",
+      "website": null,
       "lat": 37.1659275,
       "lon": 28.385228,
       "address": "Taksi Durağı · Caddesi No:82",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1279,9 +1637,12 @@
       "id": "taksi724-05372901408-102",
       "name": "Kötekli Üniversite Taksi",
       "phone": "05372901408",
+      "website": null,
       "lat": 37.1666751,
       "lon": 28.3844624,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1292,9 +1653,12 @@
       "id": "taksi724-05466031034-103",
       "name": "Menteşe Bulvar Taksi",
       "phone": "05466031034",
+      "website": null,
       "lat": 37.1719896,
       "lon": 28.3766037,
       "address": "Taksi · sıtkı koçman cad, 241. Sk.",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1305,9 +1669,12 @@
       "id": "taksi724-05525550057-104",
       "name": "Merkez Taksi",
       "phone": "05525550057",
+      "website": null,
       "lat": 37.209061,
       "lon": 28.3602038,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1317,9 +1684,12 @@
       "id": "taksi724-05382414783-105",
       "name": "Merkez Taksi",
       "phone": "05382414783",
+      "website": null,
       "lat": 37.214623,
       "lon": 28.365075,
       "address": "Şeyh Mah. İsmet İnönü Cad. 3 Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1329,9 +1699,12 @@
       "id": "taksi724-05330171848-106",
       "name": "MUĞLA ADLiYE YANI ESKi OTOGAR TAKSI",
       "phone": "05330171848",
+      "website": null,
       "lat": 37.265343,
       "lon": 28.3959429,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1342,9 +1715,12 @@
       "id": "taksi724-05524350048-107",
       "name": "Muğla Garaj Taksi",
       "phone": "05524350048",
+      "website": null,
       "lat": 37.208613,
       "lon": 28.3595269,
       "address": "Taksi Durağı ·  · Atatürk Blv. No:25",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1354,9 +1730,12 @@
       "id": "taksi724-05444954948-108",
       "name": "Muğla Hastane Taksi",
       "phone": "05444954948",
+      "website": null,
       "lat": 37.1946423,
       "lon": 28.3521877,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1366,9 +1745,12 @@
       "id": "taksi724-05444852848-109",
       "name": "Muğla Menteşe Taksi",
       "phone": "05444852848",
+      "website": null,
       "lat": 37.1633017,
       "lon": 28.3673855,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1378,9 +1760,12 @@
       "id": "taksi724-05422520066-110",
       "name": "Muğla Menteşe ZEYBEK TAKSi",
       "phone": "05422520066",
+      "website": null,
       "lat": 37.2132913,
       "lon": 28.3598376,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1390,9 +1775,12 @@
       "id": "taksi724-05441850041-111",
       "name": "Muğla Örnek Taksi",
       "phone": "05441850041",
+      "website": null,
       "lat": 37.2160898,
       "lon": 28.3534005,
       "address": "Taksi Durağı · Cem Sk. No:1",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1402,9 +1790,12 @@
       "id": "taksi724-05543204848-112",
       "name": "Muğla Taksi",
       "phone": "05543204848",
+      "website": null,
       "lat": 37.2101214,
       "lon": 28.364803,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1415,9 +1806,12 @@
       "id": "taksi724-05400480004-113",
       "name": "Muğla Yeni Otogar Taksi",
       "phone": "05400480004",
+      "website": null,
       "lat": 37.2098514,
       "lon": 28.364473,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1427,9 +1821,12 @@
       "id": "taksi724-05524350048-114",
       "name": "Örnek Taksi",
       "phone": "05524350048",
+      "website": null,
       "lat": 37.2098376,
       "lon": 28.3587319,
       "address": null,
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1440,9 +1837,12 @@
       "id": "taksi724-05512734800-115",
       "name": "Özlem Taksi",
       "phone": "05512734800",
+      "website": null,
       "lat": 37.216468,
       "lon": 28.361646,
       "address": "Emirbeyazıt Mah. Üçler Sok. 1/E Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1452,9 +1852,12 @@
       "id": "taksi724-02522120071-116",
       "name": "Poyraz Taksi",
       "phone": "02522120071",
+      "website": null,
       "lat": 37.216644,
       "lon": 28.361379,
       "address": "Muslihittin Mah. Recai Güreli Cad. 34 Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1465,9 +1868,12 @@
       "id": "taksi724-05346468899-117",
       "name": "Saburhane Taksi",
       "phone": "05346468899",
+      "website": null,
       "lat": 37.177523,
       "lon": 28.3728,
       "address": "Kötekli Mah. Sıtkı Koşman Cad. Muğla Merkez, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1478,9 +1884,12 @@
       "id": "taksi724-05424726867-118",
       "name": "Sağlık Taksi",
       "phone": "05424726867",
+      "website": null,
       "lat": 37.218695,
       "lon": 28.371141,
       "address": "Taksi Durağı · Kara Muğla Cd. No:30",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1491,9 +1900,12 @@
       "id": "taksi724-05558295892-119",
       "name": "Taksi",
       "phone": "05558295892",
+      "website": null,
       "lat": 37.21355272,
       "lon": 28.37046012,
       "address": "Orhaniye Mah. Haluk Özsoy Cad. 31 Menteşe, Muğla",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1505,9 +1917,12 @@
       "id": "taksi724-05052976224-120",
       "name": "mugla-taksi",
       "phone": "05052976224",
+      "website": null,
       "lat": 37.210993,
       "lon": 28.3639163,
       "address": "Taksi Durağı · Emirbeyazıt Mahallesi, Eren Sk.",
+      "districtId": "mentese",
+      "districtName": "Mentese",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1518,9 +1933,12 @@
       "id": "taksi724-05332405630-121",
       "name": "Adliye Taksi",
       "phone": "05332405630",
+      "website": null,
       "lat": 37.32629187,
       "lon": 27.78393744,
       "address": "Güneş Mah. Labranda Blv. Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1530,9 +1948,12 @@
       "id": "taksi724-05332405630-122",
       "name": "Akyol Taksi",
       "phone": "05332405630",
+      "website": null,
       "lat": 37.326326,
       "lon": 27.784034,
       "address": "Güneş Mah. Labranda Blv. Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1542,9 +1963,12 @@
       "id": "taksi724-05337215357-123",
       "name": "Birlik Taksi",
       "phone": "05337215357",
+      "website": null,
       "lat": 37.2287205,
       "lon": 27.6817993,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1554,9 +1978,12 @@
       "id": "taksi724-05360533797-124",
       "name": "Boğaziçi Siteler Taksi",
       "phone": "05360533797",
+      "website": null,
       "lat": 37.306806,
       "lon": 27.779852,
       "address": "İsmet Paşa Mah. Ahmet Taner Kışlalı Cad. Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1566,9 +1993,12 @@
       "id": "taksi724-05374839060-125",
       "name": "Güllük Taksi",
       "phone": "05374839060",
+      "website": null,
       "lat": 37.1882459,
       "lon": 27.5547372,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1578,9 +2008,12 @@
       "id": "taksi724-126-126",
       "name": "Gül Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.238026,
       "lon": 27.597533,
       "address": "Güllük-Atatürk Mah. Hermiyas Cad. 8 Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1590,9 +2023,12 @@
       "id": "taksi724-02525133561-127",
       "name": "Iasos Taksi",
       "phone": "02525133561",
+      "website": null,
       "lat": 37.315402,
       "lon": 27.778497,
       "address": "Hacıilyas Mah. Menteşe Cad. Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1602,9 +2038,12 @@
       "id": "taksi724-05386232022-128",
       "name": "İkamet Milas Taksi",
       "phone": "05386232022",
+      "website": null,
       "lat": 37.280784,
       "lon": 27.580234,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1614,9 +2053,12 @@
       "id": "taksi724-05438666484-129",
       "name": "Meşelik Mandalya Körfez Taksi",
       "phone": "05438666484",
+      "website": null,
       "lat": 37.3112801,
       "lon": 27.7790003,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1626,9 +2068,12 @@
       "id": "taksi724-02523745149-130",
       "name": "Meşelik Taksi",
       "phone": "02523745149",
+      "website": null,
       "lat": 37.148054,
       "lon": 27.594716,
       "address": "Meşelik Köyü Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1638,9 +2083,12 @@
       "id": "taksi724-02523745149-131",
       "name": "Milas Hastane Taksi",
       "phone": "02523745149",
+      "website": null,
       "lat": 37.1460937,
       "lon": 27.5826795,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1650,9 +2098,12 @@
       "id": "taksi724-05522044848-132",
       "name": "Milas Meydan Taksi",
       "phone": "05522044848",
+      "website": null,
       "lat": 37.316156,
       "lon": 27.787857,
       "address": "Taksi Durağı ·  · Hastane Cd. No:24",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1662,9 +2113,12 @@
       "id": "taksi724-05334470194-133",
       "name": "Milas pomelon Taksi",
       "phone": "05334470194",
+      "website": null,
       "lat": 37.314422,
       "lon": 27.782575,
       "address": "Hisarbaşı-Hoca Bedrettin Mah. Tabakhane Cad. 23/A Milas, Muğla",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1674,9 +2128,12 @@
       "id": "taksi724-05421044948-134",
       "name": "Milas Taksi",
       "phone": "05421044948",
+      "website": null,
       "lat": 37.307129,
       "lon": 27.787994,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1686,9 +2143,12 @@
       "id": "taksi724-05336547191-135",
       "name": "7/24 TAKSI",
       "phone": "05336547191",
+      "website": null,
       "lat": 37.308512,
       "lon": 27.7797495,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1698,9 +2158,12 @@
       "id": "taksi724-05315688948-136",
       "name": "Murat Taksi",
       "phone": "05315688948",
+      "website": null,
       "lat": 37.288848,
       "lon": 27.7818473,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1710,9 +2173,12 @@
       "id": "taksi724-02525121515-137",
       "name": "Murat Taksi",
       "phone": "02525121515",
+      "website": null,
       "lat": 37.3139622,
       "lon": 27.7803072,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1722,9 +2188,12 @@
       "id": "taksi724-05312220008-138",
       "name": "Minibüs Taksi",
       "phone": "05312220008",
+      "website": null,
       "lat": 37.3137028,
       "lon": 27.7801744,
       "address": "Minibüs Taksi Hizmeti · Sodra Sk. No: 10",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1734,9 +2203,12 @@
       "id": "taksi724-05441404888-139",
       "name": "Üçyol Taksi",
       "phone": "05441404888",
+      "website": null,
       "lat": 37.308602,
       "lon": 27.7798595,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1746,9 +2218,12 @@
       "id": "taksi724-05396967848-140",
       "name": "Taksi durağı",
       "phone": "05396967848",
+      "website": null,
       "lat": 37.2883162,
       "lon": 27.7803372,
       "address": "Ulaşım Hizmeti · Gençlik Cd. No:26, 48200",
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1758,9 +2233,12 @@
       "id": "taksi724-05468368532-141",
       "name": "mugla-taksi",
       "phone": "05468368532",
+      "website": null,
       "lat": 37.2889252,
       "lon": 27.7819425,
       "address": null,
+      "districtId": "milas",
+      "districtName": "Milas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1770,9 +2248,12 @@
       "id": "taksi724-05360533797-142",
       "name": "Çalış Taksi",
       "phone": "05360533797",
+      "website": null,
       "lat": 36.621834,
       "lon": 29.113887,
       "address": "Cumhuriyet Mah. 501. Sk Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1782,9 +2263,12 @@
       "id": "taksi724-02526221163-143",
       "name": "Göcek Taksi",
       "phone": "02526221163",
+      "website": null,
       "lat": 36.6614578,
       "lon": 29.1115918,
       "address": "Taksi Durağı · 999. Sk. No:3",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1795,9 +2279,12 @@
       "id": "taksi724-05456431166-144",
       "name": "Hastane Birlik Taksi",
       "phone": "05456431166",
+      "website": null,
       "lat": 36.756596,
       "lon": 28.937527,
       "address": "Göcek-Cumhuriyet Mah. Turgut Özal Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1807,9 +2294,12 @@
       "id": "taksi724-05360533797-145",
       "name": "Hastane Taksi",
       "phone": "05360533797",
+      "website": null,
       "lat": 36.643339,
       "lon": 29.124257,
       "address": "Akarca Mah. Mustafa Kemal Blv. Günlükbaşı, Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1819,9 +2309,12 @@
       "id": "taksi724-02526136844-146",
       "name": "Hürmet Taksi",
       "phone": "02526136844",
+      "website": null,
       "lat": 36.653848,
       "lon": 29.120093,
       "address": null,
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1832,9 +2325,12 @@
       "id": "taksi724-02526131257-147",
       "name": "Işık Taksi",
       "phone": "02526131257",
+      "website": null,
       "lat": 36.6583143,
       "lon": 29.1323593,
       "address": null,
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1845,9 +2341,12 @@
       "id": "taksi724-02526147744-148",
       "name": "Kordon Taksi",
       "phone": "02526147744",
+      "website": null,
       "lat": 36.622633,
       "lon": 29.12054,
       "address": "Kesikkapı Mah. Pürşah Bey Cad. Köprübaşı, Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1857,9 +2356,12 @@
       "id": "taksi724-05375782526-149",
       "name": "Lykia Taksi",
       "phone": "05375782526",
+      "website": null,
       "lat": 36.622099,
       "lon": 29.114673,
       "address": "Cumhuriyet Mah. Atatürk Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1869,9 +2371,12 @@
       "id": "taksi724-02526170515-150",
       "name": "Lykıa Taksi",
       "phone": "02526170515",
+      "website": null,
       "lat": 36.54906,
       "lon": 29.126811,
       "address": "Ölüdeniz-Belceğiz Mah. Kıdırak Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1881,9 +2386,12 @@
       "id": "taksi724-02526170515-151",
       "name": "Marına Taksi",
       "phone": "02526170515",
+      "website": null,
       "lat": 36.54966,
       "lon": 29.126811,
       "address": "Ölüdeniz-Belceğiz Mah. Kıdırak Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1893,9 +2401,12 @@
       "id": "taksi724-05382414783-152",
       "name": "Merkez Taksi",
       "phone": "05382414783",
+      "website": null,
       "lat": 36.624567,
       "lon": 29.11548,
       "address": "Cumhuriyet Mah. Ali Gaffar Okkan Cad. 6 Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1905,9 +2416,12 @@
       "id": "taksi724-05382414783-153",
       "name": "Migros Taksi",
       "phone": "05382414783",
+      "website": null,
       "lat": 36.622132,
       "lon": 29.111032,
       "address": "Göcek-Cumhuriyet Mah. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1917,9 +2431,12 @@
       "id": "taksi724-02526122525-154",
       "name": "Ölüdeniz Taksi",
       "phone": "02526122525",
+      "website": null,
       "lat": 36.631357,
       "lon": 29.124084,
       "address": "Tuzla Mah. Mustafa Kemal Blv. (Migros Yanı) Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1929,9 +2446,12 @@
       "id": "taksi724-05379286035-155",
       "name": "Otogar Taksi",
       "phone": "05379286035",
+      "website": null,
       "lat": 36.547331,
       "lon": 29.124042,
       "address": "Ölüdeniz-Belceğiz Mah. Çarşı Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1941,9 +2461,12 @@
       "id": "taksi724-05444954948-156",
       "name": "Ovacık Taksi",
       "phone": "05444954948",
+      "website": null,
       "lat": 36.624102,
       "lon": 29.130981,
       "address": "Taşyaka Mah. Fethiye Otogarı Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1953,9 +2476,12 @@
       "id": "taksi724-05439564848-157",
       "name": "Patlangıç Leton Hastanesi Taksi",
       "phone": "05439564848",
+      "website": null,
       "lat": 36.576467,
       "lon": 29.146528,
       "address": "Ölüdeniz-Ovacık Mah. Makmara Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1965,9 +2491,12 @@
       "id": "taksi724-02526468282-158",
       "name": "Sahil Taksi",
       "phone": "02526468282",
+      "website": null,
       "lat": 36.629134,
       "lon": 29.148687,
       "address": "Pazaryeri Mah. Şehit Sabri Acar Cad. (Leton Hastanesi Önü) Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1977,9 +2506,12 @@
       "id": "taksi724-159-159",
       "name": "Yalı Taksi",
       "phone": null,
+      "website": null,
       "lat": 36.622434,
       "lon": 29.113887,
       "address": "Cumhuriyet Mah. Atatürk Cad. 501. Sok. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1989,9 +2521,12 @@
       "id": "taksi724-05416143636-160",
       "name": "Yat Taksi",
       "phone": "05416143636",
+      "website": null,
       "lat": 36.628108,
       "lon": 29.118118,
       "address": "Tuzla Mah. 522. Sok. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2001,9 +2536,12 @@
       "id": "taksi724-02526144477-161",
       "name": "mugla-taksi",
       "phone": "02526144477",
+      "website": null,
       "lat": 36.621499,
       "lon": 29.114673,
       "address": "Cumhuriyet Mah. Atatürk Cad. Fethiye, Muğla",
+      "districtId": "fethiye",
+      "districtName": "Fethiye",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2014,9 +2552,12 @@
       "id": "taksi724-05360533797-162",
       "name": "Dalaman Havalimanı Taksi",
       "phone": "05360533797",
+      "website": null,
       "lat": 36.97428649,
       "lon": 28.68588357,
       "address": "Ulucami Mah. Atatürk Blv. Köyceğiz Otogarı Köyceğiz, Muğla",
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2026,9 +2567,12 @@
       "id": "taksi724-02526925241-163",
       "name": "DALAMAN VIP TRANSFER SARI TAKSI",
       "phone": "02526925241",
+      "website": null,
       "lat": 36.723653,
       "lon": 28.789669,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2039,9 +2583,12 @@
       "id": "taksi724-05364791995-164",
       "name": "Denizli Çamlık Kongre Merkezi Taksi",
       "phone": "05364791995",
+      "website": null,
       "lat": 36.7227964,
       "lon": 28.7884955,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2051,9 +2598,12 @@
       "id": "taksi724-05523520505-165",
       "name": "Taksi durağı",
       "phone": "05523520505",
+      "website": null,
       "lat": 37.7603493,
       "lon": 29.0928558,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2063,9 +2613,12 @@
       "id": "taksi724-05422868149-166",
       "name": "Hisar Taksi",
       "phone": "05422868149",
+      "website": null,
       "lat": 36.7102226,
       "lon": 28.7163148,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2076,9 +2629,12 @@
       "id": "taksi724-02524670285-167",
       "name": "Ölüdeniz Ovacık Taksi",
       "phone": "02524670285",
+      "website": null,
       "lat": 36.8051093,
       "lon": 28.1146919,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2088,9 +2644,12 @@
       "id": "taksi724-02526166137-168",
       "name": "Ölüdeniz Ovacık Taksi",
       "phone": "02526166137",
+      "website": null,
       "lat": 36.586477,
       "lon": 29.1560551,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2101,9 +2660,12 @@
       "id": "taksi724-02526166619-169",
       "name": "Patlangıç Letoon Taksi",
       "phone": "02526166619",
+      "website": null,
       "lat": 36.5755347,
       "lon": 29.1500297,
       "address": "Taksi Durağı · Marmara Cd. No:2",
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2114,9 +2676,12 @@
       "id": "taksi724-02526468282-170",
       "name": "S.S. Çiftlik-Kargı Taksi",
       "phone": "02526468282",
+      "website": null,
       "lat": 36.6299886,
       "lon": 29.1525937,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2126,9 +2691,12 @@
       "id": "taksi724-05312661070-171",
       "name": "Taksi",
       "phone": "05312661070",
+      "website": null,
       "lat": 36.6845757,
       "lon": 29.0757949,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2138,9 +2706,12 @@
       "id": "taksi724-05301563259-172",
       "name": "Yanıklar Taksi",
       "phone": "05301563259",
+      "website": null,
       "lat": 36.7162647,
       "lon": 28.2361631,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2150,9 +2721,12 @@
       "id": "taksi724-05550446348-173",
       "name": "Zeybek Taksi",
       "phone": "05550446348",
+      "website": null,
       "lat": 36.6921327,
       "lon": 29.04556,
       "address": null,
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2163,9 +2737,12 @@
       "id": "taksi724-05401850036-174",
       "name": "mugla-taksi",
       "phone": "05401850036",
+      "website": null,
       "lat": 37.2254813,
       "lon": 28.3258303,
       "address": "Taksi Durağı · 5. Sk. No:2",
+      "districtId": "koycegiz",
+      "districtName": "Koycegiz",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2176,9 +2753,12 @@
       "id": "taksi724-05423562336-175",
       "name": "Eski Datça - Hastane Taksi",
       "phone": "05423562336",
+      "website": null,
       "lat": 36.722852,
       "lon": 27.68599472,
       "address": "İskele Mah. Atatürk Cad. Datça, Muğla",
+      "districtId": "datca",
+      "districtName": "Datca",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2189,9 +2769,12 @@
       "id": "taksi724-05316494800-176",
       "name": "Garaj Migros Taksi",
       "phone": "05316494800",
+      "website": null,
       "lat": 36.7409528,
       "lon": 27.6681566,
       "address": null,
+      "districtId": "datca",
+      "districtName": "Datca",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2202,9 +2785,12 @@
       "id": "taksi724-02527122024-177",
       "name": "Knıdos Taksi",
       "phone": "02527122024",
+      "website": null,
       "lat": 36.733063,
       "lon": 27.681661,
       "address": "Taksi Durağı ·  · Çevre Yolu No:2",
+      "districtId": "datca",
+      "districtName": "Datca",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2215,9 +2801,12 @@
       "id": "taksi724-02527124040-178",
       "name": "Özgür Taksi",
       "phone": "02527124040",
+      "website": null,
       "lat": 36.722852,
       "lon": 27.68729128,
       "address": "İskele Mah. Atatürk Cad. Datça, Muğla",
+      "districtId": "datca",
+      "districtName": "Datca",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2227,9 +2816,12 @@
       "id": "taksi724-02527123237-179",
       "name": "Garaj Migros Taksi",
       "phone": "02527123237",
+      "website": null,
       "lat": 36.723152,
       "lon": 27.686643,
       "address": "İskele Mah. Atatürk Cad. Datça, Muğla",
+      "districtId": "datca",
+      "districtName": "Datca",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2240,9 +2832,12 @@
       "id": "taksi724-05375782526-180",
       "name": "Ortaca Garaj Taksi",
       "phone": "05375782526",
+      "website": null,
       "lat": 36.834258,
       "lon": 28.642607,
       "address": "Dalyan-Gülpınar Mah. Kordon Boyu Meydanı Ortaca, Muğla",
+      "districtId": "ortaca",
+      "districtName": "Ortaca",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2252,9 +2847,12 @@
       "id": "taksi724-02522827171-181",
       "name": "Sarıgerme Taksi",
       "phone": "02522827171",
+      "website": null,
       "lat": 36.838702,
       "lon": 28.763563,
       "address": "Beşköprü Mah. Meclis Sok. Ortaca, Muğla",
+      "districtId": "ortaca",
+      "districtName": "Ortaca",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2265,9 +2863,12 @@
       "id": "taksi724-05326134848-182",
       "name": "Sarıgerme Taksi",
       "phone": "05326134848",
+      "website": null,
       "lat": 36.713849,
       "lon": 28.703454,
       "address": "Sarıgerme Köyü Ortaca, Muğla",
+      "districtId": "ortaca",
+      "districtName": "Ortaca",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2277,9 +2878,12 @@
       "id": "taksi724-05366864499-183",
       "name": "Akyaka Merkez Taksi",
       "phone": "05366864499",
+      "website": null,
       "lat": 37.058105,
       "lon": 28.327196,
       "address": "Atatürk Cad. Akyaka Beldesi, Ula, Muğla",
+      "districtId": "ula",
+      "districtName": "Ula",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2290,9 +2894,12 @@
       "id": "taksi724-05411484008-184",
       "name": "Akyaka Taksi",
       "phone": "05411484008",
+      "website": null,
       "lat": 37.0549617,
       "lon": 28.3398994,
       "address": null,
+      "districtId": "ula",
+      "districtName": "Ula",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -2303,9 +2910,12 @@
       "id": "taksi724-05326665789-185",
       "name": "Akyaka Taksi",
       "phone": "05326665789",
+      "website": null,
       "lat": 37.0406854,
       "lon": 28.332253,
       "address": null,
+      "districtId": "ula",
+      "districtName": "Ula",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2315,9 +2925,12 @@
       "id": "taksi724-04586017770-186",
       "name": "Dalaman Taksi",
       "phone": "04586017770",
+      "website": null,
       "lat": 36.766472,
       "lon": 28.80067,
       "address": "Merkez Mah. Atatürk Cad. 1 (Garanti Bankası Karşısı) Dalaman, Muğla",
+      "districtId": "dalaman",
+      "districtName": "Dalaman",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -2327,9 +2940,12 @@
       "id": "taksicibul-05461480063-187",
       "name": "Muğla Taksi (Menteşe)",
       "phone": "05461480063",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -2339,9 +2955,12 @@
       "id": "taksicibul-05052143344-188",
       "name": "Muğla Feryat Taksi",
       "phone": "05052143344",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -2351,9 +2970,12 @@
       "id": "taksicibul-05384176677-189",
       "name": "Poyraz taksi",
       "phone": "05384176677",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -2363,9 +2985,12 @@
       "id": "taksicibul-02522239400-190",
       "name": "Kötekli Yücelen Taksi",
       "phone": "02522239400",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -2376,9 +3001,12 @@
       "id": "taksiciler-05388684858-191",
       "name": "Tümü → Akcabuk Taksi",
       "phone": "05388684858",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2388,9 +3016,12 @@
       "id": "taksiciler-02523689113-192",
       "name": "Bağla Taksi",
       "phone": "02523689113",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2400,9 +3031,12 @@
       "id": "taksiciler-05415778351-193",
       "name": "Bodrum Gizem Özer Taksi Durağı",
       "phone": "05415778351",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2412,9 +3046,12 @@
       "id": "taksiciler-05324572010-194",
       "name": "Bodrum Havaalanı Taksi Transfer AÇIK · 7 gün 24 saat Cevat Şakir, Kıbrıs Şehitle",
       "phone": "05324572010",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2424,9 +3061,12 @@
       "id": "taksiciler-02523164415-195",
       "name": "Çağlar Taksı",
       "phone": "02523164415",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2436,9 +3076,12 @@
       "id": "taksiciler-02523162226-196",
       "name": "Dost Taksi AÇIK · 7 gün 24 saat Gümbet, Cevat Şakir Mahallesi, İsmet İnönü Cd. N",
       "phone": "02523162226",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2448,9 +3091,12 @@
       "id": "taksiciler-02523161515-197",
       "name": "Garaj Taksi Bodrum",
       "phone": "02523161515",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2460,9 +3106,12 @@
       "id": "taksiciler-02523191914-198",
       "name": "Gima Taksi Durağı",
       "phone": "02523191914",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2472,9 +3121,12 @@
       "id": "taksiciler-02523577384-199",
       "name": "Gölköy Taksi",
       "phone": "02523577384",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2484,9 +3136,12 @@
       "id": "taksiciler-02523194649-200",
       "name": "Gümbet Can Taksi",
       "phone": "02523194649",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2496,9 +3151,12 @@
       "id": "taksiciler-02523194945-201",
       "name": "Gümbet Deniz Taksi",
       "phone": "02523194945",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2508,9 +3166,12 @@
       "id": "taksiciler-05453877031-202",
       "name": "Gündoğan Taksi",
       "phone": "05453877031",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2520,9 +3181,12 @@
       "id": "taksiciler-02523937209-203",
       "name": "Kardeşler Taksi",
       "phone": "02523937209",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2532,9 +3196,12 @@
       "id": "taksiciler-02523371294-204",
       "name": "Kaynar Taksi",
       "phone": "02523371294",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2544,9 +3211,12 @@
       "id": "taksiciler-02523160391-205",
       "name": "Körfez Taksi – Bodrum Torba Taksi AÇIK · 7 gün 24 saat Torba Mah. Heredot Bulvar",
       "phone": "02523160391",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2556,9 +3226,12 @@
       "id": "taksiciler-02523168803-206",
       "name": "Nur Taksi",
       "phone": "02523168803",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2568,9 +3241,12 @@
       "id": "taksiciler-02523193816-207",
       "name": "Ortakent Yahşi Taksi AÇIK · 7 gün 24 saat Konacık, Zeytinli Cd (Bodrum-Turgutrei",
       "phone": "02523193816",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2580,9 +3256,12 @@
       "id": "taksiciler-05423163792-208",
       "name": "Sağlık Taksi Bodrum",
       "phone": "05423163792",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2592,9 +3271,12 @@
       "id": "taksiciler-02523163792-209",
       "name": "Sağlık Taksi Bodrum Muğla",
       "phone": "02523163792",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2604,9 +3286,12 @@
       "id": "taksiciler-02523854089-210",
       "name": "Ss142 Nolu Yalıkavak Taksi Durağı",
       "phone": "02523854089",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2616,9 +3301,12 @@
       "id": "taksiciler-02523193196-211",
       "name": "Tepe Taksi",
       "phone": "02523193196",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2628,9 +3316,12 @@
       "id": "taksiciler-02523671229-212",
       "name": "Torba Taksi Merkez Durak",
       "phone": "02523671229",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2640,9 +3331,12 @@
       "id": "taksiciler-02523823369-213",
       "name": "Turgutreis Marina Taksi AÇIK · 7 gün 24 saat Turgutreis, Gazi Mustafa Kemal Blv.",
       "phone": "02523823369",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2652,9 +3346,12 @@
       "id": "taksiciler-05433816728-214",
       "name": "İmge Transfer Dalaman – Marmaris Datça Transfer Dalaman Taksi",
       "phone": "05433816728",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2664,9 +3361,12 @@
       "id": "taksiciler-02527122021-215",
       "name": "Özbel Taksi",
       "phone": "02527122021",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2676,9 +3376,12 @@
       "id": "taksiciler-02526141111-216",
       "name": "Birlik Sahil Taksi",
       "phone": "02526141111",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2688,9 +3391,12 @@
       "id": "taksiciler-05416221070-217",
       "name": "Çiftlik Taksi",
       "phone": "05416221070",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2700,9 +3406,12 @@
       "id": "taksiciler-02526143333-218",
       "name": "Fethiye Otogar Taksi",
       "phone": "02526143333",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2712,9 +3421,12 @@
       "id": "taksiciler-02526180091-219",
       "name": "Kayaköy-keçiler Taksi Durağı",
       "phone": "02526180091",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2724,9 +3436,12 @@
       "id": "taksiciler-02526144445-220",
       "name": "Kordon Taksi",
       "phone": "02526144445",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2736,9 +3451,12 @@
       "id": "taksiciler-02526166324-221",
       "name": "Liberty Lykia Faralya Taksi AÇIK · 7 gün 24 saat Liberty Lykia World Hotel, Belc",
       "phone": "02526166324",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2748,9 +3466,12 @@
       "id": "taksiciler-02526143636-222",
       "name": "Yalı Taksi Fethiye",
       "phone": "02526143636",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2760,9 +3481,12 @@
       "id": "taksiciler-02522622030-223",
       "name": "Tümü → Merkez Taksi",
       "phone": "02522622030",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2772,9 +3496,12 @@
       "id": "taksiciler-02524123515-224",
       "name": "As Taksi",
       "phone": "02524123515",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2784,9 +3511,12 @@
       "id": "taksiciler-02524124152-225",
       "name": "Çınar Taksi Marmaris",
       "phone": "02524124152",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2796,9 +3526,12 @@
       "id": "taksiciler-02524128542-226",
       "name": "Güven Taksi Marmaris",
       "phone": "02524128542",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2808,9 +3541,12 @@
       "id": "taksiciler-02524129847-227",
       "name": "Hisar Taksi AÇIK · 7 gün 24 saat hisar taksi durağı, Hisarönü mah çubucak mevki,",
       "phone": "02524129847",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2820,9 +3556,12 @@
       "id": "taksiciler-02524135466-228",
       "name": "Marmaris Devlet Hastanesi Taksi",
       "phone": "02524135466",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2832,9 +3571,12 @@
       "id": "taksiciler-02524124311-229",
       "name": "Marmaris Es Taksi",
       "phone": "02524124311",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2844,9 +3586,12 @@
       "id": "taksiciler-02524121326-230",
       "name": "Marmaris Taksi",
       "phone": "02524121326",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2856,9 +3601,12 @@
       "id": "taksiciler-02524173472-231",
       "name": "Park Taksi Marmaris",
       "phone": "02524173472",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2868,9 +3616,12 @@
       "id": "taksiciler-02524124766-232",
       "name": "Pazar Taksi AÇIK · 7 gün 24 saat Kemeraltı, Org. Mustafa Muğlalı Cd. No:48, 4870",
       "phone": "02524124766",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2880,9 +3631,12 @@
       "id": "taksiciler-02524125489-233",
       "name": "Spor Taksi AÇIK · 7 gün 24 saat Kemeraltı Mh. Hasan Işık Cd, Dörtyol Kavşağı, 48",
       "phone": "02524125489",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2892,9 +3646,12 @@
       "id": "taksiciler-02524126280-234",
       "name": "Taksici Sezer (marmaris) AÇIK · 7 gün 24 saat Çıldır, Kemal Seyfettin Elgin Blv.",
       "phone": "02524126280",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2904,9 +3661,12 @@
       "id": "taksiciler-05316126965-235",
       "name": "Akyaka Taksi",
       "phone": "05316126965",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2916,9 +3676,12 @@
       "id": "taksiciler-05321321424-236",
       "name": "Akyaka Taksi Sezgin",
       "phone": "05321321424",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2928,9 +3691,12 @@
       "id": "taksiciler-05433624499-237",
       "name": "Akyaka Taksii",
       "phone": "05433624499",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2940,9 +3706,12 @@
       "id": "taksiciler-02522149944-238",
       "name": "Garaj Taksi",
       "phone": "02522149944",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2952,9 +3721,12 @@
       "id": "taksiciler-02522120731-239",
       "name": "Sağlık Taksi",
       "phone": "02522120731",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2964,9 +3736,12 @@
       "id": "taksiciler-02525725068-240",
       "name": "Tümü → Yatagan Taksi",
       "phone": "02525725068",
+      "website": null,
       "lat": 37.2153,
       "lon": 28.3636,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -2976,8 +3751,12 @@
       "id": "nerede360-05066206502-241",
       "name": "Kötekli Taksi - Arif Can",
       "phone": "05066206502",
-      "lat": 37.2153,
-      "lon": 28.3636,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "mentese",
+      "districtName": "Menteşe",
       "approximate": true,
       "sources": [
         "nerede360"

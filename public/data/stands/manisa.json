@@ -1,12 +1,79 @@
 {
   "cityId": "manisa",
   "cityName": "Manisa",
-  "fetchedAt": "2026-08-30T21:21:35.003Z",
+  "fetchedAt": "2026-08-30T21:34:14.927Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akhisar",
+      "name": "Akhisar",
+      "count": 8
+    },
+    {
+      "id": "alasehir",
+      "name": "Alasehir",
+      "count": 7
+    },
+    {
+      "id": "demirci",
+      "name": "Demirci",
+      "count": 1
+    },
+    {
+      "id": "gordes",
+      "name": "Gordes",
+      "count": 2
+    },
+    {
+      "id": "kirkagac",
+      "name": "Kirkagac",
+      "count": 2
+    },
+    {
+      "id": "kula",
+      "name": "Kula",
+      "count": 3
+    },
+    {
+      "id": "salihli",
+      "name": "Salihli",
+      "count": 9
+    },
+    {
+      "id": "sarigol",
+      "name": "Sarigol",
+      "count": 5
+    },
+    {
+      "id": "saruhanli",
+      "name": "Saruhanli",
+      "count": 1
+    },
+    {
+      "id": "sehzadeler",
+      "name": "Sehzadeler",
+      "count": 25
+    },
+    {
+      "id": "soma",
+      "name": "Soma",
+      "count": 8
+    },
+    {
+      "id": "turgutlu",
+      "name": "Turgutlu",
+      "count": 12
+    },
+    {
+      "id": "yunusemre",
+      "name": "Yunusemre",
+      "count": 15
+    }
   ],
   "count": 139,
   "stands": [
@@ -14,9 +81,12 @@
       "id": "taksi724-05077601887-0",
       "name": "Alaybey Taksi",
       "phone": "05077601887",
+      "website": null,
       "lat": 38.6112988,
       "lon": 27.3821833,
       "address": "Taksi · 5526. Sk. No :3",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -27,9 +97,12 @@
       "id": "taksi724-05333695135-1",
       "name": "Anemon Taksi",
       "phone": "05333695135",
+      "website": null,
       "lat": 38.6130531,
       "lon": 27.4416898,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -40,9 +113,12 @@
       "id": "taksi724-02362338434-2",
       "name": "Arda Taksi",
       "phone": "02362338434",
+      "website": null,
       "lat": 38.6074675,
       "lon": 27.3629289,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -53,9 +129,12 @@
       "id": "taksi724-02362500911-3",
       "name": "C b ü Hastane Taksi",
       "phone": "02362500911",
+      "website": null,
       "lat": 38.6175547,
       "lon": 27.4219608,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -66,9 +145,12 @@
       "id": "taksi724-05443021113-4",
       "name": "Igt Taksi",
       "phone": "05443021113",
+      "website": null,
       "lat": 38.6112456,
       "lon": 27.3814325,
       "address": "Üniversite Hastanesi ·  · Uncubozköy Mahallesi, C.b.u Hastanesı",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -79,9 +161,12 @@
       "id": "taksi724-05064053179-5",
       "name": "Kalkan Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.613386,
       "lon": 27.429383,
       "address": "Utku Mah. Çimentepe Cad. 37 Şehzadeler, Manisa",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -91,9 +176,12 @@
       "id": "taksi724-05304126500-6",
       "name": "Karaali Taksi",
       "phone": "05304126500",
+      "website": null,
       "lat": 38.6097137,
       "lon": 27.3610389,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -104,9 +192,12 @@
       "id": "taksi724-05382212528-7",
       "name": "Laleli Taksi",
       "phone": "05382212528",
+      "website": null,
       "lat": 38.647651,
       "lon": 27.3491548,
       "address": "Taksi Durağı ·  · Rainbow Live Avm Yanı, Manolya Sokak No:228",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -117,9 +208,12 @@
       "id": "taksi724-02362330003-8",
       "name": "Manisa Gar Taksi",
       "phone": "02362330003",
+      "website": null,
       "lat": 38.6183694,
       "lon": 27.3947432,
       "address": "Taksi Durağı ·  · Fatih Cd. No:42/b",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -130,9 +224,12 @@
       "id": "taksi724-05064053179-9",
       "name": "Manisa Hastane Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.621198,
       "lon": 27.435383,
       "address": "2.Anafartalar Mah. Manisa Tren Garı Şehzadeler, Manisa",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -142,9 +239,12 @@
       "id": "taksi724-02362372860-10",
       "name": "Manisa Otogar Taksi",
       "phone": "02362372860",
+      "website": null,
       "lat": 38.612543,
       "lon": 27.407185,
       "address": "Taksi Durağı ·  · İzmir Cd. No: 303",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -155,9 +255,12 @@
       "id": "taksi724-05308971039-11",
       "name": "Manisa Prime Taksi",
       "phone": "05308971039",
+      "website": null,
       "lat": 38.639098,
       "lon": 27.4457682,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -167,9 +270,12 @@
       "id": "taksi724-05323729868-12",
       "name": "Manisa Şehir Hastanesi Taksi",
       "phone": "05323729868",
+      "website": null,
       "lat": 38.6167503,
       "lon": 27.3983492,
       "address": "Taksi Durağı · Nusret Köklü Cd. No: 6",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -179,9 +285,12 @@
       "id": "taksi724-05525539545-13",
       "name": "Manisa Taksi",
       "phone": "05525539545",
+      "website": null,
       "lat": 38.6162771,
       "lon": 27.4603489,
       "address": "Ulaşım Hizmeti ·  · 132. Sk. No:15",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -192,9 +301,12 @@
       "id": "taksi724-05064053179-14",
       "name": "Manisa Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.615883,
       "lon": 27.44306098,
       "address": "Şehitler Mah. 814. Sok. Şehzadeler, Manisa",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -204,9 +316,12 @@
       "id": "taksi724-05539245374-15",
       "name": "Manisa Yıldız ve Laleli Taksi",
       "phone": "05539245374",
+      "website": null,
       "lat": 38.6237565,
       "lon": 27.3936565,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -216,9 +331,12 @@
       "id": "taksi724-02362331788-16",
       "name": "MURADiYE TAKSi",
       "phone": "02362331788",
+      "website": null,
       "lat": 38.6177579,
       "lon": 27.3306735,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -229,9 +347,12 @@
       "id": "taksi724-05340638819-17",
       "name": "Park Taksi",
       "phone": "05340638819",
+      "website": null,
       "lat": 38.6597032,
       "lon": 27.3373318,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -242,9 +363,12 @@
       "id": "taksi724-05064053179-18",
       "name": "Ruh Sağlığı Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.618607,
       "lon": 27.427455,
       "address": "Yarhasanlar Mah. İbrahim Gökçen Blv. Şehzadeler, Manisa",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -254,9 +378,12 @@
       "id": "taksi724-05469769797-19",
       "name": "Sultan Taksi",
       "phone": "05469769797",
+      "website": null,
       "lat": 38.617849,
       "lon": 27.443006,
       "address": "Şehitler Mah. 814. Sok. 50 Şehzadeler, Manisa",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -266,9 +393,12 @@
       "id": "taksi724-02362222121-20",
       "name": "Uğur Taksi",
       "phone": "02362222121",
+      "website": null,
       "lat": 38.612694,
       "lon": 27.428735,
       "address": "Utku Mah. İzmir Cad. Şehzadeler, Manisa",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -280,9 +410,12 @@
       "id": "taksi724-05522900222-21",
       "name": "YILDIZ TAKSi",
       "phone": "05522900222",
+      "website": null,
       "lat": 38.6096258,
       "lon": 27.4147158,
       "address": "Taksi Durağı · 4005. Sk. No:2 D:6",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -293,9 +426,12 @@
       "id": "taksi724-02362115390-22",
       "name": "manisa-taksi",
       "phone": "02362115390",
+      "website": null,
       "lat": 38.6193703,
       "lon": 27.4214519,
       "address": "Taksi Durağı · 2330. Sk. No: 2",
+      "districtId": "sehzadeler",
+      "districtName": "Sehzadeler",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -305,9 +441,12 @@
       "id": "taksi724-02362371237-23",
       "name": "Çardak Taksi",
       "phone": "02362371237",
+      "website": null,
       "lat": 38.611768,
       "lon": 27.388779,
       "address": "Uncubozköy Mah. Cemal Ergün Cad. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -318,9 +457,12 @@
       "id": "taksi724-05393250045-24",
       "name": "Cemiyet Taksi",
       "phone": "05393250045",
+      "website": null,
       "lat": 38.610893,
       "lon": 27.436768,
       "address": "Ege Mah. Ulutepe Cad. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -330,9 +472,12 @@
       "id": "taksi724-05326561451-25",
       "name": "Çiçek Taksi",
       "phone": "05326561451",
+      "website": null,
       "lat": 38.614578,
       "lon": 27.417365,
       "address": "Ayni Ali Mah. 3316. Sok. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -342,9 +487,12 @@
       "id": "taksi724-05357722863-26",
       "name": "Emek Taksi",
       "phone": "05357722863",
+      "website": null,
       "lat": 38.61549392,
       "lon": 27.41026515,
       "address": "Merkez Efendi Mah. 3916. Sok. Yunusemre, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -354,9 +502,12 @@
       "id": "taksi724-02362311250-27",
       "name": "Ersan Taksi",
       "phone": "02362311250",
+      "website": null,
       "lat": 38.613973,
       "lon": 27.431856,
       "address": "1.Anafartalar Mah. Mustafa Kemal Paşa Cad. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -366,9 +517,12 @@
       "id": "taksi724-05469005260-28",
       "name": "Grandmedical Taksi",
       "phone": "05469005260",
+      "website": null,
       "lat": 38.613232,
       "lon": 27.428937,
       "address": "Utku Mah. 2108. Sok. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -379,9 +533,12 @@
       "id": "taksi724-02362334070-29",
       "name": "Güzelyurt Taksi",
       "phone": "02362334070",
+      "website": null,
       "lat": 38.62851914,
       "lon": 27.39275971,
       "address": "Güzelyurt Mah. 19 Mayıs Blv. 4 Yunusemre, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -392,9 +549,12 @@
       "id": "taksi724-05443020701-30",
       "name": "Karaköy Taksi",
       "phone": "05443020701",
+      "website": null,
       "lat": 38.6337144,
       "lon": 27.3801337,
       "address": "Taksi Durağı · Muhsin Yazıcıoğlu Blv No:22",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -405,9 +565,12 @@
       "id": "taksi724-05319657335-31",
       "name": "Laleli Taksi",
       "phone": "05319657335",
+      "website": null,
       "lat": 38.607587,
       "lon": 27.42206,
       "address": "Topçuasım Mah. Kumludere Cad. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -418,9 +581,12 @@
       "id": "taksi724-32-32",
       "name": "Meydan Taksi",
       "phone": null,
+      "website": null,
       "lat": 38.619522,
       "lon": 27.392257,
       "address": "Laleli Mah. Fatih Cad. 20 Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -430,9 +596,12 @@
       "id": "taksi724-02362324227-33",
       "name": "Sağlık Taksi",
       "phone": "02362324227",
+      "website": null,
       "lat": 38.613781,
       "lon": 27.433644,
       "address": "1.Anafartalar Mah. Hükümet Cad. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -442,9 +611,12 @@
       "id": "taksi724-05469769797-34",
       "name": "Saruhan Taksi",
       "phone": "05469769797",
+      "website": null,
       "lat": 38.611526,
       "lon": 27.409767,
       "address": "Akmescit Mah. İzmir Cad. Yunusemre, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -454,9 +626,12 @@
       "id": "taksi724-05320603045-35",
       "name": "Turizm Taksi",
       "phone": "05320603045",
+      "website": "https://www.instagram.com/saruhanlitaksi/",
       "lat": 38.616402,
       "lon": 27.395228,
       "address": "Laleli Mah. Nusret Köklü. Cad. 2/A (Otel Saruhan Yanı) Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -467,9 +642,12 @@
       "id": "taksi724-05530646745-36",
       "name": "Yücel Taksi",
       "phone": "05530646745",
+      "website": null,
       "lat": 38.613546,
       "lon": 27.429577,
       "address": "Utku Mah. Çimentepe Cad. 14/1 Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -479,9 +657,12 @@
       "id": "taksi724-05324787864-37",
       "name": "manisa-taksi",
       "phone": "05324787864",
+      "website": null,
       "lat": 38.616497,
       "lon": 27.418064,
       "address": "Ayni Ali Mah. 3306. Sok. Manisa Merkez, Manisa",
+      "districtId": "yunusemre",
+      "districtName": "Yunusemre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -491,9 +672,12 @@
       "id": "taksi724-05417661028-38",
       "name": "Park Taksi",
       "phone": "05417661028",
+      "website": null,
       "lat": 38.4922814,
       "lon": 27.6949034,
       "address": null,
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -503,9 +687,12 @@
       "id": "taksi724-05064053179-39",
       "name": "Sağlam Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.499557,
       "lon": 27.707357,
       "address": "Turan Mah. Baltacı Mahmut Yolu Sok. Turgutlu, Manisa",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -515,9 +702,12 @@
       "id": "taksi724-40-40",
       "name": "Terminal Taksi",
       "phone": null,
+      "website": null,
       "lat": 38.496209,
       "lon": 27.705072,
       "address": "Cumhuriyet Mah. Ozan Sok. Turgutlu, Manisa",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -527,9 +717,12 @@
       "id": "taksi724-02362322833-41",
       "name": "Turgutlu devlet hastanesi Taksi",
       "phone": "02362322833",
+      "website": null,
       "lat": 38.492511,
       "lon": 27.704721,
       "address": "Acarlar Mah. Piyaleoğlu Cad. Turgutlu, Manisa",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -539,9 +732,12 @@
       "id": "taksi724-02363121361-42",
       "name": "Turgutlu Ergenekon konutlar Taksi",
       "phone": "02363121361",
+      "website": null,
       "lat": 38.4911654,
       "lon": 27.6896122,
       "address": "Ulaşım Hizmeti ·  · Son Sk. No:18",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -552,9 +748,12 @@
       "id": "taksi724-02363127730-43",
       "name": "Turgutlu Hastane Taksi",
       "phone": "02363127730",
+      "website": null,
       "lat": 38.4902378,
       "lon": 27.7279926,
       "address": null,
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -564,9 +763,12 @@
       "id": "taksi724-05364754500-44",
       "name": "Turgutlu koza efes Taksi",
       "phone": "05364754500",
+      "website": null,
       "lat": 38.491826,
       "lon": 27.690506,
       "address": "Taksi Durağı · Son Sk.",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -576,9 +778,12 @@
       "id": "taksi724-02363131297-45",
       "name": "Turgutlu Taksi",
       "phone": "02363131297",
+      "website": null,
       "lat": 38.507357,
       "lon": 27.7080011,
       "address": null,
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -588,9 +793,12 @@
       "id": "taksi724-05543490069-46",
       "name": "Turgutlu Üçyol Taksi",
       "phone": "05543490069",
+      "website": null,
       "lat": 38.5016145,
       "lon": 27.7080259,
       "address": "Taksi · Akçakmak Yolu Sk. No:4",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -600,9 +808,12 @@
       "id": "taksi724-05357252187-47",
       "name": "Turgutlu Yeni Garaj Taksi",
       "phone": "05357252187",
+      "website": null,
       "lat": 38.5014702,
       "lon": 27.6930059,
       "address": "Taksi Durağı · Setüstü Sk. no:2/2",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -612,9 +823,12 @@
       "id": "taksi724-02363137775-48",
       "name": "Uçak Taksi",
       "phone": "02363137775",
+      "website": null,
       "lat": 38.4955176,
       "lon": 27.7388048,
       "address": null,
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -625,9 +839,12 @@
       "id": "taksi724-02363125940-49",
       "name": "manisa-taksi",
       "phone": "02363125940",
+      "website": null,
       "lat": 38.490746,
       "lon": 27.701031,
       "address": "Subaşı Mah. Ankara Asfaltı Blv. Bahçeciler Sok. 23 Turgutlu, Manisa",
+      "districtId": "turgutlu",
+      "districtName": "Turgutlu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -638,9 +855,12 @@
       "id": "taksi724-02364141677-50",
       "name": "Akhisar Taksi",
       "phone": "02364141677",
+      "website": null,
       "lat": 38.9174774,
       "lon": 27.837024,
       "address": "Taksi Durağı ·  · İnönü Caddesi",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -650,9 +870,12 @@
       "id": "taksi724-05439317857-51",
       "name": "Barış Taksi",
       "phone": "05439317857",
+      "website": null,
       "lat": 38.92992,
       "lon": 27.834909,
       "address": "Kethüda Mah. 375 Sok. 7 Akhisar, Manisa",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -662,9 +885,12 @@
       "id": "taksi724-05469769797-52",
       "name": "Belediye Taksi",
       "phone": "05469769797",
+      "website": null,
       "lat": 38.914376,
       "lon": 27.829585,
       "address": "Hürriyet Mah. 213 Sok. 1 Akhisar, Manisa",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -674,9 +900,12 @@
       "id": "taksi724-05064053179-53",
       "name": "Dilek Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.917426,
       "lon": 27.839453,
       "address": "İnönü Mah. 150 Sok. Akhisar, Manisa",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -686,9 +915,12 @@
       "id": "taksi724-05549329213-54",
       "name": "Emek Taksi",
       "phone": "05549329213",
+      "website": null,
       "lat": 38.919576,
       "lon": 27.840891,
       "address": "Taksi Durağı · No:3 İsmail Bahri Bey Caddesi",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -698,9 +930,12 @@
       "id": "taksi724-02362311250-55",
       "name": "Gar Taksi",
       "phone": "02362311250",
+      "website": null,
       "lat": 38.920385,
       "lon": 27.837755,
       "address": "Paşa Mah. 13 Sok. Akhisar, Manisa",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -710,9 +945,12 @@
       "id": "taksi724-05064053179-56",
       "name": "Şehir Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.922945,
       "lon": 27.834391,
       "address": "Ragıp Bey Mah. 22. Sok. 70 Akhisar, Manisa",
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -722,9 +960,12 @@
       "id": "taksi724-05422445298-57",
       "name": "Barış Taksi",
       "phone": "05422445298",
+      "website": null,
       "lat": 38.9237304,
       "lon": 27.8398188,
       "address": null,
+      "districtId": "akhisar",
+      "districtName": "Akhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -734,9 +975,12 @@
       "id": "taksi724-02367135274-58",
       "name": "Kardeş Taksi",
       "phone": "02367135274",
+      "website": null,
       "lat": 38.482353,
       "lon": 28.132585,
       "address": "Namık Kemal Mah. Ferah Cad. 1/B (Salihli Tren İstasyonu Yanı) Salihli, Manisa",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -747,9 +991,12 @@
       "id": "taksi724-59-59",
       "name": "Özel Salihli Taksi",
       "phone": null,
+      "website": null,
       "lat": 38.485734,
       "lon": 28.139628,
       "address": "Eski Cami Mah. 23. Sok. 1 Salihli, Manisa",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -759,9 +1006,12 @@
       "id": "taksi724-02367134887-60",
       "name": "Salihli Devlet Hastanesi Taksi",
       "phone": "02367134887",
+      "website": null,
       "lat": 38.4829608,
       "lon": 28.1505272,
       "address": "Taksi Durağı ·  · Menderes Cd. No:42/1",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -771,9 +1021,12 @@
       "id": "taksi724-02367148903-61",
       "name": "Salihli Garaj Taksi",
       "phone": "02367148903",
+      "website": null,
       "lat": 38.479567,
       "lon": 28.140094,
       "address": "Sağlık Mah. Ziyagökalp Cad. (Eski Acil Servis Karşısı) Salihli, Manisa",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -784,9 +1037,12 @@
       "id": "taksi724-02367147191-62",
       "name": "Salihli Site Taksi",
       "phone": "02367147191",
+      "website": null,
       "lat": 38.488299,
       "lon": 28.135052,
       "address": "Taksi Durağı ·  · 631. Sk.",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -797,9 +1053,12 @@
       "id": "taksi724-02367147525-63",
       "name": "Zafer Taksi",
       "phone": "02367147525",
+      "website": null,
       "lat": 38.4833629,
       "lon": 28.1251615,
       "address": "Taksi Durağı · Şehitler Mah. Park Cad, 121. Sk. No:55",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -809,9 +1068,12 @@
       "id": "taksi724-05064053179-64",
       "name": "Salihli Devlet Hastanesi Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.476907,
       "lon": 28.151966,
       "address": "Aksoy Mah. 210. Sok. 27 Salihli, Manisa",
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -821,9 +1083,12 @@
       "id": "taksi724-05393580592-65",
       "name": "Garaj Taksi",
       "phone": "05393580592",
+      "website": null,
       "lat": 39.186208,
       "lon": 27.5917458,
       "address": "Ulaşım Hizmeti · Burçak Sk. 13/9",
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -834,9 +1099,12 @@
       "id": "taksi724-05064053179-66",
       "name": "Kent Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 39.181139,
       "lon": 27.608502,
       "address": "Kurtuluş Mah. İstiklal Cad. Soma, Manisa",
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -846,9 +1114,12 @@
       "id": "taksi724-02366132045-67",
       "name": "Meydan Taksi",
       "phone": "02366132045",
+      "website": null,
       "lat": 39.1982808,
       "lon": 27.6239843,
       "address": "Taksi Durağı · Atatürk Cd. No:2",
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -859,9 +1130,12 @@
       "id": "taksi724-02362324227-68",
       "name": "Pınar Taksi",
       "phone": "02362324227",
+      "website": null,
       "lat": 39.18215573,
       "lon": 27.60389954,
       "address": "Namazgah Mah. Ordu Sok. Soma, Manisa",
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -872,9 +1146,12 @@
       "id": "taksi724-05317707994-69",
       "name": "Site Taksi",
       "phone": "05317707994",
+      "website": null,
       "lat": 39.181059,
       "lon": 27.603923,
       "address": "Namazgah Mah. Demirciler Sok. Soma, Manisa",
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -885,9 +1162,12 @@
       "id": "taksi724-05469769797-70",
       "name": "Soma Emniyet Taksi",
       "phone": "05469769797",
+      "website": null,
       "lat": 39.184762,
       "lon": 27.609251,
       "address": "Kurtuluş Mah. Hüseyin Özkılınç Cad. 1 Soma, Manisa",
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -898,9 +1178,12 @@
       "id": "taksi724-05327486926-71",
       "name": "Kent Taksi",
       "phone": "05327486926",
+      "website": null,
       "lat": 39.1859648,
       "lon": 27.6068557,
       "address": null,
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -910,9 +1193,12 @@
       "id": "taksi724-05357722863-72",
       "name": "Evren Taksi",
       "phone": "05357722863",
+      "website": null,
       "lat": 38.362329,
       "lon": 28.519887,
       "address": "Yenice Mah. Atatürk Blv. Alaşehir, Manisa",
+      "districtId": "alasehir",
+      "districtName": "Alasehir",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -923,9 +1209,12 @@
       "id": "taksi724-05323729868-73",
       "name": "Kaya Taksi",
       "phone": "05323729868",
+      "website": null,
       "lat": 38.35144652,
       "lon": 28.51402549,
       "address": "5 Eylül Mah. Süleyman Demirel Blv. (Alaşehir Otogarı İçinde) Alaşehir, Manisa",
+      "districtId": "alasehir",
+      "districtName": "Alasehir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -935,9 +1224,12 @@
       "id": "taksi724-05064053179-74",
       "name": "Uçar Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.354721,
       "lon": 28.516169,
       "address": "Yenice Mah. Sümer Oral Cad. Alaşehir, Manisa",
+      "districtId": "alasehir",
+      "districtName": "Alasehir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -947,9 +1239,12 @@
       "id": "taksi724-05455359645-75",
       "name": "Kaya Taksi",
       "phone": "05455359645",
+      "website": null,
       "lat": 38.354608,
       "lon": 28.514988,
       "address": "Yenice Mah. Beş Eylül Cad. 26 Alaşehir, Manisa",
+      "districtId": "alasehir",
+      "districtName": "Alasehir",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -960,9 +1255,12 @@
       "id": "taksi724-05064053179-76",
       "name": "Sarıgöl Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.354451,
       "lon": 28.515306,
       "address": "Ayan Mah. Alaşehir Cad. 56 Sarıgöl, Manisa",
+      "districtId": "sarigol",
+      "districtName": "Sarigol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -972,9 +1270,12 @@
       "id": "taksi724-05358330570-77",
       "name": "Manisa Sarıgöl Saray Taksi",
       "phone": "05358330570",
+      "website": null,
       "lat": 38.2402201,
       "lon": 28.6913463,
       "address": null,
+      "districtId": "sarigol",
+      "districtName": "Sarigol",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -985,9 +1286,12 @@
       "id": "taksi724-05314948402-78",
       "name": "Sarıgöl Saray Taksi",
       "phone": "05314948402",
+      "website": null,
       "lat": 38.2382201,
       "lon": 28.6964766,
       "address": null,
+      "districtId": "sarigol",
+      "districtName": "Sarigol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -997,9 +1301,12 @@
       "id": "taksi724-05422548563-79",
       "name": "Sarıgöl Taksi",
       "phone": "05422548563",
+      "website": null,
       "lat": 38.23763,
       "lon": 28.6964103,
       "address": null,
+      "districtId": "sarigol",
+      "districtName": "Sarigol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1009,9 +1316,12 @@
       "id": "taksi724-05012190622-80",
       "name": "Manisa Sarıgöl Saray Taksi",
       "phone": "05012190622",
+      "website": null,
       "lat": 38.2375815,
       "lon": 28.7054719,
       "address": "Taksi · Tırazlar Sk. no:5/A",
+      "districtId": "sarigol",
+      "districtName": "Sarigol",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1021,9 +1331,12 @@
       "id": "taksi724-05399635770-81",
       "name": "Taksi",
       "phone": "05399635770",
+      "website": null,
       "lat": 39.1069389,
       "lon": 27.6720643,
       "address": null,
+      "districtId": "kirkagac",
+      "districtName": "Kirkagac",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1034,9 +1347,12 @@
       "id": "taksi724-02365881167-82",
       "name": "Kırkağaç Taksi",
       "phone": "02365881167",
+      "website": null,
       "lat": 39.105539,
       "lon": 27.6730247,
       "address": "Taksi Durağı · Menderes Cd. No:125",
+      "districtId": "kirkagac",
+      "districtName": "Kirkagac",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1047,9 +1363,12 @@
       "id": "taksi724-83-83",
       "name": "Demirci ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 39.047459,
       "lon": 28.658366,
       "address": "Secaattin Mah. Mehmet Akif Meydanı 13 Demirci, Manisa",
+      "districtId": "demirci",
+      "districtName": "Demirci",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1059,9 +1378,12 @@
       "id": "taksi724-05064053179-84",
       "name": "Birlik Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.927354,
       "lon": 28.288038,
       "address": "Atatürk Mah. Fatih Blv. Gördes, Manisa",
+      "districtId": "gordes",
+      "districtName": "Gordes",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1071,9 +1393,12 @@
       "id": "taksi724-05324787864-85",
       "name": "Yılmaz Taksi",
       "phone": "05324787864",
+      "website": null,
       "lat": 38.545383,
       "lon": 28.645089,
       "address": "Kenan Evren Mah. Yunus Emre Cad. Kula, Manisa",
+      "districtId": "kula",
+      "districtName": "Kula",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1084,9 +1409,12 @@
       "id": "taksi724-05064053179-86",
       "name": "Garaj Taksi",
       "phone": "05064053179",
+      "website": null,
       "lat": 38.730543,
       "lon": 27.58005,
       "address": "İstasyon Mah. Menekşe Sok. Saruhanlı, Manisa",
+      "districtId": "saruhanli",
+      "districtName": "Saruhanli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1097,9 +1425,12 @@
       "id": "taksicibul-05466124471-87",
       "name": "Manisa uğur taksi",
       "phone": "05466124471",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1109,9 +1440,12 @@
       "id": "taksicibul-05332503878-88",
       "name": "Manisa alaybey taksi",
       "phone": "05332503878",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Şehzadeler",
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1122,9 +1456,12 @@
       "id": "taksicibul-05425151038-89",
       "name": "Duraklarımız",
       "phone": "05425151038",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1135,9 +1472,12 @@
       "id": "taksicibul-05330435258-90",
       "name": "akhisar taksi",
       "phone": "05330435258",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1147,9 +1487,12 @@
       "id": "taksicibul-05548116265-91",
       "name": "TARZAN TAKSİ",
       "phone": "05548116265",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1160,9 +1503,12 @@
       "id": "taksicibul-05510439414-92",
       "name": "Manisa taksi ruh sağlığı karşısı",
       "phone": "05510439414",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -1173,9 +1519,12 @@
       "id": "taksicibul-02362222045-93",
       "name": "Spil taksi",
       "phone": "02362222045",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1185,9 +1534,12 @@
       "id": "taksiciler-02366531318-94",
       "name": "Es Taksi",
       "phone": "02366531318",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1197,9 +1549,12 @@
       "id": "taksiciler-05345720693-95",
       "name": "Gar Taksi",
       "phone": "05345720693",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1209,9 +1564,12 @@
       "id": "taksiciler-05377430642-96",
       "name": "Havuz Taksi",
       "phone": "05377430642",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1221,9 +1579,12 @@
       "id": "taksiciler-05373703415-97",
       "name": "Kaya Taksi Alaşehir",
       "phone": "05373703415",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1233,9 +1594,12 @@
       "id": "taksiciler-02366534411-98",
       "name": "Meydan Taksi Alaşehir",
       "phone": "02366534411",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1245,9 +1609,12 @@
       "id": "taksiciler-05424845814-99",
       "name": "Taksi Alaşehir Taxi",
       "phone": "05424845814",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1257,9 +1624,12 @@
       "id": "taksiciler-05427113342-100",
       "name": "Tümü → Kula Egemen Taksi",
       "phone": "05427113342",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1269,9 +1639,12 @@
       "id": "taksiciler-05423436617-101",
       "name": "Terminal Merkez Taksi",
       "phone": "05423436617",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1281,9 +1654,12 @@
       "id": "taksiciler-02367154040-102",
       "name": "Can Taksi Salihli",
       "phone": "02367154040",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -1294,9 +1670,12 @@
       "id": "taksiciler-02367131402-103",
       "name": "Çinarli Taksi",
       "phone": "02367131402",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1306,9 +1685,12 @@
       "id": "taksiciler-02367141530-104",
       "name": "Dörtyol Taksi Salihli",
       "phone": "02367141530",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1318,9 +1700,12 @@
       "id": "taksiciler-02367136677-105",
       "name": "Ege Meydan Taksi",
       "phone": "02367136677",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1330,9 +1715,12 @@
       "id": "taksiciler-02367141088-106",
       "name": "Salihli Kardeş Taksi",
       "phone": "02367141088",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1342,9 +1730,12 @@
       "id": "taksiciler-02367130011-107",
       "name": "Salihli Sardes Taksi",
       "phone": "02367130011",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1354,9 +1745,12 @@
       "id": "taksiciler-02365039049-108",
       "name": "Salihli Site Taksi AÇIK · 7 gün 24 saat Şehitler Mah. Park Cad, 121. Sk. No:55, ",
       "phone": "02365039049",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1366,9 +1760,12 @@
       "id": "taksiciler-02366131203-109",
       "name": "Tümü → Garaj Taksi",
       "phone": "02366131203",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1378,9 +1775,12 @@
       "id": "taksiciler-05425833854-110",
       "name": "Tümü → Alaybey Taksi Manisa",
       "phone": "05425833854",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1390,9 +1790,12 @@
       "id": "taksiciler-05337200518-111",
       "name": "Alaybey Taksi Şehzadeler",
       "phone": "05337200518",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1402,9 +1805,12 @@
       "id": "taksiciler-02362349159-112",
       "name": "Çardak Taksi",
       "phone": "02362349159",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1414,9 +1820,12 @@
       "id": "taksiciler-05013237923-113",
       "name": "Manisa Merkez Taksi",
       "phone": "05013237923",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1426,9 +1835,12 @@
       "id": "taksiciler-05322827246-114",
       "name": "Manisa Şehzadeler Taksi",
       "phone": "05322827246",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1438,9 +1850,12 @@
       "id": "taksiciler-05448320036-115",
       "name": "Manisa Taksi (eski Devlet Hastanesi)",
       "phone": "05448320036",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1450,9 +1865,12 @@
       "id": "taksiciler-05437137310-116",
       "name": "Turizm Taksi",
       "phone": "05437137310",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1462,9 +1880,12 @@
       "id": "taksiciler-02366131277-117",
       "name": "Pınar Taksi AÇIK · 7 gün 24 saat Nihat Danışman, Eski Cumhuriyet Meydanı, 45500 ",
       "phone": "02366131277",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1474,9 +1895,12 @@
       "id": "taksiciler-05417915977-118",
       "name": "Soma Taksi",
       "phone": "05417915977",
+      "website": "https://www.facebook.com/somataksi/",
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": "soma",
+      "districtName": "Soma",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -1487,9 +1911,12 @@
       "id": "taksiciler-02363137888-119",
       "name": "Tümü → Adliye Taksi Turgutlu",
       "phone": "02363137888",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1499,9 +1926,12 @@
       "id": "taksiciler-05548632139-120",
       "name": "Efes Taksi",
       "phone": "05548632139",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1511,9 +1941,12 @@
       "id": "taksiciler-02363132373-121",
       "name": "Ersan Taksi",
       "phone": "02363132373",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1523,9 +1956,12 @@
       "id": "taksiciler-02363131954-122",
       "name": "Sağlam Taksi",
       "phone": "02363131954",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1535,9 +1971,12 @@
       "id": "taksiciler-05301272945-123",
       "name": "Turgutlu Kent Taksi",
       "phone": "05301272945",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1547,9 +1986,12 @@
       "id": "taksiciler-05415125717-124",
       "name": "Turgutlu Konutlar Taksi",
       "phone": "05415125717",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1559,9 +2001,12 @@
       "id": "taksiciler-02363133072-125",
       "name": "Turgutlu Park Taksi",
       "phone": "02363133072",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1571,9 +2016,12 @@
       "id": "taksiciler-05426576853-126",
       "name": "Turgutlu Taksi AÇIK · 7 gün 24 saat Acarlar, şehit bekçi, Ali Karakuzu Sk., 4540",
       "phone": "05426576853",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1583,9 +2031,12 @@
       "id": "taksiciler-02365033033-127",
       "name": "C B Ü Manisa Hastane Taksi AÇIK · 7 gün 24 saat Uncubozköy Mahallesi, C.b.u Hast",
       "phone": "02365033033",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1595,9 +2046,12 @@
       "id": "taksiciler-05521544589-128",
       "name": "Cemiyet Taksi",
       "phone": "05521544589",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1607,9 +2061,12 @@
       "id": "taksiciler-05309502949-129",
       "name": "Güzelyurt Taksi Durağı AÇIK · 7 gün 24 saat Güzelyurt, Muhsin Yazıcıoğlu Blv No:",
       "phone": "05309502949",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1619,9 +2076,12 @@
       "id": "taksiciler-05347033545-130",
       "name": "Manisa Mesir Taksi",
       "phone": "05347033545",
+      "website": null,
       "lat": 38.6191,
       "lon": 27.4289,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1631,8 +2091,12 @@
       "id": "nerede360-05533299490-131",
       "name": "Alaybey Taksi - Erkan Akatmacı",
       "phone": "05533299490",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sehzadeler",
+      "districtName": "Şehzadeler",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1642,8 +2106,12 @@
       "id": "nerede360-02367144001-132",
       "name": "Can Taksi - Bahri Tozlu",
       "phone": "02367144001",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "salihli",
+      "districtName": "Salihli",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1653,8 +2121,12 @@
       "id": "nerede360-05051617898-133",
       "name": "Gördes Taksi - Hüsnü Susmaz",
       "phone": "05051617898",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": "https://www.instagram.com/gordestaksi45/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "gordes",
+      "districtName": "Gördes",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1664,8 +2136,12 @@
       "id": "nerede360-05531724545-134",
       "name": "Merkez Taksi - Erkan Öztürk",
       "phone": "05531724545",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kula",
+      "districtName": "Kula",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1675,8 +2151,12 @@
       "id": "nerede360-05332572194-135",
       "name": "Merkez Taksi - İsmail Çıbukoğlu",
       "phone": "05332572194",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": "https://www.facebook.com/KULA-TAKS%C4%B0-%C4%B0smail-%C3%87%C4%B1buko%C4%9Flu-104865372184040",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kula",
+      "districtName": "Kula",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1686,8 +2166,12 @@
       "id": "nerede360-05076537000-136",
       "name": "Özlem Taksi - Hüseyin Göktaş",
       "phone": "05076537000",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": "https://www.instagram.com/alasehirtaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "alasehir",
+      "districtName": "Alaşehir",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1697,8 +2181,12 @@
       "id": "nerede360-05396837997-137",
       "name": "Seç Taksi - Mustafa & Sezer",
       "phone": "05396837997",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": "https://www.facebook.com/alasehirdetaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "alasehir",
+      "districtName": "Alaşehir",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1708,8 +2196,12 @@
       "id": "nerede360-05367723500-138",
       "name": "Seç Taksi - Serkan",
       "phone": "05367723500",
-      "lat": 38.6191,
-      "lon": 27.4289,
+      "website": "https://www.facebook.com/SecTaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "alasehir",
+      "districtName": "Alaşehir",
       "approximate": true,
       "sources": [
         "nerede360"
