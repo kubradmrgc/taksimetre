@@ -49,8 +49,13 @@ Bekleme (dakika) ücreti kaynak tablolarda yoktur. İstanbul / Ankara / İzmir i
 
 Sayfanın altında **Acil Durum / Şikayet** ve **Taksi Çağır** sekmeleri vardır.
 
-- Şikayet: `src/data/chambersData.json` içindeki belediye / oda hatları (112, 153, CİMER vb.). Konumdan tespit edilen ile göre filtrelenir; numaraya tıklanınca `tel:` ile arama açılır.
-- Taksi Çağır: Yakındaki duraklar varsayılan olarak **Overpass (OpenStreetMap)** ile çekilir (API anahtarı gerekmez). İsteğe bağlı Google Places için:
+- Şikayet: `src/data/chambersData.json` içindeki belediye / oda hatları (112, 153, CİMER vb.).
+- Taksi Çağır: şehir seçimi + yakındaki duraklar. Sağlayıcı sırası:
+
+1. **Google Places** (`VITE_GOOGLE_PLACES_API_KEY`) — önerilen, en geniş kapsama  
+2. **Foursquare** (`VITE_FOURSQUARE_API_KEY`)  
+3. **Geoapify** (`VITE_GEOAPIFY_API_KEY`)  
+4. **OSM** (Overpass + Nominatim) — anahtarsız yedek; küçük illerde boş kalabilir  
 
 ```bash
 cp .env.example .env
@@ -58,5 +63,6 @@ cp .env.example .env
 npm run dev
 ```
 
-Anahtar varsa önce Google denenir; başarısız olursa Overpass’e düşülür. Geliştirmede Google istekleri Vite proxy (`/api/google-places`) üzerinden gider.
+Geliştirmede API istekleri Vite proxy üzerinden gider (CORS yok). Anahtar ekledikten sonra `npm run dev` yeniden başlatılmalıdır.
+
 

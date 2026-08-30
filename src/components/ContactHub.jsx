@@ -254,9 +254,18 @@ export function ContactHub({ preferredCityId }) {
           </div>
 
           <p className="text-xs text-stone-500 dark:text-stone-400">
-            Yakındaki taksi durakları mesafeye göre sıralanır. Telefonu olan
-            duraklarda Ara ile arama ekranı açılır.
+            Duraklar mesafeye göre sıralanır. Kaynak sırası: Google Places →
+            Foursquare → Geoapify → OSM. Telefonu olanlarda Ara arama ekranını
+            açar.
           </p>
+
+          {context?.needsApiKey && (context?.stands?.length ?? 0) > 0 ? (
+            <p className="rounded-xl border border-stone-300/70 px-3 py-2 text-xs text-stone-500 dark:border-white/10 dark:text-stone-400">
+              Sonuçlar OSM üzerinden geldi. Daha güncel ve telefonlu kayıtlar
+              için <code className="font-mono">.env</code> içine Google Places
+              anahtarı ekleyebilirsiniz.
+            </p>
+          ) : null}
 
           {standsLoading || (loading && !context?.stands?.length) ? (
             <p className="text-sm text-stone-500">Duraklar aranıyor…</p>
@@ -270,10 +279,18 @@ export function ContactHub({ preferredCityId }) {
           !loading &&
           context &&
           context.stands.length === 0 ? (
-            <p className="text-sm text-stone-500">
-              Bu şehir merkezinde OpenStreetMap kaydı bulunan taksi durağı
-              bulunamadı. Başka bir şehir seçin veya konumu yenileyin.
-            </p>
+            <div className="space-y-2 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 text-sm text-amber-950 dark:text-amber-100">
+              <p>
+                Bu bölgede ücretsiz OSM kaydı bulunamadı. Daha güvenilir sonuç
+                için Google Places / Foursquare / Geoapify anahtarı ekleyin.
+              </p>
+              <p className="text-xs opacity-90">
+                Proje kökünde <code className="font-mono">.env</code> dosyasına{" "}
+                <code className="font-mono">VITE_GOOGLE_PLACES_API_KEY</code>{" "}
+                yazıp <code className="font-mono">npm run dev</code> yeniden
+                başlatın. Ayrıntılar: <code className="font-mono">.env.example</code>
+              </p>
+            </div>
           ) : null}
         </div>
       )}
