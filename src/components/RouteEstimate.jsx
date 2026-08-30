@@ -1,6 +1,6 @@
 import { formatDuration } from "../lib/geo.js";
-import { formatLira } from "../lib/formatCurrency.js";
 
+/** Varış rotası özeti (km / süre). Ücret aralığı FareRangeCard'ta gösterilir. */
 export function RouteEstimate({ estimate, loading, error, destinationLabel }) {
   if (loading) {
     return (
@@ -36,31 +36,6 @@ export function RouteEstimate({ estimate, loading, error, destinationLabel }) {
           <p>{formatDuration(estimate.durationSeconds)}</p>
         </div>
       </div>
-
-      <dl className="mt-4 grid grid-cols-3 gap-2 text-center">
-        <PriceCell label="Min" value={estimate.minFare} />
-        <PriceCell label="Ortalama" value={estimate.avgFare} emphasize />
-        <PriceCell label="Max" value={estimate.maxFare} />
-      </dl>
     </section>
-  );
-}
-
-function PriceCell({ label, value, emphasize = false }) {
-  return (
-    <div
-      className={`rounded-xl px-2 py-2.5 ${
-        emphasize
-          ? "bg-taxi/25 text-ink dark:bg-taxi/20 dark:text-taxi"
-          : "bg-stone-100 text-ink dark:bg-black/30 dark:text-stone-200"
-      }`}
-    >
-      <dt className="text-[10px] font-semibold uppercase tracking-wider opacity-70">
-        {label}
-      </dt>
-      <dd className="mt-1 font-mono text-sm font-semibold tabular-nums">
-        {formatLira(value)}
-      </dd>
-    </div>
   );
 }

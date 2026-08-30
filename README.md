@@ -33,6 +33,8 @@ Varış noktası (isteğe bağlı) Nominatim ile aranır; OSRM sürüş rotası 
 
 81 il tarifesi forma doldurulur. İstanbul / Ankara / İzmir kısayol butonları üstte durur; diğer iller arama kutusundan seçilir.
 
+Mesafe (veya varış rotası) girildiğinde **ücret aralığı** (min–ortalama–max) gösterilir. Hesaplanan tutar bu bandın dışındaysa sarı/kırmızı bildirim çıkar; canlı yolculukta ek olarak rota/mesafe sapması da uyarılır.
+
 Tarifeler resmi belediye API’si değildir. Açılış, km ve indi-bindi [Hemen Hesap](https://www.hemenhesap.com/arastirma/iller-arasi-taksi-ucretleri-2026) (CC BY 4.0) ve [taksicilerodasi.com](https://taksicilerodasi.com/tr/ucret-hesapla/) HTML tablolarından derlenir; Hemen Hesap’ta olmayan 6 il [taksi724](https://taksi724.com/taksi-ucreti-hesapla) il sayfalarından tamamlanır. Açık REST/GraphQL API yoktur; tarayıcıdan siteye istek CORS’a takılır, senkron yalnızca Node’da çalışır.
 
 ```bash

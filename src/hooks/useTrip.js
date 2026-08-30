@@ -20,7 +20,11 @@ const INITIAL_STATE = {
  * Canlı yolculuk durumu: GPS → Haversine mesafe + hız eşiğine göre bekleme.
  * status: idle | locating | active | ended
  */
-export function useTrip({ estimate = null, fareTotal = 0 } = {}) {
+export function useTrip({
+  estimate = null,
+  fareTotal = 0,
+  fareRange = null,
+} = {}) {
   const [state, setState] = useState(INITIAL_STATE);
   const lastAcceptedRef = useRef(null);
   const isTrackingRef = useRef(false);
@@ -147,11 +151,21 @@ export function useTrip({ estimate = null, fareTotal = 0 } = {}) {
     () =>
       evaluateDeviation({
         estimate,
+        fareRange,
         fareTotal,
         distanceKm: state.distanceKm,
         currentPosition: state.lastPosition,
+        // Canlı yolculukta tutar başta düşük olur; yalnızca üst sınırı izle.
+        checkBelow: state.status === "ended" || state.status === "idle",
       }),
-    [estimate, fareTotal, state.distanceKm, state.lastPosition],
+    [
+      estimate,
+      fareRange,
+      fareTotal,
+      state.distanceKm,
+      state.lastPosition,
+      state.status,
+    ],
   );
 
   return {

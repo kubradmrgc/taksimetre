@@ -1,7 +1,5 @@
 import { distanceToPolylineMeters } from "./geo.js";
-
-/** Anlık tutar tahmini max'ı aşarsa. */
-export const FARE_OVER_RATIO = 1;
+import { evaluateFareAgainstRange, mergeAlerts } from "./fareRange.js";
 
 /** Mesafe tahmini km'nin bu oranını aşarsa. */
 export const DISTANCE_OVER_RATIO = 1.2;
@@ -10,43 +8,40 @@ export const DISTANCE_OVER_RATIO = 1.2;
 export const ROUTE_DEVIATION_M = 250;
 
 /**
- * Yolculuk sırasında fiyat / mesafe / rota sapmalarını değerlendirir.
- * @returns {{ level: 'ok' | 'warn' | 'danger', messages: string[] }}
+ * Yolculuk / hesap sırasında fiyat aralığı, mesafe ve rota sapmalarını değerlendirir.
+ * @returns {{ level: 'ok' | 'warn' | 'danger', messages: string[], rangeStatus?: string }}
  */
 export function evaluateDeviation({
   estimate,
   fareTotal,
   distanceKm,
   currentPosition,
+  fareRange = null,
+  checkBelow = true,
 }) {
-  if (!estimate) {
-    return { level: "ok", messages: [] };
+  const range = fareRange ?? estimate;
+  const fareAlert = evaluateFareAgainstRange(fareTotal, range, { checkBelow });
+
+  if (!estimate && !fareRange) {
+    return fareAlert;
   }
 
-  const messages = [];
-  let level = "ok";
+  const messages = [...fareAlert.messages];
+  let level = fareAlert.level;
 
   if (
-    Number.isFinite(estimate.maxFare) &&
-    fareTotal > estimate.maxFare * FARE_OVER_RATIO
-  ) {
-    messages.push(
-      `Anlık tutar tahmini üst sınırı (₺${estimate.maxFare.toFixed(2)}) aştı.`,
-    );
-    level = "danger";
-  }
-
-  if (
+    estimate &&
     Number.isFinite(estimate.distanceKm) &&
     distanceKm > estimate.distanceKm * DISTANCE_OVER_RATIO
   ) {
     messages.push(
-      `Katedilen mesafe tahmini rotanın %${Math.round((DISTANCE_OVER_RATIO - 1) * 100)} üzerine çıktı.`,
+      `Katedilen mesafe tahmini rotanın %${Math.round((DISTANCE_OVER_RATIO - 1) * 100)} üzerine çıktı. Mesafe verisi sorunlu olabilir.`,
     );
     level = level === "danger" ? "danger" : "warn";
   }
 
   if (
+    estimate &&
     currentPosition &&
     Array.isArray(estimate.polyline) &&
     estimate.polyline.length > 0
@@ -59,11 +54,11 @@ export function evaluateDeviation({
 
     if (offsetM > ROUTE_DEVIATION_M) {
       messages.push(
-        `Tahmini rotadan yaklaşık ${Math.round(offsetM)} m saptınız.`,
+        `Tahmini rotadan yaklaşık ${Math.round(offsetM)} m saptınız. Konum veya güzergâh şüpheli olabilir.`,
       );
       level = "danger";
     }
   }
 
-  return { level, messages };
+  return mergeAlerts(fareAlert, { level, messages });
 }

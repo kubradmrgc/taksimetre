@@ -3,6 +3,7 @@ import { CityPresets } from "./components/CityPresets.jsx";
 import { DestinationSearch } from "./components/DestinationSearch.jsx";
 import { DeviationAlert } from "./components/DeviationAlert.jsx";
 import { FareForm } from "./components/FareForm.jsx";
+import { FareRangeCard } from "./components/FareRangeCard.jsx";
 import { FareResult } from "./components/FareResult.jsx";
 import { Header } from "./components/Header.jsx";
 import { RouteEstimate } from "./components/RouteEstimate.jsx";
@@ -11,6 +12,11 @@ import { TripHud } from "./components/TripHud.jsx";
 import { useTheme } from "./hooks/useTheme.js";
 import { useTrip } from "./hooks/useTrip.js";
 import { calculateFare } from "./lib/calculateFare.js";
+import {
+  buildFareRange,
+  evaluateFareAgainstRange,
+  mergeAlerts,
+} from "./lib/fareRange.js";
 import {
   estimateFareRange,
   fetchDrivingRoute,
@@ -65,10 +71,46 @@ export default function App() {
     [values],
   );
 
+  /** Varış rotası varsa o; yoksa forma girilen mesafe üzerinden aralık. */
+  const fareRange = useMemo(() => {
+    if (estimate?.minFare != null && estimate?.maxFare != null) {
+      return {
+        minFare: estimate.minFare,
+        avgFare: estimate.avgFare,
+        maxFare: estimate.maxFare,
+        distanceKm: estimate.distanceKm,
+        durationSeconds: estimate.durationSeconds,
+      };
+    }
+
+    const distance = Number(String(values.distanceKm).replace(",", "."));
+    if (!Number.isFinite(distance) || distance <= 0) return null;
+
+    return buildFareRange({
+      distanceKm: values.distanceKm,
+      waitingMinutes: values.waitingMinutes,
+      openingFee: values.openingFee,
+      perKmFee: values.perKmFee,
+      perMinuteFee: values.perMinuteFee,
+      minimumFee: values.minimumFee,
+    });
+  }, [estimate, values]);
+
   const trip = useTrip({
     estimate,
+    fareRange,
     fareTotal: fare.total,
   });
+
+  const rangeAlerts = useMemo(() => {
+    const fareAlert = evaluateFareAgainstRange(fare.total, fareRange, {
+      checkBelow: !trip.isLive,
+    });
+    if (trip.isLive || trip.status === "ended") {
+      return mergeAlerts(fareAlert, trip.alerts);
+    }
+    return fareAlert;
+  }, [fare.total, fareRange, trip.alerts, trip.isLive, trip.status]);
 
   const tripLocked =
     trip.status === "locating" ||
@@ -247,6 +289,18 @@ export default function App() {
               destinationLabel={destination?.label}
             />
 
+            <FareRangeCard
+              range={fareRange}
+              fareTotal={fare.total}
+              sourceLabel={
+                estimate
+                  ? "Varış rotasına göre beklenen min–max bandı."
+                  : "Girilen mesafeye göre beklenen min–max bandı."
+              }
+            />
+
+            <DeviationAlert alerts={rangeAlerts} />
+
             <TripControls
               status={trip.status}
               onStart={handleStartTrip}
@@ -295,11 +349,14 @@ export default function App() {
                   cityLabel={cityLabel}
                   appliedMinimum={fare.appliedMinimum}
                 />
-                <DeviationAlert alerts={trip.alerts} />
+                <DeviationAlert alerts={rangeAlerts} />
                 <FareResult fare={fare} cityLabel={cityLabel} compact />
               </>
             ) : (
-              <FareResult fare={fare} cityLabel={cityLabel} />
+              <>
+                <FareResult fare={fare} cityLabel={cityLabel} />
+                <DeviationAlert alerts={rangeAlerts} />
+              </>
             )}
           </div>
         </div>
