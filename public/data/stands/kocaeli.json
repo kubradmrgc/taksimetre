@@ -1,0 +1,2771 @@
+{
+  "cityId": "kocaeli",
+  "cityName": "Kocaeli",
+  "fetchedAt": "2026-08-30T21:20:50.648Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 221,
+  "stands": [
+    {
+      "id": "taksi724-02626412843-0",
+      "name": "Balkan Taksi",
+      "phone": "02626412843",
+      "lat": 40.797814,
+      "lon": 29.440997,
+      "address": "Sultan Orhan Mah. Hükümet Cad. 141 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626413817-1",
+      "name": "Bayramoğlu Mobil Taksi",
+      "phone": "02626413817",
+      "lat": 40.806984,
+      "lon": 29.439723,
+      "address": "Arapçeşme Mah. Gençlik Cad. 4/C Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-2-2",
+      "name": "Bayramoğlu Taksi",
+      "phone": null,
+      "lat": 40.811766,
+      "lon": 29.36751,
+      "address": "Cumhuriyet Mah. Güney Yanyol 10 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626531895-3",
+      "name": "Beşevler Taksi",
+      "phone": "02626531895",
+      "lat": 40.788473,
+      "lon": 29.343603,
+      "address": "Taksi Durağı · Fatih Sultan Mehmet Cd. No:318",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626468455-4",
+      "name": "Beylikbağı Şahin Taksi",
+      "phone": "02626468455",
+      "lat": 40.784662,
+      "lon": 29.4360703,
+      "address": "Taksi Durağı ·  · Dr. Zeki Acar Cd. No:56",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02627441919-5",
+      "name": "Çağdaşkent Taksi",
+      "phone": "02627441919",
+      "lat": 40.8048,
+      "lon": 29.383432,
+      "address": "Beylikbağı Mah. Yeni Bağdat Cad. 160 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02627440032-6",
+      "name": "Çağdaş Taksi",
+      "phone": "02627440032",
+      "lat": 40.839027,
+      "lon": 29.394587,
+      "address": "Akse Mah. 528 Sok. Çayırova, Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02627440032-7",
+      "name": "Çarşı Taksi",
+      "phone": "02627440032",
+      "lat": 40.8371977,
+      "lon": 29.3935799,
+      "address": "Taksi ·  · 527. Sk. Pk:41420",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-8-8",
+      "name": "Çayırova Akse Taksi",
+      "phone": null,
+      "lat": 40.798547,
+      "lon": 29.43405,
+      "address": "Hacıhalil Mah. 1222 Sok. 36 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010524141-9",
+      "name": "Çayırova Papatya Taksi",
+      "phone": "05010524141",
+      "lat": 40.8276722,
+      "lon": 29.3956482,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05071173500-10",
+      "name": "Çayırova Taksi",
+      "phone": "05071173500",
+      "lat": 40.8222897,
+      "lon": 29.4124105,
+      "address": "Taksi Durağı ·  · 62/6. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05447441336-11",
+      "name": "Çeşme Taksi",
+      "phone": "05447441336",
+      "lat": 40.812026,
+      "lon": 29.369034,
+      "address": "Çayırova Mah. Yavuz Sultan Selim Cad. 1 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626417978-12",
+      "name": "Cezaevi Taksi",
+      "phone": "02626417978",
+      "lat": 40.796,
+      "lon": 29.414871,
+      "address": "Köşklü Çeşme Mah. Yeni Bağdat Cad. 401 (Mert Eczanesi Yanı) Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05372842856-13",
+      "name": "Darıca Acil Taksi",
+      "phone": "05372842856",
+      "lat": 40.810024,
+      "lon": 29.454864,
+      "address": "Sultan Orhan Mah. Yeni Bağdat Cad. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348914349-14",
+      "name": "Darıca Sahil Taksi",
+      "phone": "05348914349",
+      "lat": 40.7596413,
+      "lon": 29.386756,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02627450745-15",
+      "name": "Darıca Taksi",
+      "phone": "02627450745",
+      "lat": 40.7588777,
+      "lon": 29.3821516,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02627452770-16",
+      "name": "Denizkent Taksi",
+      "phone": "02627452770",
+      "lat": 40.7590992,
+      "lon": 29.3868215,
+      "address": "Taksi · Özbay Sk. No:10",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02627454541-17",
+      "name": "Develi Taksi",
+      "phone": "02627454541",
+      "lat": 40.8022195,
+      "lon": 29.3674344,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626465005-18",
+      "name": "Eskihisar Taksi",
+      "phone": "02626465005",
+      "lat": 40.79274,
+      "lon": 29.427817,
+      "address": "Osman Yılmaz Mah. Atatürk Cad. 107 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626565606-19",
+      "name": "Farabi Taksi",
+      "phone": "02626565606",
+      "lat": 40.770481,
+      "lon": 29.428568,
+      "address": "Sahil Mevkii, Eskihisar, Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626564279-20",
+      "name": "Garaj Taksi",
+      "phone": "02626564279",
+      "lat": 40.7830404,
+      "lon": 29.3743259,
+      "address": "Taksi · Aşıroğlu Cd. No:32",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-21-21",
+      "name": "Gebze Adliye Taksi",
+      "phone": null,
+      "lat": 40.802312,
+      "lon": 29.43109,
+      "address": "Mustafapaşa Mah. İbrahim Ağa Cad. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626417741-22",
+      "name": "Gebze Taksi",
+      "phone": "02626417741",
+      "lat": 40.8094814,
+      "lon": 29.4192554,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-23-23",
+      "name": "Gosb Taksi",
+      "phone": null,
+      "lat": 40.799801,
+      "lon": 29.431135,
+      "address": "Hacıhalil Mah. Atatürk Cad. 1 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02627210212-24",
+      "name": "Güven Taksi",
+      "phone": "02627210212",
+      "lat": 40.849633,
+      "lon": 29.426043,
+      "address": "Gebze Osb Mah. Şahabettin Bilgisu Cad. Gebze OSB Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-25-25",
+      "name": "Güzeltepe Taksi",
+      "phone": null,
+      "lat": 40.805172,
+      "lon": 29.38335,
+      "address": "Beylikbağı Mah. Ankara Cad. 134 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461450202-26",
+      "name": "Hisar Taksi",
+      "phone": "05461450202",
+      "lat": 40.832891,
+      "lon": 29.3727174,
+      "address": "Taksi Durağı · Rahmi Dibek Cd. No:7",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-27-27",
+      "name": "Huzur Taksi",
+      "phone": null,
+      "lat": 40.797616,
+      "lon": 29.435748,
+      "address": "Hacıhalil Mah. 1224 Sok. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02627212600-28",
+      "name": "Işıklar Taksi",
+      "phone": "02627212600",
+      "lat": 40.808439,
+      "lon": 29.42945,
+      "address": "İnönü Mah. Isık Gölü Cad. 17 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626556298-29",
+      "name": "Işık Taksi",
+      "phone": "02626556298",
+      "lat": 40.785832,
+      "lon": 29.417129,
+      "address": "İstasyon Mah. 1463 Sok. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-30-30",
+      "name": "Istasyon Taksi",
+      "phone": null,
+      "lat": 40.802912,
+      "lon": 29.43109,
+      "address": "Mustafapaşa Mah. İbrahimağa Cad. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05309797951-31",
+      "name": "Kirazpınar Taksi",
+      "phone": "05309797951",
+      "lat": 40.785179,
+      "lon": 29.415717,
+      "address": "İstasyon Mah. İstasyon Cad. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356179909-32",
+      "name": "Ova Taksi",
+      "phone": "05356179909",
+      "lat": 40.8242037,
+      "lon": 29.4643784,
+      "address": "Taksi Durağı · 2744. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334202252-33",
+      "name": "Özlem Taksi",
+      "phone": "05334202252",
+      "lat": 40.787032,
+      "lon": 29.534528,
+      "address": "Mimar Sinan Mah. Bağdat Cad. 16/D Dilovası, Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02627433160-34",
+      "name": "Özyılmaz Taksi",
+      "phone": "02627433160",
+      "lat": 40.80451,
+      "lon": 29.390615,
+      "address": "Ulus Mah. Ordu Cad. 1/A Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626463434-35",
+      "name": "Petrol Taksi",
+      "phone": "02626463434",
+      "lat": 40.795047,
+      "lon": 29.422149,
+      "address": "Osman Yılmaz Mah. Mehmet Akif Ersoy Cad. 1/B Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626432778-36",
+      "name": "Sağlık Taksi",
+      "phone": "02626432778",
+      "lat": 40.795763,
+      "lon": 29.434867,
+      "address": "Hacıhalil Mah. 1209 Sok. (Kiler Market Önü) Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626411080-37",
+      "name": "Sanat Okulu Taksi",
+      "phone": "02626411080",
+      "lat": 40.799848,
+      "lon": 29.437885,
+      "address": "Sultan Orhan Mah. 1112 Sok. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626464378-38",
+      "name": "Saray Taksi",
+      "phone": "02626464378",
+      "lat": 40.8032455,
+      "lon": 29.4400596,
+      "address": "Taksi Durağı · Kavak Cd. No:2 D:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626463043-39",
+      "name": "Şelale Park Taksi",
+      "phone": "02626463043",
+      "lat": 40.797547,
+      "lon": 29.437821,
+      "address": "Sultan Orhan Mah. Menzilhane Cad. 56 Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05338993941-40",
+      "name": "Ssk Taksi",
+      "phone": "05338993941",
+      "lat": 40.823984,
+      "lon": 29.381845,
+      "address": "Taksi Durağı ·  · Uğur Mumcu Cd. No:72",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626460986-41",
+      "name": "Terminal Taksi",
+      "phone": "02626460986",
+      "lat": 40.793487,
+      "lon": 29.422848,
+      "address": "Osman Yılmaz Mah. 608. Sok. (Fatih Devlet Hastanesi Yanı) Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626445800-42",
+      "name": "Tünel Üstü Beşevler Taksi",
+      "phone": "02626445800",
+      "lat": 40.798063,
+      "lon": 29.449087,
+      "address": "Barış Mah. Koşu Yolu Cad. Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626424344-43",
+      "name": "kocaeli-taksi",
+      "phone": "02626424344",
+      "lat": 40.7826059,
+      "lon": 29.4273621,
+      "address": "Taksi Durağı · Dr. Zeki Acar Cd. No: 110",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623353335-44",
+      "name": "Akyol Taksi",
+      "phone": "02623353335",
+      "lat": 40.7567599,
+      "lon": 29.9448567,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-45-45",
+      "name": "Alo Taksi",
+      "phone": null,
+      "lat": 40.759322,
+      "lon": 29.788652,
+      "address": "Güney Mah. Taner Sok. Tütünçiftlik, Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357322407-46",
+      "name": "Bağçeşme Taksi",
+      "phone": "05357322407",
+      "lat": 40.770455,
+      "lon": 29.757892,
+      "address": "Mimar Sinan Mah. Dost Sok. 8 Yarımca, Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623221626-47",
+      "name": "Bağdat Taksi",
+      "phone": "02623221626",
+      "lat": 40.7699246,
+      "lon": 29.9215758,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623211056-48",
+      "name": "Barış Taksi",
+      "phone": "02623211056",
+      "lat": 40.767607,
+      "lon": 29.9474662,
+      "address": "Taksi Durağı · Bağdat Cd. No:90",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623227670-49",
+      "name": "Başaran Taksi",
+      "phone": "02623227670",
+      "lat": 40.7674405,
+      "lon": 29.9576812,
+      "address": "Taksi Durağı · Gazi Mustafa Kemal Blv. No:81",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623216128-50",
+      "name": "Başiskele Yüksekokul Taksi",
+      "phone": "02623216128",
+      "lat": 40.7730856,
+      "lon": 29.9536072,
+      "address": "Taksi Durağı · Kuşak Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05311610303-51",
+      "name": "Bayındırlık Toki Taksi",
+      "phone": "05311610303",
+      "lat": 40.7237358,
+      "lon": 29.9690545,
+      "address": "Taksi Durağı · Belediye Sk. No:47",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623291717-52",
+      "name": "Belde Taksi",
+      "phone": "02623291717",
+      "lat": 40.8006532,
+      "lon": 29.953283,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02625281240-53",
+      "name": "Bizim Taksi",
+      "phone": "02625281240",
+      "lat": 40.762977,
+      "lon": 29.787151,
+      "address": "Kuzey Mah. Ağadere Cad. (Belediye Yanı) Tütünçiftlik, Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05362003465-54",
+      "name": "Boğazova Taksi",
+      "phone": "05362003465",
+      "lat": 40.77145,
+      "lon": 29.758221,
+      "address": "Mimar Sinan Mah. Gül Sok. Yarımca, Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308994100-55",
+      "name": "Efe Taksi",
+      "phone": "05308994100",
+      "lat": 40.7926676,
+      "lon": 29.9636424,
+      "address": "Taksi Durağı · Boğazova Cd No:64",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02625274646-56",
+      "name": "- Körfez Taksi",
+      "phone": "02625274646",
+      "lat": 40.7573637,
+      "lon": 29.7961586,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02625282200-57",
+      "name": "Güven Taksi",
+      "phone": "02625282200",
+      "lat": 40.7675765,
+      "lon": 29.8034217,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-58-58",
+      "name": "Hastane Taksi",
+      "phone": null,
+      "lat": 40.771652,
+      "lon": 29.750807,
+      "address": "Mimar Sinan Mah. Gonca Sok. 11 Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-59-59",
+      "name": "Hereke Taksi",
+      "phone": null,
+      "lat": 40.775776,
+      "lon": 29.775869,
+      "address": "Çamlıtepe Mah. Gediz Sok. Tütünçiftlik, Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02625114075-60",
+      "name": "Hizmet Taksi",
+      "phone": "02625114075",
+      "lat": 40.783662,
+      "lon": 29.614964,
+      "address": "Hacı Akif Mah. Cumhuriyet Cad. 8 (Belediye Dükkanları) Hereke, Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02625273316-61",
+      "name": "Kartepe Köseköy Taksi",
+      "phone": "02625273316",
+      "lat": 40.760675,
+      "lon": 29.785614,
+      "address": "Güney Mah. Ahmet Petrolcü Sok. Körfez, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05523733733-62",
+      "name": "Kocaeli Şehir Hastanesi TAKSi",
+      "phone": "05523733733",
+      "lat": 40.7539777,
+      "lon": 30.0231708,
+      "address": "Taksi · Bizim Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623233641-63",
+      "name": "Köprü Taksi",
+      "phone": "02623233641",
+      "lat": 40.7847379,
+      "lon": 29.9534947,
+      "address": "Ulaşım Hizmeti ·  · Kocaeli Şehir Hastane Taksi, Akif Sk. No:63",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02623212758-64",
+      "name": "Körfez Hacı Osman Taksi",
+      "phone": "02623212758",
+      "lat": 40.766833,
+      "lon": 29.90018,
+      "address": "Taksi Durağı ·  · Nurettin Paşa Sk. Kosem Apartment A Block, Köşem Cami No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02625281888-65",
+      "name": "Korfez Kent Taksi",
+      "phone": "02625281888",
+      "lat": 40.7762261,
+      "lon": 29.7415545,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347083300-66",
+      "name": "7/24 Taksi",
+      "phone": "05347083300",
+      "lat": 40.7738794,
+      "lon": 29.7997585,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364302540-67",
+      "name": "Kullar Taksi",
+      "phone": "05364302540",
+      "lat": 40.7752568,
+      "lon": 29.7824685,
+      "address": "Taksi Durağı · hastane önü, Gediz Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05527394141-68",
+      "name": "Kuruçeşme Taksi",
+      "phone": "05527394141",
+      "lat": 40.7237575,
+      "lon": 29.9871836,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05545564141-69",
+      "name": "Metropol Taksi",
+      "phone": "05545564141",
+      "lat": 40.7688386,
+      "lon": 29.8669607,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623217069-70",
+      "name": "Petrol Taksi",
+      "phone": "02623217069",
+      "lat": 40.762276,
+      "lon": 29.92073,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626432778-71",
+      "name": "Plaj Yolu Taksi",
+      "phone": "02626432778",
+      "lat": 40.793654,
+      "lon": 29.433248,
+      "address": "Tatlıkuyu Mah. Körfez Cad. 22 (Tatlıkuyu Köprüsü) Gebze, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02622260043-72",
+      "name": "Sanayi Taksi",
+      "phone": "02622260043",
+      "lat": 40.7619628,
+      "lon": 29.8780269,
+      "address": "Taksi Durağı ·  · Karayolu Sk. No:51",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623350582-73",
+      "name": "Santral Taksi",
+      "phone": "02623350582",
+      "lat": 40.745956,
+      "lon": 29.949373,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623242713-74",
+      "name": "Sarımeşe Taksi",
+      "phone": "02623242713",
+      "lat": 40.7686245,
+      "lon": 29.9398417,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05385283041-75",
+      "name": "Seka Devlet Hastanesi Taksi",
+      "phone": "05385283041",
+      "lat": 40.7307106,
+      "lon": 30.0384839,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623214948-76",
+      "name": "Symbol Taksi",
+      "phone": "02623214948",
+      "lat": 40.7645436,
+      "lon": 29.899264,
+      "address": "Taksi Durağı ·  · Onuralp Sk. 11a",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623121818-77",
+      "name": "Tepeköy Vip Taksi",
+      "phone": "02623121818",
+      "lat": 40.7575626,
+      "lon": 29.9787391,
+      "address": "Taksi Durağı ·  · Ovacık Mahallesi, Symbol Alışveriş Ve Yaşam Merkezi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623239999-78",
+      "name": "Tramvay Taksi",
+      "phone": "02623239999",
+      "lat": 40.7944693,
+      "lon": 29.9784532,
+      "address": "Taksi Durağı ·  · VİP TAKSİ Durağı, Turan Güneş Cd. No:580/2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464504041-79",
+      "name": "Tuana Taksi",
+      "phone": "05464504041",
+      "lat": 40.7736115,
+      "lon": 29.9806708,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313560371-80",
+      "name": "Tüysüzler Taksi",
+      "phone": "05313560371",
+      "lat": 40.7792652,
+      "lon": 29.9337282,
+      "address": "Taksi Durağı · Tuana Evleri karşısı, Gazanfer Bilge Blv. Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05324558841-81",
+      "name": "Uysal Taksi",
+      "phone": "05324558841",
+      "lat": 40.7846685,
+      "lon": 29.9232783,
+      "address": "Taksi Durağı · Mahalle Muhtarlığı Yanı, Şht. Metin Kaya Cd. No:29",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623212919-82",
+      "name": "Yeşilova Taksi",
+      "phone": "02623212919",
+      "lat": 40.765329,
+      "lon": 29.912651,
+      "address": "Taksi Durağı ·  · Orduevi Sk. No:26",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334202252-83",
+      "name": "Yuvam Taksi",
+      "phone": "05334202252",
+      "lat": 40.7868455,
+      "lon": 29.9728304,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623190983-84",
+      "name": "kocaeli-taksi",
+      "phone": "02623190983",
+      "lat": 40.7743284,
+      "lon": 29.9871051,
+      "address": "Taksi Durağı · Alb. Karaosmanoğlu Cd. No:10",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05313260828-85",
+      "name": "Adliye Taksi",
+      "phone": "05313260828",
+      "lat": 40.76139982,
+      "lon": 29.95266371,
+      "address": "Körfez Mah. Ali Dikmen Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623244016-86",
+      "name": "Atakan Taksi",
+      "phone": "02623244016",
+      "lat": 40.764727,
+      "lon": 29.938665,
+      "address": "Karabaş Mah. Hafız Binbaşı Cad. 1 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623211701-87",
+      "name": "Bağyolu Çiçek Taksi",
+      "phone": "02623211701",
+      "lat": 40.764814,
+      "lon": 29.937221,
+      "address": "Karabaş Mah. Cengiz Topel Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02622265490-88",
+      "name": "Belsa Taksi",
+      "phone": "02622265490",
+      "lat": 40.763762,
+      "lon": 29.8875,
+      "address": "Yenimahalle Mah. İnkılap Cad. 3 (Özel Acıbadem Hastanesi Yanı) İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623214647-89",
+      "name": "Bozkurt Taksi",
+      "phone": "02623214647",
+      "lat": 40.764009,
+      "lon": 29.926763,
+      "address": "Ömerağa Mah. İstiklal Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623218840-90",
+      "name": "Bulvar Taksi",
+      "phone": "02623218840",
+      "lat": 40.779856,
+      "lon": 29.946422,
+      "address": "28 Haziran Mah. Eski İstanbul Cad. 11 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623220394-91",
+      "name": "Carrefoursa Taksi",
+      "phone": "02623220394",
+      "lat": 40.765399,
+      "lon": 29.945329,
+      "address": "Kadıköy Mah. Atatürk Blv. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05073174141-92",
+      "name": "Çınarlı Taksi",
+      "phone": "05073174141",
+      "lat": 40.758564,
+      "lon": 29.94256,
+      "address": "Körfez Mah. Ömer Türkçakal Blv. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623216315-93",
+      "name": "Deniz Taksi",
+      "phone": "02623216315",
+      "lat": 40.767484,
+      "lon": 29.931046,
+      "address": "Çukurbağ Mah. Bahariye Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623219523-94",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "02623219523",
+      "lat": 40.764047,
+      "lon": 29.917977,
+      "address": "Kozluk Mah. İnönü Cad. (Bim Karşısında) İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623224334-95",
+      "name": "Dünya Bankası Taksi",
+      "phone": "02623224334",
+      "lat": 40.767317,
+      "lon": 29.937481,
+      "address": "Cedit Mah. Devlet Hastanesi Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623293845-96",
+      "name": "Emek Taksi",
+      "phone": "02623293845",
+      "lat": 40.787992,
+      "lon": 29.946329,
+      "address": "Malta Mah. Özgürlük Cad. Birlik Sok. Dünya Bankası Deprem Konutları İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623215389-97",
+      "name": "Gar Taksi",
+      "phone": "02623215389",
+      "lat": 40.762305,
+      "lon": 29.930799,
+      "address": "Ömerağa Mah. Şahabettin Bilgisu Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04165119411-98",
+      "name": "Heykel Taksi",
+      "phone": "04165119411",
+      "lat": 40.761101,
+      "lon": 29.91203,
+      "address": "Kozluk Mah. Dr. Salim Dervişoğlu Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623243489-99",
+      "name": "Izmit Taksi",
+      "phone": "02623243489",
+      "lat": 40.763332,
+      "lon": 29.917602,
+      "address": "Kozluk Mah. Şerifiye Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05073174141-100",
+      "name": "Kandıra Sapağı Taksi",
+      "phone": "05073174141",
+      "lat": 40.770745,
+      "lon": 29.96961,
+      "address": "Yahyakaptan Mah. Şehit Ergün Köncü Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623254182-101",
+      "name": "Kavanium Taksi",
+      "phone": "02623254182",
+      "lat": 40.763111,
+      "lon": 29.956675,
+      "address": "Körfez Mah. Yüce Rıfat Sok. 1 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623651514-102",
+      "name": "Kocaeli Taksi",
+      "phone": "02623651514",
+      "lat": 40.7685,
+      "lon": 30.007306,
+      "address": "Alikahya Atatürk Mah. Kozluk Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05073174141-103",
+      "name": "Kuru Çeşme Taksi",
+      "phone": "05073174141",
+      "lat": 40.762994,
+      "lon": 29.923116,
+      "address": "Kemalpaşa Mah. İstiklal Cad. 1 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05545564141-104",
+      "name": "Mikro Taksi",
+      "phone": "05545564141",
+      "lat": 40.765362,
+      "lon": 29.877763,
+      "address": "Yeni Mah. Lozan Cad. 17 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623214541-105",
+      "name": "Mikro Taksi",
+      "phone": "02623214541",
+      "lat": 40.764109,
+      "lon": 29.92392,
+      "address": "Tepecik Mah. Hamdi Açan Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05464504041-106",
+      "name": "Ncıty Taksi",
+      "phone": "05464504041",
+      "lat": 40.76248,
+      "lon": 29.938525,
+      "address": "Karabaş Mah. Hafız Binbaşı Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623310306-107",
+      "name": "Ömür Taksi",
+      "phone": "02623310306",
+      "lat": 40.76091,
+      "lon": 29.934284,
+      "address": "Körfez Mah. Oramiral Salim Derviş Cad. 82/1 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623215056-108",
+      "name": "Park Taksi",
+      "phone": "02623215056",
+      "lat": 40.766314,
+      "lon": 29.92899,
+      "address": "Çukurbağ Mah. İnönü Cad. Velibaba Sok. 1 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623213706-109",
+      "name": "Paşa Taksi",
+      "phone": "02623213706",
+      "lat": 40.766576,
+      "lon": 29.927798,
+      "address": "Hacı Hızır Mah. Alemdar Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05316025151-110",
+      "name": "Real Taksi",
+      "phone": "05316025151",
+      "lat": 40.76716,
+      "lon": 29.952032,
+      "address": "M.Alipaşa Mah. Bağdat Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623323397-111",
+      "name": "Seka Sümer Taksi",
+      "phone": "02623323397",
+      "lat": 40.764755,
+      "lon": 29.94591,
+      "address": "Körfez Mah. Şehit Rafet Karacan Blv. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623210952-112",
+      "name": "Semt Taksi",
+      "phone": "02623210952",
+      "lat": 40.763481,
+      "lon": 29.913152,
+      "address": "Kozluk Mah. Sümer Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623246000-113",
+      "name": "Şenol Taksi",
+      "phone": "02623246000",
+      "lat": 40.763124,
+      "lon": 29.929635,
+      "address": "Ömerağa Mah. Cemil Karakadılar Cad. (Hsbc Bankası Arkası) İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05073174141-114",
+      "name": "Taksi",
+      "phone": "05073174141",
+      "lat": 40.80181,
+      "lon": 29.951444,
+      "address": "Ayazma Mah. Narin Sok. 11 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-115-115",
+      "name": "Üçyol Taksi",
+      "phone": null,
+      "lat": 40.761881,
+      "lon": 29.923128,
+      "address": "Kemalpaşa Mah. Eski Postane Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623212996-116",
+      "name": "Vilayet Taksi",
+      "phone": "02623212996",
+      "lat": 40.772403,
+      "lon": 29.950443,
+      "address": "28 Haziran Mah. Şevkat Sok. 1 İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623229984-117",
+      "name": "Yahya Kaptan Taksi",
+      "phone": "02623229984",
+      "lat": 40.763015,
+      "lon": 29.933212,
+      "address": "Karabaş Mah. Rauf Orbay Sok. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623110095-118",
+      "name": "Yahya Kaptan Taksi",
+      "phone": "02623110095",
+      "lat": 40.769078,
+      "lon": 29.976485,
+      "address": "Yahyakaptan Mah. Sarı Mimoza Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623110085-119",
+      "name": "Yenidoğan Taksi",
+      "phone": "02623110085",
+      "lat": 40.767614,
+      "lon": 29.9682,
+      "address": "Yahyakaptan Mah. Necip Fazıl Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623215832-120",
+      "name": "Yenidoğan Taksi",
+      "phone": "02623215832",
+      "lat": 40.769269,
+      "lon": 29.902727,
+      "address": "Yenidoğan Mah. Mürselpaşa Cad. İzmit, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623215832-121",
+      "name": "kocaeli-taksi",
+      "phone": "02623215832",
+      "lat": 40.767256,
+      "lon": 29.9032133,
+      "address": "Taksi Durağı · Mürsel Paşa Cd. No:3",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624121777-122",
+      "name": "Bizim Taksi",
+      "phone": "02624121777",
+      "lat": 40.717803,
+      "lon": 29.818428,
+      "address": "Merkez Mah. Preveze Cad. Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362003465-123",
+      "name": "Çınar Taksi",
+      "phone": "05362003465",
+      "lat": 40.719152,
+      "lon": 29.8213,
+      "address": "Merkez Mah. 19 Mayıs Cad. 38 Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-124-124",
+      "name": "Deniz Taksi",
+      "phone": null,
+      "lat": 40.722037,
+      "lon": 29.781918,
+      "address": "Yalı Mah. Dere Sok. Değirmendere, Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623219523-125",
+      "name": "Emek Taksi",
+      "phone": "02623219523",
+      "lat": 40.721605,
+      "lon": 29.818893,
+      "address": "Merkez Mah. Mareşal Fevzi Çakmak Cad. 2 Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624145609-126",
+      "name": "Gölcük Emek Taksi",
+      "phone": "02624145609",
+      "lat": 40.714676,
+      "lon": 29.833773,
+      "address": "Dumlupınar Mah. Atatürk Blv. Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02624145609-127",
+      "name": "Gölcük Hastane Taksi",
+      "phone": "02624145609",
+      "lat": 40.7152491,
+      "lon": 29.8304009,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02624355390-128",
+      "name": "Gölcük Karaköprü Taksi",
+      "phone": "02624355390",
+      "lat": 40.7063938,
+      "lon": 29.8392232,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05515104141-129",
+      "name": "Hastane Taksi",
+      "phone": "05515104141",
+      "lat": 40.7032985,
+      "lon": 29.8554496,
+      "address": "Taksi · Sultan Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-130-130",
+      "name": "Huzur Taksi",
+      "phone": null,
+      "lat": 40.710485,
+      "lon": 29.841291,
+      "address": "Çiftlik Mah. Hastane Cad. İhsaniye, Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02624141058-131",
+      "name": "Ihsaniye Merkez Taksi",
+      "phone": "02624141058",
+      "lat": 40.716938,
+      "lon": 29.819718,
+      "address": "Merkez Mah. Amiral Sağlam Cad. Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624356262-132",
+      "name": "Kolaylı Taksi",
+      "phone": "02624356262",
+      "lat": 40.69092,
+      "lon": 29.832587,
+      "address": "Merkez Mah. Zorlu Cad. İhsaniye, Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624149219-133",
+      "name": "Saray Taksi",
+      "phone": "02624149219",
+      "lat": 40.718482,
+      "lon": 29.815491,
+      "address": "Donanma Mah. Donanma Cad. Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624131690-134",
+      "name": "Şirin Taksi",
+      "phone": "02624131690",
+      "lat": 40.716338,
+      "lon": 29.819718,
+      "address": "Merkez Mah. Amiral Sağlam Cad. Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624221282-135",
+      "name": "kocaeli-taksi",
+      "phone": "02624221282",
+      "lat": 40.700374,
+      "lon": 29.828383,
+      "address": "Şirinköy Mah. Ali Fuat Paşa Cad. 2 Gölcük, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02622299999-136",
+      "name": "Çenesuyu Taksi",
+      "phone": "02622299999",
+      "lat": 40.76241,
+      "lon": 29.814609,
+      "address": "İbnisina Mah. Lojman Sok. (Derince Eğitim Ve Araştırma Hastanesi Acil Girişi Yanı) Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02622396634-137",
+      "name": "Derince Birlik Taksi",
+      "phone": "02622396634",
+      "lat": 40.766036,
+      "lon": 29.844317,
+      "address": "Çınarlı Mah. Çenesuyu Cad. Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02622299999-138",
+      "name": "durağı - 7/24 - Acil Taksi",
+      "phone": "02622299999",
+      "lat": 40.753849,
+      "lon": 29.831736,
+      "address": "Deniz Mah. İstasyon Cad. 2 Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336116999-139",
+      "name": "Derince Safir Taksi",
+      "phone": "05336116999",
+      "lat": 40.761557,
+      "lon": 29.803695,
+      "address": "Taksi · Güvenlik Cd. No:11",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623315141-140",
+      "name": "Derince Sırrıpaşa Merkez Taksi",
+      "phone": "02623315141",
+      "lat": 40.7808067,
+      "lon": 29.8105153,
+      "address": "Taksi Durağı · Hayal Sk. 12/3",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02622500000-141",
+      "name": "- Derince Taksi - Kocaeli Taksi",
+      "phone": "02622500000",
+      "lat": 40.7602364,
+      "lon": 29.8209364,
+      "address": "Taksi Durağı · Çenedere Cd. No: 53",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02622296422-142",
+      "name": "Eski Yol Taksi",
+      "phone": "02622296422",
+      "lat": 40.7578648,
+      "lon": 29.838365,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02622296422-143",
+      "name": "Saray Taksi",
+      "phone": "02622296422",
+      "lat": 40.757701,
+      "lon": 29.835618,
+      "address": "Çenedağ Mah. Denizciler Cad. Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02622295595-144",
+      "name": "Yavuz Taksi",
+      "phone": "02622295595",
+      "lat": 40.756363,
+      "lon": 29.830794,
+      "address": "Çenedağ Mah. Hafız Hasan Yılmaz Cad. 55 Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02622299090-145",
+      "name": "Yenikent Taksi",
+      "phone": "02622299090",
+      "lat": 40.75524,
+      "lon": 29.809418,
+      "address": "Yavuz Sultan Mah. Körfez Cad. 40 Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02622330673-146",
+      "name": "kocaeli-taksi",
+      "phone": "02622330673",
+      "lat": 40.771438,
+      "lon": 29.808323,
+      "address": "Yenikent Mah. Turgut Özal Cad. Derince, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626535053-147",
+      "name": "Darıca Merkez Taksi",
+      "phone": "02626535053",
+      "lat": 40.7915208,
+      "lon": 29.3673075,
+      "address": "Taksi · Boğaziçi Hastanesi Yanı, Fatih Sultan Mehmet Cd. No:140",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348914349-148",
+      "name": "Darıca Sırasöğütler Taksi",
+      "phone": "05348914349",
+      "lat": 40.787185,
+      "lon": 29.373115,
+      "address": "Osmangazi Mah. Aşıroğlu Cad. 32 Darıca, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626553032-149",
+      "name": "Emek Taksi",
+      "phone": "02626553032",
+      "lat": 40.7892602,
+      "lon": 29.3917025,
+      "address": "Taksi Durağı · Aydınlar Cd. No:13",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626531836-150",
+      "name": "Eren Taksi",
+      "phone": "02626531836",
+      "lat": 40.785936,
+      "lon": 29.349669,
+      "address": "Bayramoğlu Mah. Fatih Sultan Mehmet Cad. 239 Darıca, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626534975-151",
+      "name": "Farabi Hastanesi Taksi",
+      "phone": "02626534975",
+      "lat": 40.791627,
+      "lon": 29.374289,
+      "address": "Osmangazi Mah. Aşıroğlu Cad. Darıca, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626564279-152",
+      "name": "Gar Taksi",
+      "phone": "02626564279",
+      "lat": 40.7710859,
+      "lon": 29.4044118,
+      "address": "Ulaşım Hizmeti ·  · Dr. Zeki Acar Cd. No:62",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626555511-153",
+      "name": "Gaziler Taksi",
+      "phone": "02626555511",
+      "lat": 40.783349,
+      "lon": 29.4102,
+      "address": "Abdi İpekçi Mah. Ethem Paşa Cad. 39 Gebze, Darıca, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626557408-154",
+      "name": "Nenehatun Darıca Taksi",
+      "phone": "02626557408",
+      "lat": 40.777383,
+      "lon": 29.406011,
+      "address": "Fevziçakmak Mah. İstasyon Cad. Şebnem Sok. 1 Darıca, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626536969-155",
+      "name": "Osmangazi Aşıroğlu Taksi",
+      "phone": "02626536969",
+      "lat": 40.780976,
+      "lon": 29.3858021,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02626531973-156",
+      "name": "kocaeli-taksi",
+      "phone": "02626531973",
+      "lat": 40.786585,
+      "lon": 29.373115,
+      "address": "Osmangazi Mah. Aşıroğlu Cad. 32 Darıca, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623535252-157",
+      "name": "Istasyon Merkez Taksi",
+      "phone": "02623535252",
+      "lat": 40.70978713,
+      "lon": 30.10976225,
+      "address": "Körfez Mah. Ahmet Lütfü Arat Blv. 66 Derbent, Kartepe, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05523733733-158",
+      "name": "Kartepe Derbent Taksi",
+      "phone": "05523733733",
+      "lat": 40.749881,
+      "lon": 30.012002,
+      "address": "Tepecik Mah. Yunus Emre Cad. Kartepe, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-159-159",
+      "name": "Kartepe Maşukiye Taksi",
+      "phone": null,
+      "lat": 40.7098197,
+      "lon": 30.109667,
+      "address": "Taksi Durağı · Ahmet Lütfü Arat Blv. No:66",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403543900-160",
+      "name": "Kartepe Taksi",
+      "phone": "05403543900",
+      "lat": 40.7065251,
+      "lon": 30.137612,
+      "address": "Taksi Durağı ·  · Maşukiye Mahallesi, Sapanca Yolu Cd. no 668",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05309760841-161",
+      "name": "Kartepe Taksi",
+      "phone": "05309760841",
+      "lat": 40.708905,
+      "lon": 30.126598,
+      "address": "Çınarlı Mah. Milli Egemenlik Cad. Maşukiye, Kartepe, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05344544059-162",
+      "name": "UzunÇiftlik Taksi",
+      "phone": "05344544059",
+      "lat": 40.7304376,
+      "lon": 30.0202829,
+      "address": "Taksi · Fatih Sultan Mehmet mahallesi, Mevsim Sk. No9",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413712020-163",
+      "name": "Kartepe Maşukiye Taksi",
+      "phone": "05413712020",
+      "lat": 40.7486425,
+      "lon": 30.0464964,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05302628641-164",
+      "name": "Başiskele Kent Taksi",
+      "phone": "05302628641",
+      "lat": 40.7050337,
+      "lon": 29.9320766,
+      "address": "Taksi Durağı · Millet Cad, Hoylan Sk. Kesişimi No 0",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348255570-165",
+      "name": "Başiskele Merkez Taksi",
+      "phone": "05348255570",
+      "lat": 40.709984,
+      "lon": 29.942639,
+      "address": "Taksi Durağı ·  · Pasinler Cd. No:16",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324353488-166",
+      "name": "Başiskele Sahil Taksi",
+      "phone": "05324353488",
+      "lat": 40.710558,
+      "lon": 29.932471,
+      "address": "Barbaros Mah. Millet Cad. 44 Başiskele, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304990141-167",
+      "name": "Vezir Taksi",
+      "phone": "05304990141",
+      "lat": 40.7130117,
+      "lon": 29.9109797,
+      "address": "Taksi Durağı ·  · Hürriyet Cd. No:60",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02623492627-168",
+      "name": "Yeniköy Taksi",
+      "phone": "02623492627",
+      "lat": 40.7447966,
+      "lon": 29.9590139,
+      "address": "Taksi Durağı ·  · Yalkım Sk. No:20",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02623414343-169",
+      "name": "Başiskele Merkez Taksi",
+      "phone": "02623414343",
+      "lat": 40.7011571,
+      "lon": 29.8875695,
+      "address": "Taksi Durağı · Kültür Sk. No:3",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356438688-170",
+      "name": "Eser Taksi",
+      "phone": "05356438688",
+      "lat": 40.701282,
+      "lon": 29.659471,
+      "address": "Hüseyin Hoca Mah. Yayın Sok. 2 Karamürsel, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624521309-171",
+      "name": "Karamürsel Elit Taksi",
+      "phone": "02624521309",
+      "lat": 40.692491,
+      "lon": 29.616037,
+      "address": "Camiatik Mah. Cumhuriyet Cad. 17/A 4 Temmuz, Karamürsel, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624521300-172",
+      "name": "Yeni Karamürsel Taksi",
+      "phone": "02624521300",
+      "lat": 40.6928701,
+      "lon": 29.6118303,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02624522131-173",
+      "name": "Yuvacık Sapak Taksi",
+      "phone": "02624522131",
+      "lat": 40.6896179,
+      "lon": 29.6077445,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454044153-174",
+      "name": "Karamürsel Elit Taksi",
+      "phone": "05454044153",
+      "lat": 40.7229586,
+      "lon": 29.9505045,
+      "address": "Taksi Durağı ·  · Karamürsel Cd. No:388",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02625514183-175",
+      "name": "Kandıra kocaeli huzur Taksi",
+      "phone": "02625514183",
+      "lat": 41.0696095,
+      "lon": 30.1529273,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02625513300-176",
+      "name": "Kandıra Taksi",
+      "phone": "02625513300",
+      "lat": 41.0706119,
+      "lon": 30.152201,
+      "address": "Taksi · halk bankası önü, Nihat Erim Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02625512917-177",
+      "name": "Kefken Taksi",
+      "phone": "02625512917",
+      "lat": 41.0703976,
+      "lon": 30.1500354,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325924645-178",
+      "name": "Kandıra Taksi",
+      "phone": "05325924645",
+      "lat": 41.171289,
+      "lon": 30.228028,
+      "address": "Kefken Köyü Kandıra, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02626582505-179",
+      "name": "Şeker Taksi",
+      "phone": "02626582505",
+      "lat": 40.859354,
+      "lon": 29.3871,
+      "address": "Şekerpınar Mah. Hüseyin Demir Cad. Çayırova, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05546152561-180",
+      "name": "Yeni Mahalle Taksi",
+      "phone": "05546152561",
+      "lat": 40.864563,
+      "lon": 29.380364,
+      "address": "Cumhuriyet Mah. Muhsin Yazıcıoğlu Cad. 105 Şekerpınar, Çayırova, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427441483-181",
+      "name": "Yeni Mahalle Taksi",
+      "phone": "05427441483",
+      "lat": 40.819901,
+      "lon": 29.370943,
+      "address": "Yeni Mah. Fatih Cad. Çayırova, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02627545224-182",
+      "name": "Tümü → Dilovası İmes Osb Taksi",
+      "phone": "02627545224",
+      "lat": 40.8120786,
+      "lon": 29.5675497,
+      "address": "Taksi Durağı ·  · Valiler Blv. No:33",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05333253841-183",
+      "name": "Dilovası Taksi",
+      "phone": "05333253841",
+      "lat": 40.788044,
+      "lon": 29.543412,
+      "address": "Orhangazi Mah. Necip Fazıl Cad. Dilovası, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358698028-184",
+      "name": "Dilovası Taksi",
+      "phone": "05358698028",
+      "lat": 40.78860341,
+      "lon": 29.53256158,
+      "address": "Mimar Sinan Mah. Bağdat Cad. 11/A Dilovası, Kocaeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-02622261911-185",
+      "name": "Kuruçeşme Taksi",
+      "phone": "02622261911",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-02623211113-186",
+      "name": "Kocaeli Kemalpaşa Taksi",
+      "phone": "02623211113",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02623432121-187",
+      "name": "Tümü → Başiskele Merkez Taksi",
+      "phone": "02623432121",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323421003-188",
+      "name": "Başiskele Merkez Taksi1",
+      "phone": "05323421003",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05303480347-189",
+      "name": "Kocaeli Başiskele Merkez Taksi",
+      "phone": "05303480347",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05379583015-190",
+      "name": "Kullar Taksi",
+      "phone": "05379583015",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-02623435151-191",
+      "name": "Seymen Taksi Durağı",
+      "phone": "02623435151",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05326691699-192",
+      "name": "Yeniköy Sepetlipınar Taksi Durağı",
+      "phone": "05326691699",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02627444050-193",
+      "name": "Cezaevi Taksi Duraği",
+      "phone": "02627444050",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02626445656-194",
+      "name": "Cezaevi Taksi Durağı",
+      "phone": "02626445656",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02626461114-195",
+      "name": "Gebze Center Taksi",
+      "phone": "02626461114",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02626411327-196",
+      "name": "Gebze Taksi – Gebze Taksi Durağı",
+      "phone": "02626411327",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02626412062-197",
+      "name": "Hisar Taksi",
+      "phone": "02626412062",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365090141-198",
+      "name": "Hürriyet Taksi Gebze AÇIK · 7 gün 24 saat Hürriyet mahallesi yaşardoğu caddesi, ",
+      "phone": "05365090141",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02626430976-199",
+      "name": "Işık Taksi",
+      "phone": "02626430976",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02626418449-200",
+      "name": "Park Taksi Gebze",
+      "phone": "02626418449",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02624261666-201",
+      "name": "Tümü → Çınar Taksi Gölcük AÇIK · 7 gün 24 saat Değirmendere Merkez, Başkomutan C",
+      "phone": "02624261666",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323349132-202",
+      "name": "Gölcük Taksi (41 T 5061)",
+      "phone": "05323349132",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05377264130-203",
+      "name": "Terminal Taksi",
+      "phone": "05377264130",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02622261190-204",
+      "name": "Doğan Taksi İzmit",
+      "phone": "02622261190",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02625636683-205",
+      "name": "İzmit Kefken Taksi",
+      "phone": "02625636683",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02623116255-206",
+      "name": "İzmit Taksi – İzmit/kocaeli AÇIK · 7 gün 24 saat Yahyakaptan, Şht. Ergün Köncü S",
+      "phone": "02623116255",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02623229201-207",
+      "name": "Kocaeli Taksi",
+      "phone": "02623229201",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05300860335-208",
+      "name": "Mercedes Amg Taksi",
+      "phone": "05300860335",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05444111563-209",
+      "name": "Semt Taksi AÇIK · 7 gün 24 saat Ömerağa, Cemil Karakadılar Cd. Pk:41040, 41300 İ",
+      "phone": "05444111563",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02623468254-210",
+      "name": "Yeni Cuma Taksi",
+      "phone": "02623468254",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05465677006-211",
+      "name": "Kandıra Kocaeli Huzur Taksi AÇIK · 7 gün 24 saat çarşı mahallesi, halk bankası ö",
+      "phone": "05465677006",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05459299029-212",
+      "name": "Uysal Taksi Kandıra",
+      "phone": "05459299029",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05362751269-213",
+      "name": "Kartepe Derbent Taksi",
+      "phone": "05362751269",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05510020147-214",
+      "name": "Kartepe Taksii AÇIK · 7 gün 24 saat Köseköy, Fatih Sultan Mehmet mahallesi, Mevs",
+      "phone": "05510020147",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02625274076-215",
+      "name": "Tümü → Akyol Taksi Körfez",
+      "phone": "02625274076",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05380302600-216",
+      "name": "Kocaeli Körfez Taksi",
+      "phone": "05380302600",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05317882080-217",
+      "name": "Korfez Kent Taksi AÇIK · 7 gün 24 saat Yavuz Sultan Selim, korfez kent, Mevlana ",
+      "phone": "05317882080",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02625284114-218",
+      "name": "Yarımca Çay Taksi Körfez",
+      "phone": "02625284114",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02625270027-219",
+      "name": "Yarımca Taksi Körfez",
+      "phone": "02625270027",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05354900796-220",
+      "name": "Yalı Taksi - Sadi Baba",
+      "phone": "05354900796",
+      "lat": 40.7656,
+      "lon": 29.9406,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1641 @@
+{
+  "cityId": "van",
+  "cityName": "Van",
+  "fetchedAt": "2026-08-30T21:24:11.584Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 134,
+  "stands": [
+    {
+      "id": "taksi724-05312199979-0",
+      "name": "Emniyet Taksi",
+      "phone": "05312199979",
+      "lat": 38.5082935,
+      "lon": 43.3852948,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04322174999-1",
+      "name": "Fakülte Taksi",
+      "phone": "04322174999",
+      "lat": 38.50042,
+      "lon": 43.373025,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322166077-2",
+      "name": "Hayat Taksi",
+      "phone": "04322166077",
+      "lat": 38.5003305,
+      "lon": 43.3791493,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04322165544-3",
+      "name": "İpekyol Taksi",
+      "phone": "04322165544",
+      "lat": 38.4948931,
+      "lon": 43.3976309,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322175095-4",
+      "name": "Mehmet Taksi",
+      "phone": "04322175095",
+      "lat": 38.4924259,
+      "lon": 43.3716276,
+      "address": "Taksi Durağı · Cevdetpaşa Mah. İkinisan Cad No:172, 65150",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425416130-5",
+      "name": "Otogar Taksi",
+      "phone": "05425416130",
+      "lat": 38.4784624,
+      "lon": 43.3902998,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05392240432-6",
+      "name": "Selim beyde Taksi",
+      "phone": "05392240432",
+      "lat": 38.5143311,
+      "lon": 43.3781672,
+      "address": "Taksi Durağı ·  · Terminal 3. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369123381-7",
+      "name": "Serkan Taksi",
+      "phone": "05369123381",
+      "lat": 38.5083575,
+      "lon": 43.3569844,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05431734878-8",
+      "name": "Sigorta Taksi",
+      "phone": "05431734878",
+      "lat": 38.5012085,
+      "lon": 43.3729793,
+      "address": "Taksi ·  · Zübeydehanım Cad., Vestel Kız Meslek Lisesi Yanı, Van Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05433656994-9",
+      "name": "Sipay Taksi",
+      "phone": "05433656994",
+      "lat": 38.485193,
+      "lon": 43.3649279,
+      "address": "Taksi Durağı · Şarman 2. Sk. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336569065-10",
+      "name": "Taksi",
+      "phone": "05336569065",
+      "lat": 38.5088883,
+      "lon": 43.3815068,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05449237003-11",
+      "name": "Taksi",
+      "phone": "05449237003",
+      "lat": 38.4997194,
+      "lon": 43.3990903,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357319254-12",
+      "name": "Umit Taksi",
+      "phone": "05357319254",
+      "lat": 38.4998665,
+      "lon": 43.384629,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461597748-13",
+      "name": "Van Akasya Taksi",
+      "phone": "05461597748",
+      "lat": 38.477677,
+      "lon": 43.3735768,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322150665-14",
+      "name": "VAN Altay Taksi",
+      "phone": "04322150665",
+      "lat": 38.4927538,
+      "lon": 43.3854685,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04322122628-15",
+      "name": "Van Çağrı Taksi",
+      "phone": "04322122628",
+      "lat": 38.5022249,
+      "lon": 43.3841161,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345615796-16",
+      "name": "VAN ÇALI TAKSi",
+      "phone": "05345615796",
+      "lat": 38.5040174,
+      "lon": 43.3933775,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05332290622-17",
+      "name": "Van city Taksi",
+      "phone": "05332290622",
+      "lat": 38.511286,
+      "lon": 43.3609609,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521826534-18",
+      "name": "Van Civan Taksi",
+      "phone": "05521826534",
+      "lat": 38.502903,
+      "lon": 43.3585543,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435825456-19",
+      "name": "Van da Taksi",
+      "phone": "05435825456",
+      "lat": 38.5020833,
+      "lon": 43.3998598,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414948717-20",
+      "name": "Van halit Taksi",
+      "phone": "05414948717",
+      "lat": 38.4785478,
+      "lon": 43.3904607,
+      "address": "Taksi Durağı ·  · Doğu Cd. No:505",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05447960765-21",
+      "name": "Van Huzur Taksi",
+      "phone": "05447960765",
+      "lat": 38.5074927,
+      "lon": 43.3796556,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322161166-22",
+      "name": "Van İleri Taksi",
+      "phone": "04322161166",
+      "lat": 38.517727,
+      "lon": 43.420201,
+      "address": "Taksi Durağı · Hastane, 2. Sk. NO:22",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05336569065-23",
+      "name": "Van Kontak Taksi",
+      "phone": "05336569065",
+      "lat": 38.530083,
+      "lon": 43.3488388,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05433907335-24",
+      "name": "Van mesken Taksi",
+      "phone": "05433907335",
+      "lat": 38.5072968,
+      "lon": 43.3792879,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445437090-25",
+      "name": "VAN Öğretmenler Evi Taksi",
+      "phone": "05445437090",
+      "lat": 38.492865,
+      "lon": 43.4008229,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432542821-26",
+      "name": "Van Taksi",
+      "phone": "05432542821",
+      "lat": 38.4994474,
+      "lon": 43.3998442,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05443291337-27",
+      "name": "Van Tuşba Jet Taksi",
+      "phone": "05443291337",
+      "lat": 38.5207856,
+      "lon": 43.3634716,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05532552865-28",
+      "name": "van-taksi",
+      "phone": "05532552865",
+      "lat": 38.5128453,
+      "lon": 43.3753612,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374010765-29",
+      "name": "Erciş Konak Taksi",
+      "phone": "05374010765",
+      "lat": 39.0270585,
+      "lon": 43.3539545,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05396674141-30",
+      "name": "Erciş Merkez Selvi Taksi",
+      "phone": "05396674141",
+      "lat": 39.0284331,
+      "lon": 43.3605427,
+      "address": "Taksi · Emniyet Cd. No:10",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424740565-31",
+      "name": "Erciş Selvi Taksi",
+      "phone": "05424740565",
+      "lat": 39.0276099,
+      "lon": 43.3624894,
+      "address": "Taksi · Hidayet Efendi Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453930065-32",
+      "name": "Erciş Taksi",
+      "phone": "05453930065",
+      "lat": 39.0263705,
+      "lon": 43.3645415,
+      "address": "Taksi Durağı · Van yolu Caddesi, Tekevler Cd.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05301420694-33",
+      "name": "Erciş Taksi",
+      "phone": "05301420694",
+      "lat": 39.0275618,
+      "lon": 43.3634392,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369369443-34",
+      "name": "Erciş Taksi",
+      "phone": "05369369443",
+      "lat": 39.0219994,
+      "lon": 43.3763691,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304765045-35",
+      "name": "Erciş Taksi",
+      "phone": "05304765045",
+      "lat": 39.016541,
+      "lon": 43.3750738,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469343738-36",
+      "name": "Ercis Taksi",
+      "phone": "05469343738",
+      "lat": 39.02722267,
+      "lon": 43.37376964,
+      "address": "Vanyolu Mah. Vanyolu Cad. Erciş, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05360693656-37",
+      "name": "Erciş Otogar Taksi",
+      "phone": "05360693656",
+      "lat": 39.0199756,
+      "lon": 43.3833142,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541364305-38",
+      "name": "Erciş Taksi",
+      "phone": "05541364305",
+      "lat": 39.0555833,
+      "lon": 43.3310155,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05343944138-39",
+      "name": "Erciş Taksi",
+      "phone": "05343944138",
+      "lat": 39.0382214,
+      "lon": 43.3533143,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468051565-40",
+      "name": "Erciş Taksi",
+      "phone": "05468051565",
+      "lat": 39.0276663,
+      "lon": 43.3623475,
+      "address": "Taksi ·  · Saat Kulesi Karşısı, Vanyolu Caddesi, Demokrasi Parkı Yanı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469343738-41",
+      "name": "Erciş Taksi",
+      "phone": "05469343738",
+      "lat": 39.0261419,
+      "lon": 43.3659997,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434626180-42",
+      "name": "Erciş'te Taksi",
+      "phone": "05434626180",
+      "lat": 39.021999,
+      "lon": 43.376369,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382245909-43",
+      "name": "durağı selvi Taksi",
+      "phone": "05382245909",
+      "lat": 39.0276337,
+      "lon": 43.357882,
+      "address": "Taksi Durağı · İnönü Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05424740565-44",
+      "name": "Erciş Vip Taksi",
+      "phone": "05424740565",
+      "lat": 39.0221074,
+      "lon": 43.3759731,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05307616663-45",
+      "name": "Huzur Taksi",
+      "phone": "05307616663",
+      "lat": 39.0229189,
+      "lon": 43.370195,
+      "address": "Taksi · 242. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304641591-46",
+      "name": "Kervan Taksi",
+      "phone": "05304641591",
+      "lat": 39.0280113,
+      "lon": 43.3618206,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05422983656-47",
+      "name": "Kervan Taksi",
+      "phone": "05422983656",
+      "lat": 39.0246007,
+      "lon": 43.367861,
+      "address": "Taksi Durağı ·  · Van Yolu Bulvarı, Ali Sucular Sk, Parkı İçi No:4",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422983656-48",
+      "name": "Şahin Taksi",
+      "phone": "05422983656",
+      "lat": 39.027206,
+      "lon": 43.373716,
+      "address": "Vanyolu Mah. Van Yolu Cad. Erciş, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383037578-49",
+      "name": "Şark Taksi",
+      "phone": "05383037578",
+      "lat": 39.0287121,
+      "lon": 43.3591658,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469343738-50",
+      "name": "Selvi Taksi",
+      "phone": "05469343738",
+      "lat": 39.0269769,
+      "lon": 43.3665427,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469343738-51",
+      "name": "Yeni Hastane Taksi",
+      "phone": "05469343738",
+      "lat": 39.026606,
+      "lon": 43.373716,
+      "address": "Vanyolu Mah. Van Yolu Cad. Erciş, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354732402-52",
+      "name": "Zeylan Taksi",
+      "phone": "05354732402",
+      "lat": 39.0166737,
+      "lon": 43.3516283,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05360731507-53",
+      "name": "van-taksi",
+      "phone": "05360731507",
+      "lat": 39.0385814,
+      "lon": 43.3537543,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04322168380-54",
+      "name": "Akdamar Taksi",
+      "phone": "04322168380",
+      "lat": 38.492965,
+      "lon": 43.379056,
+      "address": "Hafiziye Mah. İkinisan Cad. Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04322169606-55",
+      "name": "Beşyol Taksi",
+      "phone": "04322169606",
+      "lat": 38.499424,
+      "lon": 43.388125,
+      "address": "Bahçıvan Mah. Kazım Karabekir Cad. Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04322161546-56",
+      "name": "Çiçek Taksi",
+      "phone": "04322161546",
+      "lat": 38.501085,
+      "lon": 43.394655,
+      "address": "Şerefiye Mah. Cumhuriyet Cad. Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538457572-57",
+      "name": "Doğumevi Taksi",
+      "phone": "05538457572",
+      "lat": 38.500082,
+      "lon": 43.389715,
+      "address": "Bahçıvan Mah. Zübeyde Hanım Cad. Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357319254-58",
+      "name": "Emniyet Taksi",
+      "phone": "05357319254",
+      "lat": 38.472684,
+      "lon": 43.352231,
+      "address": "Süphan Mah. İpek Yolu 379/A Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322174999-59",
+      "name": "Ferit Melen Havaalanı Taksi",
+      "phone": "04322174999",
+      "lat": 38.496131,
+      "lon": 43.37197,
+      "address": "Halilağa Mah. İpekyolu Cad. 17 (Van Emniyet Müdürlüğü Karşısı) Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05424816665-60",
+      "name": "Göl Taksi",
+      "phone": "05424816665",
+      "lat": 38.4666921,
+      "lon": 43.3285634,
+      "address": "Eminpaşa, Havaalani Yolu No:31, Van Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322161504-61",
+      "name": "Ipekyolu Taksi",
+      "phone": "04322161504",
+      "lat": 38.50281,
+      "lon": 43.395735,
+      "address": "Şerefiye Mah. İrfan Baştuğ Cad. 5 İpekyolu, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04322175095-62",
+      "name": "Iskele Taksi",
+      "phone": "04322175095",
+      "lat": 38.492683,
+      "lon": 43.374216,
+      "address": "Halilağa Mah. İki Nisan Blv. 16 İpekyolu, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05319617785-63",
+      "name": "Konak Taksi",
+      "phone": "05319617785",
+      "lat": 38.506379,
+      "lon": 43.395552,
+      "address": "Vali Mithat Bey Mah. Defterdarlık Yolu Cad. Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-64-64",
+      "name": "Kültür Taksi",
+      "phone": null,
+      "lat": 38.493942,
+      "lon": 43.392978,
+      "address": "Serhat Mah. Cumhuriyet Cad. 3/A İpekyolu, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443725383-65",
+      "name": "Murat Taksi",
+      "phone": "05443725383",
+      "lat": 38.497841,
+      "lon": 43.402846,
+      "address": "Şerefiye Mah. Maraşal Fevzi Çakmak Cad. 1 Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322141797-66",
+      "name": "Otogar Taksi",
+      "phone": "04322141797",
+      "lat": 38.499648,
+      "lon": 43.392763,
+      "address": "Bahçıvan Mah. Cumhuriyet Cad. Sanat Sok. 57 Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05392240432-67",
+      "name": "Pınar Taksi",
+      "phone": "05392240432",
+      "lat": 39.0597176,
+      "lon": 43.3191487,
+      "address": "İstasyon Mah. Van Şehirlerarası Otobüs Terminali Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468644763-68",
+      "name": "Sağlık Taksi",
+      "phone": "05468644763",
+      "lat": 38.503407,
+      "lon": 43.398968,
+      "address": "Vali Mithat Bey Mah. Hastahane Cad. 4 Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357319254-69",
+      "name": "Seçkin Taksi",
+      "phone": "05357319254",
+      "lat": 38.504007,
+      "lon": 43.398968,
+      "address": "Vali Mithat Bey Mah. Hastane Cad. 3 Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322121111-70",
+      "name": "Tugay Taksi",
+      "phone": "04322121111",
+      "lat": 38.49617,
+      "lon": 43.392066,
+      "address": "Bahçıvan Mah. Uzun Sok. 5 İpekyolu, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05453254383-71",
+      "name": "van-taksi",
+      "phone": "05453254383",
+      "lat": 38.473348,
+      "lon": 43.3936,
+      "address": "Hacıbekir Mah. Hakkari Yolu Cad. Van Merkez, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05415376170-72",
+      "name": "Başkale Taksi",
+      "phone": "05415376170",
+      "lat": 38.0476166,
+      "lon": 44.0149662,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428194505-73",
+      "name": "Hastane Taksi",
+      "phone": "05428194505",
+      "lat": 38.0248829,
+      "lon": 44.0099173,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05458833878-74",
+      "name": "Hastane Taksi",
+      "phone": "05458833878",
+      "lat": 38.0373096,
+      "lon": 44.0194313,
+      "address": "Yeni Mah. (Başkale Devlet Hastanesi Yanı) Başkale, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357319254-75",
+      "name": "Van Bölge Taksi",
+      "phone": "05357319254",
+      "lat": 38.4081902,
+      "lon": 43.2998291,
+      "address": "Özbek Fırın Karşısı, Edremit / Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424816665-76",
+      "name": "Van Edremit Taksi",
+      "phone": "05424816665",
+      "lat": 38.4605536,
+      "lon": 43.3397341,
+      "address": "Süphan, Hava Yolu Kavşağı 1, Edremit / Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05340622313-77",
+      "name": "Van Edremit Taksi",
+      "phone": "05340622313",
+      "lat": 38.42549163,
+      "lon": 43.26565313,
+      "address": "Edremit/Van, Türkiye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380486565-78",
+      "name": "Akdamar Taksi",
+      "phone": "05380486565",
+      "lat": 38.29736757,
+      "lon": 43.10601568,
+      "address": "Orta Mah. Belediye Dükkanları Gevaş, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05380486565-79",
+      "name": "Kara Taksi",
+      "phone": "05380486565",
+      "lat": 38.296296,
+      "lon": 43.106339,
+      "address": "Orta Mah. İnönü Cad. Gevaş, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05380486565-80",
+      "name": "Kara Taksi",
+      "phone": "05380486565",
+      "lat": 38.3189,
+      "lon": 42.96,
+      "address": "Akdamar-Dereağzı Mah. Gevaş, Van",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05337790665-81",
+      "name": "Van elit Taksi",
+      "phone": "05337790665",
+      "lat": 38.4973464,
+      "lon": 43.3770208,
+      "address": "Taksi Durağı · İkinisan caddesi, Gölbaşı Sk. müftülük bina önü",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422391928-82",
+      "name": "Van elit Taksi",
+      "phone": "05422391928",
+      "lat": 38.5569315,
+      "lon": 43.3415255,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434829350-83",
+      "name": "Van muradiye Taksi",
+      "phone": "05434829350",
+      "lat": 39.0007122,
+      "lon": 43.7645593,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05414871440-84",
+      "name": "Van muradiye Taksi",
+      "phone": "05414871440",
+      "lat": 38.9894041,
+      "lon": 43.7621663,
+      "address": "Taksi Durağı · Cumhuriyet Cd. No:43",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05306014198-85",
+      "name": "aldıran Taksi",
+      "phone": "05306014198",
+      "lat": 39.1371037,
+      "lon": 43.9159783,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05066460371-86",
+      "name": "Van gölü taksi Van merkez",
+      "phone": "05066460371",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05464958174-87",
+      "name": "Van Gölü Taksi",
+      "phone": "05464958174",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05301392130-88",
+      "name": "Van maraş taksi",
+      "phone": "05301392130",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05435218041-89",
+      "name": "Emrah taksi van",
+      "phone": "05435218041",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05432066565-90",
+      "name": "Taksi Melik Aslan",
+      "phone": "05432066565",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04322166521-91",
+      "name": "Van Nur Taksi",
+      "phone": "04322166521",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05417477576-92",
+      "name": "Han Taksi van",
+      "phone": "05417477576",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-04322171835-93",
+      "name": "Tümü → Sigorta Taksi",
+      "phone": "04322171835",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04323122424-94",
+      "name": "Van Edremit Sahil Taksi",
+      "phone": "04323122424",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05449759860-95",
+      "name": "Erciş Otogar Taksi",
+      "phone": "05449759860",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466246516-96",
+      "name": "Erciş Otogar Taksi (nuri)",
+      "phone": "05466246516",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05452550041-97",
+      "name": "Erciş Taksi",
+      "phone": "05452550041",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432193278-98",
+      "name": "Erciş Taksi Durağı",
+      "phone": "05432193278",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355480065-99",
+      "name": "Ercis Taksi İso",
+      "phone": "05355480065",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05465977575-100",
+      "name": "Ercis Taksici",
+      "phone": "05465977575",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05446585108-101",
+      "name": "Tugay Taksi",
+      "phone": "05446585108",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05313286516-102",
+      "name": "Tümü → Gevaş Hızlı Taksi",
+      "phone": "05313286516",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04322167516-103",
+      "name": "Tümü → Çiçek Taksi",
+      "phone": "04322167516",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05496657474-104",
+      "name": "Diyar Taksi",
+      "phone": "05496657474",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366738014-105",
+      "name": "Efes Taksi Durağı",
+      "phone": "05366738014",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05438846779-106",
+      "name": "Gima Taksi Van",
+      "phone": "05438846779",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05423137306-107",
+      "name": "Göl Taksi Van (dırbaz Demirkan)",
+      "phone": "05423137306",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05530901689-108",
+      "name": "Taksi durağı",
+      "phone": "05530901689",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05459558786-109",
+      "name": "Taksi",
+      "phone": "05459558786",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05010740208-110",
+      "name": "Taksi Van",
+      "phone": "05010740208",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05416908354-111",
+      "name": "Van Altay Taksi AÇIK · 7 gün 24 saat Sıhke cad.mustafa altay parkı yanı altay ta",
+      "phone": "05416908354",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04322143131-112",
+      "name": "Van Köşem Taksi",
+      "phone": "04322143131",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05075957974-113",
+      "name": "Van Lokman Hekim Taksi",
+      "phone": "05075957974",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323108533-114",
+      "name": "Van Merkez Taksi",
+      "phone": "05323108533",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393134376-115",
+      "name": "Van Site Taksi AÇIK · 7 gün 24 saat Seyit Fehim Arvasi, Cumhuriyet Cd. No:3, 651",
+      "phone": "05393134376",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05464790829-116",
+      "name": "Tümü → Muradiye Taksi",
+      "phone": "05464790829",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05525798062-117",
+      "name": "Tümü → Özalp Merkez Taksi",
+      "phone": "05525798062",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05445496565-118",
+      "name": "Tümü → Kapıköy Taksi – Saray Kapıköy Taksi",
+      "phone": "05445496565",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05425175554-119",
+      "name": "Taksi Durağı Vip Van",
+      "phone": "05425175554",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05454294865-120",
+      "name": "Van Merkez Urartu Taksi تاکسی اورارتو مرکزی وان",
+      "phone": "05454294865",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05423905319-121",
+      "name": "Van Mesken Taksi",
+      "phone": "05423905319",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-04326122646-122",
+      "name": "Akdamar Taksi Durağı",
+      "phone": "04326122646",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05367740267-123",
+      "name": "Çaldıran Taksi - Yusuf Tamçınar",
+      "phone": "05367740267",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05423050091-124",
+      "name": "Çiçek Taksi - Ferdi Bedircan",
+      "phone": "05423050091",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05435285993-125",
+      "name": "Çiçek Taksi - Mehmet Tamçınar",
+      "phone": "05435285993",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05462253455-126",
+      "name": "Çiçek Taksi - Serkan Yıldırım",
+      "phone": "05462253455",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05325085094-127",
+      "name": "Erciş Taksi - Kemal Kaya",
+      "phone": "05325085094",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05434809515-128",
+      "name": "Erciş Taksi - Ömer Faruk Döğen",
+      "phone": "05434809515",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05356911907-129",
+      "name": "İpekyolu Taksi - Muzaffer İlci",
+      "phone": "05356911907",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05434059165-130",
+      "name": "Merkez Taksi - Hakan Yıldırım",
+      "phone": "05434059165",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05380946510-131",
+      "name": "Sahil Taksi - Eren Kıyak",
+      "phone": "05380946510",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05340325871-132",
+      "name": "Selvi Taksi - Edip Varlı",
+      "phone": "05340325871",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05335493847-133",
+      "name": "Van Taksi - Seyfettin Keklik",
+      "phone": "05335493847",
+      "lat": 38.4891,
+      "lon": 43.4089,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

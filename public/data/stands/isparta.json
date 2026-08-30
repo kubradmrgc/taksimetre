@@ -1,0 +1,1724 @@
+{
+  "cityId": "isparta",
+  "cityName": "Isparta",
+  "fetchedAt": "2026-08-30T21:31:55.559Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "aksu",
+      "name": "Aksu",
+      "count": 28
+    },
+    {
+      "id": "atabey",
+      "name": "Atabey",
+      "count": 3
+    },
+    {
+      "id": "egirdir",
+      "name": "Egirdir",
+      "count": 2
+    },
+    {
+      "id": "gonen",
+      "name": "Gonen",
+      "count": 1
+    },
+    {
+      "id": "keciborlu",
+      "name": "Keciborlu",
+      "count": 5
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 27
+    },
+    {
+      "id": "sarkikaraagac",
+      "name": "Sarkikaraagac",
+      "count": 5
+    },
+    {
+      "id": "sutculer",
+      "name": "Sutculer",
+      "count": 2
+    },
+    {
+      "id": "uluborlu",
+      "name": "Uluborlu",
+      "count": 1
+    },
+    {
+      "id": "yalvac",
+      "name": "Yalvac",
+      "count": 7
+    },
+    {
+      "id": "yenisarbademli",
+      "name": "Yenisarbademli",
+      "count": 1
+    }
+  ],
+  "count": 108,
+  "stands": [
+    {
+      "id": "taksi724-05538000024-0",
+      "name": "Anadolu Taksi",
+      "phone": "05538000024",
+      "website": null,
+      "lat": 37.7659108,
+      "lon": 30.5561926,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462236787-1",
+      "name": "As Taksi",
+      "phone": "02462236787",
+      "website": null,
+      "lat": 37.784377,
+      "lon": 30.5532098,
+      "address": "Taksi Durağı ·  · 4206. Sk. No:7",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462238196-2",
+      "name": "Çağlar Taksi",
+      "phone": "02462238196",
+      "website": null,
+      "lat": 37.7607654,
+      "lon": 30.5483365,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05526580074-3",
+      "name": "Davraz Taksi",
+      "phone": "05526580074",
+      "website": null,
+      "lat": 37.7687639,
+      "lon": 30.5588657,
+      "address": "Taksi · 116. Cd. No:29",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462185710-4",
+      "name": "Gülistan Taksi",
+      "phone": "02462185710",
+      "website": null,
+      "lat": 37.7708411,
+      "lon": 30.5711782,
+      "address": "Taksi Durağı ·  · 132. Cd. No:4",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05540040032-5",
+      "name": "Halıkent Taksi",
+      "phone": "05540040032",
+      "website": null,
+      "lat": 37.7672758,
+      "lon": 30.5379961,
+      "address": "\"Mahallemizin güvenilir ve hızlı taksisi müşteri seçmeyen bir işletme\"",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-6-6",
+      "name": "Isparta adalet Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.752535,
+      "lon": 30.574892,
+      "address": "Taksi Durağı · 244. Cd. Sıra Dükkanlar No:1 No :1",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462275755-7",
+      "name": "Isparta As Taksi",
+      "phone": "02462275755",
+      "website": null,
+      "lat": 37.7879034,
+      "lon": 30.5417828,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05358361546-8",
+      "name": "Isparta Gar Taksi",
+      "phone": "05358361546",
+      "website": "https://www.instagram.com/aliidemireeel32/",
+      "lat": 37.7700863,
+      "lon": 30.5573166,
+      "address": "Taksi Durağı · 116. Cd. No:41",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05055660132-9",
+      "name": "ISPARTA MERKEZ OLiMPiYAT TAKSi",
+      "phone": "05055660132",
+      "website": null,
+      "lat": 37.7754292,
+      "lon": 30.5576179,
+      "address": "Taksi Durağı · Doğan Kımıllı Cd. No:64",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462121331-10",
+      "name": "Isparta Merkez Taksi",
+      "phone": "02462121331",
+      "website": null,
+      "lat": 37.765799,
+      "lon": 30.554115,
+      "address": "Taksi Durağı · 1001. Sk. No:2",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374125542-11",
+      "name": "Isparta Meydan Taksi",
+      "phone": "05374125542",
+      "website": null,
+      "lat": 37.7826424,
+      "lon": 30.5673407,
+      "address": "Taksi · Atatürk Blv. No:59",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433499739-12",
+      "name": "Isparta Taksi",
+      "phone": "05433499739",
+      "website": null,
+      "lat": 37.7700691,
+      "lon": 30.5656858,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05458420026-13",
+      "name": "Isparta Taksi",
+      "phone": "05458420026",
+      "website": null,
+      "lat": 37.7716916,
+      "lon": 30.5737236,
+      "address": "Taksi Durağı · 3921. Sk.",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315553051-14",
+      "name": "Isparta Taksi",
+      "phone": "05315553051",
+      "website": null,
+      "lat": 37.7656543,
+      "lon": 30.5559992,
+      "address": "Taksi · Adliye Taksi Durağı, Yusuf Özbek Sk.",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05469393919-15",
+      "name": "Isparta Taksi",
+      "phone": "05469393919",
+      "website": null,
+      "lat": 37.78393,
+      "lon": 30.5409729,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05515612954-16",
+      "name": "Isparta 7/24 Taksi",
+      "phone": "05515612954",
+      "website": null,
+      "lat": 37.7806929,
+      "lon": 30.5498792,
+      "address": "Taksi Durağı · 3159. Sk. No:23",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321724822-17",
+      "name": "-Taksi",
+      "phone": "05321724822",
+      "website": null,
+      "lat": 37.7658291,
+      "lon": 30.5538056,
+      "address": "Taksi · Kutlubey Mah. Mimar Sinan Cad, 1001. Sk. No:1",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05322253998-18",
+      "name": "ISPARTA Terminal Taksi",
+      "phone": "05322253998",
+      "website": null,
+      "lat": 37.7756101,
+      "lon": 30.5654009,
+      "address": "Taksi Durağı · 3234. Sk.",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462272261-19",
+      "name": "Komando Taksi",
+      "phone": "02462272261",
+      "website": null,
+      "lat": 37.8095596,
+      "lon": 30.5369234,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462186353-20",
+      "name": "Köy Garajı Taksi",
+      "phone": "02462186353",
+      "website": null,
+      "lat": 37.7778472,
+      "lon": 30.5931072,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05544690069-21",
+      "name": "Migros Taksi",
+      "phone": "05544690069",
+      "website": null,
+      "lat": 37.7667901,
+      "lon": 30.578258,
+      "address": "Ulaşım Hizmeti · Köy Garajı, 3958. Sk.",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05523700032-22",
+      "name": "Özlem Taksi",
+      "phone": "05523700032",
+      "website": null,
+      "lat": 37.7812447,
+      "lon": 30.5646373,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369738548-23",
+      "name": "Sdü Tıp Taksi",
+      "phone": "05369738548",
+      "website": null,
+      "lat": 37.761117,
+      "lon": 30.55163,
+      "address": "Taksi Durağı · Üniversite Cd No:56",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462371277-24",
+      "name": "Taksi durağı",
+      "phone": "02462371277",
+      "website": null,
+      "lat": 37.8278629,
+      "lon": 30.5396999,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05061130172-25",
+      "name": "TAKSi",
+      "phone": "05061130172",
+      "website": null,
+      "lat": 37.762023,
+      "lon": 30.536545,
+      "address": "Taksi · 164 Cadde No 12 İç Kapı No 1",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05461300141-26",
+      "name": "Taksi durağı",
+      "phone": "05461300141",
+      "website": null,
+      "lat": 37.7816048,
+      "lon": 30.5203836,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05447113234-27",
+      "name": "isparta-taksi",
+      "phone": "05447113234",
+      "website": null,
+      "lat": 37.7620672,
+      "lon": 30.5992225,
+      "address": null,
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-28-28",
+      "name": "Aksu Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.782183,
+      "lon": 30.543033,
+      "address": "Fatih Mah. Toptancılar Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462181317-29",
+      "name": "Alay Taksi",
+      "phone": "02462181317",
+      "website": null,
+      "lat": 37.761599,
+      "lon": 30.562859,
+      "address": "İskender Mah. Aksu Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05469330115-30",
+      "name": "Ayazmana Taksi",
+      "phone": "05469330115",
+      "website": null,
+      "lat": 37.76564,
+      "lon": 30.525038,
+      "address": "Işıkkent Mah. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462420671-31",
+      "name": "Çakır Taksi",
+      "phone": "02462420671",
+      "website": null,
+      "lat": 37.75343,
+      "lon": 30.576914,
+      "address": "Halıkent Mah. 124 Cad. (Ayazmana Cami Karşısı) Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462272836-32",
+      "name": "Can Taksi",
+      "phone": "02462272836",
+      "website": null,
+      "lat": 37.773161,
+      "lon": 30.545716,
+      "address": "Yedişehitler Mah. 110 Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443300154-33",
+      "name": "Dörtyol Taksi",
+      "phone": "05443300154",
+      "website": null,
+      "lat": 37.758323,
+      "lon": 30.547723,
+      "address": "Doğancı Mah. Hastane Cad. 2301 Sok. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325863362-34",
+      "name": "Emek Taksi",
+      "phone": "05325863362",
+      "website": null,
+      "lat": 37.762516,
+      "lon": 30.560749,
+      "address": "İskender Mah. 122. Cad. Kesikbaş, Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462183222-35",
+      "name": "Girne Taksi",
+      "phone": "02462183222",
+      "website": null,
+      "lat": 37.773947,
+      "lon": 30.545647,
+      "address": "Bahçelievler Mah. 109 Cad. 39/1 Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443300154-36",
+      "name": "Işıkkent Taksi",
+      "phone": "05443300154",
+      "website": null,
+      "lat": 37.765602,
+      "lon": 30.549944,
+      "address": "Pirimehmet Mah. 113. Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05491480021-37",
+      "name": "ISPARTA BULVAR TAKSi",
+      "phone": "05491480021",
+      "website": null,
+      "lat": 37.764018,
+      "lon": 30.5206943,
+      "address": "Taksi · Işıkkent Mah. 255. Cad. 38/40 ISPARTA/Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05411270127-38",
+      "name": "Isparta Köy Garajı Davraz Taksi",
+      "phone": "05411270127",
+      "website": null,
+      "lat": 37.7753012,
+      "lon": 30.5488271,
+      "address": "Taksi · Bahçelievler, Süleyman Demirel Cd. No:69 Isparta/Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353219391-39",
+      "name": "ISPARTA TAKSi",
+      "phone": "05353219391",
+      "website": null,
+      "lat": 37.762921,
+      "lon": 30.5736232,
+      "address": "Taksi Durağı · Davraz, Doğan Kımıllı Cd. No:135, 32300 Isparta Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332650153-40",
+      "name": "Iyaşpark Taksi",
+      "phone": "05332650153",
+      "website": null,
+      "lat": 37.7865501,
+      "lon": 30.5498955,
+      "address": "Taksi Durağı · Modernevler Mahallesi 3112 sokak ısparta merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-41-41",
+      "name": "Konak Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.782178,
+      "lon": 30.544163,
+      "address": "Fatih Mah. 156. Cad. İyaş Park AVM Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462189962-42",
+      "name": "Kültür Taksi",
+      "phone": "02462189962",
+      "website": null,
+      "lat": 37.762277,
+      "lon": 30.554143,
+      "address": "Çelebiler Mah. Hastane Cad. (Polis Karakolu Karşısı) Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462182525-43",
+      "name": "Mimar Sinan Taksi",
+      "phone": "02462182525",
+      "website": null,
+      "lat": 37.762877,
+      "lon": 30.554143,
+      "address": "Çelebiler Mah. 112 Hastane Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462182601-44",
+      "name": "Murat Taksi",
+      "phone": "02462182601",
+      "website": null,
+      "lat": 37.768356,
+      "lon": 30.552676,
+      "address": "Pirimehmet Mah. Mimar Sinan Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412183019-45",
+      "name": "Özbay Taksi",
+      "phone": "05412183019",
+      "website": null,
+      "lat": 37.763989,
+      "lon": 30.553674,
+      "address": "Pirimehmet Mah. 1749. Sok. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365913181-46",
+      "name": "Terminal Taksi",
+      "phone": "05365913181",
+      "website": null,
+      "lat": 37.76994,
+      "lon": 30.551543,
+      "address": "Pirimehmet Mah. Özkanlar Kavşağı 1710 Sok. 1 Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02462272261-47",
+      "name": "Varan Taksi",
+      "phone": "02462272261",
+      "website": null,
+      "lat": 37.780517,
+      "lon": 30.545015,
+      "address": "Bahçelievler Mah. 108. Cad. 4/B Yeni Otogar Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462182417-48",
+      "name": "isparta-taksi",
+      "phone": "02462182417",
+      "website": null,
+      "lat": 37.764506,
+      "lon": 30.558217,
+      "address": "Kutlubey Mah. 120. Cad. Isparta Merkez, Isparta",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05392114302-49",
+      "name": "Konak Taksi",
+      "phone": "05392114302",
+      "website": null,
+      "lat": 38.295389,
+      "lon": 31.179589,
+      "address": "Çarşı Mah. Çay Sok. 6 Yalvaç, Isparta",
+      "districtId": "yalvac",
+      "districtName": "Yalvac",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02462189962-50",
+      "name": "Müze Taksi",
+      "phone": "02462189962",
+      "website": null,
+      "lat": 38.299473,
+      "lon": 31.175805,
+      "address": "Yalvaç merkez PTT yanı 32400 Yalvaç/Isparta, Türkiye",
+      "districtId": "yalvac",
+      "districtName": "Yalvac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-51-51",
+      "name": "Üniversite Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.298176,
+      "lon": 31.178102,
+      "address": "Görgüorta Mah. Müze Ardı Sok. 2 Yalvaç, Isparta",
+      "districtId": "yalvac",
+      "districtName": "Yalvac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368304595-52",
+      "name": "Yalvaç Müze Taksi",
+      "phone": "05368304595",
+      "website": null,
+      "lat": 38.3092802,
+      "lon": 31.1673013,
+      "address": null,
+      "districtId": "yalvac",
+      "districtName": "Yalvac",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-53-53",
+      "name": "Yalvaç Otogar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.2979396,
+      "lon": 31.1785037,
+      "address": "Taksi Durağı ·  · Gazi Paşa Cd. No:1",
+      "districtId": "yalvac",
+      "districtName": "Yalvac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05078283379-54",
+      "name": "niversite Taksi",
+      "phone": "05078283379",
+      "website": null,
+      "lat": 38.2837175,
+      "lon": 31.1709563,
+      "address": null,
+      "districtId": "yalvac",
+      "districtName": "Yalvac",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05353219391-55",
+      "name": "Keçiborlu Davaz Taksi",
+      "phone": "05353219391",
+      "website": null,
+      "lat": 37.944104,
+      "lon": 30.301878,
+      "address": "Orta Mah. Orta Sok. 17 Keçiborlu, Isparta",
+      "districtId": "keciborlu",
+      "districtName": "Keciborlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444073232-56",
+      "name": "Keçiborlu Terminal Taksi",
+      "phone": "05444073232",
+      "website": null,
+      "lat": 37.9052154,
+      "lon": 30.3573265,
+      "address": null,
+      "districtId": "keciborlu",
+      "districtName": "Keciborlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05548287556-57",
+      "name": "Merkez Otogar Taksi",
+      "phone": "05548287556",
+      "website": null,
+      "lat": 37.76139,
+      "lon": 30.4452349,
+      "address": null,
+      "districtId": "keciborlu",
+      "districtName": "Keciborlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456687845-58",
+      "name": "Keçiborlu Terminal Taksi",
+      "phone": "05456687845",
+      "website": null,
+      "lat": 37.94500269,
+      "lon": 30.30323229,
+      "address": "Kaya Mah. Atatürk Blv. 24/A Keçiborlu, Isparta",
+      "districtId": "keciborlu",
+      "districtName": "Keciborlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426873618-59",
+      "name": "Çiçek Taksi",
+      "phone": "05426873618",
+      "website": null,
+      "lat": 38.084264,
+      "lon": 31.370452,
+      "address": "Ulvikale Mah. Hal Cad. 3/A Şarkikaraağaç, Isparta",
+      "districtId": "sarkikaraagac",
+      "districtName": "Sarkikaraagac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414771150-60",
+      "name": "Çiçek Taksi",
+      "phone": "05414771150",
+      "website": null,
+      "lat": 38.085324,
+      "lon": 31.37309,
+      "address": "Yeni Otogar D:3, Şarkikaraağaç, Isparta, Türkiye",
+      "districtId": "sarkikaraagac",
+      "districtName": "Sarkikaraagac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414771150-61",
+      "name": "Güzel Taksi",
+      "phone": "05414771150",
+      "website": null,
+      "lat": 38.080783,
+      "lon": 31.3656461,
+      "address": null,
+      "districtId": "sarkikaraagac",
+      "districtName": "Sarkikaraagac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446772705-62",
+      "name": "içek Taksi",
+      "phone": "05446772705",
+      "website": null,
+      "lat": 38.0784172,
+      "lon": 31.3649597,
+      "address": null,
+      "districtId": "sarkikaraagac",
+      "districtName": "Sarkikaraagac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354045004-63",
+      "name": "Keçiborlu Merkez Taksi",
+      "phone": "05354045004",
+      "website": null,
+      "lat": 37.859153,
+      "lon": 30.365491,
+      "address": null,
+      "districtId": "atabey",
+      "districtName": "Atabey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05060284588-64",
+      "name": "Otogar Taksi",
+      "phone": "05060284588",
+      "website": null,
+      "lat": 37.9372715,
+      "lon": 30.3015663,
+      "address": null,
+      "districtId": "atabey",
+      "districtName": "Atabey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02463113730-65",
+      "name": "Otogar Taksi",
+      "phone": "02463113730",
+      "website": null,
+      "lat": 37.874006,
+      "lon": 30.8509391,
+      "address": null,
+      "districtId": "atabey",
+      "districtName": "Atabey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-66-66",
+      "name": "Sütçüler Merkez Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.9318039,
+      "lon": 30.7171394,
+      "address": "Taksi Durağı ·  · Hastane Cd. No:42",
+      "districtId": "sutculer",
+      "districtName": "Sutculer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05548588409-67",
+      "name": "Sütçüler Merkez Taksi",
+      "phone": "05548588409",
+      "website": null,
+      "lat": 37.4946397,
+      "lon": 30.9811507,
+      "address": null,
+      "districtId": "sutculer",
+      "districtName": "Sutculer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469330115-68",
+      "name": "Isparta Alay Taksi",
+      "phone": "05469330115",
+      "website": null,
+      "lat": 37.8142614,
+      "lon": 30.5923081,
+      "address": "Taksi · Fatih Mahallesi 4747 sokak, Alay karsısı, egirdir yolu karsısı",
+      "districtId": "egirdir",
+      "districtName": "Egirdir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-69-69",
+      "name": "Gönen ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.11096,
+      "lon": 27.649203,
+      "address": null,
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05466444432-70",
+      "name": "Zafer Taksi",
+      "phone": "05466444432",
+      "website": null,
+      "lat": 38.0789781,
+      "lon": 30.4491572,
+      "address": null,
+      "districtId": "uluborlu",
+      "districtName": "Uluborlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05538423232-71",
+      "name": "Yenişarbademli ilçesindeki bazı taksi",
+      "phone": "05538423232",
+      "website": null,
+      "lat": 37.7901421,
+      "lon": 30.549836,
+      "address": null,
+      "districtId": "yenisarbademli",
+      "districtName": "Yenisarbademli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05322769772-72",
+      "name": "Kiralık Otobüs-Minibüs Gezi ve Transfer Isparta",
+      "phone": "05322769772",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05366228577-73",
+      "name": "Terminal Taksi Taksi Duragi",
+      "phone": "05366228577",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05454140086-74",
+      "name": "Vip Taksi",
+      "phone": "05454140086",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05352753719-75",
+      "name": "Girne Taksi 24 saat acık",
+      "phone": "05352753719",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05464660166-76",
+      "name": "Halıkent Taksi",
+      "phone": "05464660166",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05068967765-77",
+      "name": "Isparta Bulvar Taksi AÇIK · 7 gün 24 saat Bahçelievler, Süleyman Demirel Cd. No:",
+      "phone": "05068967765",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05060263732-78",
+      "name": "Isparta Nur Taksi AÇIK · 7 gün 24 saat Primehmet Mahallesi 2767 Sokak No:2, 110 ",
+      "phone": "05060263732",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05524210050-79",
+      "name": "Isparta Taksi | Isparta 7/24 Taksi AÇIK · 7 gün 24 saat Kutlubey Mah. Mimar Sina",
+      "phone": "05524210050",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02462238829-80",
+      "name": "Ram Taksi/çünür Taksi",
+      "phone": "02462238829",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02462183075-81",
+      "name": "Saray Taksi AÇIK · 7 gün 24 saat İstiklal, Mimar Sinan Cd. kapı no 64/1, 32100 M",
+      "phone": "02462183075",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05413280196-82",
+      "name": "Taksi Davraz Mh.",
+      "phone": "05413280196",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05010220188-83",
+      "name": "Taksi Isparta",
+      "phone": "05010220188",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02462272563-84",
+      "name": "Tıp Taksi AÇIK · 7 gün 24 saat Keçeci, Hilmi Çakmakçı Cd. No:36, 32040 Isparta M",
+      "phone": "02462272563",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05456841003-85",
+      "name": "Yüksel Taksi",
+      "phone": "05456841003",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05414771230-86",
+      "name": "Keciborlu Taksi",
+      "phone": "05414771230",
+      "website": "https://www.facebook.com/keciborluterminaltaksi32/",
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": "keciborlu",
+      "districtName": "Keçiborlu",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05532324741-87",
+      "name": "Şarkikaraağaç Taksi Almina – Ömür Erol AÇIK · 7 gün 24 saat Ulvikale Mahallesi H",
+      "phone": "05532324741",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05418129060-88",
+      "name": "Uluborlu Işık Taksi",
+      "phone": "05418129060",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05511274027-89",
+      "name": "Hisar Gold Taksi",
+      "phone": "05511274027",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355721979-90",
+      "name": "Konak Taksi ( Uysal ) AÇIK · 7 gün 24 saat Pazar Yukarı, POSTANE YANI, ÇARŞI MAH",
+      "phone": "05355721979",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05433322230-91",
+      "name": "Yalvaç Konak Taksi AÇIK · 7 gün 24 saat Pazar yukarı mahallesi postahane yanı no",
+      "phone": "05433322230",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05431642298-92",
+      "name": "Tümü → Beyşehir Taksi Berat",
+      "phone": "05431642298",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05397908833-93",
+      "name": "Beysehir Taksi Cinkolar",
+      "phone": "05397908833",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05376078203-94",
+      "name": "Beyşehir Taksi Fuat Telli ,konya, Antalya Havalima Transferi",
+      "phone": "05376078203",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05427196710-95",
+      "name": "Beysehir Taksi Keramettin Kelleci",
+      "phone": "05427196710",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05452465702-96",
+      "name": "Beyşehir Taksi Mehmet Can",
+      "phone": "05452465702",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432834269-97",
+      "name": "Seydisehir Otogar Taksi Alper Sik",
+      "phone": "05432834269",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05356662189-98",
+      "name": "Seydişehir Taksi Hacı Mehmet",
+      "phone": "05356662189",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 30.5566,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-02462189767-99",
+      "name": "Çağlar Taksi Durağı",
+      "phone": "02462189767",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05510570197-100",
+      "name": "Çünür Taksi - Ramazan Kanat",
+      "phone": "05510570197",
+      "website": "https://www.facebook.com/profile.php?id=100004727323023",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05308725204-101",
+      "name": "Eğirdir Taksi - Eyüp Köse",
+      "phone": "05308725204",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "egirdir",
+      "districtName": "Eğirdir",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05326280128-102",
+      "name": "Isparta Taksi - Hamza Daşdöner",
+      "phone": "05326280128",
+      "website": "https://www.instagram.com/ahmetdasdoner/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05435479581-103",
+      "name": "Isparta Taksi - Hamza Demirel",
+      "phone": "05435479581",
+      "website": "https://www.instagram.com/ispartataksi1/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05541940004-104",
+      "name": "ITKM Merkez Taksi - Oktay Şimşek",
+      "phone": "05541940004",
+      "website": "https://www.instagram.com/taksi_32/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05511125210-105",
+      "name": "Konak Taksi - Uysal",
+      "phone": "05511125210",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yalvac",
+      "districtName": "Yalvaç",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05067470047-106",
+      "name": "Köy Garajı Taksi - Serkan Demirağaç",
+      "phone": "05067470047",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05377034977-107",
+      "name": "Seyhan Taksi - Selahattin Seyhan",
+      "phone": "05377034977",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sarkikaraagac",
+      "districtName": "Şarkikaraağaç",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

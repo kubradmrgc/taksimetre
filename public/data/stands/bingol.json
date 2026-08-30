@@ -1,0 +1,380 @@
+{
+  "cityId": "bingol",
+  "cityName": "Bingöl",
+  "fetchedAt": "2026-08-30T21:28:33.158Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "adakli",
+      "name": "Adakli",
+      "count": 3
+    },
+    {
+      "id": "genc",
+      "name": "Genc",
+      "count": 1
+    },
+    {
+      "id": "karliova",
+      "name": "Karliova",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 9
+    },
+    {
+      "id": "solhan",
+      "name": "Solhan",
+      "count": 4
+    }
+  ],
+  "count": 22,
+  "stands": [
+    {
+      "id": "taksi724-05317476477-0",
+      "name": "Birlik Taksi",
+      "phone": "05317476477",
+      "website": null,
+      "lat": 38.884272,
+      "lon": 40.497588,
+      "address": "Yenişehir Mah. Melikşah Sok. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317476477-1",
+      "name": "Çiçek Taksi",
+      "phone": "05317476477",
+      "website": null,
+      "lat": 38.883679,
+      "lon": 40.520838,
+      "address": "Kültür Mah. Kınalı Cad. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04262135594-2",
+      "name": "Garaj Taksi",
+      "phone": "04262135594",
+      "website": null,
+      "lat": 38.886787,
+      "lon": 40.494323,
+      "address": "Yenişehir Mah. Hürriyet Cad. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05317476477-3",
+      "name": "Gül Taksi",
+      "phone": "05317476477",
+      "website": null,
+      "lat": 38.88511,
+      "lon": 40.497574,
+      "address": "İnönü Mah. Şişli Sok. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04262134444-4",
+      "name": "Pınar Taksi",
+      "phone": "04262134444",
+      "website": null,
+      "lat": 38.883428,
+      "lon": 40.492819,
+      "address": "Yenişehir Mah. Cumhuriyet Cad. (Beşyol Kavşağı) Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317476477-5",
+      "name": "Saray Taksi",
+      "phone": "05317476477",
+      "website": null,
+      "lat": 38.885499,
+      "lon": 40.501369,
+      "address": "İnönü Mah. Eğitim Cad. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04262141225-6",
+      "name": "Seç Taksi",
+      "phone": "04262141225",
+      "website": null,
+      "lat": 38.883842,
+      "lon": 40.497517,
+      "address": "Yenişehir Mah. Hükümet Cad. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04262144049-7",
+      "name": "Vip Taksi",
+      "phone": "04262144049",
+      "website": null,
+      "lat": 38.884604,
+      "lon": 40.507636,
+      "address": "İnönü Mah. Kültür Cad. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444263010-8",
+      "name": "içek Taksi",
+      "phone": "05444263010",
+      "website": null,
+      "lat": 38.885995,
+      "lon": 40.507854,
+      "address": "İnönü Mah. Kurtuluş Cad. Bingöl Merkez, Bingöl",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05317476477-9",
+      "name": "Garaj Taksi",
+      "phone": "05317476477",
+      "website": null,
+      "lat": 38.958807,
+      "lon": 41.038905,
+      "address": "Yeni Mah. 380 Sok. 3 Solhan, Bingöl",
+      "districtId": "solhan",
+      "districtName": "Solhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317476477-10",
+      "name": "Solhan Belediye Taksi",
+      "phone": "05317476477",
+      "website": null,
+      "lat": 38.969368,
+      "lon": 41.062194,
+      "address": "Boğlan Mah. Muş Yolu Solhan, Bingöl",
+      "districtId": "solhan",
+      "districtName": "Solhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04267112728-11",
+      "name": "Solhan Taksi",
+      "phone": "04267112728",
+      "website": null,
+      "lat": 38.9620197,
+      "lon": 41.0427876,
+      "address": "Taksi Durağı · Ş.M Türksever bulvarı No:114/6",
+      "districtId": "solhan",
+      "districtName": "Solhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05330232955-12",
+      "name": "Solhan Belediye Taksi",
+      "phone": "05330232955",
+      "website": null,
+      "lat": 38.967723,
+      "lon": 41.05385,
+      "address": "Yeni Mah. Şehit Recep Battal Cad. Solhan, Bingöl",
+      "districtId": "solhan",
+      "districtName": "Solhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04265112030-13",
+      "name": "Karlıova Taksi",
+      "phone": "04265112030",
+      "website": null,
+      "lat": 39.297384,
+      "lon": 41.010034,
+      "address": "Turgut Özal Mah. Saidi Nursi Cad. Karlıova, Bingöl",
+      "districtId": "karliova",
+      "districtName": "Karliova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05305426412-14",
+      "name": "Karlıova Taksi",
+      "phone": "05305426412",
+      "website": "https://www.instagram.com/kanires_taksi/",
+      "lat": 39.2901447,
+      "lon": 41.0027659,
+      "address": null,
+      "districtId": "karliova",
+      "districtName": "Karliova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05385825723-15",
+      "name": "Adakli Taksi",
+      "phone": "05385825723",
+      "website": null,
+      "lat": 39.0740103,
+      "lon": 40.5855066,
+      "address": null,
+      "districtId": "adakli",
+      "districtName": "Adakli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04264112222-16",
+      "name": "Genç Taksi",
+      "phone": "04264112222",
+      "website": null,
+      "lat": 38.75191,
+      "lon": 40.563068,
+      "address": "Cumhuriyet Mah. Çamlıca Cad. Genç, Bingöl",
+      "districtId": "genc",
+      "districtName": "Genc",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-04262131560-17",
+      "name": "Birlik Taksi",
+      "phone": "04262131560",
+      "website": null,
+      "lat": 38.8855,
+      "lon": 40.4966,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-04262131244-18",
+      "name": "Bingöl Taksi",
+      "phone": "04262131244",
+      "website": null,
+      "lat": 38.8855,
+      "lon": 40.4966,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04262139233-19",
+      "name": "Hastane Taksi Bingöl",
+      "phone": "04262139233",
+      "website": null,
+      "lat": 38.8855,
+      "lon": 40.4966,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05383816556-20",
+      "name": "Adaklı Taksi - Burhan Laçin",
+      "phone": "05383816556",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "adakli",
+      "districtName": "Adaklı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05322541807-21",
+      "name": "Adaklı Taksi - Kerim Erişkin",
+      "phone": "05322541807",
+      "website": "https://www.facebook.com/Adakl%C4%B1-taksi-dura%C4%9F%C4%B1-724-hizmetinizdeyiz-100498178709147/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "adakli",
+      "districtName": "Adaklı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

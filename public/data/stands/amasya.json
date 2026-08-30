@@ -1,0 +1,1132 @@
+{
+  "cityId": "amasya",
+  "cityName": "Amasya",
+  "fetchedAt": "2026-08-30T21:27:28.879Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "goynucek",
+      "name": "Goynucek",
+      "count": 8
+    },
+    {
+      "id": "gumushacikoy",
+      "name": "Gumushacikoy",
+      "count": 3
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 26
+    },
+    {
+      "id": "merzifon",
+      "name": "Merzifon",
+      "count": 10
+    },
+    {
+      "id": "suluova",
+      "name": "Suluova",
+      "count": 6
+    },
+    {
+      "id": "tasova",
+      "name": "Tasova",
+      "count": 1
+    }
+  ],
+  "count": 71,
+  "stands": [
+    {
+      "id": "taksi724-0-0",
+      "name": "Akasya Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.66814,
+      "lon": 35.841387,
+      "address": "Ellibeşevler Mah. Alparslan Türkeş Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434950500-1",
+      "name": "Amasya Taksi",
+      "phone": "05434950500",
+      "website": null,
+      "lat": 40.653305,
+      "lon": 35.811287,
+      "address": "Hızırpaşa Mah. İstasyon Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442485255-2",
+      "name": "Bahçeleriçi Taksi",
+      "phone": "05442485255",
+      "website": null,
+      "lat": 40.649998,
+      "lon": 35.829886,
+      "address": "Yüzevler Mah. Mustafa Kemal Paşa Cad. Kolaylı Hüseyin Sok. 3/A Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-3-3",
+      "name": "Botanik Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.667823,
+      "lon": 35.834321,
+      "address": "Bahçeleriçi Mah. Anadolu Sok. (Amasya Anadolu Lisesi Karşısı) Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05492181444-4",
+      "name": "Çiçek Taksi",
+      "phone": "05492181444",
+      "website": null,
+      "lat": 40.665961,
+      "lon": 35.843394,
+      "address": "Ellibeşevler Mah. Kemalettin Güzeloğlu Sok. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05457870500-5",
+      "name": "Deniz Taksi",
+      "phone": "05457870500",
+      "website": null,
+      "lat": 40.662661,
+      "lon": 35.837005,
+      "address": "Bahçeleriçi Mah. Kalkan Sok. 5 Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03582220018-6",
+      "name": "Eğitim Taksi",
+      "phone": "03582220018",
+      "website": null,
+      "lat": 40.64983,
+      "lon": 35.823073,
+      "address": "Hacı İlyas Mah. Mustafa Kemal Paşa Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05442485255-7",
+      "name": "Fakülte Taksi",
+      "phone": "05442485255",
+      "website": null,
+      "lat": 40.655487,
+      "lon": 35.805033,
+      "address": "Şeyhcui Mah. Muhsin Yazıcıoğlu Cad. 4/A Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05459284919-8",
+      "name": "Güneş Taksi",
+      "phone": "05459284919",
+      "website": null,
+      "lat": 40.649075,
+      "lon": 35.796142,
+      "address": "Akbilek Mah. Şevket Güres Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442485255-9",
+      "name": "Güven Taksi",
+      "phone": "05442485255",
+      "website": null,
+      "lat": 40.655596,
+      "lon": 35.835266,
+      "address": "Pirinççi Mah. Mehmet Paşa Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582185154-10",
+      "name": "Hakimiyet Taksi",
+      "phone": "03582185154",
+      "website": null,
+      "lat": 40.650685,
+      "lon": 35.832478,
+      "address": "Dere Kocacık Mah. Taşhan Sok. 10 Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05442485255-11",
+      "name": "Hal Taksi",
+      "phone": "05442485255",
+      "website": null,
+      "lat": 40.653091,
+      "lon": 35.819302,
+      "address": "Hızırpaşa Mah. Ziya Gökalp Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05350603002-12",
+      "name": "Istasyon Taksi",
+      "phone": "05350603002",
+      "website": null,
+      "lat": 40.649431,
+      "lon": 35.82268,
+      "address": "Gökmedrese Mah. Torumtay Sok. (Gökmedrese Camii Yanı) Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05375691194-13",
+      "name": "Kral Kaya Taksi",
+      "phone": "05375691194",
+      "website": null,
+      "lat": 40.653905,
+      "lon": 35.811287,
+      "address": "Hızırpaşa Mah. İstasyon Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-14-14",
+      "name": "Kuşköprü Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.66674334,
+      "lon": 35.83396953,
+      "address": "Bahçeleriçi Mah. Zübeyde Hanım Cad. 98/A Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434665767-15",
+      "name": "Özlem Taksi",
+      "phone": "05434665767",
+      "website": null,
+      "lat": 40.662541,
+      "lon": 35.837296,
+      "address": "Bahçeleriçi Mah. Sipahi Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-16-16",
+      "name": "Sağlık Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.649621,
+      "lon": 35.824156,
+      "address": "Üçler Mah. Necip Pehlivan Sok. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582130343-17",
+      "name": "Şahin Taksi",
+      "phone": "03582130343",
+      "website": null,
+      "lat": 40.664416,
+      "lon": 35.847644,
+      "address": "Kirazlıdere Mah. Turgut Özal Cad. 28/A (Amasya Üniversitesi Sabuncuoğlu Şerefeddin Eğitim ve Araştırma Hastanesi Bitişiği) Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582185931-18",
+      "name": "Sanayi Taksi",
+      "phone": "03582185931",
+      "website": null,
+      "lat": 40.658857,
+      "lon": 35.840027,
+      "address": "Beyazıtpaşa Mah. Tabakhane Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03582183603-19",
+      "name": "Şeyhcui Taksi",
+      "phone": "03582183603",
+      "website": null,
+      "lat": 40.658624,
+      "lon": 35.838305,
+      "address": "Beyazıtpaşa Mah. Şahin Sok. 7 Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434665767-20",
+      "name": "Sigorta Taksi",
+      "phone": "05434665767",
+      "website": null,
+      "lat": 40.65606,
+      "lon": 35.805251,
+      "address": "Şeyhcui Mah. Türkistan Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582528023-21",
+      "name": "Tugay Taksi",
+      "phone": "03582528023",
+      "website": null,
+      "lat": 40.658397,
+      "lon": 35.80572,
+      "address": "Şeyhcui Mah. Macit Zeren Cad. 33 Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442485255-22",
+      "name": "Yetiş Taksi",
+      "phone": "05442485255",
+      "website": null,
+      "lat": 40.609607,
+      "lon": 35.796312,
+      "address": "Yazı Bağları Mah. Kışla Cad. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324299957-23",
+      "name": "Yüzevler Taksi",
+      "phone": "05324299957",
+      "website": null,
+      "lat": 40.649578,
+      "lon": 35.832838,
+      "address": "Fethiye Mah. Ruhi Tingiz Cad. 12/A Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05419058829-24",
+      "name": "amasya-taksi",
+      "phone": "05419058829",
+      "website": null,
+      "lat": 40.648984,
+      "lon": 35.827488,
+      "address": "Yüz Evler Mah. Mercan Sok. Amasya Merkez, Amasya",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412316263-25",
+      "name": "Çanakkale Taksi",
+      "phone": "05412316263",
+      "website": null,
+      "lat": 40.871033,
+      "lon": 35.444897,
+      "address": "Bahçelievler Mah. Hafız Mustafa Cad. Merzifon, Amasya",
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05052171300-26",
+      "name": "Çanakkale Taksi",
+      "phone": "05052171300",
+      "website": null,
+      "lat": 40.874668,
+      "lon": 35.4541539,
+      "address": null,
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05052171300-27",
+      "name": "Emniyet Taksi",
+      "phone": "05052171300",
+      "website": null,
+      "lat": 40.8749345,
+      "lon": 35.4572396,
+      "address": null,
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05459026346-28",
+      "name": "Hastane Taksi",
+      "phone": "05459026346",
+      "website": null,
+      "lat": 40.873784,
+      "lon": 35.464998,
+      "address": "Hocasüleyman Mah. Yokuşbaşı Cad. 3/A (Çiftehamam Önü) Merzifon, Amasya",
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438025058-29",
+      "name": "Merzifon Çınar Taksi",
+      "phone": "05438025058",
+      "website": null,
+      "lat": 40.869326,
+      "lon": 35.450111,
+      "address": "Bahçelievler Mah. Demokrasi Cad. Merzifon, Amasya",
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455015142-30",
+      "name": "Merzifon Taksi",
+      "phone": "05455015142",
+      "website": null,
+      "lat": 40.874711,
+      "lon": 35.4614971,
+      "address": "Taksi · Camicedit Mah. Atatürk Bulv. No:3, Belediye Kültür Sitesi Yanı",
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355594115-31",
+      "name": "MerzifonTaksi",
+      "phone": "05355594115",
+      "website": null,
+      "lat": 40.8692993,
+      "lon": 35.4963217,
+      "address": null,
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355594115-32",
+      "name": "Meydan Taksi",
+      "phone": "05355594115",
+      "website": null,
+      "lat": 40.8775538,
+      "lon": 35.4630434,
+      "address": null,
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05438735644-33",
+      "name": "Otogar Taksi",
+      "phone": "05438735644",
+      "website": null,
+      "lat": 40.872102,
+      "lon": 35.463065,
+      "address": "Harmanlar Mah. Muammer Aksoy Sok. 2/A Merzifon, Amasya",
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05442485255-34",
+      "name": "amasya-taksi",
+      "phone": "05442485255",
+      "website": null,
+      "lat": 40.86894,
+      "lon": 35.465265,
+      "address": "Hacıhasan Mah. Ali Rıza İlgin Cad. 5 Merzifon, Amasya",
+      "districtId": "merzifon",
+      "districtName": "Merzifon",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582189898-35",
+      "name": "Aile Taksi",
+      "phone": "03582189898",
+      "website": null,
+      "lat": 40.6467758,
+      "lon": 35.806684,
+      "address": "Taksi Durağı · Şht. Mustafa Rençber Sk. No:11",
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582186666-36",
+      "name": "Amasya Bir Taksi",
+      "phone": "03582186666",
+      "website": null,
+      "lat": 40.6511036,
+      "lon": 35.7990358,
+      "address": "Taksi ·  · Hoca Avrasi Caddesi",
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03582188080-37",
+      "name": "Bizim Taksi",
+      "phone": "03582188080",
+      "website": null,
+      "lat": 40.6487987,
+      "lon": 35.8053999,
+      "address": "Taksi Durağı · Hacılar Meydanı Mahallesi",
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05492181444-38",
+      "name": "Güven Taksi",
+      "phone": "05492181444",
+      "website": null,
+      "lat": 40.6533131,
+      "lon": 35.8085081,
+      "address": "Taksi Durağı · Alptekin Cd. No:2",
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03584172394-39",
+      "name": "Sağlık Taksi",
+      "phone": "03584172394",
+      "website": null,
+      "lat": 40.8373094,
+      "lon": 35.6434009,
+      "address": null,
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03582130343-40",
+      "name": "Sanayi Taksi",
+      "phone": "03582130343",
+      "website": null,
+      "lat": 40.6613948,
+      "lon": 35.8479249,
+      "address": "Taksi Durağı ·  · Terminal Cd. No:47",
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03582183603-41",
+      "name": "Şehcui Taksi",
+      "phone": "03582183603",
+      "website": null,
+      "lat": 40.656821,
+      "lon": 35.837991,
+      "address": "Taksi Durağı · Sakman Sk. No:13",
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434665767-42",
+      "name": "Amasya Bir Taksi",
+      "phone": "05434665767",
+      "website": null,
+      "lat": 40.6581795,
+      "lon": 35.8012249,
+      "address": null,
+      "districtId": "goynucek",
+      "districtName": "Goynucek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03584172394-43",
+      "name": "Suluova'da Taksi",
+      "phone": "03584172394",
+      "website": null,
+      "lat": 40.835343,
+      "lon": 35.645182,
+      "address": "Orta Mah. Atatürk Blv. Suluova, Amasya",
+      "districtId": "suluova",
+      "districtName": "Suluova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05416329572-44",
+      "name": "Suluova Terminal Taksi",
+      "phone": "05416329572",
+      "website": null,
+      "lat": 40.8411705,
+      "lon": 35.6513504,
+      "address": null,
+      "districtId": "suluova",
+      "districtName": "Suluova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365722105-45",
+      "name": "Suluova Toki Taksi",
+      "phone": "05365722105",
+      "website": null,
+      "lat": 40.822794,
+      "lon": 35.635356,
+      "address": "Magosa Mah. İstiklal Cad. Suluova, Amasya",
+      "districtId": "suluova",
+      "districtName": "Suluova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376764565-46",
+      "name": "Taksi",
+      "phone": "05376764565",
+      "website": null,
+      "lat": 40.8381428,
+      "lon": 35.6376604,
+      "address": "Taksi Durağı ·  · Yekeler Caddesi 20/1",
+      "districtId": "suluova",
+      "districtName": "Suluova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05438521983-47",
+      "name": "Suluova Terminal Taksi",
+      "phone": "05438521983",
+      "website": null,
+      "lat": 40.8411885,
+      "lon": 35.6508444,
+      "address": null,
+      "districtId": "suluova",
+      "districtName": "Suluova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05433399503-48",
+      "name": "Gümüşhacıköy Taksi",
+      "phone": "05433399503",
+      "website": null,
+      "lat": 40.87325,
+      "lon": 35.2154744,
+      "address": "Taksi Durağı · Cumhuriyet Meydanı No:58",
+      "districtId": "gumushacikoy",
+      "districtName": "Gumushacikoy",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377853638-49",
+      "name": "Güven Taksi",
+      "phone": "05377853638",
+      "website": null,
+      "lat": 40.8734248,
+      "lon": 35.2155653,
+      "address": "Taksi Durağı · Eski Belediye Sitesi Z Blok No:2",
+      "districtId": "gumushacikoy",
+      "districtName": "Gumushacikoy",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354686856-50",
+      "name": "Güven Taksi",
+      "phone": "05354686856",
+      "website": null,
+      "lat": 40.877699,
+      "lon": 35.218115,
+      "address": "Artıkabat Mah. Zübeyde Hanım Blv Gümüşhacıköy, Amasya",
+      "districtId": "gumushacikoy",
+      "districtName": "Gumushacikoy",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365722105-51",
+      "name": "Terminal Taksi",
+      "phone": "05365722105",
+      "website": null,
+      "lat": 40.758604,
+      "lon": 36.322678,
+      "address": "Cumhuriyet Mah. Atatürk Blv. 81 Taşova, Amasya",
+      "districtId": "tasova",
+      "districtName": "Tasova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05446450403-52",
+      "name": "Suluova Taksi",
+      "phone": "05446450403",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03585132956-53",
+      "name": "MERZİFON ŞİRİN TAKSİ",
+      "phone": "03585132956",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03582184793-54",
+      "name": "Abone Taksi",
+      "phone": "03582184793",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05424543045-55",
+      "name": "ÖZEL AMASYA KURYE VE TAKSİ",
+      "phone": "05424543045",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-03582123380-56",
+      "name": "Yüzevler Taksi",
+      "phone": "03582123380",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05462187676-57",
+      "name": "Amasya yesilirmak taksi",
+      "phone": "05462187676",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-03582181444-58",
+      "name": "Amasya Botanik Taksi AÇIK · 7 gün 24 saat Ellibeşevler, Botanik Parkı Yanı, Kema",
+      "phone": "03582181444",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03582527474-59",
+      "name": "Hal Taksi AÇIK · 7 gün 24 saat Gökmedrese, Torumtay Sk. No:137 D:B, 05100 Amasya",
+      "phone": "03582527474",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05468824841-60",
+      "name": "Dörtyol Taksi AÇIK · 7 gün 24 saat Mehmet Akif Ersoy, Otogar Cd. No:1758, 05300 ",
+      "phone": "05468824841",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03585132769-61",
+      "name": "Hastane Taksi Merzifon",
+      "phone": "03585132769",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03585133510-62",
+      "name": "Ziraat Taksi Merzifon",
+      "phone": "03585133510",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455019508-63",
+      "name": "Tümü → 05 Suluova Taksi",
+      "phone": "05455019508",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03584174344-64",
+      "name": "Suluova Aile Taksi",
+      "phone": "03584174344",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05551411131-65",
+      "name": "Suluova Meydan Taksi",
+      "phone": "05551411131",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05540157500-66",
+      "name": "Suluova Yeni Mahalle Taksi",
+      "phone": "05540157500",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05338176705-67",
+      "name": "Yenimahalle Taksi",
+      "phone": "05338176705",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03582185500-68",
+      "name": "Tümü → 55 Evler Taksi",
+      "phone": "03582185500",
+      "website": null,
+      "lat": 40.6539,
+      "lon": 35.8331,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05517460020-69",
+      "name": "Şirin Taksi - İbrahim Avarisli",
+      "phone": "05517460020",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05530658085-70",
+      "name": "Terminal Taksi - Erol Ulusoy",
+      "phone": "05530658085",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "suluova",
+      "districtName": "Suluova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2744 @@
+{
+  "cityId": "aydin",
+  "cityName": "Aydın",
+  "fetchedAt": "2026-08-30T21:28:08.963Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bozdogan",
+      "name": "Bozdogan",
+      "count": 3
+    },
+    {
+      "id": "cine",
+      "name": "Cine",
+      "count": 1
+    },
+    {
+      "id": "didim",
+      "name": "Didim",
+      "count": 31
+    },
+    {
+      "id": "efeler",
+      "name": "Efeler",
+      "count": 43
+    },
+    {
+      "id": "germencik",
+      "name": "Germencik",
+      "count": 1
+    },
+    {
+      "id": "incirliova",
+      "name": "İncirliova",
+      "count": 3
+    },
+    {
+      "id": "karacasu",
+      "name": "Karacasu",
+      "count": 1
+    },
+    {
+      "id": "karpuzlu",
+      "name": "Karpuzlu",
+      "count": 1
+    },
+    {
+      "id": "kocarli",
+      "name": "Kocarli",
+      "count": 2
+    },
+    {
+      "id": "kosk",
+      "name": "Kosk",
+      "count": 1
+    },
+    {
+      "id": "kusadasi",
+      "name": "Kusadasi",
+      "count": 38
+    },
+    {
+      "id": "nazilli",
+      "name": "Nazilli",
+      "count": 20
+    },
+    {
+      "id": "soke",
+      "name": "Soke",
+      "count": 10
+    },
+    {
+      "id": "sultanhisar",
+      "name": "Sultanhisar",
+      "count": 2
+    }
+  ],
+  "count": 175,
+  "stands": [
+    {
+      "id": "taksi724-05496818064-0",
+      "name": "Aydın Taksi",
+      "phone": "05496818064",
+      "website": null,
+      "lat": 37.8376165,
+      "lon": 27.8461278,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05457120003-1",
+      "name": "Aran Taksi",
+      "phone": "05457120003",
+      "website": null,
+      "lat": 37.833649,
+      "lon": 27.844105,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562131120-2",
+      "name": "Aran Taksi",
+      "phone": "02562131120",
+      "website": null,
+      "lat": 37.848043,
+      "lon": 27.8535915,
+      "address": "Taksi Durağı · Cadde PLUS YANI, ORTA MAHALLE, 126. Sk. No:2",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562131120-3",
+      "name": "Taksi durağı",
+      "phone": "02562131120",
+      "website": null,
+      "lat": 37.848171,
+      "lon": 27.850427,
+      "address": "Zafer Mah. Doğu Gazi Blv. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385180941-4",
+      "name": "Aydin Konak Taksi",
+      "phone": "05385180941",
+      "website": null,
+      "lat": 37.8380162,
+      "lon": 27.8455601,
+      "address": "Minibüs Taksi Hizmeti ·  · Esko İş Merkezi B:Blok Kat:1 No:26",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05368989909-5",
+      "name": "AYDIN MERKEZ GARAJT TAKSi",
+      "phone": "05368989909",
+      "website": null,
+      "lat": 37.8519628,
+      "lon": 27.8439162,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562253783-6",
+      "name": "AYDIN OTOGAR TAKSI",
+      "phone": "02562253783",
+      "website": null,
+      "lat": 37.837736,
+      "lon": 27.842485,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562253783-7",
+      "name": "AYDIN ViP TAKSi",
+      "phone": "02562253783",
+      "website": null,
+      "lat": 37.8418945,
+      "lon": 27.8428033,
+      "address": "Taksi Durağı ·  · 2018. Sk.",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422360565-8",
+      "name": "Aydın 7/24 Taksi",
+      "phone": "05422360565",
+      "website": null,
+      "lat": 37.848837,
+      "lon": 27.8257751,
+      "address": "Taksi · 2183. Sk. No: 6",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05495170071-9",
+      "name": "Aydın 7/24 Taksi",
+      "phone": "05495170071",
+      "website": null,
+      "lat": 37.8476496,
+      "lon": 27.8255886,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432200009-10",
+      "name": "Aydın Halil Taksi",
+      "phone": "05432200009",
+      "website": null,
+      "lat": 37.8433591,
+      "lon": 27.8447884,
+      "address": "Reklam Ajansı · Adnan Menderes Blv. No:45 D:C",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434012983-11",
+      "name": "Aydın kipa Taksi",
+      "phone": "05434012983",
+      "website": null,
+      "lat": 37.8470941,
+      "lon": 27.8263116,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562255630-12",
+      "name": "Aydın Mimar Sinan Taksi",
+      "phone": "02562255630",
+      "website": null,
+      "lat": 37.8496702,
+      "lon": 27.8228058,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427211041-13",
+      "name": "Aydın Sanayi Taksi",
+      "phone": "05427211041",
+      "website": null,
+      "lat": 37.8579877,
+      "lon": 27.821596,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435190394-14",
+      "name": "Aydın Taksi",
+      "phone": "05435190394",
+      "website": null,
+      "lat": 37.8418968,
+      "lon": 27.8564019,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05078966211-15",
+      "name": "Aykes Taksi",
+      "phone": "05078966211",
+      "website": null,
+      "lat": 37.849249,
+      "lon": 27.838925,
+      "address": "Hasanefendi – Ramazan Paşa Mah. 1914. Sok. 10 Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05015950208-16",
+      "name": "Aykes Taksi",
+      "phone": "05015950208",
+      "website": null,
+      "lat": 37.8378722,
+      "lon": 27.8455143,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05015950208-17",
+      "name": "Aykes Taksi",
+      "phone": "05015950208",
+      "website": null,
+      "lat": 37.835217,
+      "lon": 27.845516,
+      "address": "Adnan Menderes Mah. Muğla Blv. Efeler, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446843157-18",
+      "name": "Ayko Taksi",
+      "phone": "05446843157",
+      "website": null,
+      "lat": 37.8372162,
+      "lon": 27.8458624,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562192219-19",
+      "name": "Ayko Taksi",
+      "phone": "02562192219",
+      "website": null,
+      "lat": 37.858345,
+      "lon": 27.820781,
+      "address": "Taksi · Turgut Özal Blv. No:64",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562192219-20",
+      "name": "Ayko Taksi",
+      "phone": "02562192219",
+      "website": null,
+      "lat": 37.856293,
+      "lon": 27.263164,
+      "address": "Kemer Mah. Turgut Özal Blv. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562192219-21",
+      "name": "Bebek Taksi",
+      "phone": "02562192219",
+      "website": null,
+      "lat": 37.856511,
+      "lon": 27.825725,
+      "address": "Kemer Mah. Turgut Özal Blv. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562124011-22",
+      "name": "Bulvar Taksi",
+      "phone": "02562124011",
+      "website": null,
+      "lat": 37.848064,
+      "lon": 27.837478,
+      "address": "Hasanefendi – Ramazan Paşa Mah. Hastane Cad. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562252578-23",
+      "name": "Bulvar Taksi",
+      "phone": "02562252578",
+      "website": null,
+      "lat": 37.8509862,
+      "lon": 27.8416876,
+      "address": "Taksi Durağı · 1901. Sk. No:25",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562252578-24",
+      "name": "Aydin İn En popüler Taksi",
+      "phone": "02562252578",
+      "website": null,
+      "lat": 37.851644,
+      "lon": 27.838996,
+      "address": "Hasanefendi – Ramazan Paşa Mah. Batı Gazi Blv. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02562252809-25",
+      "name": "Can Taksi",
+      "phone": "02562252809",
+      "website": null,
+      "lat": 37.8410119,
+      "lon": 27.8393019,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05495460180-26",
+      "name": "Efe Taksi",
+      "phone": "05495460180",
+      "website": null,
+      "lat": 37.8519949,
+      "lon": 27.8228314,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372446134-27",
+      "name": "Efe Taksi",
+      "phone": "05372446134",
+      "website": null,
+      "lat": 37.843405,
+      "lon": 27.825035,
+      "address": "Efeler Mah. 1401. Sok. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372446134-28",
+      "name": "Girne Kemer Mimar Sinan Taksi",
+      "phone": "05372446134",
+      "website": null,
+      "lat": 37.862282,
+      "lon": 27.261139,
+      "address": "Efeler Mah. 1401. Sok. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05079871521-29",
+      "name": "Gönül Taksi",
+      "phone": "05079871521",
+      "website": null,
+      "lat": 37.8550053,
+      "lon": 27.8230282,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05546696399-30",
+      "name": "Gönül Taksi",
+      "phone": "05546696399",
+      "website": null,
+      "lat": 37.358054,
+      "lon": 27.280826,
+      "address": "Hasanefendi – Ramazan Paşa Mah. Batı Gazi Blv. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05546696399-31",
+      "name": "Durağı Aydında Taksi en yakın Taksi",
+      "phone": "05546696399",
+      "website": null,
+      "lat": 37.852244,
+      "lon": 27.838996,
+      "address": "Hasanefendi – Ramazan Paşa Mah. Batı Gazi Blv. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535522375-32",
+      "name": "Medline Taksi",
+      "phone": "05535522375",
+      "website": null,
+      "lat": 37.8539572,
+      "lon": 27.8332034,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05435190394-33",
+      "name": "Merkez Taksi",
+      "phone": "05435190394",
+      "website": null,
+      "lat": 37.843405,
+      "lon": 27.823719,
+      "address": "Efeler Mah. 1401 Sok. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562125818-34",
+      "name": "Merkez Taksi",
+      "phone": "02562125818",
+      "website": null,
+      "lat": 37.843705,
+      "lon": 27.824377,
+      "address": "Hasanefendi – Ramazan Paşa Mah. İstiklal Cad. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562125818-35",
+      "name": "Meşrutiyet Taksi",
+      "phone": "02562125818",
+      "website": null,
+      "lat": 37.848091,
+      "lon": 27.844427,
+      "address": "Hasanefendi – Ramazan Paşa Mah. İstiklal Cad. Aydın Merkez, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427976253-36",
+      "name": "Mimarsinan Taksi",
+      "phone": "05427976253",
+      "website": null,
+      "lat": 37.8499792,
+      "lon": 27.8333137,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05324873209-37",
+      "name": "Otogar Taksi",
+      "phone": "05324873209",
+      "website": null,
+      "lat": 37.8553479,
+      "lon": 27.8071155,
+      "address": "Taksi · 2379. Sk. No:16 D:1",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562253783-38",
+      "name": "Taksi",
+      "phone": "02562253783",
+      "website": null,
+      "lat": 37.7974478,
+      "lon": 27.8405078,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562113142-39",
+      "name": "Tornak Taksi",
+      "phone": "02562113142",
+      "website": null,
+      "lat": 37.8409314,
+      "lon": 27.8542718,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362368151-40",
+      "name": "Umut Taksi",
+      "phone": "05362368151",
+      "website": null,
+      "lat": 37.839299,
+      "lon": 27.847887,
+      "address": "Güzelhisar Mah. Albay Şefik Cad. Efeler, Aydın",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357821470-41",
+      "name": "Zafer Taksi",
+      "phone": "05357821470",
+      "website": null,
+      "lat": 37.8323289,
+      "lon": 27.8448072,
+      "address": null,
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02562251743-42",
+      "name": "aydin-taksi",
+      "phone": "02562251743",
+      "website": null,
+      "lat": 37.8494002,
+      "lon": 27.8473366,
+      "address": "Taksi Durağı · Zafer meydanı Doğu Gazi Bulvarı No:59 Adnan Menderes üniversitesi, Adü Taksi, zafer meydanı",
+      "districtId": "efeler",
+      "districtName": "Efeler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02566121629-43",
+      "name": "7 Yedi Eylül Taksi",
+      "phone": "02566121629",
+      "website": null,
+      "lat": 37.854673,
+      "lon": 27.2547511,
+      "address": "Taksi Durağı ·  · Yıldırım Cd. No:82",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566121629-44",
+      "name": "Ada Taksi",
+      "phone": "02566121629",
+      "website": null,
+      "lat": 37.858076,
+      "lon": 27.257616,
+      "address": "Camiatik Mah. Yıldırım Cad. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566123665-45",
+      "name": "Can Taksi",
+      "phone": "02566123665",
+      "website": null,
+      "lat": 37.865144,
+      "lon": 27.262815,
+      "address": "Türkmen Mah. Atatürk Blv. 68 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332582303-46",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05332582303",
+      "website": null,
+      "lat": 37.861549,
+      "lon": 27.257941,
+      "address": "Camikebir Mah. Atatürk Blv. 75 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566142303-47",
+      "name": "Cumhuriyet Taksi",
+      "phone": "02566142303",
+      "website": null,
+      "lat": 37.8660687,
+      "lon": 27.2741401,
+      "address": "Cumhuriyet Taksi Ege Mahallesi Durağı",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566142313-48",
+      "name": "Derya Taksi",
+      "phone": "02566142313",
+      "website": null,
+      "lat": 37.8482459,
+      "lon": 27.2700508,
+      "address": "Taksi Durağı · 613. Sk.",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566181818-49",
+      "name": "Derya Taksi",
+      "phone": "02566181818",
+      "website": null,
+      "lat": 37.871495,
+      "lon": 27.2647987,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566181818-50",
+      "name": "Dilek Taksi",
+      "phone": "02566181818",
+      "website": null,
+      "lat": 37.869137,
+      "lon": 27.264769,
+      "address": "Türkmen Mah. Atatürk Blv. 1 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566811356-51",
+      "name": "- S.s. Davutlar Dilek Taksi",
+      "phone": "02566811356",
+      "website": null,
+      "lat": 37.859745,
+      "lon": 27.2551,
+      "address": "Davutlar-Osmaniye Mah. Adnan Kahveci Cad. Eta Sit. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566811356-52",
+      "name": "Efes Taksi",
+      "phone": "02566811356",
+      "website": null,
+      "lat": 37.759378,
+      "lon": 27.26141,
+      "address": "Davutlar-Osmaniye Mah. Adnan Kahveci Cad. Eta Sit. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566121416-53",
+      "name": "Efes Taksi",
+      "phone": "02566121416",
+      "website": null,
+      "lat": 37.855881,
+      "lon": 27.266495,
+      "address": "Cumhuriyet Mah. Adnan Menderes Blv. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566331600-54",
+      "name": "Emniyet Taksi",
+      "phone": "02566331600",
+      "website": null,
+      "lat": 37.7879633,
+      "lon": 27.2757585,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566129430-55",
+      "name": "Garaj Taksi",
+      "phone": "02566129430",
+      "website": null,
+      "lat": 37.856893,
+      "lon": 27.263164,
+      "address": "Cumhuriyet Mah. Toros Ahmet Sok. 46 Dk:1 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05011120909-56",
+      "name": "Güven Taksi",
+      "phone": "05011120909",
+      "website": null,
+      "lat": 37.846928,
+      "lon": 27.260081,
+      "address": "İkiçeşmelik Mah. Süleyman Demirel Blv. 67 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566129957-57",
+      "name": "Güzelçamlı Park Taksi",
+      "phone": "02566129957",
+      "website": null,
+      "lat": 37.860345,
+      "lon": 27.2551,
+      "address": "Dağ Mah. Kıbrıs Cad. 1 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566461447-58",
+      "name": "Hastane Taksi",
+      "phone": "02566461447",
+      "website": null,
+      "lat": 37.7134216,
+      "lon": 27.2236936,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05449664342-59",
+      "name": "Kale Taksi",
+      "phone": "05449664342",
+      "website": null,
+      "lat": 37.877548,
+      "lon": 27.268289,
+      "address": "Türkmen Mah. Hülya Koçyiğit Blv. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566147014-60",
+      "name": "Kale Taksi",
+      "phone": "02566147014",
+      "website": null,
+      "lat": 37.861093,
+      "lon": 27.2503379,
+      "address": "Taksi Durağı ·  · Kadınlar Denizi Yolu No:105",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566147014-61",
+      "name": "Kent Taksi",
+      "phone": "02566147014",
+      "website": null,
+      "lat": 37.861131,
+      "lon": 27.255285,
+      "address": "Dağ Mah. Güvercin Ada Cad. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566149458-62",
+      "name": "Kipa Taksi",
+      "phone": "02566149458",
+      "website": null,
+      "lat": 37.8557029,
+      "lon": 27.2480169,
+      "address": "Taksi Durağı · Mehmet Işık Cd. No:1",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332582303-63",
+      "name": "Taksi durağı",
+      "phone": "05332582303",
+      "website": null,
+      "lat": 37.835621,
+      "lon": 27.259135,
+      "address": "Değirmendere Mah. Süleyman Demirel Blv. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352304730-64",
+      "name": "Taksi durağı",
+      "phone": "05352304730",
+      "website": null,
+      "lat": 37.7247035,
+      "lon": 27.933724,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05074310123-65",
+      "name": "Taksi durağı",
+      "phone": "05074310123",
+      "website": null,
+      "lat": 37.8292875,
+      "lon": 27.270688,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352304730-66",
+      "name": "Taksi durağı",
+      "phone": "05352304730",
+      "website": null,
+      "lat": 37.7247215,
+      "lon": 27.933218,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352304730-67",
+      "name": "Kuşadası Taksi",
+      "phone": "05352304730",
+      "website": null,
+      "lat": 37.7246855,
+      "lon": 27.93423,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387757048-68",
+      "name": "Marina Taksi",
+      "phone": "05387757048",
+      "website": null,
+      "lat": 37.9339016,
+      "lon": 27.86132,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333279074-69",
+      "name": "Marına Taksi",
+      "phone": "05333279074",
+      "website": null,
+      "lat": 37.869241,
+      "lon": 27.264773,
+      "address": "Türkmen Mah. Atatürk Blv. 96/B Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427211041-70",
+      "name": "Otogar Taksi",
+      "phone": "05427211041",
+      "website": null,
+      "lat": 37.857111,
+      "lon": 27.825725,
+      "address": "Türkmen Mah. Atatürk Blv. 96/B Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05011120909-71",
+      "name": "Park Taksi",
+      "phone": "05011120909",
+      "website": null,
+      "lat": 37.8489823,
+      "lon": 27.2616757,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332582303-72",
+      "name": "Paşa Taksi",
+      "phone": "05332582303",
+      "website": null,
+      "lat": 37.711527,
+      "lon": 27.212748,
+      "address": "Güzelçamlı-Atatürk Mah. Milli Park Cad. Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566221111-73",
+      "name": "Paşa Taksi",
+      "phone": "02566221111",
+      "website": null,
+      "lat": 37.8145282,
+      "lon": 27.2705653,
+      "address": "Taksi Durağı · Orhangazi Cd. No:46",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566221111-74",
+      "name": "Sahil Taksi",
+      "phone": "02566221111",
+      "website": null,
+      "lat": 37.807535,
+      "lon": 27.272596,
+      "address": "Karaova Mah. Osman Gazi Cad. 50 Ilıca, Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566144750-75",
+      "name": "Sembol Taksi",
+      "phone": "02566144750",
+      "website": null,
+      "lat": 37.862882,
+      "lon": 27.261139,
+      "address": "Türkmen Mah. Lozan Meydanı Atatürk Blv. 2 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566146109-76",
+      "name": "Taksi",
+      "phone": "02566146109",
+      "website": null,
+      "lat": 37.858056,
+      "lon": 27.260747,
+      "address": "Camikebir Mah. İsmet İnönü Blv. 38 Dk:1 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432110990-77",
+      "name": "Türkmen Taksi",
+      "phone": "05432110990",
+      "website": null,
+      "lat": 37.7929652,
+      "lon": 27.2741268,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02566133366-78",
+      "name": "aydin-taksi",
+      "phone": "02566133366",
+      "website": null,
+      "lat": 37.860388,
+      "lon": 27.261577,
+      "address": "Türkmen Mah. 50. Yıl Cad. 13 Kuşadası, Aydın",
+      "districtId": "kusadasi",
+      "districtName": "Kusadasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373840685-79",
+      "name": "Akbük Taksi",
+      "phone": "05373840685",
+      "website": null,
+      "lat": 37.4133229,
+      "lon": 27.3927526,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568565812-80",
+      "name": "Akbük Taksi",
+      "phone": "02568565812",
+      "website": null,
+      "lat": 37.3784331,
+      "lon": 27.2710288,
+      "address": "Taksi · Cumhuriyet Cad., Akbük, Didim",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357431126-81",
+      "name": "Altınkum Taksi",
+      "phone": "05357431126",
+      "website": null,
+      "lat": 37.38877,
+      "lon": 27.433033,
+      "address": "Akbük-Cumhuriyet Mah. Fevzi Çakmak Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568132365-82",
+      "name": "Balat Taksi",
+      "phone": "02568132365",
+      "website": null,
+      "lat": 37.357383,
+      "lon": 27.286782,
+      "address": "Altınkum Mah. Yalı Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326737134-83",
+      "name": "Bektaş Aslan Taksi",
+      "phone": "05326737134",
+      "website": null,
+      "lat": 37.512227,
+      "lon": 27.276867,
+      "address": "Balat Köyü Şehit Er Mehmet Dinç Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05549235786-84",
+      "name": "Didim Alo Taksi",
+      "phone": "05549235786",
+      "website": null,
+      "lat": 37.4044135,
+      "lon": 27.2351118,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446459220-85",
+      "name": "Didim Best Taksi",
+      "phone": "05446459220",
+      "website": null,
+      "lat": 37.3706768,
+      "lon": 27.2718456,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05528929752-86",
+      "name": "Didim Bi Taksi",
+      "phone": "05528929752",
+      "website": null,
+      "lat": 37.3607798,
+      "lon": 27.2677733,
+      "address": "Taksi · Ege Cd. No:99 D:107",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317212095-87",
+      "name": "Didim Çamlık Taksi",
+      "phone": "05317212095",
+      "website": null,
+      "lat": 37.3598909,
+      "lon": 27.2682473,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568132223-88",
+      "name": "Didim City Taksi",
+      "phone": "02568132223",
+      "website": null,
+      "lat": 37.3544839,
+      "lon": 27.2671482,
+      "address": "Taksi Durağı ·  · Üç Mevsim Cd. No:33 D:1",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535027048-89",
+      "name": "Didim Dalyan Taksi",
+      "phone": "05535027048",
+      "website": null,
+      "lat": 37.3734108,
+      "lon": 27.2767877,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05557540575-90",
+      "name": "Didim Efeler YILDIRIM Taksi",
+      "phone": "05557540575",
+      "website": null,
+      "lat": 37.3689985,
+      "lon": 27.2573962,
+      "address": "Taksi Durağı · 1533 sok No:4",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05399587036-91",
+      "name": "Didim Kent Taksi",
+      "phone": "05399587036",
+      "website": null,
+      "lat": 37.3713403,
+      "lon": 27.2576681,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314226066-92",
+      "name": "Taksi durağı",
+      "phone": "05314226066",
+      "website": null,
+      "lat": 37.4171716,
+      "lon": 27.4151873,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448103434-93",
+      "name": "Didim Taksi",
+      "phone": "05448103434",
+      "website": null,
+      "lat": 37.3785615,
+      "lon": 27.2470374,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05557540575-94",
+      "name": "Didim Taksi",
+      "phone": "05557540575",
+      "website": null,
+      "lat": 37.376328,
+      "lon": 27.267902,
+      "address": "Yeni Mah. Kurtuluş Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448103434-95",
+      "name": "Didim Yeni Taksi",
+      "phone": "05448103434",
+      "website": null,
+      "lat": 37.356783,
+      "lon": 27.286782,
+      "address": "Altınkum Mah. Yalı Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418140062-96",
+      "name": "Güven Taksi",
+      "phone": "05418140062",
+      "website": null,
+      "lat": 37.3635135,
+      "lon": 27.2723301,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568136414-97",
+      "name": "Güven Taksi",
+      "phone": "02568136414",
+      "website": null,
+      "lat": 37.355843,
+      "lon": 27.2757594,
+      "address": "Taksi Durağı ·  · Altınkum Mahallesi, Yunus Cd. No:4",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448103434-98",
+      "name": "Taksi durağı",
+      "phone": "05448103434",
+      "website": null,
+      "lat": 37.351731,
+      "lon": 27.272605,
+      "address": "Çamlık Mah. Yunus Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443551989-99",
+      "name": "Hisar Taksi",
+      "phone": "05443551989",
+      "website": null,
+      "lat": 37.3743181,
+      "lon": 27.2670614,
+      "address": "Taksi Durağı · 824. Sk. No:13",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568133480-100",
+      "name": "Hisar Taksi",
+      "phone": "02568133480",
+      "website": null,
+      "lat": 37.3560181,
+      "lon": 27.2766261,
+      "address": "Taksi Durağı · Karakol Cd. No:1",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568133480-101",
+      "name": "Kent Taksi",
+      "phone": "02568133480",
+      "website": null,
+      "lat": 37.921635,
+      "lon": 28.33824,
+      "address": "Altınkum Mah. Karakol Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314226066-102",
+      "name": "Mavişehir Taksi",
+      "phone": "05314226066",
+      "website": null,
+      "lat": 37.91009087,
+      "lon": 28.32159286,
+      "address": "Akbük-Adnanmenderes Mah. 1001 Cad. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443422857-103",
+      "name": "Sahil Taksi",
+      "phone": "05443422857",
+      "website": null,
+      "lat": 37.403619,
+      "lon": 27.230773,
+      "address": "Fevzipaşa Mah. Orhan Öcal Meydanı Mavişehir, Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568134550-104",
+      "name": "Sahil Taksi",
+      "phone": "02568134550",
+      "website": null,
+      "lat": 37.349128,
+      "lon": 27.275395,
+      "address": "Taksi Durağı · Yalı Cd. No:1",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02568134550-105",
+      "name": "Sahil Taksi",
+      "phone": "02568134550",
+      "website": null,
+      "lat": 37.3678,
+      "lon": 27.26975,
+      "address": "Efeler Mah. Atatürk Blv. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435190394-106",
+      "name": "Sahil Taksi",
+      "phone": "05435190394",
+      "website": null,
+      "lat": 37.3672,
+      "lon": 27.26975,
+      "address": "Efeler Mah. Atatürk Blv. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-107-107",
+      "name": "Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.917519,
+      "lon": 28.320764,
+      "address": "Efeler Mah. Atatürk Blv. Didim, Aydın",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530970308-108",
+      "name": "Taksi durağı",
+      "phone": "05530970308",
+      "website": null,
+      "lat": 37.3587727,
+      "lon": 27.2750784,
+      "address": "Taksi · Atatürk Blv. No:24",
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400460946-109",
+      "name": "aydin-taksi",
+      "phone": "05400460946",
+      "website": null,
+      "lat": 37.376356,
+      "lon": 27.249489,
+      "address": null,
+      "districtId": "didim",
+      "districtName": "Didim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539106440-110",
+      "name": "Emniyet Taksi",
+      "phone": "05539106440",
+      "website": null,
+      "lat": 37.91069087,
+      "lon": 28.32159286,
+      "address": "Karaçay Mah. 92. Sok. 3/A Nazilli Otogarı Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302249529-111",
+      "name": "Emniyet Taksi",
+      "phone": "05302249529",
+      "website": null,
+      "lat": 37.919358,
+      "lon": 28.326585,
+      "address": "Altıntaş Mah. Koca Camii Cad. Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302249529-112",
+      "name": "Istasyon Taksi",
+      "phone": "05302249529",
+      "website": null,
+      "lat": 37.909777,
+      "lon": 28.324294,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539106440-113",
+      "name": "Konak Taksi",
+      "phone": "05539106440",
+      "website": null,
+      "lat": 37.894891,
+      "lon": 28.266896,
+      "address": "Altıntaş Mah. İstasyon Meydanı Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334638555-114",
+      "name": "Merhaba Taksi",
+      "phone": "05334638555",
+      "website": null,
+      "lat": 37.910581,
+      "lon": 28.32723,
+      "address": "Cumhuriyet Mah. Beşeylül Cad. Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435190394-115",
+      "name": "Meydan Taksi",
+      "phone": "05435190394",
+      "website": null,
+      "lat": 37.91764585,
+      "lon": 28.3195239,
+      "address": "Yeni Mah. Sağlık Cad. 23 Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353936278-116",
+      "name": "Nazilli İstasyon Murat Taksi",
+      "phone": "05353936278",
+      "website": null,
+      "lat": 37.9146026,
+      "lon": 28.3269265,
+      "address": "Taksi Durağı · Fevzi Çakmak Cd. No:15",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352134604-117",
+      "name": "Nazilli İstasyon Taksi",
+      "phone": "05352134604",
+      "website": null,
+      "lat": 37.9165072,
+      "lon": 28.3264696,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05539106440-118",
+      "name": "Nazilli Taksi",
+      "phone": "05539106440",
+      "website": null,
+      "lat": 37.9143609,
+      "lon": 28.3275775,
+      "address": "Karaçay Mah. 92. Sok. 3/A Nazilli Otogarı Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05544504920-119",
+      "name": "Nazilli Taksi",
+      "phone": "05544504920",
+      "website": null,
+      "lat": 37.907996,
+      "lon": 28.3221379,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468912445-120",
+      "name": "Nazilli Taksi",
+      "phone": "05468912445",
+      "website": null,
+      "lat": 37.858658,
+      "lon": 28.157165,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05533140909-121",
+      "name": "Esat Taksi",
+      "phone": "05533140909",
+      "website": "https://www.facebook.com/nazillitaksi2034",
+      "lat": 37.9192152,
+      "lon": 28.3424247,
+      "address": "Taksi ·  · Atatürk Blv. No:186",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05302249529-122",
+      "name": "Nazilli Taksi",
+      "phone": "05302249529",
+      "website": null,
+      "lat": 37.9086109,
+      "lon": 28.3106874,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302249529-123",
+      "name": "Nazilli Taksi",
+      "phone": "05302249529",
+      "website": null,
+      "lat": 37.910285,
+      "lon": 28.330817,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468108203-124",
+      "name": "Sağlık Taksi",
+      "phone": "05468108203",
+      "website": null,
+      "lat": 37.9145101,
+      "lon": 28.3262881,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02563154087-125",
+      "name": "Sağlık Taksi",
+      "phone": "02563154087",
+      "website": null,
+      "lat": 37.9192942,
+      "lon": 28.3367868,
+      "address": "Taksi · 622. Sk. No:1",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02563154087-126",
+      "name": "Sezgin Taksi",
+      "phone": "02563154087",
+      "website": null,
+      "lat": 37.922235,
+      "lon": 28.33824,
+      "address": "Yeşil Mah. 622. Sok. Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05452342055-127",
+      "name": "Taksi durağı",
+      "phone": "05452342055",
+      "website": null,
+      "lat": 37.9051559,
+      "lon": 28.3234836,
+      "address": null,
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324239668-128",
+      "name": "Zafer Taksi",
+      "phone": "05324239668",
+      "website": null,
+      "lat": 37.9141809,
+      "lon": 28.3266337,
+      "address": "Taksi Durağı · İstasyon meydanı No:8 İlkadım",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05319114111-129",
+      "name": "aydin-taksi",
+      "phone": "05319114111",
+      "website": null,
+      "lat": 37.918119,
+      "lon": 28.320764,
+      "address": "Zafer Mah. 90. Sok. Nazilli, Aydın",
+      "districtId": "nazilli",
+      "districtName": "Nazilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02565181933-130",
+      "name": "Bizim Taksi",
+      "phone": "02565181933",
+      "website": null,
+      "lat": 37.75042,
+      "lon": 27.404975,
+      "address": "Çeltikçi Mah. Kurtuluş Cad. Söke, Aydın",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02565182647-131",
+      "name": "Çınar Taksi",
+      "phone": "02565182647",
+      "website": null,
+      "lat": 37.750266,
+      "lon": 27.404017,
+      "address": "Kemalpaşa Mah. Futbol Sok. 1 Söke, Aydın",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05551816125-132",
+      "name": "Garaj Taksi",
+      "phone": "05551816125",
+      "website": null,
+      "lat": 37.758562,
+      "lon": 27.408712,
+      "address": "Konak Mah. Fırat Sok. Söke, Aydın",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02565187321-133",
+      "name": "Hastane Taksi",
+      "phone": "02565187321",
+      "website": null,
+      "lat": 37.750022,
+      "lon": 27.414541,
+      "address": "Taksi Durağı ·  · Bilecik Sk. No:33",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02565181936-134",
+      "name": "Novada Taksi",
+      "phone": "02565181936",
+      "website": null,
+      "lat": 37.7650833,
+      "lon": 27.4043226,
+      "address": null,
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551816125-135",
+      "name": "Söke Alo Taksi",
+      "phone": "05551816125",
+      "website": null,
+      "lat": 37.765634,
+      "lon": 27.4216082,
+      "address": "Taksi ·  · Aydın Cd. No:216",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05395941530-136",
+      "name": "Söke Taksi",
+      "phone": "05395941530",
+      "website": null,
+      "lat": 37.7631469,
+      "lon": 27.390061,
+      "address": "Taksi · Mehmet Semerci Cd. No:137",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02565184248-137",
+      "name": "Söke Taksi",
+      "phone": "02565184248",
+      "website": null,
+      "lat": 37.7530152,
+      "lon": 27.4044902,
+      "address": "Taksi Durağı ·  · Cumhuriyet Cd. No:1",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05071632008-138",
+      "name": "nar Taksi",
+      "phone": "05071632008",
+      "website": null,
+      "lat": 37.7564848,
+      "lon": 27.4092221,
+      "address": "Taksi · Burdur Sk. No:7 kat 2",
+      "districtId": "soke",
+      "districtName": "Soke",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456869909-139",
+      "name": "Merkez Taksi",
+      "phone": "05456869909",
+      "website": null,
+      "lat": 37.6734099,
+      "lon": 28.3094596,
+      "address": "Ulaşım Hizmeti · Şose Cd. No:3",
+      "districtId": "bozdogan",
+      "districtName": "Bozdogan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02564143737-140",
+      "name": "Meydan Taksi",
+      "phone": "02564143737",
+      "website": null,
+      "lat": 37.6722409,
+      "lon": 28.3098578,
+      "address": "Ulaşım Hizmeti · Hamam Sk.",
+      "districtId": "bozdogan",
+      "districtName": "Bozdogan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456869909-141",
+      "name": "Meydan Taksi",
+      "phone": "05456869909",
+      "website": null,
+      "lat": 37.672232,
+      "lon": 28.310057,
+      "address": "Çarşı Mah. Muğla Cad. Bozdoğan, Aydın",
+      "districtId": "bozdogan",
+      "districtName": "Bozdogan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377815501-142",
+      "name": "İncirliova Birlik Taksi",
+      "phone": "05377815501",
+      "website": null,
+      "lat": 37.85302772,
+      "lon": 37.85362772,
+      "address": "Kurtuluş Mah. İncirliova, Aydın",
+      "districtId": "incirliova",
+      "districtName": "İncirliova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377815501-143",
+      "name": "ncirliova Birlik Taksi",
+      "phone": "05377815501",
+      "website": null,
+      "lat": 37.852807,
+      "lon": 27.723397,
+      "address": null,
+      "districtId": "incirliova",
+      "districtName": "İncirliova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394166190-144",
+      "name": "Koçarlı Taksi",
+      "phone": "05394166190",
+      "website": null,
+      "lat": 37.75754,
+      "lon": 27.706865,
+      "address": "Orta Mah. Durmuş Terzioğlu Cad. Dere Sok. Koçarlı, Aydın",
+      "districtId": "kocarli",
+      "districtName": "Kocarli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326672507-145",
+      "name": "Koçarlı Taksi",
+      "phone": "05326672507",
+      "website": null,
+      "lat": 37.7609954,
+      "lon": 27.7059691,
+      "address": "Taksi Durağı ·  · Durmuş Terzioğlu Cd. No:28/4",
+      "districtId": "kocarli",
+      "districtName": "Kocarli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05342495191-146",
+      "name": "Taksi durağı",
+      "phone": "05342495191",
+      "website": null,
+      "lat": 37.889733,
+      "lon": 28.154463,
+      "address": "Taksi · Kural Sok No:4912",
+      "districtId": "sultanhisar",
+      "districtName": "Sultanhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446444118-147",
+      "name": "Sultanhisar Taksi",
+      "phone": "05446444118",
+      "website": null,
+      "lat": 37.8859202,
+      "lon": 28.1557248,
+      "address": null,
+      "districtId": "sultanhisar",
+      "districtName": "Sultanhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426654635-148",
+      "name": "Garaj Taksi",
+      "phone": "05426654635",
+      "website": null,
+      "lat": 37.614062,
+      "lon": 28.05833,
+      "address": "Hamitabat Mah. Adnan Menderes Blv. (Shell Benzinlik Karşısı) Çine, Aydın",
+      "districtId": "cine",
+      "districtName": "Cine",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-02565630175-149",
+      "name": "Has Taksi",
+      "phone": "02565630175",
+      "website": null,
+      "lat": 37.873501,
+      "lon": 27.595804,
+      "address": "İstasyon Mah. Ziya Gökalp Cad. 13/C Germencik, Aydın",
+      "districtId": "germencik",
+      "districtName": "Germencik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02564412122-150",
+      "name": "Afrodisias Taksi",
+      "phone": "02564412122",
+      "website": null,
+      "lat": 37.731741,
+      "lon": 28.605761,
+      "address": "Yaylalı Mah. Mustafa Kemal Paşa Cad. Karacasu, Aydın",
+      "districtId": "karacasu",
+      "districtName": "Karacasu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02562255630-151",
+      "name": "Murat Taksi",
+      "phone": "02562255630",
+      "website": null,
+      "lat": 37.8465578,
+      "lon": 27.8394306,
+      "address": null,
+      "districtId": "karpuzlu",
+      "districtName": "Karpuzlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05435706066-152",
+      "name": "Köşk Taksi",
+      "phone": "05435706066",
+      "website": null,
+      "lat": 37.8537117,
+      "lon": 28.0522273,
+      "address": "Ulaşım Hizmeti · Başçayır Cd. No:38 D:B",
+      "districtId": "kosk",
+      "districtName": "Kosk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05526006064-153",
+      "name": "Taksi Aydın | Aydın Taksi Çağır",
+      "phone": "05526006064",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02562144455-154",
+      "name": "Kemer Mini Taksi",
+      "phone": "02562144455",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05013450075-155",
+      "name": "Sağlık Taksi Aydın",
+      "phone": "05013450075",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05374451254-156",
+      "name": "Aydın taksi",
+      "phone": "05374451254",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05326967674-157",
+      "name": "aydın taksi 09 T 0211",
+      "phone": "05326967674",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05309343130-158",
+      "name": "Tümü → Buhar Taksi",
+      "phone": "05309343130",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05442146460-159",
+      "name": "Aydın Merkez Taksi Sağlık Taksi",
+      "phone": "05442146460",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05446240009-160",
+      "name": "Aykes Taksi",
+      "phone": "05446240009",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02562121717-161",
+      "name": "Soğukkuyu Taksi",
+      "phone": "02562121717",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05070069192-162",
+      "name": "Vip Taksi",
+      "phone": "05070069192",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354698281-163",
+      "name": "Zafer Taksi Duraği",
+      "phone": "05354698281",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05368398149-164",
+      "name": "Tümü → İsabeyli Taksi Ali-otogar Taksi-taksi- Nazilli Taksi Ali",
+      "phone": "05368398149",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05437949009-165",
+      "name": "Nazilli 407 Vip Taksi",
+      "phone": "05437949009",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05491002023-166",
+      "name": "Nazıllı Taksı Muhammed",
+      "phone": "05491002023",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05011405309-167",
+      "name": "Otogar Taksi Mehmet Özkaya",
+      "phone": "05011405309",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05550095526-168",
+      "name": "Taksici Yıldıray",
+      "phone": "05550095526",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05438130903-169",
+      "name": "Taksinazilli",
+      "phone": "05438130903",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05468972885-170",
+      "name": "Tümü → Alo Bizim Taksi",
+      "phone": "05468972885",
+      "website": null,
+      "lat": 37.8444,
+      "lon": 27.8458,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05446996690-171",
+      "name": "Alo Taksi - Hakkı Akay",
+      "phone": "05446996690",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kuşadası",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05334681347-172",
+      "name": "Birlik Taksi - İsmail Özkan",
+      "phone": "05334681347",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "soke",
+      "districtName": "Söke",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05422449019-173",
+      "name": "Birlik Taksi - Muammer Dedeeli",
+      "phone": "05422449019",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "incirliova",
+      "districtName": "İncirliova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05533145210-174",
+      "name": "Kale Taksi - Tahsin Belce",
+      "phone": "05533145210",
+      "website": "https://www.instagram.com/kusadasi_taxi_tour_/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kusadasi",
+      "districtName": "Kuşadası",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

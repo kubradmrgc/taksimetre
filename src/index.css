@@ -40,3 +40,14 @@ input[type="text"]::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
+
+/* Native <select> popup: dark mode light text + OS white list = invisible options */
+select option {
+  background-color: #ffffff;
+  color: #14151a;
+}
+
+html.dark select option {
+  background-color: #15171e;
+  color: #ece8df;
+}

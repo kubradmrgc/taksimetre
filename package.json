@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "sync:tariffs": "node scripts/sync-tariffs.mjs",
+    "sync:stands": "node scripts/sync-taxi-stands.mjs",
     "predev": "node scripts/sync-tariffs.mjs --optional",
     "prebuild": "node scripts/sync-tariffs.mjs --optional"
   },

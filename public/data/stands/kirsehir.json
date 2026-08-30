@@ -1,0 +1,597 @@
+{
+  "cityId": "kirsehir",
+  "cityName": "Kırşehir",
+  "fetchedAt": "2026-08-30T21:20:43.721Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 47,
+  "stands": [
+    {
+      "id": "taksi724-03862133929-0",
+      "name": "Ahi Evran Medrese Taksi",
+      "phone": "03862133929",
+      "lat": 39.108221,
+      "lon": 34.188383,
+      "address": "Taksi · Aşık Paşa Mah. Cacabey Cad., Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03862124140-1",
+      "name": "Ahi Taksi",
+      "phone": "03862124140",
+      "lat": 39.1431931,
+      "lon": 34.16824098,
+      "address": "Medrese Mah. İmaret Cad. 4 Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-2-2",
+      "name": "Benzinlik Taksi",
+      "phone": null,
+      "lat": 39.151451,
+      "lon": 34.159699,
+      "address": "Ahi Evran Mah. Mehmet Ali Yapıcı Blv. Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-3-3",
+      "name": "Çiçek Taksi",
+      "phone": null,
+      "lat": 39.159345,
+      "lon": 34.159572,
+      "address": "Ahievran Mah. 686. Sok. 1 Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862122291-4",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "03862122291",
+      "lat": 39.137005,
+      "lon": 34.169943,
+      "address": "Yenice Mah. Terme Cad. 175. Sok. Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516646286-5",
+      "name": "Esen Taksi",
+      "phone": "05516646286",
+      "lat": 39.154828,
+      "lon": 34.162359,
+      "address": "Aşıkpaşa Mah. Otuzevler Cad. Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862133847-6",
+      "name": "Irmak Taksi",
+      "phone": "03862133847",
+      "lat": 39.144286,
+      "lon": 34.160796,
+      "address": "Medrese Mah. Atatürk Cad. 1 Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862134978-7",
+      "name": "Kent Taksi",
+      "phone": "03862134978",
+      "lat": 39.146291,
+      "lon": 34.154094,
+      "address": "Kayabaşı Mah. Kadıhanı Cad. 15 Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03862125037-8",
+      "name": "Kırşehir Çiçek Taksi",
+      "phone": "03862125037",
+      "lat": 39.146823,
+      "lon": 34.167775,
+      "address": "Medrese Mah. Dr. İsmail Yağız Cad. Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03862122291-9",
+      "name": "Şeker Taksi",
+      "phone": "03862122291",
+      "lat": 39.1440469,
+      "lon": 34.160275,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03862135591-10",
+      "name": "Terme Taksi",
+      "phone": "03862135591",
+      "lat": 39.151933,
+      "lon": 34.160207,
+      "address": "Ahievran Mah. 744. Sok. Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03862123064-11",
+      "name": "kirsehir-taksi",
+      "phone": "03862123064",
+      "lat": 39.135211,
+      "lon": 34.153706,
+      "address": "Güldiken Mah. Şehit Çoşkun Taş Cad. Kırşehir Merkez, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03862124187-12",
+      "name": "Kaman Taksi",
+      "phone": "03862124187",
+      "lat": 39.1573386,
+      "lon": 34.1637042,
+      "address": "Taksi Durağı ·  · 2019. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05425043087-13",
+      "name": "Kaman Taksi",
+      "phone": "05425043087",
+      "lat": 39.3590406,
+      "lon": 33.7187952,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05074534488-14",
+      "name": "KIRŞEHiR TERMiNAL TAKSi",
+      "phone": "05074534488",
+      "lat": 39.359422,
+      "lon": 33.7249494,
+      "address": "Taksi · Çiftlikli mahallesi. Atatürk cad, Yamanlar Sk. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05306727040-15",
+      "name": "Kırşehir Diş Hastanesi Taksi",
+      "phone": "05306727040",
+      "lat": 39.146078,
+      "lon": 34.159499,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05516646286-16",
+      "name": "Merkez Taksi",
+      "phone": "05516646286",
+      "lat": 39.1557658,
+      "lon": 34.1597908,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862131580-17",
+      "name": "Park Taksi",
+      "phone": "03862131580",
+      "lat": 39.1460598,
+      "lon": 34.1589979,
+      "address": "Taksi Durağı ·  · Yeni 2. Çarşı Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862134572-18",
+      "name": "Pazar Taksi",
+      "phone": "03862134572",
+      "lat": 39.146201,
+      "lon": 34.161594,
+      "address": "Taksi Durağı ·  · Cacabey Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862137954-19",
+      "name": "ŞEHiTLiK TAKSi",
+      "phone": "03862137954",
+      "lat": 39.1407792,
+      "lon": 34.1583905,
+      "address": "Taksi Durağı ·  · Atatürk Blv No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05516742948-20",
+      "name": "Şube Taksi",
+      "phone": "05516742948",
+      "lat": 39.1412283,
+      "lon": 34.1785838,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862123208-21",
+      "name": "Türbe Taksi",
+      "phone": "03862123208",
+      "lat": 39.154883,
+      "lon": 34.159107,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03862137873-22",
+      "name": "kirsehir-taksi",
+      "phone": "03862137873",
+      "lat": 39.1509146,
+      "lon": 34.170282,
+      "address": "Taksi Durağı · 1981. Sk. No:15",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05445929188-23",
+      "name": "Çiçekdağı Taksi",
+      "phone": "05445929188",
+      "lat": 39.6038461,
+      "lon": 34.4171317,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05417636277-24",
+      "name": "Kırşehir çiçekdağı Taksi",
+      "phone": "05417636277",
+      "lat": 39.605759,
+      "lon": 34.4206954,
+      "address": "Taksi · Atatürk Cd. No:72",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442158042-25",
+      "name": "Kırşehir çiçekdağı Taksi",
+      "phone": "05442158042",
+      "lat": 39.6074975,
+      "lon": 34.4240695,
+      "address": "Taksi Durağı · İsmet Paşa Cd. No:9",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516646286-26",
+      "name": "Meydan Taksi",
+      "phone": "05516646286",
+      "lat": 39.371225,
+      "lon": 33.722258,
+      "address": "Çiftlikli Mah. 6. Cad. 3/D Kaman, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05438390040-27",
+      "name": "Savcılı Taksi",
+      "phone": "05438390040",
+      "lat": 39.359724,
+      "lon": 33.715538,
+      "address": "Yeni Mah. Atatürk Cad. Kaman, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516742948-28",
+      "name": "Savcılı Taksi",
+      "phone": "05516742948",
+      "lat": 39.357862,
+      "lon": 33.723448,
+      "address": "Orta Mah. Gölboğazı Cad. Kaman, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03868124810-29",
+      "name": "Terminal Taksi",
+      "phone": "03868124810",
+      "lat": 39.064061,
+      "lon": 34.37624,
+      "address": "Yenice Mah. Mehmet Akif Ersoy Cad. Mucur, Kırşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03862126065-30",
+      "name": "Benzinlik Taksi",
+      "phone": "03862126065",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03862131797-31",
+      "name": "Ahi Taksi",
+      "phone": "03862131797",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05494704040-32",
+      "name": "Kırşehir Medrese Taksi AÇIK · 7 gün 24 saat Medrese, Ahmet Yesevi Blv. No:19, 40",
+      "phone": "05494704040",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05362184099-33",
+      "name": "Kirşehir Taksi",
+      "phone": "05362184099",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05413683460-34",
+      "name": "Kırşehir Taksi Diş Hastanesi",
+      "phone": "05413683460",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03862286024-35",
+      "name": "Şehitlik Taksi",
+      "phone": "03862286024",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05426248406-36",
+      "name": "Tümü → Hakan Taksi Kaman İndirim",
+      "phone": "05426248406",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05417124445-37",
+      "name": "Kaman Meydan Taksi Durağı",
+      "phone": "05417124445",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05071179368-38",
+      "name": "Kaman Taksi Hanifi Laçin",
+      "phone": "05071179368",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05540044040-39",
+      "name": "Kaman Taksi Kırşehir",
+      "phone": "05540044040",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05535925582-40",
+      "name": "Kaman Taksi Selami Çelik AÇIK · 7 gün 24 saat Çiftlikli, Çiftlikli mahallesi. At",
+      "phone": "05535925582",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05418547102-41",
+      "name": "Meydan Taksi Durağı AÇIK · 7 gün 24 saat Ziyarettepe, Metoroloji Cd. No:51, 4030",
+      "phone": "05418547102",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05427436738-42",
+      "name": "Tümü → Mucur Merkez Taksi",
+      "phone": "05427436738",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05459049322-43",
+      "name": "Mucur Taksi – Ezel Taksi",
+      "phone": "05459049322",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05443604040-44",
+      "name": "Kaman Taksi - Faruk Kaya",
+      "phone": "05443604040",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05428496404-45",
+      "name": "Kırşehir Taksi - Tayfun Tekin",
+      "phone": "05428496404",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05417430835-46",
+      "name": "Merkez Taksi - Murat Türkmen",
+      "phone": "05417430835",
+      "lat": 39.1461,
+      "lon": 34.1595,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

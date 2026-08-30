@@ -1,0 +1,1137 @@
+{
+  "cityId": "rize",
+  "cityName": "Rize",
+  "fetchedAt": "2026-08-30T21:22:35.751Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 90,
+  "stands": [
+    {
+      "id": "taksi724-04642131177-0",
+      "name": "Buluş Taksi",
+      "phone": "04642131177",
+      "lat": 41.024437,
+      "lon": 40.530057,
+      "address": "Ekrem Orhon Mah. Gül Sok. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642122134-1",
+      "name": "Çamlıbel Taksi",
+      "phone": "04642122134",
+      "lat": 41.024718,
+      "lon": 40.520698,
+      "address": "Yeniköy Mah. Cumhuriyet Cad. (Sofram Market Karşısı) Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642121633-2",
+      "name": "Çaytur Taksi",
+      "phone": "04642121633",
+      "lat": 41.022721,
+      "lon": 40.526148,
+      "address": "Tophane Mah. Laleli Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642122700-3",
+      "name": "Dalyan Taksi",
+      "phone": "04642122700",
+      "lat": 41.02499,
+      "lon": 40.536544,
+      "address": "Müftü Mah. Atatürk Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642178968-4",
+      "name": "Deniz Taksi",
+      "phone": "04642178968",
+      "lat": 41.023002,
+      "lon": 40.526789,
+      "address": "Çamlıbel Mah. Atatürk Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04643112510-5",
+      "name": "Engindere Taksi",
+      "phone": "04643112510",
+      "lat": 41.025745,
+      "lon": 40.51988,
+      "address": "Çarşı Mah. Şehitler Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642260507-6",
+      "name": "Gülbahar Taksi",
+      "phone": "04642260507",
+      "lat": 41.043142,
+      "lon": 40.58038,
+      "address": "Engindere Mah. Menderes Blv. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642141072-7",
+      "name": "Gül Taksi",
+      "phone": "04642141072",
+      "lat": 41.025568,
+      "lon": 40.539148,
+      "address": "Gülbahar Mah. Atatürk Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642120148-8",
+      "name": "Gündoğdu Taksi",
+      "phone": "04642120148",
+      "lat": 41.023974,
+      "lon": 40.52645,
+      "address": "Ekrem Orhon Mah. Elvan Sok. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642462636-9",
+      "name": "Güneysu Taksi",
+      "phone": "04642462636",
+      "lat": 41.045042,
+      "lon": 40.611513,
+      "address": "Gündoğdu-Hamidiye Mah. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383063041-10",
+      "name": "Hastane Taksi",
+      "phone": "05383063041",
+      "lat": 41.024065,
+      "lon": 40.522985,
+      "address": "Tophane Mah. Cumhuriyet Cad. (İng Bank Karşısı) Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642179005-11",
+      "name": "Kanbursırt Taksi",
+      "phone": "04642179005",
+      "lat": 41.037526,
+      "lon": 40.567016,
+      "address": "İslampaşa Mah. Şehitler Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642175995-12",
+      "name": "Liman Taksi",
+      "phone": "04642175995",
+      "lat": 41.025096,
+      "lon": 40.516767,
+      "address": "Piriçelebi Mah. Atatürk Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642237178-13",
+      "name": "Önder Taksi",
+      "phone": "04642237178",
+      "lat": 41.035824,
+      "lon": 40.508831,
+      "address": "Mermerdelen Mah. Atatürk Cad. Murat Sok. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-04642120328-14",
+      "name": "Park Taksi",
+      "phone": "04642120328",
+      "lat": 41.024496,
+      "lon": 40.516767,
+      "address": "Piriçelebi Mah. Atatürk Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642174123-15",
+      "name": "Rize Terminal Taksi",
+      "phone": "04642174123",
+      "lat": 41.025139,
+      "lon": 40.51807,
+      "address": "Çarşı Mah. Cumhuriyet Cad. 150 Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642233392-16",
+      "name": "Sigorta Taksi",
+      "phone": "04642233392",
+      "lat": 41.031662,
+      "lon": 40.512353,
+      "address": "Reşadiye Mah. Cumhuriyet Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642178035-17",
+      "name": "Yağmur Taksi",
+      "phone": "04642178035",
+      "lat": 41.026582,
+      "lon": 40.515926,
+      "address": "Eminettin Mah. Cumhuriyet Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642141066-18",
+      "name": "Yalı Taksi",
+      "phone": "04642141066",
+      "lat": 41.024861,
+      "lon": 40.528249,
+      "address": "Ekrem Orhon Mah. Kemal Yeri Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642122522-19",
+      "name": "Yeniköy Taksi",
+      "phone": "04642122522",
+      "lat": 41.024665,
+      "lon": 40.522985,
+      "address": "Tophane Mah. Cumhuriyet Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-20-20",
+      "name": "rize-taksi",
+      "phone": null,
+      "lat": 41.02172,
+      "lon": 40.518685,
+      "address": "Çarşı Mah. Pazar Cad. Rize Merkez, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05311110000-21",
+      "name": "Kalkandere Merkez Taksi",
+      "phone": "05311110000",
+      "lat": 40.9282882,
+      "lon": 40.442221,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377208626-22",
+      "name": "Kalkandere Taksi",
+      "phone": "05377208626",
+      "lat": 40.9288414,
+      "lon": 40.4424409,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347973553-23",
+      "name": "Kalkandere Taksi",
+      "phone": "05347973553",
+      "lat": 40.9290896,
+      "lon": 40.4424421,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333876684-24",
+      "name": "Kalkandere Taksi",
+      "phone": "05333876684",
+      "lat": 40.9289869,
+      "lon": 40.4415588,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333876684-25",
+      "name": "Kalkandere Taksi",
+      "phone": "05333876684",
+      "lat": 40.9277241,
+      "lon": 40.4426329,
+      "address": "Taksi Durağı · Kazım, Rize Caddesi, Cengiz Sokak No9/4",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394695653-26",
+      "name": "Kalkandere Taksi",
+      "phone": "05394695653",
+      "lat": 40.9277097,
+      "lon": 40.4427272,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535822780-27",
+      "name": "Kalkandere Taksi",
+      "phone": "05535822780",
+      "lat": 40.9271064,
+      "lon": 40.4433532,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303224253-28",
+      "name": "Kalkandere Taksi",
+      "phone": "05303224253",
+      "lat": 40.9279754,
+      "lon": 40.4425309,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05377208626-29",
+      "name": "Kalkandere Taksi",
+      "phone": "05377208626",
+      "lat": 40.9276655,
+      "lon": 40.4417681,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05353926914-30",
+      "name": "Kalkandere Taksi",
+      "phone": "05353926914",
+      "lat": 40.9270649,
+      "lon": 40.4425736,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357639594-31",
+      "name": "Kalkandere Taksi",
+      "phone": "05357639594",
+      "lat": 40.927066,
+      "lon": 40.442811,
+      "address": "Taksi Durağı ·  · Çarşı Mahallesi Girne Caddesi No:25/A",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05354228896-32",
+      "name": "Kalkandere Taksi",
+      "phone": "05354228896",
+      "lat": 40.9283172,
+      "lon": 40.4421126,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367045381-33",
+      "name": "Kalkandere Taksi",
+      "phone": "05367045381",
+      "lat": 40.9154307,
+      "lon": 40.4530539,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05365828347-34",
+      "name": "rize-taksi",
+      "phone": "05365828347",
+      "lat": 40.9272779,
+      "lon": 40.4430412,
+      "address": "Taksi · Rize Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04645323606-35",
+      "name": "Çiçek Taksi",
+      "phone": "04645323606",
+      "lat": 41.19296,
+      "lon": 40.99507647,
+      "address": "Merkez Mah. Atatürk Cad. Ardeşen, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05533147353-36",
+      "name": "GÜNDOĞDU TAKSi",
+      "phone": "05533147353",
+      "lat": 41.19296,
+      "lon": 40.99645753,
+      "address": "Merkez Mah. Atatürk Cad. Ardeşen, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04642260266-37",
+      "name": "Güven Taksi",
+      "phone": "04642260266",
+      "lat": 41.0446197,
+      "lon": 40.5894927,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04647152953-38",
+      "name": "Hastane Taksi",
+      "phone": "04647152953",
+      "lat": 41.192371,
+      "lon": 40.991792,
+      "address": "Merkez Mah. Atatürk Cad. 136/A Ardeşen, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04647155989-39",
+      "name": "Papatya Taksi",
+      "phone": "04647155989",
+      "lat": 41.193193,
+      "lon": 40.99539,
+      "address": "Yeni Mah. Atatürk Cad. Ardeşen, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04647151516-40",
+      "name": "Portakallık Taksi",
+      "phone": "04647151516",
+      "lat": 41.19326,
+      "lon": 40.995767,
+      "address": "Tunca-Merkez Mah. Atatürk Cad. Ardeşen, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642148180-41",
+      "name": "TAXi Sigorta Taksi",
+      "phone": "04642148180",
+      "lat": 41.0299194,
+      "lon": 40.5520229,
+      "address": "Taksi Durağı · Menderes Blv. Öksüz Apt. No:404",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642178035-42",
+      "name": "GÜNDOĞDU TAKSi",
+      "phone": "04642178035",
+      "lat": 41.0298069,
+      "lon": 40.5141461,
+      "address": "Taksi Durağı · Hisar Sk. No:2 D:C",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05427113874-43",
+      "name": "Fakülte Taksi",
+      "phone": "05427113874",
+      "lat": 41.086745,
+      "lon": 40.722715,
+      "address": "Eskipazar Mah. Yeni Cami Meydanı 12 Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-44-44",
+      "name": "Güven Taksi",
+      "phone": null,
+      "lat": 41.087523,
+      "lon": 40.72433,
+      "address": "Yenipazar Mah. İzzet Akçal Cad. Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04645327869-45",
+      "name": "Hastane Taksi",
+      "phone": "04645327869",
+      "lat": 41.086923,
+      "lon": 40.72433,
+      "address": "Yenipazar Mah. İzzet Akçal Cad. A-1 Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04642122849-46",
+      "name": "Hemşin Taksi",
+      "phone": "04642122849",
+      "lat": 41.090334,
+      "lon": 40.727412,
+      "address": "Yenipazar Mah. Hopa Cad. (Adliye Karşısı Hastane Yanı) Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04646123566-47",
+      "name": "Petek Taksi",
+      "phone": "04646123566",
+      "lat": 41.088198,
+      "lon": 40.724721,
+      "address": "Yenipazar Mah. Namık Kemal Meydanı Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04645325353-48",
+      "name": "Rizeliler Taksi",
+      "phone": "04645325353",
+      "lat": 41.087982,
+      "lon": 40.723544,
+      "address": "Yenipazar Mah. İzzet Akçal Cad. 7 Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04646125711-49",
+      "name": "Hastane Taksi",
+      "phone": "04646125711",
+      "lat": 41.086091,
+      "lon": 40.722907,
+      "address": "Eskipazar Mah. Hopa Cad. Çayeli, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04646517666-50",
+      "name": "Çamlıhemşin Ayder Taksi",
+      "phone": "04646517666",
+      "lat": 41.049526,
+      "lon": 41.004286,
+      "address": "Merkez Mah. İnönü Cad. 9 Çamlıhemşin, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04646517666-51",
+      "name": "Çamlıhemşin Lüx Taksi",
+      "phone": "04646517666",
+      "lat": 41.045958,
+      "lon": 41.004584,
+      "address": "Taksi Durağı · Merkez Mahallesi İnönü caddesi Çamlıhemşin Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04646517379-52",
+      "name": "amlıhemşin Lüx Taksi",
+      "phone": "04646517379",
+      "lat": 41.04509,
+      "lon": 41.004896,
+      "address": "Taksi · İnönü Cd. No:21",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04643251553-53",
+      "name": "Merkez Sahil Taksi",
+      "phone": "04643251553",
+      "lat": 40.9888586,
+      "lon": 40.3307115,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04643212222-54",
+      "name": "Yıldız Taksi",
+      "phone": "04643212222",
+      "lat": 41.012932,
+      "lon": 40.361738,
+      "address": "Taksi Durağı · D010 No:1824",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04643212660-55",
+      "name": "Yıldız Taksi",
+      "phone": "04643212660",
+      "lat": 41.012243,
+      "lon": 40.3608392,
+      "address": "Taksi Durağı · Menderes Cd. No:68",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04643113333-56",
+      "name": "Merkez Taksi",
+      "phone": "04643113333",
+      "lat": 41.0241858,
+      "lon": 40.4214506,
+      "address": "Taksi Durağı · A101, Sadettin Kaynak Bulvarı Tersane Mahallesi No:73, Karşısı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04643113089-57",
+      "name": "Derepazarı Taksi",
+      "phone": "04643113089",
+      "lat": 41.0247602,
+      "lon": 40.4251872,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04645114333-58",
+      "name": "Ulusoy Taksi",
+      "phone": "04645114333",
+      "lat": 41.274109,
+      "lon": 41.144364,
+      "address": "Merkez Mah. Sakıp Sabancı Cad. Fındıklı, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05304422922-59",
+      "name": "Fındıklı Taksi",
+      "phone": "05304422922",
+      "lat": 41.272456,
+      "lon": 41.142682,
+      "address": "Merkez Mah. Cumhuriyet Cad. Sabancı Sok. Fındıklı, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04643441969-60",
+      "name": "Öz Köprübaşı Taksi",
+      "phone": "04643441969",
+      "lat": 40.978239,
+      "lon": 40.612846,
+      "address": "Merkez Mah. Adnan Menderes Cad. Güneysu, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383063041-61",
+      "name": "Güneysu Terminal Taksi",
+      "phone": "05383063041",
+      "lat": 40.983283,
+      "lon": 40.615255,
+      "address": "Küçükcamii Mah. Akcal Cad. Güneysu, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05533147353-62",
+      "name": "Ulus Taksi",
+      "phone": "05533147353",
+      "lat": 41.180326,
+      "lon": 40.886887,
+      "address": "Pazar Mah. Atatürk Cad. Pazar, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04646124774-63",
+      "name": "Ulus Taksi",
+      "phone": "04646124774",
+      "lat": 41.179806,
+      "lon": 40.884291,
+      "address": "Pazar Mah. Deniz Cad. Pazar, Rize",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-04642121749-64",
+      "name": "Şimal AVM Müftü Taksi",
+      "phone": "04642121749",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-04642280534-65",
+      "name": "Fakülte Taksi",
+      "phone": "04642280534",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04642131059-66",
+      "name": "Rize Kordon Taksi AÇIK · 7 gün 24 saat Eminettin Mahallesi menderes bulvarı Rize",
+      "phone": "04642131059",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04642121150-67",
+      "name": "Yalı Taksi AÇIK · 7 gün 24 saat Tophane, Şht. Ömer Halisdemir Cd. No:2, 53020 Ri",
+      "phone": "04642121150",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04647154386-68",
+      "name": "Tümü → Ardeşen Çiçek Taksi Durağı",
+      "phone": "04647154386",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04647151484-69",
+      "name": "Ardeşen Taksi",
+      "phone": "04647151484",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04647152648-70",
+      "name": "Taksi durağı",
+      "phone": "04647152648",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645327053-71",
+      "name": "Tümü → Çay Taksi",
+      "phone": "04645327053",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645323444-72",
+      "name": "Çayeli Hemşin Taksi",
+      "phone": "04645323444",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645327783-73",
+      "name": "Çayeli Otogar Liman Taksi",
+      "phone": "04645327783",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645324666-74",
+      "name": "Çaykent Taksi",
+      "phone": "04645324666",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645323626-75",
+      "name": "Durak Taksi",
+      "phone": "04645323626",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645327727-76",
+      "name": "Esnaf Taksi",
+      "phone": "04645327727",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645325445-77",
+      "name": "Gaye Taksi",
+      "phone": "04645325445",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645324281-78",
+      "name": "Rizeliler Taksi",
+      "phone": "04645324281",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645328621-79",
+      "name": "Senoz Taksi",
+      "phone": "04645328621",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645328577-80",
+      "name": "Sigorta Taksi",
+      "phone": "04645328577",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645324343-81",
+      "name": "Yıldız Taksi",
+      "phone": "04645324343",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04643112777-82",
+      "name": "Derepazarı Taksi AÇIK · 7 gün 24 saat A101, Sadettin Kaynak Bulvarı Tersane Maha",
+      "phone": "04643112777",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645115161-83",
+      "name": "Tümü → Ada Taksi",
+      "phone": "04645115161",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04645112828-84",
+      "name": "Ulusoy Taksi",
+      "phone": "04645112828",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367606775-85",
+      "name": "Tümü → Kalkandere Merkez Taksi- İsa Uçar",
+      "phone": "05367606775",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05340754953-86",
+      "name": "Kalkandere Taksi , İsmail Haciosmanoğlu",
+      "phone": "05340754953",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05369765366-87",
+      "name": "Taksi Kalkandere Necati Uzun",
+      "phone": "05369765366",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05378996630-88",
+      "name": "Taksi Kalkandere Yalçın Çakır",
+      "phone": "05378996630",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05324955385-89",
+      "name": "İyidere Köprü Taksi - Sinan Aksu",
+      "phone": "05324955385",
+      "lat": 41.0201,
+      "lon": 40.5234,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

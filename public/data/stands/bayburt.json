@@ -1,0 +1,339 @@
+{
+  "cityId": "bayburt",
+  "cityName": "Bayburt",
+  "fetchedAt": "2026-08-30T21:24:32.151Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 26,
+  "stands": [
+    {
+      "id": "taksi724-04582114500-0",
+      "name": "Çiçek Taksi",
+      "phone": "04582114500",
+      "lat": 40.261241,
+      "lon": 40.226944,
+      "address": "Camii Kebir Mah. Fabrika Sok. 2 Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05055735065-1",
+      "name": "Çorum Taksi",
+      "phone": "05055735065",
+      "lat": 40.261908,
+      "lon": 40.225571,
+      "address": "Camiikebir Mah. Semerciler Cad. 39 Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373664408-2",
+      "name": "Dörtyol Taksi",
+      "phone": "05373664408",
+      "lat": 40.259488,
+      "lon": 40.228379,
+      "address": "Velişaban Mah. 1. Erzurum Cad. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373664408-3",
+      "name": "Eski Hastane Taksi",
+      "phone": "05373664408",
+      "lat": 40.255266,
+      "lon": 40.220765,
+      "address": "Tuzcuzade Mah. Vali Nihat Üçyıldız Cad. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-4-4",
+      "name": "Gümüşsu Taksi",
+      "phone": null,
+      "lat": 40.256622,
+      "lon": 40.222249,
+      "address": "Tuzcuzade Mah. Danışmendiler Cad. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366571586-5",
+      "name": "Gürcan Taksi",
+      "phone": "05366571586",
+      "lat": 40.25554,
+      "lon": 40.224528,
+      "address": "Tuzcuzade Mah. Cumhuriyet Cad. Yıldırım Sok. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04582117151-6",
+      "name": "Halk Eğitim Taksi",
+      "phone": "04582117151",
+      "lat": 40.256951,
+      "lon": 40.225242,
+      "address": "Tuzcuzade Mah. Pönserek Sok. 8/A Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04582118689-7",
+      "name": "Öğretmenevi Taksi",
+      "phone": "04582118689",
+      "lat": 40.258615,
+      "lon": 40.225755,
+      "address": "Şeyhhayran Mah. Dede Korkut Cad. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04582113640-8",
+      "name": "Umut Taksi",
+      "phone": "04582113640",
+      "lat": 40.252546,
+      "lon": 40.226096,
+      "address": "Genç Osman Mah. Turgut Özal Blv. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04582114836-9",
+      "name": "Yeni Hastane Taksi",
+      "phone": "04582114836",
+      "lat": 40.258461,
+      "lon": 40.226046,
+      "address": "Şeyhhayran Mah. Zincirlikuyu Cad. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04582112100-10",
+      "name": "Yeni Şair Zihni Taksi",
+      "phone": "04582112100",
+      "lat": 40.255436,
+      "lon": 40.22024,
+      "address": "Tuzcuzade Mah. Turgut Özal Blv. Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04582117001-11",
+      "name": "bayburt-taksi",
+      "phone": "04582117001",
+      "lat": 40.251913,
+      "lon": 40.228128,
+      "address": "Gençosman Mah. Akşemsettin Cad. 10 Bayburt Merkez, Bayburt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05304502469-12",
+      "name": "Bayburt Pos Taksi",
+      "phone": "05304502469",
+      "lat": 40.2652467,
+      "lon": 40.2046073,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05367093469-13",
+      "name": "Bayburt Pos Taksi",
+      "phone": "05367093469",
+      "lat": 40.2606901,
+      "lon": 40.2133868,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05447650069-14",
+      "name": "Can taksi Bayburt",
+      "phone": "05447650069",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05378429164-15",
+      "name": "BAYBURT TAKSİ DURAĞI LÜKS GECE TAKSİ",
+      "phone": "05378429164",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05078561969-16",
+      "name": "BAYBURT GÜVEN TAKSİ",
+      "phone": "05078561969",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04582222027-17",
+      "name": "Üniversite Taksi",
+      "phone": "04582222027",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-04582117109-18",
+      "name": "Bayburt Meydan Taksi",
+      "phone": "04582117109",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04582117777-19",
+      "name": "Bayburt Otogar Taksi",
+      "phone": "04582117777",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05061597314-20",
+      "name": "Bayburt Aktif Taksi",
+      "phone": "05061597314",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04582114046-21",
+      "name": "Bayburt Emniyet Taksi",
+      "phone": "04582114046",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04582114160-22",
+      "name": "Bayburt Öğretmenevi Taksi AÇIK · 7 gün 24 saat Gençosman, Oslu Baba Cd. No:6, 69",
+      "phone": "04582114160",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04582112507-23",
+      "name": "Bayburt Taksi",
+      "phone": "04582112507",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05558646937-24",
+      "name": "Bayburt Taksi (halk Eğitim Taksi) AÇIK · 7 gün 24 saat Şeyh Hayran, Sıtkı Özer C",
+      "phone": "05558646937",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05335662816-25",
+      "name": "Yeni Şair Zihni Taksi AÇIK · 7 gün 24 saat Genç osman Mah. akşemsettin cad. merk",
+      "phone": "05335662816",
+      "lat": 40.2552,
+      "lon": 40.2249,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    }
+  ]
+}

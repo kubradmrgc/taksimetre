@@ -1,0 +1,2441 @@
+{
+  "cityId": "gaziantep",
+  "cityName": "Gaziantep",
+  "fetchedAt": "2026-08-30T21:31:13.403Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "araban",
+      "name": "Araban",
+      "count": 2
+    },
+    {
+      "id": "islahiye",
+      "name": "İslahiye",
+      "count": 1
+    },
+    {
+      "id": "nizip",
+      "name": "Nizip",
+      "count": 8
+    },
+    {
+      "id": "oguzeli",
+      "name": "Oguzeli",
+      "count": 1
+    },
+    {
+      "id": "sahinbey",
+      "name": "Sahinbey",
+      "count": 74
+    },
+    {
+      "id": "sehitkamil",
+      "name": "Sehitkamil",
+      "count": 23
+    },
+    {
+      "id": "yavuzeli",
+      "name": "Yavuzeli",
+      "count": 9
+    }
+  ],
+  "count": 156,
+  "stands": [
+    {
+      "id": "taksi724-05365424244-0",
+      "name": "75. Yıl Yeşil Evler Taksi",
+      "phone": "05365424244",
+      "website": null,
+      "lat": 37.026989,
+      "lon": 37.319126,
+      "address": "Güneykent Mah. 230. Sok. 500 Evler Parkı Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423365588-1",
+      "name": "7 Tepe Taksi",
+      "phone": "03423365588",
+      "website": null,
+      "lat": 37.038928,
+      "lon": 37.342134,
+      "address": "75. Yıl Mah. 140. Cad. 189/B Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423606869-2",
+      "name": "Adalet Taksi",
+      "phone": "03423606869",
+      "website": null,
+      "lat": 37.045408,
+      "lon": 37.331668,
+      "address": "Taksi Durağı · 82023. Sk. No:2 D:2",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423226006-3",
+      "name": "Akkent Taksi",
+      "phone": "03423226006",
+      "website": null,
+      "lat": 37.0881324,
+      "lon": 37.3540455,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422901715-4",
+      "name": "Balıklı Taksi",
+      "phone": "03422901715",
+      "website": null,
+      "lat": 37.0151062,
+      "lon": 37.3648796,
+      "address": "Taksi Durağı ·  · Akkent mahallesi 134400 nolu cadde No:11 Akkent meydan parkı içi",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05052109538-5",
+      "name": "Baş Karakol Taksi",
+      "phone": "05052109538",
+      "website": null,
+      "lat": 37.061113,
+      "lon": 37.379519,
+      "address": "Çukur Mah. Hürriyet Cad. 17 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423380809-6",
+      "name": "Birlik Taksi",
+      "phone": "03423380809",
+      "website": null,
+      "lat": 37.059671,
+      "lon": 37.36461,
+      "address": "Kolejtepe Mah. Anıt Park Sok. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362737907-7",
+      "name": "Çağlayan Taksi",
+      "phone": "05362737907",
+      "website": null,
+      "lat": 37.062088,
+      "lon": 37.380048,
+      "address": "Çukur Mah. Suburcu Cad. Dr. Mecit Barlas Sok. 2/F Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348496282-8",
+      "name": "Çamlıca Taksi",
+      "phone": "05348496282",
+      "website": null,
+      "lat": 37.0751897,
+      "lon": 37.3939541,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05386221242-9",
+      "name": "Cengiz Topel Taksi",
+      "phone": "05386221242",
+      "website": null,
+      "lat": 37.0531114,
+      "lon": 37.3782153,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422713131-10",
+      "name": "Çiçek Taksi",
+      "phone": "03422713131",
+      "website": null,
+      "lat": 37.0441367,
+      "lon": 37.3935587,
+      "address": "Taksi · 66010. Sk. No:56",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384277596-11",
+      "name": "Class Taksi",
+      "phone": "05384277596",
+      "website": null,
+      "lat": 37.072788,
+      "lon": 37.339567,
+      "address": "Taksi Durağı ·  · Karlstad Cd. Gökdelen Apartmanı Yanı No: Yok",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05335204090-12",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05335204090",
+      "website": null,
+      "lat": 37.0672679,
+      "lon": 37.3908007,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374334350-13",
+      "name": "Değirmiçem Taksi",
+      "phone": "05374334350",
+      "website": null,
+      "lat": 37.054243,
+      "lon": 37.359832,
+      "address": "Cumhuriyet Mah. 12. Sok. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402151134-14",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "05402151134",
+      "website": null,
+      "lat": 37.051194,
+      "lon": 37.364482,
+      "address": "Gümüştekin Mah. 16 Sok. 4 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423234544-15",
+      "name": "Diyalog Taksi",
+      "phone": "03423234544",
+      "website": null,
+      "lat": 37.0886261,
+      "lon": 37.3645348,
+      "address": "Taksi Durağı · Çetin Emeç Cd. No:76",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05402151134-16",
+      "name": "Dumlupınar Taksi",
+      "phone": "05402151134",
+      "website": null,
+      "lat": 37.0674555,
+      "lon": 37.3714552,
+      "address": "Taksi Durağı ·  · Şht. Mehmet Öter Cd No:12",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423501288-17",
+      "name": "Eblehan Taksi",
+      "phone": "05423501288",
+      "website": null,
+      "lat": 37.042138,
+      "lon": 37.3867749,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422308787-18",
+      "name": "Ertuğrul gazi güneştepe Taksi",
+      "phone": "03422308787",
+      "website": null,
+      "lat": 37.06136,
+      "lon": 37.375392,
+      "address": "Tepebaşı Mah. Eblehan Cad. 33/A Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05353435470-19",
+      "name": "Taksi durağı",
+      "phone": "05353435470",
+      "website": null,
+      "lat": 37.0243221,
+      "lon": 37.3555637,
+      "address": "Taksi Durağı · Ertuğrulgazi mh. 26 nolu cad. 39, nolu sk No:25",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423251387-20",
+      "name": "Fidanlık Taksi",
+      "phone": "03423251387",
+      "website": null,
+      "lat": 37.0729981,
+      "lon": 37.3744737,
+      "address": "Taksi Durağı ·  · 52056. Sk. No:13",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05340731257-21",
+      "name": "Gatem Taksi",
+      "phone": "05340731257",
+      "website": null,
+      "lat": 37.055254,
+      "lon": 37.335768,
+      "address": "Binevler Mah. 22. Sok. 22 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05351058027-22",
+      "name": "Gaziantep Batikent Akasya Taksi",
+      "phone": "05351058027",
+      "website": null,
+      "lat": 37.0833624,
+      "lon": 37.4503229,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384029056-23",
+      "name": "Gaziantep Emirgan Taksi",
+      "phone": "05384029056",
+      "website": null,
+      "lat": 37.0755442,
+      "lon": 37.3241821,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326328300-24",
+      "name": "Gaziantep Gold Taksi",
+      "phone": "05326328300",
+      "website": null,
+      "lat": 37.0650342,
+      "lon": 37.3787308,
+      "address": "Taksi Durağı · Araptarlı Sk.",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05306777230-25",
+      "name": "Gaziantep Şıhcan Taksi",
+      "phone": "05306777230",
+      "website": null,
+      "lat": 37.054791,
+      "lon": 37.3727959,
+      "address": "Taksi Durağı ·  · mahellesi, Süleyman şah, Türkmen Cd. No:14",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422320003-26",
+      "name": "Gaziantep Taksi",
+      "phone": "03422320003",
+      "website": null,
+      "lat": 37.056969,
+      "lon": 37.384153,
+      "address": "İsmetpaşa Mah. 1. Cad. 12 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05510570016-27",
+      "name": "Gaziantep Taksi",
+      "phone": "05510570016",
+      "website": null,
+      "lat": 37.0468462,
+      "lon": 37.3774692,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521833761-28",
+      "name": "Yamaç tepe galle park alleben gölet Taksi",
+      "phone": "05521833761",
+      "website": null,
+      "lat": 37.0622361,
+      "lon": 37.3025275,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436733241-29",
+      "name": "Gazikent Taksi",
+      "phone": "05436733241",
+      "website": null,
+      "lat": 37.0682716,
+      "lon": 37.2840659,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369328228-30",
+      "name": "Gülkent Taksi",
+      "phone": "05369328228",
+      "website": null,
+      "lat": 37.088871,
+      "lon": 37.4329719,
+      "address": "Taksi Durağı · Gazikent Mah. Amaç Yapı Kooperatifi 42. Blok D:9",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05321009933-31",
+      "name": "Güneş Taksi",
+      "phone": "05321009933",
+      "website": null,
+      "lat": 37.0294014,
+      "lon": 37.3347678,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-32-32",
+      "name": "Güneykent Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.036425,
+      "lon": 37.3548,
+      "address": "Güneş Mah. 1. Cad. 94 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05393416822-33",
+      "name": "Huzur Taksi",
+      "phone": "05393416822",
+      "website": null,
+      "lat": 37.026227,
+      "lon": 37.312196,
+      "address": "Güneykent Mah. 234 Nolu Cad. 234 Nolu Sok. 54/C Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05305172263-34",
+      "name": "İmam Çağdaş Taksi",
+      "phone": "05305172263",
+      "website": null,
+      "lat": 37.050046,
+      "lon": 37.344208,
+      "address": "Konak Mah. Yavuz Sultan Selim Cad. 62 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396736579-35",
+      "name": "Istiklal Taksi",
+      "phone": "05396736579",
+      "website": null,
+      "lat": 37.0634262,
+      "lon": 37.3852121,
+      "address": "Taksi Durağı · Alaüddevle Sk. No:35",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356225105-36",
+      "name": "Kampüs Taksi",
+      "phone": "05356225105",
+      "website": null,
+      "lat": 37.051532,
+      "lon": 37.351882,
+      "address": "Beyazlar Mah. Samlı Haccı Ökkeş Cad. 112/B Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05365424244-37",
+      "name": "Karacaahmet Taksi",
+      "phone": "05365424244",
+      "website": null,
+      "lat": 37.0388502,
+      "lon": 37.3234712,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05061188095-38",
+      "name": "Karataş Taksi",
+      "phone": "05061188095",
+      "website": null,
+      "lat": 37.0979022,
+      "lon": 37.3887223,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05536692248-39",
+      "name": "Kardelen Taksi",
+      "phone": "05536692248",
+      "website": null,
+      "lat": 37.02083,
+      "lon": 37.344726,
+      "address": "Karataş Mah. 103410 Nolu Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374100110-40",
+      "name": "Kavaklı Taksi",
+      "phone": "05374100110",
+      "website": null,
+      "lat": 37.0473852,
+      "lon": 37.3241779,
+      "address": "Taksi Durağı ·  · 56100. Sk.",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423364490-41",
+      "name": "Kaya Taksi",
+      "phone": "03423364490",
+      "website": null,
+      "lat": 37.060359,
+      "lon": 37.351178,
+      "address": "Öğretmenevleri Mah. Günaydın Sok. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-42-42",
+      "name": "Koç Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.05,
+      "lon": 37.380852,
+      "address": "Nuripazarbaşı Mah. Özdemir Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-43-43",
+      "name": "Kolej Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.051221,
+      "lon": 37.382701,
+      "address": "İnönü Mah. Muzaffer Hafız Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422314990-44",
+      "name": "Kolejtepe Hoşgör Taksi",
+      "phone": "03422314990",
+      "website": null,
+      "lat": 37.057088,
+      "lon": 37.374442,
+      "address": "Kozanlı Mah. İnönü Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374334350-45",
+      "name": "Konak Taksi",
+      "phone": "05374334350",
+      "website": null,
+      "lat": 37.0556999,
+      "lon": 37.3663554,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03422317676-46",
+      "name": "Malazgirt can can Taksi",
+      "phone": "03422317676",
+      "website": null,
+      "lat": 37.060117,
+      "lon": 37.379662,
+      "address": "Eyüpoğlu Mah. Rauf Yılmazer Cad. 2/B Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369672735-47",
+      "name": "Mavikent İbni Sina Taksi",
+      "phone": "05369672735",
+      "website": null,
+      "lat": 37.0467859,
+      "lon": 37.4283171,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384378383-48",
+      "name": "Onur Taksi",
+      "phone": "05384378383",
+      "website": null,
+      "lat": 37.0157546,
+      "lon": 37.3821582,
+      "address": "Taksi · İbni sina Mahallesi 400 nolu cadde no 79 b/Tic 36",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389142464-49",
+      "name": "Osmangazi Metro Taksi",
+      "phone": "05389142464",
+      "website": null,
+      "lat": 37.046621,
+      "lon": 37.3611239,
+      "address": "Taksi Durağı · Onur 9. Caddesi",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423410788-50",
+      "name": "Otogar Taksi",
+      "phone": "03423410788",
+      "website": null,
+      "lat": 37.0686217,
+      "lon": 37.3258895,
+      "address": "Taksi Durağı · Şehit Kamil Parkı 9 Nolu Sok.",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05525991614-51",
+      "name": "Özbulvar Taksi",
+      "phone": "05525991614",
+      "website": null,
+      "lat": 37.1021423,
+      "lon": 37.4008216,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422306715-52",
+      "name": "Öz Murat Taksi",
+      "phone": "03422306715",
+      "website": null,
+      "lat": 37.062885,
+      "lon": 37.368128,
+      "address": "Alleben Mah. Şair Baki Sok. 10-12 Cihan Apt. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05365424244-53",
+      "name": "ÖzŞehitkamil Taksi",
+      "phone": "05365424244",
+      "website": null,
+      "lat": 37.058912,
+      "lon": 37.381705,
+      "address": "Alaybey Mah. Reyhan Sok. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05318226596-54",
+      "name": "Öz Yeditepe Taksi",
+      "phone": "05318226596",
+      "website": null,
+      "lat": 37.0853645,
+      "lon": 37.3808272,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423609988-55",
+      "name": "Perlikaya Toki Taksi",
+      "phone": "03423609988",
+      "website": null,
+      "lat": 37.0351755,
+      "lon": 37.3285205,
+      "address": "Yeditepe Mah. 73. Cad. 65 Medine Apt. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03422252100-56",
+      "name": "Sanko Park Taksi",
+      "phone": "03422252100",
+      "website": null,
+      "lat": 37.051409,
+      "lon": 37.412897,
+      "address": "Perilikaya Mah. 30. Cad. 2 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423387278-57",
+      "name": "Saray Taksi",
+      "phone": "03423387278",
+      "website": null,
+      "lat": 37.0629586,
+      "lon": 37.3591177,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380746192-58",
+      "name": "Sarısalkım Taksi",
+      "phone": "05380746192",
+      "website": null,
+      "lat": 37.0431938,
+      "lon": 37.3744163,
+      "address": "Taksi Durağı ·  · 71021. Sk. No:7",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05367001127-59",
+      "name": "Seç Taksi",
+      "phone": "05367001127",
+      "website": null,
+      "lat": 37.0884332,
+      "lon": 37.2814221,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422323943-60",
+      "name": "Şehreküstü Taksi",
+      "phone": "03422323943",
+      "website": null,
+      "lat": 37.063265,
+      "lon": 37.382334,
+      "address": "Karagöz Mah. Karagöz Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03422274664-61",
+      "name": "Şehre Küstü Taksi",
+      "phone": "03422274664",
+      "website": null,
+      "lat": 37.056705,
+      "lon": 37.395549,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422274664-62",
+      "name": "SEYRANTEPE TAKSI",
+      "phone": "03422274664",
+      "website": null,
+      "lat": 37.054542,
+      "lon": 37.401789,
+      "address": "Ünaldı Mah. 1. Sanayi Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308866373-63",
+      "name": "Ssk Taksi",
+      "phone": "05308866373",
+      "website": null,
+      "lat": 37.0732967,
+      "lon": 37.4222932,
+      "address": "Taksi Durağı · 65006. Cd. No:3",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308866373-64",
+      "name": "Taksi",
+      "phone": "05308866373",
+      "website": null,
+      "lat": 37.058588,
+      "lon": 37.379885,
+      "address": "Alaybey Mah. Hürriyet Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308731902-65",
+      "name": "Taksi",
+      "phone": "05308731902",
+      "website": null,
+      "lat": 37.0483513,
+      "lon": 37.3709854,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05534501927-66",
+      "name": "Tam Med Taksi",
+      "phone": "05534501927",
+      "website": null,
+      "lat": 37.024278,
+      "lon": 37.3245699,
+      "address": "Taksi Durağı · 102212. Sk. oska Emir sitesi C3 blok kat 1 daire 1",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374100110-67",
+      "name": "Taşlıca Taksi",
+      "phone": "05374100110",
+      "website": null,
+      "lat": 37.057445,
+      "lon": 37.377185,
+      "address": "Kozanlı Mah. Kastelbaşı Cad. Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369672735-68",
+      "name": "Umut Park Taksi",
+      "phone": "05369672735",
+      "website": null,
+      "lat": 37.0532326,
+      "lon": 37.4516103,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312557966-69",
+      "name": "Ünaldı Üçoklar Taksi",
+      "phone": "05312557966",
+      "website": null,
+      "lat": 37.041849,
+      "lon": 37.338084,
+      "address": "Çağdaş Mah. 20 Nolu Cad. 15 Şahinbey, Gaziantep",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422250102-70",
+      "name": "Üniversite Taksi",
+      "phone": "03422250102",
+      "website": null,
+      "lat": 37.0509368,
+      "lon": 37.4024724,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05372666665-71",
+      "name": "Vatan Taksi",
+      "phone": "05372666665",
+      "website": null,
+      "lat": 37.0407554,
+      "lon": 37.3208736,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05531100614-72",
+      "name": "Taksi durağı",
+      "phone": "05531100614",
+      "website": null,
+      "lat": 37.0433245,
+      "lon": 37.4017535,
+      "address": "Taksi Durağı ·  · 93016. Cd. No:82 D:86",
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03422275454-73",
+      "name": "gaziantep-taksi",
+      "phone": "03422275454",
+      "website": null,
+      "lat": 37.0416549,
+      "lon": 37.4231698,
+      "address": null,
+      "districtId": "sahinbey",
+      "districtName": "Sahinbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396442999-74",
+      "name": "Ballı Taksi",
+      "phone": "05396442999",
+      "website": null,
+      "lat": 37.088428,
+      "lon": 37.367974,
+      "address": "Özgürlük Mah. 57113. Cad. 5 Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423221114-75",
+      "name": "Batıkent Akasya Taksi",
+      "phone": "03423221114",
+      "website": null,
+      "lat": 37.06873,
+      "lon": 37.351594,
+      "address": "Gazi Mah. Ömer Asım Aksoy Cad. Oyuncakistan Parkı Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384029056-76",
+      "name": "Buhara Taksi",
+      "phone": "05384029056",
+      "website": null,
+      "lat": 37.073028,
+      "lon": 37.327927,
+      "address": "Batıkent Mah. 09081. Cad. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373517386-77",
+      "name": "Can Taksi",
+      "phone": "05373517386",
+      "website": null,
+      "lat": 37.081239,
+      "lon": 37.33974,
+      "address": "Atatürk Mah. Cemil Sait Barlas Cad. Bayer Apt. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05308731902-78",
+      "name": "Emek Park Taksi",
+      "phone": "05308731902",
+      "website": null,
+      "lat": 37.087931,
+      "lon": 37.389948,
+      "address": "Karacaoğlan Mah. Hafız Tevfik bey Cad. 2 Eşref Bitlis Parkı Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326783083-79",
+      "name": "Fatih Taksi",
+      "phone": "05326783083",
+      "website": null,
+      "lat": 37.076019,
+      "lon": 37.350365,
+      "address": "Emek Mah. Patpat Nuru Sok. 26 Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423251387-80",
+      "name": "Fuar Taksi",
+      "phone": "03423251387",
+      "website": null,
+      "lat": 37.072789,
+      "lon": 37.380596,
+      "address": "Mücahitler Mah. Zafer Cad. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03422312777-81",
+      "name": "Güven Taksi",
+      "phone": "03422312777",
+      "website": null,
+      "lat": 37.068053,
+      "lon": 37.379845,
+      "address": "Yaprak Mah. Şose Sok. 32/A Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357915636-82",
+      "name": "Ibrahimli Taksi",
+      "phone": "05357915636",
+      "website": null,
+      "lat": 37.088566,
+      "lon": 37.339797,
+      "address": "Güvenevler Mah. 39. Sok. Uzay Çatılı Pazar Yeri Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05346866545-83",
+      "name": "Incilipınar Taksi",
+      "phone": "05346866545",
+      "website": null,
+      "lat": 37.092724,
+      "lon": 37.328604,
+      "address": "Güvenevler Mah. 29124. Sok. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05071447416-84",
+      "name": "Nazar Taksi",
+      "phone": "05071447416",
+      "website": null,
+      "lat": 37.070402,
+      "lon": 37.369778,
+      "address": "İncili Pınar Mah. Nail Bilen Cad. Hüseyin Zengin Parkı Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384277596-85",
+      "name": "Selimiye Taksi",
+      "phone": "05384277596",
+      "website": null,
+      "lat": 37.068783,
+      "lon": 37.367307,
+      "address": "Emek Mah. 1. Sok. 4/A Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05340116977-86",
+      "name": "Seyrantepe Taksi",
+      "phone": "05340116977",
+      "website": null,
+      "lat": 37.096294,
+      "lon": 37.375598,
+      "address": "8 Şubat Mah. 82105 Sok. 2/A Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308866373-87",
+      "name": "Star Taksi",
+      "phone": "05308866373",
+      "website": null,
+      "lat": 37.075646,
+      "lon": 37.417616,
+      "address": "Seyrantepe Mah. 65001 Nolu Cad. 7/A Toki Toplu Konutlar Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423210605-88",
+      "name": "Star Taksi",
+      "phone": "03423210605",
+      "website": null,
+      "lat": 37.070125,
+      "lon": 37.356547,
+      "address": "Sarıgüllük Mah. Kılıç Ali Cad. (Fevzi Çakmak Cami Bitişiği) Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423210605-89",
+      "name": "Terminal Taksi",
+      "phone": "03423210605",
+      "website": null,
+      "lat": 37.069525,
+      "lon": 37.356547,
+      "address": "Sarıgüllük Mah. Kılıç Ali Cad. (Fevzi Çakmak Cami Bitişiği) Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05525991614-90",
+      "name": "Volkan Taksi",
+      "phone": "05525991614",
+      "website": null,
+      "lat": 37.066964,
+      "lon": 37.412303,
+      "address": "Umut Mah. Maaş Kuyu Cad. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05370330452-91",
+      "name": "Yeşilova Taksi",
+      "phone": "05370330452",
+      "website": null,
+      "lat": 37.086073,
+      "lon": 37.34995,
+      "address": "Fatih Mah. 35. Sok. 17 Kamil Şerbetçi Parkı Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03423235336-92",
+      "name": "Zeugma Taksi",
+      "phone": "03423235336",
+      "website": null,
+      "lat": 37.080706,
+      "lon": 37.375057,
+      "address": "Münüfpaşa Mah. Katip Hoca Cad. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05353466566-93",
+      "name": "Zeugma Taksi",
+      "phone": "05353466566",
+      "website": null,
+      "lat": 37.065552,
+      "lon": 37.344447,
+      "address": "Pancarlı Mah. 9. Cad. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353466566-94",
+      "name": "gaziantep-taksi",
+      "phone": "05353466566",
+      "website": null,
+      "lat": 37.067085,
+      "lon": 37.346042,
+      "address": "Pancarlı Mah. 7. Sok. Şehitkamil, Gaziantep",
+      "districtId": "sehitkamil",
+      "districtName": "Sehitkamil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05312557966-95",
+      "name": "Bulvar Taksi",
+      "phone": "05312557966",
+      "website": null,
+      "lat": 37.0947055,
+      "lon": 37.4219217,
+      "address": "Taksi Durağı ·  · 8022. Sk. No:26",
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03423357292-96",
+      "name": "Fıstıklı Taksi",
+      "phone": "03423357292",
+      "website": null,
+      "lat": 37.065841,
+      "lon": 37.365538,
+      "address": "Taksi Durağı · Süleyman Kuranel Cd. No:17",
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05346360179-97",
+      "name": "Gaziantep Havalimanı Taksi",
+      "phone": "05346360179",
+      "website": null,
+      "lat": 37.120084,
+      "lon": 37.3866867,
+      "address": null,
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05312140027-98",
+      "name": "Genç Belkiz Ltd. Şti Taksi",
+      "phone": "05312140027",
+      "website": null,
+      "lat": 36.9450031,
+      "lon": 37.4737411,
+      "address": null,
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442443327-99",
+      "name": "Körkün Taksi",
+      "phone": "05442443327",
+      "website": null,
+      "lat": 37.1058832,
+      "lon": 37.4134638,
+      "address": null,
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326761434-100",
+      "name": "Oğuzeli Taksi",
+      "phone": "05326761434",
+      "website": null,
+      "lat": 36.9515749,
+      "lon": 37.3831593,
+      "address": null,
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05346620606-101",
+      "name": "Şehirgösteren Taksi",
+      "phone": "05346620606",
+      "website": null,
+      "lat": 36.965823,
+      "lon": 37.510757,
+      "address": "Taksi Durağı ·  · Halk Meydanı No:8/D",
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05379920127-102",
+      "name": "Taşlıca Bahar Taksi",
+      "phone": "05379920127",
+      "website": null,
+      "lat": 37.1035455,
+      "lon": 37.3264717,
+      "address": "Taksi Durağı ·  · 68020 Cd No:52",
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312047875-103",
+      "name": "Fıstıklı Taksi",
+      "phone": "05312047875",
+      "website": null,
+      "lat": 37.0513562,
+      "lon": 37.4357563,
+      "address": null,
+      "districtId": "yavuzeli",
+      "districtName": "Yavuzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05339675571-104",
+      "name": "Nizip Otogar Taksi",
+      "phone": "05339675571",
+      "website": null,
+      "lat": 37.0000414,
+      "lon": 37.8014327,
+      "address": null,
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05062308262-105",
+      "name": "Nizip Taksi",
+      "phone": "05062308262",
+      "website": null,
+      "lat": 36.9992655,
+      "lon": 37.8014087,
+      "address": null,
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334062640-106",
+      "name": "Nizip Taksi",
+      "phone": "05334062640",
+      "website": null,
+      "lat": 37.0146804,
+      "lon": 37.7833116,
+      "address": "Taksi Durağı ·  · Bahçe Sk. No:11",
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05062308262-107",
+      "name": "Nizip Taksi",
+      "phone": "05062308262",
+      "website": null,
+      "lat": 37.0153302,
+      "lon": 37.8073158,
+      "address": null,
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05439309247-108",
+      "name": "Nizip Taksi",
+      "phone": "05439309247",
+      "website": null,
+      "lat": 37.0154435,
+      "lon": 37.8052731,
+      "address": "Taksi Durağı ·  · Ayar Sk. No:28/3",
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418922767-109",
+      "name": "Yeşil Nizip Taksi",
+      "phone": "05418922767",
+      "website": null,
+      "lat": 37.0191618,
+      "lon": 37.7918412,
+      "address": "Taksi Durağı · Oğuzhan Sk.",
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436622700-110",
+      "name": "Nizip Taksi",
+      "phone": "05436622700",
+      "website": null,
+      "lat": 37.00917507,
+      "lon": 37.79504108,
+      "address": "Fevzi Paşa Mah. Hasırcı Sok. 12 Nizip, Gaziantep",
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365424244-111",
+      "name": "arşıbaşı Taksi",
+      "phone": "05365424244",
+      "website": "https://www.facebook.com/kampustaksii-103653561608240",
+      "lat": 37.029609,
+      "lon": 36.633529,
+      "address": "Erenler Mah. Hatay Cad. İslahiye, Gaziantep",
+      "districtId": "islahiye",
+      "districtName": "İslahiye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05312140027-112",
+      "name": "Gaziantep Havaalanı Taksi",
+      "phone": "05312140027",
+      "website": null,
+      "lat": 36.94675886,
+      "lon": 37.47468435,
+      "address": "Sazgın Mah. Sazgın Yolu Gaziantep Havaalanı Oğuzeli, Gaziantep",
+      "districtId": "oguzeli",
+      "districtName": "Oguzeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05335183838-113",
+      "name": "VOLKAN TAXİ",
+      "phone": "05335183838",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-03422313120-114",
+      "name": "ROKET TAKSİ DURAĞI",
+      "phone": "03422313120",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05314225515-115",
+      "name": "AYINTAP TAKSİ",
+      "phone": "05314225515",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05323860827-116",
+      "name": "Sanayİİ Taksİ",
+      "phone": "05323860827",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05373094023-117",
+      "name": "Sacır taksi duragı",
+      "phone": "05373094023",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05303760027-118",
+      "name": "Fırat Taksi Gaziantep",
+      "phone": "05303760027",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05363018823-119",
+      "name": "Tümü → İslahiye Taksi – Ali Saygılı",
+      "phone": "05363018823",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05352118652-120",
+      "name": "İslahiye Taksi – Güven Taksi",
+      "phone": "05352118652",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366086982-121",
+      "name": "İslahiye Taksi- Mustafa Koyuncu",
+      "phone": "05366086982",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05516004043-122",
+      "name": "Nizip Taksi",
+      "phone": "05516004043",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03423211114-123",
+      "name": "Antepia (15 Temmuz Yerleşkesi) Taksi AÇIK · 7 gün 24 saat Şahinbey Mahallesi, Be",
+      "phone": "03423211114",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325432787-124",
+      "name": "Barak Mahallesi Sema Taksi",
+      "phone": "05325432787",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05356861803-125",
+      "name": "Beydilli Taksi Durağı AÇIK · 7 gün 24 saat Beydilli, Şht. Ömer Faruk Polat Cd. N",
+      "phone": "05356861803",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05362972188-126",
+      "name": "Çamlicakonutlari Taksi Durağı AÇIK · 7 gün 24 saat Nuri Pazarbaşı mahallesi, Şht",
+      "phone": "05362972188",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03422715017-127",
+      "name": "Cumhuriyet Taksi",
+      "phone": "03422715017",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05468453018-128",
+      "name": "Demirliganeli Taksi",
+      "phone": "05468453018",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05345290727-129",
+      "name": "Gaziantep Taksi",
+      "phone": "05345290727",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05314532525-130",
+      "name": "Gaziantep Taksi Şahinbey",
+      "phone": "05314532525",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05356353646-131",
+      "name": "Gaziantep Veliç Taksi",
+      "phone": "05356353646",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03423606768-132",
+      "name": "Gülkent Taksi AÇIK · 7 gün 24 saat Yeditepe mahallesi 85110 nolu cadde Karataş, ",
+      "phone": "03423606768",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366817182-133",
+      "name": "Huzur Taksi AÇIK · 7 gün 24 saat 23 Nisan, Yavuz Sultan Selim Cad. No:62, 27070 ",
+      "phone": "05366817182",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03422311122-134",
+      "name": "Kale Taksi",
+      "phone": "03422311122",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03423711889-135",
+      "name": "Karatas Bölge Akkent Taksi AÇIK · 7 gün 24 saat Akkent mahallesi 134400 nolu cad",
+      "phone": "03423711889",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03422314494-136",
+      "name": "Keyvanbey Taksi",
+      "phone": "03422314494",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05379244288-137",
+      "name": "Onur Taksi Duraği",
+      "phone": "05379244288",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366707999-138",
+      "name": "Onur Taksi Durağı",
+      "phone": "05366707999",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05316401307-139",
+      "name": "Şahinbey Taksi",
+      "phone": "05316401307",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05302453727-140",
+      "name": "Taksi Gaziantep AÇIK · 7 gün 24 saat Gaziantep Karataş, Şehit Binbaşı Arslan Kul",
+      "phone": "05302453727",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03422259387-141",
+      "name": "Tümü → 29 Ekim Güner Taksi",
+      "phone": "03422259387",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367802423-142",
+      "name": "Bulvar Taksi AÇIK · 7 gün 24 saat Değirmiçem, Süleyman Kuranel Cd. No:17, 27090 ",
+      "phone": "05367802423",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393702666-143",
+      "name": "Diyalog Taksi AÇIK · 7 gün 24 saat İncili Pınar, Şht. Mehmet Öter Cd No:10, 2709",
+      "phone": "05393702666",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03423200044-144",
+      "name": "Gaziantep Fırat Taksi AÇIK · 7 gün 24 saat Belkız, Real Kavşağı, Araban Yolu üze",
+      "phone": "03423200044",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05360512626-145",
+      "name": "İpek Taksi",
+      "phone": "05360512626",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03423245600-146",
+      "name": "Karşıyaka Taksi",
+      "phone": "03423245600",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05330236378-147",
+      "name": "Karşıyaka Taksi Şehitkamil AÇIK · 7 gün 24 saat Eydibaba, Eydibaba mahallesi Kas",
+      "phone": "05330236378",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03422350212-148",
+      "name": "Star Taksi AÇIK · 7 gün 24 saat Sarıgüllük, Kılıç Ali Cd. No:28, 27060 Şehitkami",
+      "phone": "03422350212",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05389103564-149",
+      "name": "Toki Beykent Taksi AÇIK · 7 gün 24 saat Beykent, Beykent TOKİ Konutları Cad, 275",
+      "phone": "05389103564",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03423216479-150",
+      "name": "Volkan Taksi",
+      "phone": "03423216479",
+      "website": null,
+      "lat": 37.0662,
+      "lon": 37.3833,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05322812759-151",
+      "name": "Araban Taksi - Ramazan Yıldırım",
+      "phone": "05322812759",
+      "website": "https://www.facebook.com/ArabanTaksii/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "araban",
+      "districtName": "Araban",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05354607496-152",
+      "name": "Araban Taksi - Veysel Yılmaz",
+      "phone": "05354607496",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "araban",
+      "districtName": "Araban",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05327023622-153",
+      "name": "Gaziantep Taksi - Mahmut Kaya",
+      "phone": "05327023622",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sehitkamil",
+      "districtName": "Şehitkamil",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05357414737-154",
+      "name": "Nizip Taksi - Musa Özdemir",
+      "phone": "05357414737",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "nizip",
+      "districtName": "Nizip",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05355148335-155",
+      "name": "Taksici Osman",
+      "phone": "05355148335",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sehitkamil",
+      "districtName": "Şehitkamil",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5703 @@
+{
+  "cityId": "adana",
+  "cityName": "Adana",
+  "fetchedAt": "2026-08-30T21:26:56.896Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "ceyhan",
+      "name": "Ceyhan",
+      "count": 10
+    },
+    {
+      "id": "cukurova",
+      "name": "Cukurova",
+      "count": 107
+    },
+    {
+      "id": "karaisali",
+      "name": "Karaisali",
+      "count": 1
+    },
+    {
+      "id": "karatas",
+      "name": "Karatas",
+      "count": 2
+    },
+    {
+      "id": "kozan",
+      "name": "Kozan",
+      "count": 2
+    },
+    {
+      "id": "pozanti",
+      "name": "Pozanti",
+      "count": 10
+    },
+    {
+      "id": "saricam",
+      "name": "Saricam",
+      "count": 22
+    },
+    {
+      "id": "seyhan",
+      "name": "Seyhan",
+      "count": 160
+    },
+    {
+      "id": "tufanbeyli",
+      "name": "Tufanbeyli",
+      "count": 1
+    },
+    {
+      "id": "yuregir",
+      "name": "Yuregir",
+      "count": 38
+    }
+  ],
+  "count": 365,
+  "stands": [
+    {
+      "id": "taksi724-03224352652-0",
+      "name": "Acet Taksi",
+      "phone": "03224352652",
+      "website": null,
+      "lat": 37.0027333,
+      "lon": 35.2951911,
+      "address": "Döşeme, 60086. Sk. No:1, 01130 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224352652-1",
+      "name": "Adana çarsı Taksi",
+      "phone": "03224352652",
+      "website": null,
+      "lat": 36.999663,
+      "lon": 35.310002,
+      "address": "Döşeme Mah. 60086 Sok. 3 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05010850173-2",
+      "name": "Adana Galeria Taksi",
+      "phone": "05010850173",
+      "website": null,
+      "lat": 36.980777,
+      "lon": 35.3285976,
+      "address": "Taksi Durağı ·  · 23025. Sk.",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224590842-3",
+      "name": "Adana Güzelim Taksi",
+      "phone": "03224590842",
+      "website": null,
+      "lat": 36.9969708,
+      "lon": 35.1858071,
+      "address": "Cemalpaşa, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05461250147-4",
+      "name": "Adana Habib usta Taksi",
+      "phone": "05461250147",
+      "website": null,
+      "lat": 36.9846639,
+      "lon": 35.2861369,
+      "address": "Mithatpaşa, 58202. Sk. No:20 D:18, 01130 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05513557201-5",
+      "name": "Adana Ibis Taksi",
+      "phone": "05513557201",
+      "website": null,
+      "lat": 36.997985,
+      "lon": 35.3209651,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304353029-6",
+      "name": "Adana Otogar Taksi",
+      "phone": "05304353029",
+      "website": null,
+      "lat": 37.0067506,
+      "lon": 35.2495928,
+      "address": "Çınarlı, Turhan Cemal Beriker Blv. no: 49, 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224297234-7",
+      "name": "Adana Sayın Taksi",
+      "phone": "03224297234",
+      "website": null,
+      "lat": 37.0108527,
+      "lon": 35.3003006,
+      "address": "Fevzipaşa, Turhan Cemal Beriker Blv., 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05419437163-8",
+      "name": "Seyhan Taksi",
+      "phone": "05419437163",
+      "website": null,
+      "lat": 36.983416,
+      "lon": 35.324588,
+      "address": "Taksi Durağı · Saydam Cd. No:64 D:01020",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432849709-9",
+      "name": "Tren Istasyonu Taksi",
+      "phone": "05432849709",
+      "website": null,
+      "lat": 37.4227518,
+      "lon": 34.2636858,
+      "address": "Hürriyet, Saydam Cd., 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224536914-10",
+      "name": "Adana Yeşilyurt Taksi",
+      "phone": "03224536914",
+      "website": null,
+      "lat": 37.003701,
+      "lon": 35.2810482,
+      "address": "Kurtuluş Mh., Uğur Mumcu Meydanı, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05398962513-11",
+      "name": "Mithatpaşa Taksi",
+      "phone": "05398962513",
+      "website": null,
+      "lat": 36.9960708,
+      "lon": 35.1864577,
+      "address": "Yeşilyurt, 70059. Sk. no:1, 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05439031828-12",
+      "name": "Akkapı Taksi",
+      "phone": "05439031828",
+      "website": null,
+      "lat": 37.0110452,
+      "lon": 35.25606088,
+      "address": "Denizli, denizli caddesi, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05457881863-13",
+      "name": "Aksoy Taksi",
+      "phone": "05457881863",
+      "website": null,
+      "lat": 37.42420851,
+      "lon": 34.2628057,
+      "address": "Akkapı mh, Şıh Cemil Cd., 01000 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224452346-14",
+      "name": "Aktaş Taksi",
+      "phone": "03224452346",
+      "website": null,
+      "lat": 36.991392,
+      "lon": 35.223428,
+      "address": "Yeşiloba Mah. 46199. Sok. 6 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05310200006-15",
+      "name": "Arı Taksi",
+      "phone": "05310200006",
+      "website": null,
+      "lat": 36.98654705,
+      "lon": 35.32404847,
+      "address": "Kuruköprü Mah. Melekgirmez Cad. 10 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-16-16",
+      "name": "Barış Manço Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.42409466,
+      "lon": 34.26285879,
+      "address": "Gazipaşa mah, Sümer, Seyhan Adana, Seyhan, Ziyapaşa Mahallesi, 67087 sokak,barajyolu bulv, Gazipaşa Blv., 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364767690-17",
+      "name": "Barkal Taksi",
+      "phone": "05364767690",
+      "website": null,
+      "lat": 37.022023,
+      "lon": 35.300665,
+      "address": "Tellidere Mah. 77. Sok. 21 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434097086-18",
+      "name": "Begovic Taksi",
+      "phone": "05434097086",
+      "website": null,
+      "lat": 37.016441,
+      "lon": 35.2390362,
+      "address": "Fevzipaşa, Birinci Bim Önü, Vefa Cad. No:144, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323683026-19",
+      "name": "Begovic Taksi",
+      "phone": "05323683026",
+      "website": null,
+      "lat": 37.0203222,
+      "lon": 35.2779449,
+      "address": "Gürselpaşa, 75346. Sk., 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352190618-20",
+      "name": "Berfin Taksi",
+      "phone": "05352190618",
+      "website": null,
+      "lat": 37.0523098,
+      "lon": 35.2577438,
+      "address": "Gürselpaşa, 75048. Sk. No:45, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05358913658-21",
+      "name": "Bir Taksi",
+      "phone": "05358913658",
+      "website": null,
+      "lat": 37.0104452,
+      "lon": 35.25736232,
+      "address": "Ova, Berfin Taksi , Şakirpaşa caddesi, muhtarlığı yanı, 01100 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432260910-22",
+      "name": "01 Taksi",
+      "phone": "05432260910",
+      "website": null,
+      "lat": 37.42378642,
+      "lon": 34.26331093,
+      "address": "Yeşilevler, Mehmet Akif Ersoy Cd. kıyı boyu toki No:75 D:1, 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369224738-23",
+      "name": "Çağan Taksi",
+      "phone": "05369224738",
+      "website": null,
+      "lat": 37.014497,
+      "lon": 35.23146744,
+      "address": "2000 Evler, Türkmenbaşı Blv. tıp merkezi yanı, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05398561375-24",
+      "name": "Adana Taksi",
+      "phone": "05398561375",
+      "website": null,
+      "lat": 36.9835052,
+      "lon": 35.3088184,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05398561375-25",
+      "name": "Seyhan Taksi",
+      "phone": "05398561375",
+      "website": null,
+      "lat": 37.42444976,
+      "lon": 34.26279029,
+      "address": "Meydan, 01070 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05351051222-26",
+      "name": "Cemalpaşa Taksi",
+      "phone": "05351051222",
+      "website": null,
+      "lat": 37.0517098,
+      "lon": 35.256992,
+      "address": "Reşatbey, Barajyolu duygu cafe, karşısı, 01000 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05313490713-27",
+      "name": "Çetin Taksi",
+      "phone": "05313490713",
+      "website": null,
+      "lat": 37.0470634,
+      "lon": 34.99027387,
+      "address": "Ziyapaşa, 67087. Sk., 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224531414-28",
+      "name": "Cici Taksi",
+      "phone": "03224531414",
+      "website": null,
+      "lat": 37.007946,
+      "lon": 35.329979,
+      "address": "Ziyapaşa Mah. Mustafa Kemal Paşa Blv. 109/A Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03223511373-29",
+      "name": "Damla Taksi",
+      "phone": "03223511373",
+      "website": null,
+      "lat": 37.0172572,
+      "lon": 35.58158265,
+      "address": "Hürriyet, 20004. Sk. No:2, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03222250242-30",
+      "name": "Denizli Kanal Taksi",
+      "phone": "03222250242",
+      "website": null,
+      "lat": 37.017686,
+      "lon": 35.2648412,
+      "address": "Yeşilyurt, Karaafat Cd No:28/a, 01170 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384794629-31",
+      "name": "Denizli Tunç Taksi",
+      "phone": "05384794629",
+      "website": null,
+      "lat": 37.42477228,
+      "lon": 34.26298951,
+      "address": "İsmetpaşa, Mithatpaşa Blv, 01180 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05398151347-32",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "05398151347",
+      "website": null,
+      "lat": 37.42376198,
+      "lon": 34.26346067,
+      "address": "Adana Seyhan Mithatpaşa Caddesi, 58224. Sk., 01130 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223239228-33",
+      "name": "Divan Taksi",
+      "phone": "03223239228",
+      "website": null,
+      "lat": 36.9959737,
+      "lon": 35.353512,
+      "address": "Reşatbey, Merkez, Yüregir Devlet Hastanesi Karşısı, Yüreğir Merkez, Yüreğir, Adana, 01280 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-34-34",
+      "name": "Seyhan Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.990584,
+      "lon": 35.323264,
+      "address": "Çınarlı Mah. Ziyapaşa Blv. Atilla Altıkat, Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224314427-35",
+      "name": "Dost Taksi",
+      "phone": "03224314427",
+      "website": null,
+      "lat": 36.9934778,
+      "lon": 35.3000089,
+      "address": "İsmetpaşa, Mehmet Akif Ersoy Cd. no:152/a, 01180 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456308980-36",
+      "name": "Ege Taksi",
+      "phone": "05456308980",
+      "website": null,
+      "lat": 37.0067506,
+      "lon": 35.2114839,
+      "address": "Şakirpaşa, 01080 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224573628-37",
+      "name": "ADLiYE TAKSi",
+      "phone": "03224573628",
+      "website": null,
+      "lat": 37.0444712,
+      "lon": 34.9455072,
+      "address": "Cemalpaşa, Vali Yolu Cd. NO: 2, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355750278-38",
+      "name": "En yakın Denizli Taksi",
+      "phone": "05355750278",
+      "website": null,
+      "lat": 37.0059621,
+      "lon": 35.3632821,
+      "address": "Taksi Durağı ·  · M.Kemal paşa bul . Selahattin Eyyubi mah. 131/a . Dinç aprtmn Dinçtaksi Mustafa Kemal Paşa Bulvarı No:131/a Dinç aprtmn Dinçtaksi",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432849709-39",
+      "name": "Erkan Taksi",
+      "phone": "05432849709",
+      "website": null,
+      "lat": 37.0097714,
+      "lon": 35.2895496,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224314527-40",
+      "name": "Seyhan Taksi",
+      "phone": "03224314527",
+      "website": null,
+      "lat": 37.003362,
+      "lon": 35.283985,
+      "address": "Yeşilevler Mah. Özgür Cad. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224314527-41",
+      "name": "Eski Baraj Taksi",
+      "phone": "03224314527",
+      "website": null,
+      "lat": 37.050351,
+      "lon": 35.1779723,
+      "address": "L inşaat cami, İsmetpaşa mah toki konutları 51229 sk Kıyıkent evleri D blok no 14, yanda, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535130908-42",
+      "name": "Evren Taksi",
+      "phone": "05535130908",
+      "website": null,
+      "lat": 37.01428,
+      "lon": 35.320344,
+      "address": "Sümer Mah. 69156 Sok. 20/E Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222266945-43",
+      "name": "Fatih Pınar Taksi",
+      "phone": "03222266945",
+      "website": null,
+      "lat": 37.0223905,
+      "lon": 35.3091637,
+      "address": "\"Mahalle kuruluşundan beri hizmet veren taksi durağı.\"",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03222615952-44",
+      "name": "Seyhan Taksi",
+      "phone": "03222615952",
+      "website": null,
+      "lat": 37.019074,
+      "lon": 35.290607,
+      "address": "Pınar Mah. 74161 Sok. 4 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222615952-45",
+      "name": "Fevzipaşa Taksi",
+      "phone": "03222615952",
+      "website": null,
+      "lat": 36.9963708,
+      "lon": 35.1871083,
+      "address": "Pınar, 74067. Sk. 2/A, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224217121-46",
+      "name": "Galleria Taksi",
+      "phone": "03224217121",
+      "website": null,
+      "lat": 37.42390365,
+      "lon": 34.26304498,
+      "address": "Barış, 48016. Sk., 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05010269281-47",
+      "name": "Gar Taksi",
+      "phone": "05010269281",
+      "website": null,
+      "lat": 37.0005685,
+      "lon": 35.2603754,
+      "address": "Reşatbey, Cemalpaşa, Fuzuli Cd. No:7, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224536945-48",
+      "name": "Gazipaşa Taksi",
+      "phone": "03224536945",
+      "website": null,
+      "lat": 37.000151,
+      "lon": 35.323622,
+      "address": "Kurtuluş Mah. Atatürk Cad. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368334838-49",
+      "name": "Gül Taksi",
+      "phone": "05368334838",
+      "website": null,
+      "lat": 37.000548,
+      "lon": 35.327434,
+      "address": "Cemalpaşa Mah. 63009. Sok. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382438229-50",
+      "name": "Gülbahçesi Taksi",
+      "phone": "05382438229",
+      "website": null,
+      "lat": 36.976439,
+      "lon": 35.290608,
+      "address": "Gülbahçesi Mah. Obalar Cad. 16 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224351965-51",
+      "name": "Gürselpaşa Dostlar Taksi",
+      "phone": "03224351965",
+      "website": null,
+      "lat": 36.99366321,
+      "lon": 34.76719985,
+      "address": "Gülbahçesi, Obalar Cd No:16, 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05456308980-52",
+      "name": "Gürselpaşa Güven Taksi",
+      "phone": "05456308980",
+      "website": null,
+      "lat": 36.9966708,
+      "lon": 35.18570645,
+      "address": "Gürselpaşa, Șehit Polis Șahin Polat Aydın Bl. No:52 2B B Blok, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05441390163-53",
+      "name": "Gürselpaşa Kıyıkent Taksi",
+      "phone": "05441390163",
+      "website": null,
+      "lat": 37.04533519,
+      "lon": 35.22587394,
+      "address": "Gürselpaşa, 01180 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05462608393-54",
+      "name": "Gürselpaşa Seyhan Taksi",
+      "phone": "05462608393",
+      "website": null,
+      "lat": 37.0180653,
+      "lon": 35.2698085,
+      "address": "Taksi Durağı ·  · Gürselpaşa Mah. İzzet Begoviç Blv, 75286 Sk no:2 /1",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05526371111-55",
+      "name": "Gürselpaşa Taksi",
+      "phone": "05526371111",
+      "website": null,
+      "lat": 37.0204412,
+      "lon": 35.2545637,
+      "address": "Taksi Durağı · 6. Sk No:62",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373452632-56",
+      "name": "Gürselpaşa Umut Taksi",
+      "phone": "05373452632",
+      "website": null,
+      "lat": 36.99615118,
+      "lon": 35.18683332,
+      "address": "Gürselpaşa, 75001. Sk. 83 01200, 01000 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05077687503-57",
+      "name": "Güzel Taksi",
+      "phone": "05077687503",
+      "website": null,
+      "lat": 37.0104452,
+      "lon": 35.25606088,
+      "address": "Gürselpaşa, 75270. Sk., 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224570121-58",
+      "name": "Güzel Taksi",
+      "phone": "03224570121",
+      "website": null,
+      "lat": 37.009074,
+      "lon": 35.307744,
+      "address": "Mithatpaşa Mah. Mücahitler Cad. 72 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224570121-59",
+      "name": "Havalimanı Birlik Taksi",
+      "phone": "03224570121",
+      "website": null,
+      "lat": 37.008474,
+      "lon": 35.307744,
+      "address": "Mithatpaşa Mah. Mücahitler Cad. 72 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224351588-60",
+      "name": "Havuzlubahçe Bizim Taksi",
+      "phone": "03224351588",
+      "website": null,
+      "lat": 36.9966708,
+      "lon": 35.18720895,
+      "address": "Emek, Adana Şakirpaşa Havaalanı No:13, 01080 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05454820601-61",
+      "name": "Hayat Taksi",
+      "phone": "05454820601",
+      "website": null,
+      "lat": 37.0160424,
+      "lon": 35.2145205,
+      "address": "Havuzlubahçe, Saydam Cd. No:236 D:240, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326400151-62",
+      "name": "Huzur Taksi",
+      "phone": "05326400151",
+      "website": null,
+      "lat": 36.981149,
+      "lon": 35.319232,
+      "address": "Sucuzade Mah. Obalar Cad. 167 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224534545-63",
+      "name": "Seyhan Taksi",
+      "phone": "03224534545",
+      "website": null,
+      "lat": 37.000825,
+      "lon": 35.326004,
+      "address": "Cemalpaşa Mah. Gazipaşa Blv. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224534545-64",
+      "name": "Istiklal Taksi",
+      "phone": "03224534545",
+      "website": null,
+      "lat": 37.0061506,
+      "lon": 35.2114839,
+      "address": "Cemalpaşa, Gazipaşa Cad. No:26, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05327704267-65",
+      "name": "Istiklal Taksi",
+      "phone": "05327704267",
+      "website": null,
+      "lat": 37.0107538,
+      "lon": 35.2504256,
+      "address": "Reşatbey, Bakımyurdu Cd. No:96, 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327704267-66",
+      "name": "Seyhan Taksi",
+      "phone": "05327704267",
+      "website": null,
+      "lat": 36.987498,
+      "lon": 35.315222,
+      "address": "İstiklal Mah. Bakımyurdu Cad. 96 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327704267-67",
+      "name": "Jet Taksi",
+      "phone": "05327704267",
+      "website": null,
+      "lat": 37.0059621,
+      "lon": 35.2870644,
+      "address": "Seyhan, Bakımyurdu Cd., 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05376873594-68",
+      "name": "Kale Taksi",
+      "phone": "05376873594",
+      "website": null,
+      "lat": 37.0110452,
+      "lon": 35.25736232,
+      "address": "Gürselpaşa, Yeşilevler, 01180 Seyhan",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03223511175-69",
+      "name": "Kale Taksi",
+      "phone": "03223511175",
+      "website": null,
+      "lat": 37.0229025,
+      "lon": 35.2151512,
+      "address": "Kayalıbağ, 26027. Sk. No:1, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223511175-70",
+      "name": "Karasu Taksi",
+      "phone": "03223511175",
+      "website": null,
+      "lat": 36.987062,
+      "lon": 35.330858,
+      "address": "Kayalıbağ Mah. 26027 Sok. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05426583032-71",
+      "name": "Kivanç Taksi",
+      "phone": "05426583032",
+      "website": null,
+      "lat": 37.42467628,
+      "lon": 34.26289593,
+      "address": "Gülbahçesi, Ahmet Cevdet Yağ Caddesi No:365, 01050 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356519587-72",
+      "name": "Kış Taksi",
+      "phone": "05356519587",
+      "website": null,
+      "lat": 37.04798111,
+      "lon": 35.25771563,
+      "address": "BELLONA MAĞAZASI YANI, GÜRSELPAŞA MAH.ALİYA İZZET BEGOVİÇ BULVARI, 75642 SOKAK, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224326842-73",
+      "name": "Kıyıboyu Kuzey Taksi",
+      "phone": "03224326842",
+      "website": null,
+      "lat": 36.97257,
+      "lon": 35.304055,
+      "address": "Dağlıoğlu Mah. Bahçelievler Cad. 187 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367930088-74",
+      "name": "Gürsel Paşa Taksi Adana Taksi",
+      "phone": "05367930088",
+      "website": null,
+      "lat": 37.42383429,
+      "lon": 34.26390375,
+      "address": "B Blok Dream Tovvn Sitesi 3/B 75467 Sk Gürselpaşa Mahallesi, 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05462608393-75",
+      "name": "Küçük Dikili Taksi",
+      "phone": "05462608393",
+      "website": null,
+      "lat": 37.0101452,
+      "lon": 35.2567116,
+      "address": "Gürselpaşa, 75139. Sk. No:21, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05417102266-76",
+      "name": "M1 Anemon Real Taksi",
+      "phone": "05417102266",
+      "website": null,
+      "lat": 36.9963708,
+      "lon": 35.1858071,
+      "address": "Koza, Postane yanı, 01100 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05351099475-77",
+      "name": "Makas Taksi",
+      "phone": "05351099475",
+      "website": null,
+      "lat": 37.0438712,
+      "lon": 34.9455072,
+      "address": "M1 Anemon Taksi, Yeni Mahalle, Öğretmenler Bulvarı, 87071. Sk., 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428302456-78",
+      "name": "Mas Taksi",
+      "phone": "05428302456",
+      "website": null,
+      "lat": 37.0113747,
+      "lon": 35.3763643,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224531063-79",
+      "name": "Seyhan Taksi",
+      "phone": "03224531063",
+      "website": null,
+      "lat": 36.992851,
+      "lon": 35.317644,
+      "address": "Döşeme Mah. Karaisalı Cad. Mücahitler Blv. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224531063-80",
+      "name": "Mavi Bulvar Taksi",
+      "phone": "03224531063",
+      "website": null,
+      "lat": 36.99719042,
+      "lon": 35.18608208,
+      "address": "Reşatbey, Cumhuriyet Cd. No:33, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05376687373-81",
+      "name": "Seyhan Taksi",
+      "phone": "05376687373",
+      "website": null,
+      "lat": 37.04768111,
+      "lon": 35.25744254,
+      "address": "Yurt, Reşatbey, 71377. Sk. 90 58, 01170 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376687373-82",
+      "name": "Mavi Bulvar Taksi",
+      "phone": "05376687373",
+      "website": null,
+      "lat": 37.0186793,
+      "lon": 35.2662264,
+      "address": "Toros, Ahmet Sapmaz Blv. Polat apartmanı A blok No 7/A, 01170 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376687373-83",
+      "name": "Mesko Taksi",
+      "phone": "05376687373",
+      "website": null,
+      "lat": 37.0523098,
+      "lon": 35.2562402,
+      "address": "Yeşilyurt, Polat apartmanı, Ahmet Sapmaz Blv. altı, 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05309604845-84",
+      "name": "Metal Sanayi Taksi",
+      "phone": "05309604845",
+      "website": null,
+      "lat": 37.029362,
+      "lon": 35.309628,
+      "address": "Yeşilyurt Mah. Mavi Blv. 15 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365175733-85",
+      "name": "Mini Taksi",
+      "phone": "05365175733",
+      "website": null,
+      "lat": 37.0145433,
+      "lon": 35.2916696,
+      "address": "Yeşiloba, 46003. Sk. No:1, 01100, 01100 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223654589-86",
+      "name": "Minnina Taksi",
+      "phone": "03223654589",
+      "website": null,
+      "lat": 37.0107452,
+      "lon": 35.2567116,
+      "address": "Hurmalı, Bakımyurdu Cd. No:83, 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05364408131-87",
+      "name": "Minnina Taksi",
+      "phone": "05364408131",
+      "website": null,
+      "lat": 36.9735547,
+      "lon": 35.3204458,
+      "address": "Taksi Durağı · 15080. Sk.",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364408131-88",
+      "name": "Mıdık Hadırlı Taksi",
+      "phone": "05364408131",
+      "website": null,
+      "lat": 36.997415,
+      "lon": 35.2499582,
+      "address": "Havuzlubahçe, Saydam Cd. No: 1, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382478152-89",
+      "name": "Seyhan Taksi",
+      "phone": "05382478152",
+      "website": null,
+      "lat": 37.42432851,
+      "lon": 34.26278255,
+      "address": "Mıdık, Şht. Astğm. Kemal Yüzgeç Blv. No:306, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303760236-90",
+      "name": "Öğretmenler Bulvarı Umut Taksi",
+      "phone": "05303760236",
+      "website": null,
+      "lat": 37.42399164,
+      "lon": 34.26293965,
+      "address": "Gülpınar, 37033. Sk. No:2, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05071727124-91",
+      "name": "Otoban Taksi",
+      "phone": "05071727124",
+      "website": null,
+      "lat": 37.008813,
+      "lon": 35.2509319,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357915147-92",
+      "name": "Ova Taksi",
+      "phone": "05357915147",
+      "website": null,
+      "lat": 37.42378642,
+      "lon": 34.26376327,
+      "address": "Öğretmenler Bulvarı, Havalimanı çıkışı Otoban Sapağı,Yeni Mahalle 87090 sok.no, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356382439-93",
+      "name": "Durağı Seyhan Taksi",
+      "phone": "05356382439",
+      "website": null,
+      "lat": 36.987509,
+      "lon": 35.274737,
+      "address": "Taksi Durağı · Şakirpaşa Cd. No:133",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356382439-94",
+      "name": "Özen Taksi",
+      "phone": "05356382439",
+      "website": null,
+      "lat": 37.4227518,
+      "lon": 34.2621748,
+      "address": "Ova, Şakirpaşa Cd. No:133, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224578834-95",
+      "name": "Özen Taksi",
+      "phone": "03224578834",
+      "website": null,
+      "lat": 37.0033333,
+      "lon": 35.2951911,
+      "address": "Namık Kemal, 65009. Sk. No:11, 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418659025-96",
+      "name": "Öz Kibar Otoban Taksi",
+      "phone": "05418659025",
+      "website": null,
+      "lat": 37.007965,
+      "lon": 35.315283,
+      "address": "Namık Kemal Mah. A. Remzi Yüreğir Cad. 35 Işıltan Apt. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373767260-97",
+      "name": "Taksi durağı",
+      "phone": "05373767260",
+      "website": null,
+      "lat": 37.0226484,
+      "lon": 35.2149399,
+      "address": "Öğretmenler Bulvarı, Otoban kuzey Havalimanı çıkışı,Yeni Mahalle 87090 sokak Eski Kibar Restorant Karşısı, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541240101-98",
+      "name": "Özmoda Taksi",
+      "phone": "05541240101",
+      "website": null,
+      "lat": 36.987297,
+      "lon": 35.2704138,
+      "address": "Taksi Durağı ·  · 44002. Sk.",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05399832161-99",
+      "name": "Öz Moda Taksi",
+      "phone": "05399832161",
+      "website": null,
+      "lat": 36.9928778,
+      "lon": 35.3000089,
+      "address": "Denizli, 57228. Sk. No:3, 01130 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05399832161-100",
+      "name": "Öz Pamuk Taksi",
+      "phone": "05399832161",
+      "website": null,
+      "lat": 37.001,
+      "lon": 35.299634,
+      "address": "Denizli Mah. 57228 Sok. 3 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05324216601-101",
+      "name": "Öz Varan Taksi",
+      "phone": "05324216601",
+      "website": null,
+      "lat": 36.995603,
+      "lon": 35.317783,
+      "address": "Döşeme Mah. Karaisalı Cad. 55/A Dk:1 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224353399-102",
+      "name": "Özyeşilevler Taksi",
+      "phone": "03224353399",
+      "website": null,
+      "lat": 36.994521,
+      "lon": 35.299786,
+      "address": "Sakarya Mah. 55017 Sok. 12 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444881308-103",
+      "name": "Öz Yeşilevler Taksi",
+      "phone": "05444881308",
+      "website": null,
+      "lat": 37.000038,
+      "lon": 35.288164,
+      "address": "Bahçelievler Mah. Mehmet Akif Ersoy Cad. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444881308-104",
+      "name": "Ramazan Tuncay Taksi",
+      "phone": "05444881308",
+      "website": null,
+      "lat": 36.9921901,
+      "lon": 35.2546757,
+      "address": "Barış, 50146. Sk., 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05399660195-105",
+      "name": "Ray Taksi",
+      "phone": "05399660195",
+      "website": null,
+      "lat": 36.998556,
+      "lon": 35.272001,
+      "address": "Gülbahçesi, Cuma Pazarı, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224541562-106",
+      "name": "Reşatbey Kardeşler Taksi",
+      "phone": "03224541562",
+      "website": null,
+      "lat": 37.007924,
+      "lon": 35.321224,
+      "address": "Gazipaşa Mah. 66035 Sok. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05415443277-107",
+      "name": "Reşatbey Taksi",
+      "phone": "05415443277",
+      "website": null,
+      "lat": 36.99299239,
+      "lon": 34.76604385,
+      "address": "Reşatbey, 01070 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224542091-108",
+      "name": "Şakirpaşa Miran Taksi",
+      "phone": "03224542091",
+      "website": null,
+      "lat": 36.995745,
+      "lon": 35.330987,
+      "address": "Reşatbey Mah. Ordu Cad. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05355187721-109",
+      "name": "Seyhan Taksi",
+      "phone": "05355187721",
+      "website": null,
+      "lat": 37.0275956,
+      "lon": 35.2693253,
+      "address": "Onur, Şakirpaşa Cd., 01080 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355187721-110",
+      "name": "Şakirpaşa Uçak Taksi",
+      "phone": "05355187721",
+      "website": null,
+      "lat": 37.4221518,
+      "lon": 34.2629303,
+      "address": "Onur, Şakirpaşa Cd., 01080 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05412831483-111",
+      "name": "Samanyolu Taksi",
+      "phone": "05412831483",
+      "website": null,
+      "lat": 36.9877253,
+      "lon": 35.2352197,
+      "address": "Onur, eski sağlık ocağı önü, Şakirpaşa Cd., 01000 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224544848-112",
+      "name": "Savaş Taksi",
+      "phone": "03224544848",
+      "website": null,
+      "lat": 37.036048,
+      "lon": 35.2747071,
+      "address": "Cemalpaşa, Toros Cd. No:34, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03224580352-113",
+      "name": "Savaş Taksi",
+      "phone": "03224580352",
+      "website": null,
+      "lat": 37.001835,
+      "lon": 35.319095,
+      "address": "Kurtuluş Mah. 16. Sok. 1 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224580352-114",
+      "name": "Saydam Obalar Taksi",
+      "phone": "03224580352",
+      "website": null,
+      "lat": 37.001235,
+      "lon": 35.319095,
+      "address": "Kurtuluş Mah. 16. Sok. 1 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05510148214-115",
+      "name": "Şakirpaşa Uçak Taksi AÇIK · 7 gün 24 saat Onur, eski sağlık ocağı önü, Şakirpaşa",
+      "phone": "05510148214",
+      "website": null,
+      "lat": 37.0308333,
+      "lon": 35.2767815,
+      "address": "Karasoku, Saydam cad, 28013. Sk., 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05076205226-116",
+      "name": "Saydam Taksi",
+      "phone": "05076205226",
+      "website": null,
+      "lat": 36.978193,
+      "lon": 35.3234044,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05437749638-117",
+      "name": "Şeker Taksi",
+      "phone": "05437749638",
+      "website": null,
+      "lat": 36.9799692,
+      "lon": 35.3053102,
+      "address": "Havuzlubahçe, D: Nu: 150 A, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05306380347-118",
+      "name": "Şeker Taksi",
+      "phone": "05306380347",
+      "website": null,
+      "lat": 36.9981772,
+      "lon": 35.2532386,
+      "address": "Reşatbey, Saydam Cd. No:10 D:695, 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223599319-119",
+      "name": "Sevgi Taksi",
+      "phone": "03223599319",
+      "website": null,
+      "lat": 37.0005699,
+      "lon": 35.2499598,
+      "address": "Reşatbey, Ordu Cd. 15 A, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357373534-120",
+      "name": "Sevgi Taksi",
+      "phone": "05357373534",
+      "website": null,
+      "lat": 36.980582,
+      "lon": 35.318264,
+      "address": "Sucuzade Mah. Obalar Cad. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357373534-121",
+      "name": "Seyhan Polen Taksi",
+      "phone": "05357373534",
+      "website": null,
+      "lat": 36.99299239,
+      "lon": 34.76692695,
+      "address": "Sucuzade, Obalar Cd No:191, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05356341952-122",
+      "name": "Seyhan Taksi",
+      "phone": "05356341952",
+      "website": null,
+      "lat": 36.9722747,
+      "lon": 35.289121,
+      "address": "Haydaroğlu, 18030. Sk. No:25, 01020 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224578407-123",
+      "name": "Seyhan Taksi",
+      "phone": "03224578407",
+      "website": null,
+      "lat": 37.0017469,
+      "lon": 35.168712,
+      "address": "Barbaros, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434293368-124",
+      "name": "Seyhan Taksi",
+      "phone": "05434293368",
+      "website": null,
+      "lat": 36.995226,
+      "lon": 35.329647,
+      "address": "Reşatbey Mah. Adalet Cad. 1 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413915542-125",
+      "name": "Seyhan Taksi",
+      "phone": "05413915542",
+      "website": null,
+      "lat": 37.0470634,
+      "lon": 34.99157593,
+      "address": "Kayalıbağ, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05070091020-126",
+      "name": "Şirin Taksi",
+      "phone": "05070091020",
+      "website": null,
+      "lat": 36.9984723,
+      "lon": 35.2397025,
+      "address": "Cemalpaşa, Fuzuli Cd. Galleria Iş Merkezi, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433183861-127",
+      "name": "Seyhan Taksi",
+      "phone": "05433183861",
+      "website": null,
+      "lat": 37.0027464,
+      "lon": 35.2672424,
+      "address": "Kayalıbağ, Turhan Cemal Beriker Blv. No:17, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04149006181-128",
+      "name": "Sular Taksi",
+      "phone": "04149006181",
+      "website": null,
+      "lat": 37.0159884,
+      "lon": 35.203085,
+      "address": "Reşatbey, 62025. Sk. No:63, 01120 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224585701-129",
+      "name": "Sümer Taksi",
+      "phone": "03224585701",
+      "website": null,
+      "lat": 37.004501,
+      "lon": 35.329299,
+      "address": "Cemalpaşa Mah. Cevat Yurdakul Cad. 1 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03222283780-130",
+      "name": "Seyhan Taksi",
+      "phone": "03222283780",
+      "website": null,
+      "lat": 37.01407,
+      "lon": 35.315413,
+      "address": "Sümer Mah. İbo Osman Cad. 69076 Sok. 60/A Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222283780-131",
+      "name": "Sun Taksi",
+      "phone": "03222283780",
+      "website": null,
+      "lat": 37.0067506,
+      "lon": 35.21073255,
+      "address": "Sümer, 69156. Sk. No:6, 01140 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224539696-132",
+      "name": "Sys Taksi",
+      "phone": "03224539696",
+      "website": null,
+      "lat": 36.999761,
+      "lon": 35.322452,
+      "address": "Kurtuluş Mah. 64019 Sok. Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432849709-133",
+      "name": "içek Taksi",
+      "phone": "05432849709",
+      "website": null,
+      "lat": 36.9966316,
+      "lon": 35.2117198,
+      "address": "Narlıca, Şht. Mehmet Cd. No:49, 01180 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-03222269712-134",
+      "name": "Arkadaş Taksi",
+      "phone": "03222269712",
+      "website": null,
+      "lat": 37.0067506,
+      "lon": 35.21223525,
+      "address": "ÇİÇEK TAKSİ SÜMER MAHALLESİ BARAJ YOLU 6,5 DURAK 69071SK ÇEKİÇ APT ALTI, 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224327772-135",
+      "name": "Ayaz Taksi",
+      "phone": "03224327772",
+      "website": null,
+      "lat": 36.9884715,
+      "lon": 35.1103183,
+      "address": "Döşeme, 42. Sk 18/B, 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05310200006-136",
+      "name": "Taksici Onur Taksi",
+      "phone": "05310200006",
+      "website": null,
+      "lat": 37.42485136,
+      "lon": 34.2631055,
+      "address": "Barış, 48081. Sk., 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05382879282-137",
+      "name": "Taksi",
+      "phone": "05382879282",
+      "website": null,
+      "lat": 37.42456728,
+      "lon": 34.26282861,
+      "address": "Tepebağ, Cemal Gürsel Cd., 01010 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05316718544-138",
+      "name": "Özcan Seyhan Taksi",
+      "phone": "05316718544",
+      "website": null,
+      "lat": 36.9975772,
+      "lon": 35.2532386,
+      "address": "Gülbahçesi, 01050 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05323055157-139",
+      "name": "Seyhan Taksi",
+      "phone": "05323055157",
+      "website": null,
+      "lat": 37.0180793,
+      "lon": 35.2662264,
+      "address": "Ali Bozdagan Bulvarı Gürselpaşa 75396. Sokak girişi, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224578407-140",
+      "name": "Taksi",
+      "phone": "03224578407",
+      "website": null,
+      "lat": 37.014497,
+      "lon": 35.23276896,
+      "address": "Gürselpaşa, 01200 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05010269281-141",
+      "name": "Tellidere Kanal Taksi",
+      "phone": "05010269281",
+      "website": null,
+      "lat": 37.003045,
+      "lon": 35.335232,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317706592-142",
+      "name": "Tinay Taksi",
+      "phone": "05317706592",
+      "website": null,
+      "lat": 37.013293,
+      "lon": 35.303876,
+      "address": "Tellidere Mah. Alparslan Türkeş Blv. 301/D-1 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05454270135-143",
+      "name": "Toros Taksi",
+      "phone": "05454270135",
+      "website": null,
+      "lat": 36.9934778,
+      "lon": 34.7664854,
+      "address": "Sucuzade, Saydam Cd. No:82, 01030 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05363828186-144",
+      "name": "Tunç Taksi",
+      "phone": "05363828186",
+      "website": null,
+      "lat": 36.978596,
+      "lon": 35.31115,
+      "address": "Dağlıoğlu Mah. Obalar Cad. 333 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333665247-145",
+      "name": "Turgut Özal Taksi",
+      "phone": "05333665247",
+      "website": null,
+      "lat": 37.0024464,
+      "lon": 35.26659175,
+      "address": "İsmetpaşa, Mithatpaşa Blv, 01180 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380716551-146",
+      "name": "Türkmenbaşi Çinar Taksi",
+      "phone": "05380716551",
+      "website": null,
+      "lat": 37.0474329,
+      "lon": 35.2991603,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455089278-147",
+      "name": "Türkmenbaşi Mert Taksi",
+      "phone": "05455089278",
+      "website": null,
+      "lat": 37.0356305,
+      "lon": 35.26396657,
+      "address": "Huzurevleri, Türkmenbaşı Bulvarı 2000 evler mahallesi Aliya izzet Begovic bulvarı, İsmet Atlı Blv., 01000 Çukuova/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05076551804-148",
+      "name": "Ugur mumcu t.Özal Taksi",
+      "phone": "05076551804",
+      "website": null,
+      "lat": 37.04600601,
+      "lon": 35.22560086,
+      "address": "Gürselpaşa, bahar, 75330. Sk. no 15 apt kat 8, 01170 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302802650-149",
+      "name": "Seyhan Taksi",
+      "phone": "05302802650",
+      "website": null,
+      "lat": 37.0064462,
+      "lon": 35.3067787,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224281213-150",
+      "name": "Uluçay Taksi",
+      "phone": "03224281213",
+      "website": null,
+      "lat": 36.99615118,
+      "lon": 35.18608208,
+      "address": "Yeşiloba, 46036. Sk. 1/B, 01170 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05398561375-151",
+      "name": "Obalar Taksi",
+      "phone": "05398561375",
+      "website": null,
+      "lat": 36.985239,
+      "lon": 35.326292,
+      "address": "Karasoku Mah. Ali Münif Yegenağa Cad. 18 Seyhan, Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362118050-152",
+      "name": "Yeni Istasyon Gar Taksi",
+      "phone": "05362118050",
+      "website": null,
+      "lat": 36.996815,
+      "lon": 35.2499582,
+      "address": "Kocavezir, Obalar Cd 60-62 yakınında, 01060 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224536945-153",
+      "name": "Yeşilevler Taksi",
+      "phone": "03224536945",
+      "website": null,
+      "lat": 37.42383429,
+      "lon": 34.26317045,
+      "address": "Kurtuluş, 64024. Sk. 2/B, 01130 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03224332669-154",
+      "name": "Yeşiloba Vip Taksi",
+      "phone": "03224332669",
+      "website": null,
+      "lat": 37.42376198,
+      "lon": 34.26361353,
+      "address": "Bahçelievler, 01190 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05419542804-155",
+      "name": "Yüzüncüyıl Dişhastanesi Taksi",
+      "phone": "05419542804",
+      "website": null,
+      "lat": 37.0023662,
+      "lon": 35.2510663,
+      "address": "Yeşiloba, Küçük Sanayi Sitesi, 01001 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05059897830-156",
+      "name": "Ziyapaşa Taksi",
+      "phone": "05059897830",
+      "website": null,
+      "lat": 37.041529,
+      "lon": 35.2427336,
+      "address": "Taksi Durağı ·  · 85331. Sk. No:5",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412240424-157",
+      "name": "Ziyapasa Taksi",
+      "phone": "05412240424",
+      "website": null,
+      "lat": 37.0024464,
+      "lon": 35.26789305,
+      "address": "Kurtuluş, Ziyapaşa Blv., 01122 Seyhan/Adana",
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412240424-158",
+      "name": "adana-taksi",
+      "phone": "05412240424",
+      "website": null,
+      "lat": 36.9987884,
+      "lon": 35.3204946,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05358439749-159",
+      "name": "100.yil Medline Hastanesi Taksi",
+      "phone": "05358439749",
+      "website": null,
+      "lat": 37.0412555,
+      "lon": 35.2808624,
+      "address": "Turgut Özal Bulv. Ramazanoğlu camii Önü, 01170 Çukurova",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524757348-160",
+      "name": "100. Yil Park Vadi Taksi",
+      "phone": "05524757348",
+      "website": null,
+      "lat": 37.0445785,
+      "lon": 35.2701231,
+      "address": "100. Yıl mahallesi, 85153 Sk. no:1, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03225040101-161",
+      "name": "100.Yıl Taksi",
+      "phone": "03225040101",
+      "website": null,
+      "lat": 36.9969708,
+      "lon": 35.1871083,
+      "address": "Yüzüncüyıl, Hacı Bektaş Veli Blv, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413204747-162",
+      "name": "Dişhastanesi Taksi",
+      "phone": "05413204747",
+      "website": null,
+      "lat": 37.0351833,
+      "lon": 35.2501727,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05059897830-163",
+      "name": "100 Yıl Taksi",
+      "phone": "05059897830",
+      "website": null,
+      "lat": 37.03584371,
+      "lon": 35.25981715,
+      "address": "100.YIL,MAHALLESİ, 85331. Sk. No:5, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413204747-164",
+      "name": "Adana Alo Taksi",
+      "phone": "05413204747",
+      "website": null,
+      "lat": 37.0519417,
+      "lon": 35.21403238,
+      "address": "Fazıl metro bulvarı Babaoğul Karşısı, 01150 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312088001-165",
+      "name": "Adana Arma Taksi",
+      "phone": "05312088001",
+      "website": null,
+      "lat": 37.05083641,
+      "lon": 35.21652308,
+      "address": "Belediye evleri mahallesi 84199 sokak Hilmi kürklü bulvarı cks, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530444400-166",
+      "name": "Adana Çukurova Taksi",
+      "phone": "05530444400",
+      "website": null,
+      "lat": 37.049158,
+      "lon": 35.275583,
+      "address": "Huzurevleri Mah. Turgut Özal Blv. 190 Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357917083-167",
+      "name": "Adana Gizem Taksi",
+      "phone": "05357917083",
+      "website": null,
+      "lat": 37.03517289,
+      "lon": 35.2586605,
+      "address": "Karslı mh, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05383687860-168",
+      "name": "Adanakoop Nihat Taksi",
+      "phone": "05383687860",
+      "website": null,
+      "lat": 37.0454675,
+      "lon": 35.2684049,
+      "address": "Toros, Turgut Özal Blv., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05425581585-169",
+      "name": "Iletişim Taksi",
+      "phone": "05425581585",
+      "website": null,
+      "lat": 37.0356305,
+      "lon": 35.2647182,
+      "address": "Belediye Evleri, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425581585-170",
+      "name": "Adana Sosyete Taksi",
+      "phone": "05425581585",
+      "website": null,
+      "lat": 37.0347001,
+      "lon": 35.2229047,
+      "address": "Belediye Evleri, 84029. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05072201581-171",
+      "name": "Adana Taksi",
+      "phone": "05072201581",
+      "website": null,
+      "lat": 37.0444712,
+      "lon": 35.212269,
+      "address": "Huzurevleri, Yurt mh 71491 sk sosyete pazar önü Yurt güzelyalı kurttepe karslılar, 01170 Çukurova",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432079602-172",
+      "name": "Adana Tuğa Taksi",
+      "phone": "05432079602",
+      "website": null,
+      "lat": 37.03744429,
+      "lon": 35.21914081,
+      "address": "Yurt, 71409. Sk. No:2, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013330069-173",
+      "name": "Adana Yeni Baraj Taksi",
+      "phone": "05013330069",
+      "website": null,
+      "lat": 37.0467749,
+      "lon": 35.2661661,
+      "address": "Mahfesığmaz, Şehitler Bulvarı, 01010 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05535130909-174",
+      "name": "Akdeniz Taksi",
+      "phone": "05535130909",
+      "website": null,
+      "lat": 37.0406555,
+      "lon": 35.2808624,
+      "address": "Beyazevler, Beyazevler Cd. No:14, 01150 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05401800101-175",
+      "name": "Ali Sepici Taksi",
+      "phone": "05401800101",
+      "website": null,
+      "lat": 37.04628949,
+      "lon": 35.26572424,
+      "address": "Toros Mh, Yapı Kredi Karşısı, Şehitler Bulvarı, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317895011-176",
+      "name": "Çukurova Taksi",
+      "phone": "05317895011",
+      "website": null,
+      "lat": 37.04798111,
+      "lon": 35.25859937,
+      "address": "Toros, 78177. Sk. No:1, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446862960-177",
+      "name": "Çukurova Taksi",
+      "phone": "05446862960",
+      "website": null,
+      "lat": 37.04701029,
+      "lon": 35.25771563,
+      "address": "Toros, 01220 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05437215401-178",
+      "name": "Arma Taksi",
+      "phone": "05437215401",
+      "website": null,
+      "lat": 37.04701029,
+      "lon": 35.25859937,
+      "address": "Mahfesığmaz, Turgut Özal Blv. No:105 D:97, 01170, 01120 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530444400-179",
+      "name": "Ayaz Taksi",
+      "phone": "05530444400",
+      "website": null,
+      "lat": 37.0486294,
+      "lon": 35.2082601,
+      "address": "Yüzüncüyıl, 85251. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327745766-180",
+      "name": "Ayyıldız Taksi",
+      "phone": "05327745766",
+      "website": null,
+      "lat": 37.04731029,
+      "lon": 35.25744254,
+      "address": "Yurt, Süleyman Demirel Blv, 71555. Sk. No2-1, 01010 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539412955-181",
+      "name": "Balkon Taksi",
+      "phone": "05539412955",
+      "website": null,
+      "lat": 37.03744429,
+      "lon": 35.21825719,
+      "address": "HUZURVLERİ MAH. 77237 SOK.DÖRTLER APT. K11 D:32, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-182-182",
+      "name": "Belediye evleri Nihat Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.0379051,
+      "lon": 35.313097,
+      "address": "Güzelyalı, 81063. Sk. No:2, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469358847-183",
+      "name": "Çukurova Taksi",
+      "phone": "05469358847",
+      "website": null,
+      "lat": 37.0463071,
+      "lon": 35.2630995,
+      "address": "Taksi Durağı · Belediye evleri mahallesi Zahit Akdağ Bulvarı no, 84174. Sk. No:18",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010804492-184",
+      "name": "Cadde Özal Taksi",
+      "phone": "05010804492",
+      "website": null,
+      "lat": 37.0515877,
+      "lon": 35.2393517,
+      "address": "Mahfesığmaz, 79077. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05454185990-185",
+      "name": "Carrefour Taksi",
+      "phone": "05454185990",
+      "website": null,
+      "lat": 37.053523,
+      "lon": 35.2831256,
+      "address": "Taksi Durağı · 81201. Sk.",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222565891-186",
+      "name": "Çukurova Taksi",
+      "phone": "03222565891",
+      "website": null,
+      "lat": 37.043306,
+      "lon": 35.251414,
+      "address": "100. Yıl Mah. 85021 Sok. Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05061219284-187",
+      "name": "Çukurova Armağan Taksi",
+      "phone": "05061219284",
+      "website": null,
+      "lat": 37.0551514,
+      "lon": 35.2373543,
+      "address": "Kurttepe, Kan Blv Çam Apt D:1 D01170, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05319462406-188",
+      "name": "Çukurova Asya Taksi",
+      "phone": "05319462406",
+      "website": null,
+      "lat": 37.0379297,
+      "lon": 35.218699,
+      "address": "Toros, sezar hastanesi karşısı transit taksi durağı, Kasım Ener Cd, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385787936-189",
+      "name": "Çukurova Ayyıldız Taksi",
+      "phone": "05385787936",
+      "website": null,
+      "lat": 37.0478496,
+      "lon": 35.3014475,
+      "address": "Taksi Durağı · 81153. Sk. No:2",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539412955-190",
+      "name": "Huzurevleri Taksi",
+      "phone": "05539412955",
+      "website": null,
+      "lat": 37.0464298,
+      "lon": 35.3051399,
+      "address": "Taksi Durağı ·  · 81118. Sk.",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364868493-191",
+      "name": "Çukurova Hayal Park Sezar Taksi",
+      "phone": "05364868493",
+      "website": null,
+      "lat": 37.0381461,
+      "lon": 35.2789157,
+      "address": "Huzurevleri, Alparslan Türkeş Blv. 363 A D:363 A, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451987998-192",
+      "name": "Çukurova Mahfesığmaz Taksi",
+      "phone": "05451987998",
+      "website": null,
+      "lat": 37.0359187,
+      "lon": 35.2963402,
+      "address": "Taksi Durağı · Kasım Ener Cad, 78105. Sk.",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222351380-193",
+      "name": "Çukurova Taksi",
+      "phone": "03222351380",
+      "website": null,
+      "lat": 36.99719042,
+      "lon": 35.18683332,
+      "address": "Mahfesığmaz, Mahfesığmaz Mh. Muhtarlığı, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323558605-194",
+      "name": "Çukurova Taksi",
+      "phone": "05323558605",
+      "website": "https://www.facebook.com/cukurovataksiadana/",
+      "lat": 37.1247906,
+      "lon": 35.4592033,
+      "address": "Belediye Evleri, FİNAL OKULLARI CİVARI, Ekrem tok ruh sagligi karşısı, ZAİTAKDAG BULVARI, BELEDİYE EVLERİ, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05362354056-195",
+      "name": "Çukurova Toros Taksi",
+      "phone": "05362354056",
+      "website": null,
+      "lat": 37.0330708,
+      "lon": 35.2347947,
+      "address": "Yurt, 71335. Sk., 01010 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05363828186-196",
+      "name": "Çukurova Ulaş Taksi",
+      "phone": "05363828186",
+      "website": null,
+      "lat": 37.03584371,
+      "lon": 35.25838745,
+      "address": "Toros, 78182. Sk. Başak Apt, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384854272-197",
+      "name": "Defne Taksi",
+      "phone": "05384854272",
+      "website": null,
+      "lat": 37.0350305,
+      "lon": 35.2647182,
+      "address": "Güzelyalı, Süleyman Demirel Blv., 01000 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05446882290-198",
+      "name": "Durak Taksi",
+      "phone": "05446882290",
+      "website": null,
+      "lat": 37.05083641,
+      "lon": 35.21563932,
+      "address": "Belediye Evleri, Defne taksi, 84220. Sk. No:12, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438612343-199",
+      "name": ". Taksi",
+      "phone": "05438612343",
+      "website": null,
+      "lat": 37.0362838,
+      "lon": 35.2971998,
+      "address": "Taksi Durağı · Sezar Hospital yanında, Ali Sepici Caddesi",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387410162-200",
+      "name": "Çukurova Taksi",
+      "phone": "05387410162",
+      "website": null,
+      "lat": 37.0503604,
+      "lon": 34.9573592,
+      "address": "Belediye Evleri, FİNAL OKULLARI CİVARI Ekrem tok ruh sagligi karşısı, BELEDİYE EVLERİ, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413487464-201",
+      "name": "Fast Taksi",
+      "phone": "05413487464",
+      "website": null,
+      "lat": 37.049751,
+      "lon": 35.2160812,
+      "address": "Huzurevleri, Belediye evleri mahallesi 84107 sokak bina no:4 kat:2 daire:4 Adana koop, Yüzüncü yıl.. Hayalpark, 01150 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05011791769-202",
+      "name": "Gerçek Taksi",
+      "phone": "05011791769",
+      "website": null,
+      "lat": 37.0527706,
+      "lon": 35.2977395,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303158605-203",
+      "name": "Göl Taksi",
+      "phone": "05303158605",
+      "website": null,
+      "lat": 37.05191,
+      "lon": 34.6889178,
+      "address": "Güzelyalı, 81136. Sokak, Uğur Mumcu Blv., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-204-204",
+      "name": "Güler Taksi Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.42467628,
+      "lon": 34.26417827,
+      "address": "Mahfesığmaz, dede kebab yani, Turgut Özal Blv., 01100 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354491873-205",
+      "name": "Gundem Taksi",
+      "phone": "05354491873",
+      "website": null,
+      "lat": 37.03811511,
+      "lon": 35.21798413,
+      "address": "Güzelyalı, translt taksi durağı, Turgut Özal Blv., 01130 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464943411-206",
+      "name": "Çukurova Taksi",
+      "phone": "05464943411",
+      "website": null,
+      "lat": 37.04600601,
+      "lon": 35.22703074,
+      "address": "Belediye Evleri, 84173. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367902597-207",
+      "name": "Güzelyali Taksi",
+      "phone": "05367902597",
+      "website": null,
+      "lat": 37.0350953,
+      "lon": 35.2227148,
+      "address": "Güzelyalı, Uğur Mumcu Blv., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05519413767-208",
+      "name": "Hayal Park Taksi",
+      "phone": "05519413767",
+      "website": null,
+      "lat": 37.4243589,
+      "lon": 34.2635371,
+      "address": "Güzelyalı, Süleyman demirel bulvari, 81171. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05434025057-209",
+      "name": "Hayal Taksi",
+      "phone": "05434025057",
+      "website": null,
+      "lat": 37.42491027,
+      "lon": 34.26383504,
+      "address": "Toros, 78154. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434025057-210",
+      "name": "Huzurevleri 01 Taksi",
+      "phone": "05434025057",
+      "website": null,
+      "lat": 37.050351,
+      "lon": 35.2160812,
+      "address": "Yurt, 231. Sk., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369224738-211",
+      "name": "Huzurevleri Güneş Taksi",
+      "phone": "05369224738",
+      "website": null,
+      "lat": 37.0232484,
+      "lon": 35.2149399,
+      "address": "Huzurevleri, 77151. Sk. No:1, 01330 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422570144-212",
+      "name": "Huzurevleri Komşu Taksi",
+      "phone": "05422570144",
+      "website": null,
+      "lat": 37.04533519,
+      "lon": 35.22675766,
+      "address": "Huzurevleri, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05342732281-213",
+      "name": "Adana Taksi",
+      "phone": "05342732281",
+      "website": null,
+      "lat": 37.0406665,
+      "lon": 35.20807482,
+      "address": "Huzurevleri, 77162. Sk. 1 A, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05309626070-214",
+      "name": "Adana Taksi",
+      "phone": "05309626070",
+      "website": null,
+      "lat": 37.42485136,
+      "lon": 34.2639687,
+      "address": "belediye yanı, Türkmenbaşı Bulvar, 84119 no 63 sk, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462352265-215",
+      "name": "Huzurevleri Park Taksi",
+      "phone": "05462352265",
+      "website": null,
+      "lat": 37.05016559,
+      "lon": 35.21536622,
+      "address": "Huzurevleri, 77063. Sk. No:1, 01130 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413915542-216",
+      "name": "Huzurevleri Taksi",
+      "phone": "05413915542",
+      "website": null,
+      "lat": 37.0522417,
+      "lon": 35.2133813,
+      "address": "Huzurevleri, 77133. Sk. No:3 D:1, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342732281-217",
+      "name": "Huzurevleri Yiğit Taksi",
+      "phone": "05342732281",
+      "website": null,
+      "lat": 37.03918067,
+      "lon": 35.28015513,
+      "address": "Huzurevleri Mah. 77146. Sok. Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05458616242-218",
+      "name": "Kabasakal Taksi",
+      "phone": "05458616242",
+      "website": null,
+      "lat": 37.04986559,
+      "lon": 35.21652308,
+      "address": "Huzurevleri, 77196. Sk. No:10, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05425883977-219",
+      "name": "Çukurova Taksi",
+      "phone": "05425883977",
+      "website": null,
+      "lat": 37.0566974,
+      "lon": 35.2450057,
+      "address": "Taksi Durağı · Prof. Dr. Necmettin Erbakan Bulv No:333 B, 01170",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222480165-220",
+      "name": "Kardeş Taksi",
+      "phone": "03222480165",
+      "website": null,
+      "lat": 37.05016559,
+      "lon": 35.21679618,
+      "address": "Huzurevleri, Türkmenbaşı Blv. 28/A, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334808141-221",
+      "name": "- Alo Taksi",
+      "phone": "05334808141",
+      "website": null,
+      "lat": 37.42494662,
+      "lon": 34.26368918,
+      "address": "Toros, 78059. Sk. No:9 D:3, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05368420692-222",
+      "name": "Karslılar Taksi",
+      "phone": "05368420692",
+      "website": null,
+      "lat": 37.058051,
+      "lon": 35.2896448,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368420692-223",
+      "name": "Kasım Ener Taksi",
+      "phone": "05368420692",
+      "website": null,
+      "lat": 37.05053641,
+      "lon": 35.21536622,
+      "address": "Güzelyalı, Kurttepe, Suna Kan bulvarı no: 37/A, 01360 Çukurova/Adana Karslılar mahallesi, Uğur Mumcu Blv., 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435336296-224",
+      "name": "Kelebek Taksi",
+      "phone": "05435336296",
+      "website": null,
+      "lat": 37.0187441,
+      "lon": 35.2822433,
+      "address": "Toros, Hayalpark yanı, 78112. Sk., 01160 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05446795373-225",
+      "name": "Kenan Evren Kaplan Taksi",
+      "phone": "05446795373",
+      "website": null,
+      "lat": 37.0473634,
+      "lon": 34.9909249,
+      "address": "Güzelyalı, 81176. Sk. No:15, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326865208-226",
+      "name": "Kenan Evren Sultan Taksi",
+      "phone": "05326865208",
+      "website": null,
+      "lat": 37.0468957,
+      "lon": 35.2581575,
+      "address": "Toros, 95, Şehitler Bulvarı, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05302227795-227",
+      "name": "Kurttepe Ayyıldız Taksi",
+      "phone": "05302227795",
+      "website": null,
+      "lat": 37.03517289,
+      "lon": 35.2595441,
+      "address": "Reşatbey, 01119 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05539412955-228",
+      "name": "Kurttepe Taksi",
+      "phone": "05539412955",
+      "website": null,
+      "lat": 37.03811511,
+      "lon": 35.21941387,
+      "address": "Kurttepe, Suna kan bulvarı, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05417868898-229",
+      "name": "Çukurova Taksi",
+      "phone": "05417868898",
+      "website": null,
+      "lat": 37.0530236,
+      "lon": 35.2799478,
+      "address": "Taksi Durağı · 71537. Sk.",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462010005-230",
+      "name": "Mahfesığmaz Taksi",
+      "phone": "05462010005",
+      "website": null,
+      "lat": 37.04986559,
+      "lon": 35.21563932,
+      "address": "81155 01006, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03222351380-231",
+      "name": "Onbaşı Taksi",
+      "phone": "03222351380",
+      "website": null,
+      "lat": 37.038877,
+      "lon": 35.305177,
+      "address": "Mahfesığmaz Mah. Kenan Evren Blv. Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359535676-232",
+      "name": "Özal Taksi",
+      "phone": "05359535676",
+      "website": null,
+      "lat": 37.04696031,
+      "lon": 35.26688105,
+      "address": "Belediye Evleri, 84248. Sk. No:01, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05348528513-233",
+      "name": "Ozan Taksi",
+      "phone": "05348528513",
+      "website": null,
+      "lat": 37.0453338,
+      "lon": 35.3068194,
+      "address": "Taksi Durağı · 79133. Sk.",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222350068-234",
+      "name": "Ozan Taksi",
+      "phone": "03222350068",
+      "website": null,
+      "lat": 36.9966708,
+      "lon": 35.1864577,
+      "address": "Mahfesığmaz, 79014. Sk. No:8 D:1, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03222350068-235",
+      "name": "Plaza Taksi",
+      "phone": "03222350068",
+      "website": null,
+      "lat": 37.041387,
+      "lon": 35.313745,
+      "address": "Mahfesığmaz Mah. Turgut Özal Blv. Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05398962513-236",
+      "name": "Poyraz Taksi",
+      "phone": "05398962513",
+      "website": null,
+      "lat": 37.014797,
+      "lon": 35.2321182,
+      "address": "Güzelyalı, 81171. Sk. No:2 D:4, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05522114309-237",
+      "name": "Reyhan Taksi",
+      "phone": "05522114309",
+      "website": null,
+      "lat": 37.0479686,
+      "lon": 35.2927698,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04122450441-238",
+      "name": "Rreyhan Taksi",
+      "phone": "04122450441",
+      "website": null,
+      "lat": 37.0458206,
+      "lon": 35.2263158,
+      "address": "Belediye Evleri, 84100. Sk. No:9, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413915542-239",
+      "name": "Istasyonu Taksi",
+      "phone": "05413915542",
+      "website": null,
+      "lat": 37.018286,
+      "lon": 35.2648412,
+      "address": "Belediye Evleri, 84029. Sk. No:2, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05466596276-240",
+      "name": "Sezer Taksi",
+      "phone": "05466596276",
+      "website": null,
+      "lat": 37.0406665,
+      "lon": 35.20937678,
+      "address": "Toros, Kasım Ener Cd, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05303783076-241",
+      "name": "Taksi Çukurova Adana",
+      "phone": "05303783076",
+      "website": null,
+      "lat": 37.0453278,
+      "lon": 35.298498,
+      "address": "Mahfesığmaz, gökkuşağı kavşağı, Turgut Özal Blv., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05446376667-242",
+      "name": "Sözügeçer Taksi",
+      "phone": "05446376667",
+      "website": null,
+      "lat": 37.0356583,
+      "lon": 35.2591023,
+      "address": "Toros mahallesi Şehitler bulvarı üniversiteliler, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05305269733-243",
+      "name": "Süleyman Demirel Taksi",
+      "phone": "05305269733",
+      "website": null,
+      "lat": 37.04628949,
+      "lon": 35.26660796,
+      "address": "Huzurevleri, 77056. Sk., 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05074041597-244",
+      "name": "Çukurova Ali Bey Taksi",
+      "phone": "05074041597",
+      "website": null,
+      "lat": 37.05053641,
+      "lon": 35.21679618,
+      "address": "Huzurevleri, 77237. Sk., 01010 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05536468796-245",
+      "name": "Durağı Tercih Taksi",
+      "phone": "05536468796",
+      "website": null,
+      "lat": 37.0519417,
+      "lon": 35.21273022,
+      "address": "Yurt, Yurt Mh. 71451 Sk No: 1 Gören Apt. Zemin Kat, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05496490441-246",
+      "name": "Tercih Taksi",
+      "phone": "05496490441",
+      "website": null,
+      "lat": 37.0264651,
+      "lon": 35.2028022,
+      "address": "Şambayadı, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05491991940-247",
+      "name": "Durağı Çukurova Taksi",
+      "phone": "05491991940",
+      "website": null,
+      "lat": 37.0521877,
+      "lon": 35.2774605,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05491991940-248",
+      "name": "Toros Çınar Taksi",
+      "phone": "05491991940",
+      "website": null,
+      "lat": 37.0521877,
+      "lon": 35.2393517,
+      "address": "Huzurevleri, Kurttepe Cd., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05301198348-249",
+      "name": "Toros Yurt Taksi",
+      "phone": "05301198348",
+      "website": null,
+      "lat": 37.0523098,
+      "lon": 35.256992,
+      "address": "Toros, Özel Sezar Hastanesi, Kasım Ener Cd, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05431551801-250",
+      "name": "Transit Taksi",
+      "phone": "05431551801",
+      "website": null,
+      "lat": 37.0453411,
+      "lon": 35.2693132,
+      "address": "Yurt Mahallesi 71363 Sokak Netlife2, Sitesi No:20, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413487464-251",
+      "name": "Turgut Özal Metro Taksi",
+      "phone": "05413487464",
+      "website": null,
+      "lat": 37.0409665,
+      "lon": 35.2087258,
+      "address": "Huzurevleri, İsmet Atlı Blv. No:13, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05356795617-252",
+      "name": "Turgut Özal Taksi",
+      "phone": "05356795617",
+      "website": null,
+      "lat": 37.04731029,
+      "lon": 35.25887246,
+      "address": "Huzurevleri, 01180 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380716551-253",
+      "name": "Turgut Özal Taksi",
+      "phone": "05380716551",
+      "website": null,
+      "lat": 37.041016,
+      "lon": 35.275513,
+      "address": "Huzurevleri Mah. 77176 Sok. 6 Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05070073687-254",
+      "name": "Turguz Özal Taksi",
+      "phone": "05070073687",
+      "website": null,
+      "lat": 37.42477228,
+      "lon": 34.26408469,
+      "address": "Güzelyalı, 81027. Sk., 01000 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380716551-255",
+      "name": "Uğur Mumcu Taksi",
+      "phone": "05380716551",
+      "website": null,
+      "lat": 37.0474957,
+      "lon": 35.2581575,
+      "address": "Toros, Turgut Özal Blv., 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05352281635-256",
+      "name": "Vip Taksi",
+      "phone": "05352281635",
+      "website": null,
+      "lat": 37.04696031,
+      "lon": 35.26545115,
+      "address": "Güzelyalı, Turgut Özal Blv. No:86 D:F, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444172710-257",
+      "name": "Yağmur Taksi",
+      "phone": "05444172710",
+      "website": null,
+      "lat": 37.0451785,
+      "lon": 35.2701231,
+      "address": "Yurt, Turgut Özal Blv., 01010 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05537616989-258",
+      "name": "Çukurova Taksi",
+      "phone": "05537616989",
+      "website": null,
+      "lat": 37.04768111,
+      "lon": 35.25887246,
+      "address": "Toros, 78181. Sk. 4 A, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05072474089-259",
+      "name": "Yeni Baraj Taksi",
+      "phone": "05072474089",
+      "website": null,
+      "lat": 37.0356305,
+      "lon": 35.26546983,
+      "address": "Güzelyalı, Şehitler Bulvarı, 01170 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05535130909-260",
+      "name": "Yüzüncü Yıl Bahçeşehir Taksi",
+      "phone": "05535130909",
+      "website": null,
+      "lat": 37.030604,
+      "lon": 35.314673,
+      "address": "Beyazevler Mah. Beyazevler Cad. 10/B Çukurova, Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413204747-261",
+      "name": "Yüzüncüyıl Carrefour Taksi",
+      "phone": "05413204747",
+      "website": null,
+      "lat": 37.0395003,
+      "lon": 35.2399936,
+      "address": "Taksi · 85081. Sk.",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03222565891-262",
+      "name": "adana-taksi",
+      "phone": "03222565891",
+      "website": null,
+      "lat": 37.0438712,
+      "lon": 35.212269,
+      "address": "100.yıl Mahallesi, 85021. Sk. Kardelen Apt No:27/A B/Blok Zemin Kat, 01360 Çukurova/Adana",
+      "districtId": "cukurova",
+      "districtName": "Cukurova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05349184193-263",
+      "name": "Atakent Siteler Taksi",
+      "phone": "05349184193",
+      "website": null,
+      "lat": 36.9727269,
+      "lon": 35.3081366,
+      "address": "D400 yolu Altınova kavsagi, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413700781-264",
+      "name": "Barajyolu Taksi",
+      "phone": "05413700781",
+      "website": null,
+      "lat": 37.42491027,
+      "lon": 34.26323916,
+      "address": "Atakent Mah Afetevleri cad, 2329. Sk., 01260 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427646410-265",
+      "name": "Başkent Taksi",
+      "phone": "05427646410",
+      "website": null,
+      "lat": 37.027598,
+      "lon": 35.313892,
+      "address": null,
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342649272-266",
+      "name": "Başkent Taksi",
+      "phone": "05342649272",
+      "website": null,
+      "lat": 36.99606,
+      "lon": 35.2893362,
+      "address": "Dadaloğlu, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03223232645-267",
+      "name": "Yüreğir Taksi",
+      "phone": "03223232645",
+      "website": null,
+      "lat": 37.004842,
+      "lon": 35.350013,
+      "address": "Yavuzlar Mah. 4189 Sok. Yüreğir, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223232645-268",
+      "name": "Berfin Taksi",
+      "phone": "03223232645",
+      "website": null,
+      "lat": 37.0089999,
+      "lon": 35.3480642,
+      "address": "Kazım Karabekir, Ege Bagatur Cd, 01230 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433142670-269",
+      "name": "Taksi durağı",
+      "phone": "05433142670",
+      "website": null,
+      "lat": 36.977281,
+      "lon": 35.3641902,
+      "address": "19 Mayıs, muhtarlık karşısı, 1062. Sk. D:75, 01000 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357372168-270",
+      "name": "Atakent Taksi",
+      "phone": "05357372168",
+      "website": null,
+      "lat": 36.9858909,
+      "lon": 35.3604721,
+      "address": "Taksi Durağı · Girne Blv. No:144",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352111477-271",
+      "name": "Dağ Taksi",
+      "phone": "05352111477",
+      "website": null,
+      "lat": 37.0066056,
+      "lon": 35.3241507,
+      "address": "Dadaloğlu, 2637. Sk., 01250 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05303901363-272",
+      "name": "Yüreğir Taksi",
+      "phone": "05303901363",
+      "website": null,
+      "lat": 36.9765031,
+      "lon": 35.3461145,
+      "address": "Ulaşım Hizmeti · 586. Sk. no61",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303901363-273",
+      "name": "Doğan Taksi",
+      "phone": "05303901363",
+      "website": null,
+      "lat": 36.9765031,
+      "lon": 35.2698968,
+      "address": "Yamaçlı, 586. Sk. no61, 01000 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322976135-274",
+      "name": "Yüreğir Taksi",
+      "phone": "05322976135",
+      "website": null,
+      "lat": 37.015744,
+      "lon": 35.33554,
+      "address": "Kışla Mah. 4389 Sok. 43 Yüreğir, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05322976135-275",
+      "name": "Emre Taksi",
+      "phone": "05322976135",
+      "website": null,
+      "lat": 36.982847,
+      "lon": 35.3563359,
+      "address": "Kışla, 489. Sk. NO:43, 01280 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396011371-276",
+      "name": "Görkem Taksi",
+      "phone": "05396011371",
+      "website": null,
+      "lat": 37.0016857,
+      "lon": 35.2888006,
+      "address": "Selahattin Eyyubi, 3818. Sk. No:44 D:80, 01240, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05078304289-277",
+      "name": "Hastane Taksi",
+      "phone": "05078304289",
+      "website": null,
+      "lat": 37.42494662,
+      "lon": 34.26338502,
+      "address": "Sarıçam, Kozan Cad. caddesi, 01010 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03223239228-278",
+      "name": "Hotel Adanava Taksi",
+      "phone": "03223239228",
+      "website": null,
+      "lat": 36.982429,
+      "lon": 35.338465,
+      "address": "Cumhuriyet Mah. Karataş Cad. Hasan Şaş Blv. 754. Sok. 1 Yüreğir, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05307719707-279",
+      "name": "Kışla Deniz Taksi",
+      "phone": "05307719707",
+      "website": null,
+      "lat": 36.9721269,
+      "lon": 35.3081366,
+      "address": "Levent, Girne Blv. No:262, 01316 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322976135-280",
+      "name": "Kışla Nehir Taksi",
+      "phone": "05322976135",
+      "website": null,
+      "lat": 37.0230719,
+      "lon": 35.3438494,
+      "address": "Kışla, Hasan GÜRHANİ Caddesi No:16, 01370 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05322976135-281",
+      "name": "Kışla Seyhanpark Taksi",
+      "phone": "05322976135",
+      "website": null,
+      "lat": 37.0142264,
+      "lon": 35.337633,
+      "address": "Taksi Durağı · Hasan GÜRHANİ Caddesi No:16",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05344928797-282",
+      "name": "Kışla Toki Taksi",
+      "phone": "05344928797",
+      "website": null,
+      "lat": 37.0236719,
+      "lon": 35.3438494,
+      "address": "Köprülü, Kışla Mahallesinde, 01150 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-03223240015-283",
+      "name": "Makas Taksi",
+      "phone": "03223240015",
+      "website": null,
+      "lat": 36.998157,
+      "lon": 35.34281,
+      "address": "Yavuzlar Mah. Kışla Cad. 220 Yüreğir, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05428302456-284",
+      "name": "Mobilyacilarsitelertaksi",
+      "phone": "05428302456",
+      "website": null,
+      "lat": 36.9873773,
+      "lon": 35.1770776,
+      "address": "isa alataş tıp merkezi yani makas mobilya karşışı, 01250 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05537980184-285",
+      "name": "Necmettin Taksi",
+      "phone": "05537980184",
+      "website": null,
+      "lat": 37.0015983,
+      "lon": 35.3049803,
+      "address": "Guzelevler mahallesi mese caddesi guldikermobilya yani, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05375726910-286",
+      "name": "Özen Taksi",
+      "phone": "05375726910",
+      "website": null,
+      "lat": 37.0066056,
+      "lon": 35.32339935,
+      "address": "Selahattin Eyyubi, Mahallesi, Şht. Jnd. Er Gökhan Yılmaz Cd. No:36, 01240 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224578834-287",
+      "name": "Özgür HATAYiLLi Ticari Taksi",
+      "phone": "03224578834",
+      "website": null,
+      "lat": 37.008565,
+      "lon": 35.315283,
+      "address": "Namık Kemal Mah. A. Remzi Yüreğir Cad. 35 Işıltan Apt. Seyhan, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05079308180-288",
+      "name": "Polis Okulu Kaymakamlık Taksi",
+      "phone": "05079308180",
+      "website": null,
+      "lat": 37.0284888,
+      "lon": 35.3137756,
+      "address": null,
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321711941-289",
+      "name": "Sarıçam Jet Taksi",
+      "phone": "05321711941",
+      "website": null,
+      "lat": 36.9935019,
+      "lon": 35.376101,
+      "address": "Taksi · 2237. Sk. Çiğdem apartman No 7 Daire 1",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321786063-290",
+      "name": "Seyhan Park Taksi",
+      "phone": "05321786063",
+      "website": null,
+      "lat": 37.0186972,
+      "lon": 35.3980407,
+      "address": null,
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05419630111-291",
+      "name": "Erol Taksi",
+      "phone": "05419630111",
+      "website": null,
+      "lat": 37.018014,
+      "lon": 35.332697,
+      "address": "Kışla Mah. 4433. Sok. Yüreğir, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413915542-292",
+      "name": "Yeni Adliye Taksi",
+      "phone": "05413915542",
+      "website": null,
+      "lat": 37.0066056,
+      "lon": 35.32490205,
+      "address": "Akıncılar, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355750278-293",
+      "name": "Yenidoğan Alara Taksi",
+      "phone": "05355750278",
+      "website": null,
+      "lat": 37.0291422,
+      "lon": 35.271757,
+      "address": "M.Kemal paşa bul . Selahattin Eyyubi mah. 131/a . Dinç aprtmn Dinçtaksi Mustafa Kemal Paşa Bulvarı No:131/a Dinç aprtmn Dinçtaksi, 01240 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451320108-294",
+      "name": "Yılmaz Taksi",
+      "phone": "05451320108",
+      "website": null,
+      "lat": 36.9875948,
+      "lon": 35.3447989,
+      "address": "Yenidoğan, 2151. Sk., 01010 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05375726910-295",
+      "name": "Yüreğir Kaymakamlık Taksi",
+      "phone": "05375726910",
+      "website": null,
+      "lat": 37.0078444,
+      "lon": 35.3602635,
+      "address": null,
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05321711941-296",
+      "name": "Yuregirozgurlevent Taksi",
+      "phone": "05321711941",
+      "website": null,
+      "lat": 36.9916382,
+      "lon": 35.3697152,
+      "address": "Atakent, 2237. Sk., 01260 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05418659025-297",
+      "name": "Yüreğir Taksi",
+      "phone": "05418659025",
+      "website": null,
+      "lat": 37.0060056,
+      "lon": 35.3241507,
+      "address": "Özgür, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05344300500-298",
+      "name": "Yüreğir Yenidoğan Taksi",
+      "phone": "05344300500",
+      "website": null,
+      "lat": 36.982517,
+      "lon": 35.345631,
+      "address": "Cumhuriyet Mah. Süleyman Vahit Cad. Yüreğir, Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05427622709-299",
+      "name": "adana-taksi",
+      "phone": "05427622709",
+      "website": null,
+      "lat": 36.99366321,
+      "lon": 34.76577095,
+      "address": "Yenidoğan, 2232. Sk. No 18, 01220 Yüreğir/Adana",
+      "districtId": "yuregir",
+      "districtName": "Yuregir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05317905641-300",
+      "name": "Adana Turkuaz Taksi",
+      "phone": "05317905641",
+      "website": null,
+      "lat": 37.0373051,
+      "lon": 35.313097,
+      "address": "Seyhan, 01150 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05079281959-301",
+      "name": "Akin Taksi",
+      "phone": "05079281959",
+      "website": null,
+      "lat": 37.03741969,
+      "lon": 35.27454629,
+      "address": "Mehmet Akif Ersoy, Ahmet Zenbilci Blv, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425943766-302",
+      "name": "Balcalı Taksi",
+      "phone": "05425943766",
+      "website": null,
+      "lat": 37.03809051,
+      "lon": 35.27570297,
+      "address": "Gültepe, Çatalan Cd. No:129/A, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368408292-303",
+      "name": "Buruk Taksi",
+      "phone": "05368408292",
+      "website": null,
+      "lat": 37.0109323,
+      "lon": 35.3177997,
+      "address": "Balcalı, Balcalı Hst., 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05339290282-304",
+      "name": "Gate Taksi",
+      "phone": "05339290282",
+      "website": null,
+      "lat": 37.0379051,
+      "lon": 35.2749881,
+      "address": "Yıldırım Beyazıt, 3407. Sk. NO: 4, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223329051-305",
+      "name": "Sariçam Koza Taksi",
+      "phone": "03223329051",
+      "website": null,
+      "lat": 37.42390365,
+      "lon": 34.26402922,
+      "address": "İncirlik Cumhuriyet, Atatürk Cd., 01340 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05314733472-306",
+      "name": "Sariçam Taksi",
+      "phone": "05314733472",
+      "website": null,
+      "lat": 36.9948205,
+      "lon": 34.74375631,
+      "address": "Yeşil Bağlar, 1197. Sk. No:1, 01010 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357821856-307",
+      "name": "Sariçam V.İ.p Taksi",
+      "phone": "05357821856",
+      "website": null,
+      "lat": 37.0319475,
+      "lon": 35.3720635,
+      "address": "Yeşiltepe, Kozan Cad. No.41, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05436490220-308",
+      "name": "Sarıçam Altınyıldız Taksi",
+      "phone": "05436490220",
+      "website": null,
+      "lat": 36.9948205,
+      "lon": 34.74505749,
+      "address": "Osmangazi, Kozan caddesi, Dilek atlıg bulvarı, Çatalan Cd., 01110 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03225032560-309",
+      "name": "Sarıçam Balcalı Toki Taksi",
+      "phone": "03225032560",
+      "website": null,
+      "lat": 37.42399164,
+      "lon": 34.26413455,
+      "address": "Gültepe, 71. Sk. No:10, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05344023113-310",
+      "name": "Sarıçam Başkan Taksi",
+      "phone": "05344023113",
+      "website": null,
+      "lat": 37.0716357,
+      "lon": 35.4082872,
+      "address": null,
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05319392086-311",
+      "name": "Sarıçam Çınarlı Toki Taksi",
+      "phone": "05319392086",
+      "website": null,
+      "lat": 37.4227518,
+      "lon": 34.2629303,
+      "address": "Elif Su Uludağ, Sarıçam Belediyesi ve Sarıçam Kaymakamlığı, Ahmet Zenbilci Blv 264 Sokak, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05344023113-312",
+      "name": "Sarıçam dost Taksi",
+      "phone": "05344023113",
+      "website": null,
+      "lat": 37.0319475,
+      "lon": 35.3705603,
+      "address": "Osmangazi, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467132423-313",
+      "name": "Sarıçam Sofulu Toki Taksi",
+      "phone": "05467132423",
+      "website": null,
+      "lat": 37.0596284,
+      "lon": 35.3983603,
+      "address": null,
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05344023113-314",
+      "name": "Sarıçam Taksi",
+      "phone": "05344023113",
+      "website": null,
+      "lat": 37.07376916,
+      "lon": 35.40806895,
+      "address": "Osmangazi Mah. 2023. Sok. Sarıçam, Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05309251136-315",
+      "name": "Sarıçam Vip Taksi",
+      "phone": "05309251136",
+      "website": null,
+      "lat": 37.03741969,
+      "lon": 35.27542991,
+      "address": "Orhangazi, 1184. Sk. No:20, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436490220-316",
+      "name": "Tan Taksi",
+      "phone": "05436490220",
+      "website": null,
+      "lat": 36.9951205,
+      "lon": 34.7444069,
+      "address": "Orhangazi Mahallesi, Kozan caddesi, Dilek atlıg bulvarı, Çatalan Cd., 01110 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365175733-317",
+      "name": "Turkuaz Taksi",
+      "phone": "05365175733",
+      "website": null,
+      "lat": 37.0319475,
+      "lon": 35.3713119,
+      "address": "Çarkıpare, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05534840362-318",
+      "name": "Yeni Sarıçam Belediye Taksi",
+      "phone": "05534840362",
+      "website": null,
+      "lat": 37.03809051,
+      "lon": 35.27427323,
+      "address": "Mehmet Akif Ersoy Mahallesi, Sezai Karakoç Blv, 51. Sk, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418655025-319",
+      "name": "Yeni Stadyum Taksi",
+      "phone": "05418655025",
+      "website": null,
+      "lat": 37.0313475,
+      "lon": 35.3713119,
+      "address": "Mehmet Akif Ersoy, 01250 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05515301940-320",
+      "name": "adana-taksi",
+      "phone": "05515301940",
+      "website": null,
+      "lat": 37.42409466,
+      "lon": 34.26421541,
+      "address": "Gültepe, Çatalan Cd., 01790 Sarıçam/Adana",
+      "districtId": "saricam",
+      "districtName": "Saricam",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454284853-321",
+      "name": "Ceyhan Hastane Taksi",
+      "phone": "05454284853",
+      "website": null,
+      "lat": 37.0263482,
+      "lon": 35.8390425,
+      "address": null,
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05458571007-322",
+      "name": "2 Taksi",
+      "phone": "05458571007",
+      "website": null,
+      "lat": 37.0187481,
+      "lon": 35.8330296,
+      "address": "Taksi Durağı · Prof. Dr. Kemal Dal Cd. No:88",
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05309971520-323",
+      "name": "Ceyhan Mekan Taksi",
+      "phone": "05309971520",
+      "website": null,
+      "lat": 37.0309996,
+      "lon": 35.5156753,
+      "address": "Burhaniye, İnönü Blv., 01920 Ceyhan/Adana",
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05331463464-324",
+      "name": "Ceyhan Otogar Elit Taksi",
+      "phone": "05331463464",
+      "website": null,
+      "lat": 37.0309996,
+      "lon": 35.8205459,
+      "address": null,
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438815055-325",
+      "name": "Ceyhan Taksi",
+      "phone": "05438815055",
+      "website": null,
+      "lat": 37.026337,
+      "lon": 35.838998,
+      "address": null,
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05431081978-326",
+      "name": "-m Taksi",
+      "phone": "05431081978",
+      "website": null,
+      "lat": 37.0172572,
+      "lon": 35.58308555,
+      "address": "Burhaniye, Hükümet Cd., 01960 Ceyhan/Adana",
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05350264834-327",
+      "name": "Ceyhan Taksi",
+      "phone": "05350264834",
+      "website": null,
+      "lat": 37.0172572,
+      "lon": 35.5823341,
+      "address": "Burhaniye, Sakarya Cd. No:48, 01960, 01960 Ceyhan/Adana",
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05451415606-328",
+      "name": "Mekan Taksi",
+      "phone": "05451415606",
+      "website": null,
+      "lat": 37.0166572,
+      "lon": 35.5823341,
+      "address": "Şehit Hacı İbrahim, Kaymakamlık yanına, İnönü Blv. No:48, 01960 Ceyhan/Adana",
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05398561375-329",
+      "name": "adana-taksi",
+      "phone": "05398561375",
+      "website": null,
+      "lat": 37.0240115,
+      "lon": 35.81833617,
+      "address": "Türlübaş Mah. Dr. Mahir Alp Soydak Blv. 13 Ceyhan, Adana",
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433183861-330",
+      "name": "Akçatekir Taksi",
+      "phone": "05433183861",
+      "website": null,
+      "lat": 37.42440172,
+      "lon": 34.87278609,
+      "address": "Cumhuriyet Mah. Atatürk Cad. 24 Pozantı, Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05073449851-331",
+      "name": "Erten Taksi",
+      "phone": "05073449851",
+      "website": null,
+      "lat": 37.3376536,
+      "lon": 34.7255217,
+      "address": "Akçatekir Bld, Adana Aksaray Yolu No:278, 01490 Pozantı/Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444269950-332",
+      "name": "Kamişli Özkul Taksi",
+      "phone": "05444269950",
+      "website": null,
+      "lat": 37.42441688,
+      "lon": 34.87278453,
+      "address": "Cumhuriyet Mah. Atatürk Cad. Pozantı, Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05070063825-333",
+      "name": "Pozanti Arda Taksi",
+      "phone": "05070063825",
+      "website": null,
+      "lat": 37.42456728,
+      "lon": 34.26424559,
+      "address": "Kamışlı, 01480 Pozantı/Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05434310619-334",
+      "name": "Pozanti Taksi",
+      "phone": "05434310619",
+      "website": "https://www.facebook.com/profile.php?id=100005205315825",
+      "lat": 37.422029,
+      "lon": 34.8660164,
+      "address": "Cumhuriyet, 01470 Pozantı/Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05444269950-335",
+      "name": "Pozantı Erten Taksi",
+      "phone": "05444269950",
+      "website": null,
+      "lat": 37.42420851,
+      "lon": 34.2642685,
+      "address": "ÇAMLIOĞLU APART İstiklal Filiz Sokak D:ZEMİN, KAT, 01470 Pozantı/Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05323545148-336",
+      "name": "Hira Taksi",
+      "phone": "05323545148",
+      "website": null,
+      "lat": 37.42432851,
+      "lon": 34.26429165,
+      "address": "Cumhuriyet, Atatürk Cd. No:32, 01470 Pozantı/Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05308945601-337",
+      "name": "Metin Taksi",
+      "phone": "05308945601",
+      "website": null,
+      "lat": 37.4231939,
+      "lon": 34.8720291,
+      "address": "İstiklal,çamlıoğlu apart, filiz sk. D:zemin, kat, 01470 Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05419422233-338",
+      "name": "Erten Taksi",
+      "phone": "05419422233",
+      "website": null,
+      "lat": 37.42444976,
+      "lon": 34.26428391,
+      "address": "İstiklal, Gençlik Cd., 01470 Pozantı/Adana",
+      "districtId": "pozanti",
+      "districtName": "Pozanti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413915542-339",
+      "name": "Karataş Taksi",
+      "phone": "05413915542",
+      "website": null,
+      "lat": 36.5660908,
+      "lon": 35.3841275,
+      "address": "Kemaliye, Atatürk caddesi No:152, 01900 Karataş/Adana",
+      "districtId": "karatas",
+      "districtName": "Karatas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425035359-340",
+      "name": "Karataş Taksi",
+      "phone": "05425035359",
+      "website": null,
+      "lat": 36.5654908,
+      "lon": 35.3841275,
+      "address": "Kemaliye, Atatürk Blv. No:24, 01900 Karataş/Adana",
+      "districtId": "karatas",
+      "districtName": "Karatas",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03225155454-341",
+      "name": "Taksi durağı",
+      "phone": "03225155454",
+      "website": null,
+      "lat": 37.462026,
+      "lon": 35.8129748,
+      "address": "Türkeli, 01530 Kozan/Adana",
+      "districtId": "kozan",
+      "districtName": "Kozan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03223551303-342",
+      "name": "Mustafa Azgın Otogar Taksi",
+      "phone": "03223551303",
+      "website": null,
+      "lat": 37.4632363,
+      "lon": 35.823817,
+      "address": null,
+      "districtId": "kozan",
+      "districtName": "Kozan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03224281213-343",
+      "name": "Uğur Taksi",
+      "phone": "03224281213",
+      "website": null,
+      "lat": 37.0033234,
+      "lon": 35.2344979,
+      "address": "Taksi Durağı · 46036. Sk. 1/B",
+      "districtId": "karaisali",
+      "districtName": "Karaisali",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05055614488-344",
+      "name": "Gümüşay Market Taksi",
+      "phone": "05055614488",
+      "website": null,
+      "lat": 38.2610657,
+      "lon": 36.2202891,
+      "address": "Cumhuriyet, Saimbeyli Cd, 01640 Tufanbeyli/Adana",
+      "districtId": "tufanbeyli",
+      "districtName": "Tufanbeyli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05359566682-345",
+      "name": "İMECE TAKSİ",
+      "phone": "05359566682",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05411352527-346",
+      "name": "Özal Taksi",
+      "phone": "05411352527",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05327324141-347",
+      "name": "OS-KAR TRANSİT TAKSİ",
+      "phone": "05327324141",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05444352020-348",
+      "name": "Adana Koop Taksi İletişim",
+      "phone": "05444352020",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366498831-349",
+      "name": "Sarıçam Taksi",
+      "phone": "05366498831",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05446152734-350",
+      "name": "Adana Taksi",
+      "phone": "05446152734",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05301222601-351",
+      "name": "Denizli Tunç Taksi AÇIK · 7 gün 24 saat Adana Seyhan Mithatpaşa Caddesi, 58224. ",
+      "phone": "05301222601",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365665701-352",
+      "name": "Karasu Taksi AÇIK · 7 gün 24 saat Gülbahçesi, Ahmet Cevdet Yağ Caddesi No:365, 0",
+      "phone": "05365665701",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05349122251-353",
+      "name": "Kurtuluş Taksi",
+      "phone": "05349122251",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05375540709-354",
+      "name": "Taksi",
+      "phone": "05375540709",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05346810701-355",
+      "name": "Taksi Özcan Seyhan AÇIK · 7 gün 24 saat Ali Bozdagan Bulvarı Gürselpaşa 75396. S",
+      "phone": "05346810701",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03223654406-356",
+      "name": "Toros Taksi",
+      "phone": "03223654406",
+      "website": null,
+      "lat": 37,
+      "lon": 35.3213,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05011016201-357",
+      "name": "Adana Şehir Hastanesi Taksi - Serdal Torun",
+      "phone": "05011016201",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yuregir",
+      "districtName": "Yüreğir",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05393624956-358",
+      "name": "Aslan Taksi - Osman",
+      "phone": "05393624956",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "seyhan",
+      "districtName": "Seyhan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05324681388-359",
+      "name": "Ceyhan Ada Taksi Durağı",
+      "phone": "05324681388",
+      "website": "https://www.facebook.com/ceyhantaksi01/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ceyhan",
+      "districtName": "Ceyhan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05510775691-360",
+      "name": "Karslılar Taksi - Osman Taşçı",
+      "phone": "05510775691",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Çukurova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05415970541-361",
+      "name": "Nergiz Taksi - Yasin Egem",
+      "phone": "05415970541",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Çukurova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-03225026646-362",
+      "name": "Nergiz Taksi Durağı",
+      "phone": "03225026646",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurova",
+      "districtName": "Çukurova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05458554086-363",
+      "name": "Pozantı Taksi - Mutlu Özüak",
+      "phone": "05458554086",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "pozanti",
+      "districtName": "Pozantı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05448719862-364",
+      "name": "Sarıçam Taksi - Turgay Kıvrak",
+      "phone": "05448719862",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "saricam",
+      "districtName": "Sarıçam",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

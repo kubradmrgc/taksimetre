@@ -1,0 +1,770 @@
+{
+  "cityId": "gumushane",
+  "cityName": "Gümüşhane",
+  "fetchedAt": "2026-08-30T21:31:26.708Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "kelkit",
+      "name": "Kelkit",
+      "count": 13
+    },
+    {
+      "id": "kurtun",
+      "name": "Kurtun",
+      "count": 5
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 16
+    },
+    {
+      "id": "siran",
+      "name": "Siran",
+      "count": 1
+    },
+    {
+      "id": "torul",
+      "name": "Torul",
+      "count": 2
+    }
+  ],
+  "count": 47,
+  "stands": [
+    {
+      "id": "taksi724-04562131979-0",
+      "name": "Çiçek Taksi",
+      "phone": "04562131979",
+      "website": null,
+      "lat": 40.461487,
+      "lon": 39.47252,
+      "address": "Hasanbey Mah. Cumhuriyet Cad. 88 Gümüşhane Merkez, Gümüşhane",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04562134646-1",
+      "name": "Emek Taksi",
+      "phone": "04562134646",
+      "website": null,
+      "lat": 40.459,
+      "lon": 39.479,
+      "address": "Hasanbey Mah. Hasanbey Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374912346-2",
+      "name": "Gözde Taksi",
+      "phone": "05374912346",
+      "website": null,
+      "lat": 40.459143,
+      "lon": 39.480434,
+      "address": "Karaer Mah. Hürriyet Cad. Dilaver Cebeci Sok. 30 Gümüşhane Merkez, Gümüşhane",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04562132103-3",
+      "name": "Gümüşhane Devlet Hastanesi Taksi",
+      "phone": "04562132103",
+      "website": null,
+      "lat": 40.4582,
+      "lon": 39.4782,
+      "address": "Karaer Mah. Cumhuriyet Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521555529-4",
+      "name": "Gümüşhane Taksi",
+      "phone": "05521555529",
+      "website": null,
+      "lat": 40.46142322,
+      "lon": 39.46704177,
+      "address": "Hasanbey Mah. Daltaban, Gümüşhane Merkez, Gümüşhane",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303552901-5",
+      "name": "Gümüşhane VIP Taksi",
+      "phone": "05303552901",
+      "website": null,
+      "lat": 40.4584,
+      "lon": 39.479,
+      "address": "Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05378940330-6",
+      "name": "Mordut Taksi",
+      "phone": "05378940330",
+      "website": null,
+      "lat": 40.461,
+      "lon": 39.481,
+      "address": "Akçakale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04562131880-7",
+      "name": "Murat Taksi",
+      "phone": "04562131880",
+      "website": null,
+      "lat": 40.46,
+      "lon": 39.48,
+      "address": "İnönü Mah. Transit Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04562133251-8",
+      "name": "Ömür Taksi",
+      "phone": "04562133251",
+      "website": null,
+      "lat": 40.458,
+      "lon": 39.478,
+      "address": "Karaer Mah. Sebahattin Aytaç Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352709950-9",
+      "name": "Sefa Taksi",
+      "phone": "05352709950",
+      "website": null,
+      "lat": 40.4583,
+      "lon": 39.4783,
+      "address": "Karaer Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05393142220-10",
+      "name": "Ulusoy Taksi",
+      "phone": "05393142220",
+      "website": null,
+      "lat": 40.461221,
+      "lon": 39.473346,
+      "address": "Hasanbey Mah. Cumhuriyet Cad. Gümüşhane Merkez, Gümüşhane",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04562135322-11",
+      "name": "Üniversite Taksi",
+      "phone": "04562135322",
+      "website": null,
+      "lat": 40.4588,
+      "lon": 39.4788,
+      "address": "Karaer Mah. Atatürk Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04562337529-12",
+      "name": "Yeni Hastane Taksi",
+      "phone": "04562337529",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4808,
+      "address": "Bağlarbaşı Mah. Kazım Karabekir Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521555529-13",
+      "name": "Yunus Emre Taksi",
+      "phone": "05521555529",
+      "website": null,
+      "lat": 40.462,
+      "lon": 39.482,
+      "address": "Bağlarbaşı Mah. Şahbenderler Semti",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324019883-14",
+      "name": "gumushane-taksi",
+      "phone": "05324019883",
+      "website": null,
+      "lat": 40.4586,
+      "lon": 39.4786,
+      "address": "Karaer Mah. Atatürk Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04562134646-15",
+      "name": "Gümüşhane Hastane Taksi",
+      "phone": "04562134646",
+      "website": null,
+      "lat": 40.132073,
+      "lon": 39.440322,
+      "address": "Büyükcami Mah. Çiflik Cad. Kelkit, Gümüşhane",
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521555529-16",
+      "name": "Gümüşhane Taksi",
+      "phone": "05521555529",
+      "website": null,
+      "lat": 40.4400365,
+      "lon": 39.5040393,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05356160929-17",
+      "name": "Kayhan Taksi",
+      "phone": "05356160929",
+      "website": null,
+      "lat": 40.4484125,
+      "lon": 39.48969,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321006249-18",
+      "name": "Kelkit 7.24 1. Taksi",
+      "phone": "05321006249",
+      "website": null,
+      "lat": 40.4456815,
+      "lon": 39.5077522,
+      "address": "Taksi · Eskibağlar Mahallesi Çavuşlu Semti Küme Evler No:16 / A",
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05387389529-19",
+      "name": "Kelkit Taksi",
+      "phone": "05387389529",
+      "website": null,
+      "lat": 40.1297894,
+      "lon": 39.4362829,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373671337-20",
+      "name": "Kelkit Taksi",
+      "phone": "05373671337",
+      "website": null,
+      "lat": 40.12,
+      "lon": 39.43,
+      "address": "Kelkit Merkez",
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373920090-21",
+      "name": "Kelkit Taksi",
+      "phone": "05373920090",
+      "website": null,
+      "lat": 40.1256889,
+      "lon": 39.4346863,
+      "address": "Taksi ·  · Cumhuriyet Sk.",
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352965245-22",
+      "name": "Kelkit Taksi",
+      "phone": "05352965245",
+      "website": null,
+      "lat": 40.1365888,
+      "lon": 39.4323625,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05393871929-23",
+      "name": "Kelkit Üniversite Taksi",
+      "phone": "05393871929",
+      "website": null,
+      "lat": 40.137233,
+      "lon": 39.4321663,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05377002961-24",
+      "name": "Otogar Taksi",
+      "phone": "05377002961",
+      "website": null,
+      "lat": 40.1110934,
+      "lon": 39.4517392,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05058931896-25",
+      "name": "Otogar Taksi",
+      "phone": "05058931896",
+      "website": null,
+      "lat": 40.4606207,
+      "lon": 39.4704074,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05378242166-26",
+      "name": "ÜNiVERSiTE TAKSi",
+      "phone": "05378242166",
+      "website": null,
+      "lat": 40.4609317,
+      "lon": 39.4702274,
+      "address": null,
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04562337529-27",
+      "name": "gumushane-taksi",
+      "phone": "04562337529",
+      "website": null,
+      "lat": 40.435026,
+      "lon": 39.517437,
+      "address": "Taksi Durağı ·  · Kazım Karabekir Cd. No:83",
+      "districtId": "kelkit",
+      "districtName": "Kelkit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05058530006-28",
+      "name": "Kürtün Taksi",
+      "phone": "05058530006",
+      "website": null,
+      "lat": 40.68,
+      "lon": 39.09,
+      "address": "Kürtün Merkez",
+      "districtId": "kurtun",
+      "districtName": "Kurtun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05058530006-29",
+      "name": "Kürtün Taksi",
+      "phone": "05058530006",
+      "website": null,
+      "lat": 40.7013478,
+      "lon": 39.088928,
+      "address": null,
+      "districtId": "kurtun",
+      "districtName": "Kurtun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05363009654-30",
+      "name": "Kürtün Taksi",
+      "phone": "05363009654",
+      "website": null,
+      "lat": 40.700877,
+      "lon": 39.0877268,
+      "address": "Taksi · Gümüşhane Giresun Yolu No:5",
+      "districtId": "kurtun",
+      "districtName": "Kurtun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332357680-31",
+      "name": "Torul Taksi",
+      "phone": "05332357680",
+      "website": null,
+      "lat": 40.556605,
+      "lon": 39.294084,
+      "address": "Kaledibi Mah. Cumhuriyet Cad. Torul Otogarı Torul, Gümüşhane",
+      "districtId": "torul",
+      "districtName": "Torul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352335128-32",
+      "name": "Torul Taksi",
+      "phone": "05352335128",
+      "website": null,
+      "lat": 40.55,
+      "lon": 39.29,
+      "address": "Kaledibi Mah. Cumhuriyet Cad. Torul Otogarı",
+      "districtId": "torul",
+      "districtName": "Torul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364757312-33",
+      "name": "iran Taksi",
+      "phone": "05364757312",
+      "website": null,
+      "lat": 40.19,
+      "lon": 39.125,
+      "address": "Köprübaşı Cad. Şiran",
+      "districtId": "siran",
+      "districtName": "Siran",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05330459841-34",
+      "name": "Otogar Taksi/Gümüşhane",
+      "phone": "05330459841",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05319396121-35",
+      "name": "Gümüşhane Eski Hastane Taksi",
+      "phone": "05319396121",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05355465163-36",
+      "name": "ÖMÜR TAKSİ SERVET PELİT",
+      "phone": "05355465163",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05379882774-37",
+      "name": "GÖZDE TAKSİ 29 T 0041",
+      "phone": "05379882774",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05336372970-38",
+      "name": "Gümüşhane merkez Murat taksi Adem",
+      "phone": "05336372970",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05441170121-39",
+      "name": "Çiçek Taksi Gümüşhane AÇIK · 7 gün 24 saat Karaer, Hasan Bey Cd. No:59, 29000 Gü",
+      "phone": "05441170121",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05527891515-40",
+      "name": "Gümüşhane Merkez Taksi",
+      "phone": "05527891515",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05353573369-41",
+      "name": "Kelkit Taksi 7/24",
+      "phone": "05353573369",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05369730056-42",
+      "name": "Kelkit Taksi Kelkit AÇIK · 7 gün 24 saat Küçükcami, Milli egemenlik meydanı, 296",
+      "phone": "05369730056",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05362969720-43",
+      "name": "Kelkit Terminal Taksi – Kelkit",
+      "phone": "05362969720",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05374240394-44",
+      "name": "Kürtün Taksi Telefon No AÇIK · 7 gün 24 saat Aşağı Uluköy, Gümüşhane Giresun Yol",
+      "phone": "05374240394",
+      "website": null,
+      "lat": 40.4608,
+      "lon": 39.4814,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05384601893-45",
+      "name": "Kürtün Taksi - Ali Kutlu",
+      "phone": "05384601893",
+      "website": "https://www.facebook.com/profile.php?id=100004441939374",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kurtun",
+      "districtName": "Kürtün",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05058530005-46",
+      "name": "Kürtün Taksi - Mustafa Doğan",
+      "phone": "05058530005",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kurtun",
+      "districtName": "Kürtün",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

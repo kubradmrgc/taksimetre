@@ -1,0 +1,1157 @@
+{
+  "cityId": "kahramanmaras",
+  "cityName": "Kahramanmaraş",
+  "fetchedAt": "2026-08-30T21:21:43.513Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 95,
+  "stands": [
+    {
+      "id": "taksi724-05465259484-0",
+      "name": "Adliye Taksi",
+      "phone": "05465259484",
+      "lat": 37.587423,
+      "lon": 36.8577824,
+      "address": "Taksi ·  · Mevsim Sitesi, 32096. Sk. No: 36/H",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05432981215-1",
+      "name": "Bahçelievler Taksi",
+      "phone": "05432981215",
+      "lat": 37.5994746,
+      "lon": 36.8386203,
+      "address": "Taksi Durağı · 14064. Sk. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03442240909-2",
+      "name": "Binevler Taksi",
+      "phone": "03442240909",
+      "lat": 37.576677,
+      "lon": 36.931034,
+      "address": "Taksi · Zübeyde Hanim Caddesi Başak Apt.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313248101-3",
+      "name": "Çocuk Hastanesi Taksi",
+      "phone": "05313248101",
+      "lat": 37.5906246,
+      "lon": 36.8704424,
+      "address": "Taksi Durağı · Prof. Dr. Necmettin Erbakan Blv No:29 D:57, 46050",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304540609-4",
+      "name": "Derya Taksi",
+      "phone": "05304540609",
+      "lat": 37.594443,
+      "lon": 36.882951,
+      "address": "Taksi Durağı ·  · Alaaddin Özdenören Caddesi, 48041. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03442218010-5",
+      "name": "Doğukent Taksi",
+      "phone": "03442218010",
+      "lat": 37.5774278,
+      "lon": 36.9309121,
+      "address": "Taksi Durağı · Trabzon Blv. No:40",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541882595-6",
+      "name": "DULKADiROĞLU Maraş Taksi",
+      "phone": "05541882595",
+      "lat": 37.583387,
+      "lon": 36.981852,
+      "address": "Taksi Durağı · 17004. Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424170418-7",
+      "name": "Esentepe akdo Taksi",
+      "phone": "05424170418",
+      "lat": 37.5669381,
+      "lon": 36.9396697,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05401230046-8",
+      "name": "HASTANE TAKSi",
+      "phone": "05401230046",
+      "lat": 37.5923056,
+      "lon": 36.8989947,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03442140046-9",
+      "name": "Kahramanmaraş Acil Taksi",
+      "phone": "03442140046",
+      "lat": 37.5930237,
+      "lon": 36.9245597,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05449380131-10",
+      "name": "Kahramanmaraş havaalanı Taksi",
+      "phone": "05449380131",
+      "lat": 37.5943518,
+      "lon": 36.922852,
+      "address": "Taksi Durağı · 75025. Sk. no8",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05386565043-11",
+      "name": "Kahramanmaraş Otogar Taksi",
+      "phone": "05386565043",
+      "lat": 37.5398594,
+      "lon": 36.967364,
+      "address": "Taksi ·  · Erkenez Mah. 46060",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03442350046-12",
+      "name": "Kahramanmaraş Taksi",
+      "phone": "03442350046",
+      "lat": 37.5527714,
+      "lon": 36.920674,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383717854-13",
+      "name": "Kahramanmaraş/YiMPAŞ TAKSi",
+      "phone": "05383717854",
+      "lat": 37.581116,
+      "lon": 36.927826,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356269154-14",
+      "name": "Kar Taksi",
+      "phone": "05356269154",
+      "lat": 37.5751504,
+      "lon": 36.9245347,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05362680343-15",
+      "name": "Kıbrıs Meydanı Taksi",
+      "phone": "05362680343",
+      "lat": 37.5787731,
+      "lon": 36.9278355,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342611866-16",
+      "name": "K.Maraş 7/24 Hastane Acil Pala Taksi",
+      "phone": "05342611866",
+      "lat": 37.587,
+      "lon": 36.926,
+      "address": "Kıbrıs Meydanı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434437805-17",
+      "name": "Kültür Taksi",
+      "phone": "05434437805",
+      "lat": 37.594636,
+      "lon": 36.9234457,
+      "address": "Taksi Durağı · 75029. Sk. no: 10",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384175200-18",
+      "name": "Kültür Taksi",
+      "phone": "05384175200",
+      "lat": 37.5873794,
+      "lon": 36.8975598,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374708585-19",
+      "name": "Maraş bölge Taksi",
+      "phone": "05374708585",
+      "lat": 37.5869187,
+      "lon": 36.8963409,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05553300040-20",
+      "name": "Maraş Merkez Taksi",
+      "phone": "05553300040",
+      "lat": 37.577291,
+      "lon": 36.930854,
+      "address": "Taksi · No:40 Trabzon Bulvarı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442611866-21",
+      "name": "Kahramanmaraş Müze Taksi",
+      "phone": "05442611866",
+      "lat": 37.586,
+      "lon": 36.928,
+      "address": "Tekerek Mahallesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461624646-22",
+      "name": "Maras Taksi",
+      "phone": "05461624646",
+      "lat": 37.5735815,
+      "lon": 36.9260197,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05011460708-23",
+      "name": "Maraş Taksi",
+      "phone": "05011460708",
+      "lat": 37.688152,
+      "lon": 36.7636065,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366576219-24",
+      "name": "Onikişubatbinevler Taksi",
+      "phone": "05366576219",
+      "lat": 37.5714173,
+      "lon": 36.9194941,
+      "address": "Taksi Durağı · Piazza Avm Yanı, Haydar Aliyev Blv. No:7",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402428087-25",
+      "name": "ONiKiŞUBAT MAĞRALI TAKSi",
+      "phone": "05402428087",
+      "lat": 37.593378,
+      "lon": 36.8614269,
+      "address": "Taksi · Prof. Dr. Necmettin Erbakan Blv No:40",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448783430-26",
+      "name": "7/24 Taksi",
+      "phone": "05448783430",
+      "lat": 37.592063,
+      "lon": 36.9259803,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461624646-27",
+      "name": "Piazza Taksi",
+      "phone": "05461624646",
+      "lat": 37.5712459,
+      "lon": 36.9243245,
+      "address": "Taksi Durağı ·  · Piazza Avm yani Şazi Bey mah haydar aliyev bul 3-1 Stad Cd. No:11, Kahramanmaraş Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05549053797-28",
+      "name": "Sular Hastanesi Taksi",
+      "phone": "05549053797",
+      "lat": 37.5683869,
+      "lon": 36.9247938,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05528610722-29",
+      "name": "Taksi",
+      "phone": "05528610722",
+      "lat": 37.5651609,
+      "lon": 36.9293826,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013200046-30",
+      "name": "Taksi durağı",
+      "phone": "05013200046",
+      "lat": 37.5814132,
+      "lon": 36.8663706,
+      "address": "Taksi ·  · Boğaziçi Mahallesi 95002. Sokak Eskalen sitesi altı no:7/D",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425322046-31",
+      "name": "Tekerek Akdo Taksi",
+      "phone": "05425322046",
+      "lat": 37.59,
+      "lon": 36.93,
+      "address": "Kahramanmaraş Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521824646-32",
+      "name": "Yörükselim Çamlık Taksi",
+      "phone": "05521824646",
+      "lat": 37.5841631,
+      "lon": 36.8687061,
+      "address": "Taksi Durağı ·  · 32050. Sk. No: 2/1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05376477444-33",
+      "name": "kahramanmaras-taksi",
+      "phone": "05376477444",
+      "lat": 37.594782,
+      "lon": 36.9237281,
+      "address": "Taksi · 75029. Sk. No:2 D:10",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423125173-34",
+      "name": "Afşin Otogar Taksi",
+      "phone": "05423125173",
+      "lat": 38.246989,
+      "lon": 36.9162384,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413003835-35",
+      "name": "Afşin Taksi",
+      "phone": "05413003835",
+      "lat": 38.2438697,
+      "lon": 36.9110217,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454427044-36",
+      "name": "Afşin Taksi",
+      "phone": "05454427044",
+      "lat": 38.2473682,
+      "lon": 36.9141766,
+      "address": "Taksi Durağı ·  · Tuğrabi Sk. No:7",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445312117-37",
+      "name": "Afşin Taksi",
+      "phone": "05445312117",
+      "lat": 37.8856769,
+      "lon": 37.0338285,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426350393-38",
+      "name": "Afşin En Yakın Taksi",
+      "phone": "05426350393",
+      "lat": 38.249413,
+      "lon": 36.9143814,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05422667156-39",
+      "name": "Afşin Taksi",
+      "phone": "05422667156",
+      "lat": 38.2460977,
+      "lon": 36.9201015,
+      "address": "Taksi Durağı · Kale mahallesi Fatih caddesi, Karapehlivan Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413003835-40",
+      "name": "Çerkez Taksi",
+      "phone": "05413003835",
+      "lat": 38.2439179,
+      "lon": 36.9110429,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423125173-41",
+      "name": "Termik Taksi",
+      "phone": "05423125173",
+      "lat": 38.247007,
+      "lon": 36.9157324,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422271657-42",
+      "name": "Afşin Taksi",
+      "phone": "05422271657",
+      "lat": 38.2483003,
+      "lon": 36.9142253,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05412773141-43",
+      "name": "Elbistan Çiçek Taksi",
+      "phone": "05412773141",
+      "lat": 38.1921174,
+      "lon": 37.2017864,
+      "address": "Taksi Durağı · Köknar Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423511930-44",
+      "name": "Elbistan Hastane Taksi",
+      "phone": "05423511930",
+      "lat": 38.1993959,
+      "lon": 37.1917819,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433779101-45",
+      "name": "Elbistan Saraykent Taksi",
+      "phone": "05433779101",
+      "lat": 38.2044039,
+      "lon": 37.1574376,
+      "address": "Taksi Durağı · İstiklal Cd. No:15",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451313266-46",
+      "name": "Elbistan Taksi",
+      "phone": "05451313266",
+      "lat": 38.1969011,
+      "lon": 37.2113789,
+      "address": "Taksi Durağı ·  · Gül Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03444131313-47",
+      "name": "Elbistanda Güvenilir Taksi",
+      "phone": "03444131313",
+      "lat": 38.2,
+      "lon": 37.2,
+      "address": "Elbistan Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427302844-48",
+      "name": "Güneş Taksi",
+      "phone": "05427302844",
+      "lat": 38.2023248,
+      "lon": 37.1896721,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432803135-49",
+      "name": "Taksi",
+      "phone": "05432803135",
+      "lat": 38.2019649,
+      "lon": 37.1953512,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434762481-50",
+      "name": "Elbistan Hastane Taksi",
+      "phone": "05434762481",
+      "lat": 38.2176588,
+      "lon": 37.1803054,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372608087-51",
+      "name": "Kahramanmaraş Çarşı Taksi",
+      "phone": "05372608087",
+      "lat": 37.54,
+      "lon": 36.95,
+      "address": "Kahramanmaraş Havalimanı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334165710-52",
+      "name": "Kahramanmaraş Taksi",
+      "phone": "05334165710",
+      "lat": 37.5758893,
+      "lon": 36.9227404,
+      "address": "Taksi ·  · Hayrullah, Malik Ejder Cd. No:34, 46040 Onikişubat/Kahramanmaraş 180, D:0 m",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372608087-53",
+      "name": "Maraş Taksi",
+      "phone": "05372608087",
+      "lat": 37.578,
+      "lon": 36.915,
+      "address": "Yörükselim Mahallesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314625031-54",
+      "name": "Maraş Taksi",
+      "phone": "05314625031",
+      "lat": 37.5847,
+      "lon": 36.9228,
+      "address": "Kahramanmaraş Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342611866-55",
+      "name": "Piazza AVM Taksi",
+      "phone": "05342611866",
+      "lat": 37.582,
+      "lon": 36.925,
+      "address": "Şazibey Mahallesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314625031-56",
+      "name": "Kahramanmaraş Taksi",
+      "phone": "05314625031",
+      "lat": 37.575,
+      "lon": 36.91,
+      "address": "Piazza AVM",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03443114405-57",
+      "name": "Pazarcık Merkez Taksi",
+      "phone": "03443114405",
+      "lat": 37.4899884,
+      "lon": 37.2947729,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03443114405-58",
+      "name": "Pazarcık Taksi",
+      "phone": "03443114405",
+      "lat": 37.489736,
+      "lon": 37.2941928,
+      "address": "Taksi Durağı · 142. Sk. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03443171717-59",
+      "name": "Pazarcık Taksi",
+      "phone": "03443171717",
+      "lat": 37.48,
+      "lon": 37.3,
+      "address": "Pazarcık Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05055304653-60",
+      "name": "Göksun Ticari Taksi",
+      "phone": "05055304653",
+      "lat": 38.0190783,
+      "lon": 36.4919205,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05063935444-61",
+      "name": "Göksun Ticari Taksi",
+      "phone": "05063935444",
+      "lat": 38.0167934,
+      "lon": 36.4937209,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03446161616-62",
+      "name": "Türkoğlu Taksi",
+      "phone": "03446161616",
+      "lat": 37.39,
+      "lon": 36.85,
+      "address": "Türkoğlu Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05378485246-63",
+      "name": "maraş piazza taksi",
+      "phone": "05378485246",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05523504646-64",
+      "name": "Fakülte taksi",
+      "phone": "05523504646",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-08503460046-65",
+      "name": "Göksun 7/24 Alo Taksi",
+      "phone": "08503460046",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05387239323-66",
+      "name": "Maraş Merkez Taksi",
+      "phone": "05387239323",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05456610101-67",
+      "name": "KAR TAKSİ",
+      "phone": "05456610101",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05424969454-68",
+      "name": "Komutan Taksi",
+      "phone": "05424969454",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05427454032-69",
+      "name": "Maraş Taksi Ferhat Bey",
+      "phone": "05427454032",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-03445113264-70",
+      "name": "Emniyet Taksi Afşin",
+      "phone": "03445113264",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05342879227-71",
+      "name": "Kahramanmaraş Taksi Bayram Ay AÇIK · 7 gün 24 saat Dulkadiroğlu, bankalar taksi ",
+      "phone": "05342879227",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05426828726-72",
+      "name": "Elbistan Akasya Taksi Enver Culha",
+      "phone": "05426828726",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05057725819-73",
+      "name": "Elbistan Durak Taksi - Mehmet Sınır",
+      "phone": "05057725819",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05389465394-74",
+      "name": "Elbistan Güven Taksi Saraykent",
+      "phone": "05389465394",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05418593174-75",
+      "name": "Hüseyin Doğan Kent Taksi Elbistan",
+      "phone": "05418593174",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05357925876-76",
+      "name": "Taksielbistan",
+      "phone": "05357925876",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05386933225-77",
+      "name": "Termik Taksi Ali Orman",
+      "phone": "05386933225",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366750373-78",
+      "name": "Yaşam Hastanesi Taksi",
+      "phone": "05366750373",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05304164846-79",
+      "name": "Tümü → Acil Taksi Mevsim Taksi AÇIK · 7 gün 24 saat 22Gün Mah, Mevsim Sitesi, 32",
+      "phone": "05304164846",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05350584752-80",
+      "name": "Göksun 7/24 Alo Taksi AÇIK · 7 gün 24 saat Haydar Bey, Mahallesi, 32018. Sk. No:",
+      "phone": "05350584752",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05055440423-81",
+      "name": "Kahramanmaraş Otogar Taksi AÇIK · 7 gün 24 saat Malik ejder mahallesi Gazi Musta",
+      "phone": "05055440423",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05373564661-82",
+      "name": "Onikişubat Taksi",
+      "phone": "05373564661",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05431474600-83",
+      "name": "Tümü → Merkez Taksi AÇIK · 7 gün 24 saat Şehit Nurettin Ademoğlu, Gaziantep Kahr",
+      "phone": "05431474600",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05435528313-84",
+      "name": "Afşin Taksi - Mevlüt Ağyar",
+      "phone": "05435528313",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05414149967-85",
+      "name": "Ak Taksi - Serkan Önce",
+      "phone": "05414149967",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05315230724-86",
+      "name": "Elbistan Taksi - Emre Yılmaz",
+      "phone": "05315230724",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05306337442-87",
+      "name": "Halk Taksi - Yusuf Kara",
+      "phone": "05306337442",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05421164646-88",
+      "name": "Kahramanmaraş Taksi - Mesut Deşir",
+      "phone": "05421164646",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05448628897-89",
+      "name": "Kahramanmaraş Taksi - Mesut Özdemir",
+      "phone": "05448628897",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05374708383-90",
+      "name": "Kültür Taksi - Hasan",
+      "phone": "05374708383",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05352735560-91",
+      "name": "Nurhak Taksi - Metin Güzel",
+      "phone": "05352735560",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05372170046-92",
+      "name": "Onikişubat Taksi - Hasan",
+      "phone": "05372170046",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05524549494-93",
+      "name": "Tekerek Taksi - Ercan",
+      "phone": "05524549494",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05459133323-94",
+      "name": "Tekerek Taksi - Taner",
+      "phone": "05459133323",
+      "lat": 37.5753,
+      "lon": 36.9228,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

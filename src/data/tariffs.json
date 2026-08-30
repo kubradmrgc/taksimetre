@@ -18,9 +18,15 @@
       "url": "https://taksi724.com/taksi-ucreti-hesapla",
       "license": null,
       "role": "Hemen Hesap'ta olmayan 6 il"
+    },
+    {
+      "id": "taksifiyat",
+      "url": "https://taksifiyat.online/",
+      "license": null,
+      "role": "16 il üzerine yazma (açılış/km/dk/minimum)"
     }
   ],
-  "fetchedAt": "2026-08-30T18:45:42.286Z",
+  "fetchedAt": "2026-08-30T21:29:54.825Z",
   "disclaimer": "Resmi kurum değildir; tarifeler bilgilendirme amaçlıdır. Belediye / UKOME kararı değişebilir.",
   "cities": [
     {
@@ -30,10 +36,10 @@
       "openingFee": 45,
       "perKmFee": 50,
       "minimumFee": 170,
-      "perMinuteFee": null,
-      "note": "taksicilerodasi.com bilgilendirme tarifesi",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/adana/"
+      "perMinuteFee": 5,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/adana-taksi-ucreti-hesaplama/"
     },
     {
       "id": "adiyaman",
@@ -90,22 +96,22 @@
       "openingFee": 65,
       "perKmFee": 40,
       "minimumFee": 200,
-      "perMinuteFee": null,
-      "note": "Ankara Büyükşehir Belediyesi UKOME – Taksi Ücret Tarifesi · Yürürlük 01.03.2026 · Son kontrol 04.08.2026",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/ankara/"
+      "perMinuteFee": 7,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/ankara-taksi-ucreti-hesaplama/"
     },
     {
       "id": "antalya",
       "name": "Antalya",
       "shortName": "ANT",
-      "openingFee": 30,
-      "perKmFee": 36,
-      "minimumFee": 150,
-      "perMinuteFee": null,
-      "note": "taksicilerodasi.com bilgilendirme tarifesi",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/antalya/"
+      "openingFee": 40,
+      "perKmFee": 50,
+      "minimumFee": 200,
+      "perMinuteFee": 0,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/antalya-taksi-ucreti-hesaplama/"
     },
     {
       "id": "artvin",
@@ -210,10 +216,10 @@
       "openingFee": 52,
       "perKmFee": 45,
       "minimumFee": 150,
-      "perMinuteFee": null,
-      "note": "Bursa Şoförler Odası – Taksi Ücret Tarifesi (15 Mart 2026) · Yürürlük 15.03.2026 · Son kontrol 04.08.2026",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/bursa/"
+      "perMinuteFee": 5.75,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/bursa-taksi-ucreti-hesaplama/"
     },
     {
       "id": "canakkale",
@@ -318,10 +324,10 @@
       "openingFee": 60,
       "perKmFee": 60,
       "minimumFee": 220,
-      "perMinuteFee": null,
-      "note": "Hemen Hesap il tarifesi (CC BY 4.0)",
-      "source": "hemenhesap",
-      "sourceUrl": "https://www.hemenhesap.com/hesap/taksi/erzurum"
+      "perMinuteFee": 4,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/erzurum-taksi-ucreti-hesaplama/"
     },
     {
       "id": "eskisehir",
@@ -330,10 +336,10 @@
       "openingFee": 50,
       "perKmFee": 55,
       "minimumFee": 160,
-      "perMinuteFee": null,
-      "note": "Hemen Hesap il tarifesi (CC BY 4.0)",
-      "source": "hemenhesap",
-      "sourceUrl": "https://www.hemenhesap.com/hesap/taksi/eskisehir"
+      "perMinuteFee": 2.2,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/eskisehir-taksi-ucreti-hesaplama/"
     },
     {
       "id": "gaziantep",
@@ -342,10 +348,10 @@
       "openingFee": 50,
       "perKmFee": 50,
       "minimumFee": 200,
-      "perMinuteFee": null,
-      "note": "taksicilerodasi.com bilgilendirme tarifesi",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/gaziantep/"
+      "perMinuteFee": 8.33,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/gaziantep-taksi-ucreti-hesaplama/"
     },
     {
       "id": "giresun",
@@ -414,10 +420,10 @@
       "openingFee": 50,
       "perKmFee": 60,
       "minimumFee": 230,
-      "perMinuteFee": null,
-      "note": "Hemen Hesap il tarifesi (CC BY 4.0)",
-      "source": "hemenhesap",
-      "sourceUrl": "https://www.hemenhesap.com/hesap/taksi/mersin"
+      "perMinuteFee": 9,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/mersin-taksi-ucreti-hesaplama/"
     },
     {
       "id": "istanbul",
@@ -426,10 +432,10 @@
       "openingFee": 71.94,
       "perKmFee": 47.92,
       "minimumFee": 230,
-      "perMinuteFee": null,
-      "note": "İBB TUHİM – Taksi Taşımacılığı Ücret Tarifesi (20 Temmuz 2026) · Yürürlük 20.07.2026 · Son kontrol 04.08.2026",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/istanbul/"
+      "perMinuteFee": 9.98,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/istanbul-taksi-ucreti-hesaplama/"
     },
     {
       "id": "izmir",
@@ -474,10 +480,10 @@
       "openingFee": 75,
       "perKmFee": 65,
       "minimumFee": 225,
-      "perMinuteFee": null,
-      "note": "Hemen Hesap il tarifesi (CC BY 4.0)",
-      "source": "hemenhesap",
-      "sourceUrl": "https://www.hemenhesap.com/hesap/taksi/kayseri"
+      "perMinuteFee": 6.5,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/kayseri-taksi-ucreti-hesaplama/"
     },
     {
       "id": "kirklareli",
@@ -507,13 +513,13 @@
       "id": "kocaeli",
       "name": "Kocaeli",
       "shortName": "KOC",
-      "openingFee": 35,
-      "perKmFee": 35,
-      "minimumFee": 125,
+      "openingFee": 55,
+      "perKmFee": 55,
+      "minimumFee": 200,
       "perMinuteFee": null,
-      "note": "Kocaeli Büyükşehir Belediyesi UKOME Kararı 2025/01-20 – Ticari Taksi Ücret Tarifesi · Yürürlük 14.01.2025 · Son kontrol 04.08.2026",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/kocaeli/"
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/kocaeli-taksi-ucreti-hesaplama/"
     },
     {
       "id": "konya",
@@ -522,10 +528,10 @@
       "openingFee": 55,
       "perKmFee": 50,
       "minimumFee": 200,
-      "perMinuteFee": null,
-      "note": "taksicilerodasi.com bilgilendirme tarifesi",
-      "source": "taksicilerodasi",
-      "sourceUrl": "https://taksicilerodasi.com/tr/ucret-hesapla/konya/"
+      "perMinuteFee": 0,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/konya-taksi-ucreti-hesaplama/"
     },
     {
       "id": "kutahya",
@@ -666,22 +672,22 @@
       "openingFee": 70,
       "perKmFee": 50,
       "minimumFee": 180,
-      "perMinuteFee": null,
-      "note": "Hemen Hesap il tarifesi (CC BY 4.0)",
-      "source": "hemenhesap",
-      "sourceUrl": "https://www.hemenhesap.com/hesap/taksi/sakarya"
+      "perMinuteFee": 5,
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/sakarya-taksi-ucreti-hesaplama/"
     },
     {
       "id": "samsun",
       "name": "Samsun",
       "shortName": "SAM",
-      "openingFee": 140,
+      "openingFee": 105,
       "perKmFee": 35,
       "minimumFee": 140,
-      "perMinuteFee": null,
-      "note": "Hemen Hesap il tarifesi (CC BY 4.0)",
-      "source": "hemenhesap",
-      "sourceUrl": "https://www.hemenhesap.com/hesap/taksi/samsun"
+      "perMinuteFee": 5,
+      "note": "taksifiyat.online (ilk 1 km paket; açılış uygulamaya uyarlandı)",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/samsun-taksi-ucreti-hesaplama/"
     },
     {
       "id": "siirt",
@@ -931,9 +937,9 @@
       "perKmFee": 40,
       "minimumFee": 150,
       "perMinuteFee": null,
-      "note": "taksi724.com il sayfası (Hemen Hesap tablosunda yok)",
-      "source": "taksi724",
-      "sourceUrl": "https://taksi724.com/igdir"
+      "note": "taksifiyat.online şehir tarifesi",
+      "source": "taksifiyat",
+      "sourceUrl": "https://taksifiyat.online/igdir-taksi-ucreti-hesaplama/"
     },
     {
       "id": "yalova",

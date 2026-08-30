@@ -1,0 +1,1982 @@
+{
+  "cityId": "erzurum",
+  "cityName": "Erzurum",
+  "fetchedAt": "2026-08-30T21:30:58.992Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "askale",
+      "name": "Askale",
+      "count": 38
+    },
+    {
+      "id": "aziziye",
+      "name": "Aziziye",
+      "count": 4
+    },
+    {
+      "id": "cat",
+      "name": "Cat",
+      "count": 5
+    },
+    {
+      "id": "hinis",
+      "name": "Hinis",
+      "count": 3
+    },
+    {
+      "id": "horasan",
+      "name": "Horasan",
+      "count": 7
+    },
+    {
+      "id": "ispir",
+      "name": "İspir",
+      "count": 1
+    },
+    {
+      "id": "karacoban",
+      "name": "Karacoban",
+      "count": 6
+    },
+    {
+      "id": "karayazi",
+      "name": "Karayazi",
+      "count": 1
+    },
+    {
+      "id": "narman",
+      "name": "Narman",
+      "count": 2
+    },
+    {
+      "id": "olur",
+      "name": "Olur",
+      "count": 1
+    },
+    {
+      "id": "palandoken",
+      "name": "Palandoken",
+      "count": 10
+    },
+    {
+      "id": "pasinler",
+      "name": "Pasinler",
+      "count": 3
+    },
+    {
+      "id": "uzundere",
+      "name": "Uzundere",
+      "count": 1
+    },
+    {
+      "id": "yakutiye",
+      "name": "Yakutiye",
+      "count": 4
+    }
+  ],
+  "count": 124,
+  "stands": [
+    {
+      "id": "taksi724-04422342087-0",
+      "name": "Adliye Taksi",
+      "phone": "04422342087",
+      "website": null,
+      "lat": 39.9104967,
+      "lon": 41.2650546,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04422344307-1",
+      "name": "Aşkale Taksi",
+      "phone": "04422344307",
+      "website": null,
+      "lat": 39.9030025,
+      "lon": 41.2629972,
+      "address": "Taksi Durağı ·  · Merkez Yönetim Cd. No: 6 D:1",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326550990-2",
+      "name": "Aşkale Taksi",
+      "phone": "05326550990",
+      "website": null,
+      "lat": 39.92142932,
+      "lon": 40.69542126,
+      "address": "Çarşı Mah. Aşkale, Erzurum",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323740593-3",
+      "name": "Aşkale Taksi",
+      "phone": "05323740593",
+      "website": null,
+      "lat": 39.918873,
+      "lon": 40.683001,
+      "address": "Emek Mah. Trabzon Cad. Aşkale, Erzurum",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422252405-4",
+      "name": "BOSTANCIOGLU TAKSi",
+      "phone": "05422252405",
+      "website": null,
+      "lat": 39.918703,
+      "lon": 40.688919,
+      "address": "Bahçelievler Mah. Bahçeli Cad. Serdar Sok. 18 Aşkale, Erzurum",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452352525-5",
+      "name": "Elektrikçiler Taksi",
+      "phone": "05452352525",
+      "website": null,
+      "lat": 39.9149009,
+      "lon": 41.2637759,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369671628-6",
+      "name": "Erzurum Gez Taksi",
+      "phone": "05369671628",
+      "website": null,
+      "lat": 39.8852502,
+      "lon": 41.2543349,
+      "address": "Taksi Durağı · Fatih Sultan Caddesi 60. Sokak",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388989569-7",
+      "name": "Erzurum Merkez Taksi",
+      "phone": "05388989569",
+      "website": null,
+      "lat": 39.9120836,
+      "lon": 41.2662178,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373520251-8",
+      "name": "Erzurum Merkez Taksi",
+      "phone": "05373520251",
+      "website": null,
+      "lat": 39.9111864,
+      "lon": 41.2745406,
+      "address": "Taksi Durağı · Lalapaşa Mahallesi Menderes Caddesi, Gürcükapı Cd.",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05424552477-9",
+      "name": "Erzurum MNG Avm Taksi",
+      "phone": "05424552477",
+      "website": null,
+      "lat": 39.8995884,
+      "lon": 41.2682439,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05537599090-10",
+      "name": "Erzurum Örnek Taksi",
+      "phone": "05537599090",
+      "website": null,
+      "lat": 39.9104846,
+      "lon": 41.2496767,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05540140025-11",
+      "name": "Erzurum Taksi",
+      "phone": "05540140025",
+      "website": null,
+      "lat": 39.9108292,
+      "lon": 41.2700723,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422252405-12",
+      "name": "Erzurum Taksi",
+      "phone": "05422252405",
+      "website": null,
+      "lat": 39.8978067,
+      "lon": 41.275299,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303097992-13",
+      "name": ". Nöbetçi Taksi. Cadde Taksi",
+      "phone": "05303097992",
+      "website": null,
+      "lat": 39.9823036,
+      "lon": 41.216511,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363657762-14",
+      "name": "Erzurum Taksi",
+      "phone": "05363657762",
+      "website": null,
+      "lat": 39.905042,
+      "lon": 41.265083,
+      "address": "ERZURUM TAKSİ/EN YAKIN TAKSİ. Kart Geçerli Taksi. Nöbetçi Taksi. Cadde Taksi.",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05526432525-15",
+      "name": "Erzurum Taksi",
+      "phone": "05526432525",
+      "website": null,
+      "lat": 39.8866771,
+      "lon": 41.2618549,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428463697-16",
+      "name": "Erzurum Otogar Taksi Havalimani Taksi",
+      "phone": "05428463697",
+      "website": null,
+      "lat": 39.9137793,
+      "lon": 41.2643384,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462999576-17",
+      "name": "Gez Çeşme Taksi",
+      "phone": "05462999576",
+      "website": null,
+      "lat": 39.9116604,
+      "lon": 41.2681028,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354407482-18",
+      "name": "HiLALKENT paşakonağı TAKSi",
+      "phone": "05354407482",
+      "website": null,
+      "lat": 39.9115809,
+      "lon": 41.2652641,
+      "address": "Taksi Durağı ·  · gezcami önü, Hastaneler cad, 50. Yıl Cd. No:2 D:4",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05437142500-19",
+      "name": "Hilalkent Taksi",
+      "phone": "05437142500",
+      "website": null,
+      "lat": 39.9434109,
+      "lon": 41.2958171,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05332460625-20",
+      "name": "Kayakyolu Taksi",
+      "phone": "05332460625",
+      "website": null,
+      "lat": 39.9478938,
+      "lon": 41.3007656,
+      "address": "Taksi Durağı · Orhan Gazi Cd. No:19",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-04423163636-21",
+      "name": "Kongre Taksi",
+      "phone": "04423163636",
+      "website": null,
+      "lat": 39.8852883,
+      "lon": 41.2713391,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345570658-22",
+      "name": "Kule Taksi",
+      "phone": "05345570658",
+      "website": null,
+      "lat": 39.91422,
+      "lon": 41.27665,
+      "address": "Taksi Durağı · Kongre Cd. No:81",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04423151520-23",
+      "name": "Park Taksi",
+      "phone": "04423151520",
+      "website": null,
+      "lat": 39.8926654,
+      "lon": 41.2493105,
+      "address": "Taksi Durağı · Dere Cd. No:45",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04422353834-24",
+      "name": "Sanayi Taksi",
+      "phone": "04422353834",
+      "website": null,
+      "lat": 39.9061938,
+      "lon": 41.256237,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04422440414-25",
+      "name": "Şehristan Taksi",
+      "phone": "04422440414",
+      "website": null,
+      "lat": 39.9289842,
+      "lon": 41.2822285,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524425442-26",
+      "name": "Şükrüpaşa akbulut Taksi",
+      "phone": "05524425442",
+      "website": null,
+      "lat": 39.9121582,
+      "lon": 41.2615364,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322897675-27",
+      "name": "Şükrüpaşa DadaşYolu Taksi",
+      "phone": "05322897675",
+      "website": null,
+      "lat": 39.9252744,
+      "lon": 41.2609166,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454560694-28",
+      "name": "Şükrüpaşa Taksi",
+      "phone": "05454560694",
+      "website": null,
+      "lat": 39.9264702,
+      "lon": 41.2664593,
+      "address": "Taksi Durağı · Kemal Alyanak Blv. No:13",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353877397-29",
+      "name": "Yakutiye Araştırma Hastanesi Taksi",
+      "phone": "05353877397",
+      "website": null,
+      "lat": 39.9312352,
+      "lon": 41.2772597,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04423211450-30",
+      "name": "Yenişehir Nenehatun Taksi",
+      "phone": "04423211450",
+      "website": null,
+      "lat": 39.8986444,
+      "lon": 41.2384793,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04423152317-31",
+      "name": "Yildizkent Osmangazi Taksi",
+      "phone": "04423152317",
+      "website": null,
+      "lat": 39.884659,
+      "lon": 41.258748,
+      "address": "Taksi Durağı · Yavuz Sultan Selim Blv. No:127",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327938925-32",
+      "name": "Yıldızkent Akasya Taksi",
+      "phone": "05327938925",
+      "website": null,
+      "lat": 39.8807056,
+      "lon": 41.2391279,
+      "address": "Taksi Durağı · 212. Sk. 21/7",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342383737-33",
+      "name": "Yıldızkent Bulvar Taksi",
+      "phone": "05342383737",
+      "website": null,
+      "lat": 39.8850812,
+      "lon": 41.2411187,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05320563825-34",
+      "name": "Yıldızkent selimiye Taksi",
+      "phone": "05320563825",
+      "website": null,
+      "lat": 39.8705942,
+      "lon": 41.2394228,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352960897-35",
+      "name": "Yıldızkent Taksi",
+      "phone": "05352960897",
+      "website": null,
+      "lat": 39.877832,
+      "lon": 41.2451247,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325461895-36",
+      "name": "Yoncalık Taksi",
+      "phone": "05325461895",
+      "website": null,
+      "lat": 39.8708508,
+      "lon": 41.2396875,
+      "address": "Taksi Durağı · Şehit Polis Murat Ellik Bulvarı, 75. Sk.",
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05312358025-37",
+      "name": "erzurum-taksi",
+      "phone": "05312358025",
+      "website": null,
+      "lat": 39.902153,
+      "lon": 41.2750861,
+      "address": null,
+      "districtId": "askale",
+      "districtName": "Askale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05522328207-38",
+      "name": "Carrefoursa Avm Taksi",
+      "phone": "05522328207",
+      "website": null,
+      "lat": 39.888769,
+      "lon": 41.266053,
+      "address": "Solakzade Mah. Mevlana Cad. 17 Palandöken, Erzurum",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362932990-39",
+      "name": "Emek Taksi",
+      "phone": "05362932990",
+      "website": null,
+      "lat": 39.881597,
+      "lon": 41.256561,
+      "address": "Solakzade Mah. Mimarsinan Cad. Palandöken, Erzurum",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05395610369-40",
+      "name": "Emniyet Taksi",
+      "phone": "05395610369",
+      "website": null,
+      "lat": 39.900056,
+      "lon": 41.2863772,
+      "address": "Taksi Durağı · 2. Çimen Sk. No:2",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05380500325-41",
+      "name": "Hastane Kampüs Taksi",
+      "phone": "05380500325",
+      "website": null,
+      "lat": 39.8972621,
+      "lon": 41.2724362,
+      "address": null,
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05428463697-42",
+      "name": "Kayakyolu Max Royal Taksi",
+      "phone": "05428463697",
+      "website": null,
+      "lat": 39.881295,
+      "lon": 41.231087,
+      "address": "Osman Gazi Mah. Cat Yolu Cad. Yıldızkent, Palandöken, Erzurum",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05491512500-43",
+      "name": "Mareşal Taksi",
+      "phone": "05491512500",
+      "website": null,
+      "lat": 39.8890228,
+      "lon": 41.2752753,
+      "address": "Taksi · Öz Meral Sk. No:6",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369859636-44",
+      "name": "New City Taksi",
+      "phone": "05369859636",
+      "website": null,
+      "lat": 39.89992352,
+      "lon": 41.27066641,
+      "address": "Solakzade Mah. Atatürk Blv. Palandöken, Erzurum",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428463697-45",
+      "name": "Taksi",
+      "phone": "05428463697",
+      "website": null,
+      "lat": 39.890138,
+      "lon": 41.271658,
+      "address": "Solakzade Mah. Atatürk Blv. Palandöken, Erzurum",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366420617-46",
+      "name": "Yıldızkent Toki Taksi",
+      "phone": "05366420617",
+      "website": null,
+      "lat": 39.8667464,
+      "lon": 41.2733356,
+      "address": null,
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550168484-47",
+      "name": "erzurum-taksi",
+      "phone": "05550168484",
+      "website": null,
+      "lat": 39.880695,
+      "lon": 41.231087,
+      "address": "Hüseyin Avni Ulaş Mah. Çat Yolu Cad. Palandöken, Erzurum",
+      "districtId": "palandoken",
+      "districtName": "Palandoken",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05300220329-48",
+      "name": "Erzurum Ebuishak Taksi",
+      "phone": "05300220329",
+      "website": null,
+      "lat": 39.8859522,
+      "lon": 41.2221148,
+      "address": null,
+      "districtId": "karacoban",
+      "districtName": "Karacoban",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323495524-49",
+      "name": "Erzurum Nöbetçi Taksi",
+      "phone": "05323495524",
+      "website": null,
+      "lat": 39.8817632,
+      "lon": 41.2533564,
+      "address": "Taksi Durağı · Yavuz Sultan Selim Blv. No:175",
+      "districtId": "karacoban",
+      "districtName": "Karacoban",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453074609-50",
+      "name": "Erzurum Palandöken 6 nolu Taksi",
+      "phone": "05453074609",
+      "website": null,
+      "lat": 39.8853711,
+      "lon": 41.2350105,
+      "address": null,
+      "districtId": "karacoban",
+      "districtName": "Karacoban",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362932990-51",
+      "name": "Güven Taksi",
+      "phone": "05362932990",
+      "website": null,
+      "lat": 39.8976511,
+      "lon": 41.2823121,
+      "address": "Taksi Durağı · İsmail Gürcan Cd. No:4",
+      "districtId": "karacoban",
+      "districtName": "Karacoban",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05317318125-52",
+      "name": "Yıldızkent Karlıkent Taksi",
+      "phone": "05317318125",
+      "website": null,
+      "lat": 39.9009992,
+      "lon": 41.2801248,
+      "address": "Taksi Durağı · Emirşeyh, Palandöken Cd. No:52",
+      "districtId": "karacoban",
+      "districtName": "Karacoban",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434170025-53",
+      "name": "Erzurum Nöbetçi Taksi",
+      "phone": "05434170025",
+      "website": null,
+      "lat": 39.8752613,
+      "lon": 41.2379125,
+      "address": null,
+      "districtId": "karacoban",
+      "districtName": "Karacoban",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369859636-54",
+      "name": "Erzurum Şehir Hastanesi Taksi",
+      "phone": "05369859636",
+      "website": null,
+      "lat": 39.8806916,
+      "lon": 41.2613354,
+      "address": "Taksi · Atatürk Blv. No:110",
+      "districtId": "cat",
+      "districtName": "Cat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05375629925-55",
+      "name": "7/24 Taksi",
+      "phone": "05375629925",
+      "website": null,
+      "lat": 39.8881358,
+      "lon": 41.2411144,
+      "address": "Ulaşım Hizmeti · Çat yolu cad, Eğitim Sk. No:13",
+      "districtId": "cat",
+      "districtName": "Cat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388540476-56",
+      "name": "Erzurum Taşhan Taksi",
+      "phone": "05388540476",
+      "website": null,
+      "lat": 39.9262456,
+      "lon": 41.27265,
+      "address": null,
+      "districtId": "cat",
+      "districtName": "Cat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05398911515-57",
+      "name": "Trt Taksi",
+      "phone": "05398911515",
+      "website": null,
+      "lat": 39.9084006,
+      "lon": 41.273523,
+      "address": "Taksi Durağı · Adnan Menderes Caddesi",
+      "districtId": "cat",
+      "districtName": "Cat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04423170415-58",
+      "name": "Erzurum Şükrüpaşa Çaykur Taksi 7/24 Taksi",
+      "phone": "04423170415",
+      "website": null,
+      "lat": 39.899593,
+      "lon": 41.264802,
+      "address": null,
+      "districtId": "cat",
+      "districtName": "Cat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05072208225-59",
+      "name": "Dadaşkent lokka Taksi",
+      "phone": "05072208225",
+      "website": null,
+      "lat": 39.9243149,
+      "lon": 41.1828337,
+      "address": null,
+      "districtId": "aziziye",
+      "districtName": "Aziziye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325696548-60",
+      "name": "Dadaşkent Taksi",
+      "phone": "05325696548",
+      "website": null,
+      "lat": 39.9060208,
+      "lon": 41.1981057,
+      "address": null,
+      "districtId": "aziziye",
+      "districtName": "Aziziye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05379373505-61",
+      "name": "Diyanet Eğitim Taksi",
+      "phone": "05379373505",
+      "website": null,
+      "lat": 39.9173314,
+      "lon": 41.1890704,
+      "address": null,
+      "districtId": "aziziye",
+      "districtName": "Aziziye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05356598845-62",
+      "name": "Dadaşkent Taksi",
+      "phone": "05356598845",
+      "website": null,
+      "lat": 39.9141814,
+      "lon": 41.1918417,
+      "address": null,
+      "districtId": "aziziye",
+      "districtName": "Aziziye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05422252405-63",
+      "name": "Gezici Taksi",
+      "phone": "05422252405",
+      "website": null,
+      "lat": 40.03967107,
+      "lon": 42.16897353,
+      "address": "Adnan Menderes Mah. Horasan Otogarı Dörtyol, Horasan, Erzurum",
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388989569-64",
+      "name": "Horasan Dörtyol Taksi",
+      "phone": "05388989569",
+      "website": null,
+      "lat": 40.036463,
+      "lon": 42.16113,
+      "address": "Adnan Menderes Mah. Yeni Kars Cad. Horasan, Erzurum",
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05424008986-65",
+      "name": "Horasan Dörtyol Taksi",
+      "phone": "05424008986",
+      "website": null,
+      "lat": 40.0399643,
+      "lon": 42.1658705,
+      "address": null,
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05422252405-66",
+      "name": "Şahin Taksi",
+      "phone": "05422252405",
+      "website": null,
+      "lat": 39.929695,
+      "lon": 41.271596,
+      "address": "Şükrüpaşa Mah. Çaykur Cad. Yakutiye, Erzurum",
+      "districtId": "yakutiye",
+      "districtName": "Yakutiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04422344889-67",
+      "name": "Site Dadaş Taksi",
+      "phone": "04422344889",
+      "website": null,
+      "lat": 39.905595,
+      "lon": 41.267641,
+      "address": "Muratpaşa Mah. İsmetpaşa Cad. Lalapaşa, Yakutiye, Erzurum",
+      "districtId": "yakutiye",
+      "districtName": "Yakutiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428463697-68",
+      "name": "Site Dadaş Taksi",
+      "phone": "05428463697",
+      "website": null,
+      "lat": 39.905401,
+      "lon": 41.270704,
+      "address": "Muratpaşa Mah. Erzincan Kapı Sok. Yakutiye, Erzurum",
+      "districtId": "yakutiye",
+      "districtName": "Yakutiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324545462-69",
+      "name": "Narman Merkez Taksi",
+      "phone": "05324545462",
+      "website": null,
+      "lat": 40.3453581,
+      "lon": 41.8690479,
+      "address": null,
+      "districtId": "narman",
+      "districtName": "Narman",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05446162094-70",
+      "name": "Narman Merkez Taksi",
+      "phone": "05446162094",
+      "website": null,
+      "lat": 40.346125,
+      "lon": 41.871304,
+      "address": null,
+      "districtId": "narman",
+      "districtName": "Narman",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369224634-71",
+      "name": "Hınıs Taksi",
+      "phone": "05369224634",
+      "website": null,
+      "lat": 39.3612577,
+      "lon": 41.6960745,
+      "address": null,
+      "districtId": "hinis",
+      "districtName": "Hinis",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05318812268-72",
+      "name": "Ispir Taksi",
+      "phone": "05318812268",
+      "website": null,
+      "lat": 40.48435,
+      "lon": 40.999882,
+      "address": "Karşıyaka Mah. Cumhuriyet Cad. 1 İspir, Erzurum",
+      "districtId": "ispir",
+      "districtName": "İspir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05368322270-73",
+      "name": "Karayazı GÜÇLÜ Taksi",
+      "phone": "05368322270",
+      "website": null,
+      "lat": 39.7032439,
+      "lon": 42.1440515,
+      "address": null,
+      "districtId": "karayazi",
+      "districtName": "Karayazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05422252405-74",
+      "name": "Olur Taksi",
+      "phone": "05422252405",
+      "website": null,
+      "lat": 40.827246,
+      "lon": 42.129658,
+      "address": "Merkez Mah. Cumhuriyet Cad. 35/B Olur, Erzurum",
+      "districtId": "olur",
+      "districtName": "Olur",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05389667348-75",
+      "name": "Uzundere Taksi",
+      "phone": "05389667348",
+      "website": null,
+      "lat": 40.532416,
+      "lon": 41.548606,
+      "address": "Merkez Mah. M. Şeref Özsoy Cad. Uzundere, Erzurum",
+      "districtId": "uzundere",
+      "districtName": "Uzundere",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-05353859521-76",
+      "name": "Termal taxi talip gündüz",
+      "phone": "05353859521",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05446851676-77",
+      "name": "AZİZİYE BELEDİYESİ TAKSİ DURAĞI DADAŞKENT",
+      "phone": "05446851676",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05411238445-78",
+      "name": "ERZURUM TAKSİ",
+      "phone": "05411238445",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05324353979-79",
+      "name": "ERZURUM Ilıca termal taksi Habip turcan",
+      "phone": "05324353979",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05462447299-80",
+      "name": "DADAŞKENT TAKSİ",
+      "phone": "05462447299",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05365898468-81",
+      "name": "Tümü → Aşkale Taksi",
+      "phone": "05365898468",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323919568-82",
+      "name": "Aşkale Taksi (mustafa Tayan)",
+      "phone": "05323919568",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366383526-83",
+      "name": "Dadaş Taksi Durağı",
+      "phone": "05366383526",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04423275151-84",
+      "name": "Tümü → Dadaşkent Azel Park Taksi",
+      "phone": "04423275151",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05010854725-85",
+      "name": "Dadaşkent Taksi Tariktar Durağı AÇIK · 7 gün 24 saat Selçuklu, Milli Egemenlik C",
+      "phone": "05010854725",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04423423232-86",
+      "name": "Tümü → Yıldızkent Tokiler Ve Polis Lojmanları Taksi Savcı Deniz",
+      "phone": "04423423232",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05063018300-87",
+      "name": "Tümü → Huzur Taksi",
+      "phone": "05063018300",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365287955-88",
+      "name": "Tümü → Horasan Otogar Taksi",
+      "phone": "05365287955",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355922974-89",
+      "name": "Horasan Taksi",
+      "phone": "05355922974",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05323014045-90",
+      "name": "Tümü → İspir Taksi - Birol Çakmak",
+      "phone": "05323014045",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04423166212-91",
+      "name": "Tümü → Abdurrahman Gazi Dörtyol Taksi AÇIK · 7 gün 24 saat Ertuğrul Gazi, Sultan",
+      "phone": "04423166212",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05330417964-92",
+      "name": "Erzurum Ebuishak Taksi AÇIK · 7 gün 24 saat Müftü Solakzade, Yavuz Sultan Selim ",
+      "phone": "05330417964",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05336803169-93",
+      "name": "Kayakyolu Taksi AÇIK · 7 gün 24 saat Osmanbektaş Mah, Düzgün 1 market yanı Kayak",
+      "phone": "05336803169",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358774769-94",
+      "name": "Kule Taksi AÇIK · 7 gün 24 saat Harput Mahallesi, Dere Cd. No:45, 25070 Palandök",
+      "phone": "05358774769",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05423155822-95",
+      "name": "Merhaba Taksi AÇIK · 7 gün 24 saat Çimen Sk. No:2,Abdurrahman Gazi,25080, 25100 ",
+      "phone": "05423155822",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05399231035-96",
+      "name": "Taksi Erzurum",
+      "phone": "05399231035",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365003400-97",
+      "name": "Yıldızkent Huzur Taksi AÇIK · 7 gün 24 saat Hüseyin avni ulaş mahallesi Alparsla",
+      "phone": "05365003400",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05510337050-98",
+      "name": "Tümü → Şenkaya Akşar Taksi",
+      "phone": "05510337050",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05383286816-99",
+      "name": "Tümü → Bostancıoglu Taksi",
+      "phone": "05383286816",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04423159893-100",
+      "name": "Tümü → 2 Nolu Kongre Taksi AÇIK · 7 gün 24 saat Kazım Karabekir Paşa, Kongre Cd.",
+      "phone": "04423159893",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05309211902-101",
+      "name": "Adliye Taksi Erzurum AÇIK · 7 gün 24 saat Murat Paşa Mah, Merkez Yönetim Cd. No:",
+      "phone": "05309211902",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04422335030-102",
+      "name": "Çağ Taksi AÇIK · 7 gün 24 saat Kazım Karabekir Paşa Mah, Aşkale Garajı Sk., 2500",
+      "phone": "04422335030",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332302825-103",
+      "name": "Gar Taksi",
+      "phone": "05332302825",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04423156553-104",
+      "name": "Gazino Taksi",
+      "phone": "04423156553",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04422423984-105",
+      "name": "Gez Mahallesi Taksi Durağı AÇIK · 7 gün 24 saat gezcami önü, Hastaneler cad, 50.",
+      "phone": "04422423984",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05312794945-106",
+      "name": "İl Sağlık Taksi Durağı",
+      "phone": "05312794945",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05531313596-107",
+      "name": "Kıvılcım Taksi",
+      "phone": "05531313596",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05317370495-108",
+      "name": "Kızılay Sıte Dadas 7/24 Taksi Erzurum",
+      "phone": "05317370495",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04422420188-109",
+      "name": "Nöbetçi Taksi AÇIK · 7 gün 24 saat Ömer nasuhi bilmen mahallesi necip fazil kısa",
+      "phone": "04422420188",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04422421794-110",
+      "name": "Park Taksi Yakutiye AÇIK · 7 gün 24 saat Kazımkarabekir Mh, 100.yıl parkı yanı, ",
+      "phone": "04422421794",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04422565100-111",
+      "name": "Site Dadaş Taksi",
+      "phone": "04422565100",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04423272755-112",
+      "name": "Yakutiye Taksi",
+      "phone": "04423272755",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05334529725-113",
+      "name": "Yakutiye Taksi Durağı AÇIK · 7 gün 24 saat Ömer Nasuhi Bilmen, Kemal Alyanak Blv",
+      "phone": "05334529725",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05413200029-114",
+      "name": "Yurtkur Taksi",
+      "phone": "05413200029",
+      "website": null,
+      "lat": 39.9043,
+      "lon": 41.2679,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05353171585-115",
+      "name": "Can Taksi - Serkan Polat",
+      "phone": "05353171585",
+      "website": "https://www.instagram.com/erzurumcantaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yakutiye",
+      "districtName": "Yakutiye",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05343143272-116",
+      "name": "Hınıs Taksi - Yavuz Savaş",
+      "phone": "05343143272",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "hinis",
+      "districtName": "Hınıs",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05316231517-117",
+      "name": "Hınıs Taksi - Yusuf Yıldırım",
+      "phone": "05316231517",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "hinis",
+      "districtName": "Hınıs",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05378290085-118",
+      "name": "Horasan Taksi - Halil Acar",
+      "phone": "05378290085",
+      "website": "https://www.instagram.com/halilacar_25/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05458106254-119",
+      "name": "Kale Taksi - Kadir Can",
+      "phone": "05458106254",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "pasinler",
+      "districtName": "Pasinler",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05383120720-120",
+      "name": "Kale Taksi - Şahin Mindivanlı",
+      "phone": "05383120720",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "pasinler",
+      "districtName": "Pasinler",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05327661692-121",
+      "name": "Memet Taksi",
+      "phone": "05327661692",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "pasinler",
+      "districtName": "Pasinler",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05354886558-122",
+      "name": "Terminal Taksi - Aytekin Acar",
+      "phone": "05354886558",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05453348698-123",
+      "name": "Terminal Taksi - Mensur Acar",
+      "phone": "05453348698",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "horasan",
+      "districtName": "Horasan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1629 @@
+{
+  "cityId": "ordu",
+  "cityName": "Ordu",
+  "fetchedAt": "2026-08-30T21:22:27.668Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 132,
+  "stands": [
+    {
+      "id": "taksi724-05421562022-0",
+      "name": "ALTINORDU TAKSi",
+      "phone": "05421562022",
+      "lat": 40.976512,
+      "lon": 37.912691,
+      "address": "Akyazı Mah. Ali Rıza Gürsoy Cad. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04525222222-1",
+      "name": "Başak Taksi",
+      "phone": "04525222222",
+      "lat": 40.9801437,
+      "lon": 37.8910716,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522347333-2",
+      "name": "Cemiyet Taksi",
+      "phone": "04522347333",
+      "lat": 40.982032,
+      "lon": 37.883355,
+      "address": "Yeni Mah. Zübeyde Hanım Cad. 1/1 Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04528880880-3",
+      "name": "Çiçek Taksi",
+      "phone": "04528880880",
+      "lat": 40.976764,
+      "lon": 37.896818,
+      "address": "Şirinevler Mah. İsmet Paşa Cad. 186/C Altınordu, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522251419-4",
+      "name": "Cumhuriyet Taksi",
+      "phone": "04522251419",
+      "lat": 40.983678,
+      "lon": 37.877963,
+      "address": "Selimiye Mah. Lise Cad. 15 Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522141779-5",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "04522141779",
+      "lat": 40.984445,
+      "lon": 37.876505,
+      "address": "Selimiye Mah. Hükümet Cad. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522348184-6",
+      "name": "Duru Taksi",
+      "phone": "04522348184",
+      "lat": 40.968765,
+      "lon": 37.885208,
+      "address": "Şahincili Mah. Dr. Fahrettin Önsel Cad. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04527772999-7",
+      "name": "Emek Taksi",
+      "phone": "04527772999",
+      "lat": 40.9731609,
+      "lon": 37.9303368,
+      "address": "Taksi Durağı · 1139. Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522142830-8",
+      "name": "Eskipazar TOKi Taksi",
+      "phone": "04522142830",
+      "lat": 40.981979,
+      "lon": 37.888892,
+      "address": "Yeni Mah. 311. Sok. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-04528886868-9",
+      "name": "Fakülte Taksi",
+      "phone": "04528886868",
+      "lat": 40.9499756,
+      "lon": 37.8993704,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522142082-10",
+      "name": "Fidangör Taksi",
+      "phone": "04522142082",
+      "lat": 40.9756153,
+      "lon": 37.8759363,
+      "address": "Taksi Durağı · Pınar Sk. no:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522140817-11",
+      "name": "Güneş Taksi",
+      "phone": "04522140817",
+      "lat": 40.986918,
+      "lon": 37.874886,
+      "address": "Düz Mah. Becelgen Sok. 13 Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04528886111-12",
+      "name": "Gürbüz Taksi",
+      "phone": "04528886111",
+      "lat": 40.9675004,
+      "lon": 37.89642,
+      "address": "Taksi Durağı · 578. Sk. No:4",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522141609-13",
+      "name": "Güzel Ordu Taksi",
+      "phone": "04522141609",
+      "lat": 40.9855489,
+      "lon": 37.8798199,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522251555-14",
+      "name": "Güzelyalı Taksi",
+      "phone": "04522251555",
+      "lat": 40.9823,
+      "lon": 37.882753,
+      "address": "Şarkiye Mah. Cumhuriyet Cad. 32 Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04525000555-15",
+      "name": "Huzur Taksi",
+      "phone": "04525000555",
+      "lat": 41.0051448,
+      "lon": 37.8698023,
+      "address": "Taksi Durağı · Bülent Ecevit Blv. No:17",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522344766-16",
+      "name": "Kacalı Taksi",
+      "phone": "04522344766",
+      "lat": 40.980121,
+      "lon": 37.886605,
+      "address": "Yeni Mah. Kahraman Sağra Cad. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04525170588-17",
+      "name": "Kent Taksi",
+      "phone": "04525170588",
+      "lat": 41.0602378,
+      "lon": 37.7780858,
+      "address": "Taksi Durağı · Fatih Cd. No:20",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522372222-18",
+      "name": "Kumbaşı Taksi",
+      "phone": "04522372222",
+      "lat": 40.9564513,
+      "lon": 37.8981459,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-04522250722-19",
+      "name": "Mesudiye Taksi",
+      "phone": "04522250722",
+      "lat": 41.009007,
+      "lon": 37.828113,
+      "address": "Kumbaşı Mah. Cezaevi Cad. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04527613272-20",
+      "name": "Meydan Taksi",
+      "phone": "04527613272",
+      "lat": 40.4625176,
+      "lon": 37.7725062,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522344879-21",
+      "name": "NOVADA TURiST TAKSi",
+      "phone": "04522344879",
+      "lat": 40.97998,
+      "lon": 37.897506,
+      "address": "Bahçelievler Mah. Erol Ataşan Blv. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424901452-22",
+      "name": "Nur Taksi",
+      "phone": "05424901452",
+      "lat": 40.9844302,
+      "lon": 37.8824637,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522148591-23",
+      "name": "Oğuz Taksi",
+      "phone": "04522148591",
+      "lat": 40.980864,
+      "lon": 37.886595,
+      "address": "Yeni Mah. 314. Sok. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-24-24",
+      "name": "Ordu Akyazı Taksi",
+      "phone": null,
+      "lat": 40.985792,
+      "lon": 37.876889,
+      "address": "Düz Mah. Karkaçar Sok. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-25-25",
+      "name": "Ordu Devlet Hastanesi Taksi",
+      "phone": null,
+      "lat": 40.977222,
+      "lon": 37.9128848,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522348184-26",
+      "name": "Ordu Otogar Taksi",
+      "phone": "04522348184",
+      "lat": 40.9703412,
+      "lon": 37.8889174,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522337477-27",
+      "name": "Otogar Taksi",
+      "phone": "04522337477",
+      "lat": 40.9596379,
+      "lon": 37.9027758,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522337477-28",
+      "name": "Perşembe TAKSi",
+      "phone": "04522337477",
+      "lat": 40.979299,
+      "lon": 37.893727,
+      "address": "Yeni Mah. Ordu Otobüs Terminali Altınordu, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355454858-29",
+      "name": "Rıhtım Taksi",
+      "phone": "05355454858",
+      "lat": 41.0682156,
+      "lon": 37.7733392,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04528885060-30",
+      "name": "Sağlık Taksi",
+      "phone": "04528885060",
+      "lat": 40.9956528,
+      "lon": 37.8761517,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522143102-31",
+      "name": "Sahil Taksi",
+      "phone": "04522143102",
+      "lat": 40.976449,
+      "lon": 37.884029,
+      "address": "Bucak Mah. İbnisina Cad. 22 Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04528882222-32",
+      "name": "Ümit Taksi",
+      "phone": "04528882222",
+      "lat": 40.9765417,
+      "lon": 37.9414805,
+      "address": "Taksi Durağı · Cumhuriyet Mahallesi, 1356 Sokak Dörtyol Mevkii No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436626268-33",
+      "name": "CUMHURiYET MAHALLESi TAKSi",
+      "phone": "05436626268",
+      "lat": 40.984926,
+      "lon": 37.8816932,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522701111-34",
+      "name": "Yenimahalle Taksi",
+      "phone": "04522701111",
+      "lat": 40.9765611,
+      "lon": 37.9703159,
+      "address": "Taksi Durağı ·  · 1448. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-35-35",
+      "name": "Yonca Taksi",
+      "phone": null,
+      "lat": 40.9531128,
+      "lon": 38.1250751,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539747675-36",
+      "name": "ordu-taksi",
+      "phone": "05539747675",
+      "lat": 40.978078,
+      "lon": 37.887531,
+      "address": "Yeni Mah. Zübeyde Hanım Cad. Ordu Merkez, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04526666100-37",
+      "name": "Çınar Taksi",
+      "phone": "04526666100",
+      "lat": 41.126855,
+      "lon": 37.288862,
+      "address": "Liseler Mah. Belediye Cad. Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462440186-38",
+      "name": "Güven Taksi",
+      "phone": "05462440186",
+      "lat": 41.127977,
+      "lon": 37.284533,
+      "address": "Kaledere Mah. Çınarlık Cad. 75 Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05465335658-39",
+      "name": "Hal Taksi",
+      "phone": "05465335658",
+      "lat": 41.126255,
+      "lon": 37.288862,
+      "address": "Liseler Mah. Belediye Cad. Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04523236100-40",
+      "name": "Meydan Taksi",
+      "phone": "04523236100",
+      "lat": 41.129659,
+      "lon": 37.285474,
+      "address": "Kaledere Mah. Şafak Sok. Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522344879-41",
+      "name": "Stad Taksi",
+      "phone": "04522344879",
+      "lat": 41.13092797,
+      "lon": 37.28612905,
+      "address": "Kaledere Mah. Cumhuriyet Meydanı 4 Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04523235730-42",
+      "name": "Taksi",
+      "phone": "04523235730",
+      "lat": 41.123068,
+      "lon": 37.279331,
+      "address": "Liseler Mah. Niksar Cad. 59/A Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424901452-43",
+      "name": "Ünye Taksi",
+      "phone": "05424901452",
+      "lat": 41.128524,
+      "lon": 37.287385,
+      "address": "Kaledere Mah. Belediye Cad. 401 (İş Bankası Yanı) Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403210724-44",
+      "name": "Ünye Taksi",
+      "phone": "05403210724",
+      "lat": 41.126086,
+      "lon": 37.283362,
+      "address": "Kaledere Mah. Arzanoğlu Cad. 3/A Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05462440186-45",
+      "name": "Ünye Yıldız Taksi",
+      "phone": "05462440186",
+      "lat": 41.127391,
+      "lon": 37.280866,
+      "address": "Taksi Durağı ·  · Çınarlık Cd. No:78",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04523240724-46",
+      "name": "Yıldız Taksi",
+      "phone": "04523240724",
+      "lat": 41.1445515,
+      "lon": 37.2576569,
+      "address": "Taksi Durağı · Fakülte karşısı, Devlet sahil yolu, Cahitbey Sk. D:52300",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05366697976-47",
+      "name": "ordu-taksi",
+      "phone": "05366697976",
+      "lat": 41.129124,
+      "lon": 37.287385,
+      "address": "Kaledere Mah. Belediye Cad. 48/A Ünye, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427717181-48",
+      "name": "Fatsa Deniz Taksi",
+      "phone": "05427717181",
+      "lat": 41.0336096,
+      "lon": 37.4918781,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05330188952-49",
+      "name": "Fatsa Meydan Taksi",
+      "phone": "05330188952",
+      "lat": 41.029609,
+      "lon": 37.498047,
+      "address": "Sakarya Mah. Eskihal Sok. Fatsa, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04524231988-50",
+      "name": ". Fatsa Meydan Taksi",
+      "phone": "04524231988",
+      "lat": 41.029746,
+      "lon": 37.494874,
+      "address": "Sakarya Mah. Sakarya Cad. Fatsa, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04524231988-51",
+      "name": "Fatsa Otogar Taksi",
+      "phone": "04524231988",
+      "lat": 41.0313595,
+      "lon": 37.4999404,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04524235249-52",
+      "name": "Meydan Taksi",
+      "phone": "04524235249",
+      "lat": 41.0353038,
+      "lon": 37.4939901,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522344879-53",
+      "name": "Otogar Taksi",
+      "phone": "04522344879",
+      "lat": 41.032361,
+      "lon": 37.493987,
+      "address": "Mustafakemalpaşa Mah. Hükümet Cad. 8 Fatsa, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522337477-54",
+      "name": "Fatsa Meydan Taksi",
+      "phone": "04522337477",
+      "lat": 41.033657,
+      "lon": 37.495932,
+      "address": "Mustafakemalpaşa Mah. Garaj Sok. 1 Fatsa Otogarı Fatsa, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04527413960-55",
+      "name": "Gölköy Taksi",
+      "phone": "04527413960",
+      "lat": 40.689621,
+      "lon": 37.61205,
+      "address": "Gölköy Mah. Mustafa Kemal Paşa Cad. Garaj Sok. Gölköy, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377971873-56",
+      "name": "Meydan Taksi",
+      "phone": "05377971873",
+      "lat": 40.68156,
+      "lon": 37.6076789,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522344879-57",
+      "name": "Meydan Taksi",
+      "phone": "04522344879",
+      "lat": 40.6880023,
+      "lon": 37.61707947,
+      "address": "Kuşluvan Mah. Cami Sok. 5 Gölköy, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377343807-58",
+      "name": "Meydan Taksi",
+      "phone": "05377343807",
+      "lat": 40.68916573,
+      "lon": 37.61993907,
+      "address": "Kuşluvan Mah. Mustafa Kemal Paşa Cad. 103 Gölköy, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04525223750-59",
+      "name": "Kırlı Taksi",
+      "phone": "04525223750",
+      "lat": 41.01062,
+      "lon": 37.811661,
+      "address": "Efirli Köyü (Kalekent Sitesi) Perşembe, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418523562-60",
+      "name": "Sağlık Taksi",
+      "phone": "05418523562",
+      "lat": 40.985704,
+      "lon": 37.712947,
+      "address": "Kırlı-Merkez Mah. Perşembe, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04525171200-61",
+      "name": "Sağlık Taksi",
+      "phone": "04525171200",
+      "lat": 41.062964,
+      "lon": 37.774706,
+      "address": "Kacalı Mah. Kültür Cad. Perşembe, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05446912106-62",
+      "name": "Catalpınar Taksi",
+      "phone": "05446912106",
+      "lat": 40.8771501,
+      "lon": 37.4502921,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462290598-63",
+      "name": "Catalpınar Taksi",
+      "phone": "05462290598",
+      "lat": 40.8832667,
+      "lon": 37.456263,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05394836358-64",
+      "name": "Gürgentepe Taksi",
+      "phone": "05394836358",
+      "lat": 40.7901548,
+      "lon": 37.6011574,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394836358-65",
+      "name": "rgentepe Taksi",
+      "phone": "05394836358",
+      "lat": 40.787244,
+      "lon": 37.600452,
+      "address": "Akmescit Mah. Işık Sok. Gürgentepe, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05370632617-66",
+      "name": "Korgan Taksi",
+      "phone": "05370632617",
+      "lat": 40.8278776,
+      "lon": 37.3451502,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364246980-67",
+      "name": "Korgan Taksi",
+      "phone": "05364246980",
+      "lat": 40.8218213,
+      "lon": 37.3457039,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05353080311-68",
+      "name": "Kumru Taksi",
+      "phone": "05353080311",
+      "lat": 40.8740057,
+      "lon": 37.2635267,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433326309-69",
+      "name": "Kumru Taksi",
+      "phone": "05433326309",
+      "lat": 40.8716391,
+      "lon": 37.2586229,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05304954335-70",
+      "name": "Terminal Taksi",
+      "phone": "05304954335",
+      "lat": 40.79348,
+      "lon": 37.018831,
+      "address": "Yazlıkbelen Mah. Akkuş Otogarı Akkuş, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04522344879-71",
+      "name": "Meydan Taksi",
+      "phone": "04522344879",
+      "lat": 40.684822,
+      "lon": 37.398322,
+      "address": "Esenli Mah. İstiklal Cad. 1 Aybastı, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05411003352-72",
+      "name": "Ordu Giresun Havalimanı Taksi",
+      "phone": "05411003352",
+      "lat": 40.968021,
+      "lon": 38.049652,
+      "address": "Yeniköy Mah. Ordu Giresun Karayolu 2 Gülyalı, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04522344879-73",
+      "name": "Meydan Taksi",
+      "phone": "04522344879",
+      "lat": 41.054526,
+      "lon": 37.077849,
+      "address": "Merkez Mah. Cumhuriyet Cad. İkizce, Ordu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05428915481-74",
+      "name": "Ünyede Taksi Ömer YILDIZ",
+      "phone": "05428915481",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05447940132-75",
+      "name": "onur ünye taksi",
+      "phone": "05447940132",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05425273225-76",
+      "name": "ÜNYE HOŞNUT TAKSİ",
+      "phone": "05425273225",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05412429688-77",
+      "name": "Ünye Taksi Meydan Taksi - Mert Çuhacı",
+      "phone": "05412429688",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-04523330600-78",
+      "name": "OTOGAR TAKSİ ÜNYE",
+      "phone": "04523330600",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05346638798-79",
+      "name": "Ünye Taksi - Enes Candemir",
+      "phone": "05346638798",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05330556043-80",
+      "name": "Ünye taksi Erdem",
+      "phone": "05330556043",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05444071111-81",
+      "name": "Ünye taksi Meydan Taksi 7/24",
+      "phone": "05444071111",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05436465663-82",
+      "name": "Ünye Meydan Taksi Mehmet Çuhacı",
+      "phone": "05436465663",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05071611623-83",
+      "name": "Ünye Taksi - Serkan Özkan",
+      "phone": "05071611623",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05444871542-84",
+      "name": "Tümü → Akkuş Taksi ( Ümit Demir )",
+      "phone": "05444871542",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05334327593-85",
+      "name": "Akkuş Taksi Zekayi Şahin",
+      "phone": "05334327593",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04528882525-86",
+      "name": "Altınordu Taksi AÇIK · 7 gün 24 saat taksi durağı, Yeni mahalle okullar caddesi ",
+      "phone": "04528882525",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04522144844-87",
+      "name": "Birlik Taksi Altınordu AÇIK · 7 gün 24 saat Bucak, ADA SİMİT KARŞISI, Dr. Sadık ",
+      "phone": "04522144844",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04526000770-88",
+      "name": "Demokrasi Taksi Ordu",
+      "phone": "04526000770",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04526664646-89",
+      "name": "Park Taksi Altınordu",
+      "phone": "04526664646",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05434415200-90",
+      "name": "Sağlam Taksi",
+      "phone": "05434415200",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04528886363-91",
+      "name": "Sahil Taksi AÇIK · 7 gün 24 saat Cumhuriyet Mahallesi, 1356 Sokak Dörtyol Mevkii",
+      "phone": "04528886363",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04527774666-92",
+      "name": "Şirin Taksi Ordu",
+      "phone": "04527774666",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04522331661-93",
+      "name": "Site Taksi",
+      "phone": "04522331661",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04522255055-94",
+      "name": "Yonca Taksi",
+      "phone": "04522255055",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05462553083-95",
+      "name": "Tümü → Aybatı Meydan Taksi",
+      "phone": "05462553083",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04527142574-96",
+      "name": "Özgür Taksi Durağı",
+      "phone": "04527142574",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04527140710-97",
+      "name": "Park Taksi Aybastı",
+      "phone": "04527140710",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455535200-98",
+      "name": "Tümü → Çatalpınar Meydan Taksi",
+      "phone": "05455535200",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05464917180-99",
+      "name": "Catalpınar Taksi",
+      "phone": "05464917180",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05326374226-100",
+      "name": "Fatsa Otogar Taksi AÇIK · 7 gün 24 saat Mustafa Kemal Paşa Mahallesi, Sehit Poli",
+      "phone": "05326374226",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04524236133-101",
+      "name": "Güneş Taksi Fatsa",
+      "phone": "04524236133",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04524233484-102",
+      "name": "Mağazalarbaşı Taksi Durağı",
+      "phone": "04524233484",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05372134267-103",
+      "name": "Tümü → Gölköy Taksi",
+      "phone": "05372134267",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-04528212205-104",
+      "name": "Tümü → Gürgentepe Birlik Taksi AÇIK · 7 gün 24 saat Atatürk cad.muhtar aysun ayd",
+      "phone": "04528212205",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355114383-105",
+      "name": "Tümü → Kabataş Güven Taksi",
+      "phone": "05355114383",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355114467-106",
+      "name": "Taksi durağı",
+      "phone": "05355114467",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358918584-107",
+      "name": "Tümü → Korgan Taksi",
+      "phone": "05358918584",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05457906534-108",
+      "name": "Taksi",
+      "phone": "05457906534",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05428976152-109",
+      "name": "Tümü → Kumru Taksi",
+      "phone": "05428976152",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04525173030-110",
+      "name": "Meydan Taksi Perşembe",
+      "phone": "04525173030",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455405117-111",
+      "name": "Tümü → Adliye Taksi Ünye",
+      "phone": "05455405117",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04523247514-112",
+      "name": "Birlik Taksi Ünye",
+      "phone": "04523247514",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04523234181-113",
+      "name": "Çınar Taksi Ünye",
+      "phone": "04523234181",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04523235818-114",
+      "name": "Güven Taksi Ordu",
+      "phone": "04523235818",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04523233687-115",
+      "name": "Taksi durağı",
+      "phone": "04523233687",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05465270678-116",
+      "name": "Ünye Taksi",
+      "phone": "05465270678",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05403230724-117",
+      "name": "Ünye Taksi 7 24",
+      "phone": "05403230724",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05447855908-118",
+      "name": "Ünye Taksi Yıldız",
+      "phone": "05447855908",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05356864696-119",
+      "name": "Çamaş Taksi - Fatih Güneş",
+      "phone": "05356864696",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05393437223-120",
+      "name": "Çamaş Taksi - Şafak Küçüköksüz",
+      "phone": "05393437223",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05334539886-121",
+      "name": "Deniz Taksi - Şeref Baş",
+      "phone": "05334539886",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05416007373-122",
+      "name": "Fatsa Taksi - Mehmet Özyerli",
+      "phone": "05416007373",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05388443978-123",
+      "name": "Gölköy Taksi - Servet Tutkal",
+      "phone": "05388443978",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05333215725-124",
+      "name": "Hizmet Taksi Durağı",
+      "phone": "05333215725",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-04527771122-125",
+      "name": "Karşıyaka Taksi Durağı",
+      "phone": "04527771122",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05378166444-126",
+      "name": "Meydan Taksi - Ferat Satılmış",
+      "phone": "05378166444",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05394708114-127",
+      "name": "Meydan Taksi - Halil Yalçın",
+      "phone": "05394708114",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05376156770-128",
+      "name": "Otogar Taksi - Hakan Çendek",
+      "phone": "05376156770",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05435090485-129",
+      "name": "Sağlık Taksi - Ahmet Alkasan",
+      "phone": "05435090485",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05357390695-130",
+      "name": "Sağlık Taksi - Ahmet Yaylı",
+      "phone": "05357390695",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05395609885-131",
+      "name": "Taksici Seyfi",
+      "phone": "05395609885",
+      "lat": 40.9839,
+      "lon": 37.8764,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

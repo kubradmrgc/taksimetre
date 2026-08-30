@@ -1,0 +1,1089 @@
+{
+  "cityId": "erzincan",
+  "cityName": "Erzincan",
+  "fetchedAt": "2026-08-30T21:30:45.955Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "cayirli",
+      "name": "Cayirli",
+      "count": 28
+    },
+    {
+      "id": "kemah",
+      "name": "Kemah",
+      "count": 1
+    },
+    {
+      "id": "kemaliye",
+      "name": "Kemaliye",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 12
+    },
+    {
+      "id": "otlukbeli",
+      "name": "Otlukbeli",
+      "count": 13
+    },
+    {
+      "id": "tercan",
+      "name": "Tercan",
+      "count": 1
+    }
+  ],
+  "count": 68,
+  "stands": [
+    {
+      "id": "taksi724-0-0",
+      "name": "Araştırma Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.3199105,
+      "lon": 38.7647756,
+      "address": "Taksi Durağı · Hürriyet Cd. No:143",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462243884-1",
+      "name": "Çınar Taksi",
+      "phone": "04462243884",
+      "website": null,
+      "lat": 39.7610595,
+      "lon": 39.5085516,
+      "address": "Taksi · Mengücek Gazi Eğitim ve Araştırma Hastanesi, Başbağlar, Akın Caddesi A blok",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05469112093-2",
+      "name": "Erzincan Eşot Taksi",
+      "phone": "05469112093",
+      "website": null,
+      "lat": 40.0786846,
+      "lon": 38.3459468,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462143474-3",
+      "name": "Erzincan Hılton Taksi",
+      "phone": "04462143474",
+      "website": null,
+      "lat": 39.7442058,
+      "lon": 39.5003333,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357479050-4",
+      "name": "Erzincan Kartal Taksi",
+      "phone": "05357479050",
+      "website": null,
+      "lat": 39.7412028,
+      "lon": 39.5162013,
+      "address": "Taksi · 1302. Sk.",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05452270724-5",
+      "name": "Erzincan Taksi",
+      "phone": "05452270724",
+      "website": null,
+      "lat": 39.7359231,
+      "lon": 39.4877388,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05016410724-6",
+      "name": "Esadas Taksi",
+      "phone": "05016410724",
+      "website": null,
+      "lat": 39.743748,
+      "lon": 39.4927721,
+      "address": "Taksi Durağı ·  · 756. Sk. 3-1",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326359372-7",
+      "name": "Gar Taksi",
+      "phone": "05326359372",
+      "website": null,
+      "lat": 39.9202191,
+      "lon": 40.6942727,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362287081-8",
+      "name": "Kelkit Taksi",
+      "phone": "05362287081",
+      "website": null,
+      "lat": 39.7154901,
+      "lon": 39.5238336,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369730056-9",
+      "name": "Kelkit Taksi",
+      "phone": "05369730056",
+      "website": null,
+      "lat": 40.1292563,
+      "lon": 39.4366458,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352965245-10",
+      "name": "Kelkit Üniversite Taksi",
+      "phone": "05352965245",
+      "website": null,
+      "lat": 40.1365708,
+      "lon": 39.4328685,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377002961-11",
+      "name": "Köroğlu Taksi",
+      "phone": "05377002961",
+      "website": null,
+      "lat": 40.1112194,
+      "lon": 39.4521572,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334481940-12",
+      "name": "Nur Taksi",
+      "phone": "05334481940",
+      "website": null,
+      "lat": 40.162471,
+      "lon": 38.089232,
+      "address": "Taksi Durağı · Namık Kemal Sk.",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462264386-13",
+      "name": "Ovacık Dersim Taksi",
+      "phone": "04462264386",
+      "website": null,
+      "lat": 39.7411199,
+      "lon": 39.5192792,
+      "address": "Taksi Durağı · 1301. Sk. No:2",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04285112102-14",
+      "name": "Şebinkarahisar Taksi",
+      "phone": "04285112102",
+      "website": null,
+      "lat": 39.357254,
+      "lon": 39.214722,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358669511-15",
+      "name": "Şiran Merve Taksi",
+      "phone": "05358669511",
+      "website": null,
+      "lat": 40.2906423,
+      "lon": 38.4256367,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374240394-16",
+      "name": "Şiran Taksi",
+      "phone": "05374240394",
+      "website": null,
+      "lat": 40.1896274,
+      "lon": 39.1246634,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364757312-17",
+      "name": "Suşehri Eren Taksi",
+      "phone": "05364757312",
+      "website": null,
+      "lat": 40.1900039,
+      "lon": 39.1267759,
+      "address": "Taksi Durağı ·  · taksi durağı, Köprübaşı Cad.",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442961502-18",
+      "name": "Susehri Telekom Taksi",
+      "phone": "05442961502",
+      "website": null,
+      "lat": 40.162089,
+      "lon": 38.0914722,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356617696-19",
+      "name": "Taksi durağı",
+      "phone": "05356617696",
+      "website": null,
+      "lat": 40.1654037,
+      "lon": 38.0793262,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303634011-20",
+      "name": "Taksi",
+      "phone": "05303634011",
+      "website": null,
+      "lat": 39.7468405,
+      "lon": 39.5038865,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387600068-21",
+      "name": "Taksi",
+      "phone": "05387600068",
+      "website": null,
+      "lat": 39.7375066,
+      "lon": 39.4889454,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352103787-22",
+      "name": "Taksi",
+      "phone": "05352103787",
+      "website": null,
+      "lat": 39.7468498,
+      "lon": 39.4730275,
+      "address": "Taksi Durağı · 1250. Sk. No:85",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05343221230-23",
+      "name": "Taksi",
+      "phone": "05343221230",
+      "website": null,
+      "lat": 39.7975836,
+      "lon": 39.381171,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05530822400-24",
+      "name": "Tercan Taksi",
+      "phone": "05530822400",
+      "website": null,
+      "lat": 39.7982926,
+      "lon": 39.3802893,
+      "address": "Taksi Durağı · 496. Sk. No:14",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05366970881-25",
+      "name": "Tercan Taksi",
+      "phone": "05366970881",
+      "website": null,
+      "lat": 39.7767457,
+      "lon": 40.3836972,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313766972-26",
+      "name": "ÜMiT TAKSi",
+      "phone": "05313766972",
+      "website": null,
+      "lat": 39.7770487,
+      "lon": 40.3815004,
+      "address": "Taksi ·  · Esadaş yani, Rabia Firik Sk.",
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352141990-27",
+      "name": "erzincan-taksi",
+      "phone": "05352141990",
+      "website": null,
+      "lat": 39.7465525,
+      "lon": 39.5040625,
+      "address": null,
+      "districtId": "cayirli",
+      "districtName": "Cayirli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04282121722-28",
+      "name": "Barış Taksi",
+      "phone": "04282121722",
+      "website": null,
+      "lat": 39.107394,
+      "lon": 39.548394,
+      "address": "Taksi Durağı · Tunceli Emniyet Md. No:4",
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04282121781-29",
+      "name": "Bayburt kurban Taksi",
+      "phone": "04282121781",
+      "website": null,
+      "lat": 39.1065677,
+      "lon": 39.548691,
+      "address": "Taksi Durağı · Ata Sk. No:23",
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304502469-30",
+      "name": "Bayburt Taksi",
+      "phone": "05304502469",
+      "website": null,
+      "lat": 40.2650847,
+      "lon": 40.2038813,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04582112507-31",
+      "name": "Bayburt Taksi",
+      "phone": "04582112507",
+      "website": null,
+      "lat": 40.2606072,
+      "lon": 40.2271769,
+      "address": "Taksi Durağı · Kuyubaşı Cd. No:2",
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05558646937-32",
+      "name": "Karakoçan Baraj Taksi",
+      "phone": "05558646937",
+      "website": null,
+      "lat": 40.2598169,
+      "lon": 40.2251852,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-33-33",
+      "name": "Karakoçan cengiz topel Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.9549944,
+      "lon": 40.0366098,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312548862-34",
+      "name": "Karakoçan Taksi",
+      "phone": "05312548862",
+      "website": null,
+      "lat": 38.9563053,
+      "lon": 40.0360579,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394672275-35",
+      "name": "Karakoçan Taksi",
+      "phone": "05394672275",
+      "website": null,
+      "lat": 38.9556122,
+      "lon": 40.0366672,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384582678-36",
+      "name": "Karakocan Taksi",
+      "phone": "05384582678",
+      "website": null,
+      "lat": 38.956691,
+      "lon": 40.0359868,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352094403-37",
+      "name": "Terminal Taksi",
+      "phone": "05352094403",
+      "website": null,
+      "lat": 38.9549044,
+      "lon": 40.0361854,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04282122618-38",
+      "name": "Tunceli Mameki Taksi",
+      "phone": "04282122618",
+      "website": null,
+      "lat": 39.1075174,
+      "lon": 39.5436844,
+      "address": null,
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04282122114-39",
+      "name": "Tunceli Varan Taksi",
+      "phone": "04282122114",
+      "website": null,
+      "lat": 39.10617,
+      "lon": 39.548259,
+      "address": "Taksi Durağı · Hürriyet Cd. No:1",
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04282123682-40",
+      "name": "erzincan-taksi",
+      "phone": "04282123682",
+      "website": null,
+      "lat": 39.1052735,
+      "lon": 39.5472919,
+      "address": "Taksi Durağı · Behice Boran Sk. No:26",
+      "districtId": "otlukbeli",
+      "districtName": "Otlukbeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462141313-41",
+      "name": "Aktaş Taksi",
+      "phone": "04462141313",
+      "website": null,
+      "lat": 39.747416,
+      "lon": 39.491196,
+      "address": "İnönü Mah. Ordu Cad. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05346153663-42",
+      "name": "Bağıştaş-Kemaliye Taksi",
+      "phone": "05346153663",
+      "website": null,
+      "lat": 39.746168,
+      "lon": 39.500787,
+      "address": "Karaağaç Mah. Fevzipaşa Cad. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05435385774-43",
+      "name": "Çiçek Taksi",
+      "phone": "05435385774",
+      "website": null,
+      "lat": 39.4347422,
+      "lon": 38.455697,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462141212-44",
+      "name": "Eren Taksi",
+      "phone": "04462141212",
+      "website": null,
+      "lat": 39.755499,
+      "lon": 39.487777,
+      "address": "Yenimahalle Mah. 306 Sok. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04462142521-45",
+      "name": "Erzincan Taksi",
+      "phone": "04462142521",
+      "website": null,
+      "lat": 39.749287,
+      "lon": 39.491758,
+      "address": "Atatürk Mah. 352 Sok. 1 Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05439237580-46",
+      "name": "Güven Taksi",
+      "phone": "05439237580",
+      "website": null,
+      "lat": 39.7394459,
+      "lon": 39.5208383,
+      "address": "Mengüceli Mahallesi, 1302. Sk., 24100 Erzincan Merkez/Erzincan, Turkey",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-47-47",
+      "name": "Murat Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.747179,
+      "lon": 39.483259,
+      "address": "Kızılay Mah. Halitpaşa Cad. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462142080-48",
+      "name": "Murat Taksi",
+      "phone": "04462142080",
+      "website": null,
+      "lat": 39.745276,
+      "lon": 39.491079,
+      "address": "Karaağaç Mah. 13 Şubat Cad. 15 Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04462142080-49",
+      "name": "Uçar Taksi",
+      "phone": "04462142080",
+      "website": null,
+      "lat": 39.746513,
+      "lon": 39.491121,
+      "address": "Karaağaç Mah. 13 Şubat Sok. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04462286777-50",
+      "name": "Yeni Sun Taksi",
+      "phone": "04462286777",
+      "website": null,
+      "lat": 39.748716,
+      "lon": 39.468191,
+      "address": "Ergenekon Mah. 104. Sok. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04462142103-51",
+      "name": "erzincan-taksi",
+      "phone": "04462142103",
+      "website": null,
+      "lat": 39.746647,
+      "lon": 39.489811,
+      "address": "Kızılay Mah. Nusret Çetinkaya Cad. Erzincan Merkez, Erzincan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436036396-52",
+      "name": "Kemaliye Taksi",
+      "phone": "05436036396",
+      "website": null,
+      "lat": 39.2621838,
+      "lon": 38.4969441,
+      "address": "Taksi Durağı · Cumhuriyet Cd. No:93",
+      "districtId": "kemaliye",
+      "districtName": "Kemaliye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05531833677-53",
+      "name": "iye Taksi",
+      "phone": "05531833677",
+      "website": null,
+      "lat": 39.2586353,
+      "lon": 38.4990132,
+      "address": null,
+      "districtId": "kemaliye",
+      "districtName": "Kemaliye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366970881-54",
+      "name": "Tercan Taksi",
+      "phone": "05366970881",
+      "website": null,
+      "lat": 39.77639,
+      "lon": 40.38792,
+      "address": "Yavuz Selim Mah. Yıldırım Cad. Rabia Erik Sok. Tercan, Erzincan",
+      "districtId": "tercan",
+      "districtName": "Tercan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04462147878-55",
+      "name": "Lüks Erzincan Seyahat",
+      "phone": "04462147878",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-04462242488-56",
+      "name": "Yeni Özmurat Taksi",
+      "phone": "04462242488",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05059906024-57",
+      "name": "taksierzincan",
+      "phone": "05059906024",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05332376024-58",
+      "name": "Erzincan Korkmaz Taksi",
+      "phone": "05332376024",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05533332429-59",
+      "name": "Erzincan Hızlı Taksi AÇIK · 7 gün 24 saat Karaağaç, Murat Taksi, 13 Şubat Cd. No",
+      "phone": "05533332429",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05317192424-60",
+      "name": "Erzincan Taksi",
+      "phone": "05317192424",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05427690724-61",
+      "name": "Yeni Sun Taksi AÇIK · 7 gün 24 saat Kızılay, Sultan Melik Cd. No:13, 24040 Merke",
+      "phone": "05427690724",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358526433-62",
+      "name": "Tümü → Doğaperest Taksi Tur",
+      "phone": "05358526433",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05374556855-63",
+      "name": "Kemaliye Taksi İşletmesi",
+      "phone": "05374556855",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05387302374-64",
+      "name": "Tümü → Esenevler Taksi",
+      "phone": "05387302374",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366294394-65",
+      "name": "Tercan Yasin Taksi",
+      "phone": "05366294394",
+      "website": null,
+      "lat": 39.75,
+      "lon": 39.5,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05425030724-66",
+      "name": "Erzincan 7/24 Taksi - Gökhan Kartal",
+      "phone": "05425030724",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05394161887-67",
+      "name": "Kemah Taksi - Oğulcan Yatık",
+      "phone": "05394161887",
+      "website": "https://www.instagram.com/ogulcannyatk/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kemah",
+      "districtName": "Kemah",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

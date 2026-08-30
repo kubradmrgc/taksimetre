@@ -1,0 +1,1091 @@
+{
+  "cityId": "zonguldak",
+  "cityName": "Zonguldak",
+  "fetchedAt": "2026-08-30T21:24:25.169Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 88,
+  "stands": [
+    {
+      "id": "taksi724-03722653307-0",
+      "name": "Birlik Taksi",
+      "phone": "03722653307",
+      "lat": 41.489918,
+      "lon": 31.836486,
+      "address": "Kilimli-Merkez Mah. Gençlik Sok. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03722680722-1",
+      "name": "Demirpark Taksi",
+      "phone": "03722680722",
+      "lat": 41.454563,
+      "lon": 31.789024,
+      "address": "Meşrutiyet Mah. Gazipaşa Cad. Tahir Karaoğuz Sok. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722574030-2",
+      "name": "Doğan Taksi",
+      "phone": "03722574030",
+      "lat": 41.454494,
+      "lon": 31.765339,
+      "address": "İncivez Mah. Milli Egemenlik Cad. 130 Esas 67 Burda AVM Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722511325-3",
+      "name": "Elif Taksi",
+      "phone": "03722511325",
+      "lat": 41.451712,
+      "lon": 31.790656,
+      "address": "Mithatpaşa Mah. Alemdar Cad. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467890300-4",
+      "name": "Emniyet Taksi",
+      "phone": "05467890300",
+      "lat": 41.434681,
+      "lon": 31.746083,
+      "address": "Kozlu-Merkez Mah. Cumhuriyet Cad. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722575456-5",
+      "name": "Gülüç Taksi",
+      "phone": "03722575456",
+      "lat": 41.453463,
+      "lon": 31.77328,
+      "address": "Bahçelievler Mah. Necati Yıldırım Cad. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455036002-6",
+      "name": "Güven Taksi",
+      "phone": "05455036002",
+      "lat": 41.249604,
+      "lon": 31.415787,
+      "address": "Gülüç-Merkez Mah. Belediye Cad. Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722661094-7",
+      "name": "Kapuz Taksi",
+      "phone": "03722661094",
+      "lat": 41.433298,
+      "lon": 31.748365,
+      "address": "Kozlu-19 Mayıs Mah. Çakıl Cad. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722563333-8",
+      "name": "Kent Taksi",
+      "phone": "03722563333",
+      "lat": 41.468791,
+      "lon": 31.801182,
+      "address": "Yeşil Mah. Kapuz Cad. 5/A Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722661233-9",
+      "name": "Merkez Taksi",
+      "phone": "03722661233",
+      "lat": 41.434318,
+      "lon": 31.748134,
+      "address": "Merkez Mah. Atatürk Cad. (Tanyeli Fırının Yanında) Kozlu, Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722511124-10",
+      "name": "Ptt Taksi",
+      "phone": "03722511124",
+      "lat": 41.454594,
+      "lon": 31.788356,
+      "address": "Meşrutiyet Mah. Uzunmehmet Cad. 2 Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722512575-11",
+      "name": "Site Taksi",
+      "phone": "03722512575",
+      "lat": 41.454057,
+      "lon": 31.788763,
+      "address": "Meşrutiyet Mah. Ptt Sok. Gazipaşa Cad. Merkez, Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722573028-12",
+      "name": "Soğuksu Taksi",
+      "phone": "03722573028",
+      "lat": 41.449355,
+      "lon": 31.769874,
+      "address": "Bahçelievler Mah. Gül Sok. Site, Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722511066-13",
+      "name": "Ssk Taksi",
+      "phone": "03722511066",
+      "lat": 41.451551,
+      "lon": 31.783488,
+      "address": "Terakki Mah. Cumhuriyet Cad. Camii Sok. 42 Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03722538395-14",
+      "name": "Terminal Taksi",
+      "phone": "03722538395",
+      "lat": 41.459313,
+      "lon": 31.794633,
+      "address": "Meşrutiyet Mah. Huzur Sok. 38 Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722574631-15",
+      "name": "zonguldak-taksi",
+      "phone": "03722574631",
+      "lat": 41.453488,
+      "lon": 31.778182,
+      "address": "Terakki Mah. Milli Egemenlik Cad. Zonguldak Merkez, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03724353783-16",
+      "name": "Çınar Taksi",
+      "phone": "03724353783",
+      "lat": 41.292708,
+      "lon": 31.40767,
+      "address": "Süleymanlar Mah. Hastane Cad. Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455036002-17",
+      "name": "Echomar sümer Taksi",
+      "phone": "05455036002",
+      "lat": 41.283515,
+      "lon": 31.414642,
+      "address": "Orhanlar Mah. Bozhane Çarsısı Sok. 10 Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05510310570-18",
+      "name": "Garaj Taksi",
+      "phone": "05510310570",
+      "lat": 41.2734089,
+      "lon": 31.4316056,
+      "address": "Taksi Durağı · Şht. Ömer Halisdemir Blv Yan Yolu No:18",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05459767577-19",
+      "name": "Hastane Taksi",
+      "phone": "05459767577",
+      "lat": 41.273036,
+      "lon": 31.422356,
+      "address": "Müftü Mah. Göztepe Sok. Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05558997661-20",
+      "name": "Kent Taksi",
+      "phone": "05558997661",
+      "lat": 41.277102,
+      "lon": 31.496207,
+      "address": "Ömerli Mah. Kaynarca Cad. Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03723163453-21",
+      "name": "Kışla Taksi",
+      "phone": "03723163453",
+      "lat": 41.273283,
+      "lon": 31.436557,
+      "address": "Bağlık Mah. Eser Sok. 1 Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03723223131-22",
+      "name": "Murat Taksi",
+      "phone": "03723223131",
+      "lat": 41.257102,
+      "lon": 31.436825,
+      "address": "Kışla Mah. Millet Sok. Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05455036002-23",
+      "name": "Pazar Taksi",
+      "phone": "05455036002",
+      "lat": 41.279068,
+      "lon": 31.425374,
+      "address": "Müftü Mah. Yurt Cad. 43 Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03723161829-24",
+      "name": "Sahil Taksi",
+      "phone": "03723161829",
+      "lat": 41.281432,
+      "lon": 31.42308,
+      "address": "Bağlık Mah. Suphi Konak Cad. Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05455036002-25",
+      "name": "Sümer Taksi",
+      "phone": "05455036002",
+      "lat": 41.279958,
+      "lon": 31.420825,
+      "address": "Orhanlar Mah. Yalı Cad. 2 Karadenizereğli, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03723162001-26",
+      "name": "Terminal Garaj Taksi",
+      "phone": "03723162001",
+      "lat": 41.249854,
+      "lon": 31.421618,
+      "address": "Taksi · Orta Cami Sok. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03723161220-27",
+      "name": "TOPBAŞI TAKSi",
+      "phone": "03723161220",
+      "lat": 41.2752472,
+      "lon": 31.4871559,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357750703-28",
+      "name": "zonguldak-taksi",
+      "phone": "05357750703",
+      "lat": 41.432104,
+      "lon": 31.737903,
+      "address": "Taksi Durağı ·  · Eski Ereğli Yolu No:171 D:167",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03723784166-29",
+      "name": "Beü Zonguldak Taksi",
+      "phone": "03723784166",
+      "lat": 41.181426,
+      "lon": 31.386004,
+      "address": "Merkez Mah. Gümrük Sok. 7 Alaplı, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05340410379-30",
+      "name": "Esas 67 Avm Taksi",
+      "phone": "05340410379",
+      "lat": 41.4473189,
+      "lon": 31.7637668,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05065567670-31",
+      "name": "Fatih Taksi",
+      "phone": "05065567670",
+      "lat": 41.4435757,
+      "lon": 31.7537477,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722661746-32",
+      "name": "Garaj Taksi",
+      "phone": "03722661746",
+      "lat": 41.431067,
+      "lon": 31.7326748,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05459767577-33",
+      "name": "İncivez Taksi",
+      "phone": "05459767577",
+      "lat": 41.179095,
+      "lon": 31.38388,
+      "address": "Karşıyaka Mah. İstanbul Cad. Alaplı, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05441573534-34",
+      "name": "Kozlu Taksi",
+      "phone": "05441573534",
+      "lat": 41.449584,
+      "lon": 31.763822,
+      "address": "Taksi Durağı · İncivez Mahallesi, Üniversite Caddesi No:41 , Alt Kapı Apartmanı Daire:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357670079-35",
+      "name": "Kozlu Taksi",
+      "phone": "05357670079",
+      "lat": 41.4255089,
+      "lon": 31.746477,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432672274-36",
+      "name": "Site Atatürk Devlet Hastanesi Taksi",
+      "phone": "05432672274",
+      "lat": 41.4350748,
+      "lon": 31.7419325,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05558997661-37",
+      "name": "Soğuksu Taksi",
+      "phone": "05558997661",
+      "lat": 41.45064,
+      "lon": 31.779006,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722534617-38",
+      "name": "Zonguldak Taksi",
+      "phone": "03722534617",
+      "lat": 41.4517267,
+      "lon": 31.7863237,
+      "address": "Cumhuriyet Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05459767577-39",
+      "name": "Zonguldak Taksi",
+      "phone": "05459767577",
+      "lat": 41.428145,
+      "lon": 31.7360631,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05467890300-40",
+      "name": "zonguldak-taksi",
+      "phone": "05467890300",
+      "lat": 41.4475577,
+      "lon": 31.7822639,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03725567655-41",
+      "name": "Devrek Taksi",
+      "phone": "03725567655",
+      "lat": 41.218806,
+      "lon": 31.95575,
+      "address": "Yeni Mah. Vedat Ali Özkan Cad. Devrek, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05306674171-42",
+      "name": "Devrek Taksi",
+      "phone": "05306674171",
+      "lat": 41.2209077,
+      "lon": 31.9543722,
+      "address": "Taksi Durağı ·  · Dr. Veysel Atasoy Cd. No:23",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334880391-43",
+      "name": "Devrek Taksi",
+      "phone": "05334880391",
+      "lat": 41.2207165,
+      "lon": 31.9551714,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05322743842-44",
+      "name": "Devrek Taksi",
+      "phone": "05322743842",
+      "lat": 41.2206022,
+      "lon": 31.9550703,
+      "address": "Taksi Durağı ·  · Dr. Veysel Atasoy Cd. No:32, 67800",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05309364127-45",
+      "name": "Hal Taksi",
+      "phone": "05309364127",
+      "lat": 41.2207824,
+      "lon": 31.9550349,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03725563021-46",
+      "name": "Terminal Taksi",
+      "phone": "03725563021",
+      "lat": 41.218206,
+      "lon": 31.95575,
+      "address": "Yeni Mah. Vedat Ali Özkan Cad. Devrek, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03725562532-47",
+      "name": "Yeni Terminal Taksi",
+      "phone": "03725562532",
+      "lat": 41.21865,
+      "lon": 31.952856,
+      "address": "Taksi Durağı ·  · Terminal Kümeevleri Sk. Pk:67800",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03722574631-48",
+      "name": "Devrek Taksi",
+      "phone": "03722574631",
+      "lat": 41.226843,
+      "lon": 31.963679,
+      "address": "İsmet Paşa Mah. Devrek Otobüs Terminali Sazlık Çayı, Devrek, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462333003-49",
+      "name": "Hisar Taksi",
+      "phone": "05462333003",
+      "lat": 41.4257628,
+      "lon": 32.0748938,
+      "address": "Taksi · Burunsuz Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-50-50",
+      "name": "Merkez Taksi",
+      "phone": null,
+      "lat": 41.561348,
+      "lon": 32.026025,
+      "address": "Merkez Mah. Atatürk Cad. Filyos, Çaycuma, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722511124-51",
+      "name": "Ptt Taksi",
+      "phone": "03722511124",
+      "lat": 41.430702,
+      "lon": 32.074946,
+      "address": "Çay Mah. Esengil Cad. Çaycuma, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722512575-52",
+      "name": "Site Taksi",
+      "phone": "03722512575",
+      "lat": 41.429214,
+      "lon": 32.078867,
+      "address": "Yeni Mah. Burcu Sok. 4 Çaycuma, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355993096-53",
+      "name": "Terminal Taksi",
+      "phone": "05355993096",
+      "lat": 41.42093,
+      "lon": 32.076077,
+      "address": "Yeni Mah. Nihat Kantarcı Cad. 83 Çaycuma, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722574631-54",
+      "name": "Ptt Taksi",
+      "phone": "03722574631",
+      "lat": 41.424497,
+      "lon": 32.094288,
+      "address": "İstasyon Mah. İstasyon Cad. Çaycuma, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05511444282-55",
+      "name": "Güven Taksi",
+      "phone": "05511444282",
+      "lat": 41.3067372,
+      "lon": 32.1450566,
+      "address": "Taksi · Güven Taksi Durağı, İsmet Paşa Caddesi Çarşı İçi Mahallesi Şok Market, Karşısı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03722661094-56",
+      "name": "Güven Taksi",
+      "phone": "03722661094",
+      "lat": 41.305731,
+      "lon": 32.142666,
+      "address": "Çarşı Mah. İsmetpaşa Cad. Gökçebey, Zonguldak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423400430-57",
+      "name": "Köprübaşı Taksi",
+      "phone": "05423400430",
+      "lat": 41.4929117,
+      "lon": 31.8382188,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03722651806-58",
+      "name": "Köprübaşı Taksi",
+      "phone": "03722651806",
+      "lat": 41.4873854,
+      "lon": 31.8391197,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05393231484-59",
+      "name": "Çiçek Taksi Osman BULAZAR",
+      "phone": "05393231484",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03726154165-60",
+      "name": "ÇAYCUMA SİTE TAKSİ",
+      "phone": "03726154165",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05441834191-61",
+      "name": "TAKSİCİ FEHMİ PAZARLI",
+      "phone": "05441834191",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05462511745-62",
+      "name": "Ediz Kazkondu Taksi",
+      "phone": "05462511745",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05323161183-63",
+      "name": "Devrek Taksi Aydemir AÇIK · 7 gün 24 saat Eski, Dr. Veysel Atasoy Cd. No:32, 678",
+      "phone": "05323161183",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05466704068-64",
+      "name": "Çaydeğirmeni Merkez Taksi",
+      "phone": "05466704068",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05435929313-65",
+      "name": "Ssk Taksi AÇIK · 7 gün 24 saat Meşrutiyet, Huzur Sk. No:1, 67030 Zonguldak Merke",
+      "phone": "05435929313",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03722512010-66",
+      "name": "Terminal Çarşı Taksi",
+      "phone": "03722512010",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03723781267-67",
+      "name": "Tümü → Birlik Taksi – Alaplı Taksi",
+      "phone": "03723781267",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367363918-68",
+      "name": "Tümü → Çaycuma Taksi",
+      "phone": "05367363918",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03726150037-69",
+      "name": "Taksi durağı",
+      "phone": "03726150037",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03726150796-70",
+      "name": "Ptt Taksi",
+      "phone": "03726150796",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432742381-71",
+      "name": "Devrek Taksi AÇIK · 7 gün 24 saat Yeni mahalle, fahri yücel sokak yeni terminal,",
+      "phone": "05432742381",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05343147591-72",
+      "name": "Devrek Taksi (yasin Kafalı)",
+      "phone": "05343147591",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05327133708-73",
+      "name": "Devrek Taksi 7/24 Mustafa",
+      "phone": "05327133708",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03725564787-74",
+      "name": "Güven Taksi Devrek",
+      "phone": "03725564787",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03725561606-75",
+      "name": "Hal Taksi Durağı AÇIK · 7 gün 24 saat Yeni Mh, Hal İçi Kümeevleri Sk. Pk:67800, ",
+      "phone": "03725561606",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03725565672-76",
+      "name": "Meydan Taksi Durağı",
+      "phone": "03725565672",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03725562838-77",
+      "name": "Şah Taksi",
+      "phone": "03725562838",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03725567820-78",
+      "name": "Terminal Taksi 2 AÇIK · 7 gün 24 saat Yeni Mh, Terminal Kümeevleri Sk. Pk:67800,",
+      "phone": "03725567820",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03723161449-79",
+      "name": "Yeşilbaşlar Taksi Devrek AÇIK · 7 gün 24 saat Yeni mahalle yeni pazar alanı soka",
+      "phone": "03723161449",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03723161806-80",
+      "name": "Murat Taksi",
+      "phone": "03723161806",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03723161525-81",
+      "name": "Sahil Taksi",
+      "phone": "03723161525",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05072749974-82",
+      "name": "Tümü → Gökçebey Belen Taksi AÇIK · 7 gün 24 saat Güven Taksi Durağı, İsmet Paşa ",
+      "phone": "05072749974",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05425011001-83",
+      "name": "Taksi durağı",
+      "phone": "05425011001",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03722530856-84",
+      "name": "Tümü → Acılık Taksi",
+      "phone": "03722530856",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05511517517-85",
+      "name": "Tümü → Beü Üniversite Taksi 67 T 0049",
+      "phone": "05511517517",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-03726150078-86",
+      "name": "Köprübaşı Taksi Durağı",
+      "phone": "03726150078",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-03726151759-87",
+      "name": "Yukarı Çarşı Taksi Durağı",
+      "phone": "03726151759",
+      "lat": 41.4564,
+      "lon": 31.7987,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

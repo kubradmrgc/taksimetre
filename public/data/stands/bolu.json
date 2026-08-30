@@ -1,0 +1,947 @@
+{
+  "cityId": "bolu",
+  "cityName": "Bolu",
+  "fetchedAt": "2026-08-30T21:28:44.884Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "dortdivan",
+      "name": "Dortdivan",
+      "count": 16
+    },
+    {
+      "id": "gerede",
+      "name": "Gerede",
+      "count": 4
+    },
+    {
+      "id": "goynuk",
+      "name": "Goynuk",
+      "count": 1
+    },
+    {
+      "id": "mengen",
+      "name": "Mengen",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 22
+    },
+    {
+      "id": "mudurnu",
+      "name": "Mudurnu",
+      "count": 2
+    },
+    {
+      "id": "yenicaga",
+      "name": "Yenicaga",
+      "count": 1
+    }
+  ],
+  "count": 58,
+  "stands": [
+    {
+      "id": "taksi724-05015409414-0",
+      "name": "Aydın Taksi",
+      "phone": "05015409414",
+      "website": null,
+      "lat": 40.731862,
+      "lon": 31.614397,
+      "address": "Akpınar Mah. Ertan Sok. 28/D Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-1-1",
+      "name": "Durağı - S.s. Baysal Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.731886,
+      "lon": 31.609446,
+      "address": "Aktaş Mah. Öney Sok. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742136585-2",
+      "name": "Borazanlar Taksi",
+      "phone": "03742136585",
+      "website": null,
+      "lat": 40.73079,
+      "lon": 31.601568,
+      "address": "Tabaklar Mah. Vaysal Sok. 1/A Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742177269-3",
+      "name": "Dörtyol Birlik Taksi",
+      "phone": "03742177269",
+      "website": null,
+      "lat": 40.730126,
+      "lon": 31.583836,
+      "address": "Borazanlar Mah. Hürriyet Cad. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-4-4",
+      "name": "Efem Köroğlu Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.729625,
+      "lon": 31.602244,
+      "address": "Tabaklar Mah. Hattat Emin Barın Cad. 6 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521470073-5",
+      "name": "Gölyüzü Birlik Taksi",
+      "phone": "05521470073",
+      "website": null,
+      "lat": 40.734427,
+      "lon": 31.62294,
+      "address": "Köroğlu Mah. Can Sok. 28 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05454405730-6",
+      "name": "Hastane Birlik Taksi",
+      "phone": "05454405730",
+      "website": null,
+      "lat": 40.737633,
+      "lon": 31.611311,
+      "address": "Gölyüzü Mah. Tahvil Mehmet Paşa Cad. 32 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355520012-7",
+      "name": "Hisar Taksi",
+      "phone": "05355520012",
+      "website": null,
+      "lat": 40.73373291,
+      "lon": 31.60150061,
+      "address": "Karamanlı Mah. Mahsar Murtazaoğlu Cad. Gövem Sok. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742702293-8",
+      "name": "Kalıcı Konutlar Taksi",
+      "phone": "03742702293",
+      "website": null,
+      "lat": 40.746689,
+      "lon": 31.605443,
+      "address": "Kültür Mah. Şehitler Cad. 2 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05331516222-9",
+      "name": "Kartal Taksi",
+      "phone": "05331516222",
+      "website": null,
+      "lat": 40.743673,
+      "lon": 31.571287,
+      "address": "Yaşamkent Mah. Koray Aydın Blv. Hastane Cad. Ada 13. Sok. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03742131748-10",
+      "name": "Konak Taksi",
+      "phone": "03742131748",
+      "website": null,
+      "lat": 40.733694,
+      "lon": 31.598803,
+      "address": "Bahçelievler Mah. Şemsi Ahmet Paşa Cad. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742154361-11",
+      "name": "Lale Taksi",
+      "phone": "03742154361",
+      "website": null,
+      "lat": 40.731139,
+      "lon": 31.6002,
+      "address": "Tabaklar Mah. Salim Gündoğan Cad. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03742158800-12",
+      "name": "Merkez Birlik Taksi",
+      "phone": "03742158800",
+      "website": null,
+      "lat": 40.735112,
+      "lon": 31.596352,
+      "address": "Bahçelievler Mah. Muzaffer Işın Cad. 40 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-13-13",
+      "name": "Meydan Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.730332,
+      "lon": 31.604401,
+      "address": "Tabaklar Mah. Cumhuriyet Cad. 2 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05350161690-14",
+      "name": "Murat Sönmez Birlik Taksi",
+      "phone": "05350161690",
+      "website": null,
+      "lat": 40.732141,
+      "lon": 31.596227,
+      "address": "Bahçelievler Mah. Çiğdem Sok. Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454405730-15",
+      "name": "Mutlu Taksi",
+      "phone": "05454405730",
+      "website": null,
+      "lat": 40.7327,
+      "lon": 31.607443,
+      "address": "Büyükcami Mah. Parti Sok. 4 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742152772-16",
+      "name": "Otogar Taksi",
+      "phone": "03742152772",
+      "website": null,
+      "lat": 40.7372401,
+      "lon": 31.6022671,
+      "address": "Taksi · Karamanlı Mh. Mutlu Sk. Pk:14100 Merkez/bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05350161690-17",
+      "name": "Siteler Taksi",
+      "phone": "05350161690",
+      "website": null,
+      "lat": 40.734581,
+      "lon": 31.569545,
+      "address": "Paşaköy Mah. Bolu Otogarı Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-18-18",
+      "name": "Sümer Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.724746,
+      "lon": 31.604023,
+      "address": "Karaçayır Mah. Ali Rıza Tekemen Cad. (Siteler Cami Altı) Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742123834-19",
+      "name": "Yeni Birlik Abant Taksi",
+      "phone": "03742123834",
+      "website": null,
+      "lat": 40.725884,
+      "lon": 31.59251,
+      "address": "Sümer Mah. Ayhan Sok. 1 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454405730-20",
+      "name": "bolu-taksi",
+      "phone": "05454405730",
+      "website": null,
+      "lat": 40.731237,
+      "lon": 31.60654,
+      "address": "Karaçayır Mah. Ptt Cad. 1 Bolu Merkez, Bolu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428121414-21",
+      "name": "Baysal Taksi",
+      "phone": "05428121414",
+      "website": null,
+      "lat": 40.7331105,
+      "lon": 31.5634098,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03742136585-22",
+      "name": "Bolu Alpağut Taksi",
+      "phone": "03742136585",
+      "website": null,
+      "lat": 40.7444461,
+      "lon": 31.5948391,
+      "address": "Taksi Durağı ·  · Artı Market Yanı, İzzet Baysal Mahallesi, Çakmaklar Caddesi, Özcan Sk. No: 36",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05015409414-23",
+      "name": "Bolu Kampüs Taksi",
+      "phone": "05015409414",
+      "website": null,
+      "lat": 40.7436007,
+      "lon": 31.5894419,
+      "address": "\"Mahallemizde olmalarından dolayı gurur duyuyorum.\"",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312801440-24",
+      "name": "BOLU KARACASU TAKSi",
+      "phone": "05312801440",
+      "website": null,
+      "lat": 40.7187658,
+      "lon": 31.5257346,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03742629111-25",
+      "name": "Bolu Taksi",
+      "phone": "03742629111",
+      "website": null,
+      "lat": 40.6874348,
+      "lon": 31.6203204,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05462230881-26",
+      "name": "Taksi durağı",
+      "phone": "05462230881",
+      "website": null,
+      "lat": 40.735743,
+      "lon": 31.6149705,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446600751-27",
+      "name": "Can Taksi",
+      "phone": "05446600751",
+      "website": null,
+      "lat": 40.5997126,
+      "lon": 31.6585207,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742123536-28",
+      "name": "Cici Taksi",
+      "phone": "03742123536",
+      "website": null,
+      "lat": 40.7376403,
+      "lon": 31.6198196,
+      "address": "Taksi Durağı ·  · Şht. Erol Erdoğan Sk. No:2",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03742702237-29",
+      "name": "Gül Taksi",
+      "phone": "03742702237",
+      "website": null,
+      "lat": 40.737862,
+      "lon": 31.5996189,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03742154799-30",
+      "name": "Gül Taksi Bolu",
+      "phone": "03742154799",
+      "website": null,
+      "lat": 40.7329634,
+      "lon": 31.5926014,
+      "address": "Taksi Durağı · Akşemseddin Sk. No:28",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05525425485-31",
+      "name": "Hal Taksi",
+      "phone": "05525425485",
+      "website": null,
+      "lat": 40.7382659,
+      "lon": 31.5827445,
+      "address": "Tatlı ·  · İzzet Baysal Devlet Hst. Blv. B Blok No:31",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03742171699-32",
+      "name": "Hastane Taksi",
+      "phone": "03742171699",
+      "website": null,
+      "lat": 40.7355018,
+      "lon": 31.6044444,
+      "address": "Taksi Durağı ·  · İsfendiyaroğlu Sk. No:12",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530545105-33",
+      "name": "Kadın Doğum Taksi",
+      "phone": "05530545105",
+      "website": null,
+      "lat": 40.7502478,
+      "lon": 31.5655589,
+      "address": "Taksi Durağı · Hastane taksi, Bolu Devlet Hst. Yolu No:17",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-03742150036-34",
+      "name": "Kent Taksi",
+      "phone": "03742150036",
+      "website": null,
+      "lat": 40.7331192,
+      "lon": 31.6018897,
+      "address": "Taksi Durağı ·  · Gövem Sk. Pk:14100",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347038258-35",
+      "name": "Sanayi Adalet Taksi",
+      "phone": "05347038258",
+      "website": null,
+      "lat": 40.7226424,
+      "lon": 31.5912162,
+      "address": "Taksi Durağı · Necip Fazıl Kısakürek Blv. No:48",
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03742201400-36",
+      "name": "bolu-taksi",
+      "phone": "03742201400",
+      "website": null,
+      "lat": 40.7398135,
+      "lon": 31.6229546,
+      "address": null,
+      "districtId": "dortdivan",
+      "districtName": "Dortdivan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05325084857-37",
+      "name": "Gerede Merkez Taksi",
+      "phone": "05325084857",
+      "website": null,
+      "lat": 40.7988199,
+      "lon": 32.2026983,
+      "address": null,
+      "districtId": "gerede",
+      "districtName": "Gerede",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373200028-38",
+      "name": "Gerede Taksi",
+      "phone": "05373200028",
+      "website": null,
+      "lat": 40.7986817,
+      "lon": 32.1954262,
+      "address": null,
+      "districtId": "gerede",
+      "districtName": "Gerede",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333223492-39",
+      "name": "Yeni Birlik Can Taksi",
+      "phone": "05333223492",
+      "website": null,
+      "lat": 40.7942611,
+      "lon": 32.2030582,
+      "address": null,
+      "districtId": "gerede",
+      "districtName": "Gerede",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454405730-40",
+      "name": "Gerede Taksi",
+      "phone": "05454405730",
+      "website": null,
+      "lat": 40.800973,
+      "lon": 32.198349,
+      "address": "Orta Mah. Eski Pazar Meydan Sok. Gerede, Bolu",
+      "districtId": "gerede",
+      "districtName": "Gerede",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323850787-41",
+      "name": "Mengen Terminal Taksi",
+      "phone": "05323850787",
+      "website": null,
+      "lat": 40.9364862,
+      "lon": 32.0711104,
+      "address": "Taksi · Mengen Otogarı No:4",
+      "districtId": "mengen",
+      "districtName": "Mengen",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05444907905-42",
+      "name": "Mengen Terminal Taksi",
+      "phone": "05444907905",
+      "website": null,
+      "lat": 40.9366135,
+      "lon": 32.0712756,
+      "address": null,
+      "districtId": "mengen",
+      "districtName": "Mengen",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05434211400-43",
+      "name": "Mudurnu Taksi",
+      "phone": "05434211400",
+      "website": null,
+      "lat": 40.4656191,
+      "lon": 31.2120515,
+      "address": "Ulaşım Hizmeti · Belediye Cd. No:10",
+      "districtId": "mudurnu",
+      "districtName": "Mudurnu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05357294673-44",
+      "name": "Mudurnu Taksi",
+      "phone": "05357294673",
+      "website": null,
+      "lat": 40.467777,
+      "lon": 31.210342,
+      "address": "Kaygana Mah. Bolu Cad. Mudurnu, Bolu",
+      "districtId": "mudurnu",
+      "districtName": "Mudurnu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05498206789-45",
+      "name": "Göynük Taksi",
+      "phone": "05498206789",
+      "website": null,
+      "lat": 40.397342,
+      "lon": 30.785338,
+      "address": "Hacı Abdi Mah. Salmanlar Sok. (Otobüs Terminali Benzinlik Yanı) Göynük, Bolu",
+      "districtId": "goynuk",
+      "districtName": "Goynuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05015409414-46",
+      "name": "ag Taksi",
+      "phone": "05015409414",
+      "website": null,
+      "lat": 40.770621,
+      "lon": 32.025208,
+      "address": "Camiatik Mah. Yeni İstanbul Cad. 1/A Yeniçağa, Bolu",
+      "districtId": "yenicaga",
+      "districtName": "Yenicaga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-03742701187-47",
+      "name": "Kamil Koç (Cici Taksi)",
+      "phone": "03742701187",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05326413046-48",
+      "name": "Bolu Fikret Taksi",
+      "phone": "05326413046",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05510290865-49",
+      "name": "BOLU KENT TAKSİ",
+      "phone": "05510290865",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05400080014-50",
+      "name": "Murat Sönmez Taksi",
+      "phone": "05400080014",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-03742156937-51",
+      "name": "Abant Taksi",
+      "phone": "03742156937",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03742124100-52",
+      "name": "As Taksi",
+      "phone": "03742124100",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03742121597-53",
+      "name": "Bolu Gölyüzü Taksi Durağı",
+      "phone": "03742121597",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03742171500-54",
+      "name": "Bulut Taksi",
+      "phone": "03742171500",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05422717648-55",
+      "name": "Mudurnu Taksi",
+      "phone": "05422717648",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05327310332-56",
+      "name": "Tümü → Güler Taksi (7/24 Watsap Hizmeti)",
+      "phone": "05327310332",
+      "website": null,
+      "lat": 40.7392,
+      "lon": 31.6086,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05069923471-57",
+      "name": "Bolu Taksi - Mehmet Acar",
+      "phone": "05069923471",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1312 @@
+{
+  "cityId": "kastamonu",
+  "cityName": "Kastamonu",
+  "fetchedAt": "2026-08-30T21:32:58.256Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "abana",
+      "name": "Abana",
+      "count": 18
+    },
+    {
+      "id": "arac",
+      "name": "Arac",
+      "count": 1
+    },
+    {
+      "id": "azdavay",
+      "name": "Azdavay",
+      "count": 2
+    },
+    {
+      "id": "bozkurt",
+      "name": "Bozkurt",
+      "count": 2
+    },
+    {
+      "id": "catalzeytin",
+      "name": "Catalzeytin",
+      "count": 3
+    },
+    {
+      "id": "cide",
+      "name": "Cide",
+      "count": 6
+    },
+    {
+      "id": "daday",
+      "name": "Daday",
+      "count": 2
+    },
+    {
+      "id": "ihsangazi",
+      "name": "İhsangazi",
+      "count": 24
+    },
+    {
+      "id": "kure",
+      "name": "Kure",
+      "count": 1
+    },
+    {
+      "id": "pinarbasi",
+      "name": "Pinarbasi",
+      "count": 3
+    },
+    {
+      "id": "tosya",
+      "name": "Tosya",
+      "count": 1
+    }
+  ],
+  "count": 81,
+  "stands": [
+    {
+      "id": "taksi724-05339607037-0",
+      "name": "Boyabat Alo Taksi",
+      "phone": "05339607037",
+      "website": null,
+      "lat": 41.9666077,
+      "lon": 33.7519582,
+      "address": "Taksi Durağı · Şehir Er, Şht. Rahmi Yılmazer Cd. No:42",
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464978822-1",
+      "name": "Boyabat Taksi",
+      "phone": "05464978822",
+      "website": null,
+      "lat": 41.4651451,
+      "lon": 34.7708603,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316573044-2",
+      "name": "Boyabat Taksi",
+      "phone": "05316573044",
+      "website": null,
+      "lat": 41.4672167,
+      "lon": 34.7695546,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464389813-3",
+      "name": "Çerkeş Taksi",
+      "phone": "05464389813",
+      "website": null,
+      "lat": 41.463764,
+      "lon": 34.7842082,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428096490-4",
+      "name": "Evrenye Taksi",
+      "phone": "05428096490",
+      "website": null,
+      "lat": 40.8118481,
+      "lon": 32.8928167,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03668216009-5",
+      "name": "Gaye Taksi",
+      "phone": "03668216009",
+      "website": null,
+      "lat": 41.973227,
+      "lon": 33.886405,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03667513110-6",
+      "name": "Hizmet Taksi",
+      "phone": "03667513110",
+      "website": null,
+      "lat": 41.806158,
+      "lon": 33.71067,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03668116061-7",
+      "name": "Huzur Taksi",
+      "phone": "03668116061",
+      "website": null,
+      "lat": 41.9762786,
+      "lon": 33.759947,
+      "address": "Taksi · Yeni Çarşı Sk.",
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03668114453-8",
+      "name": "Kastamonu Havalimanı Havaalanı Taksi",
+      "phone": "03668114453",
+      "website": null,
+      "lat": 41.976592,
+      "lon": 33.759336,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05439160007-9",
+      "name": "Kaya Taksi",
+      "phone": "05439160007",
+      "website": null,
+      "lat": 41.3464006,
+      "lon": 33.7899606,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-10-10",
+      "name": "Köprübaşı Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.188904,
+      "lon": 32.6144889,
+      "address": "Taksi Durağı · Kayabaşı Mah Bahattin Gazi Caddesi 35 Karabük Merkez",
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423437143-11",
+      "name": "Meydan Taksi",
+      "phone": "05423437143",
+      "website": null,
+      "lat": 41.5127007,
+      "lon": 34.207799,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03664170405-12",
+      "name": "Otogar Taksi",
+      "phone": "03664170405",
+      "website": null,
+      "lat": 41.509848,
+      "lon": 34.215475,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05343934899-13",
+      "name": "Öz Meydan Taksi",
+      "phone": "05343934899",
+      "website": null,
+      "lat": 41.5108409,
+      "lon": 34.2170322,
+      "address": "Taksi Durağı ·  · Türkmenoğlu Cd. No:9",
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03664171550-14",
+      "name": "Sarıgül Taksi",
+      "phone": "03664171550",
+      "website": null,
+      "lat": 41.5098787,
+      "lon": 34.2139891,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03668112041-15",
+      "name": "Şenpazar Taksi",
+      "phone": "03668112041",
+      "website": null,
+      "lat": 41.9760337,
+      "lon": 33.7613187,
+      "address": "Taksi · Hacı Ziya Efendİ Sk. No:8",
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316862919-16",
+      "name": "Sümer Taksi",
+      "phone": "05316862919",
+      "website": null,
+      "lat": 41.8091816,
+      "lon": 33.2335331,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435725279-17",
+      "name": "Taksi durağı",
+      "phone": "05435725279",
+      "website": null,
+      "lat": 41.502319,
+      "lon": 34.2160556,
+      "address": "Taksi Durağı · Şht. Adem Yıldız Sk.",
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448115075-18",
+      "name": "Sarıgül Taksi İnebolu AÇIK · 7 gün 24 saat Aşağı Hatipbağı, Hacı Ziya Efendİ Sk.",
+      "phone": "05448115075",
+      "website": null,
+      "lat": 41.9711471,
+      "lon": 33.7567554,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05428115048-19",
+      "name": "Terminal Taksi",
+      "phone": "05428115048",
+      "website": null,
+      "lat": 41.9770523,
+      "lon": 33.7609883,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355697737-20",
+      "name": "Tosya ticari Taksi",
+      "phone": "05355697737",
+      "website": null,
+      "lat": 41.5127174,
+      "lon": 34.2175352,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05415760440-21",
+      "name": "TÜRKELi meydan Taksi",
+      "phone": "05415760440",
+      "website": null,
+      "lat": 41.0076686,
+      "lon": 34.0584306,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05415025757-22",
+      "name": "Türkeli Taksi",
+      "phone": "05415025757",
+      "website": null,
+      "lat": 41.9470073,
+      "lon": 34.3353914,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427632150-23",
+      "name": "kastamonu-taksi",
+      "phone": "05427632150",
+      "website": null,
+      "lat": 41.946897,
+      "lon": 34.335153,
+      "address": null,
+      "districtId": "ihsangazi",
+      "districtName": "İhsangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05465608689-24",
+      "name": "Belediye Lider Taksi",
+      "phone": "05465608689",
+      "website": null,
+      "lat": 41.9782792,
+      "lon": 34.00867051,
+      "address": "Merkez Mah. Sabri Yeğin Cad. 1/B Abana, Kastamonu",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03662125151-25",
+      "name": "Çiçek Taksi",
+      "phone": "03662125151",
+      "website": null,
+      "lat": 41.3786369,
+      "lon": 33.7716817,
+      "address": "Taksi Durağı · Başveren Sk. 2f",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05525733734-26",
+      "name": "Huzur Taksi",
+      "phone": "05525733734",
+      "website": null,
+      "lat": 41.978669,
+      "lon": 34.004279,
+      "address": "Merkez Mah. Yücel Türkmen Cad. Abana, Kastamonu",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03662158837-27",
+      "name": "Kastamonu HavaLimanı Taksi",
+      "phone": "03662158837",
+      "website": null,
+      "lat": 41.407987,
+      "lon": 33.7862203,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352278759-28",
+      "name": "Kastamonu Kuzeykent Taksi",
+      "phone": "05352278759",
+      "website": null,
+      "lat": 41.3855119,
+      "lon": 33.7966042,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05464553737-29",
+      "name": "Kastamonu Merkez Taksi",
+      "phone": "05464553737",
+      "website": null,
+      "lat": 41.4289634,
+      "lon": 33.7791811,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013693337-30",
+      "name": "Kastamonu Otogar Taksi",
+      "phone": "05013693337",
+      "website": null,
+      "lat": 41.3793807,
+      "lon": 33.7790976,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03662153141-31",
+      "name": "Kastamonu Süt Taksi",
+      "phone": "03662153141",
+      "website": null,
+      "lat": 41.4195166,
+      "lon": 33.7925023,
+      "address": "Taksi Durağı ·  · Kastamonu Şehirlerarası Otobüs Terminali No:25",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03662124242-32",
+      "name": "Kastamonu Taksi",
+      "phone": "03662124242",
+      "website": null,
+      "lat": 41.3960889,
+      "lon": 33.7856166,
+      "address": "Taksi Durağı ·  · Sepetçioğlu Sk. 5 37100",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448130737-33",
+      "name": "- kastamonu Otogar Taksi",
+      "phone": "05448130737",
+      "website": null,
+      "lat": 41.3629217,
+      "lon": 33.767001,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05303200337-34",
+      "name": "Kooperatif Taksi",
+      "phone": "05303200337",
+      "website": null,
+      "lat": 41.3775425,
+      "lon": 33.775794,
+      "address": "Taksi Durağı ·  · iş No:21, Hepkebirler Mahallesi",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03662146363-35",
+      "name": "Kuyudibi Taksi",
+      "phone": "03662146363",
+      "website": null,
+      "lat": 41.410392,
+      "lon": 33.785702,
+      "address": "Taksi ·  · Miralay Halit Bey Cad.",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03662142777-36",
+      "name": "Lüx Murat Taksi",
+      "phone": "03662142777",
+      "website": null,
+      "lat": 41.3774291,
+      "lon": 33.7773729,
+      "address": "Taksi Durağı · Simsar Sk. No:12",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03662121717-37",
+      "name": "Öz Site Taksi",
+      "phone": "03662121717",
+      "website": null,
+      "lat": 41.3789392,
+      "lon": 33.7741083,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03662120202-38",
+      "name": "Sigorta Sağlık Taksi",
+      "phone": "03662120202",
+      "website": null,
+      "lat": 41.3767682,
+      "lon": 33.7746446,
+      "address": "Taksi Durağı ·  · Cumhuriyet Cd. No:54",
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03662123600-39",
+      "name": "Stad Taksi",
+      "phone": "03662123600",
+      "website": null,
+      "lat": 41.4035,
+      "lon": 33.783,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05536970037-40",
+      "name": "kapüs Taksi üniversite Taksi",
+      "phone": "05536970037",
+      "website": null,
+      "lat": 41.3631429,
+      "lon": 33.7670731,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433661106-41",
+      "name": "kastamonu-taksi",
+      "phone": "05433661106",
+      "website": null,
+      "lat": 41.4227699,
+      "lon": 33.7745291,
+      "address": null,
+      "districtId": "abana",
+      "districtName": "Abana",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05063443737-42",
+      "name": "Havuzbaşı Taksi",
+      "phone": "05063443737",
+      "website": null,
+      "lat": 41.9010129,
+      "lon": 33.023658,
+      "address": null,
+      "districtId": "cide",
+      "districtName": "Cide",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366289477-43",
+      "name": "Hükümet Taksi",
+      "phone": "05366289477",
+      "website": null,
+      "lat": 41.892481,
+      "lon": 33.004382,
+      "address": "Kasaba Mah. Fatin Bey Cad. 11 Cide, Kastamonu",
+      "districtId": "cide",
+      "districtName": "Cide",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03668663727-44",
+      "name": "Kumluca Taksi",
+      "phone": "03668663727",
+      "website": null,
+      "lat": 41.8940284,
+      "lon": 32.9921738,
+      "address": "Taksi · Hükümet Sk.",
+      "districtId": "cide",
+      "districtName": "Cide",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-45-45",
+      "name": "Merkez Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.875545,
+      "lon": 32.93281,
+      "address": "Kumluca Köyü Cide, Kastamonu",
+      "districtId": "cide",
+      "districtName": "Cide",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013693337-46",
+      "name": "Hükümet Taksi",
+      "phone": "05013693337",
+      "website": null,
+      "lat": 41.892167,
+      "lon": 33.003134,
+      "address": "Kasaba Mah. İnönü Cad. 13 Cide, Kastamonu",
+      "districtId": "cide",
+      "districtName": "Cide",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432141355-47",
+      "name": "Çatalzeytin meydan Taksi",
+      "phone": "05432141355",
+      "website": null,
+      "lat": 41.954321,
+      "lon": 34.212866,
+      "address": null,
+      "districtId": "catalzeytin",
+      "districtName": "Catalzeytin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05343262672-48",
+      "name": "Çatalzeytin Taksi",
+      "phone": "05343262672",
+      "website": null,
+      "lat": 41.9542234,
+      "lon": 34.213654,
+      "address": null,
+      "districtId": "catalzeytin",
+      "districtName": "Catalzeytin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05343262672-49",
+      "name": "atalzeytin Taksi",
+      "phone": "05343262672",
+      "website": null,
+      "lat": 41.953944,
+      "lon": 34.224103,
+      "address": "Merkez Mah. Ginolu Cad. 3 Çatalzeytin, Kastamonu",
+      "districtId": "catalzeytin",
+      "districtName": "Catalzeytin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316783037-50",
+      "name": "Kanyon Taksi",
+      "phone": "05316783037",
+      "website": null,
+      "lat": 41.0154359,
+      "lon": 34.0392636,
+      "address": "Taksi Durağı ·  · Vanli otel yani, 100. Yıl Cd. No:12",
+      "districtId": "pinarbasi",
+      "districtName": "Pinarbasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448259468-51",
+      "name": "Tosya Güven Taksi",
+      "phone": "05448259468",
+      "website": null,
+      "lat": 41.6036774,
+      "lon": 33.1108863,
+      "address": "Taksi ·  · Cumhuriyet Meydan Sk.",
+      "districtId": "pinarbasi",
+      "districtName": "Pinarbasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422549847-52",
+      "name": "Tosya Güven Taksi",
+      "phone": "05422549847",
+      "website": null,
+      "lat": 41.0170865,
+      "lon": 34.0394621,
+      "address": null,
+      "districtId": "pinarbasi",
+      "districtName": "Pinarbasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445515113-53",
+      "name": "Merkez Taksi",
+      "phone": "05445515113",
+      "website": null,
+      "lat": 41.6395289,
+      "lon": 33.2962376,
+      "address": "Taksi Durağı · Cumhuriyet Cd. No:37",
+      "districtId": "azdavay",
+      "districtName": "Azdavay",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05013693337-54",
+      "name": "Merkez Taksi",
+      "phone": "05013693337",
+      "website": null,
+      "lat": 41.641925,
+      "lon": 33.299606,
+      "address": "Merkez Mah. Cumhuriyet Cad. 49/F Azdavay, Kastamonu",
+      "districtId": "azdavay",
+      "districtName": "Azdavay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464553737-55",
+      "name": "Çiçek Taksi",
+      "phone": "05464553737",
+      "website": null,
+      "lat": 41.957623,
+      "lon": 34.01173,
+      "address": "Merkez Mah. Hükümet Cad. 14 Bozkurt, Kastamonu",
+      "districtId": "bozkurt",
+      "districtName": "Bozkurt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05525733734-56",
+      "name": "Birlik Taksi",
+      "phone": "05525733734",
+      "website": null,
+      "lat": 41.9584,
+      "lon": 34.011994,
+      "address": "Merkez Mah. Hürriyet Cad. 10 Bozkurt, Kastamonu",
+      "districtId": "bozkurt",
+      "districtName": "Bozkurt",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524220062-57",
+      "name": "Yeşil Daday Taksi",
+      "phone": "05524220062",
+      "website": "https://www.facebook.com/dadaytaksi",
+      "lat": 41.4770413,
+      "lon": 33.4634095,
+      "address": "Taksi · Muhacir Sk.",
+      "districtId": "daday",
+      "districtName": "Daday",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05426693321-58",
+      "name": "Yeşil Daday Taksi",
+      "phone": "05426693321",
+      "website": null,
+      "lat": 41.47675,
+      "lon": 33.4640569,
+      "address": "Taksi Durağı · Muhacir Sk.",
+      "districtId": "daday",
+      "districtName": "Daday",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-59-59",
+      "name": "Araç ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.242321,
+      "lon": 33.327266,
+      "address": "Yeni Mah. Kastamonu Cad. 60 Araç, Kastamonu",
+      "districtId": "arac",
+      "districtName": "Arac",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05449150567-60",
+      "name": "Gaye Taksi",
+      "phone": "05449150567",
+      "website": null,
+      "lat": 41.8042125,
+      "lon": 33.7110129,
+      "address": null,
+      "districtId": "kure",
+      "districtName": "Kure",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396737575-61",
+      "name": "Tosya Taksi",
+      "phone": "05396737575",
+      "website": null,
+      "lat": 41.0170446,
+      "lon": 34.036852,
+      "address": null,
+      "districtId": "tosya",
+      "districtName": "Tosya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-03665751818-62",
+      "name": "Bozkurt Birlik Taksi",
+      "phone": "03665751818",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05522778087-63",
+      "name": "Tümü → Belediye Lider Taksi AÇIK · 7 gün 24 saat Akmescit, Başveren Sk. 2f, 3710",
+      "phone": "05522778087",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05446502736-64",
+      "name": "Taksi Kastamonu AÇIK · 7 gün 24 saat İsmailbey Mah. Kışla Cad. Önder Apt, 37200 ",
+      "phone": "05446502736",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05419007837-65",
+      "name": "Çiçek Taksi AÇIK · 7 gün 24 saat Merkez Mh. Yücel Türkben Cd. Pk:37970 Abana/kas",
+      "phone": "05419007837",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03665753077-66",
+      "name": "Bozkurt Taksi Çiçek",
+      "phone": "03665753077",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03665751137-67",
+      "name": "Otogar Taksi Kastamonu",
+      "phone": "03665751137",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03665855454-68",
+      "name": "Yakaören Taksi",
+      "phone": "03665855454",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03668663035-69",
+      "name": "Tümü → Cidem Taksi Durağı",
+      "phone": "03668663035",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03668661457-70",
+      "name": "Terminal Taksi",
+      "phone": "03668661457",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03666382397-71",
+      "name": "Tümü → Duraklar Gıda",
+      "phone": "03666382397",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05433623360-72",
+      "name": "Tümü → Kastamonu Arac 7/24 Taksi",
+      "phone": "05433623360",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03668115932-73",
+      "name": "Köprübaşı Taksi Durağı",
+      "phone": "03668115932",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03668112921-74",
+      "name": "Huzur Taksi Durağı AÇIK · 7 gün 24 saat Aşağı Hatipbağı Mh. Abdurrahman Paşa Cd.",
+      "phone": "03668112921",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03668112992-75",
+      "name": "Terminal Büfe & Taksi Alibaş Kardeşler",
+      "phone": "03668112992",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05375497626-76",
+      "name": "Tümü → Şenpazar Taksi",
+      "phone": "05375497626",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03663133333-77",
+      "name": "Öz Meydan Taksi AÇIK · 7 gün 24 saat Camikebir, Cumhuriyet Cd. Pk:37400, 37400 T",
+      "phone": "03663133333",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05357268666-78",
+      "name": "Pınar Taksi",
+      "phone": "05357268666",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05316848565-79",
+      "name": "Tosya Birlik Taksi",
+      "phone": "05316848565",
+      "website": null,
+      "lat": 41.3887,
+      "lon": 33.7827,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05319298837-80",
+      "name": "Terminal Taksi - Cüneyt Ünlü",
+      "phone": "05319298837",
+      "website": "https://www.facebook.com/cuneyt.unlu.90",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cide",
+      "districtName": "Cide",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

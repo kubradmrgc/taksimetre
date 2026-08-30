@@ -1,0 +1,1574 @@
+{
+  "cityId": "edirne",
+  "cityName": "Edirne",
+  "fetchedAt": "2026-08-30T21:30:17.642Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "enez",
+      "name": "Enez",
+      "count": 33
+    },
+    {
+      "id": "havsa",
+      "name": "Havsa",
+      "count": 1
+    },
+    {
+      "id": "ipsala",
+      "name": "İpsala",
+      "count": 4
+    },
+    {
+      "id": "kesan",
+      "name": "Kesan",
+      "count": 10
+    },
+    {
+      "id": "lalapasa",
+      "name": "Lalapaşa",
+      "count": 1
+    },
+    {
+      "id": "meric",
+      "name": "Meric",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 21
+    },
+    {
+      "id": "uzunkopru",
+      "name": "Uzunkopru",
+      "count": 9
+    }
+  ],
+  "count": 99,
+  "stands": [
+    {
+      "id": "taksi724-05012357071-0",
+      "name": "Adliye Sarayı Taksi",
+      "phone": "05012357071",
+      "website": null,
+      "lat": 41.6784233,
+      "lon": 26.5831526,
+      "address": "100. Yıl Taksi (Atatürk Mahallesi)",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05402250204-1",
+      "name": "ADLiYE Taksi",
+      "phone": "05402250204",
+      "website": null,
+      "lat": 41.6626432,
+      "lon": 26.5714134,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02847125400-2",
+      "name": "Akasya Taksi",
+      "phone": "02847125400",
+      "website": null,
+      "lat": 40.8467615,
+      "lon": 26.6528469,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317336545-3",
+      "name": "Bostanpazari Taksi",
+      "phone": "05317336545",
+      "website": null,
+      "lat": 41.6555608,
+      "lon": 26.5864345,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432799861-4",
+      "name": "Cumhuriyet Alanı Taksi",
+      "phone": "05432799861",
+      "website": null,
+      "lat": 41.6687405,
+      "lon": 26.55827,
+      "address": "Ulaşım Hizmeti · 52, Bostan Pazarı Cd. No:54",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02845134801-5",
+      "name": "Değirmen Taksi",
+      "phone": "02845134801",
+      "website": null,
+      "lat": 41.269256,
+      "lon": 26.6845032,
+      "address": "Taksi Durağı ·  · Gazi Cd. No:1",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842120809-6",
+      "name": "Depo Taksi",
+      "phone": "02842120809",
+      "website": null,
+      "lat": 41.6666739,
+      "lon": 26.5663247,
+      "address": "Taksi ·  · Tarla Kapı Cd. No:1",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02845138834-7",
+      "name": "Edirne Taksi",
+      "phone": "02845138834",
+      "website": null,
+      "lat": 41.2604057,
+      "lon": 26.6872571,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05323990279-8",
+      "name": "Emniyet Taksi",
+      "phone": "05323990279",
+      "website": null,
+      "lat": 41.2957245,
+      "lon": 26.525052,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315571367-9",
+      "name": "Enez Meydan Taksi",
+      "phone": "05315571367",
+      "website": null,
+      "lat": 41.6740104,
+      "lon": 26.5518098,
+      "address": "Taksi Durağı · Balık Pazarı Cd. No:46",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05063087185-10",
+      "name": "Erasta Taksi",
+      "phone": "05063087185",
+      "website": null,
+      "lat": 40.7253233,
+      "lon": 26.0843322,
+      "address": "Taksi Durağı · Cami Sk. No:4",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842144080-11",
+      "name": "Festival Taksi",
+      "phone": "02842144080",
+      "website": null,
+      "lat": 41.6672631,
+      "lon": 26.5712224,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-12-12",
+      "name": "Gül Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.7307902,
+      "lon": 27.2149422,
+      "address": "Taksi Durağı · Karakaş İstasyon Caddesi Eski Gar Binası Karşısı",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05518594991-13",
+      "name": "Has Taksi",
+      "phone": "05518594991",
+      "website": null,
+      "lat": 41.6777786,
+      "lon": 26.5662936,
+      "address": "Taksi Durağı · Kıyık Cd. No:92",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323890279-14",
+      "name": "İpsala park Taksi",
+      "phone": "05323890279",
+      "website": null,
+      "lat": 41.6739476,
+      "lon": 26.5633329,
+      "address": "Taksi Durağı · Çukur Sk.",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02846161294-15",
+      "name": "İstasyon Taksi",
+      "phone": "02846161294",
+      "website": null,
+      "lat": 40.9225553,
+      "lon": 26.3835963,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842353313-16",
+      "name": "Kapıkule Taksi",
+      "phone": "02842353313",
+      "website": null,
+      "lat": 41.6578701,
+      "lon": 26.5838317,
+      "address": "Taksi Durağı ·  · Talat Paşa Cd. No:33",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452795881-17",
+      "name": "Karaagac Taksi",
+      "phone": "05452795881",
+      "website": null,
+      "lat": 41.7133184,
+      "lon": 26.3677682,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05435577290-18",
+      "name": "Kıyık Gül Taksi",
+      "phone": "05435577290",
+      "website": null,
+      "lat": 41.6527719,
+      "lon": 26.5230426,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05399435457-19",
+      "name": "Kıyık Kısmet Taksi",
+      "phone": "05399435457",
+      "website": null,
+      "lat": 41.6778005,
+      "lon": 26.5665089,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323965911-20",
+      "name": "Lalapaşa Taksi",
+      "phone": "05323965911",
+      "website": null,
+      "lat": 41.6786995,
+      "lon": 26.571921,
+      "address": "Taksi · Şht. Necdet Pehlivan Sk. No:1",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435404333-21",
+      "name": "Mimar Sinan Taksi",
+      "phone": "05435404333",
+      "website": null,
+      "lat": 41.8389125,
+      "lon": 26.7353795,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-02842352939-22",
+      "name": "Otogar Taksi",
+      "phone": "02842352939",
+      "website": null,
+      "lat": 41.656211,
+      "lon": 26.593491,
+      "address": "Taksi Durağı · Büyükgöze Sk No:56",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02842260406-23",
+      "name": "Özgür Taksi",
+      "phone": "02842260406",
+      "website": null,
+      "lat": 41.6310171,
+      "lon": 26.6186318,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02842350666-24",
+      "name": "Özlem Taksi",
+      "phone": "02842350666",
+      "website": null,
+      "lat": 41.667717,
+      "lon": 26.5968305,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05427708081-25",
+      "name": "Park Taksi",
+      "phone": "05427708081",
+      "website": null,
+      "lat": 41.2699661,
+      "lon": 26.6827872,
+      "address": "Taksi Durağı · Cumhuriyet Cd. No:9b",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02845134459-26",
+      "name": "Pazaryeri Ulus Taksi",
+      "phone": "02845134459",
+      "website": null,
+      "lat": 41.2697752,
+      "lon": 26.6841352,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842121818-27",
+      "name": "Sedef Taksi",
+      "phone": "02842121818",
+      "website": null,
+      "lat": 41.6705966,
+      "lon": 26.5534651,
+      "address": "Taksi Durağı · Saraçlar Cd. No:250",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02842127841-28",
+      "name": "Toki Taksi",
+      "phone": "02842127841",
+      "website": null,
+      "lat": 41.6674171,
+      "lon": 26.57779,
+      "address": "Taksi Durağı · Zübeyde Hanım Cd. No:1",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842268868-29",
+      "name": "Trakya Üniversitesi Fakülte Taksi",
+      "phone": "02842268868",
+      "website": null,
+      "lat": 41.6921324,
+      "lon": 26.5775169,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02842359610-30",
+      "name": "Volkan Taksi",
+      "phone": "02842359610",
+      "website": null,
+      "lat": 41.6380351,
+      "lon": 26.6139629,
+      "address": null,
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02842135690-31",
+      "name": "Yeşil Evler Zafer Taksi",
+      "phone": "02842135690",
+      "website": null,
+      "lat": 41.6761691,
+      "lon": 26.5505743,
+      "address": "Taksi Durağı · Kulekapı Cd No:12",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05079260919-32",
+      "name": "edirne-taksi",
+      "phone": "05079260919",
+      "website": null,
+      "lat": 41.666299,
+      "lon": 26.587361,
+      "address": "Taksi Durağı · Şht. Üstteğmen Efkan Yıldırım Cd. No:15",
+      "districtId": "enez",
+      "districtName": "Enez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05402250204-33",
+      "name": "Araz Taksi",
+      "phone": "05402250204",
+      "website": null,
+      "lat": 41.660798,
+      "lon": 26.572483,
+      "address": "İstasyon Mah. Ebe Nazire Kanal Sok. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422368070-34",
+      "name": "Ayşe Kadın Taksi",
+      "phone": "05422368070",
+      "website": null,
+      "lat": 41.661921,
+      "lon": 26.593262,
+      "address": "Fatih Mah. Ümran Akkan Cad. 33/A Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842128771-35",
+      "name": "Binevler Taksi",
+      "phone": "02842128771",
+      "website": null,
+      "lat": 41.670241,
+      "lon": 26.566222,
+      "address": "Yancıkçı Şahin Mah. Talatpaşa Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-36-36",
+      "name": "Çiçek Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.660895,
+      "lon": 26.589383,
+      "address": "Fatih Mah. Batıkent Sitesi Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842256683-37",
+      "name": "Cici Taksi",
+      "phone": "02842256683",
+      "website": null,
+      "lat": 41.671769,
+      "lon": 26.560905,
+      "address": "Talatpaşa Mah. Eski İstanbul Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-38-38",
+      "name": "Esentepe Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.6757,
+      "lon": 26.55465,
+      "address": "Sabuni Mah. Tahmis Meydanı Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842368282-39",
+      "name": "Fatih Taksi",
+      "phone": "02842368282",
+      "website": null,
+      "lat": 41.660751,
+      "lon": 26.594533,
+      "address": "Fatih Mah. 4. Cad. 30. Sok. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842350800-40",
+      "name": "Gölet Taksi",
+      "phone": "02842350800",
+      "website": null,
+      "lat": 41.661322,
+      "lon": 26.59057,
+      "address": "Fatih Mah. Tahsin Şıpka Cad. 2. Sok. 1 Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842360880-41",
+      "name": "Gül Taksi",
+      "phone": "02842360880",
+      "website": null,
+      "lat": 41.669434,
+      "lon": 26.589851,
+      "address": "Şükrüpaşa Mah. Bahriye Üçok Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05518594991-42",
+      "name": "Istasyon Taksi",
+      "phone": "05518594991",
+      "website": null,
+      "lat": 41.67683,
+      "lon": 26.557861,
+      "address": "Meydan Mah. Kıyık, Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842353313-43",
+      "name": "Kısmet Taksi",
+      "phone": "02842353313",
+      "website": null,
+      "lat": 41.656587,
+      "lon": 26.58175,
+      "address": "İstasyon Mah. İstasyon Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323965911-44",
+      "name": "Kutlutaş Taksi",
+      "phone": "05323965911",
+      "website": null,
+      "lat": 41.672149,
+      "lon": 26.549765,
+      "address": "Nişancıpaşa Mah. Karakol Sok. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842357788-45",
+      "name": "Kütüphane Taksi",
+      "phone": "02842357788",
+      "website": null,
+      "lat": 41.653232,
+      "lon": 26.595559,
+      "address": "Kocasinan Mah. Muammer Aksoy Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05316440447-46",
+      "name": "Margi Taksi",
+      "phone": "05316440447",
+      "website": null,
+      "lat": 41.672093,
+      "lon": 26.564765,
+      "address": "Yancıkçı Şahin Mah. Güzelcebaba Cad. Ayşekadın, Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367224673-47",
+      "name": "Mevlana Taksi",
+      "phone": "05367224673",
+      "website": null,
+      "lat": 41.664105,
+      "lon": 26.577039,
+      "address": "1. Murat Mah. Haşim İşcan Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842350026-48",
+      "name": "Selimiye Taksi",
+      "phone": "02842350026",
+      "website": null,
+      "lat": 41.674205,
+      "lon": 26.592897,
+      "address": "Şükrüpaşa Mah. Rejat Kuruyucu Sok. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436619162-49",
+      "name": "Şükrüpaşa Taksi",
+      "phone": "05436619162",
+      "website": null,
+      "lat": 41.67714516,
+      "lon": 26.56167631,
+      "address": "Meydan Mah. Kıyık Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842359798-50",
+      "name": "Trak Taksi",
+      "phone": "02842359798",
+      "website": null,
+      "lat": 41.669754,
+      "lon": 26.582111,
+      "address": "Şükrüpaşa Mah. Bahriye Üçok Cad. Şehit Salih Kasap Sok. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842360100-51",
+      "name": "Yayla Taksi",
+      "phone": "02842360100",
+      "website": null,
+      "lat": 41.6538744,
+      "lon": 26.5991369,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02842351026-52",
+      "name": "Yılmaz Taksi",
+      "phone": "02842351026",
+      "website": null,
+      "lat": 41.66894,
+      "lon": 26.584024,
+      "address": "Şükrüpaşa Mah. Hoca Ahmet Yesevi Cad. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02842147979-53",
+      "name": "edirne-taksi",
+      "phone": "02842147979",
+      "website": null,
+      "lat": 41.665207,
+      "lon": 26.583789,
+      "address": "1. Murat Mah. Güngör Mazlum Cad. 21 Erdem 2 Sit. Edirne Merkez, Edirne",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436619162-54",
+      "name": "Birlik Taksi",
+      "phone": "05436619162",
+      "website": null,
+      "lat": 40.840368,
+      "lon": 26.648807,
+      "address": "Yeni Mah. Bülent Ecevit Cad. 7 Keşan, Edirne",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444514150-55",
+      "name": "Çamlıkent Taksi",
+      "phone": "05444514150",
+      "website": null,
+      "lat": 40.854899,
+      "lon": 26.631554,
+      "address": "Büyük Cami Mah. Fevzi Çakmak Cad. Keşan, Edirne",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-56-56",
+      "name": "Hastane Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.871224,
+      "lon": 26.632796,
+      "address": "İspat Cami Mah. Kurtuluş Cad. Keşan, Edirne",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-57-57",
+      "name": "Keşan Park Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.850093,
+      "lon": 26.636375,
+      "address": "Yukarı Zaferiye Mah. Hastane Cad. Keşan, Edirne",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02847147422-58",
+      "name": "Kesantaksi",
+      "phone": "02847147422",
+      "website": null,
+      "lat": 40.8510596,
+      "lon": 26.6424376,
+      "address": null,
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05321754544-59",
+      "name": "Saros Taksi",
+      "phone": "05321754544",
+      "website": null,
+      "lat": 40.841725,
+      "lon": 26.6453465,
+      "address": "Ulaşım Hizmeti · Paşa Sk.",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02847144432-60",
+      "name": "Taksi",
+      "phone": "02847144432",
+      "website": null,
+      "lat": 40.852547,
+      "lon": 26.631556,
+      "address": "Yukarı Zaferiye Mah. Demirciler Cad. Keşan, Edirne",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05427904892-61",
+      "name": "Yıldırım Taksi",
+      "phone": "05427904892",
+      "website": null,
+      "lat": 40.8604534,
+      "lon": 26.6376754,
+      "address": null,
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323990279-62",
+      "name": "Yılmaz Taksi",
+      "phone": "05323990279",
+      "website": null,
+      "lat": 40.851947,
+      "lon": 26.631556,
+      "address": "Yukarı Zaferiye Mah. Demirciler Cad. Keşan, Edirne",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423629988-63",
+      "name": "Keşan Park Taksi",
+      "phone": "05423629988",
+      "website": null,
+      "lat": 40.8550348,
+      "lon": 26.6358179,
+      "address": "Taksi Durağı · Zati Yörüker Cd No:1 no 84",
+      "districtId": "kesan",
+      "districtName": "Kesan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436619162-64",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05436619162",
+      "website": null,
+      "lat": 41.265686,
+      "lon": 26.679336,
+      "address": "Büyük Şehsuvarbey Mah. İpsala Cad. Uzunköprü, Edirne",
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02845134801-65",
+      "name": "Güven Taksi",
+      "phone": "02845134801",
+      "website": null,
+      "lat": 41.2555536,
+      "lon": 26.679595,
+      "address": null,
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05518594991-66",
+      "name": "Kavak Taksi",
+      "phone": "05518594991",
+      "website": null,
+      "lat": 41.266822,
+      "lon": 26.687872,
+      "address": "Halise Hatun Mah. Gazi Cad. Uzunköprü, Edirne",
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-67-67",
+      "name": "Mescit Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.268976,
+      "lon": 26.701063,
+      "address": "Kavak Mah. Bülent Çakır Cad. Uzunköprü, Edirne",
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02845133745-68",
+      "name": "Uzunköprü Park Taksi",
+      "phone": "02845133745",
+      "website": null,
+      "lat": 41.262135,
+      "lon": 26.688365,
+      "address": "Mescit Mah. Atmaca Sok. Uzunköprü, Edirne",
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05337146015-69",
+      "name": "Uzunköprü Taksi",
+      "phone": "05337146015",
+      "website": null,
+      "lat": 41.294709,
+      "lon": 26.632931,
+      "address": null,
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448687412-70",
+      "name": "Uzunköprü Taksi",
+      "phone": "05448687412",
+      "website": null,
+      "lat": 41.2583199,
+      "lon": 26.680618,
+      "address": "Taksi · 2. Başaranlar Çk. No:85/ 3",
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389150020-71",
+      "name": "Güven Taksi",
+      "phone": "05389150020",
+      "website": null,
+      "lat": 41.266943,
+      "lon": 26.632931,
+      "address": null,
+      "districtId": "uzunkopru",
+      "districtName": "Uzunkopru",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436619162-72",
+      "name": "Terminal Taksi",
+      "phone": "05436619162",
+      "website": null,
+      "lat": 41.548526,
+      "lon": 26.823654,
+      "address": "Varoş Mah. Fatih Cad. 137 Havsa, Edirne",
+      "districtId": "havsa",
+      "districtName": "Havsa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363370746-73",
+      "name": "Yaren Taksi",
+      "phone": "05363370746",
+      "website": null,
+      "lat": 41.189487,
+      "lon": 26.41948,
+      "address": "B. Doğanca Mah. Hüseyin Aytin Sok. Meriç, Edirne",
+      "districtId": "meric",
+      "districtName": "Meric",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-02842142506-74",
+      "name": "Edirne Öztürk Otopark",
+      "phone": "02842142506",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05340442234-75",
+      "name": "Edirne taksi durağı",
+      "phone": "05340442234",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05416234473-76",
+      "name": "Edirne taksi",
+      "phone": "05416234473",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05412092555-77",
+      "name": "Karanfiloğlu Taksi 22T0322",
+      "phone": "05412092555",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-02842253271-78",
+      "name": "Meriç Taksi",
+      "phone": "02842253271",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05377994922-79",
+      "name": "Esentepe Taksi Durağı AÇIK · 7 gün 24 saat Fatih Mah Ümran Akkan Caddes, 30. Sk.",
+      "phone": "05377994922",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05333112975-80",
+      "name": "Enez Taksi",
+      "phone": "05333112975",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05414675168-81",
+      "name": "Tümü → Büyük Taksi Keşan",
+      "phone": "05414675168",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02847154838-82",
+      "name": "Hastane Taksi Keşan",
+      "phone": "02847154838",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02847141859-83",
+      "name": "Keşan Merkez Taksi",
+      "phone": "02847141859",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02847144400-84",
+      "name": "Keşan Taksi 24",
+      "phone": "02847144400",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02847143602-85",
+      "name": "Keşan Taksi( Edirne Taksi )birlik Taksi",
+      "phone": "02847143602",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432946667-86",
+      "name": "Taksi Durağı",
+      "phone": "05432946667",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02847143601-87",
+      "name": "Terminal Taksi",
+      "phone": "02847143601",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432909334-88",
+      "name": "Tümü → Süloğlu Merkez Taksi (kadir Arslan)",
+      "phone": "05432909334",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354705716-89",
+      "name": "Süloğlu Taksi",
+      "phone": "05354705716",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05447207717-90",
+      "name": "Özlem Taksi",
+      "phone": "05447207717",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05467968185-91",
+      "name": "Umut Taksi",
+      "phone": "05467968185",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455864006-92",
+      "name": "Uzunköprü Özlem Taksi",
+      "phone": "05455864006",
+      "website": null,
+      "lat": 41.6771,
+      "lon": 26.5557,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05426326150-93",
+      "name": "Eren Taksi - Murat Göksel",
+      "phone": "05426326150",
+      "website": "https://www.facebook.com/taksicimuratuzkop/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "uzunkopru",
+      "districtName": "Uzunköprü",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05454039408-94",
+      "name": "İpsala Taksi - Mehmet Bulut",
+      "phone": "05454039408",
+      "website": "https://www.facebook.com/ipsalataksii/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ipsala",
+      "districtName": "İpsala",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05415769945-95",
+      "name": "İpsala Taksi - Mehmet Direk",
+      "phone": "05415769945",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ipsala",
+      "districtName": "İpsala",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05449198861-96",
+      "name": "İpsala Taksi - Metin Filiz",
+      "phone": "05449198861",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ipsala",
+      "districtName": "İpsala",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05425926934-97",
+      "name": "İpsala Taksi - Seyfettin Direk",
+      "phone": "05425926934",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ipsala",
+      "districtName": "İpsala",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-02843214082-98",
+      "name": "Lalapaşa Taksi - Erdin Irmak",
+      "phone": "02843214082",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "lalapasa",
+      "districtName": "Lalapaşa",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

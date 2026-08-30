@@ -1,0 +1,1761 @@
+{
+  "cityId": "corum",
+  "cityName": "Çorum",
+  "fetchedAt": "2026-08-30T21:29:25.036Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "alaca",
+      "name": "Alaca",
+      "count": 20
+    },
+    {
+      "id": "bayat",
+      "name": "Bayat",
+      "count": 2
+    },
+    {
+      "id": "bogazkale",
+      "name": "Bogazkale",
+      "count": 1
+    },
+    {
+      "id": "dodurga",
+      "name": "Dodurga",
+      "count": 3
+    },
+    {
+      "id": "iskilip",
+      "name": "İskilip",
+      "count": 3
+    },
+    {
+      "id": "kargi",
+      "name": "Kargi",
+      "count": 1
+    },
+    {
+      "id": "lacin",
+      "name": "Lacin",
+      "count": 4
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 22
+    },
+    {
+      "id": "oguzlar",
+      "name": "Oguzlar",
+      "count": 1
+    },
+    {
+      "id": "osmancik",
+      "name": "Osmancik",
+      "count": 7
+    },
+    {
+      "id": "sungurlu",
+      "name": "Sungurlu",
+      "count": 10
+    }
+  ],
+  "count": 111,
+  "stands": [
+    {
+      "id": "taksi724-05436394763-0",
+      "name": "Akasya Taksi",
+      "phone": "05436394763",
+      "website": null,
+      "lat": 40.555806,
+      "lon": 34.952825,
+      "address": "Üçtutlar Mah. Fatih Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642136624-1",
+      "name": "Anadolu Taksi",
+      "phone": "03642136624",
+      "website": null,
+      "lat": 40.541806,
+      "lon": 34.97086,
+      "address": "Yavruturna Mah. Bahabey Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642266121-2",
+      "name": "Çiçek Taksi",
+      "phone": "03642266121",
+      "website": null,
+      "lat": 40.560249,
+      "lon": 34.956309,
+      "address": "Ulukavak Mah. Varinli Cad. (Gazi Aile Sağlığı Merkezi Karşısı) Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642131408-3",
+      "name": "Deniz Taksi",
+      "phone": "03642131408",
+      "website": null,
+      "lat": 40.548267,
+      "lon": 34.952871,
+      "address": "Çepni Mah. İnönü Cad. 19 Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-4-4",
+      "name": "Eti Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.546935,
+      "lon": 34.967411,
+      "address": "Bahçelievler Mah. Bahabey Cad. 49 Şenyurt, Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04844640561-5",
+      "name": "Farabi Taksi",
+      "phone": "04844640561",
+      "website": null,
+      "lat": 40.548096,
+      "lon": 34.95665,
+      "address": "Kale Mah. Uğurmumcu Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05534935389-6",
+      "name": "Güven Taksi",
+      "phone": "05534935389",
+      "website": null,
+      "lat": 40.549926,
+      "lon": 34.951472,
+      "address": "Çöplü Mah. Farabi Cad. 1 Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516732959-7",
+      "name": "Hastane Taksi",
+      "phone": "05516732959",
+      "website": null,
+      "lat": 40.552283,
+      "lon": 34.952581,
+      "address": "Üçtutlar Mah. Osmancık Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05397450548-8",
+      "name": "Huzur Taksi",
+      "phone": "05397450548",
+      "website": null,
+      "lat": 40.554074,
+      "lon": 34.966035,
+      "address": "Bahçelievler Mah. Çamlık Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642127680-9",
+      "name": "Ikbal Taksi",
+      "phone": "03642127680",
+      "website": null,
+      "lat": 40.534229,
+      "lon": 34.958101,
+      "address": "Gülabibey Mah. Ata Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642270206-10",
+      "name": "Ipek Taksi",
+      "phone": "03642270206",
+      "website": null,
+      "lat": 40.565087,
+      "lon": 34.934395,
+      "address": "Ulukavak Mah. Adnan Özejder Cad. 41/A Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642214560-11",
+      "name": "Kışla Taksi",
+      "phone": "03642214560",
+      "website": null,
+      "lat": 40.534095,
+      "lon": 34.98092,
+      "address": "Bahçelievler Mah. Bahabey Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452122732-12",
+      "name": "Mavral Taksi",
+      "phone": "05452122732",
+      "website": null,
+      "lat": 40.542263,
+      "lon": 34.945347,
+      "address": "Çepni Mah. Çelik 1. Sok. 92 Dk:1 Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03642265325-13",
+      "name": "Merkez Taksi",
+      "phone": "03642265325",
+      "website": null,
+      "lat": 40.555973,
+      "lon": 34.956204,
+      "address": "Ulukavak Mah. Fatih Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03642131070-14",
+      "name": "Meydan Taksi",
+      "phone": "03642131070",
+      "website": null,
+      "lat": 40.551186,
+      "lon": 34.957215,
+      "address": "Karakeçili Mah. Azap Ahmet Sok. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-15-15",
+      "name": "Müze Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.55023391,
+      "lon": 34.94976017,
+      "address": "Kunduzhan Mah. Farabi Cad. 70 Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642256825-16",
+      "name": "Sağlık Taksi",
+      "phone": "03642256825",
+      "website": null,
+      "lat": 40.541553,
+      "lon": 34.948907,
+      "address": "Gülabibey Mah. Cengiz Topel Cad. 159/A Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314960874-17",
+      "name": "Vilayet Taksi",
+      "phone": "05314960874",
+      "website": null,
+      "lat": 40.551753,
+      "lon": 34.959321,
+      "address": "Yavruturna Mah. Gazi Cad. Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642134607-18",
+      "name": "Yazçarşı Taksi",
+      "phone": "03642134607",
+      "website": null,
+      "lat": 40.553337,
+      "lon": 34.960502,
+      "address": "Karakeçili Mah. Ilıca Cad. 1 Dk:1 Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366599954-19",
+      "name": "corum-taksi",
+      "phone": "05366599954",
+      "website": null,
+      "lat": 40.556197,
+      "lon": 34.950466,
+      "address": "Ulukavak Mah. Akpınar Sok. 93/A Çorum Merkez, Çorum",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642220077-20",
+      "name": "Alaca Dostlar Taksi",
+      "phone": "03642220077",
+      "website": null,
+      "lat": 40.558076,
+      "lon": 34.9714511,
+      "address": "Taksi Durağı · Gazi Cd. No:88",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05320687219-21",
+      "name": "Çorum 7-24 Anadolu Taksi",
+      "phone": "05320687219",
+      "website": "https://www.facebook.com/huseyin.benli.1213",
+      "lat": 40.1674916,
+      "lon": 34.8427576,
+      "address": "Ulaşım Hizmeti · Yozgat Cd. No:33",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-03642266121-22",
+      "name": "ADALET TAKSi",
+      "phone": "03642266121",
+      "website": null,
+      "lat": 40.558237,
+      "lon": 34.9590679,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451593572-23",
+      "name": "7/24 Taksi",
+      "phone": "05451593572",
+      "website": null,
+      "lat": 40.5094395,
+      "lon": 34.8882676,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369826999-24",
+      "name": "Hizmeti/En yakın Taksi",
+      "phone": "05369826999",
+      "website": null,
+      "lat": 40.5368857,
+      "lon": 34.9748041,
+      "address": "Taksi Durağı ·  · Bahabey Caddesi İpek Lozan Apartmanı No:156 Kat 4 Daire 13",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516732959-25",
+      "name": "Çorum Meydan Taksi",
+      "phone": "05516732959",
+      "website": null,
+      "lat": 40.5506013,
+      "lon": 34.953867,
+      "address": "Taksi Durağı · Azap Ahmet Sk. No:2 D:1",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642240025-26",
+      "name": "Hasanpaşa Taksi",
+      "phone": "03642240025",
+      "website": null,
+      "lat": 40.5501781,
+      "lon": 34.9450762,
+      "address": "Taksi · Farabi Cd. No:70",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03642131841-27",
+      "name": "Hitit Taksi",
+      "phone": "03642131841",
+      "website": null,
+      "lat": 40.5388342,
+      "lon": 34.953298,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03642214302-28",
+      "name": "Karadeniz Taksi",
+      "phone": "03642214302",
+      "website": null,
+      "lat": 40.5465404,
+      "lon": 34.9705335,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642268798-29",
+      "name": "Kıbrıs Taksi",
+      "phone": "03642268798",
+      "website": null,
+      "lat": 40.563625,
+      "lon": 34.9533562,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642243230-30",
+      "name": "Lozan Taksi",
+      "phone": "03642243230",
+      "website": null,
+      "lat": 40.5435521,
+      "lon": 34.956253,
+      "address": "Taksi Durağı ·  · Meram 8. Sk. No:1",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642140619-31",
+      "name": "Milönü Taksi",
+      "phone": "03642140619",
+      "website": null,
+      "lat": 40.5355834,
+      "lon": 34.9678945,
+      "address": "Taksi Durağı · Ata Cd. No:139 D:1 D",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642139512-32",
+      "name": "Oba Taksi",
+      "phone": "03642139512",
+      "website": null,
+      "lat": 40.544005,
+      "lon": 34.966528,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05314960874-33",
+      "name": "Özel Elitpark Hastanesi Taksi",
+      "phone": "05314960874",
+      "website": null,
+      "lat": 40.551537,
+      "lon": 34.968803,
+      "address": "Taksi Durağı ·  · Dumlupınar 22. Sk. No:2",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642216760-34",
+      "name": "Özlem Taksi",
+      "phone": "03642216760",
+      "website": null,
+      "lat": 40.5547899,
+      "lon": 34.9744876,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05314960874-35",
+      "name": "Şahin Taksi",
+      "phone": "05314960874",
+      "website": null,
+      "lat": 40.170179,
+      "lon": 34.843666,
+      "address": "Yıldızhan Mah. Yaşar Doğu Sok. 14 Alaca, Çorum",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364738375-36",
+      "name": "Taksi",
+      "phone": "05364738375",
+      "website": null,
+      "lat": 40.169264,
+      "lon": 34.844032,
+      "address": "Günhan Mah. Girne Sok. 1 (Güneş Gıda Karşısı) Alaca, Çorum",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05368195014-37",
+      "name": "Tıp Taksi",
+      "phone": "05368195014",
+      "website": null,
+      "lat": 40.1694302,
+      "lon": 34.8589221,
+      "address": "Ulaşım Hizmeti · Kızılırmak Sk. No:2",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642260188-38",
+      "name": "corum-taksi",
+      "phone": "03642260188",
+      "website": null,
+      "lat": 40.571808,
+      "lon": 34.962237,
+      "address": "Taksi Durağı · Buhara 4. Cd. No:8",
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05468815063-39",
+      "name": "Osmancık Taksi",
+      "phone": "05468815063",
+      "website": null,
+      "lat": 40.974542,
+      "lon": 34.799147,
+      "address": "Yazı Mah. Çörekci Cad. Osmancık, Çorum",
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05366961834-40",
+      "name": "Osmancık Taksi",
+      "phone": "05366961834",
+      "website": null,
+      "lat": 40.9745845,
+      "lon": 34.803765,
+      "address": null,
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05337257960-41",
+      "name": "Osmancık Taksi",
+      "phone": "05337257960",
+      "website": null,
+      "lat": 40.987045,
+      "lon": 34.787589,
+      "address": "Koyunbaba Mah. Osmancık, Çorum",
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05439764794-42",
+      "name": "Osmancık Terminal Taksi",
+      "phone": "05439764794",
+      "website": null,
+      "lat": 40.9716309,
+      "lon": 34.7995489,
+      "address": null,
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05358306751-43",
+      "name": "Terminal Taksi",
+      "phone": "05358306751",
+      "website": null,
+      "lat": 40.971145,
+      "lon": 34.803662,
+      "address": "Güney Mah. Osmancık Otogarı Osmancık, Çorum",
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642253405-44",
+      "name": "Terminal Taksi",
+      "phone": "03642253405",
+      "website": null,
+      "lat": 40.972782,
+      "lon": 34.81063,
+      "address": "Güney Mah. Çorum Cad. 31/A Osmancık, Çorum",
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642253405-45",
+      "name": "Osmancık Taksi",
+      "phone": "03642253405",
+      "website": null,
+      "lat": 40.964408,
+      "lon": 34.793494,
+      "address": "Gemici Mah. Dr. Cihat Aytaç Cd. Osmancık, Çorum",
+      "districtId": "osmancik",
+      "districtName": "Osmancik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-46-46",
+      "name": "Sungurlu Terminal Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.164529,
+      "lon": 34.380359,
+      "address": "Fatih Mah. Malazgirt Cad. 1 Sungurlu, Çorum",
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369724129-47",
+      "name": "Terminal Taksi",
+      "phone": "05369724129",
+      "website": null,
+      "lat": 40.165675,
+      "lon": 34.3876764,
+      "address": null,
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315832184-48",
+      "name": "Türkoğlu Muharrem Taksi",
+      "phone": "05315832184",
+      "website": null,
+      "lat": 40.1580602,
+      "lon": 34.3639173,
+      "address": null,
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05335622919-49",
+      "name": "Ulucami Taksi",
+      "phone": "05335622919",
+      "website": null,
+      "lat": 40.165711,
+      "lon": 34.3879844,
+      "address": null,
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443505213-50",
+      "name": "Uzay Taksi",
+      "phone": "05443505213",
+      "website": null,
+      "lat": 40.161058,
+      "lon": 34.373205,
+      "address": "Sunguroğlu Mah. Camiikebir Sok. 29 Sungurlu, Çorum",
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366599954-51",
+      "name": "Yıldız Taksi",
+      "phone": "05366599954",
+      "website": null,
+      "lat": 40.163686,
+      "lon": 34.375707,
+      "address": "Sunguroğlu Mah. Kahraman Sok. Sungurlu, Çorum",
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05314960874-52",
+      "name": "Türkoğlu Muharrem Taksi",
+      "phone": "05314960874",
+      "website": null,
+      "lat": 40.165627,
+      "lon": 34.366494,
+      "address": "Akçay Mah. Necmettin Erbakan Cad. Cengiz Sok. Sungurlu, Çorum",
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352547505-53",
+      "name": "Fatih Taksi",
+      "phone": "05352547505",
+      "website": null,
+      "lat": 40.164061,
+      "lon": 34.3830187,
+      "address": "Taksi Durağı ·  · Çorum Cd. No:189",
+      "districtId": "lacin",
+      "districtName": "Lacin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642268296-54",
+      "name": "Mimarsinan Taksi",
+      "phone": "03642268296",
+      "website": null,
+      "lat": 40.5578445,
+      "lon": 34.9629768,
+      "address": "Taksi · Hamit Kaplan Cd. No:74",
+      "districtId": "lacin",
+      "districtName": "Lacin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03642230751-55",
+      "name": "Taksi",
+      "phone": "03642230751",
+      "website": null,
+      "lat": 40.5290498,
+      "lon": 34.952214,
+      "address": null,
+      "districtId": "lacin",
+      "districtName": "Lacin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336177426-56",
+      "name": "Mimarsinan Taksi",
+      "phone": "05336177426",
+      "website": null,
+      "lat": 40.1605422,
+      "lon": 34.3654761,
+      "address": null,
+      "districtId": "lacin",
+      "districtName": "Lacin",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-57-57",
+      "name": "Türkkonut Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.834913,
+      "lon": 32.6605381,
+      "address": "Taksi Durağı · Alacaatlı Cad. Güvengir Sitesi No:1",
+      "districtId": "dodurga",
+      "districtName": "Dodurga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-58-58",
+      "name": "Yılmaz Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.8366511,
+      "lon": 32.658639,
+      "address": null,
+      "districtId": "dodurga",
+      "districtName": "Dodurga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355264343-59",
+      "name": "Yılmaz Taksi",
+      "phone": "05355264343",
+      "website": null,
+      "lat": 40.735152,
+      "lon": 34.4737149,
+      "address": null,
+      "districtId": "dodurga",
+      "districtName": "Dodurga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05386484102-60",
+      "name": "Güven Taksi",
+      "phone": "05386484102",
+      "website": null,
+      "lat": 40.721496,
+      "lon": 34.482438,
+      "address": "Bahabey Mah. Çorum Cad. 8 İskilip, Çorum",
+      "districtId": "iskilip",
+      "districtName": "İskilip",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05516732959-61",
+      "name": "Iskilip Garaj Taksi",
+      "phone": "05516732959",
+      "website": null,
+      "lat": 40.733469,
+      "lon": 34.474727,
+      "address": "Kaleboğazı Mah. Yenidemirciler Cad. İskilip, Çorum",
+      "districtId": "iskilip",
+      "districtName": "İskilip",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359702802-62",
+      "name": "Iskilip Garaj Taksi",
+      "phone": "05359702802",
+      "website": "https://www.facebook.com/GarajTaksiDuragi/",
+      "lat": 40.73085485,
+      "lon": 34.47555998,
+      "address": "Bahabey Mah. Akçay Cad. 1 İskilip, Çorum",
+      "districtId": "iskilip",
+      "districtName": "İskilip",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05315838072-63",
+      "name": "Yatukcu Taksi",
+      "phone": "05315838072",
+      "website": null,
+      "lat": 40.643101,
+      "lon": 34.258195,
+      "address": "Yeni Mah. Çorum Cad. 180 Bayat, Çorum",
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315838072-64",
+      "name": "Yatukcu Taksi",
+      "phone": "05315838072",
+      "website": null,
+      "lat": 40.639193,
+      "lon": 34.271416,
+      "address": "Yatukcu Mah. Çorum Cad. 35 Bayat, Çorum",
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368195014-65",
+      "name": "Alaca Terminal Taksi",
+      "phone": "05368195014",
+      "website": null,
+      "lat": 40.391401,
+      "lon": 34.8262799,
+      "address": null,
+      "districtId": "bogazkale",
+      "districtName": "Bogazkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315993419-66",
+      "name": "Kargı Taksi",
+      "phone": "05315993419",
+      "website": null,
+      "lat": 41.132513,
+      "lon": 34.486336,
+      "address": "İmambey Mah. 100. Yıl Cad. Kargı, Çorum",
+      "districtId": "kargi",
+      "districtName": "Kargi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-67-67",
+      "name": "Oğuzlar ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.903267,
+      "lon": 32.818197,
+      "address": "Taksi Durağı · Barış Manço Cd. No:19",
+      "districtId": "oguzlar",
+      "districtName": "Oguzlar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05533771121-68",
+      "name": "Ak kent taksi",
+      "phone": "05533771121",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05070309034-69",
+      "name": "ÇORUMDA TAKSİ HİZMETİ ONUR",
+      "phone": "05070309034",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05424519798-70",
+      "name": "Çorumda Nöbetçi Taksi (ibrahim)",
+      "phone": "05424519798",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05418264497-71",
+      "name": "NÖBETÇİ TAKSİ SERKAN DELİBEKİR",
+      "phone": "05418264497",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05531086397-72",
+      "name": "ACİL TAKSİ ÇORUM",
+      "phone": "05531086397",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05415194348-73",
+      "name": "ELİTPARK TAKSİ ( HALİL KABADAYI)",
+      "phone": "05415194348",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05335147521-74",
+      "name": "Taksici Dursun",
+      "phone": "05335147521",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05314906060-75",
+      "name": "Çorum ismail",
+      "phone": "05314906060",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05452451543-76",
+      "name": "TAKSİCİ ŞUAYİP",
+      "phone": "05452451543",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05355825112-77",
+      "name": "Çorum Nöbetçi Taksi Murat",
+      "phone": "05355825112",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05326538966-78",
+      "name": "Acil güvenilir nöbetçi çorum taksi",
+      "phone": "05326538966",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-03642220106-79",
+      "name": "Tümü → Bahabey Taksi",
+      "phone": "03642220106",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05360286442-80",
+      "name": "En Yakın Nöbetçi Taksi Çorum",
+      "phone": "05360286442",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05539435389-81",
+      "name": "Eti Taksi",
+      "phone": "05539435389",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05368200705-82",
+      "name": "Tümü → A Taksi Olgun",
+      "phone": "05368200705",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05389829531-83",
+      "name": "Özlem Taksi Alaca",
+      "phone": "05389829531",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": "alaca",
+      "districtName": "Alaca",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05416523601-84",
+      "name": "Tümü → Birlik Taksi Bayat",
+      "phone": "05416523601",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05373990310-85",
+      "name": "Tümü → İskilip Gülercan Taksi - (uzun Yol İçin)",
+      "phone": "05373990310",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05382882819-86",
+      "name": "İskilip Taksi – İskilip Emek Taksi Durağı AÇIK · 7 gün 24 saat Dr.Devlet Bahçeli",
+      "phone": "05382882819",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05384725133-87",
+      "name": "Kargı Taksi Mükremin",
+      "phone": "05384725133",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05380592400-88",
+      "name": "Mert Taksi Kargı",
+      "phone": "05380592400",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354535598-89",
+      "name": "Tümü → Taksici Ali Ortaköy",
+      "phone": "05354535598",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05369709330-90",
+      "name": "Tümü → Hastane Taksi Osmancık",
+      "phone": "05369709330",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05388792390-91",
+      "name": "Osmancık Taksi",
+      "phone": "05388792390",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05444794228-92",
+      "name": "Osmancık Taksi / Hamit Akman",
+      "phone": "05444794228",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325782201-93",
+      "name": "Osmancık Taksi Satılmış Bıyıklı",
+      "phone": "05325782201",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466014520-94",
+      "name": "Tümü → Anar Taksi Durağı",
+      "phone": "05466014520",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05055570519-95",
+      "name": "Arı Taksi",
+      "phone": "05055570519",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367068466-96",
+      "name": "Arı Taksi Sungurlu AÇIK · 7 gün 24 saat Sunguroğlu, arı taksi, 11.sokak no:5, 19",
+      "phone": "05367068466",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05357471069-97",
+      "name": "Ova Taksi",
+      "phone": "05357471069",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05427314196-98",
+      "name": "Sungurlu Şen Taksi",
+      "phone": "05427314196",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05350118519-99",
+      "name": "Sungurlu Taksi",
+      "phone": "05350118519",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05394311023-100",
+      "name": "Sungurlu Taksi 7-24",
+      "phone": "05394311023",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05382230519-101",
+      "name": "Sungurlu Taksi Kaplan",
+      "phone": "05382230519",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05388859924-102",
+      "name": "Sungurlu Taksi Kemalli",
+      "phone": "05388859924",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05428417167-103",
+      "name": "Sungurlu Ticari Taksi Hizmeti",
+      "phone": "05428417167",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05377179548-104",
+      "name": "Sungurlu Ticari Taksi Sabri Balku",
+      "phone": "05377179548",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466702834-105",
+      "name": "Sungurlutaksi",
+      "phone": "05466702834",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05388281899-106",
+      "name": "Taksi Sungurlu 7/24",
+      "phone": "05388281899",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05432272099-107",
+      "name": "Terminal Taksi",
+      "phone": "05432272099",
+      "website": null,
+      "lat": 40.5506,
+      "lon": 34.9556,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05362145488-108",
+      "name": "Çorum Taksi - Vahit Kök",
+      "phone": "05362145488",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05308629519-109",
+      "name": "Sungurlu Taksi - Kaplan Arpaguş",
+      "phone": "05308629519",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05383018227-110",
+      "name": "Sungurlu Taksi - Nebi",
+      "phone": "05383018227",
+      "website": "https://www.instagram.com/sungurlumerkeztaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sungurlu",
+      "districtName": "Sungurlu",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

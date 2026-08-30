@@ -1,0 +1,3124 @@
+{
+  "cityId": "kayseri",
+  "cityName": "Kayseri",
+  "fetchedAt": "2026-08-30T21:33:10.185Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akkisla",
+      "name": "Akkisla",
+      "count": 5
+    },
+    {
+      "id": "bunyan",
+      "name": "Bunyan",
+      "count": 3
+    },
+    {
+      "id": "develi",
+      "name": "Develi",
+      "count": 2
+    },
+    {
+      "id": "felahiye",
+      "name": "Felahiye",
+      "count": 4
+    },
+    {
+      "id": "incesu",
+      "name": "İncesu",
+      "count": 2
+    },
+    {
+      "id": "kocasinan",
+      "name": "Kocasinan",
+      "count": 53
+    },
+    {
+      "id": "melikgazi",
+      "name": "Melikgazi",
+      "count": 75
+    },
+    {
+      "id": "pinarbasi",
+      "name": "Pinarbasi",
+      "count": 1
+    },
+    {
+      "id": "sariz",
+      "name": "Sariz",
+      "count": 2
+    },
+    {
+      "id": "talas",
+      "name": "Talas",
+      "count": 8
+    },
+    {
+      "id": "tomarza",
+      "name": "Tomarza",
+      "count": 1
+    }
+  ],
+  "count": 201,
+  "stands": [
+    {
+      "id": "taksi724-05539657066-0",
+      "name": "Arısoy Taksi",
+      "phone": "05539657066",
+      "website": null,
+      "lat": 38.694347,
+      "lon": 35.47858,
+      "address": "Seyitgazi Mah. (Acıbadem Hastanesi Önü) Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358277098-1",
+      "name": "Ateş Taksi",
+      "phone": "05358277098",
+      "website": null,
+      "lat": 38.78751336,
+      "lon": 35.61711517,
+      "address": "Osmanlı Mah. Battal Gazi Blv. 2 Eskişehir Bağları, Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05400090073-2",
+      "name": "Erciyes Otel Taksi",
+      "phone": "05400090073",
+      "website": null,
+      "lat": 38.729357,
+      "lon": 35.516779,
+      "address": "Cumhuriyet Mah. İnönü Blv. 81 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05375710815-3",
+      "name": "Bayrak Taksi",
+      "phone": "05375710815",
+      "website": null,
+      "lat": 38.7256003,
+      "lon": 35.5332529,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326849145-4",
+      "name": "Belsin Taksi",
+      "phone": "05326849145",
+      "website": null,
+      "lat": 38.71533,
+      "lon": 35.475611,
+      "address": "Kemeraltı Mah. Çelebi Sok. 1 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03523262970-5",
+      "name": "Bizim Taksi",
+      "phone": "03523262970",
+      "website": null,
+      "lat": 38.7498484,
+      "lon": 35.3950875,
+      "address": "Taksi Durağı ·  · 3013. Sk. No:27",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05378847341-6",
+      "name": "Burç Taksi",
+      "phone": "05378847341",
+      "website": null,
+      "lat": 38.740125,
+      "lon": 35.464928,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522323085-7",
+      "name": "Byz Eren Taksi",
+      "phone": "03522323085",
+      "website": null,
+      "lat": 38.716825,
+      "lon": 35.493823,
+      "address": "Tacettin Veli Mah. Seyyit Burhanettin Blv. 156 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03523266655-8",
+      "name": "Cevher Taksi",
+      "phone": "03523266655",
+      "website": null,
+      "lat": 38.708904,
+      "lon": 35.484159,
+      "address": "Keykubat Mah. Eren Yıldırım Blv. 2 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-9-9",
+      "name": "Cihan Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.732023,
+      "lon": 35.521923,
+      "address": "Erciyes Evler Mah. Çay Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05545510980-10",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "05545510980",
+      "website": null,
+      "lat": 38.7253736,
+      "lon": 35.5216454,
+      "address": "Taksi Durağı ·  · Şht. Üst. Mustafa Şimşek Blv. No:90",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03523301138-11",
+      "name": "Doğu Garaji Taksi",
+      "phone": "03523301138",
+      "website": null,
+      "lat": 38.7283223,
+      "lon": 35.4787479,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05528616270-12",
+      "name": "Eldek Taksi",
+      "phone": "05528616270",
+      "website": null,
+      "lat": 38.7455884,
+      "lon": 35.5420144,
+      "address": "Taksi ·  · 325. Sk. No:28 D:84",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05526021920-13",
+      "name": "Emek Taksi",
+      "phone": "05526021920",
+      "website": null,
+      "lat": 38.7111974,
+      "lon": 35.5657229,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03522321149-14",
+      "name": "En yakın Taksi",
+      "phone": "03522321149",
+      "website": null,
+      "lat": 38.7275417,
+      "lon": 35.4805858,
+      "address": "Taksi Durağı · Salih Algun Paşa Cad. No:5",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05528380887-15",
+      "name": "Erdoğan Taksi",
+      "phone": "05528380887",
+      "website": null,
+      "lat": 38.727862,
+      "lon": 35.482464,
+      "address": "Taksi Durağı · Mehmet Akif Sk. No:8",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05380614238-16",
+      "name": "Esenyurt Taksi",
+      "phone": "05380614238",
+      "website": null,
+      "lat": 38.709504,
+      "lon": 35.484159,
+      "address": "Battalgazi Mah. Kartal Blv. 67 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535133117-17",
+      "name": "Eskişehir Bağları Taksi",
+      "phone": "05535133117",
+      "website": null,
+      "lat": 38.6945337,
+      "lon": 35.4949567,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535346488-18",
+      "name": "Fakülte Taksi",
+      "phone": "05535346488",
+      "website": null,
+      "lat": 38.6964009,
+      "lon": 35.4724079,
+      "address": "Taksi Durağı · Kıraç Sk. 9-3",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03524371644-19",
+      "name": "Forum Taksi",
+      "phone": "03524371644",
+      "website": null,
+      "lat": 38.709359,
+      "lon": 35.504602,
+      "address": "Gültepe Mah. Talas Blv. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314001772-20",
+      "name": "Germir Taksi",
+      "phone": "05314001772",
+      "website": null,
+      "lat": 38.7238817,
+      "lon": 35.4981168,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356701179-21",
+      "name": "Güneş Taksi",
+      "phone": "05356701179",
+      "website": null,
+      "lat": 38.7382669,
+      "lon": 35.5470091,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-22-22",
+      "name": "Hanedan Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.727372,
+      "lon": 35.509763,
+      "address": "Gesi Fatih Mah. Günsazak Cad. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05552796082-23",
+      "name": "Hürriyet Taksi",
+      "phone": "05552796082",
+      "website": null,
+      "lat": 38.721778,
+      "lon": 35.499656,
+      "address": "Kılıçaslan Mah. Mustafa Kemal Paşa Blv. 28/1 Kardelen Apt. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428479666-24",
+      "name": "Ildem Taksi",
+      "phone": "05428479666",
+      "website": null,
+      "lat": 38.721729,
+      "lon": 35.462912,
+      "address": "Hürriyet Mah. Gökalp Cad. (5 Yol Mevkii) Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442505232-25",
+      "name": "Ildem Taksi",
+      "phone": "05442505232",
+      "website": null,
+      "lat": 38.7511567,
+      "lon": 35.6969984,
+      "address": "Melikgazi/Kayseri, Türkiye",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442505232-26",
+      "name": "Inan Taksi",
+      "phone": "05442505232",
+      "website": null,
+      "lat": 38.741669,
+      "lon": 35.419694,
+      "address": "Gesi Cumhuriyet Mah. Yavuz Sultan Selim Cad. Vatan 1 Sok. 2 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05073638107-27",
+      "name": "Kadir Has Fuar Taksi",
+      "phone": "05073638107",
+      "website": null,
+      "lat": 38.721061,
+      "lon": 35.479907,
+      "address": "Gülük Mah. Osman Kavuncu Bulvarı Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323629511-28",
+      "name": "Kale Taksi",
+      "phone": "05323629511",
+      "website": null,
+      "lat": 38.7514781,
+      "lon": 35.4907046,
+      "address": "\"Mahallemize böyle taksi durağı olduğu için tşk ederiz hayırlı isler\"",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468058902-29",
+      "name": "Kartal Taksi",
+      "phone": "05468058902",
+      "website": null,
+      "lat": 38.7210814,
+      "lon": 35.4903956,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05465466038-30",
+      "name": "24 saat açık Taksi",
+      "phone": "05465466038",
+      "website": null,
+      "lat": 38.7174,
+      "lon": 35.46866,
+      "address": "Hürriyet Mah. Mevlana Cad. Fulya Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05069868832-31",
+      "name": "Kayseri Ekspres Taksi",
+      "phone": "05069868832",
+      "website": null,
+      "lat": 38.699103,
+      "lon": 35.441445,
+      "address": "Taksi Durağı ·  · Sakar Cd. No:32",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05456293800-32",
+      "name": "Kayseri En Yakın Taksi",
+      "phone": "05456293800",
+      "website": null,
+      "lat": 38.688309,
+      "lon": 35.473699,
+      "address": "Köşk Mah. Farabi Kavşağı Köşk Cad. 50 Gültepe, Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336166164-33",
+      "name": "Kayseri Fuar Taksi",
+      "phone": "05336166164",
+      "website": null,
+      "lat": 38.7087082,
+      "lon": 35.4813014,
+      "address": "Taksi ·  · Battal Gazi Blv. No:8",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456071380-34",
+      "name": "Kayseri Meltem Taksi",
+      "phone": "05456071380",
+      "website": null,
+      "lat": 38.7514759,
+      "lon": 35.4909102,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412660321-35",
+      "name": "Kayseri Merkez Taksi",
+      "phone": "05412660321",
+      "website": null,
+      "lat": 38.7341248,
+      "lon": 35.4829066,
+      "address": "Taksi Durağı · Erkilet bulv, Serin Sk.",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436330438-36",
+      "name": "Kayseri Park Taksi",
+      "phone": "05436330438",
+      "website": null,
+      "lat": 38.7179529,
+      "lon": 35.4860566,
+      "address": "Taksi Durağı ·  · Şen köşe önü, İnönü Blv. No:46",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400090073-37",
+      "name": "KAYSERi Şehir Hastanesi TAKSi",
+      "phone": "05400090073",
+      "website": null,
+      "lat": 38.72832222,
+      "lon": 35.51887427,
+      "address": "Alpaslan Mah. Eşref Bitlis Cad. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05522961150-38",
+      "name": "Kayseri Vip Taksi",
+      "phone": "05522961150",
+      "website": null,
+      "lat": 38.7705522,
+      "lon": 35.412121,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364215542-39",
+      "name": "Kazım Karabekir Erdal Taksi",
+      "phone": "05364215542",
+      "website": null,
+      "lat": 38.7491097,
+      "lon": 35.4032635,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380614238-40",
+      "name": "Kent Taksi",
+      "phone": "05380614238",
+      "website": null,
+      "lat": 38.7253604,
+      "lon": 35.4470085,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327695339-41",
+      "name": "Klas Taksi",
+      "phone": "05327695339",
+      "website": null,
+      "lat": 38.717156,
+      "lon": 35.488337,
+      "address": "Camikebir Mah. Sur Cad. 4 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368470398-42",
+      "name": "Koçak Taksi",
+      "phone": "05368470398",
+      "website": null,
+      "lat": 38.7274399,
+      "lon": 35.5316747,
+      "address": "Taksi Durağı ·  · Olgunlar Cd. No:38",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03523202115-43",
+      "name": "Koç Taksi",
+      "phone": "03523202115",
+      "website": null,
+      "lat": 38.721233,
+      "lon": 35.469949,
+      "address": "Çorakçılar Mah. Cengiz Topel Cad. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03522332460-44",
+      "name": "Konaklar Vip Taksi",
+      "phone": "03522332460",
+      "website": null,
+      "lat": 38.724611,
+      "lon": 35.500108,
+      "address": "Kılıçaslan Mah. Sivas Cad. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05347318638-45",
+      "name": "EN YAKIN Taksi kayseri gece Taksi",
+      "phone": "05347318638",
+      "website": null,
+      "lat": 38.7380684,
+      "lon": 35.5472374,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387929887-46",
+      "name": "Melikgazi Taksi",
+      "phone": "05387929887",
+      "website": null,
+      "lat": 38.7212692,
+      "lon": 35.5170611,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03522339906-47",
+      "name": "Melikşah Taksi",
+      "phone": "03522339906",
+      "website": null,
+      "lat": 38.747307,
+      "lon": 35.40343,
+      "address": "Alpaslan Mah. Gökçe Fidan Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05368971958-48",
+      "name": "Mimsin Taksi",
+      "phone": "05368971958",
+      "website": null,
+      "lat": 38.696786,
+      "lon": 35.487006,
+      "address": "Battalgazi Mah. Paşalı Cad. Buyük Menderes Çıkmazı 5 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05324919545-49",
+      "name": "Nefes GüçlüTürk Sıla Taksi",
+      "phone": "05324919545",
+      "website": null,
+      "lat": 38.7223785,
+      "lon": 35.5745752,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541463838-50",
+      "name": "7/24 EN YAKIN ACiL TAKSi",
+      "phone": "05541463838",
+      "website": null,
+      "lat": 38.7422529,
+      "lon": 35.4757833,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327695339-51",
+      "name": "Şelale Taksi",
+      "phone": "05327695339",
+      "website": null,
+      "lat": 38.7444162,
+      "lon": 35.4114455,
+      "address": "Taksi Durağı · Osman Kavuncu Blv. No:375",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522357383-52",
+      "name": "Sevgi Taksi",
+      "phone": "03522357383",
+      "website": null,
+      "lat": 38.72723,
+      "lon": 35.518645,
+      "address": "Alpaslan Mah. Emrah Cad. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03522242736-53",
+      "name": "Seyyid Burhanettin Taksi",
+      "phone": "03522242736",
+      "website": null,
+      "lat": 38.728819,
+      "lon": 35.527374,
+      "address": "Melikgazi Mah. Akçıra Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05370135157-54",
+      "name": "Star Taksi",
+      "phone": "05370135157",
+      "website": null,
+      "lat": 38.721156,
+      "lon": 35.492854,
+      "address": "Tacettin Veli Mah. Müze Cad. Hunat Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412973572-55",
+      "name": "Sur Taksi",
+      "phone": "05412973572",
+      "website": null,
+      "lat": 38.7460547,
+      "lon": 35.4978144,
+      "address": "Taksi Durağı ·  · Akmescit Cd. No:49",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522311020-56",
+      "name": "Taksi",
+      "phone": "03522311020",
+      "website": null,
+      "lat": 38.71751,
+      "lon": 35.490287,
+      "address": "Cumhuriyet Mah. Tennuri Sok. 27 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05522961150-57",
+      "name": "Talas bulvarı KIZILAY EKM TAKSi",
+      "phone": "05522961150",
+      "website": null,
+      "lat": 38.718454,
+      "lon": 35.51085,
+      "address": "Alpaslan Mah. Gökçe Fidan Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550544687-58",
+      "name": "Talas Öner Taksi",
+      "phone": "05550544687",
+      "website": null,
+      "lat": 38.6973696,
+      "lon": 35.534235,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05455439245-59",
+      "name": "Terminal Taksi",
+      "phone": "05455439245",
+      "website": null,
+      "lat": 38.6853566,
+      "lon": 35.5495931,
+      "address": "Taksi Durağı ·  · No:, Tepebağlar Cd. No:25",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522228971-60",
+      "name": "The Kayseri Loft Otel Taksi",
+      "phone": "03522228971",
+      "website": null,
+      "lat": 38.72059,
+      "lon": 35.483631,
+      "address": "Osmanlı Mah. Berrak Sok. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421890843-61",
+      "name": "Timuçinler Taksi",
+      "phone": "05421890843",
+      "website": null,
+      "lat": 38.7429338,
+      "lon": 35.5439661,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05535133117-62",
+      "name": "Ümit Taksi",
+      "phone": "05535133117",
+      "website": null,
+      "lat": 38.716556,
+      "lon": 35.488337,
+      "address": "Cumhuriyet Mah. İnönü Blv. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522359956-63",
+      "name": "Uzay Taksi",
+      "phone": "03522359956",
+      "website": null,
+      "lat": 38.723573,
+      "lon": 35.515303,
+      "address": "Alpaslan Mah. Sivas Cad. 122 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05377612793-64",
+      "name": "kayseri - Yunusemre Taksi",
+      "phone": "05377612793",
+      "website": null,
+      "lat": 38.725211,
+      "lon": 35.500108,
+      "address": "Kılıçaslan Mah. Sivas Blv. (Ptt Yanı) Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05079489558-65",
+      "name": "Yenişehir Taksi",
+      "phone": "05079489558",
+      "website": null,
+      "lat": 38.7387455,
+      "lon": 35.4494954,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05527199796-66",
+      "name": "Yıldızevler Taksi",
+      "phone": "05527199796",
+      "website": null,
+      "lat": 38.7437401,
+      "lon": 35.4639341,
+      "address": "Taksi Durağı ·  · Merih Cd. No:60",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05514820167-67",
+      "name": "Yurt Taksi",
+      "phone": "05514820167",
+      "website": null,
+      "lat": 38.7425873,
+      "lon": 35.5381441,
+      "address": "Çorakçılar Mah. Sokullu Cad. 2 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03523208297-68",
+      "name": "YURT TAKSi",
+      "phone": "03523208297",
+      "website": null,
+      "lat": 38.715258,
+      "lon": 35.462176,
+      "address": "Hürriyet Mah. Cengiz Topel Cad. Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03523208297-69",
+      "name": "Zade Taksi",
+      "phone": "03523208297",
+      "website": null,
+      "lat": 38.7174388,
+      "lon": 35.4642182,
+      "address": "Taksi Durağı ·  · Cengiz Topel Cd. No:74",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05380740304-70",
+      "name": "Zümrüt Taksi",
+      "phone": "05380740304",
+      "website": null,
+      "lat": 38.72353952,
+      "lon": 35.51519571,
+      "address": "Yıldırım Beyazıt Mah. Sırasöğütler Cad. 7 Dk:1 Melikgazi, Kayseri",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333190777-71",
+      "name": "kayseri-taksi",
+      "phone": "05333190777",
+      "website": null,
+      "lat": 38.7569342,
+      "lon": 35.4924741,
+      "address": "Taksi Durağı ·  · Kadir Has Cd. No:78/1",
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522311628-72",
+      "name": "Argıncık Taksi",
+      "phone": "03522311628",
+      "website": null,
+      "lat": 38.721306,
+      "lon": 35.482984,
+      "address": "Gevhernesibe Mah. Mimarsinan Cad. 31 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522403938-73",
+      "name": "As Taksi",
+      "phone": "03522403938",
+      "website": null,
+      "lat": 38.7502648,
+      "lon": 35.5159457,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369612142-74",
+      "name": "Beyaz Şehir Taksi",
+      "phone": "05369612142",
+      "website": null,
+      "lat": 38.734244,
+      "lon": 35.493686,
+      "address": "Mevlana Mah. Mustafa Kemal Paşa Blv. (Doğum Evi Karşısı) Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377239513-75",
+      "name": "Beyaz Şehir Turan Taksi",
+      "phone": "05377239513",
+      "website": null,
+      "lat": 38.782183,
+      "lon": 35.581222,
+      "address": "Beyazşehir Mah. Osman Özcan Cad. (196 Nolu Durakta) Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377239513-76",
+      "name": "Billur Taksi",
+      "phone": "05377239513",
+      "website": null,
+      "lat": 38.778499,
+      "lon": 35.580044,
+      "address": "Taksi Durağı ·  · 824. Sk. No:1",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426787999-77",
+      "name": "Caner Taksi",
+      "phone": "05426787999",
+      "website": null,
+      "lat": 38.734421,
+      "lon": 35.516129,
+      "address": "Mimarsinan Mah. Billur Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359542063-78",
+      "name": "Çiçek Taksi",
+      "phone": "05359542063",
+      "website": null,
+      "lat": 38.73044998,
+      "lon": 35.47027342,
+      "address": "İstasyon Mah. Bağdat Cad. 12/B Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426787999-79",
+      "name": "City One Taksi",
+      "phone": "05426787999",
+      "website": null,
+      "lat": 38.735461,
+      "lon": 35.520992,
+      "address": "Erciyesevler Mah. Billur Cad. 125 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05339699324-80",
+      "name": "Doğu Sanayi Taksi",
+      "phone": "05339699324",
+      "website": null,
+      "lat": 38.7232353,
+      "lon": 35.4772378,
+      "address": "Taksi Durağı · Mahallesi, 6002. Cadde No : 5",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522401457-81",
+      "name": "Erciyes Taksi",
+      "phone": "03522401457",
+      "website": null,
+      "lat": 38.7435916,
+      "lon": 35.5233416,
+      "address": "Taksi Durağı · Kocasinan Blv. No:365",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05337432830-82",
+      "name": "Erkilet Taksi",
+      "phone": "05337432830",
+      "website": null,
+      "lat": 38.726524,
+      "lon": 35.50474,
+      "address": "Fevzi Çakmak Mah. Sivas Blv. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385706263-83",
+      "name": "Fatih Taksi",
+      "phone": "05385706263",
+      "website": null,
+      "lat": 38.7864153,
+      "lon": 35.4544552,
+      "address": "Taksi Durağı · sokak No:4340",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522314940-84",
+      "name": "Fuar Taksi",
+      "phone": "03522314940",
+      "website": null,
+      "lat": 38.72986,
+      "lon": 35.48767,
+      "address": "Fatih Mah. Oğuz Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323629511-85",
+      "name": "Fuzuli Akça Taksi",
+      "phone": "05323629511",
+      "website": null,
+      "lat": 38.747999,
+      "lon": 35.490585,
+      "address": "Zümrüt Mah. Kadir Has Cad. 1/2 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05356662837-86",
+      "name": "Gar Taksi",
+      "phone": "05356662837",
+      "website": null,
+      "lat": 38.7280284,
+      "lon": 35.5062227,
+      "address": "Taksi Durağı · 5/1 Fevzi Çakmak Fuzuli Caddesi esen sokak kavşağı",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05528616270-87",
+      "name": "Gül Taksi",
+      "phone": "05528616270",
+      "website": null,
+      "lat": 38.73072,
+      "lon": 35.480312,
+      "address": "İstasyon Mah. Depo Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522334860-88",
+      "name": "Inci Taksi",
+      "phone": "03522334860",
+      "website": null,
+      "lat": 38.734518,
+      "lon": 35.499973,
+      "address": "Fevzi Çakmak Mah. Bozantı Cad. 93 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522237281-89",
+      "name": "Kayseri Doğumevi As Taksi",
+      "phone": "03522237281",
+      "website": null,
+      "lat": 38.733578,
+      "lon": 35.496225,
+      "address": "Fevzi Çakmak Mah. Bozantı Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369612142-90",
+      "name": "Kayseri Gül Taksi",
+      "phone": "05369612142",
+      "website": null,
+      "lat": 38.739208,
+      "lon": 35.4914837,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522334860-91",
+      "name": "Kayseri Taksi",
+      "phone": "03522334860",
+      "website": null,
+      "lat": 38.7363666,
+      "lon": 35.504146,
+      "address": "Taksi Durağı · Fuzuli Caddesi, Bozantı Cd. No:2",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436330438-92",
+      "name": "Kral Taksi",
+      "phone": "05436330438",
+      "website": null,
+      "lat": 38.725657,
+      "lon": 35.486364,
+      "address": "Sahabiye Mah. Mete Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522453838-93",
+      "name": "Kümbet Taksi",
+      "phone": "03522453838",
+      "website": null,
+      "lat": 38.7446168,
+      "lon": 35.5121531,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522450941-94",
+      "name": "Mevlana Taksi",
+      "phone": "03522450941",
+      "website": null,
+      "lat": 38.735889,
+      "lon": 35.525273,
+      "address": "Erciyesevler Mah. 18. Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03523392554-95",
+      "name": "Murat Taksi",
+      "phone": "03523392554",
+      "website": null,
+      "lat": 38.734347,
+      "lon": 35.486037,
+      "address": "Mevlana Mah. Akşemsettin Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327275956-96",
+      "name": "Nato Taksi",
+      "phone": "05327275956",
+      "website": null,
+      "lat": 38.737937,
+      "lon": 35.48624,
+      "address": "Mevlana Mah. Barış Manço Cad. 53 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522327053-97",
+      "name": "Net Taksi",
+      "phone": "03522327053",
+      "website": null,
+      "lat": 38.729508,
+      "lon": 35.495728,
+      "address": "Serçeönü Mah. Mustafa Kemal Paşa Blv. 45 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05528664445-98",
+      "name": "Nil Taksi",
+      "phone": "05528664445",
+      "website": null,
+      "lat": 38.7555679,
+      "lon": 35.467471,
+      "address": "Taksi · Erkilet Blv. No:155 D:2A",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05363658885-99",
+      "name": "Papatya Taksi",
+      "phone": "05363658885",
+      "website": null,
+      "lat": 38.7321305,
+      "lon": 35.4944673,
+      "address": "Taksi Durağı ·  · Sahabiye mh. M. Kemal paşa blv, Nil Cd. No:47/1",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522326941-100",
+      "name": "Park Taksi",
+      "phone": "03522326941",
+      "website": null,
+      "lat": 38.725631,
+      "lon": 35.496165,
+      "address": "Serçeönü Mah. Ahi Evran Cad. 6 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400090073-101",
+      "name": "Sağlık Taksi",
+      "phone": "05400090073",
+      "website": null,
+      "lat": 38.728819,
+      "lon": 35.500901,
+      "address": "Fevzi Çakmak Mah. Fevziçakmak Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05522961150-102",
+      "name": "Saray Taksi",
+      "phone": "05522961150",
+      "website": null,
+      "lat": 38.724513,
+      "lon": 35.48081,
+      "address": "Hacı Saki Mah. Atatürk Blv. 115 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365802325-103",
+      "name": "Şato Taksi",
+      "phone": "05365802325",
+      "website": null,
+      "lat": 38.728785,
+      "lon": 35.494494,
+      "address": "Serçeönü Mah. Saray Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412313299-104",
+      "name": "Seher Taksi",
+      "phone": "05412313299",
+      "website": null,
+      "lat": 38.725046,
+      "lon": 35.491694,
+      "address": "Taksi Durağı · Ahmet Paşa Cd. No:41a 38010",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522337780-105",
+      "name": "Şen Taksi",
+      "phone": "03522337780",
+      "website": null,
+      "lat": 38.730183,
+      "lon": 35.49627,
+      "address": "Fevzi Çakmak Mah. Yeşilırmak Cad. 5 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522234924-106",
+      "name": "Seyrani Taksi",
+      "phone": "03522234924",
+      "website": null,
+      "lat": 38.737365,
+      "lon": 35.509409,
+      "address": "Mimarsinan Mah. Murat Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413881327-107",
+      "name": "Solmaz Taksi",
+      "phone": "05413881327",
+      "website": null,
+      "lat": 38.7502823,
+      "lon": 35.4855575,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522315254-108",
+      "name": "Sümer Taksi",
+      "phone": "03522315254",
+      "website": null,
+      "lat": 38.721558,
+      "lon": 35.48478,
+      "address": "Gevhernesibe Mah. Kurşunluk Sok. 2 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03523371300-109",
+      "name": "Taksicim Taksi",
+      "phone": "03523371300",
+      "website": null,
+      "lat": 38.736661,
+      "lon": 35.478983,
+      "address": "Sümer Mah. Erkilet Blv. 4 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414070237-110",
+      "name": "Tekden Taksi",
+      "phone": "05414070237",
+      "website": null,
+      "lat": 38.7313516,
+      "lon": 35.4923441,
+      "address": "Taksi Durağı · Sahabiye mah nil Cad, Akçay Sk. No:22 D:e",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327695339-111",
+      "name": "Tren Garı Taksi",
+      "phone": "05327695339",
+      "website": null,
+      "lat": 38.723334,
+      "lon": 35.481695,
+      "address": "Gevhernesibe Mah. Gür Sok. 7 Dk:1 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05528616270-112",
+      "name": "Tuna Taksi",
+      "phone": "05528616270",
+      "website": null,
+      "lat": 38.755614,
+      "lon": 35.48699,
+      "address": "Hoca Ahmet Yesevi Mah. Telefon Sok. 76 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382453883-113",
+      "name": "Turan Taksi",
+      "phone": "05382453883",
+      "website": null,
+      "lat": 38.730365,
+      "lon": 35.517639,
+      "address": "Mimarsinan Mah. Tuna Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377239513-114",
+      "name": "Taksi durağı",
+      "phone": "05377239513",
+      "website": null,
+      "lat": 38.778888,
+      "lon": 35.583272,
+      "address": "Beyazşehir Mah. Gesi Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541463838-115",
+      "name": "Yakut Taksi",
+      "phone": "05541463838",
+      "website": null,
+      "lat": 38.721906,
+      "lon": 35.482984,
+      "address": "Gevhernesibe Mah. Mimar Sinan Cad. 31 Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05056160101-116",
+      "name": "Yenimahalle Meydan Taksi",
+      "phone": "05056160101",
+      "website": null,
+      "lat": 38.7400468,
+      "lon": 35.4976159,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05552796082-117",
+      "name": "Yıldızevler uğur evler 7/24 Taksi",
+      "phone": "05552796082",
+      "website": null,
+      "lat": 38.741717,
+      "lon": 35.482088,
+      "address": "Yeni Mah. 5. Cad. Kocasinan, Kayseri",
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454518671-118",
+      "name": "kayseri-taksi",
+      "phone": "05454518671",
+      "website": null,
+      "lat": 38.7391096,
+      "lon": 35.5373331,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445102677-119",
+      "name": "Emin Taksi",
+      "phone": "05445102677",
+      "website": null,
+      "lat": 38.7129736,
+      "lon": 35.563708,
+      "address": null,
+      "districtId": "akkisla",
+      "districtName": "Akkisla",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05411123838-120",
+      "name": "Emin Taksi Durağı",
+      "phone": "05411123838",
+      "website": null,
+      "lat": 38.703362,
+      "lon": 35.5510725,
+      "address": null,
+      "districtId": "akkisla",
+      "districtName": "Akkisla",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05354166892-121",
+      "name": "Gökkent Taksi",
+      "phone": "05354166892",
+      "website": null,
+      "lat": 38.7083619,
+      "lon": 35.5617154,
+      "address": "Taksi Durağı ·  · Mehmet Timuçin Cd. No:20",
+      "districtId": "akkisla",
+      "districtName": "Akkisla",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05358238838-122",
+      "name": "İpek Taksi",
+      "phone": "05358238838",
+      "website": null,
+      "lat": 38.7464481,
+      "lon": 35.5553898,
+      "address": "Taksi Durağı · No:1/A",
+      "districtId": "akkisla",
+      "districtName": "Akkisla",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05070478711-123",
+      "name": "Emin Taksi",
+      "phone": "05070478711",
+      "website": null,
+      "lat": 38.724897,
+      "lon": 35.511006,
+      "address": null,
+      "districtId": "akkisla",
+      "districtName": "Akkisla",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384061672-124",
+      "name": "Bulut Taksi",
+      "phone": "05384061672",
+      "website": null,
+      "lat": 38.706608,
+      "lon": 35.562743,
+      "address": "Mevlana Mah. Cemil Baba Cad. 10 Anayurt, Talas, Kayseri",
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05385463832-125",
+      "name": "Emniyet Taksi",
+      "phone": "05385463832",
+      "website": null,
+      "lat": 38.703993,
+      "lon": 35.559127,
+      "address": "Mevlana Mah. 75. Yıl Cad. 1 Talas, Kayseri",
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03529991383-126",
+      "name": "Talas Taksi",
+      "phone": "03529991383",
+      "website": null,
+      "lat": 38.688901,
+      "lon": 35.553618,
+      "address": "Bahçelievler Mah. Bahçelievler Cad. 1 Talas, Kayseri",
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05455439245-127",
+      "name": "/ Kredi kartı Geçen Taksi",
+      "phone": "05455439245",
+      "website": null,
+      "lat": 38.69317413,
+      "lon": 35.54829888,
+      "address": "Bahçelievler Mah. Atatürk Blv. Talas, Kayseri",
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432677705-128",
+      "name": "Emniyet Taksi",
+      "phone": "05432677705",
+      "website": null,
+      "lat": 38.7016686,
+      "lon": 35.5649839,
+      "address": null,
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362063880-129",
+      "name": "Ayyıldız Taksi",
+      "phone": "05362063880",
+      "website": null,
+      "lat": 38.7390109,
+      "lon": 35.4816738,
+      "address": null,
+      "districtId": "felahiye",
+      "districtName": "Felahiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376019370-130",
+      "name": "Esentepe Taksi",
+      "phone": "05376019370",
+      "website": null,
+      "lat": 38.705185,
+      "lon": 35.5130338,
+      "address": null,
+      "districtId": "felahiye",
+      "districtName": "Felahiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384043850-131",
+      "name": "Gülenay Taksi",
+      "phone": "05384043850",
+      "website": null,
+      "lat": 38.7324141,
+      "lon": 35.4251844,
+      "address": "Taksi ·  · Faik Sk. no:2/1",
+      "districtId": "felahiye",
+      "districtName": "Felahiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323450125-132",
+      "name": "Esentepe Taksi",
+      "phone": "05323450125",
+      "website": null,
+      "lat": 38.7446032,
+      "lon": 35.4890831,
+      "address": null,
+      "districtId": "felahiye",
+      "districtName": "Felahiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05546311355-133",
+      "name": "Fatih Taksi",
+      "phone": "05546311355",
+      "website": null,
+      "lat": 38.8414337,
+      "lon": 35.855818,
+      "address": null,
+      "districtId": "bunyan",
+      "districtName": "Bunyan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03522314940-134",
+      "name": "Merkez Taksi",
+      "phone": "03522314940",
+      "website": null,
+      "lat": 38.84966253,
+      "lon": 35.85835271,
+      "address": "Sağlık Mah. Şehit Yusuf Uğur Cad. 4 Bünyan, Kayseri",
+      "districtId": "bunyan",
+      "districtName": "Bunyan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436330438-135",
+      "name": "Merkez Taksi",
+      "phone": "05436330438",
+      "website": null,
+      "lat": 38.846177,
+      "lon": 35.856238,
+      "address": "Dervişağa Mah. Velievi Sok. Bünyan, Kayseri",
+      "districtId": "bunyan",
+      "districtName": "Bunyan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05322585882-136",
+      "name": "Köşk Taksi",
+      "phone": "05322585882",
+      "website": null,
+      "lat": 38.469651,
+      "lon": 35.6458925,
+      "address": null,
+      "districtId": "sariz",
+      "districtName": "Sariz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327380648-137",
+      "name": "Köşk Taksi",
+      "phone": "05327380648",
+      "website": null,
+      "lat": 38.7209484,
+      "lon": 35.5052661,
+      "address": "Taksi Durağı · Şht. Üst. Mustafa Şimşek Blv. No:20",
+      "districtId": "sariz",
+      "districtName": "Sariz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342990038-138",
+      "name": "ncesu Taksi",
+      "phone": "05342990038",
+      "website": null,
+      "lat": 38.624304,
+      "lon": 35.1810802,
+      "address": null,
+      "districtId": "incesu",
+      "districtName": "İncesu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05319538335-139",
+      "name": "Halk Taksi",
+      "phone": "05319538335",
+      "website": null,
+      "lat": 38.721028,
+      "lon": 36.397636,
+      "address": "Yenicami Mah. Yeni Hamam Sok. 16 Pınarbaşı, Kayseri",
+      "districtId": "pinarbasi",
+      "districtName": "Pinarbasi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05357086292-140",
+      "name": "Tomarza Taksi",
+      "phone": "05357086292",
+      "website": null,
+      "lat": 38.446367,
+      "lon": 35.8002531,
+      "address": null,
+      "districtId": "tomarza",
+      "districtName": "Tomarza",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05362500077-141",
+      "name": "Argıncık Kral Taksi",
+      "phone": "05362500077",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05455005285-142",
+      "name": "Kayseri Adliye 38T1689 taksi",
+      "phone": "05455005285",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05300409095-143",
+      "name": "Melikşah 2 Taksi",
+      "phone": "05300409095",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05326435842-144",
+      "name": "Anayurt Taksi 1",
+      "phone": "05326435842",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05400031589-145",
+      "name": "Zekibey Taksi",
+      "phone": "05400031589",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05301703612-146",
+      "name": "Talas Taksim Taksi",
+      "phone": "05301703612",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05069880005-147",
+      "name": "Tümü → Bünyan Çarşı Taksi",
+      "phone": "05069880005",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03527120909-148",
+      "name": "Deniz Taksi",
+      "phone": "03527120909",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03527121402-149",
+      "name": "Fatih Taksi Bünyan AÇIK · 7 gün 24 saat Sağlık, Şht. Aziz Bayram Erciyes Cd. No:",
+      "phone": "03527121402",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03527121974-150",
+      "name": "Taksi durağı",
+      "phone": "03527121974",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358495961-151",
+      "name": "Yavuz Taksi",
+      "phone": "05358495961",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05063652845-152",
+      "name": "Yıldırım Taksi",
+      "phone": "05063652845",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05558325360-153",
+      "name": "Tümü → Hacılar Taksi",
+      "phone": "05558325360",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522314200-154",
+      "name": "Ata Taksi",
+      "phone": "03522314200",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522326011-155",
+      "name": "Ateş Taksi",
+      "phone": "03522326011",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522253131-156",
+      "name": "Ayyıldız Taksi AÇIK · 7 gün 24 saat Köşk, 221nolu taksi durağı Mayagöz karşısı, ",
+      "phone": "03522253131",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05521791178-157",
+      "name": "Belsin Tınaztepe Taksi",
+      "phone": "05521791178",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522228692-158",
+      "name": "Bulvar Taksi",
+      "phone": "03522228692",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05326182542-159",
+      "name": "Danışment Taksi AÇIK · 7 gün 24 saat Gülük, Danişmentgazi mahallesi, Şemsettin c",
+      "phone": "05326182542",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332325199-160",
+      "name": "En Yakın Taksi Köşk Mahallesi Taksi Gece Taksi AÇIK · 7 gün 24 saat Köşk Mahalle",
+      "phone": "05332325199",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522351008-161",
+      "name": "Fakülte Taksi AÇIK · 7 gün 24 saat Köşk, Fakülte İçi Küme Evleri No:61, 38030 Me",
+      "phone": "03522351008",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522318880-162",
+      "name": "Gel Taksi AÇIK · 7 gün 24 saat Cumhuriyet, Kaleönu Caddesi No:11, 38000 Melikgaz",
+      "phone": "03522318880",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05368901895-163",
+      "name": "Hız Taksi",
+      "phone": "05368901895",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522222915-164",
+      "name": "Hunat Taksi",
+      "phone": "03522222915",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05318166856-165",
+      "name": "İbni Sina Taksi Melikgazi AÇIK · 7 gün 24 saat Hunat, Nuh Naci Yazgan Cd. No:9, ",
+      "phone": "05318166856",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05517021616-166",
+      "name": "Kayseri Merkez Taksi",
+      "phone": "05517021616",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05372604520-167",
+      "name": "Kayseri Park Avm Taksi AÇIK · 7 gün 24 saat Alpaslan, Orgeneral Eşref Bitlis Blv",
+      "phone": "05372604520",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05383008112-168",
+      "name": "Melikgazi Taksi – Melikgazi/kayseri",
+      "phone": "05383008112",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03523364830-169",
+      "name": "Meydan Taksi Melikgazi",
+      "phone": "03523364830",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03523362429-170",
+      "name": "Mimsin Taksi AÇIK · 7 gün 24 saat Mimarsinanşirintepe, Malazgirt Blv., 38350 Mel",
+      "phone": "03523362429",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05357329095-171",
+      "name": "Mini Terminal Taksi AÇIK · 7 gün 24 saat Tacettin Veli, Yoğunburç Cd. 16-1, 3805",
+      "phone": "05357329095",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03522311984-172",
+      "name": "Pele Taksi AÇIK · 7 gün 24 saat Seyitgazi, Nuh Naci Yazgan Cd. No:22, 38030 Meli",
+      "phone": "03522311984",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05532511010-173",
+      "name": "Sakarya Taksi",
+      "phone": "05532511010",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03523300296-174",
+      "name": "Şirin Taksi",
+      "phone": "03523300296",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05322468294-175",
+      "name": "Taksi Kayseri",
+      "phone": "05322468294",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05447405124-176",
+      "name": "Tekin Taksi",
+      "phone": "05447405124",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03523362081-177",
+      "name": "Yıldız Taksi",
+      "phone": "03523362081",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393363898-178",
+      "name": "Yılmaz Taksi",
+      "phone": "05393363898",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05398969547-179",
+      "name": "Zade Taksi AÇIK · 7 gün 24 saat Yıldırım Beyazıt, Sırasöğütler Cd., 38030 Melikg",
+      "phone": "05398969547",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05445583804-180",
+      "name": "Anayurt Taksi 2",
+      "phone": "05445583804",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03524373899-181",
+      "name": "Emin Taksi",
+      "phone": "03524373899",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358707271-182",
+      "name": "Özkoçak Talas Taksi",
+      "phone": "05358707271",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03524370786-183",
+      "name": "Talas Öner Taksi Durağı AÇIK · 7 gün 24 saat Bahçelievler, No:, Tepebağlar Cd. N",
+      "phone": "03524370786",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05530951394-184",
+      "name": "Talas Taksi Mevlana",
+      "phone": "05530951394",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05333402025-185",
+      "name": "Talas Taksim Taksi",
+      "phone": "05333402025",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 35.4787,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05323251084-186",
+      "name": "Adliye Taksi - Ertuğrul Karacaaslan",
+      "phone": "05323251084",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05426225285-187",
+      "name": "Adliye Taksi - Fahrettin Ada",
+      "phone": "05426225285",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05366753080-188",
+      "name": "Argıncık Taksi - Süleyman Şen",
+      "phone": "05366753080",
+      "website": "https://www.instagram.com/mobiltaksitr/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05050340938-189",
+      "name": "Ateş Taksi - Alihan Yıldız",
+      "phone": "05050340938",
+      "website": "https://www.instagram.com/y.alihan1/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05464749371-190",
+      "name": "Ayyıldız Taksi Durağı",
+      "phone": "05464749371",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05377442640-191",
+      "name": "Develi Taksi - Hakan",
+      "phone": "05377442640",
+      "website": "https://www.facebook.com/develitaksi.kayserideveli",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "develi",
+      "districtName": "Develi",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05359343888-192",
+      "name": "Doğu Sanayi Taksi - Halil",
+      "phone": "05359343888",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05437229587-193",
+      "name": "Doruk Taksi - Recep Bozkurt",
+      "phone": "05437229587",
+      "website": "https://www.instagram.com/viptaksi.0560/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "melikgazi",
+      "districtName": "Melikgazi",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05315117274-194",
+      "name": "ERÜ Taksi - Cem Eldek",
+      "phone": "05315117274",
+      "website": "https://www.facebook.com/cemefe.eldek",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05427373225-195",
+      "name": "İncesu Kök Taksi",
+      "phone": "05427373225",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "incesu",
+      "districtName": "İncesu",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05336192693-196",
+      "name": "Kayseri Taksi - Emre Sönmez",
+      "phone": "05336192693",
+      "website": "https://www.facebook.com/kayseritaksihizmeti724",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05309425168-197",
+      "name": "KUMSmall Taksi - Burçin Gün",
+      "phone": "05309425168",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kocasinan",
+      "districtName": "Kocasinan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05528874582-198",
+      "name": "Mevlana Taksi - Fatih",
+      "phone": "05528874582",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05423876840-199",
+      "name": "Terminal Taksi - Mustafa",
+      "phone": "05423876840",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "develi",
+      "districtName": "Develi",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05510719539-200",
+      "name": "Yaşam Taksi - Fatih",
+      "phone": "05510719539",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "talas",
+      "districtName": "Talas",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

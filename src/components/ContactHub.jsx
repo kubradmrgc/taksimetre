@@ -13,6 +13,8 @@ const TABS = [
   { id: "call", label: "Taksi Çağır" },
 ];
 
+const STANDS_DISPLAY_LIMIT = 40;
+
 /**
  * Şikayet hatları (yerel JSON) + yakındaki taksi durakları (Overpass / Google).
  */
@@ -23,6 +25,7 @@ export function ContactHub({ preferredCityId }) {
   const [context, setContext] = useState(null);
   const [error, setError] = useState(null);
   const [standCityId, setStandCityId] = useState(preferredCityId || "istanbul");
+  const [districtId, setDistrictId] = useState("");
   const [cityManual, setCityManual] = useState(false);
   const abortRef = useRef(null);
   const standsAbortRef = useRef(null);
@@ -48,6 +51,7 @@ export function ContactHub({ preferredCityId }) {
         signal: controller.signal,
       });
       setContext(result);
+      setDistrictId("");
       if (!cityManual && result.standCityId) {
         setStandCityId(result.standCityId);
       }
@@ -67,6 +71,7 @@ export function ContactHub({ preferredCityId }) {
 
     setStandsLoading(true);
     setError(null);
+    setDistrictId("");
 
     try {
       const result = await fetchStandsForCity(nextCityId, {
@@ -77,6 +82,7 @@ export function ContactHub({ preferredCityId }) {
         position: result.position,
         standCityId: result.cityId,
         stands: result.stands,
+        districts: result.districts ?? [],
         standsProvider: result.provider,
         chambers:
           current?.chambers ??
@@ -87,7 +93,12 @@ export function ContactHub({ preferredCityId }) {
       setError(err.message || "Duraklar yüklenemedi.");
       setContext((current) =>
         current
-          ? { ...current, stands: [], standCityId: nextCityId }
+          ? {
+              ...current,
+              stands: [],
+              districts: [],
+              standCityId: nextCityId,
+            }
           : current,
       );
     } finally {
@@ -124,6 +135,38 @@ export function ContactHub({ preferredCityId }) {
   const featuredCities = FEATURED_CITY_IDS.map((id) =>
     PROVINCES.find((city) => city.id === id),
   ).filter(Boolean);
+
+  const districts = useMemo(() => {
+    if (context?.districts?.length) return context.districts;
+    const byId = new Map();
+    for (const stand of context?.stands ?? []) {
+      if (!stand.districtId || !stand.districtName) continue;
+      if (!byId.has(stand.districtId)) {
+        byId.set(stand.districtId, {
+          id: stand.districtId,
+          name: stand.districtName,
+          count: 0,
+        });
+      }
+      byId.get(stand.districtId).count += 1;
+    }
+    return [...byId.values()].sort((a, b) =>
+      a.name.localeCompare(b.name, "tr"),
+    );
+  }, [context?.districts, context?.stands]);
+
+  const filteredStands = useMemo(() => {
+    const all = context?.stands ?? [];
+    if (districtId) {
+      return all
+        .filter((stand) => stand.districtId === districtId)
+        .slice(0, STANDS_DISPLAY_LIMIT);
+    }
+    // İlçe seçilmeden: yalnızca gerçek konumlu duraklar
+    return all
+      .filter((stand) => !stand.approximate && stand.distanceLabel)
+      .slice(0, STANDS_DISPLAY_LIMIT);
+  }, [context?.stands, districtId]);
 
   return (
     <section
@@ -197,9 +240,16 @@ export function ContactHub({ preferredCityId }) {
           {(chambers?.all ?? []).map((contact) => (
             <ContactCard key={contact.id} contact={contact} />
           ))}
+          {chambers?.usedFallback ? (
+            <p className="text-xs text-stone-500 dark:text-stone-400">
+              Bu şehir için oda kaydı yok; belediye Beyaz Masa (153) ve santral
+              numaraları gösteriliyor. Numaralar değişebilir — güncel bilgi için
+              belediye sitesini kontrol edin.
+            </p>
+          ) : null}
           {!chambers?.contacts?.length ? (
             <p className="text-sm text-stone-500">
-              Bu şehir için kayıtlı oda kaydı yok; ulusal hatlar listeleniyor.
+              Bu şehir için kayıtlı iletişim yok; ulusal hatlar listeleniyor.
               Şehir seçimini kontrol edin veya konumu yenileyin.
             </p>
           ) : null}
@@ -209,8 +259,8 @@ export function ContactHub({ preferredCityId }) {
           <div>
             <p className="text-sm font-medium">Şehir seç</p>
             <p className="mt-1 text-xs text-stone-500 dark:text-stone-400">
-              Duraklar seçilen il merkezine göre aranır. Konumu yenile ile GPS
-              şehrine dönebilirsiniz.
+              İlçe seçerek o ilçedeki durakları görün. İlçe seçilmezse yalnızca
+              konumu bilinen duraklar listelenir.
             </p>
 
             <div className="mt-2 grid grid-cols-3 gap-2">
@@ -243,7 +293,7 @@ export function ContactHub({ preferredCityId }) {
               id="stand-city"
               value={standCityId}
               onChange={(event) => handleStandCityChange(event.target.value)}
-              className="mt-1.5 w-full rounded-xl border border-stone-300/80 bg-white px-3.5 py-2.5 text-base text-ink shadow-sm outline-none transition focus:border-taxi focus:ring-2 focus:ring-taxi/30 dark:border-white/10 dark:bg-white/5 dark:text-stone-100"
+              className="mt-1.5 w-full rounded-xl border border-stone-300/80 bg-white px-3.5 py-2.5 text-base text-ink shadow-sm outline-none transition [color-scheme:light] focus:border-taxi focus:ring-2 focus:ring-taxi/30 dark:border-white/20"
             >
               {PROVINCES.map((city) => (
                 <option key={city.id} value={city.id}>
@@ -251,15 +301,41 @@ export function ContactHub({ preferredCityId }) {
                 </option>
               ))}
             </select>
+
+            <label
+              htmlFor="stand-district"
+              className="mt-3 block text-sm font-medium"
+            >
+              İlçe
+            </label>
+            <select
+              id="stand-district"
+              value={districtId}
+              onChange={(event) => setDistrictId(event.target.value)}
+              disabled={districts.length === 0}
+              className="mt-1.5 w-full rounded-xl border border-stone-300/80 bg-white px-3.5 py-2.5 text-base text-ink shadow-sm outline-none transition [color-scheme:light] focus:border-taxi focus:ring-2 focus:ring-taxi/30 disabled:opacity-50 dark:border-white/20"
+            >
+              <option value="">
+                {districts.length
+                  ? "Tüm ilçeler (yalnızca konumlu)"
+                  : "İlçe verisi yok — senkron gerekli"}
+              </option>
+              {districts.map((district) => (
+                <option key={district.id} value={district.id}>
+                  {district.name}
+                  {district.count ? ` (${district.count})` : ""}
+                </option>
+              ))}
+            </select>
           </div>
 
           <p className="text-xs text-stone-500 dark:text-stone-400">
-            Duraklar mesafeye göre sıralanır. Kaynak sırası: Google Places →
-            Foursquare → Geoapify → OSM. Telefonu olanlarda Ara arama ekranını
-            açar.
+            {districtId
+              ? `${filteredStands.length} durak · seçili ilçe`
+              : "Duraklar mesafeye göre sıralanır. İlçe seçerek telefonsuz konum kaydı olmayanları da görün."}
           </p>
 
-          {context?.needsApiKey && (context?.stands?.length ?? 0) > 0 ? (
+          {context?.needsApiKey && filteredStands.length > 0 ? (
             <p className="rounded-xl border border-stone-300/70 px-3 py-2 text-xs text-stone-500 dark:border-white/10 dark:text-stone-400">
               Sonuçlar OSM üzerinden geldi. Daha güncel ve telefonlu kayıtlar
               için <code className="font-mono">.env</code> içine Google Places
@@ -271,26 +347,34 @@ export function ContactHub({ preferredCityId }) {
             <p className="text-sm text-stone-500">Duraklar aranıyor…</p>
           ) : null}
 
-          {(context?.stands ?? []).map((stand) => (
+          {filteredStands.map((stand) => (
             <TaxiStandCard key={stand.id} stand={stand} />
           ))}
 
           {!standsLoading &&
           !loading &&
           context &&
-          context.stands.length === 0 ? (
+          (context.stands?.length ?? 0) === 0 ? (
             <div className="space-y-2 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 text-sm text-amber-950 dark:text-amber-100">
               <p>
-                Bu bölgede ücretsiz OSM kaydı bulunamadı. Daha güvenilir sonuç
-                için Google Places / Foursquare / Geoapify anahtarı ekleyin.
+                Bu şehir için yerel rehber dosyası yok veya boş. Önce durak
+                senkronunu çalıştırın:
               </p>
-              <p className="text-xs opacity-90">
-                Proje kökünde <code className="font-mono">.env</code> dosyasına{" "}
-                <code className="font-mono">VITE_GOOGLE_PLACES_API_KEY</code>{" "}
-                yazıp <code className="font-mono">npm run dev</code> yeniden
-                başlatın. Ayrıntılar: <code className="font-mono">.env.example</code>
+              <p className="font-mono text-xs">
+                npm run sync:stands -- --city={standCityId}
               </p>
             </div>
+          ) : null}
+
+          {!standsLoading &&
+          !loading &&
+          context?.stands?.length > 0 &&
+          filteredStands.length === 0 ? (
+            <p className="rounded-2xl border border-stone-300/70 px-4 py-3 text-sm text-stone-600 dark:border-white/10 dark:text-stone-300">
+              {districtId
+                ? "Bu ilçede listelenecek durak yok."
+                : "Konumu bilinen durak yok. Bir ilçe seçerek telefonlu kayıtları görün."}
+            </p>
           ) : null}
         </div>
       )}

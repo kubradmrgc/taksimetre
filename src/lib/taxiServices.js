@@ -1,4 +1,5 @@
 import chambersData from "../data/chambersData.json";
+import municipalityContacts from "../data/municipalityContacts.json";
 import { haversineMeters } from "./geo.js";
 import { getCurrentPositionOnce } from "./routing.js";
 import { getProvince, PROVINCES } from "./provinces.js";
@@ -12,6 +13,40 @@ const NEARBY_RADIUS_M = 4_000;
 /** İl merkezi seçildiğinde daha geniş alan */
 const CITY_RADIUS_M = 12_000;
 const MAX_STANDS = 20;
+
+/** Büyükşehir belediyesi olan iller */
+const METROPOLITAN_IDS = new Set([
+  "adana",
+  "ankara",
+  "antalya",
+  "aydin",
+  "balikesir",
+  "bursa",
+  "denizli",
+  "diyarbakir",
+  "erzurum",
+  "eskisehir",
+  "gaziantep",
+  "hatay",
+  "istanbul",
+  "izmir",
+  "kahramanmaras",
+  "kayseri",
+  "kocaeli",
+  "konya",
+  "malatya",
+  "manisa",
+  "mardin",
+  "mersin",
+  "mugla",
+  "ordu",
+  "sakarya",
+  "samsun",
+  "sanliurfa",
+  "tekirdag",
+  "trabzon",
+  "van",
+]);
 
 function foldTr(value) {
   return String(value ?? "")
@@ -35,6 +70,31 @@ function telHref(phone) {
   return normalized ? `tel:${normalized}` : null;
 }
 
+/** TR cep → https://wa.me/905XXXXXXXXX */
+function whatsappHref(phone) {
+  const digits = String(phone ?? "").replace(/\D/g, "");
+  if (!digits) return null;
+
+  let national = digits;
+  if (national.startsWith("90") && national.length >= 12) {
+    national = national.slice(2);
+  }
+  if (national.startsWith("0")) {
+    national = national.slice(1);
+  }
+  if (!/^5\d{9}$/.test(national)) return null;
+  return `https://wa.me/90${national}`;
+}
+
+function normalizeWebsite(url) {
+  if (!url) return null;
+  const raw = String(url).trim();
+  if (!raw || raw === "#" || /^javascript:/i.test(raw)) return null;
+  if (/^https?:\/\//i.test(raw)) return raw;
+  if (/^[\w.-]+\.[\w.-]+/i.test(raw)) return `https://${raw}`;
+  return null;
+}
+
 function distanceLabel(distanceM) {
   return distanceM >= 1000
     ? `${(distanceM / 1000).toFixed(1)} km`
@@ -50,35 +110,62 @@ function makeStand({
   origin,
   source,
   address = null,
+  website = null,
+  approximate = false,
+  districtId = null,
+  districtName = null,
 }) {
-  const distanceM = haversineMeters(origin.lat, origin.lon, lat, lon);
+  const hasCoords = Number.isFinite(lat) && Number.isFinite(lon);
+  const distanceM =
+    hasCoords && origin
+      ? haversineMeters(origin.lat, origin.lon, lat, lon)
+      : null;
   const normalized = normalizePhone(phone);
   return {
     id,
     name: name || "Taksi durağı",
     phone: normalized,
     telHref: telHref(normalized),
+    whatsappHref: whatsappHref(normalized),
+    website: normalizeWebsite(website),
+    approximate: Boolean(approximate) || !hasCoords,
+    districtId: districtId || null,
+    districtName: districtName || null,
     distanceM,
-    distanceLabel: distanceLabel(distanceM),
-    lat,
-    lon,
+    distanceLabel: distanceM == null ? null : distanceLabel(distanceM),
+    lat: hasCoords ? lat : null,
+    lon: hasCoords ? lon : null,
     source,
     address,
   };
 }
 
-function dedupeStands(stands) {
+function dedupeStands(stands, { limit = MAX_STANDS } = {}) {
   const seen = new Set();
   const unique = [];
 
   for (const stand of stands) {
-    const key = `${foldTr(stand.name)}|${stand.lat.toFixed(4)}|${stand.lon.toFixed(4)}`;
+    const coordKey =
+      stand.lat != null && stand.lon != null
+        ? `${stand.lat.toFixed(4)}|${stand.lon.toFixed(4)}`
+        : `phone:${stand.phone || stand.id}`;
+    const key = `${foldTr(stand.name)}|${coordKey}`;
     if (seen.has(key)) continue;
     seen.add(key);
     unique.push(stand);
   }
 
-  return unique.sort((a, b) => a.distanceM - b.distanceM).slice(0, MAX_STANDS);
+  unique.sort((a, b) => {
+    // İlçeli / koordinatlı önce
+    const aRank = a.approximate ? 1 : 0;
+    const bRank = b.approximate ? 1 : 0;
+    if (aRank !== bRank) return aRank - bRank;
+    const aDist = a.distanceM ?? Number.POSITIVE_INFINITY;
+    const bDist = b.distanceM ?? Number.POSITIVE_INFINITY;
+    return aDist - bDist;
+  });
+
+  return limit == null ? unique : unique.slice(0, limit);
 }
 
 function matchCityId(cityName) {
@@ -103,18 +190,62 @@ export function getConfiguredStandProviders() {
 }
 
 /**
+ * chambersData'da kaydı olmayan iller için belediye + beyaz masa yedekleri.
+ */
+export function buildMunicipalFallbackContacts(province) {
+  if (!province?.id) return [];
+
+  const isMetro = METROPOLITAN_IDS.has(province.id);
+  const org = isMetro
+    ? `${province.name} Büyükşehir Belediyesi`
+    : `${province.name} Belediyesi`;
+  const website =
+    municipalityContacts.websites?.[province.id] ||
+    `https://www.${province.id}.bel.tr`;
+  const switchboard = municipalityContacts.phones?.[province.id] || null;
+
+  return [
+    {
+      id: `${province.id}-beyaz-masa`,
+      name: `${org} Beyaz Masa / ALO 153`,
+      role: "Şikayet, talep ve bilgilendirme hattı",
+      phone: "153",
+      website,
+      priority: "complaint",
+    },
+    {
+      id: `${province.id}-belediye`,
+      name: org,
+      role: "Belediye santral / iletişim",
+      phone: switchboard,
+      website,
+      priority: "complaint",
+    },
+  ];
+}
+
+/**
  * chambersData.json içinden şehir + ulusal şikayet / oda iletişimlerini döner.
+ * Kayıt yoksa belediye beyaz masa (153) ve santral yedekleri eklenir.
  */
 export function getChamberContacts(cityId) {
+  const province = PROVINCES.find((item) => item.id === cityId) ?? null;
   const city = chambersData.cities.find((item) => item.id === cityId);
-  const cityContacts = city?.contacts ?? [];
+  let cityContacts = city?.contacts ?? [];
+  let usedFallback = false;
+
+  if (cityContacts.length === 0 && province) {
+    cityContacts = buildMunicipalFallbackContacts(province);
+    usedFallback = true;
+  }
 
   return {
     cityId: city?.id ?? cityId ?? null,
-    cityName: city?.name ?? PROVINCES.find((p) => p.id === cityId)?.name ?? null,
+    cityName: city?.name ?? province?.name ?? null,
     disclaimer: chambersData.disclaimer,
     national: chambersData.national,
     contacts: cityContacts,
+    usedFallback,
     all: [...chambersData.national, ...cityContacts],
   };
 }
@@ -172,25 +303,28 @@ function googlePlacesBase(path) {
   return new URL(`https://maps.googleapis.com/maps/api/place/${path}`);
 }
 
-async function googlePlaceDetailsPhone(placeId, signal) {
+async function googlePlaceDetails(placeId, signal) {
   const apiKey = import.meta.env.VITE_GOOGLE_PLACES_API_KEY;
   const useProxy = import.meta.env.DEV;
   const detailsUrl = googlePlacesBase("details/json");
   detailsUrl.searchParams.set("place_id", placeId);
   detailsUrl.searchParams.set(
     "fields",
-    "formatted_phone_number,international_phone_number,name",
+    "formatted_phone_number,international_phone_number,name,website",
   );
   detailsUrl.searchParams.set("language", "tr");
   if (!useProxy) detailsUrl.searchParams.set("key", apiKey);
 
   const response = await fetch(detailsUrl.toString(), { signal });
-  if (!response.ok) return null;
+  if (!response.ok) return { phone: null, website: null };
   const data = await response.json();
-  return normalizePhone(
-    data.result?.formatted_phone_number ||
-      data.result?.international_phone_number,
-  );
+  return {
+    phone: normalizePhone(
+      data.result?.formatted_phone_number ||
+        data.result?.international_phone_number,
+    ),
+    website: normalizeWebsite(data.result?.website),
+  };
 }
 
 /**
@@ -258,10 +392,13 @@ export async function fetchNearbyStandsGoogle(
     if (lat == null || lon == null) continue;
 
     let phone = null;
+    let website = null;
     try {
-      phone = await googlePlaceDetailsPhone(place.place_id, signal);
+      const details = await googlePlaceDetails(place.place_id, signal);
+      phone = details.phone;
+      website = details.website;
     } catch {
-      /* telefon opsiyonel */
+      /* telefon / web opsiyonel */
     }
 
     stands.push(
@@ -269,6 +406,7 @@ export async function fetchNearbyStandsGoogle(
         id: `ggl-${place.place_id}`,
         name: place.name,
         phone,
+        website,
         lat,
         lon,
         origin: position,
@@ -302,7 +440,7 @@ export async function fetchNearbyStandsFoursquare(
   url.searchParams.set("radius", String(radiusM));
   url.searchParams.set("query", "taxi");
   url.searchParams.set("limit", String(MAX_STANDS));
-  url.searchParams.set("fields", "fsq_id,name,location,tel,distance");
+  url.searchParams.set("fields", "fsq_id,name,location,tel,distance,website");
 
   const response = await fetch(url.toString(), {
     signal,
@@ -328,6 +466,7 @@ export async function fetchNearbyStandsFoursquare(
         id: `fsq-${place.fsq_id}`,
         name: place.name,
         phone: place.tel,
+        website: place.website,
         lat,
         lon,
         origin: position,
@@ -389,6 +528,11 @@ export async function fetchNearbyStandsGeoapify(
         id: `geo-${props.place_id || props.osm_id || `${lat}-${lon}`}`,
         name: props.name || props.address_line1 || "Taksi durağı",
         phone: props.contact?.phone || props.datasource?.raw?.phone,
+        website:
+          props.website ||
+          props.contact?.website ||
+          props.datasource?.raw?.website ||
+          null,
         lat,
         lon,
         origin: position,
@@ -447,6 +591,12 @@ export async function fetchNearbyStandsOverpass(
         id: `osm-${element.type}-${element.id}`,
         name: tags.name || tags.operator || "Taksi durağı",
         phone: tags.phone || tags["contact:phone"] || tags.mobile,
+        website:
+          tags.website ||
+          tags["contact:website"] ||
+          tags["contact:facebook"] ||
+          tags["contact:instagram"] ||
+          null,
         lat,
         lon,
         origin: position,
@@ -527,12 +677,85 @@ export async function fetchNearbyStandsNominatim(
 }
 
 /**
- * Sağlayıcı zinciri: Google → Foursquare → Geoapify → OSM birleşik.
- * Anahtarlı servisler dolu sonuç verirse onu kullanır.
+ * Yerel rehber senkronu (taksi724 / taksicibul / taksiciler).
+ * public/data/stands/{cityId}.json dosyasından okur.
+ */
+export async function fetchStandsFromLocalDirectory(
+  cityId,
+  position,
+  { signal } = {},
+) {
+  const response = await fetch(`/data/stands/${cityId}.json`, { signal });
+  if (response.status === 404) {
+    return { stands: [], provider: "directory", missing: true };
+  }
+  if (!response.ok) {
+    throw new Error(`Yerel durak dosyası okunamadı (${response.status}).`);
+  }
+
+  const data = await response.json();
+  const stands = (data.stands ?? [])
+    .map((stand, index) => {
+      const lat = Number(stand.lat);
+      const lon = Number(stand.lon);
+      const hasCoords = Number.isFinite(lat) && Number.isFinite(lon);
+      // İlçesiz ve koordinatsız (eski il merkezi placeholder) kayıtları atla
+      if (!hasCoords && !stand.districtId) return null;
+      return makeStand({
+        id: stand.id || `dir-${cityId}-${index}`,
+        name: stand.name,
+        phone: stand.phone,
+        website: stand.website,
+        lat: hasCoords ? lat : null,
+        lon: hasCoords ? lon : null,
+        origin: position,
+        source: (stand.sources || ["directory"]).join("+"),
+        address: stand.address,
+        approximate: Boolean(stand.approximate) || !hasCoords,
+        districtId: stand.districtId,
+        districtName: stand.districtName,
+      });
+    })
+    .filter(Boolean);
+
+  return {
+    stands: dedupeStands(stands, { limit: null }),
+    districts: data.districts ?? [],
+    provider: "directory",
+    sourceUrls: data.sources,
+    cityName: data.cityName,
+    fetchedAt: data.fetchedAt,
+  };
+}
+
+/**
+ * Sağlayıcı zinciri:
+ * 1) Yerel rehber (taksi724/taksicibul/taksiciler senkronu)
+ * 2) Google → Foursquare → Geoapify
+ * 3) OSM (Overpass + Nominatim)
  */
 export async function fetchNearbyTaxiStands(position, options = {}) {
+  const { cityId = null, signal } = options;
   const configured = getConfiguredStandProviders();
   const errors = [];
+
+  if (cityId) {
+    try {
+      const local = await fetchStandsFromLocalDirectory(cityId, position, {
+        signal,
+      });
+      if (local.stands.length > 0) {
+        return local;
+      }
+      if (local.missing) {
+        errors.push(
+          "Yerel durak dosyası yok; npm run sync:stands çalıştırın.",
+        );
+      }
+    } catch (error) {
+      errors.push(`Rehber: ${error.message}`);
+    }
+  }
 
   if (configured.google) {
     try {
@@ -585,7 +808,8 @@ export async function fetchNearbyTaxiStands(position, options = {}) {
     stands,
     provider: providers.length ? providers.join("+") : "none",
     warnings: errors,
-    needsApiKey: !configured.google && !configured.foursquare && !configured.geoapify,
+    needsApiKey:
+      !configured.google && !configured.foursquare && !configured.geoapify,
   };
 }
 
@@ -603,6 +827,7 @@ export async function fetchStandsForCity(cityId, { signal, radiusM } = {}) {
     signal,
     radiusM: radiusM ?? CITY_RADIUS_M,
     cityName: province.name,
+    cityId: province.id,
   });
 
   return {
@@ -640,6 +865,7 @@ export async function loadContactContext({
   );
 
   let stands = [];
+  let districts = [];
   let standsProvider = null;
   let standsError = null;
   let needsApiKey = false;
@@ -649,6 +875,7 @@ export async function loadContactContext({
     if (standCityId || !position) {
       const cityResult = await fetchStandsForCity(cityId, { signal });
       stands = cityResult.stands;
+      districts = cityResult.districts ?? [];
       standsProvider = cityResult.provider;
       searchPosition = cityResult.position;
       needsApiKey = Boolean(cityResult.needsApiKey);
@@ -656,8 +883,11 @@ export async function loadContactContext({
       const result = await fetchNearbyTaxiStands(position, {
         signal,
         radiusM: NEARBY_RADIUS_M,
+        cityId:
+          detectedCity.cityId || preferredCityId || standCityId || null,
       });
       stands = result.stands;
+      districts = result.districts ?? [];
       standsProvider = result.provider;
       needsApiKey = Boolean(result.needsApiKey);
     }
@@ -680,6 +910,7 @@ export async function loadContactContext({
     standCityId: cityId,
     chambers,
     stands,
+    districts,
     standsProvider,
     needsApiKey,
     configuredProviders: getConfiguredStandProviders(),

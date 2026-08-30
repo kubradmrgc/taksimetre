@@ -1,0 +1,571 @@
+{
+  "cityId": "kilis",
+  "cityName": "Kilis",
+  "fetchedAt": "2026-08-30T21:25:19.777Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 45,
+  "stands": [
+    {
+      "id": "taksi724-05524500122-0",
+      "name": "A Bulvar Taksi",
+      "phone": "05524500122",
+      "lat": 36.7060559,
+      "lon": 37.1246839,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436356404-1",
+      "name": "Ay yıldız Taksi",
+      "phone": "05436356404",
+      "lat": 36.7129037,
+      "lon": 37.1074441,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05445327879-2",
+      "name": "Beşevler Adliye Taksi",
+      "phone": "05445327879",
+      "lat": 36.7245449,
+      "lon": 37.1017507,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03488140099-3",
+      "name": "Beşevler Taksi",
+      "phone": "03488140099",
+      "lat": 36.7109143,
+      "lon": 37.131899,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05059934122-4",
+      "name": "Numarası-Hemen Taksi-Acil Taksi-7 24 Taksi",
+      "phone": "05059934122",
+      "lat": 36.7114408,
+      "lon": 37.1401376,
+      "address": "Taksi Durağı ·  · Dr. Sadık Ahmet Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03486060525-5",
+      "name": "Emek Taksi",
+      "phone": "03486060525",
+      "lat": 36.719648,
+      "lon": 37.1259895,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423797919-6",
+      "name": "Hastane Taksi",
+      "phone": "05423797919",
+      "lat": 36.7292485,
+      "lon": 37.1055164,
+      "address": "Taksi Durağı · Atatürk Mh. Üniversite Cad. No:2 (Üniversite Arkası Emek Site Civarı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03488131111-7",
+      "name": "Karadeniz Taksi",
+      "phone": "03488131111",
+      "lat": 36.702825,
+      "lon": 37.110247,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03488131947-8",
+      "name": "Kilis 7/24 Vip Taksi",
+      "phone": "03488131947",
+      "lat": 36.704151,
+      "lon": 37.130084,
+      "address": "Taksi · Hacı Derviş Sok.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05527520079-9",
+      "name": "Taksi durağı",
+      "phone": "05527520079",
+      "lat": 36.7248914,
+      "lon": 37.1034158,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03488132112-10",
+      "name": "Kilis Taksi",
+      "phone": "03488132112",
+      "lat": 36.7099507,
+      "lon": 37.1188938,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05459561304-11",
+      "name": "ticari Taksi",
+      "phone": "05459561304",
+      "lat": 36.7217316,
+      "lon": 37.1085885,
+      "address": "Ulaşım Hizmeti · Sarıkekilli Sk. No:6",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396450213-12",
+      "name": "Lina Taksi",
+      "phone": "05396450213",
+      "lat": 36.7270101,
+      "lon": 37.1012139,
+      "address": "Taksi Durağı · Kader Sk. No:14",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05398142828-13",
+      "name": "Neşeli Taksi",
+      "phone": "05398142828",
+      "lat": 36.7332143,
+      "lon": 37.0966574,
+      "address": "Taksi Durağı ·  · Erdoğan Bayraktar Cd No:24",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05454221431-14",
+      "name": "Park Taksi",
+      "phone": "05454221431",
+      "lat": 36.717285,
+      "lon": 37.1147458,
+      "address": "Taksi Durağı · Debboy Sk. no 1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05333260079-15",
+      "name": "Rüya TAKSi",
+      "phone": "05333260079",
+      "lat": 36.71981,
+      "lon": 37.1253955,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05417107942-16",
+      "name": "kilis-taksi",
+      "phone": "05417107942",
+      "lat": 36.7229552,
+      "lon": 37.1054489,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05527520079-17",
+      "name": "Beşevler Adliye Taksi",
+      "phone": "05527520079",
+      "lat": 36.719,
+      "lon": 37.12,
+      "address": "Atatürk Mahallesi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03488140099-18",
+      "name": "Büyükkütah Taksi",
+      "phone": "03488140099",
+      "lat": 36.721,
+      "lon": 37.124,
+      "address": "Necmettin Erbakan Mah. Muhsin Yazıcıoğlu Blv. No:4",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550874577-19",
+      "name": "Doğan Güreş Paşa Taksi",
+      "phone": "05550874577",
+      "lat": 36.718,
+      "lon": 37.122,
+      "address": "Cumhuriyet Cd.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05059934122-20",
+      "name": "Erdoğan Bulvar Taksi",
+      "phone": "05059934122",
+      "lat": 36.717,
+      "lon": 37.1185,
+      "address": "Dr. Sadık Ahmet Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05411440164-21",
+      "name": "İsmet Paşa Taksi",
+      "phone": "05411440164",
+      "lat": 36.7195,
+      "lon": 37.1225,
+      "address": "Erdoğan Bulvarı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05459561304-22",
+      "name": "Necmettin Erbakan Taksi",
+      "phone": "05459561304",
+      "lat": 36.7165,
+      "lon": 37.118,
+      "address": "Sarıkekilli Sk. No:6",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05524500122-23",
+      "name": "Otogar Taksi",
+      "phone": "05524500122",
+      "lat": 36.72,
+      "lon": 37.123,
+      "address": "Yavuz Sultan Selim Mahallesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03488135615-24",
+      "name": "Site Taksi",
+      "phone": "03488135615",
+      "lat": 36.722,
+      "lon": 37.115,
+      "address": "Yavuz Sultan Selim, Mercidabık Cd. No:164",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03488134948-25",
+      "name": "Taksi",
+      "phone": "03488134948",
+      "lat": 36.715267,
+      "lon": 37.131692,
+      "address": "Yaşar Aktürk Mah. 6 Nolu Sok. 16 Kilis Merkez, Kilis",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05458400418-26",
+      "name": "Tırıklı Taksi",
+      "phone": "05458400418",
+      "lat": 36.7185,
+      "lon": 37.1205,
+      "address": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538703384-27",
+      "name": "Üniversite Emek Taksi",
+      "phone": "05538703384",
+      "lat": 36.7175,
+      "lon": 37.1195,
+      "address": "Haki Efendi Sk. No:17",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05423797919-28",
+      "name": "Üniversite Taksi",
+      "phone": "05423797919",
+      "lat": 36.725,
+      "lon": 37.11,
+      "address": "Atatürk Mh. Üniversite Cad. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389720909-29",
+      "name": "Vatan Taksi",
+      "phone": "05389720909",
+      "lat": 36.728867,
+      "lon": 37.099478,
+      "address": "Ekrem Çetin Mah. Doğan Güreş Paşa Blv. Kilis Merkez, Kilis",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05077910079-30",
+      "name": "kilis-taksi",
+      "phone": "05077910079",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": "Yaşar Aktürk, Vatan Cd. No:22",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436919682-31",
+      "name": "Kilis Arslan Taksi",
+      "phone": "05436919682",
+      "lat": 36.7101905,
+      "lon": 37.1019978,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05061544958-32",
+      "name": "Taksi79",
+      "phone": "05061544958",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05448447900-33",
+      "name": "halep şam suriye kilis gaziantep taksi tur kargo nakliye",
+      "phone": "05448447900",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05303859570-34",
+      "name": "Zeki turizm yolcu taşımacılığı",
+      "phone": "05303859570",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05457307979-35",
+      "name": "KİLİS 500 EVLER MERT TAKSİ",
+      "phone": "05457307979",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05365009765-36",
+      "name": "Kilis hastane taksi 7/24",
+      "phone": "05365009765",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-03488136321-37",
+      "name": "CEM TAKSİ",
+      "phone": "03488136321",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05376555649-38",
+      "name": "Çengel Taksi",
+      "phone": "05376555649",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03488131263-39",
+      "name": "Kilis Beşevler Adliye Taksi AÇIK · 7 gün 24 saat necmettin erbakan mahallesi muh",
+      "phone": "03488131263",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05446277900-40",
+      "name": "Kilis Kahraman Taksi AÇIK · 7 gün 24 saat Şıh Mehmet, büyük Ayman sokak 11/1, 79",
+      "phone": "05446277900",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05326438736-41",
+      "name": "Otogar Taksi Kilis AÇIK · 7 gün 24 saat Yavuz Sultan Selim, Mercidabık Cd. No:16",
+      "phone": "05326438736",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-03488141460-42",
+      "name": "Kahraman Taksi Durağı",
+      "phone": "03488141460",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05535351973-43",
+      "name": "Vatan Taksi - Uğur Polat",
+      "phone": "05535351973",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-03488131014-44",
+      "name": "Vatan Taksi Durağı",
+      "phone": "03488131014",
+      "lat": 36.7184,
+      "lon": 37.1212,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

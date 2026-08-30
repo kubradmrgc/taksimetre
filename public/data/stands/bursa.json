@@ -1,0 +1,3561 @@
+{
+  "cityId": "bursa",
+  "cityName": "Bursa",
+  "fetchedAt": "2026-08-30T21:29:00.858Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "buyukorhan",
+      "name": "Buyukorhan",
+      "count": 6
+    },
+    {
+      "id": "gemlik",
+      "name": "Gemlik",
+      "count": 5
+    },
+    {
+      "id": "inegol",
+      "name": "İnegol",
+      "count": 17
+    },
+    {
+      "id": "iznik",
+      "name": "İznik",
+      "count": 2
+    },
+    {
+      "id": "karacabey",
+      "name": "Karacabey",
+      "count": 7
+    },
+    {
+      "id": "kestel",
+      "name": "Kestel",
+      "count": 2
+    },
+    {
+      "id": "mudanya",
+      "name": "Mudanya",
+      "count": 2
+    },
+    {
+      "id": "mustafakemalpasa",
+      "name": "Mustafakemalpasa",
+      "count": 11
+    },
+    {
+      "id": "nilufer",
+      "name": "Nilufer",
+      "count": 23
+    },
+    {
+      "id": "orhangazi",
+      "name": "Orhangazi",
+      "count": 4
+    },
+    {
+      "id": "osmangazi",
+      "name": "Osmangazi",
+      "count": 71
+    },
+    {
+      "id": "yenisehir",
+      "name": "Yenisehir",
+      "count": 4
+    },
+    {
+      "id": "yildirim",
+      "name": "Yildirim",
+      "count": 28
+    }
+  ],
+  "count": 227,
+  "stands": [
+    {
+      "id": "taksi724-05300374727-0",
+      "name": "Acemler İstasyon Taksi",
+      "phone": "05300374727",
+      "website": null,
+      "lat": 40.215412,
+      "lon": 28.9419657,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424432574-1",
+      "name": "Adliye Taksi",
+      "phone": "05424432574",
+      "website": null,
+      "lat": 40.2127403,
+      "lon": 29.0167282,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-2-2",
+      "name": "Akpınar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.192227,
+      "lon": 29.068603,
+      "address": "Sakarya Mah. Tan Sok. 16 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242417723-3",
+      "name": "Almira Taksi",
+      "phone": "02242417723",
+      "website": null,
+      "lat": 40.250415,
+      "lon": 28.95760087,
+      "address": "Emek Adnan Menderes Mah. Turgut Özal Cad. 2 Korupark AVM Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242528638-4",
+      "name": "Altıparmak Taksi",
+      "phone": "02242528638",
+      "website": null,
+      "lat": 40.198864,
+      "lon": 29.057513,
+      "address": "Santral Garaj Mah. Çeşme Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242212627-5",
+      "name": "Arena Taksi",
+      "phone": "02242212627",
+      "website": null,
+      "lat": 40.1894243,
+      "lon": 29.053898,
+      "address": "Taksi Durağı · 2. Otel Sk. No:2",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242395551-6",
+      "name": "Bağlarbaşı Taksi",
+      "phone": "02242395551",
+      "website": null,
+      "lat": 40.207335,
+      "lon": 29.006632,
+      "address": "Dikkaldırım Mah. 1. Lale Sok. 2 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05331702155-7",
+      "name": "Başaran Küçük Balıklı Taksi",
+      "phone": "05331702155",
+      "website": null,
+      "lat": 40.23302433,
+      "lon": 28.98664425,
+      "address": "Bağlarbaşı Mah. 1. Yakın Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05068071616-8",
+      "name": "Bizim Taksi",
+      "phone": "05068071616",
+      "website": null,
+      "lat": 40.2109223,
+      "lon": 29.0713806,
+      "address": "Taksi Durağı ·  · Otobüs Durağı, 5. Bahçe Sk.",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03844833921-9",
+      "name": "Bursa Çalı Taksi",
+      "phone": "03844833921",
+      "website": null,
+      "lat": 40.18154,
+      "lon": 29.066921,
+      "address": "Hocaalizade Mah. 6. Kültür Sok. Heykel, Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368306424-10",
+      "name": "Bursa Doğumevi Taksi",
+      "phone": "05368306424",
+      "website": null,
+      "lat": 40.1719122,
+      "lon": 28.9211522,
+      "address": "Taksi Durağı ·  · Sarıyerler Cd. No:2/B",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302380316-11",
+      "name": "Bursa Şehir Hastanesi Taksi",
+      "phone": "05302380316",
+      "website": null,
+      "lat": 40.2082744,
+      "lon": 29.0182674,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334956716-12",
+      "name": "Buttim Taksi",
+      "phone": "05334956716",
+      "website": null,
+      "lat": 40.2687009,
+      "lon": 28.9112871,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347651189-13",
+      "name": "Çakırhamam Taksi",
+      "phone": "05347651189",
+      "website": null,
+      "lat": 40.22077,
+      "lon": 29.062076,
+      "address": "Altınova Mah. Yalova Yolu Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242231069-14",
+      "name": "Çarşamba Meydan Taksi",
+      "phone": "02242231069",
+      "website": null,
+      "lat": 40.1840167,
+      "lon": 29.0590539,
+      "address": "Taksi Durağı ·  · Kazım Baykal Cd. No:101",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-15-15",
+      "name": "Çarşı Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.194193,
+      "lon": 29.054445,
+      "address": "Çırpan Mah. İlkbahar Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242230707-16",
+      "name": "Çekirge Durak Taksi",
+      "phone": "02242230707",
+      "website": null,
+      "lat": 40.183407,
+      "lon": 29.063869,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242368541-17",
+      "name": "Çekirge Hizmet Taksi",
+      "phone": "02242368541",
+      "website": null,
+      "lat": 40.201142,
+      "lon": 29.0179204,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242349696-18",
+      "name": "Çekirge Taksi",
+      "phone": "02242349696",
+      "website": null,
+      "lat": 40.201671,
+      "lon": 29.019906,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242367104-19",
+      "name": "Çelik Palas Taksi",
+      "phone": "02242367104",
+      "website": null,
+      "lat": 40.2017519,
+      "lon": 29.0232826,
+      "address": "Taksi Durağı · 22. Cami Sk. no:14",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242332779-20",
+      "name": "Çiçek Taksi",
+      "phone": "02242332779",
+      "website": null,
+      "lat": 40.195541,
+      "lon": 29.040244,
+      "address": "Gaziakdemir Mah. Çekirge Cad. 14 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242221696-21",
+      "name": "Çiftehavuzlar Taksi",
+      "phone": "02242221696",
+      "website": null,
+      "lat": 40.185627,
+      "lon": 29.070494,
+      "address": "Ebu İshak Mah. Apsak Sok. (Dörtyol Ağzı) Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05348799916-22",
+      "name": "Çınarlı Taksi",
+      "phone": "05348799916",
+      "website": null,
+      "lat": 40.2119102,
+      "lon": 29.053521,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242230973-23",
+      "name": "Dallas Taksi",
+      "phone": "02242230973",
+      "website": null,
+      "lat": 40.180679,
+      "lon": 29.061274,
+      "address": "Tahtakale Mah. İnebey Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242338122-24",
+      "name": "Demirtaş Dosab Taksi",
+      "phone": "02242338122",
+      "website": null,
+      "lat": 40.205983,
+      "lon": 29.023195,
+      "address": "Kükürtlü Mah. Kükürtlü Cad. 22 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242625500-25",
+      "name": "Demirtaş Taksi",
+      "phone": "02242625500",
+      "website": null,
+      "lat": 40.268009,
+      "lon": 29.081152,
+      "address": "Demirtaş Dumlupınar Mah. 57. Sok. 15 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-26-26",
+      "name": "Dikkaldırım Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.188433,
+      "lon": 29.070874,
+      "address": "Demirtaşpaşa Mah. İnönü Cad. (Demirtaş Hamamı Önü) Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242381044-27",
+      "name": "Doburca Taksi",
+      "phone": "02242381044",
+      "website": null,
+      "lat": 40.2018519,
+      "lon": 29.0051921,
+      "address": "Taksi Durağı · 3. Afacan Sk. No:1",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242397333-28",
+      "name": "Doğu Garajı Taksi",
+      "phone": "02242397333",
+      "website": null,
+      "lat": 40.197099,
+      "lon": 29.012693,
+      "address": "Taksi Durağı · Hüdavendigar Mh. 7. Papatya Sk. Pk:16090 Osmangazi/bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243642000-29",
+      "name": "Elmas Taksi",
+      "phone": "02243642000",
+      "website": null,
+      "lat": 40.1918795,
+      "lon": 29.085583,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242523962-30",
+      "name": "Etibank Alemdar Taksi",
+      "phone": "02242523962",
+      "website": null,
+      "lat": 40.190658,
+      "lon": 29.0723209,
+      "address": "Taksi Durağı · İnönü Cad. No:102",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242502111-31",
+      "name": "Etibank Taksi",
+      "phone": "02242502111",
+      "website": null,
+      "lat": 40.201012,
+      "lon": 29.051915,
+      "address": "Küplüpınar Mah. Dr. Sadık Ahmet Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242502111-32",
+      "name": "Fomara Taksi",
+      "phone": "02242502111",
+      "website": null,
+      "lat": 40.2018,
+      "lon": 29.0497039,
+      "address": "Taksi Durağı ·  · Gazi Akdemir Cd. No:10",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05304031412-33",
+      "name": "Gazcılar Taksi",
+      "phone": "05304031412",
+      "website": null,
+      "lat": 40.189222,
+      "lon": 29.060157,
+      "address": "Aktarhüssam Mah. Değirmen Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304033156-34",
+      "name": "Geçit Taksi",
+      "phone": "05304033156",
+      "website": null,
+      "lat": 40.192612,
+      "lon": 29.064404,
+      "address": "Kiremitçi Mah. Doğanbey Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242417723-35",
+      "name": "Genç Osman Varan Ve Metro Taksi",
+      "phone": "02242417723",
+      "website": null,
+      "lat": 40.250415,
+      "lon": 28.958387,
+      "address": "Emek Adnan Menderes Mah. Turgut Özal Cad. 2 Korupark AVM Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242500400-36",
+      "name": "Gülbahçe Çınar Taksi",
+      "phone": "02242500400",
+      "website": null,
+      "lat": 40.198753,
+      "lon": 29.061051,
+      "address": "Santral Garaj Mah. Ulubatlı Hasan Blv. Gonca Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05452506767-37",
+      "name": "Hamitler Taksi",
+      "phone": "05452506767",
+      "website": null,
+      "lat": 40.2007761,
+      "lon": 29.0679035,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242480888-38",
+      "name": "Hastane Taksi",
+      "phone": "02242480888",
+      "website": null,
+      "lat": 40.246542,
+      "lon": 28.995363,
+      "address": "Hamitler Mah. Gür Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334956716-39",
+      "name": "Hipodrom Taksi",
+      "phone": "05334956716",
+      "website": null,
+      "lat": 40.186497,
+      "lon": 29.053297,
+      "address": "Alaaddin Mah. Menekşe Sok. Bursa Devlet Hastanesi Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242158761-40",
+      "name": "Hüdavendigar Taksi",
+      "phone": "02242158761",
+      "website": null,
+      "lat": 40.205623,
+      "lon": 29.080554,
+      "address": "Veysel Karani Mah. Varlık Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-41-41",
+      "name": "Hürriyet Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.196778,
+      "lon": 29.004189,
+      "address": "Hüdavendigar Mah. Gümüş Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-42-42",
+      "name": "Ipekiş Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.221305,
+      "lon": 29.004733,
+      "address": "Hürriyet Mah. Hürriyet Cad. 1/A Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242513120-43",
+      "name": "Karamustafa Taksi",
+      "phone": "02242513120",
+      "website": null,
+      "lat": 40.201727,
+      "lon": 29.043253,
+      "address": "Çırpan Mah. Damstad Cad. Uysal Sok. 1 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05301321040-44",
+      "name": "Kayhan Taksi",
+      "phone": "05301321040",
+      "website": null,
+      "lat": 40.1989674,
+      "lon": 29.0401061,
+      "address": "Taksi Durağı · Dr. Rüştü Burlu Cd. No:5",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242252362-45",
+      "name": "Kent Meydanı Taksi",
+      "phone": "02242252362",
+      "website": null,
+      "lat": 40.183733,
+      "lon": 29.069774,
+      "address": "Kayhan Mah. Kirişçikızı Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242503747-46",
+      "name": "Korupark Taksi",
+      "phone": "02242503747",
+      "website": null,
+      "lat": 40.195743,
+      "lon": 29.060558,
+      "address": "Santral Garaj Mah. Kent Meydanı Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242417723-47",
+      "name": "Kükürtlü Taksi",
+      "phone": "02242417723",
+      "website": null,
+      "lat": 40.249815,
+      "lon": 28.958387,
+      "address": "Emek Adnan Menderes Mah. Turgut Özal Cad. 2 Korupark AVM Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242351296-48",
+      "name": "Kurtuluş Taksi",
+      "phone": "02242351296",
+      "website": null,
+      "lat": 40.198341,
+      "lon": 29.035754,
+      "address": "Çekirge Mah. Çekirge Cad. 5. Mutlu Sok. 1/A İntam İş Mrk. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243293929-49",
+      "name": "Kuzey Taksi",
+      "phone": "02243293929",
+      "website": null,
+      "lat": 40.1865092,
+      "lon": 29.0782197,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-50-50",
+      "name": "Millet Siteler Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.22137,
+      "lon": 29.062076,
+      "address": "Altınova Mah. Yalova Yolu Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243606063-51",
+      "name": "Muradiye Taksi",
+      "phone": "02243606063",
+      "website": null,
+      "lat": 40.2172417,
+      "lon": 29.0953521,
+      "address": "Taksi Durağı · Millet Mahallesi, Derya Cd.7205sokak, No:7",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242212922-52",
+      "name": "Özdilek Taksi",
+      "phone": "02242212922",
+      "website": null,
+      "lat": 40.189458,
+      "lon": 29.045639,
+      "address": "Hamzabey Mah. Kaplıca Cad. 43/A Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-53-53",
+      "name": "PANAYIR MERKEZ TAKSi",
+      "phone": null,
+      "website": null,
+      "lat": 40.250415,
+      "lon": 28.95917313,
+      "address": "Emek Adnan Menderes Mah. Turgut Özal Cad. 2 Korupark AVM Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461801616-54",
+      "name": "PANAYIR TAKSi",
+      "phone": "05461801616",
+      "website": null,
+      "lat": 40.2493477,
+      "lon": 29.0684752,
+      "address": null,
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05559881616-55",
+      "name": "Park Taksi",
+      "phone": "05559881616",
+      "website": null,
+      "lat": 40.246762,
+      "lon": 29.0702264,
+      "address": "Taksi Durağı · 3. Pınar Cd. No:287",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242355252-56",
+      "name": "Pınarbaşı Taksi",
+      "phone": "02242355252",
+      "website": null,
+      "lat": 40.192535,
+      "lon": 29.045962,
+      "address": "Muradiye Mah. Çekirge Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242239391-57",
+      "name": "Pınar Başı Taksi",
+      "phone": "02242239391",
+      "website": null,
+      "lat": 40.182839,
+      "lon": 29.049568,
+      "address": "Pınarbaşı Mah. Alacahırka Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334956716-58",
+      "name": "Sigorta Taksi",
+      "phone": "05334956716",
+      "website": null,
+      "lat": 40.191366,
+      "lon": 29.056392,
+      "address": "Hocahasan Mah. Bahçeler Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-59-59",
+      "name": "Sırameşeler Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.203198,
+      "lon": 29.018486,
+      "address": "Hüdavendigar Mah. 2. Nazlı Cad. 1/A Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242334544-60",
+      "name": "Stad Taksi",
+      "phone": "02242334544",
+      "website": null,
+      "lat": 40.204606,
+      "lon": 29.029286,
+      "address": "Kükürtlü Mah. Gündüz Sok. 3 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242214666-61",
+      "name": "Terminal Taksi",
+      "phone": "02242214666",
+      "website": null,
+      "lat": 40.190304,
+      "lon": 29.050443,
+      "address": "Muradiye Mah. Bozkurt Cad. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-62-62",
+      "name": "Tiyatro Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.265423,
+      "lon": 29.053949,
+      "address": "Demirtaş Dumlupınar Osb Mah. Yeni Yalova Yolu Bila Bursa Otobüs Terminali (Yeni Yalova Yolu 9. Km) Alaşar, Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242200221-63",
+      "name": "Valilik Taksi",
+      "phone": "02242200221",
+      "website": null,
+      "lat": 40.183318,
+      "lon": 29.066696,
+      "address": "Alacamescit Mah. 1. Tuzpazarı Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242521010-64",
+      "name": "Yenibağlar Taksi",
+      "phone": "02242521010",
+      "website": null,
+      "lat": 40.194818,
+      "lon": 29.057175,
+      "address": "Hocahasan Mah. 2. İçli Sok. Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04164894551-65",
+      "name": "Yeni Karaman Taksi",
+      "phone": "04164894551",
+      "website": null,
+      "lat": 40.251825,
+      "lon": 28.977113,
+      "address": "Yenibağlar Mah. Harbiye Cad. 72 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242460761-66",
+      "name": "Yunuseli Taksi",
+      "phone": "02242460761",
+      "website": null,
+      "lat": 40.221959,
+      "lon": 28.997391,
+      "address": "Yenikaraman Mah. Polat Cad. 79/1 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05466600010-67",
+      "name": "Yunuseli Terminal Taksi",
+      "phone": "05466600010",
+      "website": null,
+      "lat": 40.248359,
+      "lon": 29.015564,
+      "address": "Yunuseli Mah. Fuat Kuşçuoğlu Cad. 8 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242489603-68",
+      "name": "Zafer Plaza Taksi",
+      "phone": "02242489603",
+      "website": null,
+      "lat": 40.2513348,
+      "lon": 29.0166174,
+      "address": "Taksi Durağı ·  · Fuat Kuşçuoğlu Cd. No:228",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05315703736-69",
+      "name": "Zafer Taksi",
+      "phone": "05315703736",
+      "website": null,
+      "lat": 40.201331,
+      "lon": 29.045013,
+      "address": "Gaziakdemir Mah. Hamamcıoğlu Sok. 12 Osmangazi, Bursa",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05367725566-70",
+      "name": "bursa-taksi",
+      "phone": "05367725566",
+      "website": null,
+      "lat": 40.1931939,
+      "lon": 29.0792367,
+      "address": "Taksi Durağı ·  · Soğuk Hava Sk. no:2",
+      "districtId": "osmangazi",
+      "districtName": "Osmangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243623050-71",
+      "name": "Arabayatağı Taksi",
+      "phone": "02243623050",
+      "website": null,
+      "lat": 40.172174,
+      "lon": 29.099531,
+      "address": "Akçağlayan Mah. Zümrütevler Cad. Eğri Sok. 1 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05473502000-72",
+      "name": "Duaçınarı Vişne Taksi",
+      "phone": "05473502000",
+      "website": null,
+      "lat": 40.194762,
+      "lon": 29.1278342,
+      "address": "Taksi Durağı ·  · Beydere Sk. no:2/1",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243601610-73",
+      "name": "Emirsultan Taksi",
+      "phone": "02243601610",
+      "website": null,
+      "lat": 40.195763,
+      "lon": 29.099414,
+      "address": "Kazım Karabekir Mah. Vişne Cad. 147 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-74-74",
+      "name": "Erikli Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.180846,
+      "lon": 29.084375,
+      "address": "Emirsultan Mah. Zeyniler Cad. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243423206-75",
+      "name": "Güllük Ortabağlar Taksi",
+      "phone": "02243423206",
+      "website": null,
+      "lat": 40.186275,
+      "lon": 29.141149,
+      "address": "Erikli Mah. Aktan Sok. 1 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243681618-76",
+      "name": "Imaj Taksi",
+      "phone": "02243681618",
+      "website": null,
+      "lat": 40.1913285,
+      "lon": 29.1161427,
+      "address": null,
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243610610-77",
+      "name": "Incirli Taksi",
+      "phone": "02243610610",
+      "website": null,
+      "lat": 40.187505,
+      "lon": 29.103733,
+      "address": "152 Evler Mah. Eğitim Cad. 46 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243270256-78",
+      "name": "Mesken Taksi",
+      "phone": "02243270256",
+      "website": null,
+      "lat": 40.182639,
+      "lon": 29.084796,
+      "address": "Davutkadı Mah. İncirli Cad. 132 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243681618-79",
+      "name": "Meydancık Emir Taksi",
+      "phone": "02243681618",
+      "website": null,
+      "lat": 40.179275,
+      "lon": 29.110571,
+      "address": "Ertuğrulgazi Mah. Teyyareci Mehmet Ali Cad. Şen Sok. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243260626-80",
+      "name": "Molla Arap Çimen Taksi",
+      "phone": "02243260626",
+      "website": null,
+      "lat": 40.184724,
+      "lon": 29.075504,
+      "address": "Meydancık Mah. Adıgüzel Sok. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243285554-81",
+      "name": "Musababa Taksi",
+      "phone": "02243285554",
+      "website": null,
+      "lat": 40.1737111,
+      "lon": 29.075873,
+      "address": "Taksi Durağı · Çimen Cd. No:41",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243622525-82",
+      "name": "Namazgah Taksi",
+      "phone": "02243622525",
+      "website": null,
+      "lat": 40.1768884,
+      "lon": 29.0882201,
+      "address": null,
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243268191-83",
+      "name": "Numune Taksi",
+      "phone": "02243268191",
+      "website": null,
+      "lat": 40.178586,
+      "lon": 29.074029,
+      "address": "Namazgah Mah. Namazgah Cad. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05385698080-84",
+      "name": "Setbaşı Taksi",
+      "phone": "05385698080",
+      "website": null,
+      "lat": 40.190572,
+      "lon": 29.110545,
+      "address": "152 Evler Mah. Prof. Tezok Cad. 1 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243275771-85",
+      "name": "Şevket Yılmaz Hastane Taksi",
+      "phone": "02243275771",
+      "website": null,
+      "lat": 40.181274,
+      "lon": 29.070749,
+      "address": "Kurtoğlu Mah. Irgandı Köprü Sok. 3 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243682277-86",
+      "name": "Siteler Taksi",
+      "phone": "02243682277",
+      "website": null,
+      "lat": 40.184197,
+      "lon": 29.124812,
+      "address": "Mimarsinan Mah. 4. Zeytin Sok. 4 (Şevket Yılmaz Hastanesinin Karşısı) Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-87-87",
+      "name": "Teleferik Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.179919,
+      "lon": 29.119224,
+      "address": "Güllük Mah. Selçukbey Cad. 119 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314526666-88",
+      "name": "Yeşil Şıble Taksi",
+      "phone": "05314526666",
+      "website": null,
+      "lat": 40.17261,
+      "lon": 29.081805,
+      "address": "Piremir Mah. 2. Çamlık Sok. 82 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04781892983-89",
+      "name": "Yeşilyayla Taksi",
+      "phone": "04781892983",
+      "website": null,
+      "lat": 40.18133,
+      "lon": 29.073636,
+      "address": "Yeşil Mah. Yeşil Cad. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243650011-90",
+      "name": "Yiğitler Otosansit Taksi",
+      "phone": "02243650011",
+      "website": null,
+      "lat": 40.181849,
+      "lon": 29.098493,
+      "address": "Yeşilyayla Mah. Teyyareci Mehmet Ali Cad. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02243410333-91",
+      "name": "Yiğitler Taksi",
+      "phone": "02243410333",
+      "website": null,
+      "lat": 40.1880799,
+      "lon": 29.1533107,
+      "address": "Taksi Durağı ·  · B324 Sk. No 2",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243410333-92",
+      "name": "Yıldırım Taksi",
+      "phone": "02243410333",
+      "website": null,
+      "lat": 40.1893546,
+      "lon": 29.1538246,
+      "address": null,
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05383952929-93",
+      "name": "Eski Şevket Yılmaz Taksi",
+      "phone": "05383952929",
+      "website": null,
+      "lat": 40.190864,
+      "lon": 29.081787,
+      "address": "Davutdede Mah. 2. Zümrüt Sok. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02243682277-94",
+      "name": "Yüksek Ihtisas Taksi",
+      "phone": "02243682277",
+      "website": null,
+      "lat": 40.1837272,
+      "lon": 29.1272707,
+      "address": null,
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-95-95",
+      "name": "Yunus emre Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.191118,
+      "lon": 29.11085,
+      "address": "152 Evler Mah. Profesör Tezok Cad. 2/1 Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383952929-96",
+      "name": "Yunusemre Taksi",
+      "phone": "05383952929",
+      "website": null,
+      "lat": 40.2119562,
+      "lon": 29.1048502,
+      "address": "Taksi Durağı ·  · 2. Vatan Cd. No:298/1",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383952929-97",
+      "name": "Zümrüt Taksi",
+      "phone": "05383952929",
+      "website": null,
+      "lat": 40.207375,
+      "lon": 29.101932,
+      "address": "Yunusemre Mah. 2. Yağcı Sok. Yıldırım, Bursa",
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05411285016-98",
+      "name": "bursa-taksi",
+      "phone": "05411285016",
+      "website": null,
+      "lat": 40.1730225,
+      "lon": 29.0920557,
+      "address": null,
+      "districtId": "yildirim",
+      "districtName": "Yildirim",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242353522-99",
+      "name": "Altınşehir Taksi",
+      "phone": "02242353522",
+      "website": null,
+      "lat": 40.21476,
+      "lon": 29.042281,
+      "address": "Taksi Durağı ·  · Nilüfer Cd. No:250",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05300374727-100",
+      "name": "Ata Bulvarı Taksi",
+      "phone": "05300374727",
+      "website": null,
+      "lat": 40.218759,
+      "lon": 28.914378,
+      "address": "Ertuğrul Mah. Doğan Avcıoğlu Cad. 12 Özlüce, Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300374727-101",
+      "name": "Ataevler Taksi",
+      "phone": "05300374727",
+      "website": null,
+      "lat": 40.233081,
+      "lon": 28.95257,
+      "address": "Altın Şehir Mah. Ata Blv. 9 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02244418800-102",
+      "name": "Balat Taksi",
+      "phone": "02244418800",
+      "website": null,
+      "lat": 40.222606,
+      "lon": 28.962067,
+      "address": "Ataevler Mah. Nene Hatun Cad. Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242449976-103",
+      "name": "Beşevler Taksi",
+      "phone": "02242449976",
+      "website": null,
+      "lat": 40.266801,
+      "lon": 28.935811,
+      "address": "Balat Mah. Bağ Sok. 27 Dk:2 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385698080-104",
+      "name": "Çalı Taksi",
+      "phone": "05385698080",
+      "website": null,
+      "lat": 40.204879,
+      "lon": 28.980278,
+      "address": "Konak Mah. Kuşburnu Sok. 8 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368306424-105",
+      "name": "Çamlıca Taksi",
+      "phone": "05368306424",
+      "website": null,
+      "lat": 40.175265,
+      "lon": 28.920569,
+      "address": "Çalı Mah. Sarıyerler Cad. 2/B Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242440100-106",
+      "name": "Carrefour Taksi",
+      "phone": "02242440100",
+      "website": null,
+      "lat": 40.195003,
+      "lon": 28.983837,
+      "address": "Çamlıca Mah. Kavakdere Cad. 125 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02244526595-107",
+      "name": "Cumhuriyet Fethiye Taksi",
+      "phone": "02244526595",
+      "website": null,
+      "lat": 40.211998,
+      "lon": 28.99309,
+      "address": "Odunluk Mah. İzmir Yolu Cd Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-108-108",
+      "name": "Demirci Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.221065,
+      "lon": 28.968864,
+      "address": "Cumhuriyet Mah. Gazi Cad. Aras Sok. 1 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02244942050-109",
+      "name": "Dörtçelik Çocuk Hastanesi Taksi",
+      "phone": "02244942050",
+      "website": null,
+      "lat": 40.1909161,
+      "lon": 28.9382962,
+      "address": "Taksi Durağı ·  · Demirci Mh. Başak Sk. Pk:16120 Nilüfer/bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334956716-110",
+      "name": "Ertuğrulkent Taksi",
+      "phone": "05334956716",
+      "website": null,
+      "lat": 40.219812,
+      "lon": 28.910356,
+      "address": "Ertuğrul Mah. Doğan Avcıoğlu Cad. 12 Özlüce, Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-111-111",
+      "name": "Esentepe Doğuş Park Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.220726,
+      "lon": 28.913794,
+      "address": "Ertuğrul Mah. Doğan Avcıoğlu Cad. 12 Özlüce, Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333984888-112",
+      "name": "Görükle Sakarya Taksi",
+      "phone": "05333984888",
+      "website": null,
+      "lat": 40.226522,
+      "lon": 28.983844,
+      "address": "Esentepe Mah. İskan Sok. Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05414835050-113",
+      "name": "Ihsaniye Barış Taksi",
+      "phone": "05414835050",
+      "website": null,
+      "lat": 40.229074,
+      "lon": 28.849117,
+      "address": "Görükle Sakarya Mah. Bahriye Üçok Cad. Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02244523366-114",
+      "name": "Ihsaniye Taksi",
+      "phone": "02244523366",
+      "website": null,
+      "lat": 40.215231,
+      "lon": 28.984636,
+      "address": "İhsaniye Mah. Ahmet Vefik Paşa Cad. 19 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242474733-115",
+      "name": "Kültür Merkez Taksi",
+      "phone": "02242474733",
+      "website": null,
+      "lat": 40.21866,
+      "lon": 28.982914,
+      "address": "İhsaniye Mah. Çeyiz Sok. 3 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05341987683-116",
+      "name": "Nilpark Taksi",
+      "phone": "05341987683",
+      "website": null,
+      "lat": 40.200825,
+      "lon": 28.964034,
+      "address": "Kültür Mah. Ömür Sok. 11 Dk:1 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300374727-117",
+      "name": "Nilüfer Taksi",
+      "phone": "05300374727",
+      "website": null,
+      "lat": 40.213772,
+      "lon": 28.994053,
+      "address": "Karaman Mah. Kader Sok. Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242450598-118",
+      "name": "Nosab Taksi",
+      "phone": "02242450598",
+      "website": null,
+      "lat": 40.213472,
+      "lon": 28.99473344,
+      "address": "Karaman Mah. Kader Sok. Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02244112091-119",
+      "name": "Odunluk Taksi",
+      "phone": "02244112091",
+      "website": null,
+      "lat": 40.238024,
+      "lon": 28.930852,
+      "address": "Minareli Çavuş Osb Mah. Akasya Cad. Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05314526666-120",
+      "name": "Üçevler Ve Demirci Taksi",
+      "phone": "05314526666",
+      "website": null,
+      "lat": 40.200627,
+      "lon": 28.996123,
+      "address": "Odunluk Mah. Odunluk Cad. 6 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327630777-121",
+      "name": "bursa-taksi",
+      "phone": "05327630777",
+      "website": null,
+      "lat": 40.198543,
+      "lon": 28.948767,
+      "address": "Üçevler Mah. Kevser Sok. 4 Nilüfer, Bursa",
+      "districtId": "nilufer",
+      "districtName": "Nilufer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304281626-122",
+      "name": "Alanyurt Taksi",
+      "phone": "05304281626",
+      "website": null,
+      "lat": 40.071812,
+      "lon": 29.505768,
+      "address": "Kemalpaşa Mah. Okullar Cad. İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-123-123",
+      "name": "Avm İnegöl Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.103465,
+      "lon": 29.519798,
+      "address": "Yeni Mah. Ezgi Sok. 5 Alanyurt, İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-124-124",
+      "name": "Bulvar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.0838033,
+      "lon": 29.5099869,
+      "address": "Taksi Durağı ·  · Altay Cd. No:3",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02244524603-125",
+      "name": "Filiz Taksi",
+      "phone": "02244524603",
+      "website": null,
+      "lat": 40.074241,
+      "lon": 29.51074,
+      "address": "Cuma Mah. Hastane Meydanı Sok. 3 (Sedir Cafe Yakını) İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314526666-126",
+      "name": "Hastane Taksi",
+      "phone": "05314526666",
+      "website": null,
+      "lat": 40.096218,
+      "lon": 29.514445,
+      "address": "Sinanbey Mah. Yenişehir Cad. 1 İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02247132642-127",
+      "name": "Heykel Taksi",
+      "phone": "02247132642",
+      "website": null,
+      "lat": 40.0895561,
+      "lon": 29.4951933,
+      "address": "Taksi Durağı ·  · İstiklal Cd. No:187",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365534234-128",
+      "name": "Heykel Taksi",
+      "phone": "05365534234",
+      "website": null,
+      "lat": 40.074896,
+      "lon": 29.49775,
+      "address": "Kemalpaşa Mah. Adnan Menderes Blv. İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365534234-129",
+      "name": "Durağı - S.s. 241 Nolu Inegöl Taksi",
+      "phone": "05365534234",
+      "website": null,
+      "lat": 40.075496,
+      "lon": 29.49775,
+      "address": "Kemalpaşa Mah. Adnan Menderes Cad. İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02247132137-130",
+      "name": "İnegöl Hastane Taksi",
+      "phone": "02247132137",
+      "website": null,
+      "lat": 40.083769,
+      "lon": 29.510545,
+      "address": "Osmaniye Mah. Altay Cad. 1 İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02247130051-131",
+      "name": "Inegöl Taksi",
+      "phone": "02247130051",
+      "website": null,
+      "lat": 40.0821517,
+      "lon": 29.4972157,
+      "address": null,
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-132-132",
+      "name": "Inegöl Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.080434,
+      "lon": 29.509982,
+      "address": "Sinanbey Mah. Zafer Cad. 1 İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-133-133",
+      "name": "Park Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.079556,
+      "lon": 29.513065,
+      "address": "Sinanbey Mah. Letafet Sok. 1/C İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02242355252-134",
+      "name": "Stadyum Taksi",
+      "phone": "02242355252",
+      "website": null,
+      "lat": 40.069724,
+      "lon": 29.509653,
+      "address": "Hamidiye Mah. Park Cad. 4 Merkez, İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242214666-135",
+      "name": "Terminal Taksi",
+      "phone": "02242214666",
+      "website": null,
+      "lat": 40.080343,
+      "lon": 29.50844,
+      "address": "Turgutalp Mah. Kemalettin Sami Paşa Cad. İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04282334861-136",
+      "name": "Uludağ Taksi",
+      "phone": "04282334861",
+      "website": null,
+      "lat": 40.08396,
+      "lon": 29.508647,
+      "address": "Osmaniye Mah. Şebboy Cad. (İnegöl Otogarı İçinde) İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455991616-137",
+      "name": "Yıldız Taksi",
+      "phone": "05455991616",
+      "website": null,
+      "lat": 40.079153,
+      "lon": 29.498918,
+      "address": "Turgutalp Mah. İsmail Hakkı Timur Sok. İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-138-138",
+      "name": "bursa-taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.081038,
+      "lon": 29.510034,
+      "address": "Sinanbey Mah. Lütfiye Sok. 12 İnegöl, Bursa",
+      "districtId": "inegol",
+      "districtName": "İnegol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02246316022-139",
+      "name": "Bursa Mustafakemalpaşa Adliye Taksi",
+      "phone": "02246316022",
+      "website": null,
+      "lat": 40.0332318,
+      "lon": 28.3882142,
+      "address": "Barış Mahalle Taksi 7/24",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342608038-140",
+      "name": "Çırpan Taksi",
+      "phone": "05342608038",
+      "website": null,
+      "lat": 40.0368074,
+      "lon": 28.4157535,
+      "address": null,
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-141-141",
+      "name": "Garaj Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.033439,
+      "lon": 28.398365,
+      "address": "Hamidiye Mah. 30. Sok. 141 Mustafakemalpaşa, Bursa",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-142-142",
+      "name": "Güneş Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.037846,
+      "lon": 28.406882,
+      "address": "Vıraca Mah. Bursa Cad. Gazhane Sok. Mustafakemalpaşa, Bursa",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05301307316-143",
+      "name": "Hamzabey Taksi",
+      "phone": "05301307316",
+      "website": null,
+      "lat": 40.032836,
+      "lon": 28.416051,
+      "address": "Lalaşahin Mah. Kaymakam Haydarbey Cad. Köy Garajı Mustafakemalpaşa, Bursa",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02246060068-144",
+      "name": "Kafkas Taksi",
+      "phone": "02246060068",
+      "website": null,
+      "lat": 40.04175,
+      "lon": 28.401541,
+      "address": null,
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05314526666-145",
+      "name": "Mustafakemalpaşa Devlet Hastanesi Taksi",
+      "phone": "05314526666",
+      "website": null,
+      "lat": 40.034854,
+      "lon": 28.410207,
+      "address": "Şeyhmüftü Mah. Özen Sok. Mustafakemalpaşa, Bursa",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02246133848-146",
+      "name": "Serhat Taksi",
+      "phone": "02246133848",
+      "website": null,
+      "lat": 40.0295056,
+      "lon": 28.3657434,
+      "address": "Taksi Durağı ·  · Mustafakemalpaşa Devlet Hastanesi, 1. Kıryolu Sk. No:6",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300374727-147",
+      "name": "Tahıl Taksi",
+      "phone": "05300374727",
+      "website": null,
+      "lat": 40.033378,
+      "lon": 28.401963,
+      "address": "Hamidiye Mah. Fevzipaşa Cad. Mustafakemalpaşa, Bursa",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374191042-148",
+      "name": "Tatkavaklı Taksi",
+      "phone": "05374191042",
+      "website": null,
+      "lat": 40.037304,
+      "lon": 28.411828,
+      "address": "Şevketiye Mah. Tahıl Meydanı Mustafakemalpaşa, Bursa",
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452806063-149",
+      "name": "bursa-taksi",
+      "phone": "05452806063",
+      "website": null,
+      "lat": 40.0270667,
+      "lon": 28.4078662,
+      "address": null,
+      "districtId": "mustafakemalpasa",
+      "districtName": "Mustafakemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02244524603-150",
+      "name": "Görükle Taksi",
+      "phone": "02244524603",
+      "website": null,
+      "lat": 40.2137302,
+      "lon": 28.9745937,
+      "address": "Taksi · Sümer Sk. No:4",
+      "districtId": "buyukorhan",
+      "districtName": "Buyukorhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05394697272-151",
+      "name": "IŞIKTEPE Taksi",
+      "phone": "05394697272",
+      "website": null,
+      "lat": 40.2279708,
+      "lon": 28.841439,
+      "address": null,
+      "districtId": "buyukorhan",
+      "districtName": "Buyukorhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05527200016-152",
+      "name": "Kemer Taksi",
+      "phone": "05527200016",
+      "website": null,
+      "lat": 40.2282981,
+      "lon": 28.9623832,
+      "address": null,
+      "districtId": "buyukorhan",
+      "districtName": "Buyukorhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242532515-153",
+      "name": "Kemer Taksi Durağı",
+      "phone": "02242532515",
+      "website": null,
+      "lat": 40.2047983,
+      "lon": 29.0736399,
+      "address": "Taksi Durağı · Gazi Cd. No:162",
+      "districtId": "buyukorhan",
+      "districtName": "Buyukorhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02242424444-154",
+      "name": "stasyon Taksi",
+      "phone": "02242424444",
+      "website": null,
+      "lat": 40.2346768,
+      "lon": 28.9767792,
+      "address": "Taksi Durağı · Ay Sk. no:3/a C Blok",
+      "districtId": "buyukorhan",
+      "districtName": "Buyukorhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326702003-155",
+      "name": "IŞIKTEPE Taksi",
+      "phone": "05326702003",
+      "website": null,
+      "lat": 40.2183883,
+      "lon": 28.8696323,
+      "address": null,
+      "districtId": "buyukorhan",
+      "districtName": "Buyukorhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02245132467-156",
+      "name": "Güven Taksi",
+      "phone": "02245132467",
+      "website": null,
+      "lat": 40.4289646,
+      "lon": 29.1559509,
+      "address": "Taksi Durağı · İstiklal caddesi, nolu aralık No:1",
+      "districtId": "gemlik",
+      "districtName": "Gemlik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-157-157",
+      "name": "Körfez Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.431711,
+      "lon": 29.155023,
+      "address": "Demirsubaşı Mah. İskele Cad. Gemlik, Bursa",
+      "districtId": "gemlik",
+      "districtName": "Gemlik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05380302600-158",
+      "name": "Manastır Taksi",
+      "phone": "05380302600",
+      "website": null,
+      "lat": 40.420606,
+      "lon": 29.147508,
+      "address": "Hisar Mah. Yalova Yolu Cad. Gemlik, Bursa",
+      "districtId": "gemlik",
+      "districtName": "Gemlik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02245173394-159",
+      "name": "Terminal Taksi",
+      "phone": "02245173394",
+      "website": null,
+      "lat": 40.442633,
+      "lon": 29.139326,
+      "address": null,
+      "districtId": "gemlik",
+      "districtName": "Gemlik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347712626-160",
+      "name": "Manastır Taksi",
+      "phone": "05347712626",
+      "website": null,
+      "lat": 40.420006,
+      "lon": 29.147508,
+      "address": "Hisar Mah. Yalova Yolu Cad. Gemlik, Bursa",
+      "districtId": "gemlik",
+      "districtName": "Gemlik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334524335-161",
+      "name": "Garaj Taksi",
+      "phone": "05334524335",
+      "website": null,
+      "lat": 40.215686,
+      "lon": 28.358497,
+      "address": "Tabaklar Mah. Bandırma Cad. 3 Karacabey, Bursa",
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334524335-162",
+      "name": "Karacabey Taksi",
+      "phone": "05334524335",
+      "website": null,
+      "lat": 40.215415,
+      "lon": 28.355256,
+      "address": "Tabaklar Mah. Bandırma Cad. Karacabey, Bursa",
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05529677053-163",
+      "name": "Meydan Taksi",
+      "phone": "05529677053",
+      "website": null,
+      "lat": 40.2136788,
+      "lon": 28.3633744,
+      "address": null,
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314526666-164",
+      "name": "Şeker Taksi",
+      "phone": "05314526666",
+      "website": null,
+      "lat": 40.216135,
+      "lon": 28.359782,
+      "address": "Drama Mah. 119. Sok. (Karacabey Meydanda Eski Adliye Yanı) Karacabey, Bursa",
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05449447004-165",
+      "name": "Karacabey Taksi",
+      "phone": "05449447004",
+      "website": null,
+      "lat": 40.217362,
+      "lon": 28.360914,
+      "address": "Runguşpaşa Mah. Panayır Cad. (Ün Otel Önü) Karacabey, Bursa",
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02245731234-166",
+      "name": "Dörtyol Taksi",
+      "phone": "02245731234",
+      "website": null,
+      "lat": 40.4910113,
+      "lon": 29.3082836,
+      "address": null,
+      "districtId": "orhangazi",
+      "districtName": "Orhangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300374727-167",
+      "name": "Garaj Taksi",
+      "phone": "05300374727",
+      "website": null,
+      "lat": 40.491367,
+      "lon": 29.31064,
+      "address": "Muradiye Mah. Bahçe Sok. Orhangazi, Bursa",
+      "districtId": "orhangazi",
+      "districtName": "Orhangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-168-168",
+      "name": "Orhangazi Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.485249,
+      "lon": 29.308545,
+      "address": "Camiikebir Mah. İstiklal Cad. Orhangazi, Bursa",
+      "districtId": "orhangazi",
+      "districtName": "Orhangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05067771616-169",
+      "name": "Orhangazi Taksi",
+      "phone": "05067771616",
+      "website": null,
+      "lat": 40.455828,
+      "lon": 29.3640076,
+      "address": null,
+      "districtId": "orhangazi",
+      "districtName": "Orhangazi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-170-170",
+      "name": "Heykel Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.257662,
+      "lon": 29.543922,
+      "address": "Çardak Köyü Yenişehir Havaalanı Yenişehir Bursa, Bursa",
+      "districtId": "yenisehir",
+      "districtName": "Yenisehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365534234-171",
+      "name": "Kule Taksi",
+      "phone": "05365534234",
+      "website": null,
+      "lat": 40.26444,
+      "lon": 29.655304,
+      "address": "Kurtuluş Mah. Bilecik Cad. Yenişehir Bursa, Bursa",
+      "districtId": "yenisehir",
+      "districtName": "Yenisehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385698080-172",
+      "name": "Yenişehir Taksi",
+      "phone": "05385698080",
+      "website": null,
+      "lat": 40.261709,
+      "lon": 29.650445,
+      "address": "Ulucami Mah. Belediye Meydan Sok. 1 Yenişehir Bursa, Bursa",
+      "districtId": "yenisehir",
+      "districtName": "Yenisehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324502463-173",
+      "name": "Yenişehir Taksi",
+      "phone": "05324502463",
+      "website": null,
+      "lat": 40.262837,
+      "lon": 29.649994,
+      "address": "Gündoğan Mah. Cumhuriyet Cad. 23 Yenişehir Bursa, Bursa",
+      "districtId": "yenisehir",
+      "districtName": "Yenisehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02247575555-174",
+      "name": "Iznik Taksi",
+      "phone": "02247575555",
+      "website": null,
+      "lat": 40.430376,
+      "lon": 29.72087,
+      "address": "Beyler Mah. Orhan Sok. 2 (Belediye Çay Bahçesi İçinde) İznik, Bursa",
+      "districtId": "iznik",
+      "districtName": "İznik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05522079177-175",
+      "name": "Iznik Taksi",
+      "phone": "05522079177",
+      "website": null,
+      "lat": 40.428962,
+      "lon": 29.716831,
+      "address": "Selçuk Mah. Selçuk Sok. Merkez, İznik, Bursa",
+      "districtId": "iznik",
+      "districtName": "İznik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-176-176",
+      "name": "Kestel Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.200561,
+      "lon": 29.21209,
+      "address": "Yeni Mah. Bursa Cad. 1 Kestel, Bursa",
+      "districtId": "kestel",
+      "districtName": "Kestel",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-177-177",
+      "name": "Kestel ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.19026,
+      "lon": 29.207234,
+      "address": "Yeni Mah. Fatih Cad. 22 Kestel, Bursa",
+      "districtId": "kestel",
+      "districtName": "Kestel",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377702025-178",
+      "name": "Tirilye Taksi",
+      "phone": "05377702025",
+      "website": null,
+      "lat": 40.3733,
+      "lon": 28.888925,
+      "address": "Ömerbey Mah. Halitpaşa Cad. Mudanya, Bursa",
+      "districtId": "mudanya",
+      "districtName": "Mudanya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02245445051-179",
+      "name": "Tirilye Taksi",
+      "phone": "02245445051",
+      "website": null,
+      "lat": 40.3927,
+      "lon": 28.7956,
+      "address": "Tirilye-Talatbey Mah. Garaj Meydanı 2/A Mudanya, Bursa",
+      "districtId": "mudanya",
+      "districtName": "Mudanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-02243422179-180",
+      "name": "Engelli Taksi Ve Araç Kiralama Hizmetleri",
+      "phone": "02243422179",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02243292151-181",
+      "name": "Yeşil & Şible TAKSİ",
+      "phone": "02243292151",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-02243606262-182",
+      "name": "ONUR TAKSİ",
+      "phone": "02243606262",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02244500525-183",
+      "name": "Yildiz Cumhuriyet Fethiye Taksi",
+      "phone": "02244500525",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05462098008-184",
+      "name": "Tümü → Gediz Garaj Taksi",
+      "phone": "05462098008",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05316745005-185",
+      "name": "Tümü → Karacabey Taksi 16 T 7016",
+      "phone": "05316745005",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243729323-186",
+      "name": "Tümü → Kestel Taksi Kestel",
+      "phone": "02243729323",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02245547012-187",
+      "name": "Tümü → Feribot Taksi Mudanya",
+      "phone": "02245547012",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02246132062-188",
+      "name": "Tümü → Barış Mahalle Taksi 7/24 AÇIK · 7 gün 24 saat Yunusemre Mh, 16 Nolu Sk No",
+      "phone": "02246132062",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02246132595-189",
+      "name": "Heykel Taksi Mustafakemalpaşa AÇIK · 7 gün 24 saat Züferbey, Hacı Emin Sk. No:9,",
+      "phone": "02246132595",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02246142121-190",
+      "name": "Tatkavaklı Taksi AÇIK · 7 gün 24 saat Lalaşahin, İğneci Düğün Salonu Arkası, 165",
+      "phone": "02246142121",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244135960-191",
+      "name": "Taksi durağı",
+      "phone": "02244135960",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05303061333-192",
+      "name": "Alaaddinbey Niltim Taksi",
+      "phone": "05303061333",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244511575-193",
+      "name": "Çamlıca Taksi",
+      "phone": "02244511575",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244519193-194",
+      "name": "Carrefoursa Taksi Nilüfer AÇIK · 7 gün 24 saat Odunluk Mahallesi İzmir Yolu Orha",
+      "phone": "02244519193",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244133165-195",
+      "name": "Ertuğrul Taksi Durağı",
+      "phone": "02244133165",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244411818-196",
+      "name": "Kültür Merkez Taksi",
+      "phone": "02244411818",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244511040-197",
+      "name": "Odunluk Taksi",
+      "phone": "02244511040",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05305944616-198",
+      "name": "Özlüce Taksi AÇIK · 7 gün 24 saat 29 Ekim, Ahmet Taner Kışlalı Blv. No:28, 16120",
+      "phone": "05305944616",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02244419050-199",
+      "name": "Taksiland AÇIK · 7 gün 24 saat Fethiye, Ay Sk. Yasemin Sitesi no:3/a C Blok, 161",
+      "phone": "02244419050",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02245736668-200",
+      "name": "Tümü → Dörtyol Taksi Orhangazi̇",
+      "phone": "02245736668",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05353172501-201",
+      "name": "Hastane Taksi Orhangazi̇",
+      "phone": "05353172501",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02245732405-202",
+      "name": "Hürriyet Taksi Orhangazi̇",
+      "phone": "02245732405",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355501692-203",
+      "name": "Orhangazi Taksi Orhangazi̇",
+      "phone": "05355501692",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242356103-204",
+      "name": "Tümü → Acemler Kelebek Taksi",
+      "phone": "02242356103",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242500250-205",
+      "name": "Acemler Taksi AÇIK · 7 gün 24 saat Zübeyde Hanım Caddesi Özel Konur Burtom Tıp m",
+      "phone": "02242500250",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05550588075-206",
+      "name": "Askeri Hst.taksi Durağı",
+      "phone": "05550588075",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242530674-207",
+      "name": "Başaran Taksi AÇIK · 7 gün 24 saat Başaran, Otobüs Durağı, 5. Bahçe Sk., 16240 O",
+      "phone": "02242530674",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242211919-208",
+      "name": "Bizim Taksi",
+      "phone": "02242211919",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242206152-209",
+      "name": "Flash Taksi",
+      "phone": "02242206152",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242464866-210",
+      "name": "Hürriyet Taksi Osmangazi",
+      "phone": "02242464866",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242615266-211",
+      "name": "Osmangazi Terminal Taksi",
+      "phone": "02242615266",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242393900-212",
+      "name": "S.s.k Taksi",
+      "phone": "02242393900",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242852381-213",
+      "name": "Terminal Yunuseli Taksi AÇIK · 7 gün 24 saat Yunuseli, Recep Tayyip Erdoğan Blv ",
+      "phone": "02242852381",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242209223-214",
+      "name": "Uludağ Taksi",
+      "phone": "02242209223",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02242424424-215",
+      "name": "Yeni Karaman Taksi AÇIK · 7 gün 24 saat Yeni Karaman Mah.polat Cad.postane Yanı ",
+      "phone": "02242424424",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02282158066-216",
+      "name": "Tümü → Gar Taksi",
+      "phone": "02282158066",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05334007518-217",
+      "name": "Yenişehir Taksi Bursa",
+      "phone": "05334007518",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05421291616-218",
+      "name": "Taksi durağı",
+      "phone": "05421291616",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243286667-219",
+      "name": "Emir Sultan Taksi",
+      "phone": "02243286667",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243289114-220",
+      "name": "Maksem Temenyeri Taksi",
+      "phone": "02243289114",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243682749-221",
+      "name": "Siteler Taksi",
+      "phone": "02243682749",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243276320-222",
+      "name": "Yeşil Taksi",
+      "phone": "02243276320",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243605368-223",
+      "name": "Yıldırım Taksi",
+      "phone": "02243605368",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02243619719-224",
+      "name": "Yüksek İhtisas Taksi",
+      "phone": "02243619719",
+      "website": null,
+      "lat": 40.1885,
+      "lon": 29.061,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05421167019-225",
+      "name": "Funda Taksi - Yalçın Çıbık",
+      "phone": "05421167019",
+      "website": "https://www.facebook.com/karacabeytaksi16t7019/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05415856546-226",
+      "name": "Karacabey Taksi - Muhammet Çevdir",
+      "phone": "05415856546",
+      "website": "https://www.facebook.com/profile.php?id=100064424186882",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "karacabey",
+      "districtName": "Karacabey",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

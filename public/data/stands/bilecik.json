@@ -1,0 +1,586 @@
+{
+  "cityId": "bilecik",
+  "cityName": "Bilecik",
+  "fetchedAt": "2026-08-30T21:28:27.664Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bozuyuk",
+      "name": "Bozuyuk",
+      "count": 12
+    },
+    {
+      "id": "golpazari",
+      "name": "Golpazari",
+      "count": 1
+    },
+    {
+      "id": "inhisar",
+      "name": "İnhisar",
+      "count": 3
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 4
+    },
+    {
+      "id": "osmaneli",
+      "name": "Osmaneli",
+      "count": 6
+    },
+    {
+      "id": "pazaryeri",
+      "name": "Pazaryeri",
+      "count": 1
+    },
+    {
+      "id": "sogut",
+      "name": "Sogut",
+      "count": 3
+    }
+  ],
+  "count": 35,
+  "stands": [
+    {
+      "id": "taksi724-0-0",
+      "name": "Bilecik İstasyon Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.906687,
+      "lon": 30.034585,
+      "address": "Çarşı Mah. Hükümet Cad. 5 Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02282158787-1",
+      "name": "Bilecik Merkez HastaneTaksi",
+      "phone": "02282158787",
+      "website": null,
+      "lat": 40.1341447,
+      "lon": 30.0218357,
+      "address": null,
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05521560111-2",
+      "name": "Bozüyük Taksi",
+      "phone": "05521560111",
+      "website": null,
+      "lat": 40.1843882,
+      "lon": 29.9696311,
+      "address": null,
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-3-3",
+      "name": "Çınar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.906586,
+      "lon": 30.037198,
+      "address": "Kasımpaşa Mah. Hükümet Cad. 8 Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02282121212-4",
+      "name": "Hal Taksi",
+      "phone": "02282121212",
+      "website": null,
+      "lat": 39.9054,
+      "lon": 30.04508,
+      "address": "Yeni Mah. Hasan Hüseyin Ağa Sok. Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521560111-5",
+      "name": "Merkez Taksi",
+      "phone": "05521560111",
+      "website": null,
+      "lat": 39.905919,
+      "lon": 30.039391,
+      "address": "Kasımpaşa Mah. İsmet İnönü Cad. 3/A Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521560111-6",
+      "name": "- Bozüyük Aktif Taksiciler Ve Taksi",
+      "phone": "05521560111",
+      "website": null,
+      "lat": 39.906172,
+      "lon": 30.038859,
+      "address": "Kasımpaşa Mah. İsmet İnönü Cad. Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-7-7",
+      "name": "Otogar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.897674,
+      "lon": 30.043244,
+      "address": "Kasımpaşa Mah. Seramik Cad. Bozüyük Otogarı Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-8-8",
+      "name": "Park Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.906253,
+      "lon": 30.037985,
+      "address": "Kasımpaşa Mah. Hükümet Cad. 27 Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-9-9",
+      "name": "Sanayi Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.905745,
+      "lon": 30.03801,
+      "address": "Yeni Mah. Dr. İsmail Bey Cad. 2 Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521560111-10",
+      "name": "Terminal Taksi",
+      "phone": "05521560111",
+      "website": null,
+      "lat": 39.904717,
+      "lon": 30.046376,
+      "address": "Yeni Mah. İsmet İnönü Cad. Bozüyük, Bilecik",
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02282121956-11",
+      "name": "bilecik-taksi",
+      "phone": "02282121956",
+      "website": null,
+      "lat": 40.13893,
+      "lon": 29.9787818,
+      "address": null,
+      "districtId": "bozuyuk",
+      "districtName": "Bozuyuk",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02282121212-12",
+      "name": "Gar Taksi",
+      "phone": "02282121212",
+      "website": null,
+      "lat": 40.142891,
+      "lon": 29.979982,
+      "address": "Gazipaşa Mah. Dedeoğlu Cad. 2 Bilecik Merkez, Bilecik",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02282158066-13",
+      "name": "Park Taksi",
+      "phone": "02282158066",
+      "website": null,
+      "lat": 40.1162961,
+      "lon": 30.0002001,
+      "address": "Taksi Durağı · Osmangazi Mh. Camikebir Sk. Pk:11050 Bilecik Merkez/bilecik",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02282121328-14",
+      "name": "Tepebaşı Taksi",
+      "phone": "02282121328",
+      "website": null,
+      "lat": 40.14279,
+      "lon": 29.979089,
+      "address": "Gazipaşa Mah. Kurtul Sok. Bilecik Merkez, Bilecik",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-15-15",
+      "name": "Park Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.147264,
+      "lon": 29.977374,
+      "address": "Cumhuriyet Mah. Değirmen Sok. Bilecik Merkez, Bilecik",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334653383-16",
+      "name": "-taşhan Taksi",
+      "phone": "05334653383",
+      "website": null,
+      "lat": 40.0140739,
+      "lon": 30.1835235,
+      "address": null,
+      "districtId": "inhisar",
+      "districtName": "İnhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443370633-17",
+      "name": "Söğüt bilecik Taksi",
+      "phone": "05443370633",
+      "website": null,
+      "lat": 40.2838284,
+      "lon": 30.3176162,
+      "address": "Taşımacılık Hizmeti · Uray Sk. no:5",
+      "districtId": "inhisar",
+      "districtName": "İnhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467738117-18",
+      "name": "Söğüt bilecik Taksi",
+      "phone": "05467738117",
+      "website": null,
+      "lat": 40.0178895,
+      "lon": 30.1797039,
+      "address": null,
+      "districtId": "inhisar",
+      "districtName": "İnhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05051471164-19",
+      "name": "Osmaneli Otogar Taksi",
+      "phone": "05051471164",
+      "website": null,
+      "lat": 40.356808,
+      "lon": 30.016242,
+      "address": "Camikebir Mah. 324 Sok. Osmaneli, Bilecik",
+      "districtId": "osmaneli",
+      "districtName": "Osmaneli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425172943-20",
+      "name": "Osmaneli Taksi",
+      "phone": "05425172943",
+      "website": null,
+      "lat": 40.3601443,
+      "lon": 30.0113731,
+      "address": "Taksi Durağı ·  · İstanbul Cd. No:4",
+      "districtId": "osmaneli",
+      "districtName": "Osmaneli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396271713-21",
+      "name": "Osmaneli Taksi",
+      "phone": "05396271713",
+      "website": null,
+      "lat": 40.3611025,
+      "lon": 30.0266687,
+      "address": "Taksi · kadızade Rumi Sk. No: 3 / 2",
+      "districtId": "osmaneli",
+      "districtName": "Osmaneli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02282121212-22",
+      "name": "nar Taksi",
+      "phone": "02282121212",
+      "website": null,
+      "lat": 40.281801,
+      "lon": 30.321376,
+      "address": "Orta Mah. Ankara Cad. Gölpazarı, Bilecik",
+      "districtId": "golpazari",
+      "districtName": "Golpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-23-23",
+      "name": "Pazaryeri ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.999063,
+      "lon": 29.904263,
+      "address": "Çarşı Mah. Zübeyde Hanım Cad. Pazaryeri, Bilecik",
+      "districtId": "pazaryeri",
+      "districtName": "Pazaryeri",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467738117-24",
+      "name": "Söğüt Otogar Taksi",
+      "phone": "05467738117",
+      "website": null,
+      "lat": 40.013478,
+      "lon": 30.186074,
+      "address": "Balaban Mah. Söğüt Otogarı Söğüt, Bilecik",
+      "districtId": "sogut",
+      "districtName": "Sogut",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-02282121366-25",
+      "name": "Tepebaşı taksi",
+      "phone": "02282121366",
+      "website": null,
+      "lat": 40.1451,
+      "lon": 29.9793,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05523821511-26",
+      "name": "Vezirhan Taksi",
+      "phone": "05523821511",
+      "website": null,
+      "lat": 40.1451,
+      "lon": 29.9793,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02283155555-27",
+      "name": "Tümü → Bozüyük Hal Taksi",
+      "phone": "02283155555",
+      "website": null,
+      "lat": 40.1451,
+      "lon": 29.9793,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02283143444-28",
+      "name": "Bozüyük Terminal Taksi 7/24",
+      "phone": "02283143444",
+      "website": null,
+      "lat": 40.1451,
+      "lon": 29.9793,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05435625383-29",
+      "name": "Söğüt Taksi",
+      "phone": "05435625383",
+      "website": null,
+      "lat": 40.1451,
+      "lon": 29.9793,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05446943521-30",
+      "name": "Ertuğrul Gazi Taksi - Hasan Taşdelen",
+      "phone": "05446943521",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sogut",
+      "districtName": "Söğüt",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05441187006-31",
+      "name": "İstasyon Taksi - Halil Tarı",
+      "phone": "05441187006",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "osmaneli",
+      "districtName": "Osmaneli",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05323752368-32",
+      "name": "İstasyon Taksi - Mustafa Çiçek",
+      "phone": "05323752368",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "osmaneli",
+      "districtName": "Osmaneli",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05527991116-33",
+      "name": "Lojmanlar Taksi - Mesut Kar",
+      "phone": "05527991116",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "osmaneli",
+      "districtName": "Osmaneli",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05010763501-34",
+      "name": "Otogar Taksi - Serdar Gökhan",
+      "phone": "05010763501",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sogut",
+      "districtName": "Söğüt",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

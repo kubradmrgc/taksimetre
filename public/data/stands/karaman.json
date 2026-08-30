@@ -1,0 +1,350 @@
+{
+  "cityId": "karaman",
+  "cityName": "Karaman",
+  "fetchedAt": "2026-08-30T21:24:36.053Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 27,
+  "stands": [
+    {
+      "id": "taksi724-03382134578-0",
+      "name": "Emek Taksi",
+      "phone": "03382134578",
+      "lat": 37.18327,
+      "lon": 33.215816,
+      "address": "Tahsin Ünal Mah. Atatürk Blv. 13/B Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03382131288-1",
+      "name": "Eski Garaj Taksi",
+      "phone": "03382131288",
+      "lat": 38.758947,
+      "lon": 30.540334,
+      "address": "Kirişçi Mah. 9. Sok. Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03382127455-2",
+      "name": "Gar Taksi",
+      "phone": "03382127455",
+      "lat": 37.183381,
+      "lon": 33.209379,
+      "address": "Kirişçi Mah. Türk Dili Cad. 1/3 Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05439714824-3",
+      "name": "Güven Taksi",
+      "phone": "05439714824",
+      "lat": 37.186139,
+      "lon": 33.205024,
+      "address": "Valide Sultan Mah. 1. İstasyon Cad. Karaman Tren Garı Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03382131979-4",
+      "name": "Hecceler Taksi",
+      "phone": "03382131979",
+      "lat": 37.182407,
+      "lon": 33.214053,
+      "address": "Ahiosman Mah. Kemal Kaynaş Cad. Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438212094-5",
+      "name": "Karaman Gar Taksi",
+      "phone": "05438212094",
+      "lat": 37.18257074,
+      "lon": 33.21899527,
+      "address": "Hacıcelal Mah. Özcan Genç Cad. Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05439714824-6",
+      "name": "Eski Garaj Taksi",
+      "phone": "05439714824",
+      "lat": 40.213472,
+      "lon": 28.99337256,
+      "address": "Nefise Sultan Mah. Atatürk Cad. 5 Karaman Merkez, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355520012-7",
+      "name": "Karaman Hastane Taksi",
+      "phone": "05355520012",
+      "lat": 37.1856199,
+      "lon": 33.2250073,
+      "address": "Taksi Durağı · 321. Sk. 82/A",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03382127720-8",
+      "name": "Karaman Otogar Taksi",
+      "phone": "03382127720",
+      "lat": 37.16599,
+      "lon": 33.2568136,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03382120028-9",
+      "name": "Karaman Recep Taksi",
+      "phone": "03382120028",
+      "lat": 37.18411,
+      "lon": 33.1934062,
+      "address": "Taksi Durağı ·  · 100. Yıl Blv. No:85",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05331559470-10",
+      "name": "Karaman Taksi",
+      "phone": "05331559470",
+      "lat": 37.1827297,
+      "lon": 33.2044825,
+      "address": "Taksi Durağı · 432. Sk. No:10",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03382137235-11",
+      "name": "KARAMAN OTOGAR TAKSi",
+      "phone": "03382137235",
+      "lat": 37.1852582,
+      "lon": 33.2126557,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456528115-12",
+      "name": "Ermenek Taksi",
+      "phone": "05456528115",
+      "lat": 36.6386402,
+      "lon": 32.8887786,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456528115-13",
+      "name": "Otogar Taksi",
+      "phone": "05456528115",
+      "lat": 36.640292,
+      "lon": 32.884288,
+      "address": "Meydan Mah. Cumhuriyet Cad. Ermenek, Karaman",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05344277505-14",
+      "name": "Otogar Taksi",
+      "phone": "05344277505",
+      "lat": 36.6398401,
+      "lon": 32.8886571,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05301121563-15",
+      "name": "Kazım Karabekir Taksi",
+      "phone": "05301121563",
+      "lat": 40.2032019,
+      "lon": 29.097067,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-03382264000-16",
+      "name": "Karaman Belediyesi",
+      "phone": "03382264000",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05442236999-17",
+      "name": "Taksici Oktay",
+      "phone": "05442236999",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05303202373-18",
+      "name": "Karaman gar taksi",
+      "phone": "05303202373",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05432190797-19",
+      "name": "TAKSİ 70 KARAMAN",
+      "phone": "05432190797",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05425689668-20",
+      "name": "KARAMAN&#039;DA EROĞLU TAKSİ Güvenilir taksi.",
+      "phone": "05425689668",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05377670003-21",
+      "name": "TAKSİ OĞUZHAN KARAMAN 7/24 KESİNTİSİZ HİZMET",
+      "phone": "05377670003",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05072509270-22",
+      "name": "KARAMAN BELEN TAKSi | 24 saat açık...7/24 kesintisiz hizmet..şehrin merkezinde..",
+      "phone": "05072509270",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03382125432-23",
+      "name": "Karaman Hastane Taksi AÇIK · 7 gün 24 saat ŞEHİT ÖMER HALİSDEMİR CAD.ÜNİVERSİTE ",
+      "phone": "03382125432",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05457735926-24",
+      "name": "Tümü → Arif Yıldırım Karaman Taksi",
+      "phone": "05457735926",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05376015411-25",
+      "name": "Azak Taksi",
+      "phone": "05376015411",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05301119860-26",
+      "name": "Karaman Acil Taksi - Celalettin Çetintaş",
+      "phone": "05301119860",
+      "lat": 37.1759,
+      "lon": 33.2287,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

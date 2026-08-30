@@ -22,6 +22,28 @@ const ODASI_TABLE_URL = "https://taksicilerodasi.com/tr/ucret-hesapla/";
 const ODASI_CITY_URL = (slug) =>
   `https://taksicilerodasi.com/tr/ucret-hesapla/${slug}/`;
 const TAKSI724_CITY_URL = (slug) => `https://taksi724.com/${slug}`;
+const TAKSIFIYAT_CITY_URL = (slug) =>
+  `https://taksifiyat.online/${slug}-taksi-ucreti-hesaplama/`;
+
+/** taksifiyat.online'da sayfası olan iller (Bodrum il değil, atlanır). */
+const TAKSIFIYAT_CITY_IDS = [
+  "istanbul",
+  "adana",
+  "ankara",
+  "antalya",
+  "bursa",
+  "erzurum",
+  "eskisehir",
+  "gaziantep",
+  "igdir",
+  "kayseri",
+  "kocaeli",
+  "konya",
+  "mersin",
+  "sakarya",
+  "samsun",
+  "tunceli",
+];
 
 const HEADERS = {
   "User-Agent":
@@ -257,6 +279,123 @@ function parseTaksi724Fees(html) {
   return { openingFee, perKmFee, minimumFee };
 }
 
+function parseTaksifiyatPage(html, province) {
+  const text = stripTags(html);
+  let openingFee = null;
+  let perKmFee = null;
+  let minimumFee = null;
+  let perMinuteFee = null;
+
+  // Özet satır: "… tarifesi Açılış 65 TL · 40 TL/km · 7 TL/dk · minimum 200 TL"
+  const summary = text.match(
+    /tarifesi\s+A[cç][ıi]l[ıi][sş]\s+([\d.,]+)\s*TL\s*[·•]\s*([\d.,]+)\s*TL\/km\s*[·•]\s*([\d.,]+)\s*TL\/dk\s*[·•]\s*minimum\s+([\d.,]+)\s*TL/i,
+  );
+  if (summary) {
+    openingFee = parseTrNumber(summary[1]);
+    perKmFee = parseTrNumber(summary[2]);
+    perMinuteFee = parseTrNumber(summary[3]);
+    minimumFee = parseTrNumber(summary[4]);
+  }
+
+  // Samsun tarzı: "İlk 1 km 140 TL · sonraki km 35 TL · 5 TL/dk bekleme"
+  let firstKmInclusive = false;
+  if (openingFee == null) {
+    const firstKm = text.match(
+      /[İi]lk\s*1\s*km\s+([\d.,]+)\s*TL\s*[·•]\s*sonraki\s*km\s+([\d.,]+)\s*TL(?:\s*[·•]\s*([\d.,]+)\s*TL\/dk)?/i,
+    );
+    if (firstKm) {
+      const firstKmFee = parseTrNumber(firstKm[1]);
+      perKmFee = parseTrNumber(firstKm[2]);
+      perMinuteFee = parseTrNumber(firstKm[3]);
+      if (firstKmFee != null && perKmFee != null) {
+        // Uygulama formülü opening + mesafe×km; ilk km paketine uyum için açılışı düzelt.
+        openingFee = Number((firstKmFee - perKmFee).toFixed(2));
+        minimumFee = firstKmFee;
+        firstKmInclusive = true;
+      }
+    }
+  }
+
+  // İstanbul tarzı sarı taksi satırı: Açılış | Km | Zaman/dk | Minimum
+  if (openingFee == null) {
+    const sari = html.match(
+      /Sar[ıi]\s*taksi[\s\S]{0,120}?([\d.,]+)\s*TL[\s\S]{0,80}?([\d.,]+)\s*TL\/km[\s\S]{0,80}?([\d.,]+)\s*TL\/dakika[\s\S]{0,80}?([\d.,]+)\s*TL/i,
+    );
+    if (sari) {
+      openingFee = parseTrNumber(sari[1]);
+      perKmFee = parseTrNumber(sari[2]);
+      perMinuteFee = parseTrNumber(sari[3]);
+      minimumFee = parseTrNumber(sari[4]);
+    }
+  }
+
+  if (openingFee == null) {
+    openingFee = parseTrNumber(
+      text.match(/Taksimetre a[cç][ıi]l[ıi][sş][ıi][^\d]{0,40}([\d.,]+)\s*TL/i)?.[1],
+    );
+  }
+  if (openingFee == null) {
+    openingFee = parseTrNumber(
+      text.match(/A[cç][ıi]l[ıi][sş]\s*[üu]creti[^\d]{0,40}([\d.,]+)\s*TL/i)?.[1],
+    );
+  }
+  if (perKmFee == null) {
+    perKmFee = parseTrNumber(
+      text.match(/Kilometre[^\d]{0,40}([\d.,]+)\s*TL/i)?.[1],
+    );
+  }
+  if (minimumFee == null) {
+    minimumFee = parseTrNumber(
+      text.match(/(?:[İi]ndi-?bindi|Minimum)[^\d]{0,40}([\d.,]+)\s*TL/i)?.[1],
+    );
+  }
+  if (perMinuteFee == null) {
+    perMinuteFee = parseTrNumber(
+      text.match(/Bekleme[^\d]{0,40}([\d.,]+)\s*TL\s*\/?\s*dk/i)?.[1],
+    );
+  }
+
+  if (openingFee == null || perKmFee == null || minimumFee == null) {
+    return null;
+  }
+
+  return {
+    id: province.id,
+    name: province.name,
+    shortName: province.shortName,
+    openingFee,
+    perKmFee,
+    minimumFee,
+    perMinuteFee,
+    note: firstKmInclusive
+      ? "taksifiyat.online (ilk 1 km paket; açılış uygulamaya uyarlandı)"
+      : "taksifiyat.online şehir tarifesi",
+    source: "taksifiyat",
+    sourceUrl: TAKSIFIYAT_CITY_URL(province.id),
+  };
+}
+
+async function fetchTaksifiyatCities(provinces) {
+  const byId = new Map(provinces.map((city) => [city.id, city]));
+  const cities = [];
+
+  for (const cityId of TAKSIFIYAT_CITY_IDS) {
+    const province = byId.get(cityId);
+    if (!province) continue;
+    await sleep(FETCH_GAP_MS);
+    try {
+      const html = await fetchText(TAKSIFIYAT_CITY_URL(cityId));
+      const parsed = parseTaksifiyatPage(html, province);
+      if (parsed) cities.push(parsed);
+      else console.warn(`  taksifiyat parse boş: ${cityId}`);
+    } catch (error) {
+      console.warn(`  taksifiyat fail (${cityId}): ${error.message}`);
+    }
+  }
+
+  return cities;
+}
+
 function readPreviousCities() {
   if (!fs.existsSync(OUTPUT)) return [];
   try {
@@ -355,6 +494,11 @@ async function sync() {
   console.log("Eksik iller tamamlanıyor…");
   await fillMissingCities(provinces, byId, previousById);
 
+  console.log("taksifiyat.online şehir tarifeleri çekiliyor…");
+  const taksifiyatCities = await fetchTaksifiyatCities(provinces);
+  console.log(`  ${taksifiyatCities.length} il üzerine yazılacak`);
+  for (const city of taksifiyatCities) byId.set(city.id, city);
+
   const cities = provinces.map((province) => {
     const city = byId.get(province.id);
     if (!city) {
@@ -408,6 +552,12 @@ async function sync() {
         url: "https://taksi724.com/taksi-ucreti-hesapla",
         license: null,
         role: "Hemen Hesap'ta olmayan 6 il",
+      },
+      {
+        id: "taksifiyat",
+        url: "https://taksifiyat.online/",
+        license: null,
+        role: "16 il üzerine yazma (açılış/km/dk/minimum)",
       },
     ],
     fetchedAt: new Date().toISOString(),

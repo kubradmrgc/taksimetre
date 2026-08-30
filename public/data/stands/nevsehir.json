@@ -1,0 +1,1220 @@
+{
+  "cityId": "nevsehir",
+  "cityName": "Nevşehir",
+  "fetchedAt": "2026-08-30T21:22:10.176Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 99,
+  "stands": [
+    {
+      "id": "taksi724-05383725742-0",
+      "name": "Hastane Taksi",
+      "phone": "05383725742",
+      "lat": 38.6751588,
+      "lon": 34.7354302,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521708324-1",
+      "name": "2000 Evler Taksi",
+      "phone": "05521708324",
+      "lat": 38.6392639,
+      "lon": 34.7334817,
+      "address": "Ulaşım Hizmeti · Esengül Sk. No:5/5",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03842153388-2",
+      "name": "niversite Taksi",
+      "phone": "03842153388",
+      "lat": 38.6679237,
+      "lon": 34.7384459,
+      "address": "Ulaşım Hizmeti · Şht. Musa Taşdemir Sk. no:03/A",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05431759611-3",
+      "name": "Bizim Taksi",
+      "phone": "05431759611",
+      "lat": 38.6398579,
+      "lon": 34.7250494,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05520841123-4",
+      "name": "Taksi durağı",
+      "phone": "05520841123",
+      "lat": 38.6458377,
+      "lon": 34.7317671,
+      "address": "Taksi · Zübeyde Hanım Cd. No:117",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05346623565-5",
+      "name": "Taksi durağı",
+      "phone": "05346623565",
+      "lat": 38.627912,
+      "lon": 34.8017931,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332857050-6",
+      "name": "Taksi durağı",
+      "phone": "05332857050",
+      "lat": 38.6401021,
+      "lon": 34.7162794,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05078914762-7",
+      "name": "Taksi durağı",
+      "phone": "05078914762",
+      "lat": 38.6261875,
+      "lon": 34.8030625,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352838691-8",
+      "name": "Forum Kapadokya Taksi",
+      "phone": "05352838691",
+      "lat": 38.627048,
+      "lon": 34.798025,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05529255163-9",
+      "name": "Hastane Taksi",
+      "phone": "05529255163",
+      "lat": 38.6344744,
+      "lon": 34.7082032,
+      "address": "Taksi · Nisa Cd. No:19 D:202",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05405330238-10",
+      "name": "İmdat Taksi",
+      "phone": "05405330238",
+      "lat": 38.6552431,
+      "lon": 34.725031,
+      "address": "Taksi · Nevşehir Nevşehir TR, Saklı Vadi Sokak No:27",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03842136169-11",
+      "name": "Taksi durağı",
+      "phone": "03842136169",
+      "lat": 38.6228302,
+      "lon": 34.7224407,
+      "address": "Taksi Durağı · Bayır Sk. No:22",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05431844950-12",
+      "name": "Taksi durağı",
+      "phone": "05431844950",
+      "lat": 38.6312272,
+      "lon": 34.7972207,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315913150-13",
+      "name": "Taksi durağı",
+      "phone": "05315913150",
+      "lat": 38.6244715,
+      "lon": 34.8040783,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402402550-14",
+      "name": "7 24 Taksi",
+      "phone": "05402402550",
+      "lat": 38.6687095,
+      "lon": 34.7389641,
+      "address": "Taksi · Zübeyde Hanım Cd. No:117",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321621450-15",
+      "name": "Merkez Taksi",
+      "phone": "05321621450",
+      "lat": 38.6277232,
+      "lon": 34.7223883,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366429841-16",
+      "name": "Nevşehir Taksi",
+      "phone": "05366429841",
+      "lat": 38.6092925,
+      "lon": 34.6929689,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05350474790-17",
+      "name": "Nevşehir Forum Taksi",
+      "phone": "05350474790",
+      "lat": 38.6254396,
+      "lon": 34.7240133,
+      "address": "Taksi Durağı ·  · Selimiye Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377149942-18",
+      "name": "Nevşehir Merkez Taksi",
+      "phone": "05377149942",
+      "lat": 38.6345245,
+      "lon": 34.7087663,
+      "address": "Taksi · Bahçeli Sk. No:25",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05548897086-19",
+      "name": "Nevşehir Merkez Taksi",
+      "phone": "05548897086",
+      "lat": 38.6269697,
+      "lon": 34.7198288,
+      "address": "Taksi Durağı ·  · diriliş, Meydan Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327460075-20",
+      "name": "Nevsehir Merkez yaman Taksi",
+      "phone": "05327460075",
+      "lat": 38.6369004,
+      "lon": 34.7330112,
+      "address": "Taksi Durağı · Uygur Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358713937-21",
+      "name": "Nevşehir Taksi",
+      "phone": "05358713937",
+      "lat": 38.632767,
+      "lon": 34.7087654,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414413226-22",
+      "name": "Taksi durağı",
+      "phone": "05414413226",
+      "lat": 38.6283697,
+      "lon": 34.7246314,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336230150-23",
+      "name": "Taksi durağı",
+      "phone": "05336230150",
+      "lat": 38.6282217,
+      "lon": 34.7246496,
+      "address": "Taksi Durağı · Türbe Sk. No:3, 50300",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05520180384-24",
+      "name": "Ses Taksi",
+      "phone": "05520180384",
+      "lat": 38.6311509,
+      "lon": 34.716914,
+      "address": "Taksi Durağı · Gülveren Sk. No: 14",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535135038-25",
+      "name": "Taksi durağı",
+      "phone": "05535135038",
+      "lat": 38.616675,
+      "lon": 34.6952781,
+      "address": "Taksi · YENİ, Sümer, 10. Blok, Sanayi Sitesi No:8",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05343534130-26",
+      "name": "Uçhisar Merkez Taksi",
+      "phone": "05343534130",
+      "lat": 38.6240307,
+      "lon": 34.8044099,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303702032-27",
+      "name": "Üniversite Taksi",
+      "phone": "05303702032",
+      "lat": 38.6251517,
+      "lon": 34.8013423,
+      "address": "Taksi · Çubuk Sk. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05517021550-28",
+      "name": "Üniversite Taksi",
+      "phone": "05517021550",
+      "lat": 38.6704724,
+      "lon": 34.7404198,
+      "address": "Taksi Durağı · Zübeyde Hanım Cd. No: 290",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05431695850-29",
+      "name": "Yazı Taksi",
+      "phone": "05431695850",
+      "lat": 38.67087,
+      "lon": 34.7411167,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05055702024-30",
+      "name": "nevsehir-taksi",
+      "phone": "05055702024",
+      "lat": 38.6279147,
+      "lon": 34.803406,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03843414359-31",
+      "name": "Göreme Taksi",
+      "phone": "03843414359",
+      "lat": 38.583566,
+      "lon": 34.896777,
+      "address": "İmran Mah. Cumhuriyet Meydanı 2 Ürgüp, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389392550-32",
+      "name": "Kapadokya Ürgüp Taksi",
+      "phone": "05389392550",
+      "lat": 38.632063,
+      "lon": 34.916074,
+      "address": "İmran Mah. Güllüce Cad. 2 Ürgüp, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358520411-33",
+      "name": "Ortahisar Taksi",
+      "phone": "05358520411",
+      "lat": 38.6314967,
+      "lon": 34.9126671,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452710602-34",
+      "name": "Taksi",
+      "phone": "05452710602",
+      "lat": 38.6219995,
+      "lon": 34.8653191,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05337669886-35",
+      "name": "Ürgüp Alo Taksi",
+      "phone": "05337669886",
+      "lat": 38.6315691,
+      "lon": 34.9116569,
+      "address": "Taksi Durağı · Kazım Karabekir Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413418586-36",
+      "name": "Ürgüp Elvan Taksi",
+      "phone": "05413418586",
+      "lat": 38.632484,
+      "lon": 34.915467,
+      "address": "İmran Mah. Atatürk Blv. Ürgüp, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-03843414359-37",
+      "name": "Ürgüp Merkez Taksi",
+      "phone": "03843414359",
+      "lat": 38.630648,
+      "lon": 34.911197,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05308903350-38",
+      "name": "Ürgüp Park Taksi",
+      "phone": "05308903350",
+      "lat": 38.631169,
+      "lon": 34.912182,
+      "address": "Ulaşım Hizmeti · Atatürk Blv. No:32",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03843414081-39",
+      "name": "Ürgüp Taksi",
+      "phone": "03843414081",
+      "lat": 38.631488,
+      "lon": 34.9125469,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05313429398-40",
+      "name": "Ürgüp Taksi",
+      "phone": "05313429398",
+      "lat": 38.6295958,
+      "lon": 34.912782,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05378410453-41",
+      "name": "Ürgüp Terminal Taksi",
+      "phone": "05378410453",
+      "lat": 38.6327266,
+      "lon": 34.9288097,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05394621030-42",
+      "name": "Ürgüp Terminal Taksi",
+      "phone": "05394621030",
+      "lat": 38.637261,
+      "lon": 34.9230144,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05336634950-43",
+      "name": "ÜRGÜP TERMiNAL TAKSi",
+      "phone": "05336634950",
+      "lat": 38.6303843,
+      "lon": 34.9116873,
+      "address": "Taksi Durağı · Güllüce Cd. Birlik İş Hanı No: 5",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363414566-44",
+      "name": "Ürgüp Vip Taksi",
+      "phone": "05363414566",
+      "lat": 38.630304,
+      "lon": 34.912218,
+      "address": "Taksi Durağı · İmran Mahallesi, Güllüce Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452230607-45",
+      "name": "nevsehir-taksi",
+      "phone": "05452230607",
+      "lat": 38.62767782,
+      "lon": 34.86266809,
+      "address": "Ortahisar-Bahçelievler Mah. Atatürk Cad. Ürgüp, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03842192003-46",
+      "name": "Form Kapadokya Taksi",
+      "phone": "03842192003",
+      "lat": 38.628096,
+      "lon": 34.795816,
+      "address": "Uçhisar-Aşağı Mah. Belediye Meydanı 16/D Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05529255163-47",
+      "name": "Göreme Taksi",
+      "phone": "05529255163",
+      "lat": 38.63251197,
+      "lon": 34.71293574,
+      "address": "Bahçelievler Mah. Semt Hafız Ömer Sok. 31 Dk:2 Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389392550-48",
+      "name": "Kapadokya Kale Taksi",
+      "phone": "05389392550",
+      "lat": 38.644849,
+      "lon": 34.831334,
+      "address": "Göreme-İsalı-Gaferli-Avcılar Mah. Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432657694-49",
+      "name": "Kapadokya Taksi",
+      "phone": "05432657694",
+      "lat": 38.629744,
+      "lon": 34.800018,
+      "address": "Uçhisar-Tekelli Mah. Hacı Alibey Cad. 22 Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432657694-50",
+      "name": "Konak Taksi",
+      "phone": "05432657694",
+      "lat": 38.628097,
+      "lon": 34.717656,
+      "address": "Yeni Mah. Ragıp Üner Cad. Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-51-51",
+      "name": "Lale Taksi",
+      "phone": null,
+      "lat": 38.62529038,
+      "lon": 34.71518917,
+      "address": "Yeni Mah. Yeni Kayseri Cad. 1 Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05457706550-52",
+      "name": "Nevşehir Forum Kapadokya Taksi",
+      "phone": "05457706550",
+      "lat": 38.62500833,
+      "lon": 34.71221032,
+      "address": "Karasoku Mah. Suer Sok. 14 Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05529255163-53",
+      "name": "Nevşehir Kapadokya Taksi",
+      "phone": "05529255163",
+      "lat": 38.6321728,
+      "lon": 34.71456579,
+      "address": "Bahçelievler Mah. Muşkara Cad. 10 Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432657694-54",
+      "name": "Nevşehir Nevkur Taksi",
+      "phone": "05432657694",
+      "lat": 38.62785394,
+      "lon": 34.71766673,
+      "address": "Yeni Mah. Ragıp Üner Cad. Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300937950-55",
+      "name": "Nevşehir Taksi",
+      "phone": "05300937950",
+      "lat": 38.63062171,
+      "lon": 34.73542747,
+      "address": "Esentepe Mah. Ürgüp Cad. 35 Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432657694-56",
+      "name": "Terminal Taksi",
+      "phone": "05432657694",
+      "lat": 38.65740844,
+      "lon": 34.73053976,
+      "address": "Ragıp Üner Mah. 149. Sok. Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03842141020-57",
+      "name": "nevsehir-taksi",
+      "phone": "03842141020",
+      "lat": 38.601939,
+      "lon": 34.686738,
+      "address": "M.Akif Ersoy Mah. Fevzi Çakmak Cad. Nevşehir Merkez, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413550050-58",
+      "name": "Avanos kapadokya Taksi",
+      "phone": "05413550050",
+      "lat": 38.7172751,
+      "lon": 34.8434543,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03845116969-59",
+      "name": "Avanos Taksi",
+      "phone": "03845116969",
+      "lat": 38.713703,
+      "lon": 34.843255,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03845114520-60",
+      "name": "Avanos Taksi",
+      "phone": "03845114520",
+      "lat": 38.7188456,
+      "lon": 34.8489336,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05331660076-61",
+      "name": "Avanos Vip Taksi",
+      "phone": "05331660076",
+      "lat": 38.7040253,
+      "lon": 34.8429508,
+      "address": "Taksi Durağı · Atatürk Cd. No:19",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05448402365-62",
+      "name": "Erciyes Taksi",
+      "phone": "05448402365",
+      "lat": 38.714121,
+      "lon": 34.843558,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05301420694-63",
+      "name": "Terminal Taksi",
+      "phone": "05301420694",
+      "lat": 38.81274,
+      "lon": 34.835086,
+      "address": "Özkonak-Camicedit Mah. Avanos, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336569065-64",
+      "name": "Avanos Taksi",
+      "phone": "05336569065",
+      "lat": 38.704723,
+      "lon": 34.842567,
+      "address": "Cumhuriyet Mah. Kapadokya Cad. Avanos, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353069383-65",
+      "name": "Kapadokya Havaalanı Taksi",
+      "phone": "05353069383",
+      "lat": 38.7462828,
+      "lon": 34.6188706,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05343544448-66",
+      "name": "Kapadokya Havalimanı Taksi",
+      "phone": "05343544448",
+      "lat": 38.742315,
+      "lon": 34.632615,
+      "address": "Fatih Mah. Fatih Cad. Gülşehir, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304761147-67",
+      "name": "Kapadokya Havalimanı Taksi",
+      "phone": "05304761147",
+      "lat": 38.74334347,
+      "lon": 34.6158106,
+      "address": "Cumhuriyet Mah. Kapadokya Havalimanı Gülşehir, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03843812001-68",
+      "name": "Derinkuyu Taksi",
+      "phone": "03843812001",
+      "lat": 38.3844158,
+      "lon": 34.735573,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353244986-69",
+      "name": "Derinkuyu Taksi",
+      "phone": "05353244986",
+      "lat": 38.3746653,
+      "lon": 34.7333164,
+      "address": "Taksi · Cumhuriyet Meydanı No:11",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03844412525-70",
+      "name": "Hacıbektaş Taksi",
+      "phone": "03844412525",
+      "lat": 38.937458,
+      "lon": 34.554055,
+      "address": "Bala Mah. Atatürk Blv. Hacıbektaş, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05404219400-71",
+      "name": "Hacıbektaş Taksi",
+      "phone": "05404219400",
+      "lat": 38.940299,
+      "lon": 34.5577815,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432657694-72",
+      "name": "Kaplıca Taksi",
+      "phone": "05432657694",
+      "lat": 39.216351,
+      "lon": 34.851034,
+      "address": "Altınsu Mah. Cumhuriyet Cad. Kozaklı, Nevşehir",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-03845114187-73",
+      "name": "EN YAKIN AVANOS TAKSİ",
+      "phone": "03845114187",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05445822361-74",
+      "name": "Avanos TAKSİ ismail ÜVEZ",
+      "phone": "05445822361",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05334772792-75",
+      "name": "Ürgüp Mustafapaşa Taksi",
+      "phone": "05334772792",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05435840812-76",
+      "name": "Terminal taksi durağı ürgüp",
+      "phone": "05435840812",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05413418984-77",
+      "name": "Ürgüp Taksi Kenan Uçar",
+      "phone": "05413418984",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05534187519-78",
+      "name": "Taksici Emre - Ürgüp",
+      "phone": "05534187519",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-03842131420-79",
+      "name": "Tümü → 2000 Evler Taksi AÇIK · 7 gün 24 saat 2000 Evler, Şht. Musa Taşdemir Sk. ",
+      "phone": "03842131420",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05333030972-80",
+      "name": "Nevkur Taksi AÇIK · 7 gün 24 saat Güzelyurt, Ürgüp Cd. No:37, 50300 Nevşehir Mer",
+      "phone": "05333030972",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05424114642-81",
+      "name": "Nevşehir Forum Taksi AÇIK · 7 gün 24 saat Bahçelievler, Forum Kapadokya taksi du",
+      "phone": "05424114642",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05385140888-82",
+      "name": "Nevşehir Merkez Taksi Duragı AÇIK · 7 gün 24 saat 350 Evler, Selimiye Cd. No:1, ",
+      "phone": "05385140888",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05350705034-83",
+      "name": "Ses Taksi AÇIK · 7 gün 24 saat Sümer, Eski Sanayi Meydanı No:60, 50040 Nevşehir ",
+      "phone": "05350705034",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05537098565-84",
+      "name": "Acıgöl Taksi AÇIK · 7 gün 24 saat Çayırlık Mahallesi Sütçü İmam Sokak, Otogar, 5",
+      "phone": "05537098565",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05363435411-85",
+      "name": "Tümü → Gül Taksi Gülşehir AÇIK · 7 gün 24 saat Çalışanlar, Kızılırmak Cd. Pk:509",
+      "phone": "05363435411",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05554219400-86",
+      "name": "Tümü → Dergah Taksi AÇIK · 7 gün 24 saat Bala, Bektaş Efendi Sk. Pk:50800, 50800",
+      "phone": "05554219400",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05543806485-87",
+      "name": "Taksici Abidin Tunçbilek",
+      "phone": "05543806485",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03843412464-88",
+      "name": "Ürgüp Taksi Durağı",
+      "phone": "03843412464",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05345810000-89",
+      "name": "Ürgüp Taksi Turgut AÇIK · 7 gün 24 saat Cumhuriyet mahallesi, Mehmet Akif Ersoy ",
+      "phone": "05345810000",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05305403733-90",
+      "name": "Ürgüp Vip Taksi Ömer",
+      "phone": "05305403733",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05307942550-91",
+      "name": "Bizim Taksi - Serdar Köse",
+      "phone": "05307942550",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05448870050-92",
+      "name": "Çiçek Taksi - Emrah Çiçekli",
+      "phone": "05448870050",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05050765050-93",
+      "name": "Forum Kapadokya Taksi - Yahya Küçükköylü",
+      "phone": "05050765050",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05331391129-94",
+      "name": "Hastane Taksi - Serdar Köse",
+      "phone": "05331391129",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05526813500-95",
+      "name": "Hastane Taksi - Vedat Köylü",
+      "phone": "05526813500",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05352484382-96",
+      "name": "Hastane Taksi - Yasin Köse",
+      "phone": "05352484382",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05315850591-97",
+      "name": "Terminal Taksi - Ali Seçen",
+      "phone": "05315850591",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05050594450-98",
+      "name": "Üniversite Taksi - Mustafa Gençer",
+      "phone": "05050594450",
+      "lat": 38.6244,
+      "lon": 34.7239,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

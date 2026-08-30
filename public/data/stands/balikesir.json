@@ -1,0 +1,3445 @@
+{
+  "cityId": "balikesir",
+  "cityName": "Balıkesir",
+  "fetchedAt": "2026-08-30T21:28:21.577Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "altieylul",
+      "name": "Altieylul",
+      "count": 54
+    },
+    {
+      "id": "ayvalik",
+      "name": "Ayvalik",
+      "count": 15
+    },
+    {
+      "id": "bandirma",
+      "name": "Bandirma",
+      "count": 35
+    },
+    {
+      "id": "bigadic",
+      "name": "Bigadic",
+      "count": 4
+    },
+    {
+      "id": "burhaniye",
+      "name": "Burhaniye",
+      "count": 9
+    },
+    {
+      "id": "dursunbey",
+      "name": "Dursunbey",
+      "count": 2
+    },
+    {
+      "id": "edremit",
+      "name": "Edremit",
+      "count": 35
+    },
+    {
+      "id": "erdek",
+      "name": "Erdek",
+      "count": 4
+    },
+    {
+      "id": "gomec",
+      "name": "Gomec",
+      "count": 5
+    },
+    {
+      "id": "gonen",
+      "name": "Gonen",
+      "count": 12
+    },
+    {
+      "id": "havran",
+      "name": "Havran",
+      "count": 2
+    },
+    {
+      "id": "ivrindi",
+      "name": "İvrindi",
+      "count": 3
+    },
+    {
+      "id": "karesi",
+      "name": "Karesi",
+      "count": 2
+    },
+    {
+      "id": "kepsut",
+      "name": "Kepsut",
+      "count": 4
+    },
+    {
+      "id": "manyas",
+      "name": "Manyas",
+      "count": 3
+    },
+    {
+      "id": "marmara",
+      "name": "Marmara",
+      "count": 6
+    },
+    {
+      "id": "sindirgi",
+      "name": "Sindirgi",
+      "count": 1
+    },
+    {
+      "id": "susurluk",
+      "name": "Susurluk",
+      "count": 7
+    }
+  ],
+  "count": 221,
+  "stands": [
+    {
+      "id": "taksi724-02662230110-0",
+      "name": "26 Evler Nef Taksi",
+      "phone": "02662230110",
+      "website": null,
+      "lat": 39.624918,
+      "lon": 27.900301,
+      "address": "Bahçelievler Mah. Sakin Sok. 1 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05494970065-1",
+      "name": "52 Evler Taksi",
+      "phone": "05494970065",
+      "website": null,
+      "lat": 39.631583,
+      "lon": 27.879576,
+      "address": "Kasaplar Mah. 23 Soma Cad. 80 Altıeylül, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662447775-2",
+      "name": "Adnan Menderes Taksi",
+      "phone": "02662447775",
+      "website": null,
+      "lat": 39.653918,
+      "lon": 27.896672,
+      "address": "Atatürk Mah. İsabey Cad. Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662240707-3",
+      "name": "Adnan Menderes Taksi",
+      "phone": "02662240707",
+      "website": null,
+      "lat": 39.6532365,
+      "lon": 27.8591467,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662240707-4",
+      "name": "Atatürk Şehir Hastanesi Taksi",
+      "phone": "02662240707",
+      "website": null,
+      "lat": 39.655578,
+      "lon": 27.853936,
+      "address": "Adnan Menderes Mah. 128. Cad. Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05515907416-5",
+      "name": "Avlu Taksi",
+      "phone": "05515907416",
+      "website": null,
+      "lat": 39.6134572,
+      "lon": 27.8899854,
+      "address": "Taksi Durağı ·  · 12088. Sk. No:8/2",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05515907316-6",
+      "name": "Bahçeli evler 100.yıl Taksi",
+      "phone": "05515907316",
+      "website": null,
+      "lat": 39.6541426,
+      "lon": 27.9022019,
+      "address": "Taksi Durağı · Laleli Sk. No:45",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662230110-7",
+      "name": "Bahçelievler Taksi",
+      "phone": "02662230110",
+      "website": null,
+      "lat": 39.627358,
+      "lon": 27.899008,
+      "address": "Taksi Durağı · Altıeylül, 100. Yıl Cad., Balıkesir Merkez",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302620266-8",
+      "name": "BALIKESiR STAD TAKSi",
+      "phone": "05302620266",
+      "website": null,
+      "lat": 39.636025,
+      "lon": 27.890802,
+      "address": "Bahçelievler Mah. Teknik Lise Cad. 26 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402446800-9",
+      "name": "Balıkesir Gar Taksi",
+      "phone": "05402446800",
+      "website": null,
+      "lat": 39.641299,
+      "lon": 27.886114,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662454090-10",
+      "name": "Balıkesir Kuvayi Milliye Taksi",
+      "phone": "02662454090",
+      "website": null,
+      "lat": 39.647085,
+      "lon": 27.888459,
+      "address": "Taksi Durağı ·  · Vasıf Çınar Cd. No:26/B",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314361010-11",
+      "name": "Balıkesir Taksi",
+      "phone": "05314361010",
+      "website": null,
+      "lat": 39.6570974,
+      "lon": 27.8680187,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423981915-12",
+      "name": "Balıkesir Taksi",
+      "phone": "05423981915",
+      "website": null,
+      "lat": 39.6450843,
+      "lon": 27.8798321,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05616141516-13",
+      "name": "Balıkesir Yaylada Taksi",
+      "phone": "05616141516",
+      "website": null,
+      "lat": 39.61783,
+      "lon": 27.8903189,
+      "address": "Taksi · Yeni İzmir Cd No:184 No:184",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05397464224-14",
+      "name": "Çağlayan Taksi",
+      "phone": "05397464224",
+      "website": null,
+      "lat": 39.6567768,
+      "lon": 27.9054525,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05518897393-15",
+      "name": "Can Taksi",
+      "phone": "05518897393",
+      "website": null,
+      "lat": 39.651326,
+      "lon": 27.888526,
+      "address": "Ege Mah. Demirciler Cad. Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05616141516-16",
+      "name": "Çardaklı Taksi",
+      "phone": "05616141516",
+      "website": null,
+      "lat": 39.641078,
+      "lon": 27.88028,
+      "address": "Kasaplar Mah. Söğütlü Pınar Sok. 1/A Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662452977-17",
+      "name": "Cengiz topel cad.Çimen Taksi",
+      "phone": "02662452977",
+      "website": null,
+      "lat": 39.641213,
+      "lon": 27.881545,
+      "address": "Kasaplar Mah. Atalar Cad. 122/A Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326424820-18",
+      "name": "Çiçek Taksi",
+      "phone": "05326424820",
+      "website": null,
+      "lat": 39.642726,
+      "lon": 27.892717,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302620266-19",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05302620266",
+      "website": null,
+      "lat": 39.6268194,
+      "lon": 27.88678,
+      "address": "Taksi Durağı · Şht. Birol Koç Cd. No:107",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05441000197-20",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05441000197",
+      "website": null,
+      "lat": 39.6206539,
+      "lon": 27.8957436,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05301560220-21",
+      "name": "Durmaz Taksi",
+      "phone": "05301560220",
+      "website": null,
+      "lat": 39.620797,
+      "lon": 27.8961614,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02662415385-22",
+      "name": "Esas 10 Burda Taksi",
+      "phone": "02662415385",
+      "website": null,
+      "lat": 39.643028,
+      "lon": 27.899711,
+      "address": "1.Gündoğan Mah. Kaptan Cad. Altıeylül, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05067154410-23",
+      "name": "Fatih Taksi",
+      "phone": "05067154410",
+      "website": null,
+      "lat": 39.6186329,
+      "lon": 27.8921122,
+      "address": "Taksi Durağı · 12088. Sk. No:2",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05377070295-24",
+      "name": "Fuar Taksi",
+      "phone": "05377070295",
+      "website": null,
+      "lat": 39.651467,
+      "lon": 27.884748,
+      "address": "Ege Mah. Demirciler Cad. 17 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434214488-25",
+      "name": "Garaj Taksi",
+      "phone": "05434214488",
+      "website": null,
+      "lat": 39.643828,
+      "lon": 27.884765,
+      "address": "Taksi Durağı ·  · Bahçelievler Stadyum Caddesi No:2, Kurtdereli Spor salonu önünde",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-26-26",
+      "name": "Gülaç Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.658021,
+      "lon": 27.883812,
+      "address": "Maltepe Mah. Yavuz Sok. 13 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05330230150-27",
+      "name": "Horozlu Hastane Taksi",
+      "phone": "05330230150",
+      "website": null,
+      "lat": 39.642532,
+      "lon": 27.896051,
+      "address": "Gümüşçesme Mah. Refik Cesur Cad. 32 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662437676-28",
+      "name": "Horozlu Taksi",
+      "phone": "02662437676",
+      "website": null,
+      "lat": 39.652029,
+      "lon": 27.889695,
+      "address": "Atatürk Mah. Yeniyol Cad. 5 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662437676-29",
+      "name": "Karizma Taksi",
+      "phone": "02662437676",
+      "website": null,
+      "lat": 39.6537,
+      "lon": 27.8908031,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662281311-30",
+      "name": "Kartal Taksi",
+      "phone": "02662281311",
+      "website": null,
+      "lat": 39.66351,
+      "lon": 27.897815,
+      "address": "Paşaalanı Mah. 168. Sok. (Karizma Spor Tesisleri Yanı) Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05616141516-31",
+      "name": "Kızpınar Taksi",
+      "phone": "05616141516",
+      "website": null,
+      "lat": 39.648763,
+      "lon": 27.879279,
+      "address": "Karaoğlan Mah. Zağnos Paşa Cad. (Paşa Camii Yanı) Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662244814-32",
+      "name": "Konak Taksi",
+      "phone": "02662244814",
+      "website": null,
+      "lat": 39.65405,
+      "lon": 27.863141,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02662456762-33",
+      "name": "Koray Taksi",
+      "phone": "02662456762",
+      "website": null,
+      "lat": 39.646335,
+      "lon": 27.883656,
+      "address": "Eski Kuyumcular Mah. Hacı Gaybi Sok. 16/A Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05445360093-34",
+      "name": "Koray Taksi",
+      "phone": "05445360093",
+      "website": null,
+      "lat": 39.6539266,
+      "lon": 27.8844788,
+      "address": "Taksi Durağı · Tarlabaşı Cd. No:1",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445360093-35",
+      "name": "Köşk Taksi",
+      "phone": "05445360093",
+      "website": null,
+      "lat": 39.653626,
+      "lon": 27.886978,
+      "address": "Ali Hikmet Paşa Mah. Tarlabaşı Cad. Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05392315017-36",
+      "name": "Köşk Taksi",
+      "phone": "05392315017",
+      "website": null,
+      "lat": 39.6649709,
+      "lon": 27.8880026,
+      "address": "Taksi · Yıldırım Sk. No:50",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436473263-37",
+      "name": "Mehmetçik Taksi",
+      "phone": "05436473263",
+      "website": null,
+      "lat": 39.6646225,
+      "lon": 27.8884286,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02662216222-38",
+      "name": "Merkez Taksi",
+      "phone": "02662216222",
+      "website": null,
+      "lat": 39.635577,
+      "lon": 27.88651,
+      "address": "Bahçeli Evler Mah. Mehmetçik Cad. 69 (Mehmetçik İlköğretim Okulu Karşısı) Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662449137-39",
+      "name": "Meydan Taksi",
+      "phone": "02662449137",
+      "website": null,
+      "lat": 39.6485618,
+      "lon": 27.8889322,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05346668480-40",
+      "name": "26 evler balikesir Taksi",
+      "phone": "05346668480",
+      "website": null,
+      "lat": 39.6473701,
+      "lon": 27.8813093,
+      "address": "Taksi Durağı · Bankalar Sk. No:2",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05494970065-41",
+      "name": "Pınar Taksi",
+      "phone": "05494970065",
+      "website": null,
+      "lat": 39.6371535,
+      "lon": 27.8807153,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05327658554-42",
+      "name": "Şadırvan Taksi",
+      "phone": "05327658554",
+      "website": null,
+      "lat": 39.656991,
+      "lon": 27.874902,
+      "address": "Taksi Durağı · 1.Sakarya Mahallesi, Özdemir Sokak",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369285731-43",
+      "name": "Şadırvan Taksi",
+      "phone": "05369285731",
+      "website": null,
+      "lat": 39.6447878,
+      "lon": 27.8799561,
+      "address": "Taksi · Anafartalar Cd. No:60",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377070295-44",
+      "name": "Sevgi Taksi",
+      "phone": "05377070295",
+      "website": null,
+      "lat": 39.644781,
+      "lon": 27.879964,
+      "address": "Taksi Durağı · 60 Anafartalar Caddesi",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-45-45",
+      "name": "Kule Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.665469,
+      "lon": 27.909929,
+      "address": "Paşa Alanı Mah. 128. Sok. Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662397080-46",
+      "name": "Taksi",
+      "phone": "02662397080",
+      "website": null,
+      "lat": 39.6454811,
+      "lon": 27.8799211,
+      "address": "Taksi Durağı · Altieylul Mah. 4, Anafartalar Cd. No:29/B",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400100054-47",
+      "name": "Terminal Taksi",
+      "phone": "05400100054",
+      "website": null,
+      "lat": 39.6469401,
+      "lon": 27.8887572,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662464046-48",
+      "name": "Toygar Taksi",
+      "phone": "02662464046",
+      "website": null,
+      "lat": 39.677697,
+      "lon": 27.941826,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364873363-49",
+      "name": "Toygar Taksi",
+      "phone": "05364873363",
+      "website": null,
+      "lat": 39.658779,
+      "lon": 27.892154,
+      "address": "Taksi Durağı · no:58 İmam Hatip Caddesi",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364873363-50",
+      "name": "Uğur Taksi",
+      "phone": "05364873363",
+      "website": null,
+      "lat": 39.656074,
+      "lon": 27.891518,
+      "address": "Ali Hikmet Paşa Mah. Ömer Ali Bey Cad. 1 Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384474767-51",
+      "name": "Yaprak Taksi",
+      "phone": "05384474767",
+      "website": null,
+      "lat": 39.6540105,
+      "lon": 27.8767206,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05397464224-52",
+      "name": "Yonca Taksi",
+      "phone": "05397464224",
+      "website": null,
+      "lat": 39.648451,
+      "lon": 27.884496,
+      "address": "Yıldırım Mah. Milli Kuvvetler Cad. Paşa Saray Sok. Balıkesir Merkez, Balıkesir",
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432660126-53",
+      "name": "balikesir-taksi",
+      "phone": "05432660126",
+      "website": null,
+      "lat": 39.6492884,
+      "lon": 27.8540383,
+      "address": null,
+      "districtId": "altieylul",
+      "districtName": "Altieylul",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05533323228-54",
+      "name": "Akçay Emniyet Taksi",
+      "phone": "05533323228",
+      "website": null,
+      "lat": 39.571543,
+      "lon": 26.9435886,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-55-55",
+      "name": "Akcay en yakin Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.583822,
+      "lon": 26.924504,
+      "address": "Akçay-Cumhuriyet Mah. Cumhuriyet Cad. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324502253-56",
+      "name": "Altınkum Taksi",
+      "phone": "05324502253",
+      "website": null,
+      "lat": 39.582437,
+      "lon": 26.932917,
+      "address": "Taksi Durağı · Oruç Reis Cd. 8. Sk.",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345079494-57",
+      "name": "Altınkum Turban Taksi",
+      "phone": "05345079494",
+      "website": null,
+      "lat": 39.576803,
+      "lon": 26.934954,
+      "address": "Zeytinli-Çay Mah. 1001. Sok. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308963230-58",
+      "name": "Avcılar Taksi",
+      "phone": "05308963230",
+      "website": null,
+      "lat": 39.5787576,
+      "lon": 26.9414295,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423977029-59",
+      "name": "AVM Taksi",
+      "phone": "05423977029",
+      "website": null,
+      "lat": 39.5693376,
+      "lon": 26.8056988,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461003257-60",
+      "name": "Civan Taksi",
+      "phone": "05461003257",
+      "website": null,
+      "lat": 39.5989664,
+      "lon": 26.9840539,
+      "address": "Taksi Durağı · Güven Sok No:6",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362803107-61",
+      "name": "Deniz Taksi",
+      "phone": "05362803107",
+      "website": null,
+      "lat": 39.579004,
+      "lon": 26.931788,
+      "address": "Akçay-Sarıkız Mah. Fatih Cad. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663841875-62",
+      "name": "Edremit Bayramyeri Taksi",
+      "phone": "02663841875",
+      "website": null,
+      "lat": 39.583222,
+      "lon": 26.924504,
+      "address": "Cumhuriyet Mah. Cumhuriyet Blv. Akçay, Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436528174-63",
+      "name": "Edremit Devlet Hastanesi Taksi",
+      "phone": "05436528174",
+      "website": null,
+      "lat": 39.593709,
+      "lon": 27.023936,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323497066-64",
+      "name": "Edremit Taksi",
+      "phone": "05323497066",
+      "website": null,
+      "lat": 39.58767054,
+      "lon": 27.02366525,
+      "address": "Cennetayağı Mah. İstasyon Cad. 10 Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541239706-65",
+      "name": "Fener Taksi",
+      "phone": "05541239706",
+      "website": null,
+      "lat": 39.5867113,
+      "lon": 27.0282919,
+      "address": "Taksi · 795. Sk. no:10",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663882091-66",
+      "name": "Garaj Taksi",
+      "phone": "02663882091",
+      "website": null,
+      "lat": 39.5614282,
+      "lon": 26.8372797,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358553030-67",
+      "name": "Güre 7 24 Taksi",
+      "phone": "05358553030",
+      "website": null,
+      "lat": 39.568911,
+      "lon": 26.754334,
+      "address": "Altınoluk-İskele Mah. Altınoluk Otogarı Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05331943086-68",
+      "name": "Güre Hattuşa Taksi",
+      "phone": "05331943086",
+      "website": null,
+      "lat": 39.5864636,
+      "lon": 26.879999,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427153223-69",
+      "name": "Güre Taksi",
+      "phone": "05427153223",
+      "website": null,
+      "lat": 39.5917931,
+      "lon": 26.8890104,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348670701-70",
+      "name": "/ Hattuşa Taksi",
+      "phone": "05348670701",
+      "website": null,
+      "lat": 39.5849919,
+      "lon": 26.890298,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327072621-71",
+      "name": "Havaalanı Taksi",
+      "phone": "05327072621",
+      "website": null,
+      "lat": 39.5882016,
+      "lon": 26.8847283,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02662464046-72",
+      "name": "Huzur Taksi",
+      "phone": "02662464046",
+      "website": null,
+      "lat": 39.561405,
+      "lon": 27.031111,
+      "address": "Bostancı Köyü Körfez Havaalanı Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373853089-73",
+      "name": "İda Taksi",
+      "phone": "05373853089",
+      "website": null,
+      "lat": 39.592075,
+      "lon": 27.022558,
+      "address": "Camivasat Mah. Ulu Garaj Cad. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663854444-74",
+      "name": "Ida Taksi",
+      "phone": "02663854444",
+      "website": null,
+      "lat": 39.586893,
+      "lon": 26.924872,
+      "address": "Taksi · Oruç Reis Cad. Dumanlıkent Sitesi No:1",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663854444-75",
+      "name": "Ilıca Taksi",
+      "phone": "02663854444",
+      "website": null,
+      "lat": 39.585734,
+      "lon": 26.933518,
+      "address": "Akçay-Cumhuriyet Mah. Oruç Reis Cad. 1 Dumanlıkent Sit. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348670701-76",
+      "name": "Ilıca Taksi",
+      "phone": "05348670701",
+      "website": null,
+      "lat": 39.612727,
+      "lon": 26.894488,
+      "address": "Güre-İskele Mah. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05476641907-77",
+      "name": "Koca Seyit Havalimanı Taksi",
+      "phone": "05476641907",
+      "website": null,
+      "lat": 39.586434,
+      "lon": 26.880079,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421883706-78",
+      "name": "Körfez Taksi",
+      "phone": "05421883706",
+      "website": null,
+      "lat": 39.5485559,
+      "lon": 27.0139469,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432697835-79",
+      "name": "Meydan Taksi",
+      "phone": "05432697835",
+      "website": null,
+      "lat": 39.599263,
+      "lon": 26.99322,
+      "address": "Kadıköy Mah. Mehmet Akif Ersoy Cad. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05070149234-80",
+      "name": "Otagar Taksi",
+      "phone": "05070149234",
+      "website": null,
+      "lat": 39.567508,
+      "lon": 26.742599,
+      "address": "İskele Mah. Mithatpaşa Cad. Altınoluk, Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663841180-81",
+      "name": "Otogar Taksi",
+      "phone": "02663841180",
+      "website": null,
+      "lat": 39.5890608,
+      "lon": 26.9272476,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05616141516-82",
+      "name": "Otogar Taksi",
+      "phone": "05616141516",
+      "website": null,
+      "lat": 39.589597,
+      "lon": 27.028958,
+      "address": "Akçay-Cumhuriyet Mah. Belediye Otogarı Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358553030-83",
+      "name": "Sahil Taksi",
+      "phone": "05358553030",
+      "website": null,
+      "lat": 39.593001,
+      "lon": 27.013703,
+      "address": "Hamidiye Mah. Yeni Garaj Cad. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663962348-84",
+      "name": "Sarıkız Taksi",
+      "phone": "02663962348",
+      "website": null,
+      "lat": 39.567156,
+      "lon": 26.747345,
+      "address": "Altınoluk-İskele Mah. Atatürk Cad. 31 Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382027113-85",
+      "name": "Ssk Hastane Taksi",
+      "phone": "05382027113",
+      "website": null,
+      "lat": 39.581792,
+      "lon": 26.929853,
+      "address": "Sarıkız Mah. Sakarya Cad. 48/K Akçay, Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323497066-86",
+      "name": "Taksi",
+      "phone": "05323497066",
+      "website": null,
+      "lat": 39.5860953,
+      "lon": 27.0261975,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05070149234-87",
+      "name": "Turizm Taksi",
+      "phone": "05070149234",
+      "website": null,
+      "lat": 39.593877,
+      "lon": 27.0207414,
+      "address": null,
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364873363-88",
+      "name": "balikesir-taksi",
+      "phone": "05364873363",
+      "website": null,
+      "lat": 39.590313,
+      "lon": 27.020875,
+      "address": "Camivasat Mah. 9 Eylül Cad. Edremit, Balıkesir",
+      "districtId": "edremit",
+      "districtName": "Edremit",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468892118-89",
+      "name": "Adliye Taksi",
+      "phone": "05468892118",
+      "website": null,
+      "lat": 40.343401,
+      "lon": 27.994065,
+      "address": "100. Yıl Mah. Nato Cad. 122 Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362493405-90",
+      "name": "Anıl Taksi",
+      "phone": "05362493405",
+      "website": null,
+      "lat": 40.341581,
+      "lon": 27.992708,
+      "address": "100. Yıl Mah. 1505. Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667136007-91",
+      "name": "Asya Taksi",
+      "phone": "02667136007",
+      "website": null,
+      "lat": 40.347272,
+      "lon": 27.978425,
+      "address": "17 Eylül Mah. 809. Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353637108-92",
+      "name": "Çimen Taksi",
+      "phone": "05353637108",
+      "website": null,
+      "lat": 40.349642,
+      "lon": 27.974073,
+      "address": "17 Eylül Mah. Atatürk Cad. 26 Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667187922-93",
+      "name": "Çınar Taksi",
+      "phone": "02667187922",
+      "website": null,
+      "lat": 40.351286,
+      "lon": 27.9729119,
+      "address": "Taksi Durağı · Atatürk Cd. No:66",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05477222237-94",
+      "name": "Cüneyt Vip Taksi",
+      "phone": "05477222237",
+      "website": null,
+      "lat": 40.3486961,
+      "lon": 27.9888772,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05392111717-95",
+      "name": "Demet Taksi",
+      "phone": "05392111717",
+      "website": null,
+      "lat": 40.339472,
+      "lon": 27.993335,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667140385-96",
+      "name": "Emniyet Taksi",
+      "phone": "02667140385",
+      "website": null,
+      "lat": 40.344856,
+      "lon": 27.96705,
+      "address": "Paşabayır Mah. Ordu Cad. 152 Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663841742-97",
+      "name": "Emniyet Taksi",
+      "phone": "02663841742",
+      "website": null,
+      "lat": 39.650838,
+      "lon": 27.892755,
+      "address": "Atatürk Mah. Bandırma Cad. Balıkesir Merkez, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05421332072-98",
+      "name": "Geçit Taksi",
+      "phone": "05421332072",
+      "website": null,
+      "lat": 39.651438,
+      "lon": 27.892755,
+      "address": "Atatürk Mah. Bandırma Cad. Balıkesir Merkez, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05437614279-99",
+      "name": "Gül Taksi",
+      "phone": "05437614279",
+      "website": null,
+      "lat": 40.34901,
+      "lon": 27.97237,
+      "address": "Sunullah Mah. 18. Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462175563-100",
+      "name": "Gül Taksi",
+      "phone": "05462175563",
+      "website": null,
+      "lat": 40.3470123,
+      "lon": 27.9687184,
+      "address": "Taksi Durağı · Mustafa Zeybek Sokak No:1",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366532267-101",
+      "name": "Hastane Taksi",
+      "phone": "05366532267",
+      "website": null,
+      "lat": 40.3468664,
+      "lon": 27.969034,
+      "address": "Taksi Durağı ·  · M. Zeybek Sk. No:2",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667381138-102",
+      "name": "Hastane Taksi",
+      "phone": "02667381138",
+      "website": null,
+      "lat": 40.338039,
+      "lon": 27.935593,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-103-103",
+      "name": "İdo Ayyıldız Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.339377,
+      "lon": 27.948214,
+      "address": "Yeni Mah. Gönen Yolu Cad. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427133014-104",
+      "name": "Kanarya Taksi",
+      "phone": "05427133014",
+      "website": null,
+      "lat": 40.351013,
+      "lon": 27.9422182,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-105-105",
+      "name": "Kurtuluş Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.352786,
+      "lon": 27.9812,
+      "address": "İhsaniye Mah. 66. Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-106-106",
+      "name": "Levent Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.355727,
+      "lon": 27.972858,
+      "address": "Hacı Yusuf Mah. Hacı Yusuf Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359329162-107",
+      "name": "Menekşe Taksi",
+      "phone": "05359329162",
+      "website": null,
+      "lat": 40.3584823,
+      "lon": 27.9958676,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667211404-108",
+      "name": "Murat Taksi",
+      "phone": "02667211404",
+      "website": null,
+      "lat": 40.336771,
+      "lon": 27.989316,
+      "address": "Taksi Durağı · 600 Evler Atatürk Cd. No:34",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667187211-109",
+      "name": "Murat Taksi",
+      "phone": "02667187211",
+      "website": null,
+      "lat": 40.359426,
+      "lon": 27.9744239,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-110-110",
+      "name": "Otogar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.360029,
+      "lon": 27.976985,
+      "address": "Hacı Yusuf Mah. Levent Cad. 3 Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667210248-111",
+      "name": "Özgürlük Taksi",
+      "phone": "02667210248",
+      "website": null,
+      "lat": 40.344915,
+      "lon": 27.983238,
+      "address": "17 Eylül Mah. Gazanfer Bilge Cad. (Eski Otogar Karşısı) Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667123005-112",
+      "name": "Poyraz 10.5 Taksi",
+      "phone": "02667123005",
+      "website": null,
+      "lat": 40.3425371,
+      "lon": 27.9558683,
+      "address": "Taksi Durağı · Mehmetçik Cd. No:16",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421332072-113",
+      "name": "Saray Taksi",
+      "phone": "05421332072",
+      "website": null,
+      "lat": 40.3541477,
+      "lon": 27.9769851,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-114-114",
+      "name": "Şenol Umut Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.353298,
+      "lon": 27.970315,
+      "address": "Haydar Çavuş Mah. İsmet İnönü Cad. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372738182-115",
+      "name": "Siteler Taksi",
+      "phone": "05372738182",
+      "website": null,
+      "lat": 40.3541767,
+      "lon": 27.977044,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667183919-116",
+      "name": "Soğuksu Taksi",
+      "phone": "02667183919",
+      "website": null,
+      "lat": 40.343676,
+      "lon": 27.960607,
+      "address": "Paşakonak Mah. Mehmetçik Cad. 1041. Sok. 1 Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667182917-117",
+      "name": "Tanı Taksi",
+      "phone": "02667182917",
+      "website": null,
+      "lat": 40.349021,
+      "lon": 27.9652259,
+      "address": "Taksi Durağı · Mehmetçik Cd. No:57",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667122119-118",
+      "name": "Tekel Taksi",
+      "phone": "02667122119",
+      "website": null,
+      "lat": 40.349116,
+      "lon": 27.977396,
+      "address": "17 Eylül Mah. Fabrika Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05437614279-119",
+      "name": "Yılmaz Taksi",
+      "phone": "05437614279",
+      "website": null,
+      "lat": 40.351418,
+      "lon": 27.968153,
+      "address": "Paşabayır Mah. Tekel Sok. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667181857-120",
+      "name": "balikesir-taksi",
+      "phone": "02667181857",
+      "website": null,
+      "lat": 40.353998,
+      "lon": 27.973829,
+      "address": "Günaydın Mah. Eski İtfaiye Cad. Bandırma, Balıkesir",
+      "districtId": "bandirma",
+      "districtName": "Bandirma",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667621694-121",
+      "name": "Gönen Hastane Taksi",
+      "phone": "02667621694",
+      "website": null,
+      "lat": 40.108615,
+      "lon": 27.650202,
+      "address": "Altay Mah. Şehit Fehmi Ercan Cad. Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-122-122",
+      "name": "Gönen Karşıyaka Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.095031,
+      "lon": 27.64877,
+      "address": "Tırnova Mah. Hastane Cad. 6 Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05477621010-123",
+      "name": "Gönen Kurtuluş Taksi",
+      "phone": "05477621010",
+      "website": null,
+      "lat": 40.1110586,
+      "lon": 27.639533,
+      "address": "Taksi Durağı ·  · Şht. Kadir Aslan Cd. No:47",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667621120-124",
+      "name": "Gönen Taksi",
+      "phone": "02667621120",
+      "website": null,
+      "lat": 40.1036093,
+      "lon": 27.6705372,
+      "address": null,
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425539647-125",
+      "name": "Gönen Taksi",
+      "phone": "05425539647",
+      "website": null,
+      "lat": 40.1023585,
+      "lon": 27.6541547,
+      "address": "Taksi Durağı ·  · Odun Pazarı Cd. No:8",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436172700-126",
+      "name": "Huzur Taksi",
+      "phone": "05436172700",
+      "website": null,
+      "lat": 40.0944888,
+      "lon": 27.6596187,
+      "address": null,
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425206466-127",
+      "name": "Malkoç Taksi",
+      "phone": "05425206466",
+      "website": null,
+      "lat": 40.099643,
+      "lon": 27.652342,
+      "address": "Plevne Mah. 31. Sok. 4 Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427909839-128",
+      "name": "Meydan Taksi",
+      "phone": "05427909839",
+      "website": null,
+      "lat": 40.106831,
+      "lon": 27.650221,
+      "address": "Akçaali Mah. Atatürk Cad. Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387792856-129",
+      "name": "Plevne Taksi",
+      "phone": "05387792856",
+      "website": null,
+      "lat": 40.10848371,
+      "lon": 27.65022346,
+      "address": "Altay Mah. Şehit Fehmi Ercan Cad. Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05616141516-130",
+      "name": "Plevne Taksi",
+      "phone": "05616141516",
+      "website": null,
+      "lat": 40.10153,
+      "lon": 27.651349,
+      "address": "Plevne Mah. Balya Cad. Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425206466-131",
+      "name": "Yıldız Taksi",
+      "phone": "05425206466",
+      "website": null,
+      "lat": 40.10093,
+      "lon": 27.651349,
+      "address": "Plevne Mah. Balya Cad. Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02667622018-132",
+      "name": "balikesir-taksi",
+      "phone": "02667622018",
+      "website": null,
+      "lat": 40.109932,
+      "lon": 27.650561,
+      "address": "Altay Mah. 10. Sok. Gönen, Balıkesir",
+      "districtId": "gonen",
+      "districtName": "Gonen",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304266641-133",
+      "name": "Ayvalık Lale Adası Taksi",
+      "phone": "05304266641",
+      "website": null,
+      "lat": 39.332116,
+      "lon": 26.710464,
+      "address": "Ali Çetinkaya Mah. Atatürk Blv. 22 (Belediye Garajı İçinde) Ayvalık, Balıkesir",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05305244011-134",
+      "name": "Çamlık Taksi",
+      "phone": "05305244011",
+      "website": null,
+      "lat": 39.333608,
+      "lon": 26.7087204,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663127931-135",
+      "name": "Cunda Taksi",
+      "phone": "02663127931",
+      "website": null,
+      "lat": 39.299877,
+      "lon": 26.665845,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387165818-136",
+      "name": "Garaj Taksi",
+      "phone": "05387165818",
+      "website": null,
+      "lat": 39.3324561,
+      "lon": 26.6558674,
+      "address": "Ulaşım Hizmeti · Üçkuyular Cd. No:1",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304266641-137",
+      "name": "Lale Adası Taksi",
+      "phone": "05304266641",
+      "website": null,
+      "lat": 39.342616,
+      "lon": 26.726586,
+      "address": "Ali Çetinkaya Mah. Ali Sansur Cad. 1. Sok. 11/6 Ayvalık, Balıkesir",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05305244011-138",
+      "name": "Meydan Taksi",
+      "phone": "05305244011",
+      "website": null,
+      "lat": 39.3442103,
+      "lon": 26.6940673,
+      "address": "Taksi Durağı · 15 Eylül Cd. No: 282",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663125426-139",
+      "name": "Otogar Taksi",
+      "phone": "02663125426",
+      "website": null,
+      "lat": 39.318022,
+      "lon": 26.691799,
+      "address": "Fevzipaşa – Vehbibey Mah. Cumhuriyet Meydanı Ayvalık, Balıkesir",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304266641-140",
+      "name": "Sarımsaklı Bosna Taksi",
+      "phone": "05304266641",
+      "website": null,
+      "lat": 39.33030877,
+      "lon": 26.69885919,
+      "address": "150 Evler Mah. Ayvalık Otogarı Ayvalık, Balıkesir",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663241651-141",
+      "name": "Ayvalık Taksi",
+      "phone": "02663241651",
+      "website": null,
+      "lat": 39.2702059,
+      "lon": 26.6672262,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313806101-142",
+      "name": "Temizel Taksi",
+      "phone": "05313806101",
+      "website": null,
+      "lat": 39.268729,
+      "lon": 26.6788834,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663243688-143",
+      "name": "balikesir-taksi",
+      "phone": "02663243688",
+      "website": null,
+      "lat": 39.272703,
+      "lon": 26.667464,
+      "address": "Küçükköy-Kahramanlar Mah. Hülya Avşar Blv. Ayvalık, Balıkesir",
+      "districtId": "ayvalik",
+      "districtName": "Ayvalik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02664125636-144",
+      "name": "Burhaniye meydan da Taksi",
+      "phone": "02664125636",
+      "website": null,
+      "lat": 39.501498,
+      "lon": 26.976836,
+      "address": null,
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434585607-145",
+      "name": "Burhaniye Taksi",
+      "phone": "05434585607",
+      "website": null,
+      "lat": 39.5100641,
+      "lon": 26.9682395,
+      "address": null,
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321793178-146",
+      "name": "Burhaniye Taksi",
+      "phone": "05321793178",
+      "website": null,
+      "lat": 39.5124446,
+      "lon": 26.9767884,
+      "address": null,
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539241739-147",
+      "name": "Deniz Taksi",
+      "phone": "05539241739",
+      "website": null,
+      "lat": 39.5022508,
+      "lon": 26.959269,
+      "address": null,
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-148-148",
+      "name": "Garaj Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.501876,
+      "lon": 26.979542,
+      "address": "Kocacami Mah. Ali Çetinkaya Cad. (Atatürk Heykeli Önünde) Burhaniye, Balıkesir",
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05079843444-149",
+      "name": "Hastane Taksi",
+      "phone": "05079843444",
+      "website": null,
+      "lat": 39.504143,
+      "lon": 26.983351,
+      "address": "Kocacami Mah. Eski Hükümet Cad. Burhaniye Otogarı Burhaniye, Balıkesir",
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454860131-150",
+      "name": "Meydan Taksi",
+      "phone": "05454860131",
+      "website": null,
+      "lat": 39.49834,
+      "lon": 26.974831,
+      "address": "Kocacami Mah. Hürriyet Cad. Burhaniye, Balıkesir",
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434585607-151",
+      "name": "Sahil Taksi",
+      "phone": "05434585607",
+      "website": null,
+      "lat": 39.503359,
+      "lon": 26.979892,
+      "address": "Mahkeme Mah. Yunak Cad. 14 Burhaniye, Balıkesir",
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427175607-152",
+      "name": "Burhaniye Taksi",
+      "phone": "05427175607",
+      "website": null,
+      "lat": 39.488124,
+      "lon": 26.932819,
+      "address": "Öğretmenler Mah. Bahriye Hoca Sok. (Öğretmenler Mah. Muhtarlığı Yanı) Burhaniye, Balıkesir",
+      "districtId": "burhaniye",
+      "districtName": "Burhaniye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02668961647-153",
+      "name": "Marmara Adasi Taksi",
+      "phone": "02668961647",
+      "website": null,
+      "lat": 40.510355,
+      "lon": 27.497744,
+      "address": "Avşa-Deniz Mah. Okullar Cad. Türkeli, Marmara, Balıkesir",
+      "districtId": "marmara",
+      "districtName": "Marmara",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363212161-154",
+      "name": "Tan Taksi",
+      "phone": "05363212161",
+      "website": null,
+      "lat": 40.5859525,
+      "lon": 27.5584923,
+      "address": null,
+      "districtId": "marmara",
+      "districtName": "Marmara",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05307996110-155",
+      "name": "Marmara Taksi",
+      "phone": "05307996110",
+      "website": null,
+      "lat": 40.5865809,
+      "lon": 27.5575148,
+      "address": "Taksi ·  · Şht. Kanibey Sk. no:1",
+      "districtId": "marmara",
+      "districtName": "Marmara",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372296659-156",
+      "name": "Marmara Taksi",
+      "phone": "05372296659",
+      "website": null,
+      "lat": 40.9694462,
+      "lon": 27.9547802,
+      "address": "Taksi Durağı ·  · Rahmi Özcan Blv. No:32",
+      "districtId": "marmara",
+      "districtName": "Marmara",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383555675-157",
+      "name": "Saraylar Taksi",
+      "phone": "05383555675",
+      "website": null,
+      "lat": 40.5855,
+      "lon": 27.554571,
+      "address": "Cumhuriyet Mah. Atatürk Cad. Marmara, Balıkesir",
+      "districtId": "marmara",
+      "districtName": "Marmara",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327178956-158",
+      "name": "Tan Taksi",
+      "phone": "05327178956",
+      "website": null,
+      "lat": 40.653426,
+      "lon": 27.6587168,
+      "address": null,
+      "districtId": "marmara",
+      "districtName": "Marmara",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05401731010-159",
+      "name": "Karşıyaka Taksi",
+      "phone": "05401731010",
+      "website": null,
+      "lat": 39.916494,
+      "lon": 28.151745,
+      "address": "Yeni Mah. Hastane Cad. 18/A Susurluk, Balıkesir",
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02668653509-160",
+      "name": "Meydan Taksi",
+      "phone": "02668653509",
+      "website": null,
+      "lat": 39.9205777,
+      "lon": 28.1683318,
+      "address": "Taksi · Atatürk Cd. No:34",
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02668651546-161",
+      "name": "Park Taksi",
+      "phone": "02668651546",
+      "website": null,
+      "lat": 39.915782,
+      "lon": 28.156967,
+      "address": "Han Mah. İstasyon Cad. Susurluk, Balıkesir",
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02668653119-162",
+      "name": "Susurluk Garaj Taksi",
+      "phone": "02668653119",
+      "website": null,
+      "lat": 39.917888,
+      "lon": 28.153796,
+      "address": "Yeni Mah. İstasyon Cad. Susurluk, Balıkesir",
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05426310978-163",
+      "name": "Susurluk Taksi",
+      "phone": "05426310978",
+      "website": null,
+      "lat": 39.915063,
+      "lon": 28.159237,
+      "address": "Han Mah. 5 Eylül Cad. Susurluk, Balıkesir",
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426310978-164",
+      "name": "Meydan Taksi",
+      "phone": "05426310978",
+      "website": null,
+      "lat": 39.91529341,
+      "lon": 28.15698394,
+      "address": "Han Mah. Beşeylül Cad. Susurluk Otogarı Susurluk, Balıkesir",
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05383920542-165",
+      "name": "Bigadiç Taksi",
+      "phone": "05383920542",
+      "website": null,
+      "lat": 39.391709,
+      "lon": 28.131716,
+      "address": null,
+      "districtId": "bigadic",
+      "districtName": "Bigadic",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452869442-166",
+      "name": "Emek Taksi",
+      "phone": "05452869442",
+      "website": null,
+      "lat": 39.4012647,
+      "lon": 28.1354434,
+      "address": null,
+      "districtId": "bigadic",
+      "districtName": "Bigadic",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05456147659-167",
+      "name": "Park Taksi",
+      "phone": "05456147659",
+      "website": null,
+      "lat": 39.3960843,
+      "lon": 28.1314301,
+      "address": null,
+      "districtId": "bigadic",
+      "districtName": "Bigadic",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05447106841-168",
+      "name": "Emek Taksi",
+      "phone": "05447106841",
+      "website": null,
+      "lat": 39.392339,
+      "lon": 28.134148,
+      "address": "Servi Mah. Adnan Menderes Cad. Bigadiç, Balıkesir",
+      "districtId": "bigadic",
+      "districtName": "Bigadic",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400017131-169",
+      "name": "Deniz Taksi",
+      "phone": "05400017131",
+      "website": null,
+      "lat": 40.4026613,
+      "lon": 27.7900711,
+      "address": null,
+      "districtId": "erdek",
+      "districtName": "Erdek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316936199-170",
+      "name": "Erdek Taksi",
+      "phone": "05316936199",
+      "website": null,
+      "lat": 40.395893,
+      "lon": 27.792545,
+      "address": "Yalı Mah. Hükümet Cad. Erdek, Balıkesir",
+      "districtId": "erdek",
+      "districtName": "Erdek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05310802598-171",
+      "name": "Garaj Taksi",
+      "phone": "05310802598",
+      "website": null,
+      "lat": 40.398131,
+      "lon": 27.79226,
+      "address": "Yalı Mah. Hürriyet Cad. Erdek, Balıkesir",
+      "districtId": "erdek",
+      "districtName": "Erdek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02668353246-172",
+      "name": "Erdek Taksi",
+      "phone": "02668353246",
+      "website": null,
+      "lat": 40.399253,
+      "lon": 27.795686,
+      "address": "Taksi · Reşit Mazhar Ertüzün Cd. No:44",
+      "districtId": "erdek",
+      "districtName": "Erdek",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02663677100-173",
+      "name": "Gömeç meydan Taksi",
+      "phone": "02663677100",
+      "website": null,
+      "lat": 39.426327,
+      "lon": 26.860893,
+      "address": "Karaağaç-Aliçetinkaya Mah. Atatürk Cad. Gömeç, Balıkesir",
+      "districtId": "gomec",
+      "districtName": "Gomec",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325476410-174",
+      "name": "Gömeç Taksi",
+      "phone": "05325476410",
+      "website": null,
+      "lat": 39.3906708,
+      "lon": 26.8413506,
+      "address": null,
+      "districtId": "gomec",
+      "districtName": "Gomec",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413555823-175",
+      "name": "Hükümet Konağı Taksi",
+      "phone": "05413555823",
+      "website": null,
+      "lat": 39.3863787,
+      "lon": 26.8462069,
+      "address": null,
+      "districtId": "gomec",
+      "districtName": "Gomec",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05378751810-176",
+      "name": "Gömeç Taksi",
+      "phone": "05378751810",
+      "website": null,
+      "lat": 39.387638,
+      "lon": 26.839381,
+      "address": "Mithatpaşa Mah. Atatürk Cad. 57 Gömeç, Balıkesir",
+      "districtId": "gomec",
+      "districtName": "Gomec",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316810377-177",
+      "name": "huzur Taksi",
+      "phone": "05316810377",
+      "website": null,
+      "lat": 39.5830999,
+      "lon": 27.4845215,
+      "address": "Taksi Durağı ·  · Edremit Cd. No:11/C",
+      "districtId": "ivrindi",
+      "districtName": "İvrindi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374050207-178",
+      "name": "İvrindi Taksi",
+      "phone": "05374050207",
+      "website": null,
+      "lat": 39.582297,
+      "lon": 27.484869,
+      "address": null,
+      "districtId": "ivrindi",
+      "districtName": "İvrindi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376956058-179",
+      "name": "vrindi Taksi",
+      "phone": "05376956058",
+      "website": null,
+      "lat": 39.5826157,
+      "lon": 27.4840288,
+      "address": null,
+      "districtId": "ivrindi",
+      "districtName": "İvrindi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446898911-180",
+      "name": "Kepsut meydan Taksi",
+      "phone": "05446898911",
+      "website": null,
+      "lat": 39.6883389,
+      "lon": 28.1558956,
+      "address": "Taksi Durağı · Adnan Ercan Cd. No:119",
+      "districtId": "kepsut",
+      "districtName": "Kepsut",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05458661852-181",
+      "name": "Kepsut Taksi",
+      "phone": "05458661852",
+      "website": null,
+      "lat": 39.6905454,
+      "lon": 28.1538868,
+      "address": "Taksi Durağı ·  · Yenipazar Sk. No:7",
+      "districtId": "kepsut",
+      "districtName": "Kepsut",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442267495-182",
+      "name": "Kepsut Taksi",
+      "phone": "05442267495",
+      "website": null,
+      "lat": 39.6903354,
+      "lon": 28.1507028,
+      "address": null,
+      "districtId": "kepsut",
+      "districtName": "Kepsut",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-183-183",
+      "name": "Manyas Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.046256,
+      "lon": 27.969407,
+      "address": "Çarşı Mah. Hükümet Cad. Manyas, Balıkesir",
+      "districtId": "manyas",
+      "districtName": "Manyas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-184-184",
+      "name": "Park Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.045656,
+      "lon": 27.969407,
+      "address": "Çarşı Mah. Hükümet Cad. Manyas, Balıkesir",
+      "districtId": "manyas",
+      "districtName": "Manyas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02668181797-185",
+      "name": "Park Taksi",
+      "phone": "02668181797",
+      "website": null,
+      "lat": 40.048177,
+      "lon": 27.967224,
+      "address": "Çarşı Mah. Maltepe Cad. Manyas, Balıkesir",
+      "districtId": "manyas",
+      "districtName": "Manyas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-186-186",
+      "name": "Otopark Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.584052,
+      "lon": 28.626821,
+      "address": "Mollaoğlu Mah. Balıkesir Cad. Dursunbey, Balıkesir Merkez, Balıkesir",
+      "districtId": "dursunbey",
+      "districtName": "Dursunbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-187-187",
+      "name": "Dursunbey ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.584652,
+      "lon": 28.626821,
+      "address": "Mollaoğlu Mah. Balıkesir Cad. Dursunbey, Balıkesir Merkez, Balıkesir",
+      "districtId": "dursunbey",
+      "districtName": "Dursunbey",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455911010-188",
+      "name": "Özen Taksi",
+      "phone": "05455911010",
+      "website": null,
+      "lat": 39.555315,
+      "lon": 27.096272,
+      "address": "Taksi Durağı ·  · Halil Soyuer Cd. No:1",
+      "districtId": "havran",
+      "districtName": "Havran",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455911010-189",
+      "name": "zen Taksi",
+      "phone": "05455911010",
+      "website": null,
+      "lat": 39.556548,
+      "lon": 27.100601,
+      "address": "Mescit Mah. Yılmaz Akpınar Blv. Havran, Balıkesir",
+      "districtId": "havran",
+      "districtName": "Havran",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432660126-190",
+      "name": "Yonca Taksi",
+      "phone": "05432660126",
+      "website": null,
+      "lat": 39.65906,
+      "lon": 27.8785,
+      "address": "1. Sakarya Mah. Karesi Sok. 66 Balıkesir Merkez, Balıkesir",
+      "districtId": "karesi",
+      "districtName": "Karesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359710608-191",
+      "name": "Yonca Taksi",
+      "phone": "05359710608",
+      "website": null,
+      "lat": 39.6509289,
+      "lon": 27.881015,
+      "address": null,
+      "districtId": "karesi",
+      "districtName": "Karesi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05445169156-192",
+      "name": "Meydan Taksi",
+      "phone": "05445169156",
+      "website": null,
+      "lat": 39.240498,
+      "lon": 28.179806,
+      "address": "Camicedit Mah. Atatürk Cad. Sındırgı, Balıkesir",
+      "districtId": "sindirgi",
+      "districtName": "Sindirgi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05315453990-193",
+      "name": "Adalet Taksi (Plevne -Gop)",
+      "phone": "05315453990",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05441148911-194",
+      "name": "Balıkesir Merkez Taksi",
+      "phone": "05441148911",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05413830639-195",
+      "name": "Balıkesir Akücü Balıkesir Akü Mağazası",
+      "phone": "05413830639",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02666060460-196",
+      "name": "BalTaksi",
+      "phone": "02666060460",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02662411199-197",
+      "name": "Toplu Taşıma Merkezi",
+      "phone": "02662411199",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05072311126-198",
+      "name": "Yonca taksi",
+      "phone": "05072311126",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-02662465600-199",
+      "name": "Paşaalanı Sevgi Taksi",
+      "phone": "02662465600",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05453140263-200",
+      "name": "Balıkesir Bahçelievler Mehmetçik Taksi AÇIK · 7 gün 24 saat Bahçelievler Mh Mehm",
+      "phone": "05453140263",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02662446800-201",
+      "name": "Balıkesir Stad Taksi",
+      "phone": "02662446800",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05424816665-202",
+      "name": "Taksi Balıkesir | Kule Taksi AÇIK · 7 gün 24 saat Altieylul Mah. 4, Anafartalar ",
+      "phone": "05424816665",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05528037510-203",
+      "name": "Edremit Kadıköy Taksi Durağı AÇIK · 7 gün 24 saat Eroğlan, Körfez hastanesi yanı",
+      "phone": "05528037510",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02663841907-204",
+      "name": "Ilıca Taksi Durağı",
+      "phone": "02663841907",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02663731970-205",
+      "name": "Kadıköy Taksi Edremit AÇIK · 7 gün 24 saat Kocaseyit cad 79. Sokak No:2kadikoy, ",
+      "phone": "02663731970",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05334506115-206",
+      "name": "Turizm Taksi Edremit",
+      "phone": "05334506115",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02662413876-207",
+      "name": "Fatih Taksi Karesi",
+      "phone": "02662413876",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02662453958-208",
+      "name": "Terminal Taksi AÇIK · 7 gün 24 saat Paşa Alanı Mh., Şehirler Arası Otobüs Termin",
+      "phone": "02662453958",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02662439775-209",
+      "name": "Yaprak Taksi",
+      "phone": "02662439775",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05336626290-210",
+      "name": "Susurluk Demirkapı Taksi",
+      "phone": "05336626290",
+      "website": null,
+      "lat": 39.6484,
+      "lon": 27.8826,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05527106331-211",
+      "name": "Asya Taksi - Ahmet Şahin",
+      "phone": "05527106331",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandırma",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05516433794-212",
+      "name": "Bandırma Taksi - İsmail Öz",
+      "phone": "05516433794",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandırma",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05425711032-213",
+      "name": "Bandırma Taksi - Semih Kula",
+      "phone": "05425711032",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "bandirma",
+      "districtName": "Bandırma",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05350302132-214",
+      "name": "Cunda Ada Taksi - Faruk Zengin",
+      "phone": "05350302132",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalık",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05548881548-215",
+      "name": "Garaj Taksi - Cem Murat",
+      "phone": "05548881548",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "gomec",
+      "districtName": "Gömeç",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05306576140-216",
+      "name": "Hastane Taksi - Engin Haykıran",
+      "phone": "05306576140",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalık",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05326625082-217",
+      "name": "Karşıyaka Taksi - Sezer Akın",
+      "phone": "05326625082",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "susurluk",
+      "districtName": "Susurluk",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-02665763131-218",
+      "name": "Meydan Taksi Durağı",
+      "phone": "02665763131",
+      "website": "https://www.facebook.com/profile.php?id=100063643912944",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kepsut",
+      "districtName": "Kepsut",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05355053205-219",
+      "name": "Sarımsaklı Taksi - Emin Bayraktar",
+      "phone": "05355053205",
+      "website": "https://www.facebook.com/sarimsaklitaksi",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalık",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05301120473-220",
+      "name": "Sarımsaklı Taksi - Engin Haykıran",
+      "phone": "05301120473",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ayvalik",
+      "districtName": "Ayvalık",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+{
+  "cityId": "yozgat",
+  "cityName": "Yozgat",
+  "fetchedAt": "2026-08-30T21:24:19.889Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 82,
+  "stands": [
+    {
+      "id": "taksi724-05306831066-0",
+      "name": "Akdagmadeni Taksi",
+      "phone": "05306831066",
+      "lat": 39.661743,
+      "lon": 35.8796146,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454927742-1",
+      "name": "Akdağmadeni Umut Taksi",
+      "phone": "05454927742",
+      "lat": 39.6587981,
+      "lon": 35.8824592,
+      "address": "Taksi Durağı ·  · İstiklal Cd. No:11",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354213554-2",
+      "name": "Çiçek Taksi",
+      "phone": "05354213554",
+      "lat": 39.6589812,
+      "lon": 35.8840586,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03542122343-3",
+      "name": "Özgür Taksi",
+      "phone": "03542122343",
+      "lat": 39.823598,
+      "lon": 34.8040069,
+      "address": "Taksi Durağı · Eski Sungurlu Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530906697-4",
+      "name": "Yozgat Adliye Taksi",
+      "phone": "05530906697",
+      "lat": 39.668025,
+      "lon": 35.875932,
+      "address": "Emek Mah. Bağkur Cad. Akdağmadeni, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403548080-5",
+      "name": "Yozgat Merkez Taksi",
+      "phone": "05403548080",
+      "lat": 39.8190877,
+      "lon": 34.7966315,
+      "address": "Taksi Durağı · Yolboyu Sk. no 1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530906697-6",
+      "name": "Yozgat Şehir Hastanesi Taksi",
+      "phone": "05530906697",
+      "lat": 39.828765,
+      "lon": 34.822413,
+      "address": "Taksi Durağı · 53/2 Hoca Ahmet Yesevi Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530907633-7",
+      "name": "Yozgat Taksi",
+      "phone": "05530907633",
+      "lat": 39.8296091,
+      "lon": 34.8449527,
+      "address": "Taksi Durağı ·  · Viyana Cd No:9",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464229669-8",
+      "name": "Yozgat Yobu Taksi",
+      "phone": "05464229669",
+      "lat": 39.8163017,
+      "lon": 34.8065847,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05523756610-9",
+      "name": "yozgat-taksi",
+      "phone": "05523756610",
+      "lat": 39.7775799,
+      "lon": 34.7917537,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03544151631-10",
+      "name": "Gar Taksi",
+      "phone": "03544151631",
+      "lat": 39.812897,
+      "lon": 35.19006,
+      "address": "Taksi · Alparslan Türkeş Caddesi 11a",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05530906697-11",
+      "name": "Güven Taksi",
+      "phone": "05530906697",
+      "lat": 39.813505,
+      "lon": 35.185613,
+      "address": "Bahçelievler Mah. Ankara Blv. Sorgun, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-12-12",
+      "name": "Hasret Taksi",
+      "phone": null,
+      "lat": 39.808033,
+      "lon": 35.199455,
+      "address": "Yeni Mah. Sivas Blv. 7 Sorgun, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373172173-13",
+      "name": "Hilal Taksi",
+      "phone": "05373172173",
+      "lat": 39.810108,
+      "lon": 35.187291,
+      "address": "Çay Mah. Cumhuriyet Cad. Sorgun, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-14-14",
+      "name": "Sorgun hasret Taksi",
+      "phone": null,
+      "lat": 39.810213,
+      "lon": 35.185878,
+      "address": "Bahçelievler Mah. Cumhuriyet Cad. Sorgun, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355461136-15",
+      "name": "Sorgun Taksi",
+      "phone": "05355461136",
+      "lat": 39.8092122,
+      "lon": 35.1821699,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333284866-16",
+      "name": "Terminal Taksi",
+      "phone": "05333284866",
+      "lat": 39.8187889,
+      "lon": 35.1874724,
+      "address": "Taksi Durağı · İmam Hatip Cd. No:40",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03542129870-17",
+      "name": "Hasret Taksi",
+      "phone": "03542129870",
+      "lat": 39.812905,
+      "lon": 35.185613,
+      "address": "Bahçelievler Mah. Ankara Blv. Sorgun, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332345978-18",
+      "name": "Merkez Taksi",
+      "phone": "05332345978",
+      "lat": 39.998335,
+      "lon": 35.792355,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862131580-19",
+      "name": "Meydan Taksi",
+      "phone": "03862131580",
+      "lat": 39.1457898,
+      "lon": 34.1599879,
+      "address": "Taksi Durağı ·  · Yeni 2. Çarşı Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03862134572-20",
+      "name": "Şarkışla Taksi",
+      "phone": "03862134572",
+      "lat": 39.1462806,
+      "lon": 34.1615029,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435718774-21",
+      "name": "Taksici yurt yeniçubuk Terminal Taksi",
+      "phone": "05435718774",
+      "lat": 39.3436075,
+      "lon": 36.3881973,
+      "address": "Taksi Durağı · Şarkışla Sanayi Sitesi No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354777646-22",
+      "name": "Yozgat Taksi",
+      "phone": "05354777646",
+      "lat": 39.2102481,
+      "lon": 36.0986717,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535568966-23",
+      "name": "Yozgat Terminal Taksi",
+      "phone": "05535568966",
+      "lat": 39.8227509,
+      "lon": 34.8114299,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446677866-24",
+      "name": "Meydan Taksi",
+      "phone": "05446677866",
+      "lat": 39.8271616,
+      "lon": 34.7994421,
+      "address": "Taksi · Nohutlu Cd. No:1/1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03542129095-25",
+      "name": "Köseoğlu Taksi",
+      "phone": "03542129095",
+      "lat": 39.820876,
+      "lon": 34.805499,
+      "address": "Köseoğlu Mah. Kültür Park Cad. 1 (Bellona Yanında) Yozgat Merkez, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-26-26",
+      "name": "Kule Zafer Taksi",
+      "phone": null,
+      "lat": 39.821222,
+      "lon": 34.804943,
+      "address": "Köseoğlu Mah. Gevrekzade Cad. Yozgat Merkez, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03542121773-27",
+      "name": "Terminal Taksi",
+      "phone": "03542121773",
+      "lat": 39.821969,
+      "lon": 34.808107,
+      "address": "Medrese Mah. Hastane Cad. Yozgat Merkez, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03542129870-28",
+      "name": "Turizm Taksi",
+      "phone": "03542129870",
+      "lat": 39.822883,
+      "lon": 34.817072,
+      "address": "Karatepe Mah. Adnan Menderes Blv. Sivas Cad. 151 Yozgat Merkez, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03542121244-29",
+      "name": "Yılmaz Taksi",
+      "phone": "03542121244",
+      "lat": 39.822614,
+      "lon": 34.809078,
+      "address": "Aşağınohutlu Mah. Sakarya Cad. 2 Yozgat Merkez, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05075034282-30",
+      "name": "Terminal Taksi",
+      "phone": "05075034282",
+      "lat": 39.820883,
+      "lon": 34.808925,
+      "address": "Medrese Mah. Adnan Menderes Blv. Yozgat Merkez, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05358181791-31",
+      "name": "Saraykent Taksi",
+      "phone": "05358181791",
+      "lat": 39.714343,
+      "lon": 35.499437,
+      "address": "Güldibi Mah. Köroğlu Sok. 1 Saraykent, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358181791-32",
+      "name": "Saraykent Taksi",
+      "phone": "05358181791",
+      "lat": 39.6929894,
+      "lon": 35.5099072,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359477504-33",
+      "name": "durağı saraykent Taksi",
+      "phone": "05359477504",
+      "lat": 39.693237,
+      "lon": 35.5101896,
+      "address": "Taksi Durağı · Cumhuriyet Myd. No:8",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374046716-34",
+      "name": "Saraykent Taksi",
+      "phone": "05374046716",
+      "lat": 39.7710205,
+      "lon": 35.5407867,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334746682-35",
+      "name": "Köprübaşı Taksi",
+      "phone": "05334746682",
+      "lat": 39.498679,
+      "lon": 35.379454,
+      "address": "Cumhuriyet Mah. Baran Cad. Sarıkaya, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05530906697-36",
+      "name": "Sarıkaya Merkez Taksi",
+      "phone": "05530906697",
+      "lat": 39.500643,
+      "lon": 35.36891,
+      "address": "Bahçelievler Mah. Nevzat Şener Blv. Sarıkaya, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05301462566-37",
+      "name": "Sarıkaya Taksi",
+      "phone": "05301462566",
+      "lat": 39.4938999,
+      "lon": 35.3754798,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05426033875-38",
+      "name": "Sarıkaya Merkez Taksi",
+      "phone": "05426033875",
+      "lat": 39.493871,
+      "lon": 35.3754444,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403548080-39",
+      "name": "Boğazlıyan Merkez Taksi",
+      "phone": "05403548080",
+      "lat": 39.193736,
+      "lon": 35.243627,
+      "address": "Yukarı Mah. Ali İhsan Kadıoğlu Cad. 2 Boğazlıyan, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464603866-40",
+      "name": "Boğazlıyan Merkez Taksi",
+      "phone": "05464603866",
+      "lat": 39.1927795,
+      "lon": 35.2457694,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05464229669-41",
+      "name": "Kule Taksi",
+      "phone": "05464229669",
+      "lat": 39.498764,
+      "lon": 34.752254,
+      "address": "Bahçelievler Mah. Hacı Bayram Karabulut Cad. 32 Şefaatli, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05433986329-42",
+      "name": "Kaya Taksi",
+      "phone": "05433986329",
+      "lat": 39.4994553,
+      "lon": 34.7573869,
+      "address": "Taksi Durağı · Atatürk Blv. No:10",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05354280574-43",
+      "name": "ayıralan Taksi",
+      "phone": "05354280574",
+      "lat": 39.304517,
+      "lon": 35.641782,
+      "address": "Fatih Mah. Eski Mezar Sok. 8 Çayıralan, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05378806073-44",
+      "name": "Cekerek Taksi",
+      "phone": "05378806073",
+      "lat": 40.0692548,
+      "lon": 35.4950602,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451287166-45",
+      "name": "Akasya Taksi",
+      "phone": "05451287166",
+      "lat": 39.64026,
+      "lon": 34.467639,
+      "address": "Haşim Kılıç Mah. Talat Paşa Cad. Yerköy, Yozgat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03542141709-46",
+      "name": "Gözde Taksi",
+      "phone": "03542141709",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05326554310-47",
+      "name": "Şadırvan Taksi",
+      "phone": "05326554310",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05464233197-48",
+      "name": "Acil Taksi yozgat",
+      "phone": "05464233197",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05061010866-49",
+      "name": "Yozgat Taksi",
+      "phone": "05061010866",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05075253576-50",
+      "name": "Yozgat Emniyet Taksi Kadir Erbaş",
+      "phone": "05075253576",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-03543330766-51",
+      "name": "Yozgat Taksi Bozok",
+      "phone": "03543330766",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-03542177227-52",
+      "name": "Köseoğlu Taksi",
+      "phone": "03542177227",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05428951920-53",
+      "name": "YOZGAT MERKEZ TAKSİ",
+      "phone": "05428951920",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-03542170357-54",
+      "name": "Çiçek Taksi Köçekkömü AÇIK · 7 gün 24 saat Aşağı Çatak, Eski Sungurlu Cd. No:1, ",
+      "phone": "03542170357",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05357114876-55",
+      "name": "Yozgat Vip Taksi",
+      "phone": "05357114876",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432438058-56",
+      "name": "Akdağmadeni Taksi",
+      "phone": "05432438058",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05528571066-57",
+      "name": "Akdağmadeni Taksi (cafer Ayyıldız) AÇIK · 7 gün 24 saat İstanbulluoğlu, İstiklal",
+      "phone": "05528571066",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354204796-58",
+      "name": "Özgür Taksi Akdağmadeni",
+      "phone": "05354204796",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05447162082-59",
+      "name": "Tümü → Çandır Taksi Durağı",
+      "phone": "05447162082",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05318667040-60",
+      "name": "Tümü → Çekerek Taksi",
+      "phone": "05318667040",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05313197166-61",
+      "name": "Çekerek Taksi Durağı",
+      "phone": "05313197166",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05399270259-62",
+      "name": "Tümü → Hasan Erdinç Taksi",
+      "phone": "05399270259",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03547721689-63",
+      "name": "Taksi Durağı Saraykent Taksi AÇIK · 7 gün 24 saat Kanlıca, Taksi durağı, Yozgat ",
+      "phone": "03547721689",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03545642310-64",
+      "name": "Sarıkaya Taksi (uğur Uzun) AÇIK · 7 gün 24 saat Bahçelievler Mah, Nevzat Şener B",
+      "phone": "03545642310",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03545642270-65",
+      "name": "Şafak Taksi",
+      "phone": "03545642270",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05428021565-66",
+      "name": "Şefaatli Meydan Taksi",
+      "phone": "05428021565",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03546452263-67",
+      "name": "Tümü → Adliye Taksi Sorgun",
+      "phone": "03546452263",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05457753566-68",
+      "name": "Çölgeçen Taksi",
+      "phone": "05457753566",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03544151577-69",
+      "name": "Hasret Taksi",
+      "phone": "03544151577",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03544158377-70",
+      "name": "Ofis Taksi",
+      "phone": "03544158377",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03544156363-71",
+      "name": "Otogar Taksi Sorgun",
+      "phone": "03544156363",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03544157177-72",
+      "name": "Sorgun Çiçek Taksi (mustfa) AÇIK · 7 gün 24 saat Bahçelievler, Muhsin Yazıcıoğlu",
+      "phone": "03544157177",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03544154857-73",
+      "name": "Sorgun Taksi AÇIK · 7 gün 24 saat Yılmaz, hasret taksi, Şht. Ahmet Kılıçarslan C",
+      "phone": "03544154857",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05414181975-74",
+      "name": "Yozgat Sorgun Taksi",
+      "phone": "05414181975",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05438398230-75",
+      "name": "Tümü → Güven Taksi Yerköy AÇIK · 7 gün 24 saat Haşim Kılıç, Yorulmazlar Yanı, Va",
+      "phone": "05438398230",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05425218701-76",
+      "name": "Yerköyde Taksi",
+      "phone": "05425218701",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05059878366-77",
+      "name": "Çekerek Taksi - Muammer Uslu",
+      "phone": "05059878366",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05428955612-78",
+      "name": "Çekerek Taksi - Şenol Arslan",
+      "phone": "05428955612",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05542662580-79",
+      "name": "Sorgun Taksi - Ali Günaydın",
+      "phone": "05542662580",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05417441297-80",
+      "name": "Umut Taksi - Hakan Köroğlu",
+      "phone": "05417441297",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05415498582-81",
+      "name": "Yerköy Taksi - Hacı Ali Yoldaş",
+      "phone": "05415498582",
+      "lat": 39.8181,
+      "lon": 34.8147,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

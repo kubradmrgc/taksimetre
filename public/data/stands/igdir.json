@@ -1,0 +1,512 @@
+{
+  "cityId": "igdir",
+  "cityName": "Iğdır",
+  "fetchedAt": "2026-08-30T21:25:08.405Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 40,
+  "stands": [
+    {
+      "id": "taksi724-04762278542-0",
+      "name": "Ekin Taksi",
+      "phone": "04762278542",
+      "lat": 39.929544,
+      "lon": 44.048654,
+      "address": "14 Kasım Mah. İrfan Cad. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05417131549-1",
+      "name": "Emek Taksi",
+      "phone": "05417131549",
+      "lat": 39.918652,
+      "lon": 44.044385,
+      "address": "Cumhuriyet Mah. Cumhuriyet Cad. Karadeniz Sok. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04762261530-2",
+      "name": "Iğdırlı Taksi",
+      "phone": "04762261530",
+      "lat": 39.917733,
+      "lon": 44.047814,
+      "address": "Cumhuriyet Mah. Millet Cad. 47 Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05438856676-3",
+      "name": "Iğdır Taksi",
+      "phone": "05438856676",
+      "lat": 39.922544,
+      "lon": 44.048802,
+      "address": "Söğütlü Mah. Hamam Sok. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438856676-4",
+      "name": "Konak Taksi",
+      "phone": "05438856676",
+      "lat": 39.928312,
+      "lon": 44.038379,
+      "address": "Bağlar Mah. Hürriyet Cad. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04762278086-5",
+      "name": "Merkez Taksi",
+      "phone": "04762278086",
+      "lat": 39.923404,
+      "lon": 44.039635,
+      "address": "Topçular Mah. Vali Konağı Yolu Cad. 42 Alikamerli, Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04762275451-6",
+      "name": "Park Taksi",
+      "phone": "04762275451",
+      "lat": 39.92259,
+      "lon": 44.044393,
+      "address": "Bağlar Mah. Zübeyde Hanım Blv. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04762273866-7",
+      "name": "Servet Taksi",
+      "phone": "04762273866",
+      "lat": 39.921533,
+      "lon": 44.045579,
+      "address": "Cumhuriyet Mah. Cumhuriyet Cad. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04762271976-8",
+      "name": "Seval Taksi",
+      "phone": "04762271976",
+      "lat": 39.926384,
+      "lon": 44.056612,
+      "address": "14 Kasım Mah. 121. Sok. 2/A Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05309289676-9",
+      "name": "Star Taksi",
+      "phone": "05309289676",
+      "lat": 39.922477,
+      "lon": 44.046728,
+      "address": "Söğütlü Mah. İrfan Cad. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04762279712-10",
+      "name": "Üniversite Taksi",
+      "phone": "04762279712",
+      "lat": 39.925884,
+      "lon": 44.048211,
+      "address": "14 Kasım Mah. Kurtuluş Cad. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05325668078-11",
+      "name": "igdir-taksi",
+      "phone": "05325668078",
+      "lat": 39.919481,
+      "lon": 44.035987,
+      "address": "Emek Mah. Kars Cad. Dinç Sok. Iğdır Merkez, Iğdır",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369647914-12",
+      "name": "Diyadin Taksi",
+      "phone": "05369647914",
+      "lat": 39.5421548,
+      "lon": 43.6707381,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373045163-13",
+      "name": "Diyadin Taksi",
+      "phone": "05373045163",
+      "lat": 39.5424849,
+      "lon": 43.6714735,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454727262-14",
+      "name": "Doğubayazıt Devlet Hastanesi Taksi",
+      "phone": "05454727262",
+      "lat": 39.5399285,
+      "lon": 43.6715162,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446696531-15",
+      "name": "Fatih Taksi",
+      "phone": "05446696531",
+      "lat": 39.5402313,
+      "lon": 44.0189896,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-16-16",
+      "name": "Hastane Taksi",
+      "phone": null,
+      "lat": 39.547866,
+      "lon": 44.076026,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438866377-17",
+      "name": "Kağızman Taksi",
+      "phone": "05438866377",
+      "lat": 39.5482481,
+      "lon": 44.0818868,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321342976-18",
+      "name": "Köşe Taksi",
+      "phone": "05321342976",
+      "lat": 40.1420583,
+      "lon": 43.1224103,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464348304-19",
+      "name": "Ticari Taksi",
+      "phone": "05464348304",
+      "lat": 39.5485175,
+      "lon": 44.07993,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530518404-20",
+      "name": "Diyadin Taksi",
+      "phone": "05530518404",
+      "lat": 39.5485796,
+      "lon": 44.0804267,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04762279584-21",
+      "name": "Eski Hastane Taksi",
+      "phone": "04762279584",
+      "lat": 39.9194547,
+      "lon": 44.0418522,
+      "address": "Taksi · Evren Paşa Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04762277100-22",
+      "name": "IĞDIR TAKSi",
+      "phone": "04762277100",
+      "lat": 39.9216791,
+      "lon": 44.0366037,
+      "address": "Taksi · Evren Paşa Cd. No:77",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369130266-23",
+      "name": "Zafer Taksi",
+      "phone": "05369130266",
+      "lat": 39.929638,
+      "lon": 44.0759861,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05416775680-24",
+      "name": "Hastane Taksi",
+      "phone": "05416775680",
+      "lat": 39.917136,
+      "lon": 44.036777,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05458799066-25",
+      "name": "Tümü → Aralık Taksi",
+      "phone": "05458799066",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05394009285-26",
+      "name": "Iğdir da Taksi",
+      "phone": "05394009285",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05446909776-27",
+      "name": "Taksi Rıdvan Akar",
+      "phone": "05446909776",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05536481723-28",
+      "name": "Seval Taksi",
+      "phone": "05536481723",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04762274460-29",
+      "name": "Pazar Taksi",
+      "phone": "04762274460",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04762276147-30",
+      "name": "Kervan Taksi",
+      "phone": "04762276147",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04762274109-31",
+      "name": "Güven Taksi Iğdır",
+      "phone": "04762274109",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04762273149-32",
+      "name": "Hastane Taksi Iğdır",
+      "phone": "04762273149",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358733110-33",
+      "name": "Tümü → Çiçek Taksi Aralık",
+      "phone": "05358733110",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04762271919-34",
+      "name": "Iğdırlı Taksi",
+      "phone": "04762271919",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05428928858-35",
+      "name": "Taksi 7 Kişilik",
+      "phone": "05428928858",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354649693-36",
+      "name": "Tümü → Tuzluca Taksi",
+      "phone": "05354649693",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05446621659-37",
+      "name": "Erhan Taksi - Ermetin",
+      "phone": "05446621659",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05376719889-38",
+      "name": "Park Taksi - Mehmet",
+      "phone": "05376719889",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05513901876-39",
+      "name": "Tuzluca Taksi - Volkan",
+      "phone": "05513901876",
+      "lat": 39.9167,
+      "lon": 44.0333,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

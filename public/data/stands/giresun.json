@@ -1,0 +1,2073 @@
+{
+  "cityId": "giresun",
+  "cityName": "Giresun",
+  "fetchedAt": "2026-08-30T21:31:21.860Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "alucra",
+      "name": "Alucra",
+      "count": 1
+    },
+    {
+      "id": "bulancak",
+      "name": "Bulancak",
+      "count": 17
+    },
+    {
+      "id": "canakci",
+      "name": "Canakci",
+      "count": 1
+    },
+    {
+      "id": "dereli",
+      "name": "Dereli",
+      "count": 2
+    },
+    {
+      "id": "dogankent",
+      "name": "Dogankent",
+      "count": 1
+    },
+    {
+      "id": "espiye",
+      "name": "Espiye",
+      "count": 3
+    },
+    {
+      "id": "eynesil",
+      "name": "Eynesil",
+      "count": 4
+    },
+    {
+      "id": "gorele",
+      "name": "Gorele",
+      "count": 5
+    },
+    {
+      "id": "kesap",
+      "name": "Kesap",
+      "count": 4
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 40
+    },
+    {
+      "id": "piraziz",
+      "name": "Piraziz",
+      "count": 4
+    },
+    {
+      "id": "sebinkarahisar",
+      "name": "Sebinkarahisar",
+      "count": 5
+    },
+    {
+      "id": "tirebolu",
+      "name": "Tirebolu",
+      "count": 5
+    },
+    {
+      "id": "yaglidere",
+      "name": "Yaglidere",
+      "count": 1
+    }
+  ],
+  "count": 130,
+  "stands": [
+    {
+      "id": "taksi724-04545001212-0",
+      "name": "Aksu Taksi",
+      "phone": "04545001212",
+      "website": null,
+      "lat": 40.913705,
+      "lon": 38.411409,
+      "address": "Gedikkaya Mah. Romancı Güzide Sabri Sok. 64 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05447262949-1",
+      "name": "Alim Taksi",
+      "phone": "05447262949",
+      "website": null,
+      "lat": 40.911589,
+      "lon": 38.433753,
+      "address": "Aksu Mah. Gazi Mustafa Kemal Blv. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-2-2",
+      "name": "Aretias Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.915069,
+      "lon": 38.392651,
+      "address": "Osmaniye Mah. Toprak Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05398801128-3",
+      "name": "Ata Taksi",
+      "phone": "05398801128",
+      "website": null,
+      "lat": 40.909761,
+      "lon": 38.436295,
+      "address": "Aksu Mah. Mehmet İzmen Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542161502-4",
+      "name": "Barış Taksi",
+      "phone": "04542161502",
+      "website": null,
+      "lat": 40.913582,
+      "lon": 38.381778,
+      "address": "Hacısiyam Mah. İnönü Cad. 9 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542161615-5",
+      "name": "Çerkez Taksi",
+      "phone": "04542161615",
+      "website": null,
+      "lat": 40.917474,
+      "lon": 38.384298,
+      "address": "Hacımiktat Mah. Alpaslan Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542124737-6",
+      "name": "Çiçek Taksi",
+      "phone": "04542124737",
+      "website": null,
+      "lat": 40.913937,
+      "lon": 38.408756,
+      "address": "Gedikkaya Mah. Romancı Güzide Sabri Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04542152121-7",
+      "name": "Cihan Taksi",
+      "phone": "04542152121",
+      "website": null,
+      "lat": 40.909136,
+      "lon": 38.35493,
+      "address": "Çıtlakkale Mah. Batlama Cad. 7 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-8-8",
+      "name": "Çırakderesi Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.912413,
+      "lon": 38.378493,
+      "address": "Hacısiyam Mah. İnönü Cad. Minibüs Terminali Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323856954-9",
+      "name": "Çıtlakkale Taksi",
+      "phone": "05323856954",
+      "website": null,
+      "lat": 40.913736,
+      "lon": 38.407639,
+      "address": "Gemilerçekeği Mah. Kazım Karabekir Cad. 113/A Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436545455-10",
+      "name": "Dilek Taksi",
+      "phone": "05436545455",
+      "website": null,
+      "lat": 40.907511,
+      "lon": 38.360274,
+      "address": "Çıtlakkale Mah. Keskin Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542141313-11",
+      "name": "Emniyet Taksi",
+      "phone": "04542141313",
+      "website": null,
+      "lat": 40.911972,
+      "lon": 38.377322,
+      "address": "Hacısiyam Mah. İnönü Cad. 58 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542161329-12",
+      "name": "Emre Taksi",
+      "phone": "04542161329",
+      "website": null,
+      "lat": 40.912043,
+      "lon": 38.380787,
+      "address": "Fevzi Çakmak Mah. Taş Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542141714-13",
+      "name": "Eren Taksi",
+      "phone": "04542141714",
+      "website": null,
+      "lat": 40.912428,
+      "lon": 38.375438,
+      "address": "Hacısiyam Mah. Fatih Cad. 145/B Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542164462-14",
+      "name": "Fındık Taksi",
+      "phone": "04542164462",
+      "website": null,
+      "lat": 40.912045,
+      "lon": 38.389388,
+      "address": "Nizamiye Mah. Yüzbaşı Suyu Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542151111-15",
+      "name": "Giresun Taksi",
+      "phone": "04542151111",
+      "website": null,
+      "lat": 40.9142564,
+      "lon": 38.3358246,
+      "address": "Taksi Durağı ·  · Önder Sk. No:1/B",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542164111-16",
+      "name": "Güneş Taksi",
+      "phone": "04542164111",
+      "website": null,
+      "lat": 40.916902,
+      "lon": 38.396313,
+      "address": "Hacıhüseyin Mah. General Nuri Erkan Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04543814487-17",
+      "name": "Güre Ipek Taksi",
+      "phone": "04543814487",
+      "website": null,
+      "lat": 40.913434,
+      "lon": 38.40182,
+      "address": "Gemilerçekeği Mah. Sagae Cad. 5 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542702828-18",
+      "name": "Güre Yıldız Taksi",
+      "phone": "04542702828",
+      "website": null,
+      "lat": 40.916279,
+      "lon": 38.329885,
+      "address": "Güre Mah. Bağcılar Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542156604-19",
+      "name": "Güven Taksi",
+      "phone": "04542156604",
+      "website": null,
+      "lat": 40.9196854,
+      "lon": 38.3224019,
+      "address": "Taksi Durağı · Yıldız Taksi, Gaziler Mah, 159. Sk.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04546800088-20",
+      "name": "Hastane Taksi",
+      "phone": "04546800088",
+      "website": null,
+      "lat": 40.915035,
+      "lon": 38.382634,
+      "address": "Hacısiyam Mah. Kurudere Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05447262949-21",
+      "name": "Karadeniz Taksi",
+      "phone": "05447262949",
+      "website": null,
+      "lat": 40.885645,
+      "lon": 38.4389949,
+      "address": "Ulaşım Hizmeti · Aksu mh. Mehmet izmen cd. No:148/D merkez giresu",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542122933-22",
+      "name": "Kent Taksi",
+      "phone": "04542122933",
+      "website": null,
+      "lat": 40.915239,
+      "lon": 38.385777,
+      "address": "Hacımiktat Mah. Suat Akgün Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542166547-23",
+      "name": "Kerasus Taksi",
+      "phone": "04542166547",
+      "website": null,
+      "lat": 40.912358,
+      "lon": 38.383458,
+      "address": "Fevzi Çakmak Mah. Cinahmet Sok. 9 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542124878-24",
+      "name": "Kumyalı Taksi",
+      "phone": "04542124878",
+      "website": null,
+      "lat": 40.909165,
+      "lon": 38.374033,
+      "address": "Seldeğirmeni Mah. Kabacakuz Sok. 10/A Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345988511-25",
+      "name": "Ömür Taksi",
+      "phone": "05345988511",
+      "website": null,
+      "lat": 40.913472,
+      "lon": 38.379456,
+      "address": "Hacısiyam Mah. Fatih Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542163929-26",
+      "name": "Öz Girne Taksi",
+      "phone": "04542163929",
+      "website": null,
+      "lat": 40.920433,
+      "lon": 38.38697,
+      "address": "Kale Mah. Hasan Ali Yücel Cad. 4 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542122060-27",
+      "name": "Özlem Taksi",
+      "phone": "04542122060",
+      "website": null,
+      "lat": 40.918087,
+      "lon": 38.389282,
+      "address": "Kapu Mah. Ali Yazıcı Sok. 2/A Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542161013-28",
+      "name": "Şafak Taksi",
+      "phone": "04542161013",
+      "website": null,
+      "lat": 40.913576,
+      "lon": 38.40301,
+      "address": "Gemilerçekeği Mah. Sümbüllük Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542123090-29",
+      "name": "Sanayi Taksi",
+      "phone": "04542123090",
+      "website": null,
+      "lat": 40.914072,
+      "lon": 38.379456,
+      "address": "Hacısiyam Mah. Fatih Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542258499-30",
+      "name": "Ses Taksi",
+      "phone": "04542258499",
+      "website": null,
+      "lat": 40.911347,
+      "lon": 38.4235429,
+      "address": "Taksi Durağı · Nihatbey Cd. No:97",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542123721-31",
+      "name": "Ssk Taksi",
+      "phone": "04542123721",
+      "website": null,
+      "lat": 40.913697,
+      "lon": 38.383979,
+      "address": "Hacımiktat Mah. Orhan Yılmaz Cad. 25 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542150076-32",
+      "name": "Taksi",
+      "phone": "04542150076",
+      "website": null,
+      "lat": 40.9123571,
+      "lon": 38.3434694,
+      "address": "Taksi Durağı · Çotanak Sk. 1 A",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542153628-33",
+      "name": "Teyyaredüzü Taksi",
+      "phone": "04542153628",
+      "website": null,
+      "lat": 40.910187,
+      "lon": 38.337514,
+      "address": "Teyyaredüzü Mah. Ünsal Sok. 40/A Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542153595-34",
+      "name": "Viraj Taksi",
+      "phone": "04542153595",
+      "website": null,
+      "lat": 40.914269,
+      "lon": 38.338466,
+      "address": "Teyyaredüzü Mah. Yeşil Kent Sok. 3 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542155528-35",
+      "name": "Yağmur Taksi",
+      "phone": "04542155528",
+      "website": null,
+      "lat": 40.9179469,
+      "lon": 38.3928976,
+      "address": "Taksi Durağı · Şht. Ferit Ömerbeyoğlu Sk.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452172424-36",
+      "name": "Yavuz Taksi",
+      "phone": "05452172424",
+      "website": null,
+      "lat": 40.910515,
+      "lon": 38.373051,
+      "address": "Çıtlakkale Mah. Avukat Ahmet Ersöz Sok. 5 Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366054242-37",
+      "name": "Yeniyol Taksi",
+      "phone": "05366054242",
+      "website": null,
+      "lat": 40.912906,
+      "lon": 38.381026,
+      "address": "Hacısiyam Mah. Okumuşsoy Sok. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542162895-38",
+      "name": "Yonca Taksi",
+      "phone": "04542162895",
+      "website": null,
+      "lat": 40.914511,
+      "lon": 38.394699,
+      "address": "Hacıhüseyin Mah. Gazi Cad. Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542152222-39",
+      "name": "giresun-taksi",
+      "phone": "04542152222",
+      "website": null,
+      "lat": 40.906696,
+      "lon": 38.365807,
+      "address": "Çıtlakkale Mah. 120. Sok. 11/B Giresun Merkez, Giresun",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542257232-40",
+      "name": "Akın Taksi",
+      "phone": "04542257232",
+      "website": null,
+      "lat": 40.9038877,
+      "lon": 38.4527553,
+      "address": null,
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05318894328-41",
+      "name": "Ballıca Taksi",
+      "phone": "05318894328",
+      "website": null,
+      "lat": 40.938176,
+      "lon": 38.234298,
+      "address": "Bulancak Mah. Akgün Sok. 27 Dk:1 Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372486759-42",
+      "name": "Bizim Taksi",
+      "phone": "05372486759",
+      "website": null,
+      "lat": 40.935932,
+      "lon": 38.212852,
+      "address": "Ballıca Mah. Şehit Süleyman Çelebi Sok. Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05452172424-43",
+      "name": "Bulancak Aksu Taksi",
+      "phone": "05452172424",
+      "website": null,
+      "lat": 40.939112,
+      "lon": 38.234055,
+      "address": "Bulancak Mah. Kumyalı Sok. 13 K:1 Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342143961-44",
+      "name": "Bulancak Güzelyalı Taksi",
+      "phone": "05342143961",
+      "website": null,
+      "lat": 40.936152,
+      "lon": 38.2257944,
+      "address": "Taksi Durağı · Acısu Cd. No:60 D:C",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04543152515-45",
+      "name": "Bulancak Taksi",
+      "phone": "04543152515",
+      "website": null,
+      "lat": 40.9345469,
+      "lon": 38.1825142,
+      "address": "Taksi Durağı ·  · Toki Evleri Sapağı, Güzelyalı Cad No:108",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400285191-46",
+      "name": "Bulancak Taksi",
+      "phone": "05400285191",
+      "website": null,
+      "lat": 40.938449,
+      "lon": 38.231804,
+      "address": "Bulancak Mah. Hamam Sok. Merkez, Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04546060271-47",
+      "name": "Bulancak Yıldız Taksi",
+      "phone": "04546060271",
+      "website": null,
+      "lat": 40.9370749,
+      "lon": 38.2174749,
+      "address": null,
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04543000081-48",
+      "name": "Güven Taksi",
+      "phone": "04543000081",
+      "website": null,
+      "lat": 40.9386386,
+      "lon": 38.2393774,
+      "address": "Taksi Durağı · Hamdi Uzunalioğlu Cd. No:24",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542169815-49",
+      "name": "Huzur Taksi",
+      "phone": "04542169815",
+      "website": null,
+      "lat": 40.93764,
+      "lon": 38.235575,
+      "address": "Bulancak Mah. Cemal Gürsel Cad. Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04543142272-50",
+      "name": "Otogar Taksi",
+      "phone": "04543142272",
+      "website": null,
+      "lat": 40.936561,
+      "lon": 38.210243,
+      "address": null,
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323856954-51",
+      "name": "Otopark Taksi",
+      "phone": "05323856954",
+      "website": null,
+      "lat": 40.939289,
+      "lon": 38.235009,
+      "address": "Bulancak Mah. Osman Gedikali Cad. 1 Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542168808-52",
+      "name": "Sahil Taksi",
+      "phone": "04542168808",
+      "website": null,
+      "lat": 40.916112,
+      "lon": 38.3893808,
+      "address": "Taksi Durağı · Avukat Bilal Demir Sk. No:3",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04543143434-53",
+      "name": "Yalı Taksi",
+      "phone": "04543143434",
+      "website": null,
+      "lat": 40.939048,
+      "lon": 38.231114,
+      "address": "İhsaniye Mah. Fatih Cad. 57 Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542171818-54",
+      "name": "Yiğit Taksi",
+      "phone": "04542171818",
+      "website": null,
+      "lat": 40.913244,
+      "lon": 38.332575,
+      "address": null,
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452172424-55",
+      "name": "Yirmibeşler Taksi",
+      "phone": "05452172424",
+      "website": null,
+      "lat": 40.9087113,
+      "lon": 38.369764,
+      "address": "Taksi Durağı ·  · Stadyum Sk. 18 /A",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452172424-56",
+      "name": "giresun-taksi",
+      "phone": "05452172424",
+      "website": null,
+      "lat": 40.93654364,
+      "lon": 38.23177974,
+      "address": "Bulancak Mah. Okul Sok. 4 Bulancak, Giresun",
+      "districtId": "bulancak",
+      "districtName": "Bulancak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542152121-57",
+      "name": "Görele Otogar Taksi",
+      "phone": "04542152121",
+      "website": null,
+      "lat": 41.032761,
+      "lon": 39.003242,
+      "address": "Kumyalı Mah. Deniz Sok. 5/A Görele, Giresun",
+      "districtId": "gorele",
+      "districtName": "Gorele",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04545136663-58",
+      "name": "Görele Taksi",
+      "phone": "04545136663",
+      "website": null,
+      "lat": 41.0355536,
+      "lon": 38.998216,
+      "address": null,
+      "districtId": "gorele",
+      "districtName": "Gorele",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-59-59",
+      "name": "Güven Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.031588,
+      "lon": 39.004965,
+      "address": "Hendekbaşı Mah. Salih Sinirlioğlu Cad. Merkez, Görele, Giresun",
+      "districtId": "gorele",
+      "districtName": "Gorele",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542169815-60",
+      "name": "Park Taksi",
+      "phone": "04542169815",
+      "website": null,
+      "lat": 41.032613,
+      "lon": 39.001671,
+      "address": "Kumyalı Mah. Barış Cad. 2 Dk:A Görele, Giresun",
+      "districtId": "gorele",
+      "districtName": "Gorele",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542162525-61",
+      "name": "Güven Taksi",
+      "phone": "04542162525",
+      "website": null,
+      "lat": 41.032327,
+      "lon": 39.002953,
+      "address": "Kumyalı Mah. Salih Sinirlioğlu Cad. Görele, Giresun",
+      "districtId": "gorele",
+      "districtName": "Gorele",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-62-62",
+      "name": "Şebinkarahisar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.2885451,
+      "lon": 38.42218746,
+      "address": "Bülbül Mah. Cumhuriyet Meydanı Şebinkarahisar, Giresun",
+      "districtId": "sebinkarahisar",
+      "districtName": "Sebinkarahisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358669511-63",
+      "name": "Sebinkarahisar Taksi",
+      "phone": "05358669511",
+      "website": null,
+      "lat": 40.2905343,
+      "lon": 38.4247127,
+      "address": null,
+      "districtId": "sebinkarahisar",
+      "districtName": "Sebinkarahisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358669511-64",
+      "name": "Sebinkarahisar Taksi",
+      "phone": "05358669511",
+      "website": null,
+      "lat": 40.2848982,
+      "lon": 38.4312387,
+      "address": null,
+      "districtId": "sebinkarahisar",
+      "districtName": "Sebinkarahisar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05394744245-65",
+      "name": "Yıldız Taksi",
+      "phone": "05394744245",
+      "website": null,
+      "lat": 40.2916515,
+      "lon": 38.4186934,
+      "address": null,
+      "districtId": "sebinkarahisar",
+      "districtName": "Sebinkarahisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04542161361-66",
+      "name": "Sebinkarahisar Taksi",
+      "phone": "04542161361",
+      "website": null,
+      "lat": 40.289863,
+      "lon": 38.421037,
+      "address": "Bülbül Mah. Küpeli Sok. Şebinkarahisar, Giresun",
+      "districtId": "sebinkarahisar",
+      "districtName": "Sebinkarahisar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05345908992-67",
+      "name": "Genç Taksi",
+      "phone": "05345908992",
+      "website": null,
+      "lat": 41.0061463,
+      "lon": 38.8400775,
+      "address": "Taksi · Mehmet Bayrak Cd. No:1",
+      "districtId": "tirebolu",
+      "districtName": "Tirebolu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05323856954-68",
+      "name": "Körliman Taksi",
+      "phone": "05323856954",
+      "website": null,
+      "lat": 41.001665,
+      "lon": 38.854328,
+      "address": "Demirci Mah. Şehit Üsteğmen Mücahit Kulak Cad. Tirebolu, Giresun",
+      "districtId": "tirebolu",
+      "districtName": "Tirebolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05335240065-69",
+      "name": "Tirebolu Plaj Taksi",
+      "phone": "05335240065",
+      "website": null,
+      "lat": 41.0052798,
+      "lon": 38.8494861,
+      "address": "Taksi · Cumhuriyet Cd. No:1",
+      "districtId": "tirebolu",
+      "districtName": "Tirebolu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04544114111-70",
+      "name": "Zafer Taksi",
+      "phone": "04544114111",
+      "website": null,
+      "lat": 41.0034811,
+      "lon": 38.8092136,
+      "address": "Taksi Durağı · Plaj Sk.",
+      "districtId": "tirebolu",
+      "districtName": "Tirebolu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05464113777-71",
+      "name": "Körliman Taksi",
+      "phone": "05464113777",
+      "website": null,
+      "lat": 41.007358,
+      "lon": 38.814974,
+      "address": "Çarşı Mah. İskele Cad. 48 Tirebolu, Giresun",
+      "districtId": "tirebolu",
+      "districtName": "Tirebolu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05452172424-72",
+      "name": "Eynesil Taksi",
+      "phone": "05452172424",
+      "website": null,
+      "lat": 41.064117,
+      "lon": 39.143505,
+      "address": "Gümüşçay Mah. Şehit Nejdet Meme Cad. 20/A Eynesil, Giresun",
+      "districtId": "eynesil",
+      "districtName": "Eynesil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04545812600-73",
+      "name": "Sahil Taksi",
+      "phone": "04545812600",
+      "website": null,
+      "lat": 41.063048,
+      "lon": 39.141031,
+      "address": null,
+      "districtId": "eynesil",
+      "districtName": "Eynesil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04543143434-74",
+      "name": "Sahil Taksi",
+      "phone": "04543143434",
+      "website": null,
+      "lat": 41.067689,
+      "lon": 39.147785,
+      "address": "Gümüşçay Mah. Kamil Nalbant Cad. Eynesil, Giresun",
+      "districtId": "eynesil",
+      "districtName": "Eynesil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04545813400-75",
+      "name": "Sahil Taksi",
+      "phone": "04545813400",
+      "website": null,
+      "lat": 41.068289,
+      "lon": 39.147785,
+      "address": "Gümüşçay Mah. Kamil Nalbant Cad. Eynesil, Giresun",
+      "districtId": "eynesil",
+      "districtName": "Eynesil",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05452172424-76",
+      "name": "Güven Taksi",
+      "phone": "05452172424",
+      "website": null,
+      "lat": 40.91456,
+      "lon": 38.515397,
+      "address": "Bozkurt Mah. Fatih Cad. 53 Keşap, Giresun",
+      "districtId": "kesap",
+      "districtName": "Kesap",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04546800088-77",
+      "name": "Keşap Taksi",
+      "phone": "04546800088",
+      "website": null,
+      "lat": 40.914551,
+      "lon": 38.514547,
+      "address": "Bozkurt Mah. Gazhane Cad. 8 Keşap, Giresun",
+      "districtId": "kesap",
+      "districtName": "Kesap",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04546412373-78",
+      "name": "Terminal Taksi",
+      "phone": "04546412373",
+      "website": null,
+      "lat": 40.917489,
+      "lon": 38.518383,
+      "address": "Fındıklı Mah. Trabzon Cad. Merkez, Keşap, Giresun",
+      "districtId": "kesap",
+      "districtName": "Kesap",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323856954-79",
+      "name": "Keşap Taksi",
+      "phone": "05323856954",
+      "website": null,
+      "lat": 40.916719,
+      "lon": 38.520413,
+      "address": "Fındıklı Mah. Atatürk Cad. Keşap, Giresun",
+      "districtId": "kesap",
+      "districtName": "Kesap",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315813001-80",
+      "name": "Espiye Taksi",
+      "phone": "05315813001",
+      "website": null,
+      "lat": 40.9453805,
+      "lon": 38.7094804,
+      "address": null,
+      "districtId": "espiye",
+      "districtName": "Espiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05393200128-81",
+      "name": "Otogar Taksi",
+      "phone": "05393200128",
+      "website": null,
+      "lat": 40.948054,
+      "lon": 38.708824,
+      "address": "Merkez Mah. Karadere Cad. Espiye, Giresun",
+      "districtId": "espiye",
+      "districtName": "Espiye",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05323856954-82",
+      "name": "Otogar Taksi",
+      "phone": "05323856954",
+      "website": null,
+      "lat": 40.949331,
+      "lon": 38.712674,
+      "address": "Merkez Mah. Topal Osman Ağa Cad. Otogar Espiye, Giresun",
+      "districtId": "espiye",
+      "districtName": "Espiye",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308823318-83",
+      "name": "Meydan Taksi",
+      "phone": "05308823318",
+      "website": null,
+      "lat": 40.7406263,
+      "lon": 38.4497115,
+      "address": null,
+      "districtId": "dereli",
+      "districtName": "Dereli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05323856954-84",
+      "name": "Meydan Taksi",
+      "phone": "05323856954",
+      "website": null,
+      "lat": 40.737943,
+      "lon": 38.449163,
+      "address": "Dereli Mah. Cemal Müdür Cad. Dereli, Giresun",
+      "districtId": "dereli",
+      "districtName": "Dereli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04543614515-85",
+      "name": "Piraziz Taksi",
+      "phone": "04543614515",
+      "website": null,
+      "lat": 40.955576,
+      "lon": 38.1181831,
+      "address": "Taksi Durağı · Bey Sk. No:8",
+      "districtId": "piraziz",
+      "districtName": "Piraziz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05419799018-86",
+      "name": "Piraziz Taksi",
+      "phone": "05419799018",
+      "website": null,
+      "lat": 40.9511631,
+      "lon": 38.1472571,
+      "address": null,
+      "districtId": "piraziz",
+      "districtName": "Piraziz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04547514374-87",
+      "name": "Alucra Merkez Taksi",
+      "phone": "04547514374",
+      "website": null,
+      "lat": 40.3230987,
+      "lon": 38.7606519,
+      "address": "Beylerce Köyü Hürriyet Cad. 51 Dk:1 Alucra, Giresun",
+      "districtId": "alucra",
+      "districtName": "Alucra",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04545913860-88",
+      "name": "anakçı Merkez Taksi",
+      "phone": "04545913860",
+      "website": null,
+      "lat": 40.917529,
+      "lon": 39.009933,
+      "address": "Merkez Mah. İnönü Cad. 3/A Çanakçı, Giresun",
+      "districtId": "canakci",
+      "districtName": "Canakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04544716464-89",
+      "name": "Harşıt Taksi",
+      "phone": "04544716464",
+      "website": null,
+      "lat": 40.807453,
+      "lon": 38.917303,
+      "address": "Merkez Mah. Tekinler Sok. Doğankent, Giresun",
+      "districtId": "dogankent",
+      "districtName": "Dogankent",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04542169815-90",
+      "name": "Güven Taksi",
+      "phone": "04542169815",
+      "website": null,
+      "lat": 40.861082,
+      "lon": 38.625413,
+      "address": "Merkez Mah. Hürriyet Cad. 32/A Yağlıdere, Giresun",
+      "districtId": "yaglidere",
+      "districtName": "Yaglidere",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-04542169911-91",
+      "name": "Altay Taksi",
+      "phone": "04542169911",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04542151028-92",
+      "name": "Demir Taksi",
+      "phone": "04542151028",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04542122323-93",
+      "name": "Yavuz Taksi",
+      "phone": "04542122323",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04542011515-94",
+      "name": "Sema Taksi",
+      "phone": "04542011515",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05076072885-95",
+      "name": "Cumhuriyet Park Taksi",
+      "phone": "05076072885",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05411284428-96",
+      "name": "GEDİKKAYA TAKSİ",
+      "phone": "05411284428",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-04542258787-97",
+      "name": "Tümü → Abacıbükü Taksi",
+      "phone": "04542258787",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04542162929-98",
+      "name": "Aile Taksi 7/24 Giresun AÇIK · 7 gün 24 saat Fevzi Çakmak, Kent Hastahanesi yanı",
+      "phone": "04542162929",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332194028-99",
+      "name": "Hastane Taksi ( Seka Taksi ) AÇIK · 7 gün 24 saat Aksu, Yeni hastane stadyum mev",
+      "phone": "05332194028",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04542127273-100",
+      "name": "Irmak Taksi AÇIK · 7 gün 24 saat Kale, Hasan Ali Yücel Cd. no: 4/1, 28100 Giresu",
+      "phone": "04542127273",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05383985586-101",
+      "name": "Tümü → Kınık Taksi Alucra",
+      "phone": "05383985586",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543331333-102",
+      "name": "Tümü → Akasya Taksi Bulancak",
+      "phone": "04543331333",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543181111-103",
+      "name": "Bizim Taksi",
+      "phone": "04543181111",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355506043-104",
+      "name": "Bulancak Deniz Taksi",
+      "phone": "05355506043",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05387493986-105",
+      "name": "Bulancak Giresun Taksi",
+      "phone": "05387493986",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543144343-106",
+      "name": "Bulancak Güzelyalı Taksi AÇIK · 7 gün 24 saat Güzelyalı, Toki Evleri Sapağı, Güz",
+      "phone": "04543144343",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545000202-107",
+      "name": "Burunucu Taksi Durağı",
+      "phone": "04545000202",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543141912-108",
+      "name": "Güven Taksi Bulancak",
+      "phone": "04543141912",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543141121-109",
+      "name": "Huzur Taksi & Paşa Otomotiv AÇIK · 7 gün 24 saat Bahçelievler Latife Hanım Cadde",
+      "phone": "04543141121",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543182424-110",
+      "name": "Lider Taksi",
+      "phone": "04543182424",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543813536-111",
+      "name": "Meydan Taksi Dereli",
+      "phone": "04543813536",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543814151-112",
+      "name": "Otogar Taksi",
+      "phone": "04543814151",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04543813275-113",
+      "name": "Saatçiler Taksi",
+      "phone": "04543813275",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04544715510-114",
+      "name": "Kent Taksi Doğankent",
+      "phone": "04544715510",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04546114177-115",
+      "name": "Tümü → Dörtyol Taksi",
+      "phone": "04546114177",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05398263876-116",
+      "name": "Espiye Taksi Burak",
+      "phone": "05398263876",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05398968362-117",
+      "name": "Espiye Taksi Hasan",
+      "phone": "05398968362",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04546113733-118",
+      "name": "Taksi durağı",
+      "phone": "04546113733",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05444110605-119",
+      "name": "Taksi Espiye",
+      "phone": "05444110605",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545136060-120",
+      "name": "Tümü → Çiçek Taksi",
+      "phone": "04545136060",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545131040-121",
+      "name": "Görele Emniyet Taksi",
+      "phone": "04545131040",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545135858-122",
+      "name": "Görele Güven Taksi",
+      "phone": "04545135858",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545135760-123",
+      "name": "Görele İtimat Taksi",
+      "phone": "04545135760",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545131315-124",
+      "name": "Hastane Taksi Görele",
+      "phone": "04545131315",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04545133333-125",
+      "name": "Meydan Taksi Görele",
+      "phone": "04545133333",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04546415494-126",
+      "name": "Tümü → Doğuş Taksi AÇIK · 7 gün 24 saat Karabulduk Mh, Karabulduk Yolu Pk:28910,",
+      "phone": "04546415494",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393938834-127",
+      "name": "Tümü → Akın Şengül Taksi",
+      "phone": "05393938834",
+      "website": null,
+      "lat": 40.9128,
+      "lon": 38.3895,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05352829467-128",
+      "name": "Piraziz Taksi - Murat Bozkurt",
+      "phone": "05352829467",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "piraziz",
+      "districtName": "Piraziz",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-04543614585-129",
+      "name": "Yenimahalle Taksi Durağı",
+      "phone": "04543614585",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "piraziz",
+      "districtName": "Piraziz",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

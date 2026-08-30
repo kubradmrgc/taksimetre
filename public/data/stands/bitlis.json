@@ -1,0 +1,1057 @@
+{
+  "cityId": "bitlis",
+  "cityName": "Bitlis",
+  "fetchedAt": "2026-08-30T21:28:38.872Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "adilcevaz",
+      "name": "Adilcevaz",
+      "count": 18
+    },
+    {
+      "id": "ahlat",
+      "name": "Ahlat",
+      "count": 5
+    },
+    {
+      "id": "guroymak",
+      "name": "Guroymak",
+      "count": 9
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 15
+    },
+    {
+      "id": "tatvan",
+      "name": "Tatvan",
+      "count": 10
+    }
+  ],
+  "count": 66,
+  "stands": [
+    {
+      "id": "taksi724-05422461116-0",
+      "name": "Adilcevaz Taksi",
+      "phone": "05422461116",
+      "website": null,
+      "lat": 38.8024588,
+      "lon": 42.7337909,
+      "address": "Taksi · Cumhuriyet Cd. No:28",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05539476913-1",
+      "name": "Taksi durağı",
+      "phone": "05539476913",
+      "website": null,
+      "lat": 38.8091155,
+      "lon": 42.7531704,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355895647-2",
+      "name": "Bitlis Merkez Çağlayan Taksi",
+      "phone": "05355895647",
+      "website": null,
+      "lat": 38.8090435,
+      "lon": 42.7525544,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05342545654-3",
+      "name": "TOKi TAKSi",
+      "phone": "05342545654",
+      "website": null,
+      "lat": 38.403287,
+      "lon": 42.108359,
+      "address": "Taksi Durağı · Nur Cd. No:29",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05541130088-4",
+      "name": "niversite Otogar TAKSi",
+      "phone": "05541130088",
+      "website": null,
+      "lat": 38.4882952,
+      "lon": 42.1861856,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382315388-5",
+      "name": "Bitlis Taksi",
+      "phone": "05382315388",
+      "website": null,
+      "lat": 38.4881868,
+      "lon": 42.1872163,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374645883-6",
+      "name": "Bitlis Taksi",
+      "phone": "05374645883",
+      "website": null,
+      "lat": 38.402767,
+      "lon": 42.108013,
+      "address": "Ulaşım Hizmeti ·  · Kazım Dirik Cd. No:33",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05349372135-7",
+      "name": "Bitlis Toki Beşminare Taksi",
+      "phone": "05349372135",
+      "website": null,
+      "lat": 38.4027034,
+      "lon": 42.1080522,
+      "address": "Taksi Durağı ·  · Kazım Dirik Cd. No:34",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363487795-8",
+      "name": "Cam sitesi Taksi",
+      "phone": "05363487795",
+      "website": null,
+      "lat": 38.4832202,
+      "lon": 42.1749629,
+      "address": "Taksi ·  · Üstün Petrol Dinlenme Tesisi, Beşminare Mahallesi",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04342263313-9",
+      "name": "Çiçek Taksi",
+      "phone": "04342263313",
+      "website": null,
+      "lat": 38.4298293,
+      "lon": 42.1326748,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369235118-10",
+      "name": "Mutki Taksi",
+      "phone": "05369235118",
+      "website": null,
+      "lat": 38.4340625,
+      "lon": 42.1365109,
+      "address": "Taksi Durağı · 1223. Sk. No:2",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452380374-11",
+      "name": "Nokta Taksi",
+      "phone": "05452380374",
+      "website": null,
+      "lat": 38.4044995,
+      "lon": 42.1129196,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-04342261213-12",
+      "name": "Site Taksi",
+      "phone": "04342261213",
+      "website": null,
+      "lat": 38.4322406,
+      "lon": 42.1336104,
+      "address": "Taksi Durağı ·  · 1208. Sk.",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04342263313-13",
+      "name": "13 Kalealtı Taksi",
+      "phone": "04342263313",
+      "website": null,
+      "lat": 38.4251003,
+      "lon": 42.1264544,
+      "address": "Taksi · Hüsrevpaşa Mah. Çam Sitesi 1207. Sok",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05337458229-14",
+      "name": "Taksi",
+      "phone": "05337458229",
+      "website": null,
+      "lat": 38.4019387,
+      "lon": 42.1069162,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368669053-15",
+      "name": "/ bitlis tatvan en yakın Taksi",
+      "phone": "05368669053",
+      "website": null,
+      "lat": 38.4889111,
+      "lon": 42.1821127,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05364419884-16",
+      "name": "Vangölü Taksi",
+      "phone": "05364419884",
+      "website": null,
+      "lat": 38.5134549,
+      "lon": 42.2781414,
+      "address": null,
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05467920082-17",
+      "name": "bitlis-taksi",
+      "phone": "05467920082",
+      "website": null,
+      "lat": 38.403289,
+      "lon": 42.108357,
+      "address": "Taksi Durağı ·  · Nur Cd. No:27",
+      "districtId": "adilcevaz",
+      "districtName": "Adilcevaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539294304-18",
+      "name": "Beşminare TOKi Üniversite Taksi",
+      "phone": "05539294304",
+      "website": null,
+      "lat": 38.4015,
+      "lon": 42.114,
+      "address": "Beş Minare Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05368669053-19",
+      "name": "Güven Taksi",
+      "phone": "05368669053",
+      "website": null,
+      "lat": 38.402,
+      "lon": 42.115,
+      "address": "Beşminare Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04342267580-20",
+      "name": "Hersan Taksi",
+      "phone": "04342267580",
+      "website": null,
+      "lat": 38.4006,
+      "lon": 42.1095,
+      "address": "Selahattin Eyyubi Caddesi Hükümet Konağı Yanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04342267471-21",
+      "name": "Hüsrev Paşa 1223 Taksi",
+      "phone": "04342267471",
+      "website": null,
+      "lat": 38.3985,
+      "lon": 42.106,
+      "address": "Hersan, 530. Sk. No:1",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369235118-22",
+      "name": "Hüsrev Paşa Ahmet Eren Taksi",
+      "phone": "05369235118",
+      "website": null,
+      "lat": 38.4022,
+      "lon": 42.1115,
+      "address": "Hüsrev Paşa, 1223. Sk. No:2",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04342263313-23",
+      "name": "İnönü Kazım Dirik Taksi",
+      "phone": "04342263313",
+      "website": null,
+      "lat": 38.4025,
+      "lon": 42.112,
+      "address": "Hüsrev Paşa, Ahmet Eren Bulvarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05534707331-24",
+      "name": "İnönü Nur 21 Taksi",
+      "phone": "05534707331",
+      "website": null,
+      "lat": 38.4005,
+      "lon": 42.109,
+      "address": "İnönü, Kazım Dirik Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05349372135-25",
+      "name": "İnönü Nur Taksi",
+      "phone": "05349372135",
+      "website": null,
+      "lat": 38.4008,
+      "lon": 42.1098,
+      "address": "İnönü, Nur Cd. No.21",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05467920082-26",
+      "name": "Kurubulak Taksi",
+      "phone": "05467920082",
+      "website": null,
+      "lat": 38.401,
+      "lon": 42.11,
+      "address": "İnönü, Nur Cd. No:27",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04342267471-27",
+      "name": "Muştur Taksi",
+      "phone": "04342267471",
+      "website": null,
+      "lat": 38.395942,
+      "lon": 42.109965,
+      "address": "Hersan Mah. Kurubulak, Bitlis Merkez, Bitlis",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05316130813-28",
+      "name": "Rahva Otogar Taksi",
+      "phone": "05316130813",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.107,
+      "address": "Fatiha Yokuşu, 720. Sokak No:13",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368669053-29",
+      "name": "Zeydan 720 Taksi",
+      "phone": "05368669053",
+      "website": null,
+      "lat": 38.403,
+      "lon": 42.12,
+      "address": "Rahva Üstün Petrol, Otogar",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04342267407-30",
+      "name": "Zeydan Merkez Taksi",
+      "phone": "04342267407",
+      "website": null,
+      "lat": 38.399,
+      "lon": 42.1075,
+      "address": "Zeydan, 720. Sk. No:1",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05454108034-31",
+      "name": "Zeydan Nurullah Eren Taksi",
+      "phone": "05454108034",
+      "website": null,
+      "lat": 38.3998,
+      "lon": 42.1085,
+      "address": "Zeydan, Merkez, Kazım Dirik Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05413363185-32",
+      "name": "bitlis-taksi",
+      "phone": "05413363185",
+      "website": null,
+      "lat": 38.3995,
+      "lon": 42.108,
+      "address": "Zeydan, Nurullah Eren Cd. No:1",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366960583-33",
+      "name": "Güroymak Birlik Taksi",
+      "phone": "05366960583",
+      "website": null,
+      "lat": 38.57673,
+      "lon": 42.0201119,
+      "address": null,
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05392911063-34",
+      "name": "Güroymak hastahane Taksi",
+      "phone": "05392911063",
+      "website": null,
+      "lat": 38.5771365,
+      "lon": 42.0193294,
+      "address": "Taksi · birlik taksi durağı, 506. Sk.",
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445605437-35",
+      "name": "Güroymak Merkez Taksi",
+      "phone": "05445605437",
+      "website": null,
+      "lat": 38.5673864,
+      "lon": 42.0512557,
+      "address": null,
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300498873-36",
+      "name": "Güroymak Özgül Taksi",
+      "phone": "05300498873",
+      "website": null,
+      "lat": 38.577794,
+      "lon": 42.0205003,
+      "address": "Taksi Durağı · 505. Sk.",
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05431722308-37",
+      "name": "Güroymak Site Taksi",
+      "phone": "05431722308",
+      "website": null,
+      "lat": 38.5774379,
+      "lon": 42.0181363,
+      "address": "Taksi Durağı · 702. Sk.",
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376446113-38",
+      "name": "Güroymak Taksi",
+      "phone": "05376446113",
+      "website": null,
+      "lat": 38.577536,
+      "lon": 42.018246,
+      "address": null,
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373517413-39",
+      "name": "zgür Taksi",
+      "phone": "05373517413",
+      "website": null,
+      "lat": 38.5739802,
+      "lon": 42.0257027,
+      "address": null,
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396739090-40",
+      "name": "Güroymak hastahane Taksi",
+      "phone": "05396739090",
+      "website": null,
+      "lat": 38.57702,
+      "lon": 42.017065,
+      "address": "Taksi Durağı · 702. Sk.",
+      "districtId": "guroymak",
+      "districtName": "Guroymak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385979826-41",
+      "name": "Dörtyol Taksi",
+      "phone": "05385979826",
+      "website": null,
+      "lat": 38.501998,
+      "lon": 42.2812761,
+      "address": null,
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05530901689-42",
+      "name": "Göl Taksi",
+      "phone": "05530901689",
+      "website": null,
+      "lat": 38.500968,
+      "lon": 42.278969,
+      "address": "Aydınlar Mah. İstasyon Cad. Tatvan, Bitlis",
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464958174-43",
+      "name": "Star Taksi",
+      "phone": "05464958174",
+      "website": null,
+      "lat": 38.493196,
+      "lon": 42.283033,
+      "address": "Tuğ Mah. Hükümet Cad. Tatvan, Bitlis",
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04322149130-44",
+      "name": "Tatvan Dörtyol Taksi",
+      "phone": "04322149130",
+      "website": null,
+      "lat": 38.493829,
+      "lon": 42.286581,
+      "address": "Tuğ Mah. 8. Sok. Tatvan, Bitlis",
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04348275848-45",
+      "name": "Tatvan Göl Taksi",
+      "phone": "04348275848",
+      "website": null,
+      "lat": 38.5028391,
+      "lon": 42.2798693,
+      "address": "Taksi Durağı · İstasyon Cd. No:4",
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04348275215-46",
+      "name": "Tatvan Hastane Taksi",
+      "phone": "04348275215",
+      "website": null,
+      "lat": 38.494894,
+      "lon": 42.2861512,
+      "address": null,
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326812635-47",
+      "name": "Tatvan Köşem Taksi",
+      "phone": "05326812635",
+      "website": null,
+      "lat": 38.507118,
+      "lon": 42.284411,
+      "address": null,
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04348278585-48",
+      "name": "Göl Taksi",
+      "phone": "04348278585",
+      "website": null,
+      "lat": 38.4984574,
+      "lon": 42.283917,
+      "address": null,
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04344125352-49",
+      "name": "Ahlat Sanayi Taksi",
+      "phone": "04344125352",
+      "website": null,
+      "lat": 38.75,
+      "lon": 42.48,
+      "address": "Erkizan Mah. Mazlum Yegül Cad. Ahlat",
+      "districtId": "ahlat",
+      "districtName": "Ahlat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04344125400-50",
+      "name": "Ahlat Taksi",
+      "phone": "04344125400",
+      "website": null,
+      "lat": 38.751,
+      "lon": 42.482,
+      "address": "Selçuklu Mah. Sanayi 1. Sok. Ahlat",
+      "districtId": "ahlat",
+      "districtName": "Ahlat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05063235483-51",
+      "name": "Best Taksi",
+      "phone": "05063235483",
+      "website": null,
+      "lat": 38.7598995,
+      "lon": 42.4744642,
+      "address": null,
+      "districtId": "ahlat",
+      "districtName": "Ahlat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374645883-52",
+      "name": "Selçuklu Taksi",
+      "phone": "05374645883",
+      "website": null,
+      "lat": 38.753964,
+      "lon": 42.497985,
+      "address": "Erkizan Mah. Mazlum Yegül Cad. Ahlat, Bitlis",
+      "districtId": "ahlat",
+      "districtName": "Ahlat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316130813-53",
+      "name": "Ahlat Taksi",
+      "phone": "05316130813",
+      "website": null,
+      "lat": 38.754229,
+      "lon": 42.481249,
+      "address": "Selçuklu Mah. Sanayi 1. Sok. Ahlat, Bitlis",
+      "districtId": "ahlat",
+      "districtName": "Ahlat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05516508113-54",
+      "name": "Bitlis acil taksi",
+      "phone": "05516508113",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05441430013-55",
+      "name": "Vangölü Taksi Durağı",
+      "phone": "05441430013",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05413647867-56",
+      "name": "Taç Taksi",
+      "phone": "05413647867",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05522260013-57",
+      "name": "Hüsrevpaşa Taksi Bitlis",
+      "phone": "05522260013",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05077254265-58",
+      "name": "Tümü → Ahlat Merkez Taksi",
+      "phone": "05077254265",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05352235537-59",
+      "name": "Ahlat Taksi AÇIK · 7 gün 24 saat Selçuklu Taksi Durağı Bitlis Ahlat 13 T, 2006, ",
+      "phone": "05352235537",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04344127071-60",
+      "name": "Özlem Ahlat Taksi",
+      "phone": "04344127071",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393192308-61",
+      "name": "Tümü → Güroymak Taksi",
+      "phone": "05393192308",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05345595519-62",
+      "name": "Tatvan Köşem Taksi",
+      "phone": "05345595519",
+      "website": null,
+      "lat": 38.4,
+      "lon": 42.1083,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05415021309-63",
+      "name": "Özgül Taksi - Erkan",
+      "phone": "05415021309",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "guroymak",
+      "districtName": "Güroymak",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05462847635-64",
+      "name": "Tatvan Taksi - Eyüp Özdemir",
+      "phone": "05462847635",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05404131052-65",
+      "name": "Tatvan Taksi - Murat Baran",
+      "phone": "05404131052",
+      "website": "https://www.instagram.com/tatvan_taksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "tatvan",
+      "districtName": "Tatvan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

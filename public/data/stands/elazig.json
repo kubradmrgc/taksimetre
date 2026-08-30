@@ -1,0 +1,1641 @@
+{
+  "cityId": "elazig",
+  "cityName": "Elazığ",
+  "fetchedAt": "2026-08-30T21:30:39.533Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "agin",
+      "name": "Agin",
+      "count": 46
+    },
+    {
+      "id": "alacakaya",
+      "name": "Alacakaya",
+      "count": 10
+    },
+    {
+      "id": "aricak",
+      "name": "Aricak",
+      "count": 4
+    },
+    {
+      "id": "baskil",
+      "name": "Baskil",
+      "count": 1
+    },
+    {
+      "id": "karakocan",
+      "name": "Karakocan",
+      "count": 2
+    },
+    {
+      "id": "kovancilar",
+      "name": "Kovancilar",
+      "count": 8
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 28
+    },
+    {
+      "id": "palu",
+      "name": "Palu",
+      "count": 1
+    }
+  ],
+  "count": 105,
+  "stands": [
+    {
+      "id": "taksi724-05512321423-0",
+      "name": "Ataşehir Taksi",
+      "phone": "05512321423",
+      "website": null,
+      "lat": 38.675319,
+      "lon": 39.218412,
+      "address": "Taksi Durağı ·  · Gazi Cad. Beyazıt Sok. (Erkek Öğrenci Yurdu Yanı) Elazığ",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453223023-1",
+      "name": "Bahçelievler Taksi",
+      "phone": "05453223023",
+      "website": null,
+      "lat": 38.6609249,
+      "lon": 39.186249,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05060672137-2",
+      "name": "ÇAYDAÇIRA TAKSi",
+      "phone": "05060672137",
+      "website": null,
+      "lat": 38.672036,
+      "lon": 39.180026,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421095523-3",
+      "name": "Dilek Taksi",
+      "phone": "05421095523",
+      "website": null,
+      "lat": 38.6807947,
+      "lon": 39.1705199,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355109035-4",
+      "name": "Doğu Garajı Alo Taksi",
+      "phone": "05355109035",
+      "website": null,
+      "lat": 38.682585,
+      "lon": 39.2178839,
+      "address": "Taksi Durağı ·  · Yunus Emre Blv. No:84",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355108023-5",
+      "name": "DÖRTYOL TAKSi",
+      "phone": "05355108023",
+      "website": null,
+      "lat": 38.6663878,
+      "lon": 39.2376796,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04242413241-6",
+      "name": "ELAZIĞ DÖRTYOL TAKSi",
+      "phone": "04242413241",
+      "website": null,
+      "lat": 38.6692926,
+      "lon": 39.2052818,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455260560-7",
+      "name": "ELAZIĞ ŞEHiR HASATNESi FETi SEKiN TAKSi",
+      "phone": "05455260560",
+      "website": null,
+      "lat": 38.6655346,
+      "lon": 39.2097296,
+      "address": "Taksi Durağı · İshak Sunguroğlu Cd. No:94 D:7",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05320501459-8",
+      "name": "Taksi durağı",
+      "phone": "05320501459",
+      "website": null,
+      "lat": 38.6858823,
+      "lon": 39.2693979,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304342373-9",
+      "name": "ELAZIĞ TAKSi",
+      "phone": "05304342373",
+      "website": null,
+      "lat": 38.6793704,
+      "lon": 39.216952,
+      "address": "Taksi Durağı · Alaca Sk.",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05393674080-10",
+      "name": "ELAZIĞ TAKSi",
+      "phone": "05393674080",
+      "website": null,
+      "lat": 38.6715917,
+      "lon": 39.2315452,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363064880-11",
+      "name": "ELAZIĞ ViLAYET TAKSi",
+      "phone": "05363064880",
+      "website": null,
+      "lat": 38.6740112,
+      "lon": 39.2327094,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387680895-12",
+      "name": "Elazig Yeni Mahalle Taksi",
+      "phone": "05387680895",
+      "website": null,
+      "lat": 38.676663,
+      "lon": 39.211956,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303280406-13",
+      "name": "Elazığ Adliye Taksi",
+      "phone": "05303280406",
+      "website": null,
+      "lat": 38.6775593,
+      "lon": 39.2173632,
+      "address": "Elazig Yeni Mahalle Taksi",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05441801123-14",
+      "name": "Elazığ Ataşehir Taksi",
+      "phone": "05441801123",
+      "website": null,
+      "lat": 38.6740822,
+      "lon": 39.1773744,
+      "address": "Taksi Durağı · Emsal Sk. No: 20",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05433223023-15",
+      "name": "Elazığ Ataşehir Taksi",
+      "phone": "05433223023",
+      "website": null,
+      "lat": 38.6634999,
+      "lon": 39.1970742,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05470230403-16",
+      "name": "Elazığ Bahçelievler Taksi",
+      "phone": "05470230403",
+      "website": null,
+      "lat": 38.6607333,
+      "lon": 39.1776823,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323907523-17",
+      "name": "Elazığ Çarşı Merkez Taksi",
+      "phone": "05323907523",
+      "website": null,
+      "lat": 38.6699481,
+      "lon": 39.1789008,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332914323-18",
+      "name": "Elazığ Çarşı Taksi",
+      "phone": "05332914323",
+      "website": null,
+      "lat": 38.6741387,
+      "lon": 39.2203768,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05335027523-19",
+      "name": "Elazığ Harput Taksi",
+      "phone": "05335027523",
+      "website": null,
+      "lat": 38.6690127,
+      "lon": 39.2165786,
+      "address": "Taksi Durağı ·  · Kulu Öztürk Cd. No:11",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05473130314-20",
+      "name": "Elazığ Merkez Hal Taksi",
+      "phone": "05473130314",
+      "website": null,
+      "lat": 38.6748147,
+      "lon": 39.2233093,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05532758636-21",
+      "name": "Elazığ Merkez Taksi",
+      "phone": "05532758636",
+      "website": null,
+      "lat": 38.6682948,
+      "lon": 39.2139517,
+      "address": "Taksi Durağı ·  · Atatürk Blv. No:6",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05375959511-22",
+      "name": "Elazığ Merkez Taksi",
+      "phone": "05375959511",
+      "website": null,
+      "lat": 38.6739766,
+      "lon": 39.2218766,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377766388-23",
+      "name": "Elazıg Merkez Taksi",
+      "phone": "05377766388",
+      "website": null,
+      "lat": 38.6745187,
+      "lon": 39.2241692,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326814262-24",
+      "name": "Elazığ Mini Taksi",
+      "phone": "05326814262",
+      "website": null,
+      "lat": 38.683056,
+      "lon": 39.2198988,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367899514-25",
+      "name": "Elazığ Taksi",
+      "phone": "05367899514",
+      "website": null,
+      "lat": 38.6747042,
+      "lon": 39.224287,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316295833-26",
+      "name": "Elazığ Taksi",
+      "phone": "05316295833",
+      "website": null,
+      "lat": 38.6662373,
+      "lon": 39.1777779,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05301362362-27",
+      "name": "Elazığ Taksi",
+      "phone": "05301362362",
+      "website": null,
+      "lat": 38.6755917,
+      "lon": 39.2252007,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312727894-28",
+      "name": "7/24 - Merkez'de Taksi",
+      "phone": "05312727894",
+      "website": null,
+      "lat": 38.6661141,
+      "lon": 39.222817,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400230078-29",
+      "name": "Elazığ Taksi",
+      "phone": "05400230078",
+      "website": null,
+      "lat": 38.6752138,
+      "lon": 39.2175916,
+      "address": "Taksi Durağı · Yeni Mahalle Namık Çiftçi Caddesi, Alaca Sk.",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300725723-30",
+      "name": "Elazığ Taksi",
+      "phone": "05300725723",
+      "website": null,
+      "lat": 38.659346,
+      "lon": 39.1492366,
+      "address": "Taksi · 277. Sk. no:86",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400060454-31",
+      "name": "Elazığ ulukent Taksi",
+      "phone": "05400060454",
+      "website": null,
+      "lat": 38.6369333,
+      "lon": 39.159689,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05334958512-32",
+      "name": "En Yakın Taksi",
+      "phone": "05334958512",
+      "website": null,
+      "lat": 38.6877488,
+      "lon": 39.2512067,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05307978523-33",
+      "name": "FETi SEKiN ŞEHiR HASTANESi TAKSi",
+      "phone": "05307978523",
+      "website": null,
+      "lat": 38.6750219,
+      "lon": 39.2189602,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05518744640-34",
+      "name": "Fevzi çakmak Taksi",
+      "phone": "05518744640",
+      "website": null,
+      "lat": 38.6872299,
+      "lon": 39.2720637,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313554260-35",
+      "name": "Haksen Taksi",
+      "phone": "05313554260",
+      "website": null,
+      "lat": 38.688905,
+      "lon": 39.2200682,
+      "address": "Taksi Durağı · Şht. İlhanlar Cd. No:36",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394602682-36",
+      "name": "Karakocan Taksi",
+      "phone": "05394602682",
+      "website": null,
+      "lat": 38.6640437,
+      "lon": 39.1586936,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352094403-37",
+      "name": "Merkez Taksi",
+      "phone": "05352094403",
+      "website": null,
+      "lat": 38.9553004,
+      "lon": 40.0356134,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373076820-38",
+      "name": "Şehir Hastanesi Taksi",
+      "phone": "05373076820",
+      "website": null,
+      "lat": 38.6744684,
+      "lon": 39.2241696,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444842362-39",
+      "name": "ŞEHiR HASTANESi TAKSi",
+      "phone": "05444842362",
+      "website": null,
+      "lat": 38.6894279,
+      "lon": 39.2745785,
+      "address": "Taksi Durağı · Mahallesi, Mustafa Temizer Cd.",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425790579-40",
+      "name": "Şeker Ambarı Taksi",
+      "phone": "05425790579",
+      "website": null,
+      "lat": 38.6893697,
+      "lon": 39.2733409,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05305436223-41",
+      "name": "Taksi",
+      "phone": "05305436223",
+      "website": null,
+      "lat": 38.6776205,
+      "lon": 39.2171448,
+      "address": "Taksi Durağı · Yeni Mahalle Namık çiftçi Caddesi, Alaca Sk., 23100 Elâzığ Merkez",
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367405117-42",
+      "name": "Tofaş Kavşağı Türk Telekom Tapu Taksi",
+      "phone": "05367405117",
+      "website": null,
+      "lat": 38.6848823,
+      "lon": 39.2369472,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451305023-43",
+      "name": "Üniversite Taksi",
+      "phone": "05451305023",
+      "website": null,
+      "lat": 38.6589893,
+      "lon": 39.1619117,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05539352300-44",
+      "name": "Vatan Taksi",
+      "phone": "05539352300",
+      "website": null,
+      "lat": 38.6753992,
+      "lon": 39.2097745,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367405117-45",
+      "name": "elazig-taksi",
+      "phone": "05367405117",
+      "website": null,
+      "lat": 38.690571,
+      "lon": 39.2430237,
+      "address": null,
+      "districtId": "agin",
+      "districtName": "Agin",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384732814-46",
+      "name": "Araştırma Hastanesi Taksi",
+      "phone": "05384732814",
+      "website": null,
+      "lat": 38.649055,
+      "lon": 39.137526,
+      "address": "Abdullah Paşa Mah. Gazi Cad. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425790579-47",
+      "name": "Bahçelievler Taksi",
+      "phone": "05425790579",
+      "website": null,
+      "lat": 38.679904,
+      "lon": 39.208202,
+      "address": "Üniversite Mah. Yunus Emre Blv. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323907523-48",
+      "name": "Çıra Taksi",
+      "phone": "05323907523",
+      "website": null,
+      "lat": 38.670214,
+      "lon": 39.183059,
+      "address": "Cumhuriyet Mah. 155 Sok. 21 Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421095523-49",
+      "name": "Doğukent Taksi",
+      "phone": "05421095523",
+      "website": null,
+      "lat": 38.687769,
+      "lon": 39.17331897,
+      "address": "Üniversite Mah. Anguzubaba Sok. 17 Çaydaçıra, Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352387679-50",
+      "name": "Emek Taksi",
+      "phone": "05352387679",
+      "website": null,
+      "lat": 38.674897,
+      "lon": 39.228591,
+      "address": "İcadiye Mah. Hürriyet Cad. Gölgeli Sok. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05323907523-51",
+      "name": "Emniyet Taksi",
+      "phone": "05323907523",
+      "website": null,
+      "lat": 38.671107,
+      "lon": 39.222337,
+      "address": "Akpınar Mah. Bosna Hersek Blv. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308923323-52",
+      "name": "Harput Devlet Hastanesi Taksi",
+      "phone": "05308923323",
+      "website": null,
+      "lat": 38.68780249,
+      "lon": 39.1734048,
+      "address": "Üniversite Mah. Anguzubaba Sok. 17 Çaydaçıra, Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-53-53",
+      "name": "Hürriyet Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.683634,
+      "lon": 39.224735,
+      "address": "Fevzi Çakmak Mah. İnönü Cad. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352589457-54",
+      "name": "Kader Taksi",
+      "phone": "05352589457",
+      "website": null,
+      "lat": 38.674297,
+      "lon": 39.228591,
+      "address": "İcadiye Mah. Hürriyet Cad. Gölgeli Sok. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05074026253-55",
+      "name": "Toplu Taksi",
+      "phone": "05074026253",
+      "website": null,
+      "lat": 38.67281,
+      "lon": 39.229538,
+      "address": "Çarşı Mah. Kışla Cad. (Orduevi Karşısı) Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05400400353-56",
+      "name": "Sigorta Taksi",
+      "phone": "05400400353",
+      "website": null,
+      "lat": 38.68456319,
+      "lon": 39.2658521,
+      "address": "Doğu Kent Mah. Mimar Sinan Cad. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05393186223-57",
+      "name": "Terminal Taksi",
+      "phone": "05393186223",
+      "website": null,
+      "lat": 38.683649,
+      "lon": 39.224865,
+      "address": "Yıldız Bağları Mah. Yunus Emre Blv. İnönü Cad. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04242248049-58",
+      "name": "Vip Taksi",
+      "phone": "04242248049",
+      "website": null,
+      "lat": 38.667096,
+      "lon": 39.24666,
+      "address": "Sanayi Mah. Sanayi Cad. Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387680895-59",
+      "name": "elazig-taksi",
+      "phone": "05387680895",
+      "website": null,
+      "lat": 38.68033,
+      "lon": 39.207395,
+      "address": "Üniversite Mah. Sarmaşık Sok. 1 Elazığ Merkez, Elazığ",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05319825030-60",
+      "name": "Çaydaçıra Taksi",
+      "phone": "05319825030",
+      "website": null,
+      "lat": 38.6736484,
+      "lon": 39.2001456,
+      "address": "Taksi · Gazi Cd. No:30/A",
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05320518823-61",
+      "name": "Çaydaçıra Taksi",
+      "phone": "05320518823",
+      "website": null,
+      "lat": 38.6804804,
+      "lon": 39.1769916,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388177251-62",
+      "name": "Elazığ ÇaydaÇıra Taksi",
+      "phone": "05388177251",
+      "website": null,
+      "lat": 38.6742061,
+      "lon": 39.1596774,
+      "address": "Taksi · Dumrul Sk. No :14",
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05075783575-63",
+      "name": "Elazığ Çaydaçıra Toki Camii Taksi",
+      "phone": "05075783575",
+      "website": null,
+      "lat": 38.6836487,
+      "lon": 39.1716738,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304950423-64",
+      "name": "Elazığ Park 23 Taksi",
+      "phone": "05304950423",
+      "website": null,
+      "lat": 38.6731226,
+      "lon": 39.1679099,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05308669401-65",
+      "name": "Elazığ 7/24 Taksi",
+      "phone": "05308669401",
+      "website": null,
+      "lat": 38.6660588,
+      "lon": 39.1739002,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313305015-66",
+      "name": "şehitlik Taksi",
+      "phone": "05313305015",
+      "website": null,
+      "lat": 38.6746914,
+      "lon": 39.2069808,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454299623-67",
+      "name": "Kültür Taksi",
+      "phone": "05454299623",
+      "website": null,
+      "lat": 38.678729,
+      "lon": 39.2295927,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05326910842-68",
+      "name": "Yemişlik Taksi",
+      "phone": "05326910842",
+      "website": null,
+      "lat": 38.6715749,
+      "lon": 39.2165552,
+      "address": "Taksi Durağı · Şht. İdris Doğan Cd. No:33",
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05415920423-69",
+      "name": "aydaçıra Taksi",
+      "phone": "05415920423",
+      "website": null,
+      "lat": 38.631557,
+      "lon": 39.1522061,
+      "address": null,
+      "districtId": "alacakaya",
+      "districtName": "Alacakaya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326160436-70",
+      "name": "Çaydaçıra Taksi",
+      "phone": "05326160436",
+      "website": null,
+      "lat": 38.6756129,
+      "lon": 39.1738706,
+      "address": "Taksi · Emsal Sk. no9",
+      "districtId": "aricak",
+      "districtName": "Aricak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403230013-71",
+      "name": "elazığ Taksici Barış Şehit İlhanlar Taksi",
+      "phone": "05403230013",
+      "website": null,
+      "lat": 38.6936383,
+      "lon": 39.1741921,
+      "address": null,
+      "districtId": "aricak",
+      "districtName": "Aricak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384779320-72",
+      "name": "Yazıkonak Taksi",
+      "phone": "05384779320",
+      "website": null,
+      "lat": 38.6775419,
+      "lon": 39.2211684,
+      "address": null,
+      "districtId": "aricak",
+      "districtName": "Aricak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333772348-73",
+      "name": "elazığ Taksici Barış Şehit İlhanlar Taksi",
+      "phone": "05333772348",
+      "website": null,
+      "lat": 38.6132763,
+      "lon": 39.3010309,
+      "address": null,
+      "districtId": "aricak",
+      "districtName": "Aricak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05393674080-74",
+      "name": "Kovancılar Hastane Taksi",
+      "phone": "05393674080",
+      "website": null,
+      "lat": 38.719382,
+      "lon": 39.866501,
+      "address": "Tuna Mah. Sağlık Cad. Kovancılar, Elazığ",
+      "districtId": "kovancilar",
+      "districtName": "Kovancilar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05050384020-75",
+      "name": "Kovancılar Taksi",
+      "phone": "05050384020",
+      "website": null,
+      "lat": 38.721463,
+      "lon": 39.857242,
+      "address": "Gültepe Mah. Kapıaçmaz Cad. Kovancılar, Elazığ",
+      "districtId": "kovancilar",
+      "districtName": "Kovancilar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05050384020-76",
+      "name": "Merkez Taksi",
+      "phone": "05050384020",
+      "website": null,
+      "lat": 38.7167691,
+      "lon": 39.8649612,
+      "address": null,
+      "districtId": "kovancilar",
+      "districtName": "Kovancilar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400400353-77",
+      "name": "Kovancılar Taksi",
+      "phone": "05400400353",
+      "website": null,
+      "lat": 38.715887,
+      "lon": 39.869904,
+      "address": "Bahçelievler Mah. Fevzi Çakmak Cad. Kovancılar, Elazığ",
+      "districtId": "kovancilar",
+      "districtName": "Kovancilar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05318288406-78",
+      "name": "Tepe Taksi",
+      "phone": "05318288406",
+      "website": null,
+      "lat": 38.9567249,
+      "lon": 40.0359957,
+      "address": null,
+      "districtId": "karakocan",
+      "districtName": "Karakocan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400400353-79",
+      "name": "Tepe Taksi",
+      "phone": "05400400353",
+      "website": null,
+      "lat": 38.95146245,
+      "lon": 40.04014198,
+      "address": "Tepe Mah. Atatürk Cad. Eser Sok. 1 Karakoçan, Elazığ",
+      "districtId": "karakocan",
+      "districtName": "Karakocan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05340823277-80",
+      "name": "Yurt Taksi",
+      "phone": "05340823277",
+      "website": null,
+      "lat": 38.652907,
+      "lon": 39.15857,
+      "address": "Taksi · Kibar Sk.",
+      "districtId": "baskil",
+      "districtName": "Baskil",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05386920659-81",
+      "name": "Elazığ Güçlü Taksi Onur Akyar",
+      "phone": "05386920659",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05453674080-82",
+      "name": "Elazığ orduevi taksi durağı",
+      "phone": "05453674080",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-05076250823-83",
+      "name": "Elazığ Gar Taksi",
+      "phone": "05076250823",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-05350230023-84",
+      "name": "Elazığ Merkez Güçlü Taksi Gökhan GÜNDOĞAR",
+      "phone": "05350230023",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05355203064-85",
+      "name": "Uçar Taksi",
+      "phone": "05355203064",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05387991466-86",
+      "name": "Elâzığ taksi",
+      "phone": "05387991466",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05307940262-87",
+      "name": "Müftülük Taksi Durağı",
+      "phone": "05307940262",
+      "website": null,
+      "lat": 38.6748,
+      "lon": 39.2226,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "nerede360-05383464891-88",
+      "name": "Ataşehir Taksi - İlker Arısoy",
+      "phone": "05383464891",
+      "website": "https://www.facebook.com/profile.php?id=100070917308950",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05425238823-89",
+      "name": "Elazığ Havalimanı Taksi - Hasan Bingol",
+      "phone": "05425238823",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05306931260-90",
+      "name": "Elazığ Taksi - Şenol Kaya",
+      "phone": "05306931260",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05387253977-91",
+      "name": "Elazığ Taksi - Varol Koruk",
+      "phone": "05387253977",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05342582278-92",
+      "name": "Fırat Taksi - Atik Sağır",
+      "phone": "05342582278",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kovancilar",
+      "districtName": "Kovancılar",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05332166453-93",
+      "name": "Koçoğlu Taksi - Muhammed Koç",
+      "phone": "05332166453",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05326850988-94",
+      "name": "Orduevi Taksi - Hüseyin Aydın",
+      "phone": "05326850988",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05457732323-95",
+      "name": "Orduevi Taksi - Levent Yıldırım",
+      "phone": "05457732323",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05347374551-96",
+      "name": "Orduevi Taksi - Oğuzhan Yılmaz",
+      "phone": "05347374551",
+      "website": "https://www.facebook.com/orduevitaksi0626",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05354181974-97",
+      "name": "Palu Taksi - Mert Alan",
+      "phone": "05354181974",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "palu",
+      "districtName": "Palu",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05309714923-98",
+      "name": "Park 23 Taksi - Emrah Aslan",
+      "phone": "05309714923",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05370329479-99",
+      "name": "Pınar Taksi - Mehmet",
+      "phone": "05370329479",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kovancilar",
+      "districtName": "Kovancılar",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05366378963-100",
+      "name": "Pınar Taksi - Orhan",
+      "phone": "05366378963",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kovancilar",
+      "districtName": "Kovancılar",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05326238937-101",
+      "name": "Şeker Ambarı Taksi - Hasan Kuvat",
+      "phone": "05326238937",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05388245921-102",
+      "name": "Uğur Taksi - Hasan Susadı",
+      "phone": "05388245921",
+      "website": "https://www.instagram.com/hasanssd_/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kovancilar",
+      "districtName": "Kovancılar",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05365497054-103",
+      "name": "Yazıkonak Taksi - Beyhan Yıldız",
+      "phone": "05365497054",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05526934923-104",
+      "name": "Yazıkonak Taksi - Ertan Günay",
+      "phone": "05526934923",
+      "website": "https://www.instagram.com/yazikonaktaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1061 @@
+{
+  "cityId": "kirklareli",
+  "cityName": "Kırklareli",
+  "fetchedAt": "2026-08-30T21:20:38.397Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 86,
+  "stands": [
+    {
+      "id": "taksi724-02884151588-0",
+      "name": "Aydın Taksi",
+      "phone": "02884151588",
+      "lat": 41.3925853,
+      "lon": 27.3583032,
+      "address": "Taksi Durağı · 8 Kasım Mahallesi Nazif Balkan Caddesi Huzur Sokak No:2 Lüleburgaz 39750",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436401235-1",
+      "name": "Birlik Taksi",
+      "phone": "05436401235",
+      "lat": 41.3911488,
+      "lon": 27.3499202,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327128809-2",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "05327128809",
+      "lat": 41.408201,
+      "lon": 27.352044,
+      "address": "Yılmaz Mah. Orhan Özcanlar Sok. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05075175160-3",
+      "name": "Doğan Taksi",
+      "phone": "05075175160",
+      "lat": 41.3964673,
+      "lon": 27.3772045,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02884151545-4",
+      "name": "Ergene Taksi",
+      "phone": "02884151545",
+      "lat": 41.399952,
+      "lon": 27.353401,
+      "address": "Taksi · İstasyon Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05441523959-5",
+      "name": "Fatih Taksi",
+      "phone": "05441523959",
+      "lat": 41.402532,
+      "lon": 27.372172,
+      "address": "Atatürk Mah. Dr. Ferit Nejat Eczacıbaşı Cad. (Migros Karşısı) Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02884178236-6",
+      "name": "Gençlik Taksi",
+      "phone": "02884178236",
+      "lat": 41.400525,
+      "lon": 27.354484,
+      "address": "Taksi · Emrullah Efendi Cad.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05322668157-7",
+      "name": "Huzur Taksi",
+      "phone": "05322668157",
+      "lat": 41.406028,
+      "lon": 27.361137,
+      "address": "Yeni Mah. Gençlik Sok. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427275991-8",
+      "name": "Işıklar Derman Taksi",
+      "phone": "05427275991",
+      "lat": 41.407603,
+      "lon": 27.353124,
+      "address": "Özerler Mah. Kemal Kendi Cad. (İş Bankası Karşısı) Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400390034-9",
+      "name": "Işıklar Taksi",
+      "phone": "05400390034",
+      "lat": 41.405588,
+      "lon": 27.351305,
+      "address": "Kocasinan Mah. Okullar Cad. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02884170052-10",
+      "name": "Kanarya Taksi",
+      "phone": "02884170052",
+      "lat": 41.4014772,
+      "lon": 27.3550349,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05345299494-11",
+      "name": "Konak Taksi",
+      "phone": "05345299494",
+      "lat": 41.408297,
+      "lon": 27.355761,
+      "address": "Özerler Mah. Hasan Ağa Çeşme Sok. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02884170546-12",
+      "name": "Kurtuluş Taksi",
+      "phone": "02884170546",
+      "lat": 41.407706,
+      "lon": 27.349654,
+      "address": "Kocasinan Mah. İnönü Cad. 1 Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05376000312-13",
+      "name": "Levent Taksi",
+      "phone": "05376000312",
+      "lat": 41.39743,
+      "lon": 27.353316,
+      "address": "Gençlik Mah. İstasyon Cad. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353530088-14",
+      "name": "Lüleburgaz Çağdaş Taksi",
+      "phone": "05353530088",
+      "lat": 41.3957334,
+      "lon": 27.3577456,
+      "address": "Taksi Durağı · General Ferhat Akat Cd. No:39780",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02884170060-15",
+      "name": "Lüleburgaz Meydan Taksi",
+      "phone": "02884170060",
+      "lat": 41.389779,
+      "lon": 27.3706701,
+      "address": "Taksi Durağı · Rumeli Cad No:12",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333748193-16",
+      "name": "Lüleburgaz Taksi",
+      "phone": "05333748193",
+      "lat": 41.409932,
+      "lon": 27.35325,
+      "address": "Taksi Durağı · Hasan Ağa Çeşme Sk. 11-1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312072906-17",
+      "name": "Lüleburgaz Taksi",
+      "phone": "05312072906",
+      "lat": 41.4014326,
+      "lon": 27.3463012,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314870283-18",
+      "name": "Doğan Taksi",
+      "phone": "05314870283",
+      "lat": 41.3910916,
+      "lon": 27.3504111,
+      "address": "Taksi Durağı · Tekcan Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372841012-19",
+      "name": "Lüleburgaz Taksi",
+      "phone": "05372841012",
+      "lat": 41.399767,
+      "lon": 27.3538251,
+      "address": "Taksi Durağı · doğan taksi durağı, Güven Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550391117-20",
+      "name": "Lüleburgaz Terminal Taksi",
+      "phone": "05550391117",
+      "lat": 41.392764,
+      "lon": 27.3649018,
+      "address": "Taksi Durağı ·  · Sezer Sk. No:12 iç kapi 2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02884176722-21",
+      "name": "Özlem Taksi",
+      "phone": "02884176722",
+      "lat": 41.4043971,
+      "lon": 27.3471346,
+      "address": "Taksi Durağı · Şehirlerarası Otobüs Terminali, İstiklal Cd. No:4/A",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400390034-22",
+      "name": "Park Taksi",
+      "phone": "05400390034",
+      "lat": 41.407981,
+      "lon": 27.351686,
+      "address": "Kocasinan Mah. İstanbul Cad. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423030039-23",
+      "name": "Ssk Taksi",
+      "phone": "05423030039",
+      "lat": 41.407108,
+      "lon": 27.355186,
+      "address": "Yeni Mah. Emrullah Efendi Cad. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02882123818-24",
+      "name": "Taksi",
+      "phone": "02882123818",
+      "lat": 41.402212,
+      "lon": 27.364869,
+      "address": "Yıldız Mah. Donatım Sok. (Ssk Hastanesi Yanı) Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321703614-25",
+      "name": "Yaman Taksi",
+      "phone": "05321703614",
+      "lat": 41.3953185,
+      "lon": 27.33662,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05324100232-26",
+      "name": "kirklareli-taksi",
+      "phone": "05324100232",
+      "lat": 41.402057,
+      "lon": 27.358897,
+      "address": "İnönü Mah. Murat Hüdavendigar Cad. Lüleburgaz, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423371410-27",
+      "name": "Bahar Taksi",
+      "phone": "05423371410",
+      "lat": 41.4408589,
+      "lon": 27.0639351,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-28-28",
+      "name": "Birlik Taksi",
+      "phone": null,
+      "lat": 41.429513,
+      "lon": 27.094682,
+      "address": "Hacıhasan Mah. Mehmet Oktan Sok. Babaeski, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400390034-29",
+      "name": "Cebindeki Taksi",
+      "phone": "05400390034",
+      "lat": 41.430947,
+      "lon": 27.091746,
+      "address": "Hamidiye Mah. Kırklareli Cad. 14 Dk:1 Babaeski, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402880039-30",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05402880039",
+      "lat": 41.7369242,
+      "lon": 27.1993726,
+      "address": "Taksi · Festival Taksi, Karakaş Mah. Ord. Prof. Mazhar Osman Usman Blv, No: 5",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05400390034-31",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05400390034",
+      "lat": 41.7463461,
+      "lon": 27.2196772,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400390034-32",
+      "name": "Güven Taksi",
+      "phone": "05400390034",
+      "lat": 41.4277,
+      "lon": 27.096038,
+      "address": "Hacıhasan Mah. Fatih Cad. 1 Babaeski, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-33-33",
+      "name": "Kırklareli Hastane Taksi",
+      "phone": null,
+      "lat": 41.4283,
+      "lon": 27.096038,
+      "address": "Hacıhasan Mah. Fatih Cad. Babaeski, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02882124633-34",
+      "name": "Kırklareli Taksi",
+      "phone": "02882124633",
+      "lat": 41.7433195,
+      "lon": 27.2253988,
+      "address": "Taksi Durağı · Çamlık Sk. No:84",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05413990079-35",
+      "name": "KIRKLARELİ Fİ TAKSİ",
+      "phone": "05413990079",
+      "lat": 41.7344146,
+      "lon": 27.2303381,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02882142498-36",
+      "name": "Otogar Taksi",
+      "phone": "02882142498",
+      "lat": 41.7312627,
+      "lon": 27.2243826,
+      "address": "Otobüs Firması ·  · Karacaibrahim Mah. Mustafa Kemal Bul. Belediye Oto terminali, A blok No 1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02882148365-37",
+      "name": "Otuzdokuztaksi",
+      "phone": "02882148365",
+      "lat": 41.429426,
+      "lon": 27.096474,
+      "address": "Hacıhasan Mah. Dar Sok. Babaeski, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05416003939-38",
+      "name": "ŞiRiN TAKSi",
+      "phone": "05416003939",
+      "lat": 41.7288916,
+      "lon": 27.2147172,
+      "address": "Taksi · Gar Sk. No:6",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02882123183-39",
+      "name": "Taksi",
+      "phone": "02882123183",
+      "lat": 41.736508,
+      "lon": 27.225238,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05423030039-40",
+      "name": "Toki Taksi",
+      "phone": "05423030039",
+      "lat": 41.7305508,
+      "lon": 27.2146103,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462882346-41",
+      "name": "kirklareli-taksi",
+      "phone": "05462882346",
+      "lat": 41.7555369,
+      "lon": 27.2248884,
+      "address": "Taksi Durağı · Paşa Caddesi no25/1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02882121121-42",
+      "name": "Cumhuriyet Taksi",
+      "phone": "02882121121",
+      "lat": 41.733284,
+      "lon": 27.224884,
+      "address": "Karacaibrahim Mah. Mustafa Kemal Blv. Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400390034-43",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "05400390034",
+      "lat": 41.74876,
+      "lon": 27.219449,
+      "address": "Cumhuriyet Mah. İnönü Cad. 1 Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-44-44",
+      "name": "Festival Taksi",
+      "phone": null,
+      "lat": 41.736604,
+      "lon": 27.220135,
+      "address": "Karakaş Mah. Hastane Cad. Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02882129339-45",
+      "name": "Karamur Taksi",
+      "phone": "02882129339",
+      "lat": 41.732777,
+      "lon": 27.218413,
+      "address": "Karakaş Mah. İstasyon Cad. 1 Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445207380-46",
+      "name": "Murat Taksi",
+      "phone": "05445207380",
+      "lat": 41.736004,
+      "lon": 27.220135,
+      "address": "Karakaş Mah. Hastane Cad. Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05422717473-47",
+      "name": "Ssk Taksi",
+      "phone": "05422717473",
+      "lat": 41.735131,
+      "lon": 27.227018,
+      "address": "Kocahıdır Mah. Paşa Çeşme Cad. Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02882123818-48",
+      "name": "Festival Taksi",
+      "phone": "02882123818",
+      "lat": 41.733214,
+      "lon": 27.210417,
+      "address": "Karakaş Mah. Sungurbey Cad. Kırklareli Merkez, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05423030039-49",
+      "name": "Kıyıköy Taksi",
+      "phone": "05423030039",
+      "lat": 41.570603,
+      "lon": 27.771668,
+      "address": "Evren Mah. İstanbul Cad. 4 Vize Otogarı Vize, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05330863443-50",
+      "name": "Merkez Taksi",
+      "phone": "05330863443",
+      "lat": 41.6335451,
+      "lon": 28.0918537,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02883181213-51",
+      "name": "Sağlık Taksi",
+      "phone": "02883181213",
+      "lat": 41.5728242,
+      "lon": 27.767157,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303507439-52",
+      "name": "Merkez Taksi",
+      "phone": "05303507439",
+      "lat": 41.5746816,
+      "lon": 27.7614768,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-53-53",
+      "name": "Pınarhisar ilçesindeki taksi",
+      "phone": null,
+      "lat": 41.62539404,
+      "lon": 27.51549537,
+      "address": "Dere Mah. Cumhuriyet Meydanı 3 Pınarhisar, Kırklareli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05456959420-54",
+      "name": "Cumhuriyet Taksi Andaç",
+      "phone": "05456959420",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02882143493-55",
+      "name": "Vilayet Taksi Durağı",
+      "phone": "02882143493",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05012390052-56",
+      "name": "KIRKLARELİ TAKSİ",
+      "phone": "05012390052",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05413755975-57",
+      "name": "Kırklareli Taksi Celal Yürekli",
+      "phone": "05413755975",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05453390022-58",
+      "name": "Ey Taksi",
+      "phone": "05453390022",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05435218629-59",
+      "name": "Kirklareli Taksi Efecan",
+      "phone": "05435218629",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05449717133-60",
+      "name": "Kırklareli Hastane Taksi Durağı AÇIK · 7 gün 24 saat Yayla, Çamlık Sk. No:84, 39",
+      "phone": "05449717133",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02885126667-61",
+      "name": "Vilayet Taksi Durağı AÇIK · 7 gün 24 saat Karakaş, Mandıra Sk. Pk:39020, 39000 K",
+      "phone": "02885126667",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02885123301-62",
+      "name": "Babaeski Uğur Taksi AÇIK · 7 gün 24 saat Gazi kemal mahallesi bederli sokakno 8 ",
+      "phone": "02885123301",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05533323919-63",
+      "name": "Cumhuriyet Taksi Duragi",
+      "phone": "05533323919",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02885123784-64",
+      "name": "Güven Taksi Babaeski",
+      "phone": "02885123784",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02885121186-65",
+      "name": "Terminal Taksi",
+      "phone": "02885121186",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05356781175-66",
+      "name": "Tümü → 39burda Taksi-lüleburgaz AÇIK · 7 gün 24 saat 8 Kasım, İstasyon Cd. No: 1",
+      "phone": "05356781175",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02884175160-67",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "02884175160",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05395061078-68",
+      "name": "İstasyonlu Taksi",
+      "phone": "05395061078",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05303476148-69",
+      "name": "Kurtuluş Taksi AÇIK · 7 gün 24 saat Gençlik, İstasyon Cd. Pk:39760, 39750 Lülebu",
+      "phone": "05303476148",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05434308125-70",
+      "name": "Lüleburgaz Hal Taksi Durağı AÇIK · 7 gün 24 saat Özerler, Hal Sk Belediye İş Han",
+      "phone": "05434308125",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05378909595-71",
+      "name": "Lüleburgaz Taksi 7/24",
+      "phone": "05378909595",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05444412939-72",
+      "name": "Lüleburgaz Taksi Öner Ergin",
+      "phone": "05444412939",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366748387-73",
+      "name": "Lüleburgaz Taksi Uğur Yanık AÇIK · 7 gün 24 saat İstiklal, Mustafa Kızılay Cd. N",
+      "phone": "05366748387",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02884178700-74",
+      "name": "Özlem Taksi AÇIK · 7 gün 24 saat Hürriyet, İstanbul Cad./fesfane Sok., 39750 Lül",
+      "phone": "02884178700",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05442196676-75",
+      "name": "Taksi Ceyhun",
+      "phone": "05442196676",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02884154555-76",
+      "name": "Toki Taksi Lüleburgaz",
+      "phone": "02884154555",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02884175885-77",
+      "name": "Yaman Taksi AÇIK · 7 gün 24 saat İnönü, Yaman otel yanı, Murat Hüdavendigar Cd. ",
+      "phone": "02884175885",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05418150301-78",
+      "name": "Tümü → Gül Taksi Pehlivanköy AÇIK · 7 gün 24 saat Ergene, Cumhuriyet Cd. No:19, ",
+      "phone": "05418150301",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02827685030-79",
+      "name": "Tümü → Garaj Taksi",
+      "phone": "02827685030",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332981381-80",
+      "name": "Taksi durağı",
+      "phone": "05332981381",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05309753214-81",
+      "name": "Vize Garaj Taksi Çetin",
+      "phone": "05309753214",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332447608-82",
+      "name": "Vize Garaj Taksi Hüseyin",
+      "phone": "05332447608",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05331286257-83",
+      "name": "Vize Garaj Taksi Murat",
+      "phone": "05331286257",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05435265336-84",
+      "name": "Çınar Taksi - Emre Can Torus",
+      "phone": "05435265336",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05522881160-85",
+      "name": "TOKİ Taksi - BBG Hakan",
+      "phone": "05522881160",
+      "lat": 41.7351,
+      "lon": 27.2253,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

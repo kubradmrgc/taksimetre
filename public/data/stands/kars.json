@@ -1,0 +1,996 @@
+{
+  "cityId": "kars",
+  "cityName": "Kars",
+  "fetchedAt": "2026-08-30T21:32:48.581Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akyaka",
+      "name": "Akyaka",
+      "count": 8
+    },
+    {
+      "id": "arpacay",
+      "name": "Arpacay",
+      "count": 24
+    },
+    {
+      "id": "digor",
+      "name": "Digor",
+      "count": 1
+    },
+    {
+      "id": "kagizman",
+      "name": "Kagizman",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 13
+    },
+    {
+      "id": "sarikamis",
+      "name": "Sarıkamış",
+      "count": 1
+    }
+  ],
+  "count": 62,
+  "stands": [
+    {
+      "id": "taksi724-05355905395-0",
+      "name": "Ardanuç Taksi",
+      "phone": "05355905395",
+      "website": null,
+      "lat": 41.1234741,
+      "lon": 42.0660421,
+      "address": "Taksi Durağı · Hürriyet Cd. No:9",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373226288-1",
+      "name": "Ardanuç Taksi",
+      "phone": "05373226288",
+      "website": null,
+      "lat": 41.1216978,
+      "lon": 42.06601,
+      "address": "Taksi · 7 Mart Cd. No:22",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358301800-2",
+      "name": "Çiçek Taksi",
+      "phone": "05358301800",
+      "website": null,
+      "lat": 41.1207802,
+      "lon": 42.067602,
+      "address": "Taksi Durağı · Hükümet Cd. No:72",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04782113215-3",
+      "name": "Çıldır Taksi",
+      "phone": "04782113215",
+      "website": null,
+      "lat": 41.1110574,
+      "lon": 42.7041544,
+      "address": "Taksi Durağı · İnönü Cd. No:32",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05360638200-4",
+      "name": "Ekin Taksi",
+      "phone": "05360638200",
+      "website": null,
+      "lat": 41.12692,
+      "lon": 43.135056,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05417131549-5",
+      "name": "Iğdır Taksi",
+      "phone": "05417131549",
+      "website": null,
+      "lat": 39.918187,
+      "lon": 44.0441528,
+      "address": "Taksi Durağı ·  · Kazım Karabekir Cd. No:389",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-6-6",
+      "name": "Kağızman Şafak Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.9227062,
+      "lon": 44.0441509,
+      "address": "Ulaşım Hizmeti · Dr. Sadık Ahmet Cd. No:90 D:92",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05356228549-7",
+      "name": "Kağızman Taksi",
+      "phone": "05356228549",
+      "website": null,
+      "lat": 40.1418217,
+      "lon": 43.1224472,
+      "address": "Taksi Durağı ·  · Narin Kale Cd. No:117",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05386274040-8",
+      "name": "Kars-Sarıkamış Taksi",
+      "phone": "05386274040",
+      "website": null,
+      "lat": 40.1443204,
+      "lon": 43.1226816,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325622775-9",
+      "name": "Mavişim Taksi",
+      "phone": "05325622775",
+      "website": null,
+      "lat": 40.3335362,
+      "lon": 42.590362,
+      "address": "Taksi · Halk Cd. No:15",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354793354-10",
+      "name": "Merkez Taksi",
+      "phone": "05354793354",
+      "website": null,
+      "lat": 40.1442835,
+      "lon": 43.122739,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432422552-11",
+      "name": "Narman 7/24 Taksi",
+      "phone": "05432422552",
+      "website": null,
+      "lat": 41.2518777,
+      "lon": 42.358782,
+      "address": "Taksi Durağı · Cumhuriyet Cd. No:166",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324545462-12",
+      "name": "Narman Merkez Taksi",
+      "phone": "05324545462",
+      "website": null,
+      "lat": 40.3462581,
+      "lon": 41.8701479,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446162094-13",
+      "name": "Park Taksi",
+      "phone": "05446162094",
+      "website": null,
+      "lat": 40.346881,
+      "lon": 41.871172,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-14-14",
+      "name": "Sarıkamış Merkez Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.924223,
+      "lon": 44.044596,
+      "address": "Taksi Durağı · Mehmet Akif Cd. No:21",
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369516652-15",
+      "name": "Sarıkamış Serhat Taksi",
+      "phone": "05369516652",
+      "website": null,
+      "lat": 40.333165,
+      "lon": 42.5929533,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325622775-16",
+      "name": "Sarıkamış Taksi",
+      "phone": "05325622775",
+      "website": null,
+      "lat": 40.333191,
+      "lon": 42.590417,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326758275-17",
+      "name": "Sarıkamış Taksi",
+      "phone": "05326758275",
+      "website": null,
+      "lat": 40.3369711,
+      "lon": 42.5885475,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357777042-18",
+      "name": "Sarıkamış tur Taksi",
+      "phone": "05357777042",
+      "website": null,
+      "lat": 40.3340495,
+      "lon": 42.5895705,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325622775-19",
+      "name": "Şavşat Park Taksi",
+      "phone": "05325622775",
+      "website": null,
+      "lat": 40.3325845,
+      "lon": 42.5904591,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-20-20",
+      "name": "Taksi durağı",
+      "phone": null,
+      "website": null,
+      "lat": 41.2521837,
+      "lon": 42.356995,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452350628-21",
+      "name": "Yeni Toki Yurt Taksi",
+      "phone": "05452350628",
+      "website": null,
+      "lat": 40.3330802,
+      "lon": 42.5845441,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04782113939-22",
+      "name": "Yeşil Şavşat Taksi",
+      "phone": "04782113939",
+      "website": null,
+      "lat": 41.0938385,
+      "lon": 42.6685279,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-23-23",
+      "name": "kars-taksi",
+      "phone": null,
+      "website": null,
+      "lat": 41.2531334,
+      "lon": 42.3574706,
+      "address": null,
+      "districtId": "arpacay",
+      "districtName": "Arpacay",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05378598736-24",
+      "name": "Çamlıca Taksi",
+      "phone": "05378598736",
+      "website": null,
+      "lat": 40.602,
+      "lon": 43.095,
+      "address": "Ortakapı, Şht. Polis Nuri Yıldız Cd. No:7/B",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05301790836-25",
+      "name": "Çamlıca Taksi",
+      "phone": "05301790836",
+      "website": null,
+      "lat": 40.6025,
+      "lon": 43.096,
+      "address": "Çamlıca Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366168935-26",
+      "name": "Gündoğdu Taksi",
+      "phone": "05366168935",
+      "website": null,
+      "lat": 40.605295,
+      "lon": 43.097058,
+      "address": "Ortakapı Mah. Faikbey Cad. 147 Kars Merkez, Kars",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05388119700-27",
+      "name": "Gündoğdu Taksi",
+      "phone": "05388119700",
+      "website": null,
+      "lat": 40.6018,
+      "lon": 43.0952,
+      "address": "Bahri Dağdaş Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323704836-28",
+      "name": "Havalimanı Taksi",
+      "phone": "05323704836",
+      "website": null,
+      "lat": 40.60687323,
+      "lon": 43.098882,
+      "address": "Ortakapı Mah. Faikbey Cad. Kars Merkez, Kars",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04742121212-29",
+      "name": "Hukukçular Taksi",
+      "phone": "04742121212",
+      "website": null,
+      "lat": 40.562,
+      "lon": 43.115,
+      "address": "Kars Havalimanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469758750-30",
+      "name": "Hukukçular Taksi",
+      "phone": "05469758750",
+      "website": null,
+      "lat": 40.6015,
+      "lon": 43.0948,
+      "address": "Hukukçular Caddesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05395490173-31",
+      "name": "Kars Merkez Çarşı Taksi",
+      "phone": "05395490173",
+      "website": null,
+      "lat": 40.604687,
+      "lon": 43.093592,
+      "address": "Ortakapı Mah. Ordu Cad. Kars Merkez, Kars",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05469758750-32",
+      "name": "Kars Merkez Taksi",
+      "phone": "05469758750",
+      "website": "https://www.facebook.com/karscarsitaksi",
+      "lat": 40.60312304,
+      "lon": 43.09555538,
+      "address": "Ortakapı Mah. Ordu Cad. 67 Kars Merkez, Kars",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05327911725-33",
+      "name": "Kars Taksi",
+      "phone": "05327911725",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0945,
+      "address": "Şehir Merkezi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438769079-34",
+      "name": "Olgun Taksi",
+      "phone": "05438769079",
+      "website": null,
+      "lat": 40.601,
+      "lon": 43.094,
+      "address": "Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342604632-35",
+      "name": "kars-taksi",
+      "phone": "05342604632",
+      "website": null,
+      "lat": 40.6008,
+      "lon": 43.0935,
+      "address": "Sabrioğlu Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05535434137-36",
+      "name": "Tümü → Çiçek Taksi Durağı AÇIK · 7 gün 24 saat Cumhuriyet Mah. Şehit Yusuf Bey C",
+      "phone": "05535434137",
+      "website": null,
+      "lat": 40.5852384,
+      "lon": 43.0763779,
+      "address": null,
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04742234398-37",
+      "name": "Kars Hastane Taksi",
+      "phone": "04742234398",
+      "website": null,
+      "lat": 40.6050873,
+      "lon": 43.1064339,
+      "address": null,
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325668078-38",
+      "name": "Kars Olgun Taksi",
+      "phone": "05325668078",
+      "website": null,
+      "lat": 40.5730872,
+      "lon": 43.0924524,
+      "address": null,
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05393830016-39",
+      "name": "- Kars Taksi",
+      "phone": "05393830016",
+      "website": null,
+      "lat": 40.5874794,
+      "lon": 43.08855,
+      "address": null,
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05465505707-40",
+      "name": "Kars Taksi",
+      "phone": "05465505707",
+      "website": null,
+      "lat": 40.608663,
+      "lon": 43.0932724,
+      "address": "Taksi · ARZU TAKSİ, Halitpaşa Cad, İstiklal Sk.",
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455122876-41",
+      "name": "- 7/24 Acil Taksi",
+      "phone": "05455122876",
+      "website": null,
+      "lat": 40.5903792,
+      "lon": 43.0895358,
+      "address": "Taksi · Kanlı Tabya Sk. No:16 D:8",
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05465505707-42",
+      "name": "Taksi durağı",
+      "phone": "05465505707",
+      "website": null,
+      "lat": 40.608663,
+      "lon": 43.0932725,
+      "address": "Taksi · Halitpaşa Cd, İstiklal Sk.",
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421879636-43",
+      "name": "KARS HASTANE TAKSi",
+      "phone": "05421879636",
+      "website": null,
+      "lat": 40.609812,
+      "lon": 43.108334,
+      "address": null,
+      "districtId": "akyaka",
+      "districtName": "Akyaka",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05378598736-44",
+      "name": "Terminal Taksi",
+      "phone": "05378598736",
+      "website": "https://www.facebook.com/Karsmerkeztaksi/",
+      "lat": 40.13833,
+      "lon": 43.112883,
+      "address": "Şahindere Mah. Ali Ataman Cad. Kağızman, Kars",
+      "districtId": "kagizman",
+      "districtName": "Kagizman",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-05437112653-45",
+      "name": "Kars Gündoğdu Taksi",
+      "phone": "05437112653",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05471063636-46",
+      "name": "Kars Faikbey Taksi",
+      "phone": "05471063636",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05073783828-47",
+      "name": "Kars turizm taşımacılık",
+      "phone": "05073783828",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05355875677-48",
+      "name": "Eski Hal Taksi Durağı",
+      "phone": "05355875677",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05389141536-49",
+      "name": "Kars Taksi 36",
+      "phone": "05389141536",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05363329502-50",
+      "name": "Kars Tur Taksi",
+      "phone": "05363329502",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05522198685-51",
+      "name": "Karsta taksi 7/24",
+      "phone": "05522198685",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05312720074-52",
+      "name": "Kars Dilek Taksi İbrahim",
+      "phone": "05312720074",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05300495736-53",
+      "name": "Varan Taksi",
+      "phone": "05300495736",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05367346626-54",
+      "name": "Ziraat Taksi Kars",
+      "phone": "05367346626",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05377767709-55",
+      "name": "Tümü → Bulak Taksi",
+      "phone": "05377767709",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05534797611-56",
+      "name": "Kars Gar Taksi",
+      "phone": "05534797611",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332423896-57",
+      "name": "Tümü → Güngör Taksi",
+      "phone": "05332423896",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": "digor",
+      "districtName": "Digor",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05357247106-58",
+      "name": "Tümü → Kağızmanda Taksi",
+      "phone": "05357247106",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358101041-59",
+      "name": "Terminal Taksi",
+      "phone": "05358101041",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455333311-60",
+      "name": "Sarıkamış Taksi AÇIK · 7 gün 24 saat 15 Temmuz, Taksi Durağı, Belediye Cad, Demo",
+      "phone": "05455333311",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 43.0975,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05334901448-61",
+      "name": "Sarıkamış Taksi - Hakan Polat",
+      "phone": "05334901448",
+      "website": "https://www.facebook.com/profile.php?id=100008695572528",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sarikamis",
+      "districtName": "Sarıkamış",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

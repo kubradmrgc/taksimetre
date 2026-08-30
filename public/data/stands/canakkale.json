@@ -1,0 +1,1941 @@
+{
+  "cityId": "canakkale",
+  "cityName": "Çanakkale",
+  "fetchedAt": "2026-08-30T21:29:08.594Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "ayvacik",
+      "name": "Ayvacik",
+      "count": 26
+    },
+    {
+      "id": "biga",
+      "name": "Biga",
+      "count": 10
+    },
+    {
+      "id": "bozcaada",
+      "name": "Bozcaada",
+      "count": 1
+    },
+    {
+      "id": "can",
+      "name": "Can",
+      "count": 4
+    },
+    {
+      "id": "eceabat",
+      "name": "Eceabat",
+      "count": 3
+    },
+    {
+      "id": "ezine",
+      "name": "Ezine",
+      "count": 8
+    },
+    {
+      "id": "gelibolu",
+      "name": "Gelibolu",
+      "count": 8
+    },
+    {
+      "id": "gokceada",
+      "name": "Gokceada",
+      "count": 4
+    },
+    {
+      "id": "lapseki",
+      "name": "Lapseki",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 29
+    }
+  ],
+  "count": 123,
+  "stands": [
+    {
+      "id": "taksi724-05432820021-0",
+      "name": "Ayvacık Garaj Taksi",
+      "phone": "05432820021",
+      "website": null,
+      "lat": 40.1232742,
+      "lon": 26.4114585,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02867121174-1",
+      "name": "Çanakkale Kepez Taksi",
+      "phone": "02867121174",
+      "website": null,
+      "lat": 39.600324,
+      "lon": 26.405573,
+      "address": "Ümmühan Mah. Edremit Cad. Ayvacık, Çanakkale",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05057310017-2",
+      "name": "- Güzelyalı Taksi",
+      "phone": "05057310017",
+      "website": null,
+      "lat": 40.099438,
+      "lon": 26.396667,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05319941415-3",
+      "name": "Çanakkale Kordon Taksi",
+      "phone": "05319941415",
+      "website": null,
+      "lat": 40.1023082,
+      "lon": 26.3988185,
+      "address": "Taksi Durağı ·  · Hacı Tahir Sk. No:8",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862120624-4",
+      "name": "Taksi durağı",
+      "phone": "02862120624",
+      "website": null,
+      "lat": 40.1508289,
+      "lon": 26.4041994,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862131217-5",
+      "name": "Çanakkale Merkez Taksi",
+      "phone": "02862131217",
+      "website": null,
+      "lat": 40.1489901,
+      "lon": 26.4145649,
+      "address": "Taksi Durağı ·  · Gök Sk. No:28",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05521671726-6",
+      "name": "Çanakkale Taksi",
+      "phone": "05521671726",
+      "website": null,
+      "lat": 40.1308934,
+      "lon": 26.4115163,
+      "address": "Taksi · Troya Cd. No:8",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538836709-7",
+      "name": "Kale Taksi",
+      "phone": "05538836709",
+      "website": null,
+      "lat": 40.1463431,
+      "lon": 26.4226041,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862171511-8",
+      "name": "Garaj Taksi",
+      "phone": "02862171511",
+      "website": null,
+      "lat": 40.144,
+      "lon": 26.4076,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862121874-9",
+      "name": "Taksi durağı",
+      "phone": "02862121874",
+      "website": null,
+      "lat": 39.599233,
+      "lon": 26.409239,
+      "address": "Ümmühan Mah. Edremit Cad. Ayvacık, Çanakkale",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02868142709-10",
+      "name": "Kepez meydan Taksi",
+      "phone": "02868142709",
+      "website": null,
+      "lat": 40.1843546,
+      "lon": 26.3592502,
+      "address": "Taksi Durağı · Cumhuriyet Myd. No:65",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05421717300-11",
+      "name": "Kepez Meydan Taksi",
+      "phone": "05421717300",
+      "website": null,
+      "lat": 40.0973889,
+      "lon": 26.3923022,
+      "address": "Taksi Durağı · Gürgen Sk.",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02862635277-12",
+      "name": "Kepez Taksi",
+      "phone": "02862635277",
+      "website": null,
+      "lat": 40.0954899,
+      "lon": 26.3928995,
+      "address": "Taksi Durağı · Sahil Yolu Cd. No:1",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05472860017-13",
+      "name": "KINALI KUZULAR TAKSi",
+      "phone": "05472860017",
+      "website": null,
+      "lat": 40.0961146,
+      "lon": 26.392047,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862121788-14",
+      "name": "Kolin Taksi",
+      "phone": "02862121788",
+      "website": null,
+      "lat": 40.1621267,
+      "lon": 26.4285779,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02862182515-15",
+      "name": "Konak Taksi",
+      "phone": "02862182515",
+      "website": null,
+      "lat": 40.1113958,
+      "lon": 26.4061377,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359562627-16",
+      "name": "Konut Taksi",
+      "phone": "05359562627",
+      "website": null,
+      "lat": 39.600628,
+      "lon": 26.403138,
+      "address": "Ümmühan Mah. Tok Cad. Ayvacık, Çanakkale",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862131415-17",
+      "name": "Ssk Taksi",
+      "phone": "02862131415",
+      "website": null,
+      "lat": 40.1513,
+      "lon": 26.4204,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862172010-18",
+      "name": "Taksi",
+      "phone": "02862172010",
+      "website": null,
+      "lat": 40.158245,
+      "lon": 26.4189414,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02862174009-19",
+      "name": "Taksi",
+      "phone": "02862174009",
+      "website": null,
+      "lat": 40.1681863,
+      "lon": 26.4219048,
+      "address": "Taksi Durağı ·  · Barış Cd. No:101",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383514969-20",
+      "name": "TROYA TAKSi",
+      "phone": "05383514969",
+      "website": null,
+      "lat": 40.1844432,
+      "lon": 26.3592662,
+      "address": "Taksi Durağı · İstiklal Cd. No:7",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05552230017-21",
+      "name": "Uğur 96 Taksi",
+      "phone": "05552230017",
+      "website": null,
+      "lat": 40.129659,
+      "lon": 26.4111221,
+      "address": "Taksi Durağı ·  · TROYA TAKSİ DURAĞI, Saydam Sokak No:3",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862172727-22",
+      "name": "Vip Taksi",
+      "phone": "02862172727",
+      "website": null,
+      "lat": 40.1673393,
+      "lon": 26.4207645,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05439350158-23",
+      "name": "Yeni Devlet Hastanesi Taksi",
+      "phone": "05439350158",
+      "website": null,
+      "lat": 40.1290609,
+      "lon": 26.4116227,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862100010-24",
+      "name": "Hamidiye Taksi",
+      "phone": "02862100010",
+      "website": null,
+      "lat": 40.0989308,
+      "lon": 26.4154706,
+      "address": null,
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013280050-25",
+      "name": "canakkale-taksi",
+      "phone": "05013280050",
+      "website": null,
+      "lat": 40.1340673,
+      "lon": 26.4051944,
+      "address": "Taksi Durağı · yeni kordon girişi, İğdelik Sk.",
+      "districtId": "ayvacik",
+      "districtName": "Ayvacik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432137117-26",
+      "name": "Çanakkale Taksi",
+      "phone": "05432137117",
+      "website": null,
+      "lat": 40.149023,
+      "lon": 26.400325,
+      "address": "Fevzipaşa Mah. Yalı Cad. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05307940334-27",
+      "name": "Anafartalar Taksi",
+      "phone": "05307940334",
+      "website": null,
+      "lat": 40.117463,
+      "lon": 26.410232,
+      "address": "Barbaros Mah. Atatürk Cad. 333 Kepez, Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862121264-28",
+      "name": "Barbaros Taksi",
+      "phone": "02862121264",
+      "website": null,
+      "lat": 40.142051,
+      "lon": 26.4080352,
+      "address": "Taksi Durağı · Atatürk Cd. No:75",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862131696-29",
+      "name": "Barış Taksi",
+      "phone": "02862131696",
+      "website": null,
+      "lat": 40.13681,
+      "lon": 26.408847,
+      "address": "Barbaros Mah. Atatürk Cad. Yıldız Sok. 2 Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862130013-30",
+      "name": "Bayır Taksi",
+      "phone": "02862130013",
+      "website": null,
+      "lat": 40.1612,
+      "lon": 26.412013,
+      "address": "Esenler Mah. Özgürlük Cad. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862136767-31",
+      "name": "Belediye Kültür Taksi",
+      "phone": "02862136767",
+      "website": null,
+      "lat": 40.157194,
+      "lon": 26.413602,
+      "address": "Cevat Paşa Mah. Mehmet Kaptan Sok. 3 Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862173162-32",
+      "name": "Çarşı Taksi",
+      "phone": "02862173162",
+      "website": null,
+      "lat": 40.147722,
+      "lon": 26.410068,
+      "address": "İsmetpaşa Mah. Hüseyin Avni Baksi Sok. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05072571717-33",
+      "name": "Çataltepe Taksi",
+      "phone": "05072571717",
+      "website": null,
+      "lat": 40.146338,
+      "lon": 26.406926,
+      "address": "İsmetpaşa Mah. Aynalı Çeşme Sok. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862131217-34",
+      "name": "Devlet Hastanesi Taksi",
+      "phone": "02862131217",
+      "website": null,
+      "lat": 40.146772,
+      "lon": 26.415404,
+      "address": "İsmetpaşa Mah. Gök Sok. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467970076-35",
+      "name": "Dörtyol Taksi",
+      "phone": "05467970076",
+      "website": null,
+      "lat": 40.147656,
+      "lon": 26.4054,
+      "address": "İsmetpaşa Mah. İnönü Cad. 1 Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862173939-36",
+      "name": "Dumlupınar Taksi",
+      "phone": "02862173939",
+      "website": null,
+      "lat": 40.1536448,
+      "lon": 26.41431146,
+      "address": "Cevat Paşa Mah. Velibey Sok. 2/C Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-37-37",
+      "name": "Günaydın Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.139295,
+      "lon": 26.418146,
+      "address": "Barbaros Mah. Şehit Sunay Biçer Sok. 5 Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432137117-38",
+      "name": "Güzelyalı Taksi",
+      "phone": "05432137117",
+      "website": null,
+      "lat": 40.148521,
+      "lon": 26.404838,
+      "address": "Kemal Paşa Mah. Cumhuriyet Blv. 8 Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05319941415-39",
+      "name": "Kale Taksi",
+      "phone": "05319941415",
+      "website": null,
+      "lat": 40.064342,
+      "lon": 26.359932,
+      "address": "Güzelyalı Köyü İzmir Cad. 58/B (Ozan Otel Yanı) Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862171511-40",
+      "name": "Kepez Taksi",
+      "phone": "02862171511",
+      "website": null,
+      "lat": 40.144652,
+      "lon": 26.411718,
+      "address": "Namık Kemal Mah. Setboyu Cad. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455863926-41",
+      "name": "Kordon Taksi",
+      "phone": "05455863926",
+      "website": null,
+      "lat": 40.0913634,
+      "lon": 26.3877799,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013280050-42",
+      "name": "Plaj Taksi",
+      "phone": "05013280050",
+      "website": null,
+      "lat": 40.149939,
+      "lon": 26.406339,
+      "address": "Kemal Paşa Mah. Mehmetçik Blv. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862178003-43",
+      "name": "Sosyal Konutlar Taksi",
+      "phone": "02862178003",
+      "website": null,
+      "lat": 40.14226,
+      "lon": 26.40283,
+      "address": "Barbaros Mah. Plaj Cad. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432137117-44",
+      "name": "Ssk Hastane Taksi",
+      "phone": "05432137117",
+      "website": null,
+      "lat": 40.148385,
+      "lon": 26.418774,
+      "address": "İsmetpaşa Mah. Tuğsavul Cad. (Jandarma Alayının Yanı) Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446121617-45",
+      "name": "Toki Taksi",
+      "phone": "05446121617",
+      "website": null,
+      "lat": 40.155804,
+      "lon": 26.42145,
+      "address": "Esenler Mah. Bülent Dikmener Cad. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02862620080-46",
+      "name": "Truva Taksi",
+      "phone": "02862620080",
+      "website": null,
+      "lat": 40.104412,
+      "lon": 26.410315,
+      "address": "Kepez-Hamidiye Mah. Yiğit Sok. 22 Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02862180203-47",
+      "name": "Uzay Taksi",
+      "phone": "02862180203",
+      "website": null,
+      "lat": 40.127215,
+      "lon": 26.423881,
+      "address": "Barbaros Mah. Çanakkale İzmir Asfaltı Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02862122100-48",
+      "name": "Yeni Cezaevi Taksi",
+      "phone": "02862122100",
+      "website": null,
+      "lat": 40.147492,
+      "lon": 26.403107,
+      "address": "Kemal Paşa Mah. Değirmenlik Sok. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02862126865-49",
+      "name": "canakkale-taksi",
+      "phone": "02862126865",
+      "website": null,
+      "lat": 40.151008,
+      "lon": 26.412066,
+      "address": "İsmetpaşa Mah. Atatürk Cad. Çanakkale Merkez, Çanakkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02863167878-50",
+      "name": "Biga Hastane Taksi",
+      "phone": "02863167878",
+      "website": null,
+      "lat": 40.234749,
+      "lon": 27.23767,
+      "address": "Taksi Durağı ·  · İnönü Cd. No:139",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05457425519-51",
+      "name": "Taksi durağı",
+      "phone": "05457425519",
+      "website": null,
+      "lat": 40.2309704,
+      "lon": 27.2543057,
+      "address": "Taksi Durağı ·  · Kıbrıs Şehitleri Cd. No:37/2",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05417406225-52",
+      "name": "Biga Taksi",
+      "phone": "05417406225",
+      "website": null,
+      "lat": 40.2263107,
+      "lon": 27.2473638,
+      "address": "Taksi · Kıbrıs Şehitleri Cd. No:14",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05457425519-53",
+      "name": "Can Hastane Taksi",
+      "phone": "05457425519",
+      "website": null,
+      "lat": 40.22709,
+      "lon": 27.243894,
+      "address": "İstiklal Mah. İnönü Cad. Kasaplar Sok. 1 Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446121617-54",
+      "name": "Çiçeklidede Taksi",
+      "phone": "05446121617",
+      "website": null,
+      "lat": 40.23247,
+      "lon": 27.260251,
+      "address": "Şirintepe Mah. 504. Sok. (Can Hastanesi Kafeteryasının Yanında) Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436513593-55",
+      "name": "Hastane Taksi",
+      "phone": "05436513593",
+      "website": null,
+      "lat": 40.21730066,
+      "lon": 27.23970498,
+      "address": "Cumhuriyet Mah. Mumcular Sok. 2 Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446121617-56",
+      "name": "Huzur Taksi",
+      "phone": "05446121617",
+      "website": null,
+      "lat": 40.239445,
+      "lon": 27.264931,
+      "address": "Şirintepe Mah. Biga Devlet Hastanesi Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013280050-57",
+      "name": "Otogar Taksi",
+      "phone": "05013280050",
+      "website": null,
+      "lat": 40.227258,
+      "lon": 27.242229,
+      "address": "İstiklal Mah. Atatürk Cad. 3 Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05307940334-58",
+      "name": "Tekel Meydan Taksi",
+      "phone": "05307940334",
+      "website": null,
+      "lat": 40.243077,
+      "lon": 27.226681,
+      "address": "Hamdibey Mah. İstiklal Cad. Biga Otogarı Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05544543697-59",
+      "name": "canakkale-taksi",
+      "phone": "05544543697",
+      "website": null,
+      "lat": 40.223404,
+      "lon": 27.2424611,
+      "address": "Sakarya Mah. Tekel Meydanı Eski Çan Cad. Cumru Sok. 23 Biga, Çanakkale",
+      "districtId": "biga",
+      "districtName": "Biga",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05013706001-60",
+      "name": "Ezine Hastane Taksi",
+      "phone": "05013706001",
+      "website": null,
+      "lat": 39.785947,
+      "lon": 26.3421529,
+      "address": null,
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05466180112-61",
+      "name": "Ezine Taksi",
+      "phone": "05466180112",
+      "website": null,
+      "lat": 39.7772233,
+      "lon": 26.3503349,
+      "address": "Taksi Durağı ·  · Şükrü Köseoğlu Cd. No:76, 17600",
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05466180112-62",
+      "name": "Tümü → Ezine Taksi 24 Saat Acil",
+      "phone": "05466180112",
+      "website": null,
+      "lat": 39.7855319,
+      "lon": 26.3436251,
+      "address": null,
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05456510710-63",
+      "name": "Ezine Taksi",
+      "phone": "05456510710",
+      "website": null,
+      "lat": 39.7854524,
+      "lon": 26.3442629,
+      "address": null,
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05466186020-64",
+      "name": "Garaj Taksi",
+      "phone": "05466186020",
+      "website": null,
+      "lat": 39.786456,
+      "lon": 26.339622,
+      "address": "Cumhuriyet Mah. Atatürk Cad. Ezine Otobüs Terminali Ezine, Çanakkale",
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05456186066-65",
+      "name": "Garaj Taksi",
+      "phone": "05456186066",
+      "website": null,
+      "lat": 39.7858784,
+      "lon": 26.3424924,
+      "address": null,
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02862121874-66",
+      "name": "yıldız Taksi",
+      "phone": "02862121874",
+      "website": null,
+      "lat": 39.78678,
+      "lon": 26.336785,
+      "address": "Seferşah Mah. Atatürk Cad. (Otogar İçi) Ezine, Çanakkale",
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05457244794-67",
+      "name": "Ezine Taksi",
+      "phone": "05457244794",
+      "website": null,
+      "lat": 40.096339,
+      "lon": 26.399581,
+      "address": "Taksi Durağı · no:18 Ömer Seyfettin Caddesi",
+      "districtId": "ezine",
+      "districtName": "Ezine",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432137117-68",
+      "name": "Çiçek Taksi",
+      "phone": "05432137117",
+      "website": null,
+      "lat": 40.405651,
+      "lon": 26.671786,
+      "address": "Camiikebir Mah. Belediye Cad. 1 Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02865660588-69",
+      "name": "Güneyli Taksi",
+      "phone": "02865660588",
+      "website": null,
+      "lat": 40.408659,
+      "lon": 26.6727422,
+      "address": "Taksi Durağı ·  · Kazancılar Sk. No:9",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432137117-70",
+      "name": "Hamzaköy Taksi",
+      "phone": "05432137117",
+      "website": null,
+      "lat": 40.495254,
+      "lon": 26.688721,
+      "address": "Güneyli Köyü Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02865666066-71",
+      "name": "Hastane Taksi",
+      "phone": "02865666066",
+      "website": null,
+      "lat": 40.41185,
+      "lon": 26.676446,
+      "address": "Yazıcızade Mah. Zeynep Arap Sok. Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05446121617-72",
+      "name": "Otogar Taksi",
+      "phone": "05446121617",
+      "website": null,
+      "lat": 40.418921,
+      "lon": 26.674282,
+      "address": "Yazıcızade Mah. Mevlevihane Cad. Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452854321-73",
+      "name": "Sağlık Taksi",
+      "phone": "05452854321",
+      "website": null,
+      "lat": 40.410023,
+      "lon": 26.657974,
+      "address": "Aladdin Mah. Kore Kahramanları Cad. Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05072571717-74",
+      "name": "Saros Taksi",
+      "phone": "05072571717",
+      "website": null,
+      "lat": 40.412368,
+      "lon": 26.671392,
+      "address": "Camiikebir Mah. Gazi Süleyman Paşa Cad. 66 Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432137117-75",
+      "name": "Güneyli Taksi",
+      "phone": "05432137117",
+      "website": null,
+      "lat": 40.517819,
+      "lon": 26.758139,
+      "address": "Bolayır-Camiikebir Mah. İstanbul Cad. Gelibolu, Çanakkale",
+      "districtId": "gelibolu",
+      "districtName": "Gelibolu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05446121617-76",
+      "name": "Çan Merkez Taksi",
+      "phone": "05446121617",
+      "website": null,
+      "lat": 40.025631,
+      "lon": 27.063606,
+      "address": "Karşıyaka Mah. Orhan Caneri Cad. 31 Çan, Çanakkale",
+      "districtId": "can",
+      "districtName": "Can",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02864162281-77",
+      "name": "Çan Terminal Taksi",
+      "phone": "02864162281",
+      "website": null,
+      "lat": 40.0266436,
+      "lon": 27.0492764,
+      "address": null,
+      "districtId": "can",
+      "districtName": "Can",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02864169988-78",
+      "name": "Merkez Taksi",
+      "phone": "02864169988",
+      "website": null,
+      "lat": 40.028691,
+      "lon": 27.053388,
+      "address": "Taksi Durağı · Ordu Sk No:22",
+      "districtId": "can",
+      "districtName": "Can",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05521671726-79",
+      "name": "an Terminal Taksi",
+      "phone": "05521671726",
+      "website": null,
+      "lat": 40.023971,
+      "lon": 27.044099,
+      "address": "Cumhuriyet Mah. Etili Sok. 1 Çan, Çanakkale",
+      "districtId": "can",
+      "districtName": "Can",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376960117-80",
+      "name": "Gökçeada Eylül Taksi",
+      "phone": "05376960117",
+      "website": null,
+      "lat": 40.2049631,
+      "lon": 25.9110953,
+      "address": null,
+      "districtId": "gokceada",
+      "districtName": "Gokceada",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05331322083-81",
+      "name": "Gökçeada İmroz Taksi",
+      "phone": "05331322083",
+      "website": null,
+      "lat": 40.1982787,
+      "lon": 25.9092007,
+      "address": null,
+      "districtId": "gokceada",
+      "districtName": "Gokceada",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421868417-82",
+      "name": "Gökçeada Taksi",
+      "phone": "05421868417",
+      "website": null,
+      "lat": 40.1957241,
+      "lon": 25.9060858,
+      "address": null,
+      "districtId": "gokceada",
+      "districtName": "Gokceada",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05379266349-83",
+      "name": "Gökçeada İmroz Taksi",
+      "phone": "05379266349",
+      "website": null,
+      "lat": 40.190944,
+      "lon": 25.909817,
+      "address": "Çınarlı Mah. Fevzi Çakmak Cad. Gökçeada, Çanakkale",
+      "districtId": "gokceada",
+      "districtName": "Gokceada",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05383514969-84",
+      "name": "Iskele Taksi",
+      "phone": "05383514969",
+      "website": null,
+      "lat": 40.1692306,
+      "lon": 26.3644235,
+      "address": null,
+      "districtId": "eceabat",
+      "districtName": "Eceabat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05072571717-85",
+      "name": "e Taksi",
+      "phone": "05072571717",
+      "website": null,
+      "lat": 40.190186,
+      "lon": 26.357368,
+      "address": "Kemalpaşa Mah. Cumhuriyet Cad. Eceabat, Çanakkale",
+      "districtId": "eceabat",
+      "districtName": "Eceabat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02865122458-86",
+      "name": "Lapseki Merkez Taksi",
+      "phone": "02865122458",
+      "website": null,
+      "lat": 40.3467423,
+      "lon": 26.6836656,
+      "address": null,
+      "districtId": "lapseki",
+      "districtName": "Lapseki",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02865124544-87",
+      "name": "Lapseki Merkez Taksi",
+      "phone": "02865124544",
+      "website": null,
+      "lat": 40.3458041,
+      "lon": 26.6845948,
+      "address": "Taksi Durağı · 25 Eylül Sk. No:20",
+      "districtId": "lapseki",
+      "districtName": "Lapseki",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05438751665-88",
+      "name": "Bozcaada Taksi",
+      "phone": "05438751665",
+      "website": null,
+      "lat": 39.8348762,
+      "lon": 26.0703931,
+      "address": "Taksi Durağı · Namazgah Sk.",
+      "districtId": "bozcaada",
+      "districtName": "Bozcaada",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05426892340-89",
+      "name": "Kepez Taksi 340",
+      "phone": "05426892340",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05309110309-90",
+      "name": "Kepez Taksi - GÖKHAN GÜVEN",
+      "phone": "05309110309",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05519093715-91",
+      "name": "kepez taksi 301",
+      "phone": "05519093715",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05302680490-92",
+      "name": "Taksi Durağı 7/24 - Karacaören | Havalimanı | Otogar | Barlar Sokağı",
+      "phone": "05302680490",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05392620432-93",
+      "name": "Taksi 7/24",
+      "phone": "05392620432",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05433210599-94",
+      "name": "Kepez Taksi",
+      "phone": "05433210599",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455071717-95",
+      "name": "Adliye Taksi Çanakkale AÇIK · 7 gün 24 saat Barbaros, Yeniyol Sk D:4, 17100 Çana",
+      "phone": "05455071717",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05353033392-96",
+      "name": "Çanakkale - Net Taksi",
+      "phone": "05353033392",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05301660122-97",
+      "name": "Çanakkale Hastane Taksi AÇIK · 7 gün 24 saat İnönü Caddesi. Pk:17100 Çanakkale M",
+      "phone": "05301660122",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455751717-98",
+      "name": "Çanakkale Merkez Taksi 17t0253 AÇIK · 7 gün 24 saat CEVATPAŞA MAHALLESİ ATİKHİSA",
+      "phone": "05455751717",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325620174-99",
+      "name": "Dörtyol Taksi｜çanakkale Merkez Taksi AÇIK · 7 gün 24 saat Cevat Paşa, Velibey Sk",
+      "phone": "05325620174",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02867121322-100",
+      "name": "Konak Taksi Ayvacık",
+      "phone": "02867121322",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05453167377-101",
+      "name": "Biga Hastane Taksi AÇIK · 7 gün 24 saat Şirintepe, Kıbrıs Şehitleri Cd. No:37/2,",
+      "phone": "05453167377",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02863162153-102",
+      "name": "Biga Royal Taksi AÇIK · 7 gün 24 saat Şirintepe, Şehit Uzman Onbaşı Ulaş, Açıkgö",
+      "phone": "02863162153",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02863162498-103",
+      "name": "Huzur Taksi Biga",
+      "phone": "02863162498",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02863174747-104",
+      "name": "Tekel Meydan Taksi",
+      "phone": "02863174747",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02864161050-105",
+      "name": "Tümü → Çanakkale Güzelyalı Kepez Taksi AÇIK · 7 gün 24 saat Cumhuriyet mahallesi",
+      "phone": "02864161050",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05413280317-106",
+      "name": "Tümü → Eceabat Taksi / Diler Gülşen",
+      "phone": "05413280317",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366814818-107",
+      "name": "Eceabat Taksi / Metin Gülme",
+      "phone": "05366814818",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466950040-108",
+      "name": "Gelibolu Taksi Çalışkan",
+      "phone": "05466950040",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05455660262-109",
+      "name": "Gelibolu Taksi Çanakkale AÇIK · 7 gün 24 saat Camiikebir, Taksi, Gelibolu Otogar",
+      "phone": "05455660262",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05424185644-110",
+      "name": "Gelibolu Taksi Gelibolu AÇIK · 7 gün 24 saat Camiikebir, Hükümet konağı, Celal N",
+      "phone": "05424185644",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02865666202-111",
+      "name": "Gelibolu Taksi Tour",
+      "phone": "02865666202",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02865663131-112",
+      "name": "Gelibolu Taksicisi AÇIK · 7 gün 24 saat Alaeddin, Gelibolu Otogarı No:17, 17500 ",
+      "phone": "02865663131",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05333691761-113",
+      "name": "Liman Taksi Durağı Gelibolu AÇIK · 7 gün 24 saat Camiikebir, Piri Reis Müzesi, B",
+      "phone": "05333691761",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05465775312-114",
+      "name": "Gökçeada Eva Taksi AÇIK · 7 gün 24 saat Kuzulimanı, aydoğan aydın paşa sokak doğ",
+      "phone": "05465775312",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325428011-115",
+      "name": "Gür Taksi Gökçeada",
+      "phone": "05325428011",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05421072766-116",
+      "name": "Taksici Recep Gökçeada",
+      "phone": "05421072766",
+      "website": null,
+      "lat": 40.1553,
+      "lon": 26.4142,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05423750325-117",
+      "name": "Alo Taksi Çanakkale",
+      "phone": "05423750325",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05413260326-118",
+      "name": "Çanakkale Taksi - Bilal Gökçınar",
+      "phone": "05413260326",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05542400045-119",
+      "name": "Çanakkale Taksi - Burak Tezcan",
+      "phone": "05542400045",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05384174709-120",
+      "name": "Dumlupınar Taksi - Hanife Yücel",
+      "phone": "05384174709",
+      "website": "https://www.facebook.com/canakkaletaksi41",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05322840323-121",
+      "name": "Hey Taksi",
+      "phone": "05322840323",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05425052503-122",
+      "name": "Kilitbahir Taksi - Tuncay Songur",
+      "phone": "05425052503",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "eceabat",
+      "districtName": "Eceabat",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

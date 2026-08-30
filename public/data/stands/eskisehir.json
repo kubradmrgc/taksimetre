@@ -1,0 +1,919 @@
+{
+  "cityId": "eskisehir",
+  "cityName": "Eskişehir",
+  "fetchedAt": "2026-08-30T21:31:06.791Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "alpu",
+      "name": "Alpu",
+      "count": 15
+    },
+    {
+      "id": "beylikova",
+      "name": "Beylikova",
+      "count": 1
+    },
+    {
+      "id": "cifteler",
+      "name": "Cifteler",
+      "count": 1
+    },
+    {
+      "id": "han",
+      "name": "Han",
+      "count": 1
+    },
+    {
+      "id": "odunpazari",
+      "name": "Odunpazari",
+      "count": 17
+    },
+    {
+      "id": "sivrihisar",
+      "name": "Sivrihisar",
+      "count": 2
+    },
+    {
+      "id": "tepebasi",
+      "name": "Tepebasi",
+      "count": 16
+    }
+  ],
+  "count": 56,
+  "stands": [
+    {
+      "id": "taksi724-02222405653-0",
+      "name": "Ayaz Taksi",
+      "phone": "02222405653",
+      "website": null,
+      "lat": 39.769587,
+      "lon": 30.535456,
+      "address": "Kurtuluş Mah. Sarper Cad. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222316555-1",
+      "name": "Çankaya Taksi",
+      "phone": "02222316555",
+      "website": null,
+      "lat": 39.765782,
+      "lon": 30.526512,
+      "address": "Akcami Mah. Hacı Çakır Sok. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222191440-2",
+      "name": "Çiçek Taksi",
+      "phone": "02222191440",
+      "website": null,
+      "lat": 39.752551,
+      "lon": 30.535232,
+      "address": "Çankaya Mah. Çankaya Cad. 1 Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02222267777-3",
+      "name": "Cici Taksi",
+      "phone": "02222267777",
+      "website": null,
+      "lat": 39.761753,
+      "lon": 30.498622,
+      "address": "Akarbaşı Mah. Atatürk Blv. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222312662-4",
+      "name": "Emek Taksi",
+      "phone": "02222312662",
+      "website": null,
+      "lat": 39.775999,
+      "lon": 30.517902,
+      "address": "İstiklal Mah. Santral Sok. 1 Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222501166-5",
+      "name": "Gökmeydan Taksi",
+      "phone": "02222501166",
+      "website": null,
+      "lat": 39.751278,
+      "lon": 30.566515,
+      "address": "Emek Mah. Şanlıer Sok. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222379988-6",
+      "name": "Has Taksi",
+      "phone": "02222379988",
+      "website": null,
+      "lat": 39.767957,
+      "lon": 30.54549,
+      "address": "Gökmeydan Mah. Faruk Şükrü Cad. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222320788-7",
+      "name": "Mini Taksi",
+      "phone": "02222320788",
+      "website": null,
+      "lat": 39.773336,
+      "lon": 30.506976,
+      "address": "Kırmızıtoprak Mah. Atatürk Cad. Ercan Sok. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222312020-8",
+      "name": "Nur Taksi",
+      "phone": "02222312020",
+      "website": null,
+      "lat": 39.770955,
+      "lon": 30.534945,
+      "address": "Kurtuluş Mah. Ziya Paşa Cad. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222317070-9",
+      "name": "Otogar Taksi",
+      "phone": "02222317070",
+      "website": null,
+      "lat": 39.766888,
+      "lon": 30.530086,
+      "address": "Kurtuluş Mah. Cumhuriyet Blv. 38 Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222372727-10",
+      "name": "Şah Taksi",
+      "phone": "02222372727",
+      "website": null,
+      "lat": 39.773517,
+      "lon": 30.519968,
+      "address": "Deliklitaş Mah. Savtekin Cad. 1 Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222254455-11",
+      "name": "Saray Taksi",
+      "phone": "02222254455",
+      "website": null,
+      "lat": 39.768514,
+      "lon": 30.505738,
+      "address": "Vişnelik Mah. Taşköprü Cad. Erdinçler Sok. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222337071-12",
+      "name": "Toki Taksi",
+      "phone": "02222337071",
+      "website": null,
+      "lat": 39.773856,
+      "lon": 30.517406,
+      "address": "İstiklal Mah. Ertuğrulbey Sok. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222391445-13",
+      "name": "Yıldıztepe Taksi",
+      "phone": "02222391445",
+      "website": null,
+      "lat": 39.740187,
+      "lon": 30.526745,
+      "address": "Yenikent Mah. Koza Cad. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222391653-14",
+      "name": "Yunuskent Taksi",
+      "phone": "02222391653",
+      "website": null,
+      "lat": 39.75782,
+      "lon": 30.51208,
+      "address": "Yıldıztepe Mah. Yertutan Sok. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02222175958-15",
+      "name": "Zafer Taksi",
+      "phone": "02222175958",
+      "website": null,
+      "lat": 39.764411,
+      "lon": 30.551292,
+      "address": "Yenidoğan Mah. Sevinç Cad. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222257070-16",
+      "name": "eskisehir-taksi",
+      "phone": "02222257070",
+      "website": null,
+      "lat": 39.772193,
+      "lon": 30.48989,
+      "address": "Osmangazi Mah. Basın Şehitleri Cad. Odunpazarı, Eskişehir",
+      "districtId": "odunpazari",
+      "districtName": "Odunpazari",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02223303810-17",
+      "name": "Batıkent Arı Taksi",
+      "phone": "02223303810",
+      "website": null,
+      "lat": 39.782907,
+      "lon": 30.504105,
+      "address": "Hoşnudiye Mah. 732. Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-18-18",
+      "name": "Ertuğrulgazi Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 39.792596,
+      "lon": 30.455882,
+      "address": "Batıkent Mah. Civanmert Cad. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538103141-19",
+      "name": "Eti Taksi",
+      "phone": "05538103141",
+      "website": null,
+      "lat": 39.77364,
+      "lon": 30.474098,
+      "address": "Ertuğrulgazi Mah. Çilem Cad. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02223353355-20",
+      "name": "Feza Taksi",
+      "phone": "02223353355",
+      "website": null,
+      "lat": 39.786879,
+      "lon": 30.487582,
+      "address": "Uluönder Mah. Salih Bozok Cad. 28 Batıkent, Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222312222-21",
+      "name": "Gar Taksi",
+      "phone": "02222312222",
+      "website": null,
+      "lat": 39.778049,
+      "lon": 30.529413,
+      "address": "Işıklar Mah. Gündüz Bey Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222318782-22",
+      "name": "Kent Taksi",
+      "phone": "02222318782",
+      "website": null,
+      "lat": 39.779381,
+      "lon": 30.508429,
+      "address": "Hoşnudiye Mah. İstasyon Cad. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02223225577-23",
+      "name": "Kral Taksi",
+      "phone": "02223225577",
+      "website": null,
+      "lat": 39.783737,
+      "lon": 30.525037,
+      "address": "Ömerağa Mah. Akalan Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222311111-24",
+      "name": "Moda Taksi",
+      "phone": "02222311111",
+      "website": null,
+      "lat": 39.788914,
+      "lon": 30.506624,
+      "address": "Yenibağlar Mah. Üniversite Cad. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222313336-25",
+      "name": "Murat Taksi",
+      "phone": "02222313336",
+      "website": null,
+      "lat": 39.777984,
+      "lon": 30.510621,
+      "address": "Hoşnudiye Mah. Kolcu Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352313887-26",
+      "name": "Otogar Taksi",
+      "phone": "05352313887",
+      "website": null,
+      "lat": 39.777492,
+      "lon": 30.525656,
+      "address": "Mustafa Kemal Paşa Mah. Cumhuriyetçi Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222372727-27",
+      "name": "Park Taksi",
+      "phone": "02222372727",
+      "website": null,
+      "lat": 39.777874,
+      "lon": 30.551228,
+      "address": "Şeker Mah. Eskişehir Otogarı Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443226464-28",
+      "name": "Rüyam Taksi",
+      "phone": "05443226464",
+      "website": null,
+      "lat": 39.779478,
+      "lon": 30.517087,
+      "address": "Cumhuriye Mah. Yaprak Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222314040-29",
+      "name": "Sakarya Dolmuş Taksi",
+      "phone": "02222314040",
+      "website": null,
+      "lat": 39.780689,
+      "lon": 30.524876,
+      "address": "Mamure Mah. Barış Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02223226767-30",
+      "name": "Sakarya Taksi",
+      "phone": "02223226767",
+      "website": null,
+      "lat": 39.776644,
+      "lon": 30.519289,
+      "address": "Cumhuriye Mah. Şen Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02223226767-31",
+      "name": "Şirin Taksi",
+      "phone": "02223226767",
+      "website": null,
+      "lat": 39.795879,
+      "lon": 30.533098,
+      "address": "Zafer Mah. Kula Sok. Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02223353500-32",
+      "name": "eskisehir-taksi",
+      "phone": "02223353500",
+      "website": null,
+      "lat": 39.798218,
+      "lon": 30.493971,
+      "address": "Şirintepe Mah. Sınırboyu Sok. Sınır Parkı Tepebaşı, Eskişehir",
+      "districtId": "tepebasi",
+      "districtName": "Tepebasi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222335115-33",
+      "name": "Anemon Taksi",
+      "phone": "02222335115",
+      "website": null,
+      "lat": 39.7659556,
+      "lon": 30.520686,
+      "address": "Taksi Durağı · Mustafa Kemal Atatürk Cd No:2",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05013765950-34",
+      "name": "Arı Taksi",
+      "phone": "05013765950",
+      "website": null,
+      "lat": 39.7813898,
+      "lon": 30.4775561,
+      "address": "Taksi Durağı ·  · Mustafa Paşa Sk No:3",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222311313-35",
+      "name": "Batıkent Taksi",
+      "phone": "02222311313",
+      "website": null,
+      "lat": 39.771127,
+      "lon": 30.519184,
+      "address": "Taksi Durağı · İki Eylül Cd. No:55",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02223151213-36",
+      "name": "E.Otogar Taksi",
+      "phone": "02223151213",
+      "website": null,
+      "lat": 39.7947502,
+      "lon": 30.4473991,
+      "address": "Taksi Durağı ·  · Dumluca Sk. no:18",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222313738-37",
+      "name": "Ertuğrul Gazi Taksi",
+      "phone": "02222313738",
+      "website": null,
+      "lat": 39.7747502,
+      "lon": 30.5237581,
+      "address": "Otel · Savtekin Cd. No:45, 26090",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538103141-38",
+      "name": "Taksi durağı",
+      "phone": "05538103141",
+      "website": null,
+      "lat": 39.7699121,
+      "lon": 30.4787923,
+      "address": null,
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326161695-39",
+      "name": "ES Otogar Taksi",
+      "phone": "05326161695",
+      "website": null,
+      "lat": 39.7877433,
+      "lon": 30.4721522,
+      "address": "Turistik Gezi Acentesi · Batıkent Mh. Liman Cd, Çaykara Sk. Hacı Abdullah Efendi Apt No:1/3",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222372727-40",
+      "name": "Has Taksi",
+      "phone": "02222372727",
+      "website": null,
+      "lat": 39.7664678,
+      "lon": 30.542992,
+      "address": "Ulaşım Hizmeti ·  · Şht. Serkan Özaydın Sk. No:4",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222320788-41",
+      "name": "Nil Taksi",
+      "phone": "02222320788",
+      "website": null,
+      "lat": 39.7750511,
+      "lon": 30.5109539,
+      "address": "Ulaşım Hizmeti · Selvi Sk. No:3 D:1",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222372288-42",
+      "name": "Odunpazarı Taksi",
+      "phone": "02222372288",
+      "website": null,
+      "lat": 39.763478,
+      "lon": 30.5557465,
+      "address": "Taksi Durağı · 2. Soğuk Demirciler Sk. No:21",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02222315562-43",
+      "name": "Organize Taksi",
+      "phone": "02222315562",
+      "website": null,
+      "lat": 39.7654146,
+      "lon": 30.5238587,
+      "address": "Taksi Durağı · Kemal Zeytinoğlu Cd. No:5",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05079201626-44",
+      "name": "Örnek Taksi",
+      "phone": "05079201626",
+      "website": null,
+      "lat": 39.742945,
+      "lon": 30.622447,
+      "address": null,
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222315393-45",
+      "name": "Şehir Hastanesi Taksi",
+      "phone": "02222315393",
+      "website": null,
+      "lat": 39.7738147,
+      "lon": 30.513524,
+      "address": "Taksi · Şair Fuzuli Cad./nurgül Sok. No:1",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02222374745-46",
+      "name": "Yılmaz Taksi",
+      "phone": "02222374745",
+      "website": null,
+      "lat": 39.7495139,
+      "lon": 30.5974394,
+      "address": null,
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02222315501-47",
+      "name": "eskisehir-taksi",
+      "phone": "02222315501",
+      "website": null,
+      "lat": 39.770479,
+      "lon": 30.5215531,
+      "address": "Taksi Durağı ·  · Hamam Yolu Cd No:79",
+      "districtId": "alpu",
+      "districtName": "Alpu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538103141-48",
+      "name": "Sivrihisar Taksi",
+      "phone": "05538103141",
+      "website": null,
+      "lat": 39.437478,
+      "lon": 31.531941,
+      "address": "Yunusemre Mah. Kavalalı Sok. 141 Sivrihisar, Eskişehir",
+      "districtId": "sivrihisar",
+      "districtName": "Sivrihisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326726626-49",
+      "name": "Sivrihisar Taksi",
+      "phone": "05326726626",
+      "website": null,
+      "lat": 39.438844,
+      "lon": 31.531352,
+      "address": "Yunusemre Mah. Atatürk Blv. 141 Sivrihisar, Eskişehir",
+      "districtId": "sivrihisar",
+      "districtName": "Sivrihisar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443226464-50",
+      "name": "Merkez Taksi",
+      "phone": "05443226464",
+      "website": null,
+      "lat": 39.687966,
+      "lon": 31.206284,
+      "address": "Köprübaşı Mah. İnönü Cad. Beylikova, Eskişehir",
+      "districtId": "beylikova",
+      "districtName": "Beylikova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355186866-51",
+      "name": "ifteler Taksi",
+      "phone": "05355186866",
+      "website": null,
+      "lat": 39.379192,
+      "lon": 31.03845,
+      "address": "Adalar Mah. Atatürk Cad. Çifteler, Eskişehir",
+      "districtId": "cifteler",
+      "districtName": "Cifteler",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05443226464-52",
+      "name": "ZER TAKSi",
+      "phone": "05443226464",
+      "website": null,
+      "lat": 39.794117,
+      "lon": 30.5139066,
+      "address": "Taksi Durağı · Prof. Dr. Orhan Oğuz Cd. No:72",
+      "districtId": "han",
+      "districtName": "Han",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-02222394667-53",
+      "name": "Osmangazi Ünv Taksi",
+      "phone": "02222394667",
+      "website": null,
+      "lat": 39.7767,
+      "lon": 30.5206,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-02222261550-54",
+      "name": "Zafer Taksi AÇIK · 7 gün 24 saat Osmangazi, Basın Şehitleri Cd. No:253, 26140 Od",
+      "phone": "02222261550",
+      "website": null,
+      "lat": 39.7767,
+      "lon": 30.5206,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02227112197-55",
+      "name": "Tümü → Sivrihisar Dörtyol Taksi",
+      "phone": "02227112197",
+      "website": null,
+      "lat": 39.7767,
+      "lon": 30.5206,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    }
+  ]
+}

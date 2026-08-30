@@ -1,0 +1,1634 @@
+{
+  "cityId": "sakarya",
+  "cityName": "Sakarya",
+  "fetchedAt": "2026-08-30T21:22:44.296Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 132,
+  "stands": [
+    {
+      "id": "taksi724-05325170449-0",
+      "name": "AKYAZI AVM TAKSi",
+      "phone": "05325170449",
+      "lat": 40.780197,
+      "lon": 30.374382,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396542075-1",
+      "name": "AKYAZI PARK TAKSi",
+      "phone": "05396542075",
+      "lat": 40.6658005,
+      "lon": 30.5951706,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05419305400-2",
+      "name": "AKYAZI TAKSi",
+      "phone": "05419305400",
+      "lat": 40.6833255,
+      "lon": 30.6244369,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357916003-3",
+      "name": "AKYAZI TAKSi",
+      "phone": "05357916003",
+      "lat": 40.6831177,
+      "lon": 30.6230507,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317674254-4",
+      "name": "Çark Taksi",
+      "phone": "05317674254",
+      "lat": 40.6824196,
+      "lon": 30.6250605,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642720558-5",
+      "name": "Çeşme Meydanı Taksi",
+      "phone": "02642720558",
+      "lat": 40.777116,
+      "lon": 30.393625,
+      "address": "Cumhuriyet Mah. Çark Cad. (Atatürk Lisesi Yanı) Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642730307-6",
+      "name": "Dilmen Taksi",
+      "phone": "02642730307",
+      "lat": 40.78311,
+      "lon": 30.403876,
+      "address": "Orta Mah. Çeşme Meydanı Cad. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642719774-7",
+      "name": "Donatım Taksi",
+      "phone": "02642719774",
+      "lat": 40.774826,
+      "lon": 30.402319,
+      "address": "Tığcılar Mah. Atatürk Blv. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642786911-8",
+      "name": "Erenler Emniyet Taksi",
+      "phone": "02642786911",
+      "lat": 40.768073,
+      "lon": 30.388566,
+      "address": "Mithatpaşa Mah. Milli Egemenlik Cad. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05330210366-9",
+      "name": "Erenler Taksi",
+      "phone": "05330210366",
+      "lat": 40.756086,
+      "lon": 30.415054,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05428350009-10",
+      "name": "Ferizli Taksi",
+      "phone": "05428350009",
+      "lat": 40.7563926,
+      "lon": 30.4093744,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452675454-11",
+      "name": "Gar Taksi",
+      "phone": "05452675454",
+      "lat": 40.9535578,
+      "lon": 30.4967358,
+      "address": "Taksi Durağı · İstiklal Mah. Göçmen Konutları",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355900119-12",
+      "name": "Gold Taksi",
+      "phone": "05355900119",
+      "lat": 40.773474,
+      "lon": 30.398565,
+      "address": "Semerciler Mah. Papuçcular Cad. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326108519-13",
+      "name": "Görükle Sakarya Taksi",
+      "phone": "05326108519",
+      "lat": 40.6922285,
+      "lon": 30.2029608,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414835050-14",
+      "name": "Görükle Taksi",
+      "phone": "05414835050",
+      "lat": 40.2289791,
+      "lon": 28.8535391,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394697272-15",
+      "name": "Hastane Seah Taksi",
+      "phone": "05394697272",
+      "lat": 40.2280428,
+      "lon": 28.842055,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642754602-16",
+      "name": "HIZLI TAKSi",
+      "phone": "02642754602",
+      "lat": 40.756697,
+      "lon": 30.392111,
+      "address": "Güllük Mah. Sağlık Cad. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303200534-17",
+      "name": "Istasyon Taksi",
+      "phone": "05303200534",
+      "lat": 40.760166,
+      "lon": 30.3640166,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642792217-18",
+      "name": "Kampüs Taksi",
+      "phone": "02642792217",
+      "lat": 40.774843,
+      "lon": 30.398364,
+      "address": "Semerciler Mah. Kudüs Cad. 4 Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389580783-19",
+      "name": "Karaağaç Taksi",
+      "phone": "05389580783",
+      "lat": 40.7623099,
+      "lon": 30.3600227,
+      "address": "Taksi Durağı ·  · Sipahi Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642715152-20",
+      "name": "Kocaali Merkez Taksi",
+      "phone": "02642715152",
+      "lat": 40.786848,
+      "lon": 30.401856,
+      "address": "Sakarya Mah. İnönü Cad. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02648122622-21",
+      "name": "KUZEY TAKSi",
+      "phone": "02648122622",
+      "lat": 41.0550843,
+      "lon": 30.8527221,
+      "address": "Taksi Durağı · Ağalar, Sakarya Cd, Sofular Sk. No:4",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05553943351-22",
+      "name": "Pazar Taksi",
+      "phone": "05553943351",
+      "lat": 40.8002556,
+      "lon": 30.405319,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02645825158-23",
+      "name": "Sakarya Beşköprü Taksi",
+      "phone": "02645825158",
+      "lat": 40.6914346,
+      "lon": 30.2673317,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05335231772-24",
+      "name": "- En Yakın Taksi",
+      "phone": "05335231772",
+      "lat": 40.7374742,
+      "lon": 30.353149,
+      "address": "Ulaşım Hizmeti · Sakmar Yanı, Beşköprü Mahallesi, Toyota Caddesi, Sağlık Ocağı Karşısı No:54050",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332643754-25",
+      "name": "Sakarya Merkez Taksi",
+      "phone": "05332643754",
+      "lat": 40.7783252,
+      "lon": 30.4008388,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424670630-26",
+      "name": "Sakarya Taksi",
+      "phone": "05424670630",
+      "lat": 40.7749157,
+      "lon": 30.383512,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-27-27",
+      "name": "Sakarya Terminal Taksi",
+      "phone": null,
+      "lat": 39.7960022,
+      "lon": 30.5329388,
+      "address": "Taksi Durağı ·  · Esener Sk. No:14",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642752868-28",
+      "name": "Salon Taksi",
+      "phone": "02642752868",
+      "lat": 40.7291653,
+      "lon": 30.3803985,
+      "address": "Taksi Durağı ·  · Hürriyet Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424670630-29",
+      "name": "Sapanca Taksi",
+      "phone": "05424670630",
+      "lat": 40.766181,
+      "lon": 30.394698,
+      "address": "Mithatpaşa Mah. Güllük Sok. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353522010-30",
+      "name": "Sapanca Uzunkum Taksi",
+      "phone": "05353522010",
+      "lat": 40.6931844,
+      "lon": 30.2584589,
+      "address": "Taksi Durağı · Bağdat cad. Lale sk No:23",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05366674852-31",
+      "name": "Seah Taksi",
+      "phone": "05366674852",
+      "lat": 40.7025539,
+      "lon": 30.3127828,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05314348685-32",
+      "name": "Seramik Taksi",
+      "phone": "05314348685",
+      "lat": 40.7578935,
+      "lon": 30.3901727,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424670630-33",
+      "name": "Serdivan Acil Taksi",
+      "phone": "05424670630",
+      "lat": 40.775426,
+      "lon": 30.402319,
+      "address": "Tığcılar Mah. Atatürk Blv. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05358440521-34",
+      "name": "Serdivan Avm Taksi",
+      "phone": "05358440521",
+      "lat": 40.7633488,
+      "lon": 30.3594039,
+      "address": "Taksi Durağı · Hakan İlaçan, Karabaş Sk. No:10 D:2 M",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05307802800-35",
+      "name": "Serdivan Belediyesi Taksi",
+      "phone": "05307802800",
+      "lat": 40.7793778,
+      "lon": 30.3655032,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05346108473-36",
+      "name": "SERDiVAN CADDE 54 TAKSi",
+      "phone": "05346108473",
+      "lat": 40.7615766,
+      "lon": 30.3569069,
+      "address": "Taksi · Soğuk Su Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05302822333-37",
+      "name": "Serdivan Işık Taksi",
+      "phone": "05302822333",
+      "lat": 40.7726236,
+      "lon": 30.3658835,
+      "address": "Taksi Durağı · 54.Cadde",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05322773791-38",
+      "name": "Serdivan Kampüs Taksi",
+      "phone": "05322773791",
+      "lat": 40.7714526,
+      "lon": 30.3617848,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05307369138-39",
+      "name": "Serdivan Konak Taksi",
+      "phone": "05307369138",
+      "lat": 40.7458058,
+      "lon": 30.345104,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642110211-40",
+      "name": "Serdivan mavi Durak Taksi",
+      "phone": "02642110211",
+      "lat": 40.7598694,
+      "lon": 30.3590112,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467205454-41",
+      "name": "Serdivan Sakarya Üniversite Taksi",
+      "phone": "05467205454",
+      "lat": 40.7618884,
+      "lon": 30.3617144,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05541810124-42",
+      "name": "Serdivan Taksi",
+      "phone": "05541810124",
+      "lat": 40.7449291,
+      "lon": 30.3432667,
+      "address": "Taksi · Atalay Sk. No:15",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05365928776-43",
+      "name": "Şerefiye Taksi",
+      "phone": "05365928776",
+      "lat": 40.7671203,
+      "lon": 30.3581256,
+      "address": "Taksi · Özgür Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642726679-44",
+      "name": "Soğanpazarı Taksi",
+      "phone": "02642726679",
+      "lat": 40.778079,
+      "lon": 30.394382,
+      "address": "Cumhuriyet Mah. Şal Sok. Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642776067-45",
+      "name": "Taksi",
+      "phone": "02642776067",
+      "lat": 40.778907,
+      "lon": 30.402535,
+      "address": "Taksi Durağı · Sakarya Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05405480036-46",
+      "name": "Yeni Cami Taksi",
+      "phone": "05405480036",
+      "lat": 40.75965,
+      "lon": 30.3649984,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452711886-47",
+      "name": "Yenikent Hastane Taksi",
+      "phone": "05452711886",
+      "lat": 40.772718,
+      "lon": 30.405865,
+      "address": "Yenigün Mah. Kurbanlar Sok. 1 Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452711886-48",
+      "name": "Yeni Murat Taksi",
+      "phone": "05452711886",
+      "lat": 37.185192,
+      "lon": 33.216875,
+      "address": "Karaman Mah. (Yenikent Devlet Hastanesi Önü) Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402713682-49",
+      "name": "sakarya-taksi",
+      "phone": "05402713682",
+      "lat": 40.782969,
+      "lon": 30.400083,
+      "address": "Orta Mah. Karaağaç Blv. 1 Adapazarı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-50-50",
+      "name": "Garaj Taksi",
+      "phone": null,
+      "lat": 40.797433,
+      "lon": 30.745052,
+      "address": "Kemaliye Mah. 606 Sok. 5 (Hendek Belediye Binası Yanı) Hendek, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642814586-51",
+      "name": "Hendek Taksi",
+      "phone": "02642814586",
+      "lat": 40.796331,
+      "lon": 30.746625,
+      "address": "Başpınar Mah. 108. Sok. (İş Bankası Yanı) Hendek, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04787652924-52",
+      "name": "Hendek Ticari Taksi",
+      "phone": "04787652924",
+      "lat": 40.79658279,
+      "lon": 30.74666792,
+      "address": "Başpınar Mah. Şehit Gaffar Okkan Cad. 108 Sok. Hendek, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326123971-53",
+      "name": "Taksi durağı",
+      "phone": "05326123971",
+      "lat": 40.7998814,
+      "lon": 30.743357,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312400254-54",
+      "name": "Terminal Taksi",
+      "phone": "05312400254",
+      "lat": 40.7891875,
+      "lon": 30.7360625,
+      "address": "Taksi · Ziya Gökalp Cd QPXX+MCX No:18",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642752868-55",
+      "name": "Yeni Cami Taksi",
+      "phone": "02642752868",
+      "lat": 40.798307,
+      "lon": 30.745416,
+      "address": "Kemaliye Mah. Alpaslan Türkeş Cad. Hendek, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452711886-56",
+      "name": "Hendek Ticari Taksi",
+      "phone": "05452711886",
+      "lat": 40.797718,
+      "lon": 30.747061,
+      "address": "Kemaliye Mah. Osman Yılmaz Cd Merkez, Hendek, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448785454-57",
+      "name": "Garaj Taksi",
+      "phone": "05448785454",
+      "lat": 41.0716734,
+      "lon": 30.8556304,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418125050-58",
+      "name": "Garaj Ve Sahil Taksi",
+      "phone": "05418125050",
+      "lat": 41.0718775,
+      "lon": 30.8553941,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02642814586-59",
+      "name": "Kocaali Hastane Taksi",
+      "phone": "02642814586",
+      "lat": 41.05996,
+      "lon": 30.853175,
+      "address": "Ağalar Mah. Sakarya Cad. (Hürriyet İlköğretim Okulu Karşısı) Kocaali, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02648121213-60",
+      "name": "Kocaali Merkez Taksi",
+      "phone": "02648121213",
+      "lat": 41.0714064,
+      "lon": 30.8615424,
+      "address": "Taksi Durağı · Yalı Mah. Sahil Yolu Cad. No:127, Devlet Hastanesi Karşısı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516545453-61",
+      "name": "Kocaali Temiz Taksi",
+      "phone": "05516545453",
+      "lat": 41.0631526,
+      "lon": 30.8551771,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05418222300-62",
+      "name": "Garaj Ve Sahil Taksi",
+      "phone": "05418222300",
+      "lat": 41.0571772,
+      "lon": 30.8497765,
+      "address": "Taksi · Cumhuriyet Cd. No: 22",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05451542053-63",
+      "name": "Akyazı Yeni Cami Taksi",
+      "phone": "05451542053",
+      "lat": 40.6842466,
+      "lon": 30.6156748,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05380770854-64",
+      "name": "Hastane Taksi",
+      "phone": "05380770854",
+      "lat": 40.6863261,
+      "lon": 30.6253828,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365526031-65",
+      "name": "Merkez Taksi",
+      "phone": "05365526031",
+      "lat": 40.626647,
+      "lon": 30.656142,
+      "address": "Hastane Mah. Ada Cad. (Akyazı Devlet Hastanesi Yanı) Akyazı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-66-66",
+      "name": "Hastane Taksi",
+      "phone": null,
+      "lat": 40.6282,
+      "lon": 30.6418,
+      "address": "Gazi Süleyman Paşa Mah. Bankalar Cad. Akyazı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05558884012-67",
+      "name": "Karasu Taksi",
+      "phone": "05558884012",
+      "lat": 41.09428,
+      "lon": 30.690827,
+      "address": "İncilli Mah. Cumhuriyet Cad. 8 Karasu, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02647182211-68",
+      "name": "Karasu Terminal Taksi",
+      "phone": "02647182211",
+      "lat": 41.070593,
+      "lon": 30.7815719,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02647187690-69",
+      "name": "Terminal Taksi",
+      "phone": "02647187690",
+      "lat": 41.0957221,
+      "lon": 30.6877306,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642752868-70",
+      "name": "Karasu Terminal Taksi",
+      "phone": "02642752868",
+      "lat": 41.099276,
+      "lon": 30.688942,
+      "address": "Kabakoz Mah. Vatan Cad. Karasu, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524615453-71",
+      "name": "Dörtyol Taksi",
+      "phone": "05524615453",
+      "lat": 40.74577841,
+      "lon": 30.41361793,
+      "address": "Erenler Mah. Sakarya Cad. Ada AVM Erenler, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05524615453-72",
+      "name": "Özlem Taksi",
+      "phone": "05524615453",
+      "lat": 40.736359,
+      "lon": 30.389125,
+      "address": "Yeşiltepe Mah. Modern San. Sit. Erenler, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642417440-73",
+      "name": "zlem Taksi",
+      "phone": "02642417440",
+      "lat": 40.757531,
+      "lon": 30.413193,
+      "address": "Tabakhane Mah. 4017 Sok. Erenler, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02642792217-74",
+      "name": "Kırkpınar Taksi",
+      "phone": "02642792217",
+      "lat": 40.69295,
+      "lon": 30.271676,
+      "address": "Rüstempaşa Mah. İstasyon Cad. 57 Sapanca, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02645921594-75",
+      "name": "Merkez Taksi",
+      "phone": "02645921594",
+      "lat": 40.694072,
+      "lon": 30.223117,
+      "address": "Hasanpaşa Mah. İstasyon Cad. Sapanca, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-76-76",
+      "name": "Kırkpınar Taksi",
+      "phone": null,
+      "lat": 40.692692,
+      "lon": 30.270597,
+      "address": "Rüstempaşa Mah. İstasyon Cad. Sapanca, Sapanca, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05302256790-77",
+      "name": "Taraklı Taksi",
+      "phone": "05302256790",
+      "lat": 40.4456474,
+      "lon": 30.5667688,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05343904242-78",
+      "name": "klı Taksi",
+      "phone": "05343904242",
+      "lat": 40.39839,
+      "lon": 30.493607,
+      "address": "Hacımurat Mah. Altın Sok. (Taraklı Ptt Karşısı) Taraklı, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422951422-79",
+      "name": "Arifiye Taksi",
+      "phone": "05422951422",
+      "lat": 40.74678177,
+      "lon": 30.36546383,
+      "address": "Arifbey Mah. Zübeyde Hanım Cad. Arifiye, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-80-80",
+      "name": "Ferizli ilçesindeki taksi",
+      "phone": null,
+      "lat": 40.938435,
+      "lon": 30.487162,
+      "address": "Kemalpaşa Mah. Fevzi Çakmak Cad. Ferizli, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05378843868-81",
+      "name": "Geyve Taksi",
+      "phone": "05378843868",
+      "lat": 40.5407,
+      "lon": 30.2987,
+      "address": "Alifuatpaşa-Ulucami Mah. Park Sok. Geyve, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-82-82",
+      "name": "Kaynarca ilçesindeki taksi",
+      "phone": null,
+      "lat": 41.035172,
+      "lon": 30.307021,
+      "address": "Konak Mah. Şehit Gürhan Türk Cad. Kaynarca, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05335056454-83",
+      "name": "Pamukova Taksi",
+      "phone": "05335056454",
+      "lat": 40.507246,
+      "lon": 30.168109,
+      "address": "Yenice Mah. Ankara Cad. 121 Pamukova, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-84-84",
+      "name": "Serdivan ilçesindeki taksi",
+      "phone": null,
+      "lat": 40.77424175,
+      "lon": 30.36896815,
+      "address": "İstiklal Mah. Muhsin Yazıcıoğlu Blv. Akın Sok. Serdivan, Sakarya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05415416054-85",
+      "name": "Sakarya Otobüs Terminali",
+      "phone": "05415416054",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05365102354-86",
+      "name": "BURAK LOJİSTİC GURUOP",
+      "phone": "05365102354",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02642766323-87",
+      "name": "Sakarya Sosyal Güvenlik İl Müdürlüğü",
+      "phone": "02642766323",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05333253117-88",
+      "name": "Taksi Serdivan 7/24",
+      "phone": "05333253117",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02642958500-89",
+      "name": "Sedaş - Genel Müdürlük",
+      "phone": "02642958500",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05365059083-90",
+      "name": "Serdivan taksi 584",
+      "phone": "05365059083",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05063855732-91",
+      "name": "SERDİVAN TAKSİ 7/24",
+      "phone": "05063855732",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05325433125-92",
+      "name": "Tümü → Ada Seah Taksi Adapazarı Taksi AÇIK · 7 gün 24 saat Güllük, Adnan Mendere",
+      "phone": "05325433125",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642734981-93",
+      "name": "Adliye Taksi Sakarya",
+      "phone": "02642734981",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642773212-94",
+      "name": "Bulvar Taksi",
+      "phone": "02642773212",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05352580076-95",
+      "name": "Camili Taksi AÇIK · 7 gün 24 saat Camili, Adliyesi Valilik Taksi Durağı, 54100 A",
+      "phone": "05352580076",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642718594-96",
+      "name": "Taksi durağı",
+      "phone": "02642718594",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05302808154-97",
+      "name": "Sakarya Orta Garaj Ofis Taksi",
+      "phone": "05302808154",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642734081-98",
+      "name": "Seramik Taksi",
+      "phone": "02642734081",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323659238-99",
+      "name": "Taksi Korucuk Durağı",
+      "phone": "05323659238",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642111798-100",
+      "name": "Unkapanı Taksi",
+      "phone": "02642111798",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642713682-101",
+      "name": "Yeni Murat Taksi",
+      "phone": "02642713682",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642711986-102",
+      "name": "Yenicami Taksi",
+      "phone": "02642711986",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05389535336-103",
+      "name": "Tümü → Akyazı Aksoy Taksi AÇIK · 7 gün 24 saat Konuralp, park taksi durağı, Ada ",
+      "phone": "05389535336",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05344012078-104",
+      "name": "Akyazı Hastane Taksi AÇIK · 7 gün 24 saat İnönü, hastane Mh, Mudurnu caddesi no ",
+      "phone": "05344012078",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05421562022-105",
+      "name": "Akyazı Taksi",
+      "phone": "05421562022",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325600254-106",
+      "name": "Akyazı Taksi – Akyazı Acil Taksi AÇIK · 7 gün 24 saat Gazi Süleyman Paşa, Yağcıl",
+      "phone": "05325600254",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05337349354-107",
+      "name": "Kuzuluk Taksi – Kuzuluk Taksi Durağı",
+      "phone": "05337349354",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05465420204-108",
+      "name": "Kampustaksim",
+      "phone": "05465420204",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05307331461-109",
+      "name": "Tümü → Ferizli Taksi AÇIK · 7 gün 24 saat İstiklal Mahallesi, Göçmen Konutları C",
+      "phone": "05307331461",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432751054-110",
+      "name": "Tümü → Geyve Taksi AÇIK · 7 gün 24 saat Camikebir, Şht. Serhat Emre Sk. No:24, 5",
+      "phone": "05432751054",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05346089203-111",
+      "name": "Hendek Taksi 54 T 3520",
+      "phone": "05346089203",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05322847573-112",
+      "name": "Hendek Taksici",
+      "phone": "05322847573",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05363182128-113",
+      "name": "Hendek Ticari Taksi AÇIK · 7 gün 24 saat Kemaliye, şehirler arası otobüs termina",
+      "phone": "05363182128",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05418693411-114",
+      "name": "Tümü → Karasu Hastane Taksi",
+      "phone": "05418693411",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02623543900-115",
+      "name": "Tümü → Kartepe Maşukiye Taksi",
+      "phone": "02623543900",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05444945549-116",
+      "name": "Kocaali Masal Taksi",
+      "phone": "05444945549",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02645515458-117",
+      "name": "Kocaali Taksi Ağalar AÇIK · 7 gün 24 saat Ağalar, Ağalar, Sakarya Cd, Sofular Sk",
+      "phone": "02645515458",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05454272322-118",
+      "name": "Pamukova Taksi",
+      "phone": "05454272322",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02645825164-119",
+      "name": "Sapanca Merkez Taksi",
+      "phone": "02645825164",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05327139813-120",
+      "name": "Sapanca Taksi Cesur",
+      "phone": "05327139813",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05394246507-121",
+      "name": "Sapanca Taksicisi 54",
+      "phone": "05394246507",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05379884454-122",
+      "name": "Taksi Sapanca Kurtköy Gold Taxi AÇIK · 7 gün 24 saat Yavuz Selim Mah. Hafız Must",
+      "phone": "05379884454",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642701889-123",
+      "name": "Serdivan Altınova Taksi",
+      "phone": "02642701889",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642711200-124",
+      "name": "Serdivan Avm Taksi AÇIK · 7 gün 24 saat Arabacıalanı, Serdivan Alışveriş Merkezi",
+      "phone": "02642711200",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05541810659-125",
+      "name": "Serdivan Işık Taksi AÇIK · 7 gün 24 saat İstiklal, Şht. Mehmet Karabaşoğlu Cd., ",
+      "phone": "05541810659",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05541810479-126",
+      "name": "Serdivan Sakarya University Taksi",
+      "phone": "05541810479",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02642723000-127",
+      "name": "Serdivan Taksi",
+      "phone": "02642723000",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325831954-128",
+      "name": "Yazlık Taksi",
+      "phone": "05325831954",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365727394-129",
+      "name": "Tümü → Taraklı Taksi",
+      "phone": "05365727394",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05414720863-130",
+      "name": "Akyazı Taksi - Fahri Çıldır",
+      "phone": "05414720863",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05327710354-131",
+      "name": "Taraklı Termal Taksi - Önder Tetik",
+      "phone": "05327710354",
+      "lat": 40.7731,
+      "lon": 30.3948,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "cityId": "hakkari",
+  "cityName": "Hakkari",
+  "fetchedAt": "2026-08-30T21:31:32.755Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "cukurca",
+      "name": "Cukurca",
+      "count": 11
+    },
+    {
+      "id": "derecik",
+      "name": "Derecik",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 12
+    },
+    {
+      "id": "semdinli",
+      "name": "Semdinli",
+      "count": 8
+    },
+    {
+      "id": "yuksekova",
+      "name": "Yuksekova",
+      "count": 8
+    }
+  ],
+  "count": 50,
+  "stands": [
+    {
+      "id": "taksi724-05353478456-0",
+      "name": "Bizim Taksi",
+      "phone": "05353478456",
+      "website": null,
+      "lat": 37.568031,
+      "lon": 43.744186,
+      "address": "Taksi Durağı · Medrese Mahallesi Sevgi Cd. 1 30100 Hakkâri Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04382110858-1",
+      "name": "Bulak Cumhuriyet Taksi",
+      "phone": "04382110858",
+      "website": null,
+      "lat": 37.579759,
+      "lon": 43.738665,
+      "address": "Bulak Mah. Konak Cad. Hakkari Merkez, Hakkari",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04382114145-2",
+      "name": "Bulak Konak Taksi",
+      "phone": "04382114145",
+      "website": null,
+      "lat": 37.574,
+      "lon": 43.74,
+      "address": "Bulak Mah. Cumhuriyet Cad. 25",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04382110858-3",
+      "name": "Cilo Taksi",
+      "phone": "04382110858",
+      "website": null,
+      "lat": 37.5742,
+      "lon": 43.7405,
+      "address": "Bulak Mah. Konak Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05449461478-4",
+      "name": "Hakkari Acil Taksi",
+      "phone": "05449461478",
+      "website": null,
+      "lat": 37.577382,
+      "lon": 43.736843,
+      "address": "Bulak Mah. İstiklal Cad. Hakkari Merkez, Hakkari",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04382114541-5",
+      "name": "Merkez Taksi",
+      "phone": "04382114541",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": "Dağgöl Mah. Gençlik Cad. No:12",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412921881-6",
+      "name": "Sağlık Taksi",
+      "phone": "05412921881",
+      "website": null,
+      "lat": 37.5745,
+      "lon": 43.741,
+      "address": "Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04382112308-7",
+      "name": "Şehir Taksi",
+      "phone": "04382112308",
+      "website": null,
+      "lat": 37.5748,
+      "lon": 43.7415,
+      "address": "Pehlivan, Gençlik Cd. No:5",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04382114145-8",
+      "name": "Star Gençlik Taksi",
+      "phone": "04382114145",
+      "website": null,
+      "lat": 37.57609,
+      "lon": 43.73619,
+      "address": "Bulak Mah. Cumhuriyet Cad. 25 Hakkari Merkez, Hakkari",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04382117111-9",
+      "name": "Sümbül Taksi",
+      "phone": "04382117111",
+      "website": null,
+      "lat": 37.576227,
+      "lon": 43.736279,
+      "address": "Bulak Mah. Cumhuriyet Cad. Hakkari Merkez, Hakkari",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04382113436-10",
+      "name": "Tekser Taksi",
+      "phone": "04382113436",
+      "website": null,
+      "lat": 37.576827,
+      "lon": 43.736279,
+      "address": "Bulak Mah. Cumhuriyet Cad. Hakkari Merkez, Hakkari",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04382115656-11",
+      "name": "hakkari-taksi",
+      "phone": "04382115656",
+      "website": null,
+      "lat": 37.575,
+      "lon": 43.742,
+      "address": "Sümbül Mah. Van Bulvarı No:113",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04382112308-12",
+      "name": "Şemdinli Dörtyol Taksi",
+      "phone": "04382112308",
+      "website": null,
+      "lat": 37.304569,
+      "lon": 44.57196,
+      "address": "Moda Mah. Hastane Cad. Şemdinli, Hakkari",
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05336268803-13",
+      "name": "Şemdinli Taksi",
+      "phone": "05336268803",
+      "website": null,
+      "lat": 37.309057,
+      "lon": 44.5702815,
+      "address": null,
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05437995939-14",
+      "name": "Şemdinli Taksi",
+      "phone": "05437995939",
+      "website": null,
+      "lat": 37.3043165,
+      "lon": 44.5748442,
+      "address": null,
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05432940005-15",
+      "name": "Şemdinli Taksi",
+      "phone": "05432940005",
+      "website": null,
+      "lat": 37.3070692,
+      "lon": 44.5719947,
+      "address": null,
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04384113579-16",
+      "name": "Şemdinli Taksi",
+      "phone": "04384113579",
+      "website": null,
+      "lat": 37.3,
+      "lon": 44.57,
+      "address": "Moda Mah. Hastane Cad., Şemdinli",
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436294872-17",
+      "name": "Şemdinli Taksi",
+      "phone": "05436294872",
+      "website": null,
+      "lat": 37.337967,
+      "lon": 44.6016551,
+      "address": null,
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05352092039-18",
+      "name": "Şemdinli Taksi",
+      "phone": "05352092039",
+      "website": null,
+      "lat": 37.3077372,
+      "lon": 44.5695276,
+      "address": null,
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426682303-19",
+      "name": "emdinli Taksi",
+      "phone": "05426682303",
+      "website": null,
+      "lat": 37.302196,
+      "lon": 44.577005,
+      "address": null,
+      "districtId": "semdinli",
+      "districtName": "Semdinli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04382114541-20",
+      "name": "Acil Taksi Durağı",
+      "phone": "04382114541",
+      "website": null,
+      "lat": 37.5735672,
+      "lon": 43.7334502,
+      "address": "Taksi Durağı ·  · Gençlik Cd. No:12",
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05366879915-21",
+      "name": "Çiçek Taksi",
+      "phone": "05366879915",
+      "website": null,
+      "lat": 37.5780158,
+      "lon": 43.7409221,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04382113050-22",
+      "name": "Çukurca Taksi",
+      "phone": "04382113050",
+      "website": null,
+      "lat": 37.5748139,
+      "lon": 43.7314863,
+      "address": "Taksi Durağı · Çölemerk Cd. No:8",
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05385562279-23",
+      "name": "Güven Taksi",
+      "phone": "05385562279",
+      "website": null,
+      "lat": 37.25,
+      "lon": 43.61,
+      "address": "Emir Şaban Mah. Cumhuriyet Cd. No:3, Çukurca",
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-04382115791-24",
+      "name": "Güven Taksi Hakkari",
+      "phone": "04382115791",
+      "website": null,
+      "lat": 37.56554,
+      "lon": 43.749682,
+      "address": "Taksi · Çevre Yolu Cad.",
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05377724413-25",
+      "name": "HAKKARi TAKSi",
+      "phone": "05377724413",
+      "website": null,
+      "lat": 37.5766735,
+      "lon": 43.7393341,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433010091-26",
+      "name": "içek Taksi",
+      "phone": "05433010091",
+      "website": null,
+      "lat": 37.5742436,
+      "lon": 43.7352237,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Cukurca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367196259-27",
+      "name": "Yüksekova Gençlik Taksi",
+      "phone": "05367196259",
+      "website": null,
+      "lat": 37.570802,
+      "lon": 44.283589,
+      "address": "Yeni Mah. Cengiz Topel Cad. Yüksekova, Hakkari",
+      "districtId": "yuksekova",
+      "districtName": "Yuksekova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382722695-28",
+      "name": "Yüksekova Şehir Taksi",
+      "phone": "05382722695",
+      "website": null,
+      "lat": 37.5705,
+      "lon": 44.2905,
+      "address": "Yeşildere, Nedim Zeydan Cd, Yüksekova",
+      "districtId": "yuksekova",
+      "districtName": "Yuksekova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448634570-29",
+      "name": "Yüksekova Taksi",
+      "phone": "05448634570",
+      "website": null,
+      "lat": 37.571,
+      "lon": 44.291,
+      "address": "Cengiz Topel caddesi, Yüksekova",
+      "districtId": "yuksekova",
+      "districtName": "Yuksekova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05367196259-30",
+      "name": "Yüksekova Şehir Taksi",
+      "phone": "05367196259",
+      "website": null,
+      "lat": 37.57,
+      "lon": 44.29,
+      "address": "İpek, Hacı Ömer Sabancı Cd. No 1, Yüksekova",
+      "districtId": "yuksekova",
+      "districtName": "Yuksekova",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-04382111717-31",
+      "name": "HAKKARİ KONAK TAKSİ DURAĞI",
+      "phone": "04382111717",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05442110819-32",
+      "name": "Hakkari taksi",
+      "phone": "05442110819",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05452770790-33",
+      "name": "Hakkari 7/24 Taksi",
+      "phone": "05452770790",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05416803140-34",
+      "name": "Mazlum taksi",
+      "phone": "05416803140",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-04382110707-35",
+      "name": "Bulvar Taksi",
+      "phone": "04382110707",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04382114376-36",
+      "name": "Cilo Taksi",
+      "phone": "04382114376",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05360380739-37",
+      "name": "Tümü → Çukurca Taksi Çukurca AÇIK · 7 gün 24 saat Yeşil Çeşme, Hakkari, cumhuriy",
+      "phone": "05360380739",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": "derecik",
+      "districtName": "Derecik",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05412343021-38",
+      "name": "Çağrı Taksi",
+      "phone": "05412343021",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365491983-39",
+      "name": "Tümü → Taksi Muhyettin",
+      "phone": "05365491983",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05444917034-40",
+      "name": "Yüksekova Taksi Cihan Özelçi AÇIK · 7 gün 24 saat Yeşildere, Gençlik taksi, Lava",
+      "phone": "05444917034",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05356414330-41",
+      "name": "Yüksekova Taksi Güllüce AÇIK · 7 gün 24 saat Yüksekova nedim Zeydan caddesi yüks",
+      "phone": "05356414330",
+      "website": null,
+      "lat": 37.5744,
+      "lon": 43.7408,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05360634231-42",
+      "name": "Çukurca Taksi - Bilal Kara",
+      "phone": "05360634231",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Çukurca",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05355859453-43",
+      "name": "Çukurca Taksi - Recep Kalkan",
+      "phone": "05355859453",
+      "website": "https://www.facebook.com/cukurca_taksi-103873958930048/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Çukurca",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05526745677-44",
+      "name": "Çukurca Taksi - Serdar Kara",
+      "phone": "05526745677",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Çukurca",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-04385000066-45",
+      "name": "Çukurca Taksi Durağı",
+      "phone": "04385000066",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cukurca",
+      "districtName": "Çukurca",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05412809167-46",
+      "name": "Esen Taksi - Cafer Atalay",
+      "phone": "05412809167",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yuksekova",
+      "districtName": "Yüksekova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05419656582-47",
+      "name": "Merkez Taksi - Sidar Çakto",
+      "phone": "05419656582",
+      "website": "https://www.facebook.com/merkeztaksi30/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yuksekova",
+      "districtName": "Yüksekova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05413408060-48",
+      "name": "Yüksekova Taksi - Sidar Çakto",
+      "phone": "05413408060",
+      "website": "https://www.facebook.com/merkeztaksi30/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yuksekova",
+      "districtName": "Yüksekova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05353290130-49",
+      "name": "Yüksekova Vip Taksi",
+      "phone": "05353290130",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yuksekova",
+      "districtName": "Yüksekova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

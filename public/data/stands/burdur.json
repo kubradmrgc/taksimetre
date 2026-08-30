@@ -1,0 +1,877 @@
+{
+  "cityId": "burdur",
+  "cityName": "Burdur",
+  "fetchedAt": "2026-08-30T21:28:52.102Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "aglasun",
+      "name": "Aglasun",
+      "count": 7
+    },
+    {
+      "id": "bucak",
+      "name": "Bucak",
+      "count": 4
+    },
+    {
+      "id": "celtikci",
+      "name": "Celtikci",
+      "count": 2
+    },
+    {
+      "id": "cavdir",
+      "name": "Çavdır",
+      "count": 2
+    },
+    {
+      "id": "golhisar",
+      "name": "Golhisar",
+      "count": 2
+    },
+    {
+      "id": "karamanli",
+      "name": "Karamanli",
+      "count": 1
+    },
+    {
+      "id": "kemer",
+      "name": "Kemer",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 7
+    },
+    {
+      "id": "tefenni",
+      "name": "Tefenni",
+      "count": 2
+    },
+    {
+      "id": "yesilova",
+      "name": "Yesilova",
+      "count": 5
+    }
+  ],
+  "count": 53,
+  "stands": [
+    {
+      "id": "taksi724-05541810081-0",
+      "name": "Bahçelievler Taksi",
+      "phone": "05541810081",
+      "website": null,
+      "lat": 37.7249176,
+      "lon": 30.280707,
+      "address": null,
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02482333033-1",
+      "name": "Burdur Makü Taksi",
+      "phone": "02482333033",
+      "website": null,
+      "lat": 37.7172552,
+      "lon": 30.2607475,
+      "address": "Ulaşım Hizmeti ·  · Farabi Cd. No:2",
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551006323-2",
+      "name": "Burdur Otogar Taksi",
+      "phone": "05551006323",
+      "website": null,
+      "lat": 37.6864092,
+      "lon": 30.3467943,
+      "address": null,
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02482335055-3",
+      "name": "Burdur Sağlık Taksi",
+      "phone": "02482335055",
+      "website": null,
+      "lat": 37.7373176,
+      "lon": 30.3088676,
+      "address": null,
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02482345588-4",
+      "name": "Kyk Taksi",
+      "phone": "02482345588",
+      "website": null,
+      "lat": 37.719656,
+      "lon": 30.2945362,
+      "address": null,
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05522311333-5",
+      "name": "Taksi",
+      "phone": "05522311333",
+      "website": null,
+      "lat": 37.7215758,
+      "lon": 30.2476593,
+      "address": "Taksi · Şht. Rıza Çelik Cd. No:7",
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05411610020-6",
+      "name": "Burdur Makü Taksi",
+      "phone": "05411610020",
+      "website": null,
+      "lat": 37.7176994,
+      "lon": 30.2581737,
+      "address": "Taksi · Farabi Cd. No:28",
+      "districtId": "aglasun",
+      "districtName": "Aglasun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05300770276-7",
+      "name": "Burdur Taksi",
+      "phone": "05300770276",
+      "website": null,
+      "lat": 37.71845484,
+      "lon": 30.27496769,
+      "address": "Bahçelievler Mah. Şeker Meydanı Burdur Merkez, Burdur",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300770276-8",
+      "name": "Doğan Taksi",
+      "phone": "05300770276",
+      "website": null,
+      "lat": 37.71929,
+      "lon": 30.288418,
+      "address": "İnönü Mah. Kostak Sok. Burdur Merkez, Burdur",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02482335535-9",
+      "name": "Filiz Taksi",
+      "phone": "02482335535",
+      "website": null,
+      "lat": 37.721528,
+      "lon": 30.289695,
+      "address": "Özgür Mah. İsmet İnönü Blv. 12 Burdur Merkez, Burdur",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05300770276-10",
+      "name": "Makü Taksi",
+      "phone": "05300770276",
+      "website": null,
+      "lat": 37.71706,
+      "lon": 30.282644,
+      "address": "Burç Mah. Cumhuriyet Cad. 13 Burdur Merkez, Burdur",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551006323-11",
+      "name": "Üniversite Taksi",
+      "phone": "05551006323",
+      "website": null,
+      "lat": 37.69079202,
+      "lon": 30.34524129,
+      "address": "Değirmenler Mah. Makü İstiklal Yerleşkesi Burdur Merkez, Burdur",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551006323-12",
+      "name": "Doğan Taksi",
+      "phone": "05551006323",
+      "website": null,
+      "lat": 37.71821084,
+      "lon": 30.27861671,
+      "address": "Burç Mah. Atatürk Cad. 20 Burdur Merkez, Burdur",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05052501515-13",
+      "name": "bayan Taksi",
+      "phone": "05052501515",
+      "website": null,
+      "lat": 37.457823,
+      "lon": 30.5841402,
+      "address": null,
+      "districtId": "bucak",
+      "districtName": "Bucak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05467952848-14",
+      "name": "Otogar Taksi",
+      "phone": "05467952848",
+      "website": null,
+      "lat": 37.465206,
+      "lon": 30.5722824,
+      "address": "Taksi · Adnan Menderes Blv. No:20",
+      "districtId": "bucak",
+      "districtName": "Bucak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02482335055-15",
+      "name": "Taksi",
+      "phone": "02482335055",
+      "website": null,
+      "lat": 37.46459948,
+      "lon": 30.561928,
+      "address": "Barboros Mah. Bucak Otogarı Bucak, Burdur",
+      "districtId": "bucak",
+      "districtName": "Bucak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369416215-16",
+      "name": "Otogar Taksi",
+      "phone": "05369416215",
+      "website": null,
+      "lat": 37.464608,
+      "lon": 30.561928,
+      "address": "Mehmet Akif Mah. Alpaslan Türkeş Blv. 20 Bucak Otogarı Bucak, Burdur",
+      "districtId": "bucak",
+      "districtName": "Bucak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05433499739-17",
+      "name": "Nazikler Taksi",
+      "phone": "05433499739",
+      "website": null,
+      "lat": 37.7693491,
+      "lon": 30.5661258,
+      "address": null,
+      "districtId": "celtikci",
+      "districtName": "Celtikci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02485312999-18",
+      "name": "Nazikler Taksi",
+      "phone": "02485312999",
+      "website": null,
+      "lat": 37.370261,
+      "lon": 29.821721,
+      "address": null,
+      "districtId": "celtikci",
+      "districtName": "Celtikci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384111568-19",
+      "name": "Gölhisar Taksi",
+      "phone": "05384111568",
+      "website": null,
+      "lat": 37.1511267,
+      "lon": 29.5112055,
+      "address": null,
+      "districtId": "golhisar",
+      "districtName": "Golhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05434112323-20",
+      "name": "Gölhisar Taksi",
+      "phone": "05434112323",
+      "website": null,
+      "lat": 37.1440018,
+      "lon": 29.507708,
+      "address": null,
+      "districtId": "golhisar",
+      "districtName": "Golhisar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326693715-21",
+      "name": "Tefenni Yıldıran Taksi",
+      "phone": "05326693715",
+      "website": null,
+      "lat": 37.316249,
+      "lon": 29.7801381,
+      "address": null,
+      "districtId": "tefenni",
+      "districtName": "Tefenni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05425951062-22",
+      "name": "Tefenni Yıldıran Taksi",
+      "phone": "05425951062",
+      "website": null,
+      "lat": 37.3085366,
+      "lon": 29.7730942,
+      "address": null,
+      "districtId": "tefenni",
+      "districtName": "Tefenni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05052501515-23",
+      "name": "Yeşilova Taksi",
+      "phone": "05052501515",
+      "website": null,
+      "lat": 37.508101,
+      "lon": 29.751828,
+      "address": "Merkez Mah. Denizli Cad. Yeşilova, Burdur",
+      "districtId": "yesilova",
+      "districtName": "Yesilova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05405251515-24",
+      "name": "ova Taksi",
+      "phone": "05405251515",
+      "website": null,
+      "lat": 37.508853,
+      "lon": 29.7497051,
+      "address": null,
+      "districtId": "yesilova",
+      "districtName": "Yesilova",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02485312999-25",
+      "name": "Karamanlı Taksi",
+      "phone": "02485312999",
+      "website": null,
+      "lat": 37.31306425,
+      "lon": 29.77650462,
+      "address": "Pazar Mah. Burdur Cad. 3 Karamanlı, Burdur",
+      "districtId": "karamanli",
+      "districtName": "Karamanli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05333616641-26",
+      "name": "Kemer Taksi",
+      "phone": "05333616641",
+      "website": null,
+      "lat": 36.5935481,
+      "lon": 30.5677427,
+      "address": "Taksi Durağı ·  · 137. Sk.",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05544690069-27",
+      "name": "Köy Garajı Taksi",
+      "phone": "05544690069",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02482339390-28",
+      "name": "Taksi Hamamı",
+      "phone": "02482339390",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05458554844-29",
+      "name": "BurdurTaksiEmircan",
+      "phone": "05458554844",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05060480049-30",
+      "name": "Burdur taksi 7/24 taksi Makü",
+      "phone": "05060480049",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05435335615-31",
+      "name": "BURDUR SAYAR TAKSİ",
+      "phone": "05435335615",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05359706466-32",
+      "name": "Burdur 7/24 TAKSİ",
+      "phone": "05359706466",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05423886993-33",
+      "name": "Tümü → Burdur Birlik Taksi AÇIK · 7 gün 24 saat Karasenir, Binbaşı Maruf Kışlası",
+      "phone": "05423886993",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02482334088-34",
+      "name": "Burdur Sağlık Taksi AÇIK · 7 gün 24 saat Yeni Mah, Şehit Teğmen Halil Demirörs C",
+      "phone": "02482334088",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02482333555-35",
+      "name": "Konak Taksi Burdur",
+      "phone": "02482333555",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05315916205-36",
+      "name": "Kyk Taksi AÇIK · 7 gün 24 saat Fevzi Çakmak, Şht. Rıza Çelik Cd. No:7, 15100 Bur",
+      "phone": "05315916205",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05449776999-37",
+      "name": "Bucak Taksi (bayan Taksi Şöförü) AÇIK · 7 gün 24 saat Mehmet Akif, Adnan Mendere",
+      "phone": "05449776999",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02483257743-38",
+      "name": "Meydan Taksi Bucak",
+      "phone": "02483257743",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05457830496-39",
+      "name": "Tümü → Çavdır Makü Taksi",
+      "phone": "05457830496",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": "cavdir",
+      "districtName": "Çavdır",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05427232365-40",
+      "name": "Cavdır Myo Taksı",
+      "phone": "05427232365",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": "cavdir",
+      "districtName": "Çavdır",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05448801788-41",
+      "name": "Çavdır Taksi (garaj Taksi)",
+      "phone": "05448801788",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05526020100-42",
+      "name": "Tümü → Burdur Sarı Taksi",
+      "phone": "05526020100",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05423162097-43",
+      "name": "Tümü → Adliye Taksi Gölhisar",
+      "phone": "05423162097",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05372140420-44",
+      "name": "Kaya Taksi-haluk Kaya",
+      "phone": "05372140420",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05356544015-45",
+      "name": "Tümü → Şimşek Otogar Taksi",
+      "phone": "05356544015",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05454301515-46",
+      "name": "Tefenni Otogar Kaya Taksi",
+      "phone": "05454301515",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05422471214-47",
+      "name": "Tümü → Garaj Taksi Yeşilova",
+      "phone": "05422471214",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05412280515-48",
+      "name": "Yeşilova Garaj Taksi",
+      "phone": "05412280515",
+      "website": "https://www.facebook.com/yarim15",
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": "yesilova",
+      "districtName": "Yeşilova",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05439320353-49",
+      "name": "Yeşilova Otogar Taksi",
+      "phone": "05439320353",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05302093370-50",
+      "name": "Yeşilova Taksi",
+      "phone": "05302093370",
+      "website": null,
+      "lat": 37.7203,
+      "lon": 30.2908,
+      "address": null,
+      "districtId": "yesilova",
+      "districtName": "Yeşilova",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05549607444-51",
+      "name": "Burdur Taksi - Bekir Yayla",
+      "phone": "05549607444",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05362434197-52",
+      "name": "Meydan Taksi - Haşmet Görçek",
+      "phone": "05362434197",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yesilova",
+      "districtName": "Yeşilova",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "cityId": "usak",
+  "cityName": "Uşak",
+  "fetchedAt": "2026-08-30T21:24:01.702Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 43,
+  "stands": [
+    {
+      "id": "taksi724-02762242251-0",
+      "name": "Alo Uşak Taksi",
+      "phone": "02762242251",
+      "lat": 38.673381,
+      "lon": 29.405331,
+      "address": "Taksi Durağı · Enstitü Sk. No:9",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524922809-1",
+      "name": "Banaz Taksi",
+      "phone": "05524922809",
+      "lat": 38.6750721,
+      "lon": 29.3902712,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05353470635-2",
+      "name": "Gülek Dayı Taksi",
+      "phone": "05353470635",
+      "lat": 38.736781,
+      "lon": 29.755891,
+      "address": "Şehitler Mah. Sanayi Cad. 1 Banaz, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05426826887-3",
+      "name": "Banaz Taksi",
+      "phone": "05426826887",
+      "lat": 38.739542,
+      "lon": 29.7521294,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05417254688-4",
+      "name": "Başaran Taksi",
+      "phone": "05417254688",
+      "lat": 38.7400364,
+      "lon": 29.7536552,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313761627-5",
+      "name": "Dikilitaş Taksi",
+      "phone": "05313761627",
+      "lat": 38.7398066,
+      "lon": 29.7592545,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321547531-6",
+      "name": "Dmr Taksi",
+      "phone": "05321547531",
+      "lat": 38.6781508,
+      "lon": 29.3891756,
+      "address": "Taksi Durağı · Barbaros Cd. No:195",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05349416191-7",
+      "name": "DMR TAKSİ",
+      "phone": "05349416191",
+      "lat": 38.6677976,
+      "lon": 29.4023183,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02763331926-8",
+      "name": "Sarayaltı Taksi",
+      "phone": "02763331926",
+      "lat": 38.6746206,
+      "lon": 29.3913712,
+      "address": "Dinlenme Tesisi ·  · 1 Bozkırlı Sk No:5",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303023071-9",
+      "name": "Şekerevleri Taksi",
+      "phone": "05303023071",
+      "lat": 38.6795422,
+      "lon": 29.411078,
+      "address": "Taksi Durağı · Celal Bayar Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05435707572-10",
+      "name": "Şeker Taksi",
+      "phone": "05435707572",
+      "lat": 38.6679062,
+      "lon": 29.4194643,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02762231217-11",
+      "name": "Şeker Taksi",
+      "phone": "02762231217",
+      "lat": 38.6800994,
+      "lon": 29.4084275,
+      "address": "Taksi Durağı · 3. Cansel Sk. No:3",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322001470-12",
+      "name": "Taksi",
+      "phone": "05322001470",
+      "lat": 38.7391983,
+      "lon": 29.7522279,
+      "address": "Taksi Durağı · Cumhuriyet Mah. Dörtyol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02762120470-13",
+      "name": "Uşak Ssk Taksi",
+      "phone": "02762120470",
+      "lat": 38.6748197,
+      "lon": 29.3988705,
+      "address": "Taksi Durağı · Müjde Sk. No:47",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02762168134-14",
+      "name": "Uşak Taksi",
+      "phone": "02762168134",
+      "lat": 38.667852,
+      "lon": 29.402306,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469371807-15",
+      "name": "usak-taksi",
+      "phone": "05469371807",
+      "lat": 38.6748108,
+      "lon": 29.3978946,
+      "address": "Taksi Durağı · Müjde Sk. No:38",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-02762274767-16",
+      "name": "Dörtyol Taksi",
+      "phone": "02762274767",
+      "lat": 38.679792,
+      "lon": 29.404265,
+      "address": "Özdemir Mah. Cumhuriyet Cad. Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02762122300-17",
+      "name": "Emniyet Taksi",
+      "phone": "02762122300",
+      "lat": 38.671722,
+      "lon": 29.408291,
+      "address": "Durak Mah. Akbur Sok. Bila Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02762232274-18",
+      "name": "Garaj Taksi",
+      "phone": "02762232274",
+      "lat": 38.677308,
+      "lon": 29.405589,
+      "address": "İslice Mah. Şehit Adem Çiftçi Sok. Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05353476627-19",
+      "name": "Küçük Çarşı Taksi",
+      "phone": "05353476627",
+      "lat": 38.679357,
+      "lon": 29.406319,
+      "address": "İslice Mah. Mimar Sinan Cad. Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02762120470-20",
+      "name": "Sigorta Taksi",
+      "phone": "02762120470",
+      "lat": 38.675156,
+      "lon": 29.401603,
+      "address": "Ünalan Mah. Müjde Sok. 1 Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02762168134-21",
+      "name": "Uşak Taksi",
+      "phone": "02762168134",
+      "lat": 38.66748,
+      "lon": 29.404697,
+      "address": "Cumhuriyet Mah. 1. Emlak Sok. Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05321625047-22",
+      "name": "Emniyet Taksi",
+      "phone": "05321625047",
+      "lat": 38.67881279,
+      "lon": 29.40501289,
+      "address": "Kurtuluş Mah. Barbaros Cad. 3/A Uşak Merkez, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-02764143232-23",
+      "name": "Merkez Taksi",
+      "phone": "02764143232",
+      "lat": 38.3989563,
+      "lon": 28.9686977,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02762159474-24",
+      "name": "Merkez Taksi",
+      "phone": "02762159474",
+      "lat": 38.401519,
+      "lon": 28.972322,
+      "address": "Şehitalibey Mah. Vakkas Ferit Cad. Eşme, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05355524445-25",
+      "name": "Uşak Ulubey Taksi",
+      "phone": "05355524445",
+      "lat": 38.420288,
+      "lon": 29.287556,
+      "address": "Gölbaşı Mah. Atatürk Cad. 11 Ulubey, Uşak",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-05344200171-26",
+      "name": "Hard Ticari",
+      "phone": "05344200171",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05324996469-27",
+      "name": "Uşak Taksicisi Şerafettin",
+      "phone": "05324996469",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05423681036-28",
+      "name": "Uşak Taksicim",
+      "phone": "05423681036",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05538698487-29",
+      "name": "Yeşilkuşak",
+      "phone": "05538698487",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05315425184-30",
+      "name": "Uşak Center Taksi",
+      "phone": "05315425184",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05534141461-31",
+      "name": "Eğitim Ve Araştırma Hastanesi Taksi Durağı",
+      "phone": "05534141461",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05386120129-32",
+      "name": "Uşak Taksi (64 T 0129)",
+      "phone": "05386120129",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-02762231010-33",
+      "name": "Çiçek Taksi Uşak",
+      "phone": "02762231010",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02762122241-34",
+      "name": "Garaj Taksi",
+      "phone": "02762122241",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355143512-35",
+      "name": "Taksi",
+      "phone": "05355143512",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05074474987-36",
+      "name": "Uşak Dörtyol Taksi 7.24",
+      "phone": "05074474987",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05416628714-37",
+      "name": "Uşak Oskay Taksi(merkez)",
+      "phone": "05416628714",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05335103769-38",
+      "name": "Tümü → Eşme Taksi",
+      "phone": "05335103769",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05348377764-39",
+      "name": "Kilim Merkez Taksi AÇIK · 7 gün 24 saat Şehit Ali Bey mh Vakkas ferit cadesi mer",
+      "phone": "05348377764",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367480827-40",
+      "name": "Tümü → Sivaslı Taksi",
+      "phone": "05367480827",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02767161175-41",
+      "name": "Tümü → Kardeşler Dolmuş Taksi",
+      "phone": "02767161175",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05537800064-42",
+      "name": "Uşak Taksi - Murat Kahraman",
+      "phone": "05537800064",
+      "lat": 38.6823,
+      "lon": 29.4082,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

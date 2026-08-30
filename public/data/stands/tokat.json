@@ -1,0 +1,1496 @@
+{
+  "cityId": "tokat",
+  "cityName": "Tokat",
+  "fetchedAt": "2026-08-30T21:23:31.876Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 122,
+  "stands": [
+    {
+      "id": "taksi724-03562141790-0",
+      "name": "Can Taksi",
+      "phone": "03562141790",
+      "lat": 40.310804,
+      "lon": 36.553244,
+      "address": "Soğukpınar Mah. Behzat Blv. 222/1 Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451336060-1",
+      "name": "Derman Taksi",
+      "phone": "05451336060",
+      "lat": 40.315066,
+      "lon": 36.54743,
+      "address": "Alipaşa Mah. Gazi Paşa Cad. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03562145148-2",
+      "name": "Diş hastanesi Taksi",
+      "phone": "03562145148",
+      "lat": 40.317801,
+      "lon": 36.551953,
+      "address": "Kabe-İ Mescid Mah. Gazi Osman Paşa Blv. 136 Dk:1 Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05434163423-3",
+      "name": "Dörtyol Taksi",
+      "phone": "05434163423",
+      "lat": 40.3113891,
+      "lon": 36.5508214,
+      "address": "Taksi Durağı ·  · Hocaahmet, Ardala Sk., 60030 Tokat Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-4-4",
+      "name": "Esen Taksi",
+      "phone": null,
+      "lat": 40.323337,
+      "lon": 36.554714,
+      "address": "Gülbaharhatun Mah. Mustafa Satan Cad. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05555977149-5",
+      "name": "Gaziosmanpaşa Üniversitesi Taksi",
+      "phone": "05555977149",
+      "lat": 40.33877,
+      "lon": 36.555229,
+      "address": "Bahçelievler Mah. Mehmet Akif Ersoy Cad. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05063936060-6",
+      "name": "Kıbrıs Taksi",
+      "phone": "05063936060",
+      "lat": 40.32474894,
+      "lon": 36.54746501,
+      "address": "Kaleardı Mah. Muhittin Füsunoğlu Cad. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-7-7",
+      "name": "Kümbet Taksi",
+      "phone": null,
+      "lat": 40.32169,
+      "lon": 36.549754,
+      "address": "Semerkant Mah. Muhittin Füsunoğlu Cad. 18 D:1 Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-8-8",
+      "name": "Meydan Taksi",
+      "phone": null,
+      "lat": 40.330303,
+      "lon": 36.558308,
+      "address": "Kümbet Mah. Naci Özen Cad. Karşıyaka, Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03562147799-9",
+      "name": "Murat Taksi",
+      "phone": "03562147799",
+      "lat": 40.319069,
+      "lon": 36.553094,
+      "address": "Gülbaharhatun Mah. 1715 Sok. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-10-10",
+      "name": "Sağlık Taksi",
+      "phone": null,
+      "lat": 40.313791,
+      "lon": 36.551449,
+      "address": "Alipaşa Mah. Gazi Osman Paşa Blv. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448386060-11",
+      "name": "Site Taksi",
+      "phone": "05448386060",
+      "lat": 40.329078,
+      "lon": 36.558987,
+      "address": "Akbelen-Yeni Mah. Gültekin Topçam Blv. (Yeni Devlet Hastanesi Yanı) Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451336060-12",
+      "name": "Terminal Taksi",
+      "phone": "05451336060",
+      "lat": 40.32463,
+      "lon": 36.548175,
+      "address": "Yeşilırmak Mah. Çeçenistan Cad. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03562140387-13",
+      "name": "Tokat Taksi",
+      "phone": "03562140387",
+      "lat": 40.328478,
+      "lon": 36.558987,
+      "address": "Yeni Mah. Gültekin Topçam Blv. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05400600142-14",
+      "name": "Topçam Taksi",
+      "phone": "05400600142",
+      "lat": 40.339311,
+      "lon": 36.540976,
+      "address": "Altıyüzevler Mah. Orhangazi Cad. 39/B Karşıyaka, Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03562141590-15",
+      "name": "Veteriner Taksi",
+      "phone": "03562141590",
+      "lat": 40.313206,
+      "lon": 36.550889,
+      "address": "Alipaşa Mah. Cumhuriyet Cad. 2 Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05076018818-16",
+      "name": "Yeşilırmak Taksi",
+      "phone": "05076018818",
+      "lat": 40.321745,
+      "lon": 36.554163,
+      "address": "Gülbaharhatun Mah. Behzat Blv. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05467220482-17",
+      "name": "tokat-taksi",
+      "phone": "05467220482",
+      "lat": 40.331987,
+      "lon": 36.552171,
+      "address": "Yeşilırmak Mah. Vali Zekai Gümüşdiş Cad. Tokat Merkez, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325142644-18",
+      "name": "Hastane Taksi",
+      "phone": "05325142644",
+      "lat": 40.5891858,
+      "lon": 36.9553957,
+      "address": "Taksi Durağı · Cumhuriyet Cd. No:158",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412254545-19",
+      "name": "Niksar Adalı Taksi",
+      "phone": "05412254545",
+      "lat": 40.5749783,
+      "lon": 36.9618499,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05423967295-20",
+      "name": "Niksar birlik Taksi",
+      "phone": "05423967295",
+      "lat": 40.5893447,
+      "lon": 36.9544024,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-21-21",
+      "name": "Niksar çelik Taksi",
+      "phone": null,
+      "lat": 40.5892624,
+      "lon": 36.9535617,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05419096002-22",
+      "name": "Niksar Hastane Taksi",
+      "phone": "05419096002",
+      "lat": 40.5894368,
+      "lon": 36.9549311,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550055560-23",
+      "name": "Niksar Saray Taksi",
+      "phone": "05550055560",
+      "lat": 40.5872457,
+      "lon": 36.9565856,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464253417-24",
+      "name": "Niksar Taksi",
+      "phone": "05464253417",
+      "lat": 40.5887044,
+      "lon": 36.9414435,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323929093-25",
+      "name": "Niksar Taksi",
+      "phone": "05323929093",
+      "lat": 40.6030527,
+      "lon": 36.925462,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413380094-26",
+      "name": "Öğretmen Evi Taksi",
+      "phone": "05413380094",
+      "lat": 40.576008,
+      "lon": 36.9596926,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325142644-27",
+      "name": "Seymenli Taksi",
+      "phone": "05325142644",
+      "lat": 40.5891192,
+      "lon": 36.956049,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05408524747-28",
+      "name": "Toki Taksi",
+      "phone": "05408524747",
+      "lat": 40.589411,
+      "lon": 36.951002,
+      "address": "G.Osmanpaşa Mah. Cumhuriyet Cad. 149 Niksar, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442866061-29",
+      "name": "tokat-taksi",
+      "phone": "05442866061",
+      "lat": 40.5995979,
+      "lon": 36.9232174,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05448775002-30",
+      "name": "Almus MeydanTaksi",
+      "phone": "05448775002",
+      "lat": 40.3016851,
+      "lon": 36.5531239,
+      "address": "Taksi Durağı · Gaziosmanpaşa Blv. No:326",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05517079700-31",
+      "name": "Beybağ Taksi",
+      "phone": "05517079700",
+      "lat": 40.326109,
+      "lon": 36.6909296,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05056859279-32",
+      "name": "Karşıyaka Zeytindalı Taksi",
+      "phone": "05056859279",
+      "lat": 40.3741785,
+      "lon": 36.5412454,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05060406060-33",
+      "name": "Tokat Beybağı Taksi",
+      "phone": "05060406060",
+      "lat": 40.337221,
+      "lon": 36.5441953,
+      "address": "Taksi Durağı ·  · Yenişehir Cd. 4. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05364251360-34",
+      "name": "Tokat Medical Park Taksi",
+      "phone": "05364251360",
+      "lat": 40.2977584,
+      "lon": 36.5523149,
+      "address": "Taksi Durağı ·  · 2504. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05448386060-35",
+      "name": "Tokat Merkez Taksi",
+      "phone": "05448386060",
+      "lat": 40.3355758,
+      "lon": 36.5454446,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451336060-36",
+      "name": "Tokat Taksi",
+      "phone": "05451336060",
+      "lat": 40.3349934,
+      "lon": 36.5411376,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321570240-37",
+      "name": "Uygun Taksi",
+      "phone": "05321570240",
+      "lat": 40.3400553,
+      "lon": 36.5523492,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05418292171-38",
+      "name": "Beybağ Taksi",
+      "phone": "05418292171",
+      "lat": 40.3828522,
+      "lon": 36.0587551,
+      "address": "Taksi Durağı ·  · Muhittin Fisunoğlu Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359652665-39",
+      "name": "Arzum Taksi",
+      "phone": "05359652665",
+      "lat": 40.673049,
+      "lon": 36.57017,
+      "address": "Cumhuriyet Mah. Erek Cad. (Fazilet İşhanı Yanı Dörtyol Mevkii) Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05522278110-40",
+      "name": "Taksi durağı",
+      "phone": "05522278110",
+      "lat": 40.669932,
+      "lon": 36.567943,
+      "address": "Cumhuriyet Mah. Dr. Ziya Durmuş Cad. Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385480960-41",
+      "name": "Erbaa Taksi",
+      "phone": "05385480960",
+      "lat": 40.66983944,
+      "lon": 36.57006413,
+      "address": "Cumhuriyet Mah. Gazi Blv. Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05373231686-42",
+      "name": "Merkez Taksi",
+      "phone": "05373231686",
+      "lat": 40.67249659,
+      "lon": 36.56957385,
+      "address": "Cumhuriyet Mah. Hükümet Cad. 129 Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05451336060-43",
+      "name": "Otogar Taksi",
+      "phone": "05451336060",
+      "lat": 40.672521,
+      "lon": 36.56937,
+      "address": "Cumhuriyet Mah. Hükümet Cad. 129 Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03562140387-44",
+      "name": "Sağlık Taksi",
+      "phone": "03562140387",
+      "lat": 40.700624,
+      "lon": 36.573708,
+      "address": "Erek Mah. Karayaka Blv. Tokat Otogarı Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448386060-45",
+      "name": "Arzum Taksi",
+      "phone": "05448386060",
+      "lat": 40.664508,
+      "lon": 36.569717,
+      "address": "Mimarsinan Mah. Subaşı Cad. 2 Erbaa, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05466713573-46",
+      "name": "Erbaa Taksi",
+      "phone": "05466713573",
+      "lat": 40.3832396,
+      "lon": 36.0772628,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05428222982-47",
+      "name": "Erbaa Ticari Taksi",
+      "phone": "05428222982",
+      "lat": 40.68216,
+      "lon": 36.564387,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05538332880-48",
+      "name": "Garaj Taksi",
+      "phone": "05538332880",
+      "lat": 40.6707843,
+      "lon": 36.5733115,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464000799-49",
+      "name": "Turhal Kent Taksi",
+      "phone": "05464000799",
+      "lat": 40.3827747,
+      "lon": 36.0869281,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05447110460-50",
+      "name": "Turhal Taksi",
+      "phone": "05447110460",
+      "lat": 40.3998991,
+      "lon": 36.0692928,
+      "address": "Taksi Durağı ·  · Lalegül Sk. No: 15",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05456965654-51",
+      "name": "Erbaa Ticari Taksi",
+      "phone": "05456965654",
+      "lat": 40.3857941,
+      "lon": 36.0889148,
+      "address": "Ulaşım Hizmeti ·  · inceler market karşısı, Atatürk Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-52-52",
+      "name": "Olimpiyat Taksi",
+      "phone": null,
+      "lat": 40.386726,
+      "lon": 36.085415,
+      "address": "Celal Mah. Önen Sok. Turhal, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325427967-53",
+      "name": "Şeker Taksi",
+      "phone": "05325427967",
+      "lat": 40.383266,
+      "lon": 36.06197,
+      "address": "Cumhuriyet Mah. Cumhuriyet Cad. Turhal, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03562751285-54",
+      "name": "Sümer Taksi",
+      "phone": "03562751285",
+      "lat": 40.382968,
+      "lon": 36.065387,
+      "address": "Maraşal Fevzi Çakmak Mah. Töre Cad. 115 Turhal, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05424325006-55",
+      "name": "Terminal Taksi",
+      "phone": "05424325006",
+      "lat": 40.382891,
+      "lon": 36.081789,
+      "address": "Yavuz Selim Mah. İnönü Cad. Turhal, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03562140387-56",
+      "name": "Yıldız Taksi",
+      "phone": "03562140387",
+      "lat": 40.391956,
+      "lon": 36.087797,
+      "address": "Celal Mah. Gültekin Topçam Cad. Turhal Otobüs Terminali Turhal, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03562146345-57",
+      "name": "Sümer Taksi",
+      "phone": "03562146345",
+      "lat": 40.38557876,
+      "lon": 36.07114316,
+      "address": "Cumhuriyet Mah. Cumhuriyet Cad. Çınar Sok. 4/C Turhal, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-58-58",
+      "name": "Kale Taksi",
+      "phone": null,
+      "lat": 40.300099,
+      "lon": 35.88301,
+      "address": "Hacı Mehmet Mah. Sıraköprü Cad. Zile, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05386709518-59",
+      "name": "Konak Taksi",
+      "phone": "05386709518",
+      "lat": 40.302739,
+      "lon": 35.887873,
+      "address": "Sakiler Mah. Ziya Paşa Cad. Zile, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-60-60",
+      "name": "Tekke Taksi",
+      "phone": null,
+      "lat": 40.302419,
+      "lon": 35.889894,
+      "address": "Alikadı Mah. Adnan Menderes Cad. Zile, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-61-61",
+      "name": "Yıldız Taksi",
+      "phone": null,
+      "lat": 40.301194,
+      "lon": 35.889475,
+      "address": "Alikadı Mah. Öztürk Sok. 17 Zile, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03562146345-62",
+      "name": "Zümrüt Taksi",
+      "phone": "03562146345",
+      "lat": 40.301346,
+      "lon": 35.884565,
+      "address": "Dutlupınar Mah. Cumhuriyet Cad. Zile, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-63-63",
+      "name": "Yıldız Taksi",
+      "phone": null,
+      "lat": 40.297617,
+      "lon": 35.882748,
+      "address": "Şeyhali Mah. Yavuz Cad. Zile, Tokat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383535170-64",
+      "name": "Erbaa Merkez Taksi",
+      "phone": "05383535170",
+      "lat": 40.1103853,
+      "lon": 36.2996095,
+      "address": "Taksi · 15 Temmuz Şehitler Caddesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373231686-65",
+      "name": "Erbaa Otogar Taksi",
+      "phone": "05373231686",
+      "lat": 40.6737167,
+      "lon": 36.5672409,
+      "address": "Taksi Durağı ·  · Erek Cd. No:98",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03567156475-66",
+      "name": "Erbaa Otogar Taksi",
+      "phone": "03567156475",
+      "lat": 40.6844003,
+      "lon": 36.5734022,
+      "address": "Taksi Durağı ·  · Karayaka Blv. No: B D:2",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05356344256-67",
+      "name": "Sulusaray Taksi",
+      "phone": "05356344256",
+      "lat": 39.9971029,
+      "lon": 36.0862062,
+      "address": "Taksi · Atatürk Cd No: 10",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05392803062-68",
+      "name": "Sulusaray Taksi",
+      "phone": "05392803062",
+      "lat": 39.9971209,
+      "lon": 36.0857002,
+      "address": "Taksi ·  · Atatürk Cd No: 10",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300301160-69",
+      "name": "Sulusaray Taksi",
+      "phone": "05300301160",
+      "lat": 39.9974848,
+      "lon": 36.0847466,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05422064325-70",
+      "name": "altıyüzevlertaksi",
+      "phone": "05422064325",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05053653058-71",
+      "name": "Tokat taksi",
+      "phone": "05053653058",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05461786060-72",
+      "name": "Acil Tokat taksi",
+      "phone": "05461786060",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05421066042-73",
+      "name": "Tokat Taksi S.Can ARSLAN",
+      "phone": "05421066042",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05063438155-74",
+      "name": "Tokat taksi 0010",
+      "phone": "05063438155",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05464804860-75",
+      "name": "Tokat 600 Evler Taksi Durağı",
+      "phone": "05464804860",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05307490172-76",
+      "name": "Tokat merkez taksi 0172",
+      "phone": "05307490172",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-03562142133-77",
+      "name": "Tümü → Can Taksi Tokat",
+      "phone": "03562142133",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03562287559-78",
+      "name": "Kümbet Taksi",
+      "phone": "03562287559",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03562141537-79",
+      "name": "Meydan Taksi Tokat AÇIK · 7 gün 24 saat Gülbaharhatun, GOP Blv. 13. Sk. Pk:60200",
+      "phone": "03562141537",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05399241296-80",
+      "name": "Tokat Üniversite Hastane Taksi AÇIK · 7 gün 24 saat Kaleardı, Muhittin Fisunoğlu",
+      "phone": "05399241296",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367712603-81",
+      "name": "Erbaa Ticari Taksi",
+      "phone": "05367712603",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05536042306-82",
+      "name": "Erektaş Taksi",
+      "phone": "05536042306",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05422089333-83",
+      "name": "Kule Taksi",
+      "phone": "05422089333",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05426259870-84",
+      "name": "Taksi durağı",
+      "phone": "05426259870",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05374925202-85",
+      "name": "Niksar Öğretmenevi Taksi",
+      "phone": "05374925202",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05060406160-86",
+      "name": "Niksar Taksi 7 /24 Nıksar Çınar Taksi",
+      "phone": "05060406160",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05441500060-87",
+      "name": "Niksar Taksi İsmail Özpelit",
+      "phone": "05441500060",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05426812464-88",
+      "name": "Niksar Taksi Öğretmenevi Taksi AÇIK · 7 gün 24 saat Cepnibey, Cumhuriyet Cd. öğr",
+      "phone": "05426812464",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03562754748-89",
+      "name": "Tümü → Çiçek Taksi",
+      "phone": "03562754748",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05431699296-90",
+      "name": "Hemşin Taksi",
+      "phone": "05431699296",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04646122413-91",
+      "name": "Pazar Meydan Taksi",
+      "phone": "04646122413",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05355426654-92",
+      "name": "Rize Pazar Sahil Taksi",
+      "phone": "05355426654",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04646125711-93",
+      "name": "Rize-pazar Terminal Taksi",
+      "phone": "04646125711",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05523066060-94",
+      "name": "Turhal Kyk Taksi",
+      "phone": "05523066060",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04646124348-95",
+      "name": "Ulus Taksi",
+      "phone": "04646124348",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03564612050-96",
+      "name": "Tümü → Taksi Durağı",
+      "phone": "03564612050",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03562600001-97",
+      "name": "Çınar Taksi",
+      "phone": "03562600001",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432042838-98",
+      "name": "Güven Taksi Turhal",
+      "phone": "05432042838",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04222383850-99",
+      "name": "Turhal Taksi AÇIK · 7 gün 24 saat Camikebir, inceler market karşısı, Atatürk Cd.",
+      "phone": "04222383850",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05442550957-100",
+      "name": "Cevatpaşa Taksi Malatya AÇIK · 7 gün 24 saat Karakavak, Güngör Cd. No:2 D:1, 441",
+      "phone": "05442550957",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05336644476-101",
+      "name": "Eğitim Ve Araştırma Hastanesi Taksi Durağı",
+      "phone": "05336644476",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05425642800-102",
+      "name": "Fahri Kayahan Bulvar Taksi Malatya AÇIK · 7 gün 24 saat Çilesiz, Çilesiz Mh. Fah",
+      "phone": "05425642800",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04222115577-103",
+      "name": "Kardelen Taksi Malatya",
+      "phone": "04222115577",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05469154737-104",
+      "name": "Malatya Anemon Taksi AÇIK · 7 gün 24 saat Yakınca, Anemon Otel bitişiği, Mehmet ",
+      "phone": "05469154737",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05442140216-105",
+      "name": "Malatya Viraj Taksi AÇIK · 7 gün 24 saat Özalper, Viraj taksi, Yeliz Sk no:3, 44",
+      "phone": "05442140216",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04222124473-106",
+      "name": "Özalper Taksi Malatya AÇIK · 7 gün 24 saat Özalper, 2. Cd. No:86, 44090 Malatya ",
+      "phone": "04222124473",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05304218046-107",
+      "name": "Sağlık Taksi",
+      "phone": "05304218046",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466766848-108",
+      "name": "Sinema Durağı Taksi",
+      "phone": "05466766848",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05448907303-109",
+      "name": "Site Taksi AÇIK · 7 gün 24 saat Çavuşoğlu, Yeni Boztepe Cd No:75, 44070 Malatya ",
+      "phone": "05448907303",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05334754744-110",
+      "name": "Tecde Yüzakı Kayalık Taksi",
+      "phone": "05334754744",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05551962944-111",
+      "name": "Temelli Taksi AÇIK · 7 gün 24 saat Zaviye, Tevfik Temelli Cd. No:94, 44090 Malat",
+      "phone": "05551962944",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03563172599-112",
+      "name": "Tümü → Saray Taksi",
+      "phone": "03563172599",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05531856065-113",
+      "name": "Tekke Taksi",
+      "phone": "05531856065",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03563171269-114",
+      "name": "Yıldız Taksi",
+      "phone": "03563171269",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03567153723-115",
+      "name": "Zümrüt Taksi",
+      "phone": "03567153723",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03563171391-116",
+      "name": "Zümrüt Taksi Durağı",
+      "phone": "03563171391",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05550656666-117",
+      "name": "Beybağı Taksi - Hazel Canbilek",
+      "phone": "05550656666",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05359495042-118",
+      "name": "Erbaa Taksi - Sezai Ünal",
+      "phone": "05359495042",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05436718888-119",
+      "name": "Erova Taksi - Çağatay Koral",
+      "phone": "05436718888",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05423033894-120",
+      "name": "Meydan Taksi - Zekai Keskin",
+      "phone": "05423033894",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05303477160-121",
+      "name": "Meydan Taksi Durağı",
+      "phone": "05303477160",
+      "lat": 40.3167,
+      "lon": 36.55,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

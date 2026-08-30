@@ -1,0 +1,1399 @@
+{
+  "cityId": "afyonkarahisar",
+  "cityName": "Afyonkarahisar",
+  "fetchedAt": "2026-08-30T21:27:14.913Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "basmakci",
+      "name": "Basmakci",
+      "count": 29
+    },
+    {
+      "id": "bayat",
+      "name": "Bayat",
+      "count": 13
+    },
+    {
+      "id": "dazkiri",
+      "name": "Dazkiri",
+      "count": 3
+    },
+    {
+      "id": "dinar",
+      "name": "Dinar",
+      "count": 5
+    },
+    {
+      "id": "emirdag",
+      "name": "Emirdag",
+      "count": 5
+    },
+    {
+      "id": "evciler",
+      "name": "Evciler",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 10
+    },
+    {
+      "id": "sandikli",
+      "name": "Sandikli",
+      "count": 3
+    }
+  ],
+  "count": 88,
+  "stands": [
+    {
+      "id": "taksi724-05434573238-0",
+      "name": "Acil Taksi",
+      "phone": "05434573238",
+      "website": null,
+      "lat": 38.7541847,
+      "lon": 30.5402272,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05305946597-1",
+      "name": "Afyon Alussoo Otel Taksi",
+      "phone": "05305946597",
+      "website": null,
+      "lat": 38.7554388,
+      "lon": 30.5474239,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325412106-2",
+      "name": "Afyon Birlik Taksi",
+      "phone": "05325412106",
+      "website": null,
+      "lat": 38.8089754,
+      "lon": 30.4400128,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05419240092-3",
+      "name": "Afyon devlet hastanesi Taksi",
+      "phone": "05419240092",
+      "website": null,
+      "lat": 38.767002,
+      "lon": 30.528817,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05437772284-4",
+      "name": "Afyon En Yakın Taksi",
+      "phone": "05437772284",
+      "website": null,
+      "lat": 38.7844342,
+      "lon": 30.5155513,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05054552319-5",
+      "name": "Afyon Erenler Taksi",
+      "phone": "05054552319",
+      "website": null,
+      "lat": 38.7569154,
+      "lon": 30.5390126,
+      "address": "Taksi Durağı · Ordu Blv. No:2/1",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454628950-6",
+      "name": "Afyon Kantar Taksi",
+      "phone": "05454628950",
+      "website": null,
+      "lat": 38.8163739,
+      "lon": 30.5393234,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05370440500-7",
+      "name": "Afyon Otagar Taksi",
+      "phone": "05370440500",
+      "website": null,
+      "lat": 38.7555854,
+      "lon": 30.5450208,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05439007099-8",
+      "name": "Afyon Otagar taksi",
+      "phone": "05439007099",
+      "website": null,
+      "lat": 38.754703,
+      "lon": 30.5540623,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05012730303-9",
+      "name": "Afyon Taksi",
+      "phone": "05012730303",
+      "website": null,
+      "lat": 38.7660528,
+      "lon": 30.5384222,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05447720092-10",
+      "name": "Afyon Tekel Taksi",
+      "phone": "05447720092",
+      "website": null,
+      "lat": 38.7544428,
+      "lon": 30.5372334,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464921070-11",
+      "name": "AFYON TREN GARI TAKSi",
+      "phone": "05464921070",
+      "website": null,
+      "lat": 38.7566204,
+      "lon": 30.5387148,
+      "address": "Taksi Durağı · Dervişpaşa Cd. No:1",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454628950-12",
+      "name": "Afyon Uydukent Taksi",
+      "phone": "05454628950",
+      "website": null,
+      "lat": 38.7639012,
+      "lon": 30.5515679,
+      "address": "Taksi ·  · Tren Gari, Istasyon Caddesi, Ordu Blv.",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376686472-13",
+      "name": "Afyon Yeşilyol Taksi",
+      "phone": "05376686472",
+      "website": null,
+      "lat": 38.7646891,
+      "lon": 30.5120424,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-14-14",
+      "name": "Ans Kampüs Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.759234,
+      "lon": 30.542522,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05464000287-15",
+      "name": "Can Taksi",
+      "phone": "05464000287",
+      "website": null,
+      "lat": 38.8205839,
+      "lon": 30.541714,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05333459999-16",
+      "name": "Erkmen Bahçeşehir Taksi",
+      "phone": "05333459999",
+      "website": null,
+      "lat": 37.8962462,
+      "lon": 30.0070469,
+      "address": "Taksi Durağı · Ataokul Cd. No:2",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462417877-17",
+      "name": "İkbal Afium Taksi",
+      "phone": "05462417877",
+      "website": null,
+      "lat": 38.783979,
+      "lon": 30.4956554,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05399319499-18",
+      "name": "İmaret Taksi",
+      "phone": "05399319499",
+      "website": null,
+      "lat": 38.7927188,
+      "lon": 30.4551908,
+      "address": "Taksi Durağı · Afyon Kütahya Yolu No:9",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02722120001-19",
+      "name": "Kampus Taksi",
+      "phone": "02722120001",
+      "website": null,
+      "lat": 38.7511724,
+      "lon": 30.5369237,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365758684-20",
+      "name": "Kampüs Taksi",
+      "phone": "05365758684",
+      "website": null,
+      "lat": 38.8057129,
+      "lon": 30.5330413,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05437272094-21",
+      "name": "Migros Ataköy Taksi",
+      "phone": "05437272094",
+      "website": null,
+      "lat": 38.8181895,
+      "lon": 30.5385487,
+      "address": "Taksi · Erenler Mah. 2775.Sk, Susam Sokağı No:7/A",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05322526867-22",
+      "name": "Müze Taksi",
+      "phone": "05322526867",
+      "website": null,
+      "lat": 38.73217,
+      "lon": 30.563134,
+      "address": "Taksi Durağı ·  · Adnan Menderes Blv. No:74",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02722169629-23",
+      "name": "Oteller Taksi",
+      "phone": "02722169629",
+      "website": null,
+      "lat": 38.7469063,
+      "lon": 30.5512022,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435855727-24",
+      "name": "Park Hayat Hastanesi Taksi",
+      "phone": "05435855727",
+      "website": null,
+      "lat": 38.7835103,
+      "lon": 30.478343,
+      "address": "Taksi Durağı · Afyon TR, İzmir Karayolu 5.Km No:12",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435203578-25",
+      "name": "Taksi",
+      "phone": "05435203578",
+      "website": null,
+      "lat": 38.7737751,
+      "lon": 30.5094017,
+      "address": "Taksi Durağı · Turgut Özal Cad No No:37",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05455082425-26",
+      "name": "Taksi",
+      "phone": "05455082425",
+      "website": null,
+      "lat": 38.812074,
+      "lon": 30.537749,
+      "address": null,
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05352220146-27",
+      "name": "Yeşilyol Merkez Taksi",
+      "phone": "05352220146",
+      "website": null,
+      "lat": 38.7598739,
+      "lon": 30.582355,
+      "address": "Taksi Durağı ·  · mahallesi, 980. Sk. No:18/3",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352715722-28",
+      "name": "afyonkarahisar-taksi",
+      "phone": "05352715722",
+      "website": null,
+      "lat": 38.7525672,
+      "lon": 30.5455239,
+      "address": "Taksi Durağı · Yeşil Yol Cd. No:62",
+      "districtId": "basmakci",
+      "districtName": "Basmakci",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05057760055-29",
+      "name": "Akgün Taksi",
+      "phone": "05057760055",
+      "website": null,
+      "lat": 38.5292244,
+      "lon": 31.2297486,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05448748216-30",
+      "name": "Çay Gümüş Taksi",
+      "phone": "05448748216",
+      "website": null,
+      "lat": 39.0194789,
+      "lon": 31.148461,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436748487-31",
+      "name": "Çay Gümüş Taksi",
+      "phone": "05436748487",
+      "website": null,
+      "lat": 38.597421,
+      "lon": 31.0274936,
+      "address": "Taksi Durağı ·  · Yeşilevler, Özcan Sk. No:10, 03730 Çay/Afyonkarahisar Afyon TR, Turgut Özal Cd.",
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05399240111-32",
+      "name": "Gazlıgöl Taksi",
+      "phone": "05399240111",
+      "website": null,
+      "lat": 39.01975,
+      "lon": 31.15045,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432174333-33",
+      "name": "Gazlıgöl Taksi",
+      "phone": "05432174333",
+      "website": null,
+      "lat": 38.9340092,
+      "lon": 30.4998394,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05514874938-34",
+      "name": "Gazlıgöl Taksi",
+      "phone": "05514874938",
+      "website": null,
+      "lat": 38.9340124,
+      "lon": 30.499358,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413725547-35",
+      "name": "- Özpınar Taksi",
+      "phone": "05413725547",
+      "website": null,
+      "lat": 38.93485,
+      "lon": 30.4984876,
+      "address": "Taksi Durağı ·  · Gül Sk. no:7",
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412542016-36",
+      "name": "İhsaniye Frigyum Taksi",
+      "phone": "05412542016",
+      "website": null,
+      "lat": 38.9350526,
+      "lon": 30.4973679,
+      "address": "Taksi Durağı · Günçarlar Caddesi No:10",
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05520639947-37",
+      "name": "İscehisar Taksi",
+      "phone": "05520639947",
+      "website": null,
+      "lat": 39.03183,
+      "lon": 30.4171125,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413410306-38",
+      "name": "duragı afsu Taksi",
+      "phone": "05413410306",
+      "website": null,
+      "lat": 38.8612693,
+      "lon": 30.7497003,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05397370222-39",
+      "name": "Sinanpaşa Taksi",
+      "phone": "05397370222",
+      "website": null,
+      "lat": 38.7856896,
+      "lon": 30.4659038,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05441317256-40",
+      "name": "Terminal Taksi",
+      "phone": "05441317256",
+      "website": null,
+      "lat": 38.7449799,
+      "lon": 30.2455587,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02726125697-41",
+      "name": "afyonkarahisar-taksi",
+      "phone": "02726125697",
+      "website": null,
+      "lat": 38.712254,
+      "lon": 31.0362199,
+      "address": null,
+      "districtId": "bayat",
+      "districtName": "Bayat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444010107-42",
+      "name": "Afyon Kantar Taksi",
+      "phone": "05444010107",
+      "website": null,
+      "lat": 38.735,
+      "lon": 30.545,
+      "address": "Orhangazi Mah. Nedim Helvacıoğlu Cad. No:73",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02722131472-43",
+      "name": "Afyon Otogar Taksi",
+      "phone": "02722131472",
+      "website": null,
+      "lat": 38.734,
+      "lon": 30.54,
+      "address": "Fatih Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352220146-44",
+      "name": "Afyon Taksi",
+      "phone": "05352220146",
+      "website": null,
+      "lat": 38.7312,
+      "lon": 30.5387,
+      "address": "Dörtyol, Otogar, Kümeevleri",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05345170011-45",
+      "name": "Afyon Taksi",
+      "phone": "05345170011",
+      "website": null,
+      "lat": 38.732,
+      "lon": 30.537,
+      "address": "Ali İhsan Paşa Mahallesi, 520. Sk. No:3",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02722141177-46",
+      "name": "Park Afyon Taksi",
+      "phone": "02722141177",
+      "website": null,
+      "lat": 38.7335,
+      "lon": 30.538,
+      "address": "Derviş Paşa, Atatürk Blv. No:67",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05305946597-47",
+      "name": "Taksi durağı",
+      "phone": "05305946597",
+      "website": null,
+      "lat": 38.736,
+      "lon": 30.542,
+      "address": "Güvenevler, Park Afyon yanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-48-48",
+      "name": "Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.193335,
+      "lon": 33.215064,
+      "address": "Karaman Mah. Leylak Cad. Afyonkarahisar Merkez, Afyonkarahisar",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05399319499-49",
+      "name": "Tren Garı Taksi",
+      "phone": "05399319499",
+      "website": null,
+      "lat": 38.73,
+      "lon": 30.536,
+      "address": "Dörtyol Mah. Afium AVM",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454628950-50",
+      "name": "Yeşilyol Taksi",
+      "phone": "05454628950",
+      "website": null,
+      "lat": 38.738,
+      "lon": 30.535,
+      "address": "İstasyon Caddesi, Ordu Blv.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-51-51",
+      "name": "afyonkarahisar-taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.733,
+      "lon": 30.539,
+      "address": "Karaman Mah. Yeşilyol Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05437199883-52",
+      "name": "Dinar Taksi",
+      "phone": "05437199883",
+      "website": null,
+      "lat": 38.0602256,
+      "lon": 30.1587163,
+      "address": null,
+      "districtId": "dinar",
+      "districtName": "Dinar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05548559162-53",
+      "name": "Dinar Taksi",
+      "phone": "05548559162",
+      "website": "https://www.facebook.com/Dinar-Taksi-Fatih-%C3%9Clker-110703223853812/",
+      "lat": 38.059243,
+      "lon": 30.158568,
+      "address": null,
+      "districtId": "dinar",
+      "districtName": "Dinar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05303634298-54",
+      "name": "Dinar Taksi",
+      "phone": "05303634298",
+      "website": null,
+      "lat": 38.0653224,
+      "lon": 30.1653927,
+      "address": null,
+      "districtId": "dinar",
+      "districtName": "Dinar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324179160-55",
+      "name": "Ufuk kaya dinar Taksi",
+      "phone": "05324179160",
+      "website": null,
+      "lat": 38.0679063,
+      "lon": 30.1666568,
+      "address": null,
+      "districtId": "dinar",
+      "districtName": "Dinar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355194342-56",
+      "name": "Dinar Taksi",
+      "phone": "05355194342",
+      "website": null,
+      "lat": 38.0692225,
+      "lon": 30.160881,
+      "address": null,
+      "districtId": "dinar",
+      "districtName": "Dinar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05350802555-57",
+      "name": "Emirdağ Otogar Taksi",
+      "phone": "05350802555",
+      "website": null,
+      "lat": 39.0198059,
+      "lon": 31.1515979,
+      "address": null,
+      "districtId": "emirdag",
+      "districtName": "Emirdag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05363723842-58",
+      "name": "Emirdağ Taksi",
+      "phone": "05363723842",
+      "website": null,
+      "lat": 39.0329704,
+      "lon": 31.1624813,
+      "address": null,
+      "districtId": "emirdag",
+      "districtName": "Emirdag",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05462267693-59",
+      "name": "Emirdağ Taksi",
+      "phone": "05462267693",
+      "website": null,
+      "lat": 39.0197972,
+      "lon": 31.1492591,
+      "address": "Taksi Durağı · Çalıkoğlu Sk. No:1",
+      "districtId": "emirdag",
+      "districtName": "Emirdag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374274068-60",
+      "name": "Emirdağ Taksi",
+      "phone": "05374274068",
+      "website": null,
+      "lat": 39.0190011,
+      "lon": 31.1504946,
+      "address": null,
+      "districtId": "emirdag",
+      "districtName": "Emirdag",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05331373338-61",
+      "name": "Emirdağ Taksi",
+      "phone": "05331373338",
+      "website": null,
+      "lat": 39.0192571,
+      "lon": 31.1506546,
+      "address": null,
+      "districtId": "emirdag",
+      "districtName": "Emirdag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05458959891-62",
+      "name": "Dazkırı garaj Taksi",
+      "phone": "05458959891",
+      "website": null,
+      "lat": 37.9181998,
+      "lon": 29.8642667,
+      "address": null,
+      "districtId": "dazkiri",
+      "districtName": "Dazkiri",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05427826059-63",
+      "name": "Yaman Taksi",
+      "phone": "05427826059",
+      "website": null,
+      "lat": 37.9185742,
+      "lon": 29.8634866,
+      "address": null,
+      "districtId": "dazkiri",
+      "districtName": "Dazkiri",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05530617868-64",
+      "name": "Yaman Taksi",
+      "phone": "05530617868",
+      "website": null,
+      "lat": 37.9180845,
+      "lon": 29.8641185,
+      "address": null,
+      "districtId": "dazkiri",
+      "districtName": "Dazkiri",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02725153880-65",
+      "name": "Sandıklı Hür Taksi",
+      "phone": "02725153880",
+      "website": null,
+      "lat": 38.46,
+      "lon": 30.28,
+      "address": "İstasyon Cd. No:113, Sandıklı",
+      "districtId": "sandikli",
+      "districtName": "Sandikli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05324917892-66",
+      "name": "Sandıklı Park Taksi",
+      "phone": "05324917892",
+      "website": null,
+      "lat": 38.4656936,
+      "lon": 30.2737251,
+      "address": "Taksi · İş Bankası Önü, Zincirlihan Sk. No: 31",
+      "districtId": "sandikli",
+      "districtName": "Sandikli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02725151221-67",
+      "name": "Sandıklı Park Taksi",
+      "phone": "02725151221",
+      "website": null,
+      "lat": 38.4637613,
+      "lon": 30.2724712,
+      "address": "Taksi Durağı · Çini Sk. No:4",
+      "districtId": "sandikli",
+      "districtName": "Sandikli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05520099585-68",
+      "name": "Evciler ilçesindeki bazı taksi",
+      "phone": "05520099585",
+      "website": null,
+      "lat": 37.9863535,
+      "lon": 31.8633135,
+      "address": null,
+      "districtId": "evciler",
+      "districtName": "Evciler",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05553860007-69",
+      "name": "hatipoğlu alo taksi",
+      "phone": "05553860007",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05552115444-70",
+      "name": "Afyon Vip Transfer Asil Vip Transfer",
+      "phone": "05552115444",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05321365112-71",
+      "name": "AFYON ÜNİVERSİTE TAKSİ",
+      "phone": "05321365112",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05464009110-72",
+      "name": "KAMPÜS TAKSİ OĞUZ",
+      "phone": "05464009110",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05385592145-73",
+      "name": "Erenler Kampüs Taksi",
+      "phone": "05385592145",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05397030086-74",
+      "name": "RENT A CAR",
+      "phone": "05397030086",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05525252555-75",
+      "name": "Tümü → 03 Afyon Taksi AÇIK · 7 gün 24 saat Barbaros Mahallesi, Küp Çeşme Sok, 03",
+      "phone": "05525252555",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05352415722-76",
+      "name": "Afyon Kampüs Taksi",
+      "phone": "05352415722",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02726125522-77",
+      "name": "Kampüs Taksi – Abdullah Abi AÇIK · 7 gün 24 saat Erenler Mah. 2775.Sk, Susam Sok",
+      "phone": "02726125522",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05434810181-78",
+      "name": "Taksi durağı",
+      "phone": "05434810181",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05426331646-79",
+      "name": "Tümü → Dinar Otogar Taksici Ali",
+      "phone": "05426331646",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02723513809-80",
+      "name": "Dinar Taksi (kürşat Yorulmaz)",
+      "phone": "02723513809",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05446268394-81",
+      "name": "Emirdağ Taksi (ergün Keskin)",
+      "phone": "05446268394",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05464244526-82",
+      "name": "Emirdağ Taksi / Uğur Dedeci AÇIK · 7 gün 24 saat Eski Kacerli, Emirdağ İlçe Emni",
+      "phone": "05464244526",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05443931590-83",
+      "name": "Otagar Taksi",
+      "phone": "05443931590",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05525806929-84",
+      "name": "Gazlıgöl Taksi Duragı",
+      "phone": "05525806929",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05454805999-85",
+      "name": "Tümü → Şuhut Taksi",
+      "phone": "05454805999",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05423518731-86",
+      "name": "Sultandağı Kervan Saray Bizim Taksi",
+      "phone": "05423518731",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05445195842-87",
+      "name": "Sultandağı Taksi-yaşar Kaplan",
+      "phone": "05445195842",
+      "website": null,
+      "lat": 38.7507,
+      "lon": 30.5567,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2865 @@
+{
+  "cityId": "hatay",
+  "cityName": "Hatay",
+  "fetchedAt": "2026-08-30T21:31:45.642Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "antakya",
+      "name": "Antakya",
+      "count": 50
+    },
+    {
+      "id": "arsuz",
+      "name": "Arsuz",
+      "count": 2
+    },
+    {
+      "id": "belen",
+      "name": "Belen",
+      "count": 1
+    },
+    {
+      "id": "defne",
+      "name": "Defne",
+      "count": 5
+    },
+    {
+      "id": "dortyol",
+      "name": "Dortyol",
+      "count": 17
+    },
+    {
+      "id": "erzin",
+      "name": "Erzin",
+      "count": 4
+    },
+    {
+      "id": "hassa",
+      "name": "Hassa",
+      "count": 3
+    },
+    {
+      "id": "iskenderun",
+      "name": "İskenderun",
+      "count": 25
+    },
+    {
+      "id": "kirikhan",
+      "name": "Kirikhan",
+      "count": 9
+    },
+    {
+      "id": "kumlu",
+      "name": "Kumlu",
+      "count": 3
+    },
+    {
+      "id": "reyhanli",
+      "name": "Reyhanli",
+      "count": 8
+    },
+    {
+      "id": "samandag",
+      "name": "Samandag",
+      "count": 5
+    },
+    {
+      "id": "yayladagi",
+      "name": "Yayladagi",
+      "count": 3
+    }
+  ],
+  "count": 182,
+  "stands": [
+    {
+      "id": "taksi724-05456275577-0",
+      "name": "Affan Taksi",
+      "phone": "05456275577",
+      "website": null,
+      "lat": 36.203093,
+      "lon": 36.1422306,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05333111531-1",
+      "name": "Akdeniz Taksi",
+      "phone": "05333111531",
+      "website": null,
+      "lat": 36.1986108,
+      "lon": 36.1629765,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05011330083-2",
+      "name": "Alo Hatay Taksi",
+      "phone": "05011330083",
+      "website": null,
+      "lat": 36.192977,
+      "lon": 36.14817,
+      "address": "Akdeniz Mah. 10. Sok. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05310150700-3",
+      "name": "Alo Taksi",
+      "phone": "05310150700",
+      "website": null,
+      "lat": 36.222206,
+      "lon": 36.153958,
+      "address": "Ürgen Paşa Mah. 75. Yıl Blv. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05310150700-4",
+      "name": "Antakya 7/24 Taksi",
+      "phone": "05310150700",
+      "website": null,
+      "lat": 36.20685403,
+      "lon": 36.16145017,
+      "address": "Cebrail Mah. Kanatlı Cad. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05426076497-5",
+      "name": "Antakya 7/24 Taksi",
+      "phone": "05426076497",
+      "website": null,
+      "lat": 36.210653,
+      "lon": 36.1604722,
+      "address": "Taksi Durağı · Yavuz Sultan Selim Cd. No:25",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05309098294-6",
+      "name": "Antakya Acil Taksi",
+      "phone": "05309098294",
+      "website": "https://www.facebook.com/antakyakenantaksi/",
+      "lat": 36.229502,
+      "lon": 36.1370958,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05355992300-7",
+      "name": "Antakya Alo Taksi",
+      "phone": "05355992300",
+      "website": null,
+      "lat": 36.2057211,
+      "lon": 36.1676401,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05310150700-8",
+      "name": "Antakya hızlı Taksi",
+      "phone": "05310150700",
+      "website": null,
+      "lat": 36.210397,
+      "lon": 36.143391,
+      "address": "Kurumsal Ofis · 17. Sk. No:1",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05300710031-9",
+      "name": "Taksi durağı",
+      "phone": "05300710031",
+      "website": null,
+      "lat": 36.3561666,
+      "lon": 36.2117369,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358646667-10",
+      "name": "Antakya Site Taksi",
+      "phone": "05358646667",
+      "website": null,
+      "lat": 36.2316189,
+      "lon": 36.1351189,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05395044030-11",
+      "name": "Antakya Taksi",
+      "phone": "05395044030",
+      "website": null,
+      "lat": 36.2081347,
+      "lon": 36.1679606,
+      "address": "Taksi · Yavuz Sultan Selim Cd. No:27",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05011330083-12",
+      "name": "Antakya Taksi",
+      "phone": "05011330083",
+      "website": null,
+      "lat": 36.2201176,
+      "lon": 36.1816908,
+      "address": "Küçükdalyan Mahallesi, 31120 Antakya/Hatay, Türkiye",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387050056-13",
+      "name": "Antakya Taksi",
+      "phone": "05387050056",
+      "website": null,
+      "lat": 36.2080261,
+      "lon": 36.1591026,
+      "address": "Taksi Durağı · Atatürk Cd No:2",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05535520216-14",
+      "name": "Antochya Taksi",
+      "phone": "05535520216",
+      "website": null,
+      "lat": 36.2268326,
+      "lon": 36.1311318,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382890292-15",
+      "name": "Armutlu Taksi",
+      "phone": "05382890292",
+      "website": null,
+      "lat": 36.2047498,
+      "lon": 36.1604556,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05356627043-16",
+      "name": "Ataker Taksi",
+      "phone": "05356627043",
+      "website": null,
+      "lat": 36.1991229,
+      "lon": 36.1541494,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322043359-17",
+      "name": "Ata Taksi",
+      "phone": "05322043359",
+      "website": null,
+      "lat": 36.206498,
+      "lon": 36.1711699,
+      "address": "Taksi Durağı · 7. Sk. No:44",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322050215-18",
+      "name": "Betonsan Taksi",
+      "phone": "05322050215",
+      "website": null,
+      "lat": 36.205227,
+      "lon": 36.163128,
+      "address": "Meydan Mah. İstiklal Cad. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367251253-19",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05367251253",
+      "website": null,
+      "lat": 36.2155685,
+      "lon": 36.1548957,
+      "address": "Ulaşım Hizmeti ·  · Ayşe Fitnat Hanım Cd. No:40",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05318872223-20",
+      "name": "Defne Taksi",
+      "phone": "05318872223",
+      "website": null,
+      "lat": 36.20395,
+      "lon": 36.157405,
+      "address": "Cumhuriyet Mah. Cumhuriyet Cad. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05321388084-21",
+      "name": "Emek Taksi",
+      "phone": "05321388084",
+      "website": null,
+      "lat": 36.2127931,
+      "lon": 36.1585537,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322050215-22",
+      "name": "Emniyet Taksi",
+      "phone": "05322050215",
+      "website": null,
+      "lat": 36.208725,
+      "lon": 36.148856,
+      "address": "Emek Mah. Cumhuriyet Cad. 1 Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-23-23",
+      "name": "Esentepe Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.202145,
+      "lon": 36.166123,
+      "address": "Kocaabdi Mah. Kurtuluş Cad. 49 (Habip Nejar Camii Karşısı) Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355166714-24",
+      "name": "Göksu Taksi",
+      "phone": "05355166714",
+      "website": null,
+      "lat": 36.2001029,
+      "lon": 36.1460076,
+      "address": "Taksi Durağı ·  · Adnan Menderes Cd. No:54",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334870336-25",
+      "name": "Güven Taksi",
+      "phone": "05334870336",
+      "website": null,
+      "lat": 36.2580838,
+      "lon": 36.179755,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-26-26",
+      "name": "Hatay Antakya girne Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.220459,
+      "lon": 36.15896,
+      "address": "Ürgen Paşa Mah. 18. Sok. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550800227-27",
+      "name": "Hatay havalimanı Taksi",
+      "phone": "05550800227",
+      "website": null,
+      "lat": 36.2093337,
+      "lon": 36.1634683,
+      "address": "Taksi · Yavuz Sultan Selim Cd. No:16",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432854154-28",
+      "name": "Hatay Taksi",
+      "phone": "05432854154",
+      "website": null,
+      "lat": 36.3640511,
+      "lon": 36.2799709,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-29-29",
+      "name": "Havaalanı Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 38.4027474,
+      "lon": 27.1057016,
+      "address": "Taksi Durağı · 156. Sk. 10 B",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389819448-30",
+      "name": "Maksim defne Taksi",
+      "phone": "05389819448",
+      "website": null,
+      "lat": 36.361803,
+      "lon": 36.251638,
+      "address": "Aşağıoba Köyü Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05360201269-31",
+      "name": "Mku Taksi",
+      "phone": "05360201269",
+      "website": null,
+      "lat": 36.1914336,
+      "lon": 36.1556719,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05357757481-32",
+      "name": "Müzisyen Taksi",
+      "phone": "05357757481",
+      "website": null,
+      "lat": 36.3602889,
+      "lon": 36.2139085,
+      "address": "Taksi ·  · arastirma hastahanesi, Serinyol mahallesi, Muhtar Sk. No:18",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368259683-33",
+      "name": "Narlıca Taksi",
+      "phone": "05368259683",
+      "website": null,
+      "lat": 36.1795234,
+      "lon": 36.1454918,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05345197943-34",
+      "name": "Otogar Taksi",
+      "phone": "05345197943",
+      "website": null,
+      "lat": 36.2387661,
+      "lon": 36.2122995,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05321634827-35",
+      "name": "Saray Taksi",
+      "phone": "05321634827",
+      "website": null,
+      "lat": 36.221813,
+      "lon": 36.144602,
+      "address": "Saraykent Mah. Şükrü Balcı Cad. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05320678386-36",
+      "name": "Savon Taksi",
+      "phone": "05320678386",
+      "website": null,
+      "lat": 36.199905,
+      "lon": 36.159845,
+      "address": "Kışla Saray Mah. Saray Cad. Asi Sok. 6 Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05306860762-37",
+      "name": "Serinyol mku Taksi",
+      "phone": "05306860762",
+      "website": null,
+      "lat": 36.2052021,
+      "lon": 36.1691559,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05462900295-38",
+      "name": "Serinyol MKÜ Taksi",
+      "phone": "05462900295",
+      "website": null,
+      "lat": 36.3350308,
+      "lon": 36.2000228,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05356147921-39",
+      "name": "Serinyol Taksi",
+      "phone": "05356147921",
+      "website": null,
+      "lat": 36.3346908,
+      "lon": 36.2054953,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05398288118-40",
+      "name": "Serinyol Taksi",
+      "phone": "05398288118",
+      "website": null,
+      "lat": 36.3611802,
+      "lon": 36.2117668,
+      "address": "Taksi · Hatay Cd. No: 74",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05392486031-41",
+      "name": "Stadyum Taksi",
+      "phone": "05392486031",
+      "website": null,
+      "lat": 36.2164912,
+      "lon": 36.1318117,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-42-42",
+      "name": "Sümerler Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.218542,
+      "lon": 36.157709,
+      "address": "Kanatlı Mah. Yüzbaşı Asım Cad. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374511205-43",
+      "name": "Taksi",
+      "phone": "05374511205",
+      "website": null,
+      "lat": 36.186596,
+      "lon": 36.152586,
+      "address": "Sümerler Mah. Harbiye Cad. 2 Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05015420057-44",
+      "name": "Taksi",
+      "phone": "05015420057",
+      "website": null,
+      "lat": 36.2019258,
+      "lon": 36.1558982,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05522241522-45",
+      "name": "Taksi Antakya kadir",
+      "phone": "05522241522",
+      "website": null,
+      "lat": 36.1822984,
+      "lon": 36.1216872,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05534870025-46",
+      "name": "Turizm Taksi",
+      "phone": "05534870025",
+      "website": null,
+      "lat": 36.2254183,
+      "lon": 36.1637596,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325927999-47",
+      "name": "Yeni Hastane Taksi",
+      "phone": "05325927999",
+      "website": null,
+      "lat": 36.208575,
+      "lon": 36.161357,
+      "address": "General Şükrü Kanatlı Mah. Kanatlı Cad. 53 Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05071206071-48",
+      "name": "hatay-taksi",
+      "phone": "05071206071",
+      "website": null,
+      "lat": 36.212902,
+      "lon": 36.135315,
+      "address": "Altınçay Mah. 119. Sok. Antakya, Hatay",
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03266433100-49",
+      "name": "Dönmez Taksi",
+      "phone": "03266433100",
+      "website": null,
+      "lat": 36.413415,
+      "lon": 35.893653,
+      "address": "Arsuz-Uluçınar Mah. İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03266132816-50",
+      "name": "Ersan Taksi",
+      "phone": "03266132816",
+      "website": null,
+      "lat": 36.5862,
+      "lon": 36.174851,
+      "address": "Çay Mah. Osman Gazi Cad. İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03266144436-51",
+      "name": "Iskenderun Adliye Taksi",
+      "phone": "03266144436",
+      "website": null,
+      "lat": 36.587608,
+      "lon": 36.167556,
+      "address": "Hürriyet Mah. Namık Kemal Cad. 40 İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373468230-52",
+      "name": "İskenderun avm Taksi",
+      "phone": "05373468230",
+      "website": null,
+      "lat": 36.5735794,
+      "lon": 36.15427281,
+      "address": "Gürsel Mah. 539. Sok. İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354439861-53",
+      "name": "İskenderun gece Taksi",
+      "phone": "05354439861",
+      "website": null,
+      "lat": 36.5679699,
+      "lon": 36.1613289,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05529353126-54",
+      "name": "İskenderun Kent Taksi",
+      "phone": "05529353126",
+      "website": null,
+      "lat": 36.5833606,
+      "lon": 36.169313,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05436806676-55",
+      "name": "İskenderun ssk Taksi",
+      "phone": "05436806676",
+      "website": null,
+      "lat": 36.5864975,
+      "lon": 36.1720439,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05330804048-56",
+      "name": "Iskenderun Taksi",
+      "phone": "05330804048",
+      "website": null,
+      "lat": 36.5816228,
+      "lon": 36.1735251,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373468230-57",
+      "name": "İskenderun Taksi",
+      "phone": "05373468230",
+      "website": null,
+      "lat": 36.56799,
+      "lon": 36.150653,
+      "address": "Mustafa Kemal Mah. 544 Sok. İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05346904012-58",
+      "name": "İskenderun Taksi",
+      "phone": "05346904012",
+      "website": null,
+      "lat": 36.582727,
+      "lon": 36.1691316,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05069964883-59",
+      "name": "İskenderun Taksi",
+      "phone": "05069964883",
+      "website": null,
+      "lat": 36.586142,
+      "lon": 36.1586559,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05340888373-60",
+      "name": "Otogar Taksi",
+      "phone": "05340888373",
+      "website": null,
+      "lat": 36.5807307,
+      "lon": 36.1792714,
+      "address": "Taksi Durağı ·  · 314. Sk. sanayi sitesi",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-61-61",
+      "name": "Otovar Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.581406,
+      "lon": 36.176016,
+      "address": "Dumlupınar Mah. Şehit Er Ebubekir Gökalp Cad. İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-62-62",
+      "name": "Ozan Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.590391,
+      "lon": 36.170413,
+      "address": "Savaş Mah. 42. Sok. 13 İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03266151115-63",
+      "name": "Primemall Avm Taksi",
+      "phone": "03266151115",
+      "website": null,
+      "lat": 36.579835,
+      "lon": 36.190994,
+      "address": "Yunus Emre Mah. 277 Sok. 1 İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05354439861-64",
+      "name": "Prime Mall Avm Taksi",
+      "phone": "05354439861",
+      "website": null,
+      "lat": 36.57514563,
+      "lon": 36.16306834,
+      "address": "Numune Mah. Dr. Sadık Ahmet Cad. Primemall AVM Otoparkı İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05394008519-65",
+      "name": "Sahil Taksi",
+      "phone": "05394008519",
+      "website": null,
+      "lat": 36.575675,
+      "lon": 36.163318,
+      "address": "Numune Mah. Prime Mall AVM İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-66-66",
+      "name": "Şahin Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.591084,
+      "lon": 36.171201,
+      "address": "Savaş Mah. 40. Sok. (Ticaret Odası Yanı) İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-67-67",
+      "name": "Şan Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.589402,
+      "lon": 36.158914,
+      "address": "Pirireis Mah. 153/1 Sok. 13 İskenderun, Hatay",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05337385113-68",
+      "name": "Taksi",
+      "phone": "05337385113",
+      "website": null,
+      "lat": 36.5832116,
+      "lon": 36.1706779,
+      "address": "Taksi Durağı · 197/1. Sk. No:23",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05309704013-69",
+      "name": "Uyarlar Taksi",
+      "phone": "05309704013",
+      "website": null,
+      "lat": 36.589553,
+      "lon": 36.1803335,
+      "address": "Taksi Durağı ·  · Çay Bahçelievler Caddesi no 23",
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05441001404-70",
+      "name": "hatay-taksi",
+      "phone": "05441001404",
+      "website": null,
+      "lat": 36.5832458,
+      "lon": 36.1711275,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-71-71",
+      "name": "Bizim Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.755459,
+      "lon": 36.216342,
+      "address": "Payas-Yıldırımbeyazıt Mah. Özkul Çolak Cad. 9 Dörtyol, Hatay",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422152121-72",
+      "name": "Çiçek Taksi",
+      "phone": "05422152121",
+      "website": null,
+      "lat": 36.8385475,
+      "lon": 36.22914627,
+      "address": "Sanayi Mah. Özel Cad. 16 Dörtyol, Hatay",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05442202280-73",
+      "name": "Dörtyol Taksi",
+      "phone": "05442202280",
+      "website": null,
+      "lat": 36.757384,
+      "lon": 36.216367,
+      "address": "Yıldırım Beyazıt Mah. Özkul Çolak Cad. Payas, Dörtyol, Hatay",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05011618090-74",
+      "name": "Dörtyol Taksi",
+      "phone": "05011618090",
+      "website": null,
+      "lat": 36.8285341,
+      "lon": 36.1982258,
+      "address": "Taksi ·  · Şht. Polis Necati Keskin Blv. No:101",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05427210123-75",
+      "name": "Dörtyol Taksi",
+      "phone": "05427210123",
+      "website": null,
+      "lat": 36.8290006,
+      "lon": 36.1951406,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05465464943-76",
+      "name": "Dörtyol Taksi",
+      "phone": "05465464943",
+      "website": null,
+      "lat": 36.828358,
+      "lon": 36.1958519,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05054853306-77",
+      "name": "Esen Taksi",
+      "phone": "05054853306",
+      "website": null,
+      "lat": 36.8283958,
+      "lon": 36.1958246,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444505063-78",
+      "name": "Hastahane Taksi",
+      "phone": "05444505063",
+      "website": null,
+      "lat": 36.8376296,
+      "lon": 36.2258772,
+      "address": "Taksi Durağı · Özel Sk. No:3",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05550373031-79",
+      "name": "Hatay dörtyol Taksi",
+      "phone": "05550373031",
+      "website": null,
+      "lat": 36.8279723,
+      "lon": 36.2127753,
+      "address": "Taksi Durağı ·  · Hastane Altı 1. Sk.",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05324484915-80",
+      "name": "İstasyon Taksi",
+      "phone": "05324484915",
+      "website": null,
+      "lat": 36.8281963,
+      "lon": 36.1956984,
+      "address": "Taksi Durağı · Otagar Taksi Durağı, 1. Deniz Yolu Sok No:5",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03267124422-81",
+      "name": "Payas Taksi",
+      "phone": "03267124422",
+      "website": null,
+      "lat": 36.8249206,
+      "lon": 36.1990242,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05442202280-82",
+      "name": "Terminal Taksi",
+      "phone": "05442202280",
+      "website": null,
+      "lat": 36.756393,
+      "lon": 36.215074,
+      "address": "Karacami Mah. Şehit Yüzbaşı Ali Oğuz Blv. Payas, Dörtyol, Hatay",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326053562-83",
+      "name": "hatay-taksi",
+      "phone": "05326053562",
+      "website": null,
+      "lat": 36.8284882,
+      "lon": 36.1964484,
+      "address": "Taksi Durağı · Şht. Polis Necati Keskin Blv. No:101",
+      "districtId": "dortyol",
+      "districtName": "Dortyol",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05465476531-84",
+      "name": "Reyhanlı Taksi",
+      "phone": "05465476531",
+      "website": null,
+      "lat": 36.2636509,
+      "lon": 36.5761708,
+      "address": "Taksi Durağı ·  · Şanverdi Sk. No:59",
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05337207160-85",
+      "name": "Reyhanlı Taksi",
+      "phone": "05337207160",
+      "website": null,
+      "lat": 36.266975,
+      "lon": 36.567593,
+      "address": "Taksi Durağı ·  · Cumhuriyet Mh. Fevzi Çakmak Cd. No:17,, Cep : 0533 720 71 60,, Tel : 0326 413 43 34",
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382185301-86",
+      "name": "Reyhanlı Taksi",
+      "phone": "05382185301",
+      "website": null,
+      "lat": 36.2415611,
+      "lon": 36.5719682,
+      "address": null,
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05385884231-87",
+      "name": "Reyhanlı Taksi",
+      "phone": "05385884231",
+      "website": null,
+      "lat": 36.2410031,
+      "lon": 36.5722358,
+      "address": null,
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365139903-88",
+      "name": "Reyhanlı Taksi",
+      "phone": "05365139903",
+      "website": null,
+      "lat": 36.2632429,
+      "lon": 36.5673543,
+      "address": null,
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422647550-89",
+      "name": "Yenişehir Taksi",
+      "phone": "05422647550",
+      "website": null,
+      "lat": 36.274559,
+      "lon": 36.5720062,
+      "address": "Taksi Durağı · 398. Sk. No:44",
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05433667782-90",
+      "name": "Reyhanlı Taksi",
+      "phone": "05433667782",
+      "website": null,
+      "lat": 36.2409584,
+      "lon": 36.5707064,
+      "address": "Taksi Durağı · Antakya Cilvegözü Yolu No:12 D:2",
+      "districtId": "reyhanli",
+      "districtName": "Reyhanli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312209091-91",
+      "name": "Hastane Taksi",
+      "phone": "05312209091",
+      "website": null,
+      "lat": 36.49926275,
+      "lon": 36.35435585,
+      "address": "Kurtuluş Mah. Saraçoğlu Sok. 1/D Kırıkhan, Hatay",
+      "districtId": "kirikhan",
+      "districtName": "Kirikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-92-92",
+      "name": "Kırıkhan Merkez Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.497845,
+      "lon": 36.347096,
+      "address": "Bahçelievler Mah. Hastane Sok. Kırıkhan Devlet Hastanesi İçi Kırıkhan, Hatay",
+      "districtId": "kirikhan",
+      "districtName": "Kirikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05525853486-93",
+      "name": "Topboğazı Taksi",
+      "phone": "05525853486",
+      "website": null,
+      "lat": 36.4984099,
+      "lon": 36.3512371,
+      "address": null,
+      "districtId": "kirikhan",
+      "districtName": "Kirikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05384047007-94",
+      "name": "Taksi",
+      "phone": "05384047007",
+      "website": "https://www.facebook.com/pasa.yardimci.7",
+      "lat": 36.4744043,
+      "lon": 36.3382961,
+      "address": null,
+      "districtId": "kirikhan",
+      "districtName": "Kirikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05333651331-95",
+      "name": "Topboğazı Taksi",
+      "phone": "05333651331",
+      "website": null,
+      "lat": 36.4888936,
+      "lon": 36.3585971,
+      "address": "Ulaşım Hizmeti · Midilli Sk. No:5 /3",
+      "districtId": "kirikhan",
+      "districtName": "Kirikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365773759-96",
+      "name": "Topboğazı Taksi",
+      "phone": "05365773759",
+      "website": null,
+      "lat": 36.4444598,
+      "lon": 36.2836396,
+      "address": null,
+      "districtId": "kirikhan",
+      "districtName": "Kirikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05375551510-97",
+      "name": "Defne Harbiye Taksi",
+      "phone": "05375551510",
+      "website": null,
+      "lat": 36.2106414,
+      "lon": 36.1741987,
+      "address": null,
+      "districtId": "defne",
+      "districtName": "Defne",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362297754-98",
+      "name": "Hatay Antakya Taksi",
+      "phone": "05362297754",
+      "website": null,
+      "lat": 36.1308936,
+      "lon": 36.143992,
+      "address": null,
+      "districtId": "defne",
+      "districtName": "Defne",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05011330083-99",
+      "name": "Karaçay Taksi",
+      "phone": "05011330083",
+      "website": null,
+      "lat": 36.1918581,
+      "lon": 36.1499685,
+      "address": null,
+      "districtId": "defne",
+      "districtName": "Defne",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383042444-100",
+      "name": "Taksi",
+      "phone": "05383042444",
+      "website": null,
+      "lat": 36.1459882,
+      "lon": 36.0561972,
+      "address": null,
+      "districtId": "defne",
+      "districtName": "Defne",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05053363157-101",
+      "name": "Hatay Antakya Taksi",
+      "phone": "05053363157",
+      "website": null,
+      "lat": 36.1950382,
+      "lon": 36.1478938,
+      "address": null,
+      "districtId": "defne",
+      "districtName": "Defne",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05432546296-102",
+      "name": "Fuat Taksi",
+      "phone": "05432546296",
+      "website": null,
+      "lat": 36.086184,
+      "lon": 35.9792444,
+      "address": null,
+      "districtId": "samandag",
+      "districtName": "Samandag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05342650004-103",
+      "name": "Samandağ Taksi",
+      "phone": "05342650004",
+      "website": null,
+      "lat": 36.0861444,
+      "lon": 35.9794082,
+      "address": null,
+      "districtId": "samandag",
+      "districtName": "Samandag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05354953898-104",
+      "name": "Samandağ Taksi",
+      "phone": "05354953898",
+      "website": null,
+      "lat": 36.0874339,
+      "lon": 35.9782946,
+      "address": null,
+      "districtId": "samandag",
+      "districtName": "Samandag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384953040-105",
+      "name": "Samandağ Taksi",
+      "phone": "05384953040",
+      "website": null,
+      "lat": 36.0862382,
+      "lon": 35.9792841,
+      "address": null,
+      "districtId": "samandag",
+      "districtName": "Samandag",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05388628030-106",
+      "name": "Samandağ Taksi",
+      "phone": "05388628030",
+      "website": null,
+      "lat": 36.0886857,
+      "lon": 35.9763187,
+      "address": null,
+      "districtId": "samandag",
+      "districtName": "Samandag",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05382809894-107",
+      "name": "Hassa HAS Taksi",
+      "phone": "05382809894",
+      "website": null,
+      "lat": 36.851762,
+      "lon": 36.55608,
+      "address": "Akbez-Yeni Mah. Hassa, Hatay",
+      "districtId": "hassa",
+      "districtName": "Hassa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05366223603-108",
+      "name": "Hassa Taksi",
+      "phone": "05366223603",
+      "website": null,
+      "lat": 36.7992672,
+      "lon": 36.5195549,
+      "address": null,
+      "districtId": "hassa",
+      "districtName": "Hassa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05078453688-109",
+      "name": "Hassa Taksi",
+      "phone": "05078453688",
+      "website": null,
+      "lat": 36.798401,
+      "lon": 36.5222054,
+      "address": null,
+      "districtId": "hassa",
+      "districtName": "Hassa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05444242880-110",
+      "name": "Kumlu Taksi",
+      "phone": "05444242880",
+      "website": null,
+      "lat": 36.3626871,
+      "lon": 36.4490291,
+      "address": "Taksi ·  · Kardemir Sk. No:1",
+      "districtId": "kumlu",
+      "districtName": "Kumlu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05050210998-111",
+      "name": "Taksi",
+      "phone": "05050210998",
+      "website": null,
+      "lat": 36.3243056,
+      "lon": 36.4065558,
+      "address": "Taksi Durağı ·  · Kırıkhan Yolu No:94, 31500",
+      "districtId": "kumlu",
+      "districtName": "Kumlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05055629378-112",
+      "name": "Kumlu Taksi",
+      "phone": "05055629378",
+      "website": null,
+      "lat": 36.3666924,
+      "lon": 36.4484057,
+      "address": null,
+      "districtId": "kumlu",
+      "districtName": "Kumlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05447497042-113",
+      "name": "Erzin Taksi",
+      "phone": "05447497042",
+      "website": null,
+      "lat": 36.955405,
+      "lon": 36.2001078,
+      "address": "Taksi ·  · Aksaylar Sk. No:10",
+      "districtId": "erzin",
+      "districtName": "Erzin",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05427977876-114",
+      "name": "Erzin Taksi",
+      "phone": "05427977876",
+      "website": null,
+      "lat": 36.9560577,
+      "lon": 36.1978318,
+      "address": "Taksi · Davut Yülek Sk. No:1",
+      "districtId": "erzin",
+      "districtName": "Erzin",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05423382367-115",
+      "name": "Yayladağı Taksi",
+      "phone": "05423382367",
+      "website": null,
+      "lat": 35.9008527,
+      "lon": 36.0647377,
+      "address": null,
+      "districtId": "yayladagi",
+      "districtName": "Yayladagi",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374562544-116",
+      "name": "Yayladağı Taksi",
+      "phone": "05374562544",
+      "website": null,
+      "lat": 35.9032033,
+      "lon": 36.063277,
+      "address": "Taksi Durağı · Kurtuluş, Şehit ibiş oğlu SK, Merkez Sk. No:8-1/1",
+      "districtId": "yayladagi",
+      "districtName": "Yayladagi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352531923-117",
+      "name": "Belen Taksi",
+      "phone": "05352531923",
+      "website": null,
+      "lat": 36.491651,
+      "lon": 36.194528,
+      "address": "Bakras Mah. Maraşal Çakmak Cad. 36 Belen, Hatay",
+      "districtId": "belen",
+      "districtName": "Belen",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-05312997868-118",
+      "name": "HATAY DEFNE TAKSİ",
+      "phone": "05312997868",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05342923486-119",
+      "name": "Renk tabela taksi kaplama ve profesyonel araç renk değişim merkezi",
+      "phone": "05342923486",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05339246977-120",
+      "name": "Taksi antakya hatay",
+      "phone": "05339246977",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05050231505-121",
+      "name": "AGA RENT A CAR & TİCARİ TAKSİ İŞLETMESİ",
+      "phone": "05050231505",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05380132097-122",
+      "name": "KANATLI TAKSİ ANTAKYA HASAN ALİ",
+      "phone": "05380132097",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05394892306-123",
+      "name": "Tümü → 75.yıl Bulvar Taksi",
+      "phone": "05394892306",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05348544190-124",
+      "name": "Alican Taksi",
+      "phone": "05348544190",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05313209646-125",
+      "name": "Antakya Site Taksi Ali Sönmez AÇIK · 7 gün 24 saat Haraparası Yavuz Sultan Selim",
+      "phone": "05313209646",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05377249781-126",
+      "name": "Antakya Taksi – Antakya",
+      "phone": "05377249781",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05384488294-127",
+      "name": "Antakya Taksi Kenan",
+      "phone": "05384488294",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05321624827-128",
+      "name": "Ateş Taksi AÇIK · 7 gün 24 saat General Şükrü Kanatlı, Kanatlı Cd. No: 18, 31030",
+      "phone": "05321624827",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03262165251-129",
+      "name": "Emniyet Taksi Antakya",
+      "phone": "03262165251",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03262210821-130",
+      "name": "Güven Taksi Antakya",
+      "phone": "03262210821",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03262235237-131",
+      "name": "Harbiye Taksi Durağı",
+      "phone": "03262235237",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03262155567-132",
+      "name": "Hatay Antakya Girne Taksi AÇIK · 7 gün 24 saat Haraparası, Yavuz Sultan Selim Cd",
+      "phone": "03262155567",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05550515145-133",
+      "name": "Taksi Hatay Antakya",
+      "phone": "05550515145",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03262124141-134",
+      "name": "Vilayet Taksi",
+      "phone": "03262124141",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393731887-135",
+      "name": "Yusuf Ateş Taksi Hatay",
+      "phone": "05393731887",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05344330390-136",
+      "name": "Tümü → Arsuz Taksi",
+      "phone": "05344330390",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05422632501-137",
+      "name": "Arsuz Yakup Taksi",
+      "phone": "05422632501",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05301843211-138",
+      "name": "Karaağaç Taksi Nilay",
+      "phone": "05301843211",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05436697021-139",
+      "name": "Dörtyol Taksi Durağı",
+      "phone": "05436697021",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05327664334-140",
+      "name": "Hatay Dörtyol Taksi",
+      "phone": "05327664334",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dörtyol",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05346351685-141",
+      "name": "Bulvar Taksi 2",
+      "phone": "05346351685",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03266133398-142",
+      "name": "Cem Taksi",
+      "phone": "03266133398",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05382657921-143",
+      "name": "İskenderun Kent Taksi AÇIK · 7 gün 24 saat Çay, Fatih Camii Önü, Namık Kemal Cd.",
+      "phone": "05382657921",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05379265990-144",
+      "name": "İskenderun Ssk Taksi AÇIK · 7 gün 24 saat acil karşısı, Dumlupınar ssk hastanesi",
+      "phone": "05379265990",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05336124829-145",
+      "name": "İskenderun Taksi Mehmet Ali Kassap",
+      "phone": "05336124829",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03266159488-146",
+      "name": "Körfez Taksi Durağı",
+      "phone": "03266159488",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05374233131-147",
+      "name": "Liman Taksi",
+      "phone": "05374233131",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05324666898-148",
+      "name": "Mda Kılıç Group Taksi",
+      "phone": "05324666898",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03266171616-149",
+      "name": "Oto Var Taksi",
+      "phone": "03266171616",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03266156670-150",
+      "name": "Otogar Taksi",
+      "phone": "03266156670",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03266138811-151",
+      "name": "Sahil Taksi",
+      "phone": "03266138811",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03266143370-152",
+      "name": "Sahil Taksi İskenderun AÇIK · 7 gün 24 saat Savaş, Ziya Gökalp Caddesi, 40. Sk. ",
+      "phone": "03266143370",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323355970-153",
+      "name": "Taksi Bulvar AÇIK · 7 gün 24 saat Çay, sahil, Bahçelievler Cd. no 23, 31200 İske",
+      "phone": "05323355970",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05462641949-154",
+      "name": "Tümü → Emniyet Taksi (mehmet Toğrul)",
+      "phone": "05462641949",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05442332800-155",
+      "name": "Emniyet Taksi Kırıkhan",
+      "phone": "05442332800",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": "kirikhan",
+      "districtName": "Kırıkhan",
+      "approximate": true,
+      "sources": [
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksiciler-05359863486-156",
+      "name": "Hatay Kırıkhan Taksi",
+      "phone": "05359863486",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05437809820-157",
+      "name": "Kirikhan Güven Taksi",
+      "phone": "05437809820",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05302899139-158",
+      "name": "Kırıkhan Taksi",
+      "phone": "05302899139",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03267551919-159",
+      "name": "Tümü → Çiçek Taksi Durağı AÇIK · 7 gün 24 saat Çiçek Taksi, Yıldırım Beyazıt mah",
+      "phone": "03267551919",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05469248730-160",
+      "name": "Tümü → Reyhalı Taksi",
+      "phone": "05469248730",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354958788-161",
+      "name": "Reyhanlı Cilvegözü Taksi",
+      "phone": "05354958788",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05388575678-162",
+      "name": "Reyhanlı Taksi",
+      "phone": "05388575678",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03264712837-163",
+      "name": "Tümü → Gümrük Kapısı Taksi Durağı",
+      "phone": "03264712837",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05433112502-164",
+      "name": "Yayladağı Huzur Taksi Yayladağı",
+      "phone": "05433112502",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05530190453-165",
+      "name": "Yayladağı Taksi AÇIK · 7 gün 24 saat Kurtuluş, Müftü Ali Yılmaz Cd. NO:3, 31550 ",
+      "phone": "05530190453",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358213322-166",
+      "name": "Yayladağı Taksi Murad Başıbüyük",
+      "phone": "05358213322",
+      "website": null,
+      "lat": 36.2023,
+      "lon": 36.1613,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05303713354-167",
+      "name": "Arsuz Taksi - Cemil Yalçın",
+      "phone": "05303713354",
+      "website": "https://www.facebook.com/ArsuzTaksi",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arsuz",
+      "districtName": "Arsuz",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05346298293-168",
+      "name": "Arsuz Taksi - Onur Yalçın",
+      "phone": "05346298293",
+      "website": "https://www.facebook.com/arsuztaksicii",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arsuz",
+      "districtName": "Arsuz",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05326558259-169",
+      "name": "Bizim Taksi - Abdullah Akdemir",
+      "phone": "05326558259",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dörtyol",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05437697021-170",
+      "name": "Bizim Taksi - Serkan Hantaş",
+      "phone": "05437697021",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dörtyol",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05342525034-171",
+      "name": "Dörtyol Taksi - Sefa Deniz",
+      "phone": "05342525034",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "dortyol",
+      "districtName": "Dörtyol",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05457740033-172",
+      "name": "Erzin Taksi - Bestami Kurt",
+      "phone": "05457740033",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "erzin",
+      "districtName": "Erzin",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05529473590-173",
+      "name": "İskenderun Taksi - Samet Calp",
+      "phone": "05529473590",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05525944161-174",
+      "name": "İskenderun Taksi - Selim Leblebici",
+      "phone": "05525944161",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05352014014-175",
+      "name": "Kırıkhan Emniyet Taksi - Yıldıray Açar",
+      "phone": "05352014014",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kirikhan",
+      "districtName": "Kırıkhan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05367290748-176",
+      "name": "Kırıkhan Taksi - Yunus Çıkmaz",
+      "phone": "05367290748",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kirikhan",
+      "districtName": "Kırıkhan",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05538974170-177",
+      "name": "MKÜ Hastane Taksi - Sinan Toma",
+      "phone": "05538974170",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "antakya",
+      "districtName": "Antakya",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05378402154-178",
+      "name": "Mustafa Kemal Taksi - Mehmet Ali Parmaksız",
+      "phone": "05378402154",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "iskenderun",
+      "districtName": "İskenderun",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05380558864-179",
+      "name": "Reyhanlı Taksi - Ahmet",
+      "phone": "05380558864",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "reyhanli",
+      "districtName": "Reyhanlı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05449444421-180",
+      "name": "Vip Taksi - Ahmet Ulun",
+      "phone": "05449444421",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "erzin",
+      "districtName": "Erzin",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05523128317-181",
+      "name": "Yayladağı Taksi - Mehmet İşbitiren",
+      "phone": "05523128317",
+      "website": "https://www.facebook.com/profile.php?id=100074165986615",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yayladagi",
+      "districtName": "Yayladağı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

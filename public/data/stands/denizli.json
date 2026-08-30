@@ -1,0 +1,1870 @@
+{
+  "cityId": "denizli",
+  "cityName": "Denizli",
+  "fetchedAt": "2026-08-30T21:29:45.260Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "acipayam",
+      "name": "Acipayam",
+      "count": 3
+    },
+    {
+      "id": "babadag",
+      "name": "Babadag",
+      "count": 2
+    },
+    {
+      "id": "baklan",
+      "name": "Baklan",
+      "count": 1
+    },
+    {
+      "id": "bekilli",
+      "name": "Bekilli",
+      "count": 1
+    },
+    {
+      "id": "buldan",
+      "name": "Buldan",
+      "count": 2
+    },
+    {
+      "id": "cal",
+      "name": "Cal",
+      "count": 1
+    },
+    {
+      "id": "cameli",
+      "name": "Cameli",
+      "count": 1
+    },
+    {
+      "id": "cardak",
+      "name": "Cardak",
+      "count": 1
+    },
+    {
+      "id": "civril",
+      "name": "Civril",
+      "count": 3
+    },
+    {
+      "id": "merkezefendi",
+      "name": "Merkezefendi",
+      "count": 6
+    },
+    {
+      "id": "pamukkale",
+      "name": "Pamukkale",
+      "count": 46
+    },
+    {
+      "id": "saraykoy",
+      "name": "Saraykoy",
+      "count": 2
+    }
+  ],
+  "count": 118,
+  "stands": [
+    {
+      "id": "taksi724-05468133233-0",
+      "name": "Bağbaşı Taksi",
+      "phone": "05468133233",
+      "website": null,
+      "lat": 37.7343733,
+      "lon": 29.1222118,
+      "address": "Taksi Durağı · 1007. Sk. No:12",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05433270327-1",
+      "name": "Birlik Taksi",
+      "phone": "05433270327",
+      "website": null,
+      "lat": 37.7313983,
+      "lon": 29.1233967,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02582648693-2",
+      "name": "Çamlık Taksi",
+      "phone": "02582648693",
+      "website": null,
+      "lat": 37.784351,
+      "lon": 29.089699,
+      "address": "Topraklık Mah. 632. Sok. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05523520505-3",
+      "name": "Çavuşoğlu RG Taksi",
+      "phone": "05523520505",
+      "website": null,
+      "lat": 37.75913,
+      "lon": 29.082827,
+      "address": "Mehmetçik Mah. Çamlık Cad. Pamukkale, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368220146-4",
+      "name": "Çaybaşı Taksi",
+      "phone": "05368220146",
+      "website": null,
+      "lat": 37.777667,
+      "lon": 29.082204,
+      "address": "Taksi Durağı · No, Saltak Cd. No:107",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05058696869-5",
+      "name": "Durağı - Denizli 7/24 Taksi",
+      "phone": "05058696869",
+      "website": null,
+      "lat": 37.767605,
+      "lon": 29.090946,
+      "address": "Fesleğen Mah. 986 Sok. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05058696869-6",
+      "name": "Hastane Paü Kampüs Bağbaşı Üniversite Taksi",
+      "phone": "05058696869",
+      "website": null,
+      "lat": 37.7732978,
+      "lon": 29.0837262,
+      "address": "Taksi · Saltak Cd. No:142",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468133233-7",
+      "name": "Çiçek Taksi",
+      "phone": "05468133233",
+      "website": null,
+      "lat": 37.7394595,
+      "lon": 29.1128683,
+      "address": "Taksi Durağı ·  · Acıpayam Bulvarı, Antalya Yolu No:5",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05325465714-8",
+      "name": "Çınar Taksi",
+      "phone": "05325465714",
+      "website": null,
+      "lat": 37.788751,
+      "lon": 29.085352,
+      "address": "Saraylar Mah. 155. Sok. Bakırlı, Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-9-9",
+      "name": "Dayıbaş Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.7741,
+      "lon": 29.088173,
+      "address": "15 Mayıs Mah. Atatürk Cad. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435136201-10",
+      "name": "Demokrasi Taksi",
+      "phone": "05435136201",
+      "website": null,
+      "lat": 37.783108,
+      "lon": 29.081346,
+      "address": "Sırakapılar Mah. Şehit Albay Karaoğlanoğlu Cad. 28/A Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05415436060-11",
+      "name": "Demokrasi Taksi",
+      "phone": "05415436060",
+      "website": null,
+      "lat": 37.756156,
+      "lon": 29.08881,
+      "address": "Mehmetçik Mah. İncilipınar Cad. 2603 Sok. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325465714-12",
+      "name": "Denizli Adliye Taksi",
+      "phone": "05325465714",
+      "website": null,
+      "lat": 37.755556,
+      "lon": 29.08881,
+      "address": "Mehmetçik Mah. İncilipınar Cad. 2603 Sok. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02583777172-13",
+      "name": "Denizli Çamlık Kongre Merkezi Taksi",
+      "phone": "02583777172",
+      "website": null,
+      "lat": 37.7784328,
+      "lon": 29.0341467,
+      "address": "Taksi · 10040. Sk.",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05523520505-14",
+      "name": "Denizli Hızır Taksi",
+      "phone": "05523520505",
+      "website": null,
+      "lat": 37.7604573,
+      "lon": 29.0937798,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334249526-15",
+      "name": "Denizli Otogar Taksi",
+      "phone": "05334249526",
+      "website": null,
+      "lat": 37.7813092,
+      "lon": 29.0918074,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372468141-16",
+      "name": "Denizli Park Taksi",
+      "phone": "05372468141",
+      "website": null,
+      "lat": 37.769366,
+      "lon": 29.101052,
+      "address": "Fatih Mah. 1925/7. Sok. 8 Pamukkale, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02582612129-17",
+      "name": "Denizli Taksi",
+      "phone": "02582612129",
+      "website": null,
+      "lat": 37.7755032,
+      "lon": 29.085367,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05514390585-18",
+      "name": "Denizli Taksi",
+      "phone": "05514390585",
+      "website": null,
+      "lat": 37.7809768,
+      "lon": 29.0725845,
+      "address": "Taksi · 391. Sk. No:17",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05057996001-19",
+      "name": "mittur Taksi",
+      "phone": "05057996001",
+      "website": null,
+      "lat": 37.76947,
+      "lon": 29.0874456,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423164568-20",
+      "name": "DENiZLi ÜCGEN TAKSI",
+      "phone": "05423164568",
+      "website": null,
+      "lat": 37.8186922,
+      "lon": 29.0578107,
+      "address": "Taksi Durağı ·  · Menderes Blv. No:185",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05359562579-21",
+      "name": "Denizli Üniversite Bölgesi Pau Taksi",
+      "phone": "05359562579",
+      "website": null,
+      "lat": 37.784325,
+      "lon": 29.098201,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373324508-22",
+      "name": "En Yakın Taksi",
+      "phone": "05373324508",
+      "website": null,
+      "lat": 37.742176,
+      "lon": 29.094825,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524646888-23",
+      "name": "Eyfel Taksi",
+      "phone": "05524646888",
+      "website": null,
+      "lat": 37.819476,
+      "lon": 29.0408911,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05531626278-24",
+      "name": "Forum Çamlık Demokrasi Taksi",
+      "phone": "05531626278",
+      "website": null,
+      "lat": 37.783845,
+      "lon": 29.090175,
+      "address": "Topraklık Mah. 633 Sok. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02582123366-25",
+      "name": "Gurbet Taksi",
+      "phone": "02582123366",
+      "website": null,
+      "lat": 37.754564,
+      "lon": 29.0903278,
+      "address": "Taksi Durağı ·  · İncilipınar Cd. No:94",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05435136201-26",
+      "name": "Gurbet Taksi",
+      "phone": "05435136201",
+      "website": null,
+      "lat": 37.779489,
+      "lon": 29.082162,
+      "address": "Sırakapılar Mah. Saltak Cad. 52 Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325465714-27",
+      "name": "Hantane Taksi",
+      "phone": "05325465714",
+      "website": null,
+      "lat": 37.780089,
+      "lon": 29.082162,
+      "address": "Sırakapılar Mah. Saltak Cad. 52 Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02582613595-28",
+      "name": "Havaalanı Taksi",
+      "phone": "02582613595",
+      "website": null,
+      "lat": 37.78367,
+      "lon": 29.08259,
+      "address": "Saraylar Mah. Karaoğlanoğlu Cad. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-29-29",
+      "name": "- Denizli Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 37.775906,
+      "lon": 29.094321,
+      "address": "Hacıkaplanlar Mah. Atatürk Cad. 70 Pamukkale, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367705657-30",
+      "name": "İncilipınar Taksi",
+      "phone": "05367705657",
+      "website": null,
+      "lat": 37.7487431,
+      "lon": 29.1075349,
+      "address": "Taksi · Hüseyin Yılmaz Cd. No:2",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347949878-31",
+      "name": "Karaman Taksi",
+      "phone": "05347949878",
+      "website": null,
+      "lat": 37.756018,
+      "lon": 29.09619,
+      "address": "Taksi Durağı · İncilipınar Cd. No:117/A",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05058696869-32",
+      "name": "Onur Taksi",
+      "phone": "05058696869",
+      "website": null,
+      "lat": 37.7670159,
+      "lon": 29.0745449,
+      "address": "Taksi Durağı · NO:4, 1506. Sk. No:1",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333662115-33",
+      "name": "Otogar Taksi",
+      "phone": "05333662115",
+      "website": null,
+      "lat": 37.7487921,
+      "lon": 29.0991953,
+      "address": "Taksi Durağı · Bursa Cd. No:63",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372468141-34",
+      "name": "Pamukkale Pilot Taxi / Taksi",
+      "phone": "05372468141",
+      "website": null,
+      "lat": 37.784514,
+      "lon": 29.092523,
+      "address": "Topraklık Mah. Denizli Otogarı Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438739982-35",
+      "name": "Sigorta Taksi",
+      "phone": "05438739982",
+      "website": null,
+      "lat": 37.917614,
+      "lon": 29.1197232,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02582125367-36",
+      "name": "Taksi",
+      "phone": "02582125367",
+      "website": null,
+      "lat": 37.761553,
+      "lon": 29.090815,
+      "address": "İstiklal Mah. Kıbrıs Şehitler Cad. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384460940-37",
+      "name": "Taksi",
+      "phone": "05384460940",
+      "website": null,
+      "lat": 37.79127,
+      "lon": 29.082469,
+      "address": "Taksi · 146. Sk. no 6",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05458806965-38",
+      "name": "Üçgen Taksi",
+      "phone": "05458806965",
+      "website": null,
+      "lat": 37.7468221,
+      "lon": 29.1114458,
+      "address": null,
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05451250215-39",
+      "name": "Ulus Taksi",
+      "phone": "05451250215",
+      "website": null,
+      "lat": 37.7777076,
+      "lon": 29.0997139,
+      "address": "Taksi · Deliktaş, 1988/2. Sk. 23-1, Denizli Merkez",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02582127161-40",
+      "name": "Üniversite Kampüs Taksi",
+      "phone": "02582127161",
+      "website": null,
+      "lat": 37.754835,
+      "lon": 29.106125,
+      "address": "Taksi Durağı · İncilipınar Antalya Yolu No:16",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05544020339-41",
+      "name": "Üniversite Taksi",
+      "phone": "05544020339",
+      "website": null,
+      "lat": 37.7466555,
+      "lon": 29.1085672,
+      "address": "Taksi · Süleyman Demirel Cd. No:45",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365717226-42",
+      "name": "Üniversite Taksi",
+      "phone": "05365717226",
+      "website": null,
+      "lat": 37.743075,
+      "lon": 29.1088154,
+      "address": "Taksi Durağı ·  · Üniversite Cd. No:4",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05386891230-43",
+      "name": "Üniversite Taksi",
+      "phone": "05386891230",
+      "website": null,
+      "lat": 37.743248,
+      "lon": 29.105552,
+      "address": "Yunusemre Mah. Üniversite Cad. Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435136201-44",
+      "name": "Yenişehir Taksi",
+      "phone": "05435136201",
+      "website": null,
+      "lat": 37.7451099,
+      "lon": 29.1073889,
+      "address": "Taksi Durağı ·  · Yunus Emre Cd. No:90",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453739704-45",
+      "name": "denizli-taksi",
+      "phone": "05453739704",
+      "website": null,
+      "lat": 37.759225,
+      "lon": 29.041385,
+      "address": "Yenişehir Mah. Özmekan Sit. B1 Blok Denizli Merkez, Denizli",
+      "districtId": "pamukkale",
+      "districtName": "Pamukkale",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05326060410-46",
+      "name": "Hal Taksi",
+      "phone": "05326060410",
+      "website": null,
+      "lat": 37.7948823,
+      "lon": 29.0193683,
+      "address": "Taksi · 648. Sk.",
+      "districtId": "merkezefendi",
+      "districtName": "Merkezefendi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05078408400-47",
+      "name": "Hastane Taksi",
+      "phone": "05078408400",
+      "website": null,
+      "lat": 37.8320931,
+      "lon": 29.0277338,
+      "address": "Ulaşım Hizmeti ·  · 3064 Sk. no:20",
+      "districtId": "merkezefendi",
+      "districtName": "Merkezefendi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02582613595-48",
+      "name": "Servergazi Hastane Taksi",
+      "phone": "02582613595",
+      "website": null,
+      "lat": 37.782206,
+      "lon": 29.076797,
+      "address": "Sırakapılar Mah. Şehit Albay Karaoğlanoğlu Cad. 28 Merkezefendi, Denizli",
+      "districtId": "merkezefendi",
+      "districtName": "Merkezefendi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435136201-49",
+      "name": "Sümerpark Taksi",
+      "phone": "05435136201",
+      "website": null,
+      "lat": 37.77721,
+      "lon": 29.018341,
+      "address": "Bereketler Mah. Bereketli Cad. Merkezefendi, Denizli",
+      "districtId": "merkezefendi",
+      "districtName": "Merkezefendi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551680168-50",
+      "name": "Hastane Taksi",
+      "phone": "05551680168",
+      "website": null,
+      "lat": 37.794923,
+      "lon": 29.088072,
+      "address": "Sümer Mah. Akçeşme Cad. Merkezefendi, Denizli",
+      "districtId": "merkezefendi",
+      "districtName": "Merkezefendi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325465714-51",
+      "name": "Çivril Üniversite Taksi",
+      "phone": "05325465714",
+      "website": null,
+      "lat": 38.302905,
+      "lon": 29.731702,
+      "address": "Çarşı Mah. İsmet İnönü Blv. Çivril, Denizli",
+      "districtId": "civril",
+      "districtName": "Civril",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345521088-52",
+      "name": "Özlem Taksi",
+      "phone": "05345521088",
+      "website": null,
+      "lat": 38.284427,
+      "lon": 29.733146,
+      "address": null,
+      "districtId": "civril",
+      "districtName": "Civril",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02587131315-53",
+      "name": "zlem Taksi",
+      "phone": "02587131315",
+      "website": null,
+      "lat": 38.297817,
+      "lon": 29.738866,
+      "address": null,
+      "districtId": "civril",
+      "districtName": "Civril",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05383178781-54",
+      "name": "Karahayıt Taksi",
+      "phone": "05383178781",
+      "website": null,
+      "lat": 37.825035,
+      "lon": 29.668323,
+      "address": null,
+      "districtId": "babadag",
+      "districtName": "Babadag",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010887265-55",
+      "name": "rahayıt Taksi",
+      "phone": "05010887265",
+      "website": null,
+      "lat": 37.9661873,
+      "lon": 29.1029954,
+      "address": "Taksi · 118 Kızılhamam Sokak No: 3",
+      "districtId": "babadag",
+      "districtName": "Babadag",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05541873777-56",
+      "name": "Merkez Taksi",
+      "phone": "05541873777",
+      "website": null,
+      "lat": 38.047033,
+      "lon": 28.8323465,
+      "address": null,
+      "districtId": "buldan",
+      "districtName": "Buldan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05544649799-57",
+      "name": "Merkez Taksi",
+      "phone": "05544649799",
+      "website": null,
+      "lat": 38.046042,
+      "lon": 28.828784,
+      "address": "Kurtuluş Mah. Atatürk Cad. Buldan, Denizli",
+      "districtId": "buldan",
+      "districtName": "Buldan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372468141-58",
+      "name": "Sarayköy Taksi",
+      "phone": "05372468141",
+      "website": null,
+      "lat": 37.92696,
+      "lon": 28.919252,
+      "address": "Aşağı Mah. Ziyapaşa Cad. 44 Sarayköy, Denizli",
+      "districtId": "saraykoy",
+      "districtName": "Saraykoy",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05417973550-59",
+      "name": "arayköy Taksi",
+      "phone": "05417973550",
+      "website": null,
+      "lat": 37.9258119,
+      "lon": 28.9272905,
+      "address": null,
+      "districtId": "saraykoy",
+      "districtName": "Saraykoy",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05386891230-60",
+      "name": "niversite Paü Taksi",
+      "phone": "05386891230",
+      "website": null,
+      "lat": 37.7341823,
+      "lon": 29.1216709,
+      "address": "Taksi ·  · Acıpayam Blv. No:44",
+      "districtId": "acipayam",
+      "districtName": "Acipayam",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05415436060-61",
+      "name": "Ekol Taksi",
+      "phone": "05415436060",
+      "website": null,
+      "lat": 37.735213,
+      "lon": 29.13365,
+      "address": "Taksi Durağı · 1005. Sk. no 24",
+      "districtId": "baklan",
+      "districtName": "Baklan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373313095-62",
+      "name": "Dinçer Taksi",
+      "phone": "05373313095",
+      "website": null,
+      "lat": 38.227844,
+      "lon": 29.424227,
+      "address": "Yeni Mah. Denizli Cad. 4/A Bekilli, Denizli",
+      "districtId": "bekilli",
+      "districtName": "Bekilli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551680168-63",
+      "name": "Sümer Taksi",
+      "phone": "05551680168",
+      "website": null,
+      "lat": 37.7888484,
+      "lon": 29.0888546,
+      "address": "Taksi · Çal Cd. No:4",
+      "districtId": "cal",
+      "districtName": "Cal",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05355097001-64",
+      "name": "ameli Taksi",
+      "phone": "05355097001",
+      "website": null,
+      "lat": 37.0763359,
+      "lon": 29.3507836,
+      "address": null,
+      "districtId": "cameli",
+      "districtName": "Cameli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05073632020-65",
+      "name": "Acıgöl Taksi",
+      "phone": "05073632020",
+      "website": null,
+      "lat": 37.823943,
+      "lon": 29.678795,
+      "address": "Hürriyet Mah. Cengizerler Sok. Çardak, Denizli",
+      "districtId": "cardak",
+      "districtName": "Cardak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-02582714233-66",
+      "name": "Pamukkale Karahayıt Taksi",
+      "phone": "02582714233",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05414555500-67",
+      "name": "Denizli Vip Transfer - Lüks Araç Kiralama",
+      "phone": "05414555500",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-08503333535-68",
+      "name": "Pamukkale Turizm Denizli Otogar",
+      "phone": "08503333535",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02582682831-69",
+      "name": "Denizli Garı",
+      "phone": "02582682831",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05454965492-70",
+      "name": "Taksi durağı",
+      "phone": "05454965492",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02582614870-71",
+      "name": "Nuray Taksi Römorkları",
+      "phone": "02582614870",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05325277102-72",
+      "name": "Taksi Suat Salur",
+      "phone": "05325277102",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05522000474-73",
+      "name": "En yakın taksi Üniversite taksi Pamukkale üniversitesi taksi Paü taksi Çamlaralt",
+      "phone": "05522000474",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05011196701-74",
+      "name": "Taşıt Taksit Denizli",
+      "phone": "05011196701",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05465160155-75",
+      "name": "KAMPÜS ÜNİVERSİTE TAKSI",
+      "phone": "05465160155",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-02585183122-76",
+      "name": "Tümü → Park Taksi Acıpayam",
+      "phone": "02585183122",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05346300668-77",
+      "name": "Tümü → Dinçer Taksi",
+      "phone": "05346300668",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02587911456-78",
+      "name": "Vahit Taksi",
+      "phone": "02587911456",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05456537523-79",
+      "name": "Tümü → Buldan Taksi",
+      "phone": "05456537523",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02845131518-80",
+      "name": "Çınar Taksi Buldan AÇIK · 7 gün 24 saat Dört Eylül Mh. Adnan Menderes Blv. Pk:20",
+      "phone": "02845131518",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02584312580-81",
+      "name": "Mekik Taksi AÇIK · 7 gün 24 saat Dört Eylül Mh. Adnan Menderes Blv. Pk:20410 Bul",
+      "phone": "02584312580",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05468835171-82",
+      "name": "Tümü → Çal Taksi Ve Oto Kurtarma",
+      "phone": "05468835171",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05335478918-83",
+      "name": "Tümü → Çameli Otogar Taksi",
+      "phone": "05335478918",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02587134901-84",
+      "name": "Tümü → Çiçek Taksi",
+      "phone": "02587134901",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05426612888-85",
+      "name": "Çivril Garaj Taksi ( Hacı 20 T 0525 )",
+      "phone": "05426612888",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02582417502-86",
+      "name": "Tümü → Adliye Taksi Denizli AÇIK · 7 gün 24 saat Adalet Mahallesi, Hasan Gönüllü",
+      "phone": "02582417502",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05312478898-87",
+      "name": "Denizli Saltak Taksi",
+      "phone": "05312478898",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02582659028-88",
+      "name": "Hastane Taksi Denizli – Denizli AÇIK · 7 gün 24 saat Sırakapılar, Şht. Albay Kar",
+      "phone": "02582659028",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05432659028-89",
+      "name": "Konak Taksi Denizli Merkezefendi",
+      "phone": "05432659028",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05374994248-90",
+      "name": "Kurşunlu Taksi",
+      "phone": "05374994248",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02582688055-91",
+      "name": "Servergazi Taksi AÇIK · 7 gün 24 saat Gerzele, Hakkı Dereköylü Cd. No:17, 20040 ",
+      "phone": "02582688055",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05070032505-92",
+      "name": "Sümer Taksi Denizli",
+      "phone": "05070032505",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05544850346-93",
+      "name": "Sümer Taksi Denizli Merkezefendi",
+      "phone": "05544850346",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05494849666-94",
+      "name": "Taksi Akşit",
+      "phone": "05494849666",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05077690414-95",
+      "name": "Uğur Taksi Denizli AÇIK · 7 gün 24 saat Saraylar, Hastane Cd. No:506, 20010 Deni",
+      "phone": "05077690414",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02582637475-96",
+      "name": "Yıldız Taksi",
+      "phone": "02582637475",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02582419797-97",
+      "name": "Bulvar Taksi AÇIK · 7 gün 24 saat 15 Mayıs, Gazi Mustafa Kemal Blv. No:81, 20150",
+      "phone": "02582419797",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05387425080-98",
+      "name": "Denizli Heryere Taksi – Denizli Taksi AÇIK · 7 gün 24 saat Topraklık, otobüs ter",
+      "phone": "05387425080",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05308355874-99",
+      "name": "Denizli Otogar Taksi – Denizli AÇIK · 7 gün 24 saat Otogar Turan Güneş Cad., Den",
+      "phone": "05308355874",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05528532020-100",
+      "name": "Denizli Taksi",
+      "phone": "05528532020",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05050189189-101",
+      "name": "Denizli Terminal Taksi AÇIK · 7 gün 24 saat Topraklık, Gazi Mustafa Kemal Blv. N",
+      "phone": "05050189189",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05011130135-102",
+      "name": "Denizli Topraklık Taksi Pamukkale",
+      "phone": "05011130135",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05010510235-103",
+      "name": "Denizli Topraklık-gar Taksi",
+      "phone": "05010510235",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05453941394-104",
+      "name": "Denizli Üniversite Taksi Kınıklı AÇIK · 7 gün 24 saat Pamukkale Ünv. Kınıklı Kam",
+      "phone": "05453941394",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02582654580-105",
+      "name": "En Yakın Taksi Durağı AÇIK · 7 gün 24 saat Topraklık, İzmir Bulvarı, Turan Güneş",
+      "phone": "02582654580",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05383550707-106",
+      "name": "İstiklal Taksi AÇIK · 7 gün 24 saat İstiklal, İstiklal Caddesi, Sabır apartmanı ",
+      "phone": "05383550707",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05422534664-107",
+      "name": "Taksici Eşref",
+      "phone": "05422534664",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05059950369-108",
+      "name": "Terminal Taksi",
+      "phone": "05059950369",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05436406405-109",
+      "name": "Ulus Taksi 344 AÇIK · 7 gün 24 saat Yunusemre, Hüseyin Yılmaz Cd. No:3 D:1, 2016",
+      "phone": "05436406405",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05425978066-110",
+      "name": "Üniversite Taksi Durağı",
+      "phone": "05425978066",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02584155727-111",
+      "name": "Tümü → Garaj Taksi Sarayköy",
+      "phone": "02584155727",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05530998888-112",
+      "name": "Umut Taksi",
+      "phone": "05530998888",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02583739704-113",
+      "name": "Tümü → Yenişehir Servergazi Taksi",
+      "phone": "02583739704",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05383564098-114",
+      "name": "Tümü → Tavas Taksi",
+      "phone": "05383564098",
+      "website": null,
+      "lat": 37.7765,
+      "lon": 29.0864,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05355143186-115",
+      "name": "Acıpayam Taksi - Ali Özkurt",
+      "phone": "05355143186",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "acipayam",
+      "districtName": "Acıpayam",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05308788850-116",
+      "name": "Acıpayam Taksi - Hasan Alan",
+      "phone": "05308788850",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "acipayam",
+      "districtName": "Acıpayam",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05070631880-117",
+      "name": "Hal Taksi - Ahmet Noyan",
+      "phone": "05070631880",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkezefendi",
+      "districtName": "Merkezefendi",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "cityId": "duzce",
+  "cityName": "Düzce",
+  "fetchedAt": "2026-08-30T21:25:29.156Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 103,
+  "stands": [
+    {
+      "id": "taksi724-05525675381-0",
+      "name": "Ak Taksi",
+      "phone": "05525675381",
+      "lat": 40.8269049,
+      "lon": 31.1893064,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304305081-1",
+      "name": "Aydınpınar Asar Taksi",
+      "phone": "05304305081",
+      "lat": 41.088684,
+      "lon": 31.123001,
+      "address": "Yalı Mah. Bahadır Yalçın Cad. Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05411805481-2",
+      "name": "Aydınpınar Taksi",
+      "phone": "05411805481",
+      "lat": 40.8373627,
+      "lon": 31.1591939,
+      "address": "Taksi Durağı · Şaguç, Cedidiye Mah. Mimar Sinan Caddesi, Köprü Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05347446530-3",
+      "name": "Bahçeşehir Emre Taksi",
+      "phone": "05347446530",
+      "lat": 40.8372034,
+      "lon": 31.158739,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352536617-4",
+      "name": "Bahçeşehir Kalıcı Taksi",
+      "phone": "05352536617",
+      "lat": 40.8613114,
+      "lon": 31.2310249,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315995761-5",
+      "name": "Beçi Düzce Taksi",
+      "phone": "05315995761",
+      "lat": 40.8681199,
+      "lon": 31.2262947,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05545575840-6",
+      "name": "Beçi Üniversite Taksi",
+      "phone": "05545575840",
+      "lat": 40.8952713,
+      "lon": 31.1681894,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421306181-7",
+      "name": "Beyciler Taksi",
+      "phone": "05421306181",
+      "lat": 40.8974264,
+      "lon": 31.1695278,
+      "address": "Taksi Durağı ·  · Necmi Hoşver Cd. No:29/A",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383214581-8",
+      "name": "Beçi Üniversite Taksi AÇIK · 7 gün 24 saat Şehit Murat Demir, Necmi Hoşver Cd. N",
+      "phone": "05383214581",
+      "lat": 40.8611337,
+      "lon": 31.1763427,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03804117688-9",
+      "name": "Çiçek Taksi",
+      "phone": "03804117688",
+      "lat": 40.8680076,
+      "lon": 31.2271452,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05327422060-10",
+      "name": "Çınar Taksi",
+      "phone": "05327422060",
+      "lat": 41.088652,
+      "lon": 31.121509,
+      "address": "Yalı Mah. İnönü Cad. Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805121339-11",
+      "name": "Çoban dörtyol Taksi",
+      "phone": "03805121339",
+      "lat": 41.089121,
+      "lon": 31.122522,
+      "address": "Yalı Mah. İskele Sok. Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805147755-12",
+      "name": "Çoban Taksi",
+      "phone": "03805147755",
+      "lat": 40.8462845,
+      "lon": 31.1651005,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03805143727-13",
+      "name": "Çuhallı Taksi",
+      "phone": "03805143727",
+      "lat": 40.8445678,
+      "lon": 31.1648732,
+      "address": "Taksi · Erdoğmuş Sk. Pk:81010",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05436535381-14",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05436535381",
+      "lat": 41.089482,
+      "lon": 31.139869,
+      "address": "Osmaniye Mah. İstiklal Cad. Çuhallı Çrş. Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05065200782-15",
+      "name": "Düzce Cedidiye Taksi",
+      "phone": "05065200782",
+      "lat": 40.8405604,
+      "lon": 31.1796695,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05379967799-16",
+      "name": "Düzce Hamidiye Taksi",
+      "phone": "05379967799",
+      "lat": 40.8534218,
+      "lon": 31.1462892,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469701081-17",
+      "name": "Düzce Kervan Taksi",
+      "phone": "05469701081",
+      "lat": 40.846425,
+      "lon": 31.16383,
+      "address": "Taksi Durağı · Hamidiye Mahallesi D100 Karayolu Üzeri No:1 T7 Petrolleri Yanı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324949502-18",
+      "name": "Düzce krempark AVM Merkez Taksi",
+      "phone": "05324949502",
+      "lat": 40.8350249,
+      "lon": 31.1729492,
+      "address": "Taksi Durağı · Eski Bolu Cd. No:1233",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05016081381-19",
+      "name": "Düzce Merkez AVM Taksi",
+      "phone": "05016081381",
+      "lat": 40.840753,
+      "lon": 31.1531713,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05469786819-20",
+      "name": "Düzce Merkez Taksi",
+      "phone": "05469786819",
+      "lat": 40.8408626,
+      "lon": 31.152908,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010575781-21",
+      "name": "Düzce Merkez Taksi",
+      "phone": "05010575781",
+      "lat": 40.8440795,
+      "lon": 31.1360516,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362718424-22",
+      "name": "Düzce Taksi",
+      "phone": "05362718424",
+      "lat": 40.8362226,
+      "lon": 31.1582252,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05332739248-23",
+      "name": "Düzce Taksi",
+      "phone": "05332739248",
+      "lat": 40.8283181,
+      "lon": 31.167598,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05468832192-24",
+      "name": "Düzce Terminal Taksi",
+      "phone": "05468832192",
+      "lat": 40.8494197,
+      "lon": 31.1599338,
+      "address": "Taksi Durağı · Hamidiye Sk. no:21",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05304305081-25",
+      "name": "Emniyet Taksi",
+      "phone": "05304305081",
+      "lat": 40.826736,
+      "lon": 31.1678766,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805250055-26",
+      "name": "Er Taksi",
+      "phone": "03805250055",
+      "lat": 40.8404313,
+      "lon": 31.1368742,
+      "address": "Taksi Durağı ·  · İstanbul Cd. No:168/A",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03805239922-27",
+      "name": "Hastane Taksi",
+      "phone": "03805239922",
+      "lat": 40.8465798,
+      "lon": 31.1653361,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384910186-28",
+      "name": "EMRE TAKSi",
+      "phone": "05384910186",
+      "lat": 41.087557,
+      "lon": 31.117341,
+      "address": "Cumhuriyet Mah. Park Cad. 1 Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05352536617-29",
+      "name": "EYMEN TAKSi DÜZCE BAHÇEŞEHiR TAKSi",
+      "phone": "05352536617",
+      "lat": 40.8610659,
+      "lon": 31.2312126,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05372152881-30",
+      "name": "Kent Taksi",
+      "phone": "05372152881",
+      "lat": 40.8609948,
+      "lon": 31.2292162,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326254719-31",
+      "name": "KOÇYAZI TAKSi",
+      "phone": "05326254719",
+      "lat": 41.087587,
+      "lon": 31.108569,
+      "address": "Hacı Yusuflar Mah. İstanbul Cad. 173 Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396041065-32",
+      "name": "Küçük Sanayi Sitesi Taksi",
+      "phone": "05396041065",
+      "lat": 40.8410115,
+      "lon": 31.1803414,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334678688-33",
+      "name": "Lise Taksi",
+      "phone": "05334678688",
+      "lat": 40.8505742,
+      "lon": 31.1190794,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05072784821-34",
+      "name": "Memursen Taksi",
+      "phone": "05072784821",
+      "lat": 40.8417431,
+      "lon": 31.1509119,
+      "address": "Taksi Durağı ·  · Kültür Mahallesi, 737. Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805260066-35",
+      "name": "Prestij Taksi",
+      "phone": "03805260066",
+      "lat": 40.8557737,
+      "lon": 31.1534218,
+      "address": "Taksi Durağı · Servet Bucurgat Cd No:18",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05339666081-36",
+      "name": "Sapak Taksi",
+      "phone": "05339666081",
+      "lat": 40.8651465,
+      "lon": 31.171481,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373810988-37",
+      "name": "Taksi",
+      "phone": "05373810988",
+      "lat": 40.8936575,
+      "lon": 31.1675951,
+      "address": "Taksi · 500. Sok., orhan gazi mah 500 sok. beçi sapağı konurlp/düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05065200782-38",
+      "name": "Taksi",
+      "phone": "05065200782",
+      "lat": 40.8623444,
+      "lon": 31.21006,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323210671-39",
+      "name": "Terminal Taksi",
+      "phone": "05323210671",
+      "lat": 40.8372499,
+      "lon": 31.15901,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05304305081-40",
+      "name": "Tuncay Şengül Vip Taksi",
+      "phone": "05304305081",
+      "lat": 41.085536,
+      "lon": 31.175411,
+      "address": "Ayazlı Mah. Ereğli Cad. Akçakoca Otogarı Akçakoca, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374571547-41",
+      "name": "duzce-taksi",
+      "phone": "05374571547",
+      "lat": 40.8300339,
+      "lon": 31.1714528,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323210671-42",
+      "name": "As Taksi",
+      "phone": "05323210671",
+      "lat": 40.847907,
+      "lon": 31.157957,
+      "address": "Hamidiye Mah. Çetek Sok. 4 Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327422060-43",
+      "name": "As Taksi",
+      "phone": "05327422060",
+      "lat": 40.845712,
+      "lon": 31.151801,
+      "address": "Uzunmustafa Mah. Kuyumcuzade Blv. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327422060-44",
+      "name": "Atılgan Taksi",
+      "phone": "05327422060",
+      "lat": 40.848356,
+      "lon": 31.150609,
+      "address": "Uzunmustafa Mah. D-100 Karayolu Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805241523-45",
+      "name": "Aydınpınar Taksi",
+      "phone": "03805241523",
+      "lat": 40.840752,
+      "lon": 31.1639,
+      "address": "Burhaniye Mah. Dumlupınar Sok. 26 Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05347446530-46",
+      "name": "Azmi Milli Birlik Taksi",
+      "phone": "05347446530",
+      "lat": 40.835959,
+      "lon": 31.145873,
+      "address": "Çay Mah. Tabak Sok. 24 Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805236918-47",
+      "name": "Belediye Taksi",
+      "phone": "03805236918",
+      "lat": 40.832143,
+      "lon": 31.167552,
+      "address": "Azmi Milli Mah. Gazhane Cad. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05327422060-48",
+      "name": "Bulvar Taksi",
+      "phone": "05327422060",
+      "lat": 40.838446,
+      "lon": 31.161621,
+      "address": "Cedidiye Mah. Necip Güney Sok. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05444848181-49",
+      "name": "Düzce Beyköy Taksi",
+      "phone": "05444848181",
+      "lat": 40.84271,
+      "lon": 31.16387,
+      "address": "Şerefiye Mah. Atatürk Blv. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373030673-50",
+      "name": "Fettah Taksi",
+      "phone": "05373030673",
+      "lat": 40.83094,
+      "lon": 31.18698,
+      "address": "Beyköy-Cumhuriyet Mah. Belediye Binası Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03805141414-51",
+      "name": "Komit Taksi",
+      "phone": "03805141414",
+      "lat": 40.836777,
+      "lon": 31.169386,
+      "address": "Nusrettin Mah. İlim Sok. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424125886-52",
+      "name": "Konak Taksi",
+      "phone": "05424125886",
+      "lat": 40.834162,
+      "lon": 31.163394,
+      "address": "Azmimilli Mah. Cevdet Komit Cad. 1 Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03805237878-53",
+      "name": "Küçüksu Taksi",
+      "phone": "03805237878",
+      "lat": 40.845505,
+      "lon": 31.148801,
+      "address": "Uzunmustafa Mah. Uzun Mustafa Cad. 49 Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326477569-54",
+      "name": "Metek Toki Taksi",
+      "phone": "05326477569",
+      "lat": 40.831543,
+      "lon": 31.167552,
+      "address": "Azmimilli Mah. Gazhane Cad. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326254719-55",
+      "name": "Özgar Taksi",
+      "phone": "05326254719",
+      "lat": 40.852683,
+      "lon": 31.178025,
+      "address": "Koçyazı Mah. 2400 Sok. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326715434-56",
+      "name": "Park Taksi",
+      "phone": "05326715434",
+      "lat": 40.838998,
+      "lon": 31.151868,
+      "address": "Camikebir Mah. Güney Sok. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327019916-57",
+      "name": "Valilik Taksi",
+      "phone": "05327019916",
+      "lat": 40.840589,
+      "lon": 31.1579,
+      "address": "Kültür Mah. Mansur Bayram Cad. 7 Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332739248-58",
+      "name": "duzce-taksi",
+      "phone": "05332739248",
+      "lat": 40.840023,
+      "lon": 31.156457,
+      "address": "Camikebir Mah. Şen Sok. Düzce Merkez, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05422415377-59",
+      "name": "Çilimli Taksi",
+      "phone": "05422415377",
+      "lat": 40.8505634,
+      "lon": 31.0516636,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357112544-60",
+      "name": "Çilimli Taksi",
+      "phone": "05357112544",
+      "lat": 40.8882882,
+      "lon": 31.0457845,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05465398181-61",
+      "name": "Öz Meydan Taksi",
+      "phone": "05465398181",
+      "lat": 40.8929372,
+      "lon": 31.0463206,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315672680-62",
+      "name": "ilimli Taksi",
+      "phone": "05315672680",
+      "lat": 40.8930745,
+      "lon": 31.0467128,
+      "address": "Taksi Durağı · Düzce Cd. No:21",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03807354218-63",
+      "name": "Cumayeri Taksi",
+      "phone": "03807354218",
+      "lat": 40.8764423,
+      "lon": 30.9501348,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05362255481-64",
+      "name": "Merkez Taksi",
+      "phone": "05362255481",
+      "lat": 40.8565335,
+      "lon": 30.9550899,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05435618181-65",
+      "name": "Merkez Taksi",
+      "phone": "05435618181",
+      "lat": 40.873458,
+      "lon": 30.951147,
+      "address": "Çevrik Mah. Hürriyet Cad. 4 Cumayeri, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324427482-66",
+      "name": "Sapak Birlik Taksi",
+      "phone": "05324427482",
+      "lat": 40.848691,
+      "lon": 30.944461,
+      "address": "Merkez Mah. İstanbul Cad. Gümüşova, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05354666022-67",
+      "name": "Sapak Birlik Taksi",
+      "phone": "05354666022",
+      "lat": 40.8535033,
+      "lon": 30.9549926,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445200090-68",
+      "name": "Meydan Taksi",
+      "phone": "05445200090",
+      "lat": 40.7734348,
+      "lon": 31.3186513,
+      "address": "Taksi Durağı ·  · Kültür Mahallesi, D100 Üzeri No:9/1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05367447299-69",
+      "name": "Kaynaşlı Taksi",
+      "phone": "05367447299",
+      "lat": 40.77208,
+      "lon": 31.319205,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03805149457-70",
+      "name": "Birlik Taksi",
+      "phone": "03805149457",
+      "lat": 40.776199,
+      "lon": 30.994826,
+      "address": "Kültür Mah. Fatih Cad. Gölyaka, Düzce",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05434712394-71",
+      "name": "Yığılca Taksi",
+      "phone": "05434712394",
+      "lat": 40.9606921,
+      "lon": 31.4444757,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05310150118-72",
+      "name": "Kalıcı konutlar Bahçeşehir taksi",
+      "phone": "05310150118",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05412068881-73",
+      "name": "TAKSİ BEÇİ ÜNİVERSİTE ( ŞAFAK YILMAZ )",
+      "phone": "05412068881",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05436010081-74",
+      "name": "KİRAZLI TAKSİ DÜZCE",
+      "phone": "05436010081",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-03807354541-75",
+      "name": "Tümü → Merkez Taksi Cumayeri",
+      "phone": "03807354541",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05377711080-76",
+      "name": "TURANLAR TUR | DÜZCE PERSONEL VE ÖĞRENCİ TAŞIMACILIĞI",
+      "phone": "05377711080",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05366527862-77",
+      "name": "Aydınpınar Taksi (murat)",
+      "phone": "05366527862",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05063989081-78",
+      "name": "Cedidiye Taksi Şaban",
+      "phone": "05063989081",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05462335763-79",
+      "name": "Çınar Taksi Düzce",
+      "phone": "05462335763",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05367190686-80",
+      "name": "Çoban Taksi AÇIK · 7 gün 24 saat Burhaniye, Erdoğmuş Sk. Pk:81010, 81010 Düzce M",
+      "phone": "05367190686",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03805232356-81",
+      "name": "Düzce Beçi Taksi AÇIK · 7 gün 24 saat Orhangazi, Konuralp 500. Cad. (Üniversite ",
+      "phone": "03805232356",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03805122313-82",
+      "name": "Düzce Cedidiye Taksi AÇIK · 7 gün 24 saat Cedidiye, Düzce Merkez, Belediye Önü, ",
+      "phone": "03805122313",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05449460081-83",
+      "name": "Düzce Kültür Taksi",
+      "phone": "05449460081",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358159668-84",
+      "name": "Düzce Merkez Taksi Durağı",
+      "phone": "05358159668",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05366440881-85",
+      "name": "Düzce Taksi",
+      "phone": "05366440881",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05412011237-86",
+      "name": "Duzce Ticari Taksi",
+      "phone": "05412011237",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05056896910-87",
+      "name": "Konuralp Merkez Taksi",
+      "phone": "05056896910",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03805121676-88",
+      "name": "Küçüksü Taksi",
+      "phone": "03805121676",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05526268282-89",
+      "name": "Safa Taksi / Kalıcı Konutlar / Düzce Merkez",
+      "phone": "05526268282",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03806115300-90",
+      "name": "Üniversite Hastane Taksi AÇIK · 7 gün 24 saat Düzce Üniversitesi Tıp Fakültesi İ",
+      "phone": "03806115300",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03806118440-91",
+      "name": "Akçakoca Hastane Taksi Durağı",
+      "phone": "03806118440",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05358222785-92",
+      "name": "Akçakoca Taksi",
+      "phone": "05358222785",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03806113904-93",
+      "name": "Akçakoca Terminal Taksi AÇIK · 7 gün 24 saat Ayazlı Mahallesi, Ereğli Cd. Akçako",
+      "phone": "03806113904",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466119090-94",
+      "name": "Kent Taksi Akçakoca",
+      "phone": "05466119090",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05547694170-95",
+      "name": "Ümit Kar Taksi AÇIK · 7 gün 24 saat Osmaniye, kardelen apt, Hacıoğlu Sk. no:1, 8",
+      "phone": "05547694170",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05362133678-96",
+      "name": "Tümü → Gölyaka Garaj Taksi",
+      "phone": "05362133678",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03807112121-97",
+      "name": "Gölyaka Hastane Taksi",
+      "phone": "03807112121",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05414419683-98",
+      "name": "Tümü → Aydın Taksi",
+      "phone": "05414419683",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05424625772-99",
+      "name": "Kaynaşli Meydan Taksi",
+      "phone": "05424625772",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05548880561-100",
+      "name": "Kaynaşlı Taksi",
+      "phone": "05548880561",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05387436181-101",
+      "name": "Kaynaşlı Taksi 2",
+      "phone": "05387436181",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05550815663-102",
+      "name": "Tümü → Birlik Taksi Yığılca Düzce",
+      "phone": "05550815663",
+      "lat": 40.8438,
+      "lon": 31.1565,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    }
+  ]
+}

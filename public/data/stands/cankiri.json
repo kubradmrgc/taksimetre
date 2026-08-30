@@ -1,0 +1,640 @@
+{
+  "cityId": "cankiri",
+  "cityName": "Çankırı",
+  "fetchedAt": "2026-08-30T21:29:15.194Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "atkaracalar",
+      "name": "Atkaracalar",
+      "count": 8
+    },
+    {
+      "id": "cerkes",
+      "name": "Cerkes",
+      "count": 2
+    },
+    {
+      "id": "eldivan",
+      "name": "Eldivan",
+      "count": 1
+    },
+    {
+      "id": "ilgaz",
+      "name": "İlgaz",
+      "count": 2
+    },
+    {
+      "id": "kizilirmak",
+      "name": "Kizilirmak",
+      "count": 1
+    },
+    {
+      "id": "kursunlu",
+      "name": "Kursunlu",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 10
+    },
+    {
+      "id": "sabanozu",
+      "name": "Sabanozu",
+      "count": 2
+    }
+  ],
+  "count": 38,
+  "stands": [
+    {
+      "id": "taksi724-03762132121-0",
+      "name": "ÇAŞTi Otogar Taksi",
+      "phone": "03762132121",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": "Abdulhalik Renda, Ankara Cd. No:26",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03762136159-1",
+      "name": "Güven Taksi",
+      "phone": "03762136159",
+      "website": null,
+      "lat": 40.602,
+      "lon": 33.614,
+      "address": "Abdulhalik Renda, Bayramlar Sk. No:6",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03762139999-2",
+      "name": "Imaret Taksi",
+      "phone": "03762139999",
+      "website": null,
+      "lat": 40.600049,
+      "lon": 33.614874,
+      "address": "Cumhuriyet Mah. Atatürk Blv. 2 Çankırı Merkez, Çankırı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03762131171-3",
+      "name": "Kucaklama Taşı Taksi",
+      "phone": "03762131171",
+      "website": null,
+      "lat": 40.601838,
+      "lon": 33.615765,
+      "address": "Cumhuriyet Mah. İplikpazarı Sok. 2 Çankırı Merkez, Çankırı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03762126160-4",
+      "name": "Merkez Taksi",
+      "phone": "03762126160",
+      "website": null,
+      "lat": 40.6,
+      "lon": 33.612,
+      "address": "Buğday Pazarı, Yapraklı Blv. no:2/11",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03762121212-5",
+      "name": "Örnek Taksi",
+      "phone": "03762121212",
+      "website": null,
+      "lat": 40.601,
+      "lon": 33.613,
+      "address": "Çankırı Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03762132038-6",
+      "name": "Örnek Taksi",
+      "phone": "03762132038",
+      "website": null,
+      "lat": 40.6008,
+      "lon": 33.6128,
+      "address": "Cumhuriyet, Elif Cd. 38 A",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-7-7",
+      "name": "Terminal Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.600844,
+      "lon": 33.618563,
+      "address": "Cumhuriyet Mah. Elif Cad. Çankırı Merkez, Çankırı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-8-8",
+      "name": "Uzay Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.595367,
+      "lon": 33.620446,
+      "address": "Abdülhalik Renda Mah. Ankara Cad. 1 Çankırı Merkez, Çankırı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03762136677-9",
+      "name": "cankiri-taksi",
+      "phone": "03762136677",
+      "website": null,
+      "lat": 40.598925,
+      "lon": 33.617394,
+      "address": "Cumhuriyet Mah. Pırıltı Cad. Necip Fazıl Kısakürek Sok. Çankırı Merkez, Çankırı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05448409298-10",
+      "name": "Çankırı Adliye Taksi",
+      "phone": "05448409298",
+      "website": null,
+      "lat": 40.5986892,
+      "lon": 33.6200977,
+      "address": "Ulaşım Hizmeti ·  · Cumhuriyet mahallesi Elif Caddesi, Atatürk Blv.",
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05434501091-11",
+      "name": "Çankırı Hastane Taksi",
+      "phone": "05434501091",
+      "website": null,
+      "lat": 40.5816988,
+      "lon": 33.618575,
+      "address": null,
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03762137474-12",
+      "name": "Çankırı Otogar Taksi",
+      "phone": "03762137474",
+      "website": null,
+      "lat": 40.6238965,
+      "lon": 33.606941,
+      "address": null,
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-03762136159-13",
+      "name": "Çankırı Terminal Taksi",
+      "phone": "03762136159",
+      "website": null,
+      "lat": 40.603077,
+      "lon": 33.6066001,
+      "address": "Taksi Durağı ·  · Hastane Sk. No:18",
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03762136159-14",
+      "name": "Merkez Taksi",
+      "phone": "03762136159",
+      "website": null,
+      "lat": 40.5930484,
+      "lon": 33.6200738,
+      "address": "Taksi Durağı ·  · Bayramlar Sk. No:6",
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-15-15",
+      "name": "Murat Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.816067,
+      "lon": 33.075379,
+      "address": "Gazibey Mah. Nevzat Ayaz Cad. 2 Atkaracalar, Çankırı",
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03762131021-16",
+      "name": "Sağlık Taksi",
+      "phone": "03762131021",
+      "website": null,
+      "lat": 40.5989915,
+      "lon": 33.6217964,
+      "address": "Taksi Durağı · Sinema Sk. No:2",
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-03762125100-17",
+      "name": "ankırı Hastane Taksi",
+      "phone": "03762125100",
+      "website": null,
+      "lat": 40.6073635,
+      "lon": 33.614588,
+      "address": null,
+      "districtId": "atkaracalar",
+      "districtName": "Atkaracalar",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03766672020-18",
+      "name": "Terminal Taksi",
+      "phone": "03766672020",
+      "website": null,
+      "lat": 40.81,
+      "lon": 32.89,
+      "address": "Çerkeş Merkez",
+      "districtId": "cerkes",
+      "districtName": "Cerkes",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-19-19",
+      "name": "erkeş Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.811081,
+      "lon": 32.893897,
+      "address": "Yeni Mah. Hükümet Cad. 9/1 Çerkeş, Çankırı",
+      "districtId": "cerkes",
+      "districtName": "Cerkes",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-20-20",
+      "name": "Ilgaz Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.925121,
+      "lon": 33.623441,
+      "address": "Ulupınar Mah. Han Sok. Ilgaz, Çankırı",
+      "districtId": "ilgaz",
+      "districtName": "İlgaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03764272020-21",
+      "name": "Ilgaz Taksi",
+      "phone": "03764272020",
+      "website": null,
+      "lat": 40.92,
+      "lon": 33.63,
+      "address": "Ilgaz Merkez",
+      "districtId": "ilgaz",
+      "districtName": "İlgaz",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325985435-22",
+      "name": "Kurşunlu Taksi",
+      "phone": "05325985435",
+      "website": null,
+      "lat": 40.840846,
+      "lon": 33.261121,
+      "address": "Taksi Durağı · Hocalar Sk.",
+      "districtId": "kursunlu",
+      "districtName": "Kursunlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05443464321-23",
+      "name": "Kurşunlu Taksi",
+      "phone": "05443464321",
+      "website": null,
+      "lat": 40.841288,
+      "lon": 33.2608536,
+      "address": null,
+      "districtId": "kursunlu",
+      "districtName": "Kursunlu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05416060789-24",
+      "name": "Şabanözü Taksi",
+      "phone": "05416060789",
+      "website": null,
+      "lat": 40.4842666,
+      "lon": 33.282931,
+      "address": null,
+      "districtId": "sabanozu",
+      "districtName": "Sabanozu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389773850-25",
+      "name": "abanözü Taksi",
+      "phone": "05389773850",
+      "website": null,
+      "lat": 40.4831169,
+      "lon": 33.2820437,
+      "address": "Taksi Durağı ·  · Çiçek Sk. no:1",
+      "districtId": "sabanozu",
+      "districtName": "Sabanozu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-26-26",
+      "name": "Eldivan ilçesindeki taksi",
+      "phone": null,
+      "website": null,
+      "lat": 40.530357,
+      "lon": 33.497029,
+      "address": "Çay Mah. İsmail Hakkı Karadayı Cad. 7 Eldivan, Çankırı",
+      "districtId": "eldivan",
+      "districtName": "Eldivan",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05421303961-27",
+      "name": "Murat Taksi",
+      "phone": "05421303961",
+      "website": null,
+      "lat": 41.8083,
+      "lon": 27.241824,
+      "address": null,
+      "districtId": "kizilirmak",
+      "districtName": "Kizilirmak",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksiciler-03767121545-28",
+      "name": "Viptaksi AÇIK · 7 gün 24 saat İncili Çeşme, Otobüs Durağı, Atatürk Blv., 18100 Ç",
+      "phone": "03767121545",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05332677537-29",
+      "name": "Tümü → Merkez Taksi",
+      "phone": "05332677537",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05393738522-30",
+      "name": "Taksi (eldivan Tulpar Taksi)",
+      "phone": "05393738522",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05380956718-31",
+      "name": "Tümü → Birlik Taksi Çerkeş",
+      "phone": "05380956718",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05428096490-32",
+      "name": "Çerkeş Taksi Çerkeş",
+      "phone": "05428096490",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03767663747-33",
+      "name": "Terminal Taksi Çerkeş",
+      "phone": "03767663747",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-03764161111-34",
+      "name": "Tümü → Ilgaz Taksi Ilgaz",
+      "phone": "03764161111",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05388421800-35",
+      "name": "Taksi Ilgaz",
+      "phone": "05388421800",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05315004648-36",
+      "name": "Tümü → Çağan Taksi (orta)",
+      "phone": "05315004648",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05314805265-37",
+      "name": "Şabanözü Taksi Durağı",
+      "phone": "05314805265",
+      "website": null,
+      "lat": 40.6013,
+      "lon": 33.6134,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2391 @@
+{
+  "cityId": "tekirdag",
+  "cityName": "Tekirdağ",
+  "fetchedAt": "2026-08-30T21:23:24.275Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "count": 194,
+  "stands": [
+    {
+      "id": "taksi724-05357421860-0",
+      "name": "Bizim Taksi",
+      "phone": "05357421860",
+      "lat": 41.30484,
+      "lon": 27.989512,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827265687-1",
+      "name": "Çerkezköy Bağlık Taksi",
+      "phone": "02827265687",
+      "lat": 41.282509,
+      "lon": 28.0001131,
+      "address": "Taksi Durağı · Atatürk Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05531646059-2",
+      "name": "Çerkezköy'de Taksi",
+      "phone": "05531646059",
+      "lat": 41.2933387,
+      "lon": 28.0024222,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373407585-3",
+      "name": "Çerkezköy-kızılpınar Taksi",
+      "phone": "05373407585",
+      "lat": 41.2770696,
+      "lon": 28.0118435,
+      "address": "Taksi · Yazgan Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05369513773-4",
+      "name": "Çerkezköy Köşem Taksi",
+      "phone": "05369513773",
+      "lat": 41.2956256,
+      "lon": 27.997744,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05437250510-5",
+      "name": "Çerkezköy Merkez Taksi",
+      "phone": "05437250510",
+      "lat": 41.2916792,
+      "lon": 28.0017039,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827273176-6",
+      "name": "Çerkezköy Merkez Taksi",
+      "phone": "02827273176",
+      "lat": 41.2693346,
+      "lon": 27.9649998,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317226861-7",
+      "name": "Çerkezköy Park Taksi",
+      "phone": "05317226861",
+      "lat": 41.2891082,
+      "lon": 28.0012664,
+      "address": "Taksi Durağı ·  · Kudret Apt, Öztrak Cd. No:38",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827251123-8",
+      "name": "Çerkezköy Taksi",
+      "phone": "02827251123",
+      "lat": 41.288641,
+      "lon": 27.990756,
+      "address": "Taksi Durağı ·  · Gazi Osman Paşa Osb, Çay Sk. Pk:59500",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422670096-9",
+      "name": "Çerkezköy Taksi",
+      "phone": "05422670096",
+      "lat": 41.2964978,
+      "lon": 28.0008883,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05336642677-10",
+      "name": "Taksi durağı",
+      "phone": "05336642677",
+      "lat": 41.2709802,
+      "lon": 28.0139224,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05367951799-11",
+      "name": "Çiçek Taksi",
+      "phone": "05367951799",
+      "lat": 41.2858575,
+      "lon": 28.0098153,
+      "address": "Ulaşım Hizmeti · Gülsevim Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442621310-12",
+      "name": "Dörtyol Taksi",
+      "phone": "05442621310",
+      "lat": 41.286652,
+      "lon": 28.000648,
+      "address": "Gazi Mustafa Kemal Paşa Osb Mah. Malkoçoğlu Cad. 7 Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387143030-13",
+      "name": "Furkan Taksi",
+      "phone": "05387143030",
+      "lat": 41.289741,
+      "lon": 27.998634,
+      "address": "Gazi Osman Paşa Mah. Atatürk Cad. 63 Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314577215-14",
+      "name": "Güneş Taksi",
+      "phone": "05314577215",
+      "lat": 41.267532,
+      "lon": 27.971142,
+      "address": "Kızılpınar-Gültepe Mah. İstiklal Cad. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05394592732-15",
+      "name": "Güven Taksi",
+      "phone": "05394592732",
+      "lat": 41.293639,
+      "lon": 27.995063,
+      "address": "Gazi Osman Paşa Mah. Namık Kemal Blv. 17 Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374222836-16",
+      "name": "Hastane Gözde Taksi",
+      "phone": "05374222836",
+      "lat": 41.283181,
+      "lon": 27.984705,
+      "address": "Yıldırım Beyazıt Mah. Namık Kemal Blv. 1 Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374222836-17",
+      "name": "ÇERKEZKÖY güvenli adliye Taksi",
+      "phone": "05374222836",
+      "lat": 41.283014,
+      "lon": 28.00937,
+      "address": "Fatih Mah. Eray Sok. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05360240138-18",
+      "name": "İstasyon Taksi",
+      "phone": "05360240138",
+      "lat": 41.2862363,
+      "lon": 28.0033752,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05392025905-19",
+      "name": "Karaağaç Güven Taksi",
+      "phone": "05392025905",
+      "lat": 41.2791195,
+      "lon": 28.0087999,
+      "address": "Taksi Durağı · İstasyon Cd. No:55",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05363572351-20",
+      "name": "Kızılpınar Merkez Taksi",
+      "phone": "05363572351",
+      "lat": 41.290443,
+      "lon": 27.949673,
+      "address": "Taksi Durağı · Namık Kemal Cd. No: 40/1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05510871105-21",
+      "name": "Kızılpınar Meydan Taksi",
+      "phone": "05510871105",
+      "lat": 41.2698086,
+      "lon": 27.9648978,
+      "address": "Taksi Durağı ·  · Kemal Paşa Cd. No:35",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313451259-22",
+      "name": "Köşem Taksi",
+      "phone": "05313451259",
+      "lat": 41.2668595,
+      "lon": 27.9640112,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05437250510-23",
+      "name": "Kumlu Geçit Taksi",
+      "phone": "05437250510",
+      "lat": 41.303141,
+      "lon": 28.005129,
+      "address": "Gazi Mustafa Kemalpaşa Mah. Narin Cad. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05055443653-24",
+      "name": "Meydan Taksi",
+      "phone": "05055443653",
+      "lat": 41.2813292,
+      "lon": 27.9828782,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316352739-25",
+      "name": "Moda Taksi",
+      "phone": "05316352739",
+      "lat": 41.286891,
+      "lon": 27.997715,
+      "address": "Gazi Osman Paşa Mah. Barbaros Cad. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313448729-26",
+      "name": "Modern Taksi",
+      "phone": "05313448729",
+      "lat": 41.2946299,
+      "lon": 27.9467777,
+      "address": "Taksi Durağı ·  · Hürriyet Blv. No:4",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05369998410-27",
+      "name": "Onur Taksi",
+      "phone": "05369998410",
+      "lat": 41.2933933,
+      "lon": 27.9481196,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02827251575-28",
+      "name": "Organize Taksi",
+      "phone": "02827251575",
+      "lat": 41.28726135,
+      "lon": 27.99559478,
+      "address": "Gazi Osman Paşa Mah. Uğur Sok. 1 Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02827172255-29",
+      "name": "Özcanlar Taksi",
+      "phone": "02827172255",
+      "lat": 41.318212,
+      "lon": 27.976085,
+      "address": "Kapaklı-İsmetpaşa Mah. Levent Cad. İlköğretim Okulu Sok. 9/E Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05551921559-30",
+      "name": "Özlem Taksi",
+      "phone": "05551921559",
+      "lat": 41.271767,
+      "lon": 27.9721454,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05551921559-31",
+      "name": "Palmiye Taksi",
+      "phone": "05551921559",
+      "lat": 41.28641,
+      "lon": 27.999753,
+      "address": "Gazi Mustafa Kemal Paşa Mah. Edip Arıcan Sok. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827262136-32",
+      "name": "Park Taksi",
+      "phone": "02827262136",
+      "lat": 41.2538196,
+      "lon": 27.9677976,
+      "address": "Taksi Durağı · seyir Konutları, Kızılpınar Namık Kemal Mahallesi Millet Caddesi, karşısı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387143030-33",
+      "name": "Taksi",
+      "phone": "05387143030",
+      "lat": 41.332357,
+      "lon": 27.978849,
+      "address": "Kapaklı-Atatürk Mah. Hürriyet Cad. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05300427359-34",
+      "name": "TEPE KONUT TAKSI",
+      "phone": "05300427359",
+      "lat": 41.30081,
+      "lon": 27.9780636,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827381959-35",
+      "name": "Uzman Taksi",
+      "phone": "02827381959",
+      "lat": 41.2670496,
+      "lon": 28.0248892,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05461594010-36",
+      "name": "Veliköy Sağlık Taksi",
+      "phone": "05461594010",
+      "lat": 41.329951,
+      "lon": 27.980781,
+      "address": "Kapaklı-Cumhuriyet Mah. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323027059-37",
+      "name": "Veliköy Taksi",
+      "phone": "05323027059",
+      "lat": 41.2583726,
+      "lon": 27.9357797,
+      "address": "Taksi Durağı · 1. Sk No:2/2",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05379714763-38",
+      "name": "Yıldızkent Taksi",
+      "phone": "05379714763",
+      "lat": 41.2587961,
+      "lon": 27.9354839,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827175707-39",
+      "name": "Yonca Taksi",
+      "phone": "02827175707",
+      "lat": 41.325109,
+      "lon": 27.978814,
+      "address": "Kapaklı-Cumhuriyet Mah. Mithatpaşa Cad. 1 Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827269912-40",
+      "name": "tekirdag-taksi",
+      "phone": "02827269912",
+      "lat": 41.285793,
+      "lon": 27.995378,
+      "address": "Gazi Osman Paşa Mah. Efendioğlu Sok. Çerkezköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-41-41",
+      "name": "Alşahin Taksi",
+      "phone": null,
+      "lat": 41.162439,
+      "lon": 27.796947,
+      "address": "Seyhsinan Mah. Şehit Pilot İhsan Aksoy Sok. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826733873-42",
+      "name": "Askent Taksi",
+      "phone": "02826733873",
+      "lat": 41.1584008,
+      "lon": 27.8294712,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826526676-43",
+      "name": "Atakent Taksi",
+      "phone": "02826526676",
+      "lat": 41.152385,
+      "lon": 27.798212,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-44-44",
+      "name": "Bahar Taksi",
+      "phone": null,
+      "lat": 41.14693,
+      "lon": 27.83233,
+      "address": "Alipaşa Mah. 19 Mayıs Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826926313-45",
+      "name": "Balık Pazarı Yeni Taksi",
+      "phone": "02826926313",
+      "lat": 41.147731,
+      "lon": 27.821347,
+      "address": "Alipaşa Mah. Hasan Ali Yücel Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02824339271-46",
+      "name": "Çağla Taksi",
+      "phone": "02824339271",
+      "lat": 41.163304,
+      "lon": 27.799153,
+      "address": "Taksi Durağı · Fatih Çeşme Sk. Pk:59860",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826512578-47",
+      "name": "Çorlu Adliye Taksi",
+      "phone": "02826512578",
+      "lat": 41.153503,
+      "lon": 27.813711,
+      "address": "Muhittin Mah. Ahmet Piriştina Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826510426-48",
+      "name": "Çorlu bölge Taksi",
+      "phone": "02826510426",
+      "lat": 41.1405533,
+      "lon": 27.8325546,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412573439-49",
+      "name": "Çorluda Taksi",
+      "phone": "05412573439",
+      "lat": 41.1564291,
+      "lon": 27.8465909,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05466742284-50",
+      "name": "Çorlu Emniyet Taksi",
+      "phone": "05466742284",
+      "lat": 41.1625561,
+      "lon": 27.8031936,
+      "address": "Taksi Durağı · Dere Meydanı Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317166740-51",
+      "name": "Çorlu Havuzlar Taksi",
+      "phone": "05317166740",
+      "lat": 41.165956,
+      "lon": 27.8055105,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826924242-52",
+      "name": "Çorlu Otogar Taksi",
+      "phone": "02826924242",
+      "lat": 41.144076,
+      "lon": 27.7995794,
+      "address": "Taksi · Güldalı Sk. No:22",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826524043-53",
+      "name": "Çorlu Taksi",
+      "phone": "02826524043",
+      "lat": 41.1613,
+      "lon": 27.7926,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826519595-54",
+      "name": "Çorlu Taksi",
+      "phone": "02826519595",
+      "lat": 41.159263,
+      "lon": 27.800139,
+      "address": "Reşadiye Mah. Şehit Teğmen Yavuzer Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05332833459-55",
+      "name": "Doğan Taksi",
+      "phone": "05332833459",
+      "lat": 41.1563103,
+      "lon": 27.8134773,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03842775089-56",
+      "name": "Emlak Konutları Taksi",
+      "phone": "03842775089",
+      "lat": 41.15969,
+      "lon": 27.80304,
+      "address": "Kazımiye Mah. Cumhuriyet Meydanı Salih Omurtak Cad. Abidin Efendi Sok. 2 Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826733777-57",
+      "name": "Gima Taksi",
+      "phone": "02826733777",
+      "lat": 41.1557027,
+      "lon": 27.8365748,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826519515-58",
+      "name": "Gözde Taksi",
+      "phone": "02826519515",
+      "lat": 41.1542549,
+      "lon": 27.8236595,
+      "address": "Taksi Durağı · Şehitlik Yanı, Kazımiye Mahallesi Salih Omurtak Caddesi, Carrefour",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826517577-59",
+      "name": "Güvenç Taksi",
+      "phone": "02826517577",
+      "lat": 41.161657,
+      "lon": 27.800977,
+      "address": "Cemaliye Mah. Dr. Tekin Gürmen Sok. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374222836-60",
+      "name": "Hastane Taksi",
+      "phone": "05374222836",
+      "lat": 41.153851,
+      "lon": 27.805052,
+      "address": "Muhittin Mah. Şinasi Kurşun Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822628581-61",
+      "name": "Huzur Taksi",
+      "phone": "02822628581",
+      "lat": 41.143283,
+      "lon": 27.836558,
+      "address": "Zafer Mah. Bülent Ecevit Blv. 33 Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822611545-62",
+      "name": "Kaletaksi",
+      "phone": "02822611545",
+      "lat": 41.155822,
+      "lon": 27.817984,
+      "address": "Kazımiye Mah. Uğur Mumcu Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826549797-63",
+      "name": "kaletaksi Çorlu",
+      "phone": "02826549797",
+      "lat": 41.1435217,
+      "lon": 27.8621173,
+      "address": "Taksi · Önerler Mahallesi İstanbul Cad. Çorlu, Otocenter",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05348564976-64",
+      "name": "Kipa Taksi",
+      "phone": "05348564976",
+      "lat": 41.160234,
+      "lon": 27.798038,
+      "address": "Seyhsinan Mah. Kumyol Cad. 1 Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02826732909-65",
+      "name": "Kıvanç Taksi",
+      "phone": "02826732909",
+      "lat": 41.152918,
+      "lon": 27.829286,
+      "address": "Alipaşa Mah. Salih Omurtak Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826527152-66",
+      "name": "Önerler Taksi",
+      "phone": "02826527152",
+      "lat": 41.1555158,
+      "lon": 27.7887435,
+      "address": "Taksi Durağı · Şeyh Sinan Mh. Kılıç Sk. Pk:59850 Çorlu/tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05373511877-67",
+      "name": "Orion Taksi",
+      "phone": "05373511877",
+      "lat": 41.1463622,
+      "lon": 27.8733115,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02826734623-68",
+      "name": "Sağlık Taksi",
+      "phone": "02826734623",
+      "lat": 41.154656,
+      "lon": 27.821197,
+      "address": "Muhittin Mah. Salih Omurtak Cad. 1 Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826862016-69",
+      "name": "Santral Taksi",
+      "phone": "02826862016",
+      "lat": 41.185673,
+      "lon": 27.7708547,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826541632-70",
+      "name": "Sembol Taksi",
+      "phone": "02826541632",
+      "lat": 41.155727,
+      "lon": 27.808361,
+      "address": "Muhittin Mah. Atatürk Blv. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826514454-71",
+      "name": "Shell Taksi",
+      "phone": "02826514454",
+      "lat": 41.167595,
+      "lon": 27.784622,
+      "address": "Hatip Mah. Salih Omurtak Cad. Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826518457-72",
+      "name": "Vatan Taksi",
+      "phone": "02826518457",
+      "lat": 41.151039,
+      "lon": 27.839715,
+      "address": "Kazımiye Mah. Salih Omurtak Cad. 1 Çorlu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05332797059-73",
+      "name": "Yeni Sanayi Taksi",
+      "phone": "05332797059",
+      "lat": 41.1496667,
+      "lon": 27.8478529,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02826735333-74",
+      "name": "tekirdag-taksi",
+      "phone": "02826735333",
+      "lat": 41.149182,
+      "lon": 27.842217,
+      "address": "Taksi Durağı · 2. Sk. Pk:59860",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822614313-75",
+      "name": "Bahar Taksi",
+      "phone": "02822614313",
+      "lat": 40.983855,
+      "lon": 27.513347,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822614809-76",
+      "name": "Baykallar Taksi",
+      "phone": "02822614809",
+      "lat": 40.976661,
+      "lon": 27.505972,
+      "address": "Yavuz Mah. Gülbahar Sok. Süleymanpaşa, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05405295959-77",
+      "name": "Baykallar Taksi",
+      "phone": "05405295959",
+      "lat": 40.9782648,
+      "lon": 27.5455666,
+      "address": "Taksi Durağı · Baykal Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05073010395-78",
+      "name": "Bedesten Taksi",
+      "phone": "05073010395",
+      "lat": 40.979098,
+      "lon": 27.5440386,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822627104-79",
+      "name": "Çiftlikönü özkan Taksi",
+      "phone": "02822627104",
+      "lat": 40.976351,
+      "lon": 27.51428,
+      "address": "Taksi Durağı · Gemiciler Sk. No:33",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05422651562-80",
+      "name": "Çiftlikönü Taksi",
+      "phone": "05422651562",
+      "lat": 40.983098,
+      "lon": 27.52223,
+      "address": "Taksi Durağı · Kazım Karabekir Cd. No:59",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05387143030-81",
+      "name": "Orhan Taksi",
+      "phone": "05387143030",
+      "lat": 40.9816393,
+      "lon": 27.5226703,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05553305959-82",
+      "name": "Değirmenaltı Taksi",
+      "phone": "05553305959",
+      "lat": 40.983044,
+      "lon": 27.522428,
+      "address": "Taksi · Kazım Karabekir Cd. No:59",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822611853-83",
+      "name": "Deniz Taksi",
+      "phone": "02822611853",
+      "lat": 40.9888047,
+      "lon": 27.5777905,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822612140-84",
+      "name": "Dispanser Taksi",
+      "phone": "02822612140",
+      "lat": 40.977982,
+      "lon": 27.513707,
+      "address": "Taksi Durağı · Kızılay Cd. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822623765-85",
+      "name": "Dostlar Taksi",
+      "phone": "02822623765",
+      "lat": 40.979658,
+      "lon": 27.516065,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822618405-86",
+      "name": "Elitur Taksi",
+      "phone": "02822618405",
+      "lat": 40.9773506,
+      "lon": 27.5090277,
+      "address": "Taksi Durağı · Hükümet Cd. No:128",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822624299-87",
+      "name": "Evren Taksi",
+      "phone": "02822624299",
+      "lat": 40.9770969,
+      "lon": 27.5088084,
+      "address": "Taksi Durağı · Hükümet Cd. No:121",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822637792-88",
+      "name": "Güvenilir Taksi",
+      "phone": "02822637792",
+      "lat": 40.9774294,
+      "lon": 27.5186133,
+      "address": "Taksi Durağı · Çiftlikönü Mahallesi, Rıhtım Caddesi, No:48/TS ATATÜRK BULVARI, CUMHURİYET MEYDANI",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05415574845-89",
+      "name": "Hürriyet Taksi",
+      "phone": "05415574845",
+      "lat": 40.9767379,
+      "lon": 27.4846363,
+      "address": "Ulaşım Hizmeti ·  · 100.Yıl Mahallesi Yeni Sanayi Çıkışı, Çevre Yolu Sk. Yanı",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05442621310-90",
+      "name": "Konak Taksi",
+      "phone": "05442621310",
+      "lat": 40.9838288,
+      "lon": 27.5581478,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822615213-91",
+      "name": "Köprübaşı Taksi",
+      "phone": "02822615213",
+      "lat": 40.9717048,
+      "lon": 27.5075002,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822601064-92",
+      "name": "Hürriyet Taksi Durağı AÇIK · 7 gün 24 saat Hürriyet, HÜRRİYET TAKSİ DURAĞI (AKA ",
+      "phone": "02822601064",
+      "lat": 40.9774805,
+      "lon": 27.5031127,
+      "address": "Taksi Durağı · Çınarlı Cd. No:2",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05317950198-93",
+      "name": "Merkez Taksi",
+      "phone": "05317950198",
+      "lat": 40.9755413,
+      "lon": 27.4970942,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822613011-94",
+      "name": "Pınar Taksi",
+      "phone": "02822613011",
+      "lat": 40.978068,
+      "lon": 27.511492,
+      "address": "Eskicami-Ortacami Mah. Cengiz Topel Meydanı Süleymanpaşa, Tekirdağ Merkez, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822617333-95",
+      "name": "Tekirdağ Çiftlikönü Taksi",
+      "phone": "02822617333",
+      "lat": 40.9816634,
+      "lon": 27.473827,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05306879959-96",
+      "name": "Tekirdağ Sahil Taksi",
+      "phone": "05306879959",
+      "lat": 40.9796201,
+      "lon": 27.5208105,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822614114-97",
+      "name": "Tekirdağ Şehir Hastanesi Taksi",
+      "phone": "02822614114",
+      "lat": 40.9773794,
+      "lon": 27.5173808,
+      "address": "Taksi Durağı · İskele Cd. No:6",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822628581-98",
+      "name": "Tekirdağ Taksi",
+      "phone": "02822628581",
+      "lat": 41.0080306,
+      "lon": 27.5264611,
+      "address": "Taksi Durağı ·  · Gündoğdu Turgut Mh. Yemen Sk. No:3 Çevre Yolu Üzeri Şehir Hastanesi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05051212921-99",
+      "name": "Tekirdağ Süleymanpaşa Gümrük Taksi",
+      "phone": "05051212921",
+      "lat": 40.9881197,
+      "lon": 27.5334918,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822639263-100",
+      "name": "Tekirdağ Taksi",
+      "phone": "02822639263",
+      "lat": 40.9598074,
+      "lon": 27.5580305,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05376808898-101",
+      "name": "Yılmaz Taksi",
+      "phone": "05376808898",
+      "lat": 40.9789566,
+      "lon": 27.5072597,
+      "address": "Taksi Durağı ·  · Şabanoğlu Sk. No:1",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822615113-102",
+      "name": "Yüzyıl Taksi",
+      "phone": "02822615113",
+      "lat": 40.9757941,
+      "lon": 27.5095174,
+      "address": "Taksi Durağı · Peştemalcı Cd. No:73",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822603359-103",
+      "name": "tekirdag-taksi",
+      "phone": "02822603359",
+      "lat": 40.9652416,
+      "lon": 27.4876659,
+      "address": "Taksi Durağı ·  · Sanayi Cd. No:29 D:23",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05454165215-104",
+      "name": "Gençler Birliği Taksi",
+      "phone": "05454165215",
+      "lat": 40.89596,
+      "lon": 26.905352,
+      "address": "Gazibey Mah. Künk Çeşme Cad. 2 Malkara, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348564976-105",
+      "name": "Hastane Taksi",
+      "phone": "05348564976",
+      "lat": 40.892781,
+      "lon": 26.903001,
+      "address": "Cami Atik Mah. 14 Kasım Cad. 35/A Malkara, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-106-106",
+      "name": "Itimat Taksi",
+      "phone": null,
+      "lat": 40.896861,
+      "lon": 26.905566,
+      "address": "Yeni Mah. İsmet İnönü Cad. Malkara, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05348564976-107",
+      "name": "Malkara Kavakçeşme Taksi",
+      "phone": "05348564976",
+      "lat": 40.88662756,
+      "lon": 26.913097,
+      "address": "Cami Atik Mah. Atatürk Blv. Malkara, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05418025221-108",
+      "name": "Malkara Taksi",
+      "phone": "05418025221",
+      "lat": 40.8518016,
+      "lon": 27.0282436,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05458954511-109",
+      "name": "Otogar Taksi",
+      "phone": "05458954511",
+      "lat": 40.8860993,
+      "lon": 26.8966467,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822642757-110",
+      "name": "Itimat Taksi",
+      "phone": "02822642757",
+      "lat": 40.890921,
+      "lon": 26.909069,
+      "address": "Cami Atik Mah. Atatürk Blv. 25 Malkara Otogarı Dk:2/A Malkara, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05454165215-111",
+      "name": "Kapaklı Taksi",
+      "phone": "05454165215",
+      "lat": 41.326752,
+      "lon": 27.975905,
+      "address": "İnönü Mah. Kazım Karabekir Cad. Kapaklı, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461594010-112",
+      "name": "Kapaklı Taksi",
+      "phone": "05461594010",
+      "lat": 41.330886,
+      "lon": 27.97304,
+      "address": "Atatürk Mah. Kapaklı, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05461594010-113",
+      "name": "Kapaklı Taksi",
+      "phone": "05461594010",
+      "lat": 41.323997,
+      "lon": 27.9904412,
+      "address": "Taksi · Akdeniz Sk. no:13 iç kapı no:1",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05313167781-114",
+      "name": "Kapaklı Ticari Taksi",
+      "phone": "05313167781",
+      "lat": 41.3351193,
+      "lon": 27.992211,
+      "address": "Taksi Durağı ·  · Kapaklı, 59510 Vatan, Mithatpaşa Cd. No:75, 59510",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452126843-115",
+      "name": "Kapaklı Taksi",
+      "phone": "05452126843",
+      "lat": 41.3335725,
+      "lon": 27.9699573,
+      "address": "Taksi · Ataturk mh. Ceken cd. Mazi Sok. Nu.10, Mazi Sokaği No:8",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-116-116",
+      "name": "Marmaraereğlisi meydan Taksi",
+      "phone": null,
+      "lat": 40.973343,
+      "lon": 27.951538,
+      "address": "Cedit Ali Paşa Mah. Hükümet Cad. Marmaraereğlisi, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05316352739-117",
+      "name": "Marmara Taksi",
+      "phone": "05316352739",
+      "lat": 40.9743368,
+      "lon": 27.8795668,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05372296659-118",
+      "name": "M. Ereğlisi Taksi",
+      "phone": "05372296659",
+      "lat": 40.968173,
+      "lon": 27.954563,
+      "address": "Mustafa Kemal Paşa Mah. Karanfil Sok. 11 Marmaraereğlisi, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414053636-119",
+      "name": "Merkez Taksi",
+      "phone": "05414053636",
+      "lat": 40.973825,
+      "lon": 27.8802437,
+      "address": "Taksi Durağı · 7003. Sk.",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822613011-120",
+      "name": "M. Ereğlisi Taksi",
+      "phone": "02822613011",
+      "lat": 40.971803,
+      "lon": 27.955412,
+      "address": "Bahçelievler Mah. Sahil Cad. Cumhuriyet Meydanı Marmaraereğlisi, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-121-121",
+      "name": "Taksi durağı",
+      "phone": null,
+      "lat": 41.212135,
+      "lon": 27.099919,
+      "address": "Aydınevler Mah. Hayrabolu Devlet Hastanesi Hayrabolu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05416726250-122",
+      "name": "Merkez Taksi",
+      "phone": "05416726250",
+      "lat": 41.214021,
+      "lon": 27.106652,
+      "address": "İlyas Mah. Alpullu Cad. 3 Belediye Sarayı K:Giriş Hayrabolu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822613011-123",
+      "name": "Terminal Taksi",
+      "phone": "02822613011",
+      "lat": 41.213983,
+      "lon": 27.10512,
+      "address": "İlyas Mah. Uzunköprü Cad. (Ziraat Bankası Yanı) Hayrabolu, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02823152050-124",
+      "name": "Terminal Taksi",
+      "phone": "02823152050",
+      "lat": 41.2097557,
+      "lon": 27.1115793,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-125-125",
+      "name": "SARAY adliye Taksi",
+      "phone": null,
+      "lat": 41.447821,
+      "lon": 27.914592,
+      "address": "Kemalpaşa Mah. Vize Cad. Saray, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827686010-126",
+      "name": "Saray Taksi",
+      "phone": "02827686010",
+      "lat": 41.4448064,
+      "lon": 27.9179662,
+      "address": "Taksi Durağı · Kemalpaşa mahallesi Vize Caddesi, hükümet konağı yani No:32",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02827685090-127",
+      "name": "Yonca Taksi",
+      "phone": "02827685090",
+      "lat": 41.439497,
+      "lon": 27.9174908,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05394592732-128",
+      "name": "Yonca Taksi",
+      "phone": "05394592732",
+      "lat": 41.442937,
+      "lon": 27.921809,
+      "address": "Ayaspaşa Mah. Cami Cad. Saray, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-129-129",
+      "name": "Liman Taksi",
+      "phone": null,
+      "lat": 40.668058,
+      "lon": 27.24688,
+      "address": "Mürefte-Yeni Mah. Kurtuluş Cad. Şarköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822615187-130",
+      "name": "Mürefte Taksi",
+      "phone": "02822615187",
+      "lat": 40.613923,
+      "lon": 27.113816,
+      "address": "İstiklal Mah. Bahçeler Sok. Şarköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05572963180-131",
+      "name": "Şarköy Taksi",
+      "phone": "05572963180",
+      "lat": 40.668658,
+      "lon": 27.24688,
+      "address": "Mürefte-Yeni Mah. Kurtuluş Cad. Şarköy, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02825186060-132",
+      "name": "arköy Taksi",
+      "phone": "02825186060",
+      "lat": 40.61604,
+      "lon": 27.1208971,
+      "address": "Taksi Durağı · Arif Hikmet Cd. No:10",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02822611853-133",
+      "name": "Lise Taksi",
+      "phone": "02822611853",
+      "lat": 40.978668,
+      "lon": 27.511492,
+      "address": "Cengiz Topel Meydanı Muratlı Cad. Tekirdağ Merkez, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02822628366-134",
+      "name": "Ptt Taksi",
+      "phone": "02822628366",
+      "lat": 41.171092,
+      "lon": 27.496544,
+      "address": "Muradıye Mah. Erol Okyay Cad. Muratlı, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05348564976-135",
+      "name": "Ptt Taksi",
+      "phone": "05348564976",
+      "lat": 41.172014,
+      "lon": 27.496458,
+      "address": "Muradiye Mah. 100. Yıl Cad. 81 Muratlı, Tekirdağ",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05441523959-136",
+      "name": "Ergene Taksi",
+      "phone": "05441523959",
+      "lat": 41.1906751,
+      "lon": 27.771133,
+      "address": null,
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05307115073-137",
+      "name": "Çorlu taksii",
+      "phone": "05307115073",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05378775141-138",
+      "name": "Çorlu Taksici Eren",
+      "phone": "05378775141",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-02826861925-139",
+      "name": "Yeşiltepe taksi durağı",
+      "phone": "02826861925",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05425212757-140",
+      "name": "Gökhan Taksi",
+      "phone": "05425212757",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-05456535443-141",
+      "name": "Orion Taksi Efe",
+      "phone": "05456535443",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05367921052-142",
+      "name": "Çorlu Hastane Taksi ( Çorluda Taksi )",
+      "phone": "05367921052",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-02827266003-143",
+      "name": "Tümü → Akasya Taksi Çerkezköy AÇIK · 7 gün 24 saat Fevzi Paşa, Namık Kemal Blv. ",
+      "phone": "02827266003",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05462382812-144",
+      "name": "Çerkezköy Köşem Taksi Durağı AÇIK · 7 gün 24 saat Gazi Mustafa Kemalpaşa, mahall",
+      "phone": "05462382812",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02827265308-145",
+      "name": "Çerkezköy Meydan Özlem Taksi",
+      "phone": "02827265308",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05321744131-146",
+      "name": "Çerkezköy Otogar Taksi AÇIK · 7 gün 24 saat istasyon mahallesi inönü caddesi no:",
+      "phone": "05321744131",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05384844914-147",
+      "name": "Çerkezköy Taksi Durağı AÇIK · 7 gün 24 saat Gazi Mustafa Kemalpaşa, Öztrak Cd., ",
+      "phone": "05384844914",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05323316121-148",
+      "name": "Çerkezköy Taksi Gazi Osman Paşa",
+      "phone": "05323316121",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05421405857-149",
+      "name": "Çerkezköy Taksi Osb AÇIK · 7 gün 24 saat Gazi Mustafa Kemal Paşa OSB, mahallesi,",
+      "phone": "05421405857",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05306675626-150",
+      "name": "Çiçek Taksi Çerkezköy AÇIK · 7 gün 24 saat Gazi Mustafa Kemalpaşa, Anfi Tiyatro ",
+      "phone": "05306675626",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05388746265-151",
+      "name": "Kızılpınar Taksi",
+      "phone": "05388746265",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05375111010-152",
+      "name": "Kızılpınar Taksi Çerkezköy",
+      "phone": "05375111010",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05527455952-153",
+      "name": "Kızılpınar Taksi Muzaffer Eren",
+      "phone": "05527455952",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05387655975-154",
+      "name": "Kızılpınar Veliköy Taksi AÇIK · 7 gün 24 saat Kızılpınar, İstiklal Cd. No:27 D:2",
+      "phone": "05387655975",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05306338959-155",
+      "name": "Tümü → 7/24 Taksi Çorlu",
+      "phone": "05306338959",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826924400-156",
+      "name": "Atakent Taksi Durağı",
+      "phone": "02826924400",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05524556013-157",
+      "name": "Belediye Taksi",
+      "phone": "05524556013",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826519339-158",
+      "name": "Çorlu Doğan Taksi Durağı AÇIK · 7 gün 24 saat Kemalettin, Kazımiye Mah Cumhuriye",
+      "phone": "02826519339",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05431356560-159",
+      "name": "Çorlu Taksi AÇIK · 7 gün 24 saat Vatan Mahallesi, Vatan Sokak No: 00 / 00, 59860",
+      "phone": "05431356560",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05326791597-160",
+      "name": "Çorlu Taksi Oğuz",
+      "phone": "05326791597",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05309211491-161",
+      "name": "Çorlunun Taksisi",
+      "phone": "05309211491",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826510405-162",
+      "name": "Çorlupark Taksi – Çorlu Park Evleri Taksi",
+      "phone": "02826510405",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826540099-163",
+      "name": "Güvenç Taksi AÇIK · 7 gün 24 saat Muhittin, Şinasi Kurşun Cd. Pk:59850, 59850 Ço",
+      "phone": "02826540099",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05421595988-164",
+      "name": "Huzur Taksi Çorlu",
+      "phone": "05421595988",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05466306681-165",
+      "name": "Kıvanç Taksi – Şahin İlhan",
+      "phone": "05466306681",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05387737783-166",
+      "name": "Manolya Taksi",
+      "phone": "05387737783",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826518877-167",
+      "name": "Önerler Taksi",
+      "phone": "02826518877",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826526565-168",
+      "name": "Pazar Taksi Durağı",
+      "phone": "02826526565",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02826516030-169",
+      "name": "Şifa Taksi AÇIK · 7 gün 24 saat Muhittin Mh. Reşit Paşa Cd. Pk:59850 Çorlu/tekir",
+      "phone": "02826516030",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05385208462-170",
+      "name": "Taksi Kapında",
+      "phone": "05385208462",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02823152790-171",
+      "name": "Tümü → Güven Taksi Hayrabolu",
+      "phone": "02823152790",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05423032498-172",
+      "name": "Hastane Taksi (hayrabolu) AÇIK · 7 gün 24 saat Aydınevler, Hayrabolu Devlet Hst.",
+      "phone": "05423032498",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05353581311-173",
+      "name": "Tümü → Kapaklı Birlik Taksi AÇIK · 7 gün 24 saat Kahveler Durağı, İnönü Mahalles",
+      "phone": "05353581311",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05324455875-174",
+      "name": "Kapaklı Taksi",
+      "phone": "05324455875",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05372022773-175",
+      "name": "Kapaklı Ticari Taksi AÇIK · 7 gün 24 saat Atatürk, Ataturk mh. Ceken cd. Mazi So",
+      "phone": "05372022773",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05441363675-176",
+      "name": "Kapaklı Yuvam Taksi",
+      "phone": "05441363675",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02827174035-177",
+      "name": "Park Taksi Kapaklı",
+      "phone": "02827174035",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02824271249-178",
+      "name": "Pelikan Taksi Kapaklı AÇIK · 7 gün 24 saat Fatih mahallesi Hamdi kenar caddesi, ",
+      "phone": "02824271249",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05395727044-179",
+      "name": "Gençlerbirliği Taksi",
+      "phone": "05395727044",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02824272660-180",
+      "name": "Güven Taksi Malkara",
+      "phone": "02824272660",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05375025950-181",
+      "name": "Hastane Taksi Malkara",
+      "phone": "05375025950",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02824278800-182",
+      "name": "İtimat Taksi",
+      "phone": "02824278800",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05536289572-183",
+      "name": "Malkara Hastane Taksi",
+      "phone": "05536289572",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05322244024-184",
+      "name": "Malkara Taksi / Murat Limon / 59 T 7061",
+      "phone": "05322244024",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05331635436-185",
+      "name": "Malkara Taksi Mert/7053",
+      "phone": "05331635436",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02827683053-186",
+      "name": "Yonca Taksi",
+      "phone": "02827683053",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02825184632-187",
+      "name": "Tümü → Garaj Taksi",
+      "phone": "02825184632",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02822617161-188",
+      "name": "Elitur Taksi AÇIK · 7 gün 24 saat Aydoğdu, Hükümet Cd. No:121, 59200 Tekirdağ Me",
+      "phone": "02822617161",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05538681903-189",
+      "name": "Tekirdağ Çiftlikönü Taksi (mehmet Yılmaz) AÇIK · 7 gün 24 saat Gündoğdu - Turgut",
+      "phone": "05538681903",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05353827507-190",
+      "name": "Volkan Taksi",
+      "phone": "05353827507",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "address": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05368444414-191",
+      "name": "Adliye Taksi - Zeynep Şencan Çelebi",
+      "phone": "05368444414",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05442727150-192",
+      "name": "Sahil Taksi - Musa Sabri Çelebi",
+      "phone": "05442727150",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05317907832-193",
+      "name": "Taksi 59 - Mümtaz Erdağ",
+      "phone": "05317907832",
+      "lat": 40.9781,
+      "lon": 27.5117,
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

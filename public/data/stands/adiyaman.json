@@ -1,0 +1,829 @@
+{
+  "cityId": "adiyaman",
+  "cityName": "Adıyaman",
+  "fetchedAt": "2026-08-30T21:27:05.307Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "besni",
+      "name": "Besni",
+      "count": 14
+    },
+    {
+      "id": "celikhan",
+      "name": "Çelikhan",
+      "count": 2
+    },
+    {
+      "id": "kahta",
+      "name": "Kahta",
+      "count": 11
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 17
+    },
+    {
+      "id": "samsat",
+      "name": "Samsat",
+      "count": 2
+    }
+  ],
+  "count": 51,
+  "stands": [
+    {
+      "id": "taksi724-05541551562-0",
+      "name": "Barbaros Taksi",
+      "phone": "05541551562",
+      "website": null,
+      "lat": 37.7645,
+      "lon": 38.278,
+      "address": "Turgut Reis, Atatürk Bv 6/b",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05421660202-1",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05421660202",
+      "website": "https://www.instagram.com/adiyamanguven__05421660202/",
+      "lat": 37.766,
+      "lon": 38.2795,
+      "address": "Turgut Reis, Barbaros Cd. No:69",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05415856802-2",
+      "name": "Demokrasi Parkı Taksi",
+      "phone": "05415856802",
+      "website": null,
+      "lat": 37.7625,
+      "lon": 38.2745,
+      "address": "Cumhuriyet, 25126. Sk. No:8",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333151035-3",
+      "name": "Eskisaray Taksi",
+      "phone": "05333151035",
+      "website": null,
+      "lat": 37.763,
+      "lon": 38.2755,
+      "address": "Hocaömer, demokrasi parkı karşısı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05334048031-4",
+      "name": "Gülin Taksi",
+      "phone": "05334048031",
+      "website": null,
+      "lat": 37.762,
+      "lon": 38.274,
+      "address": "Eskisaray, Gölbaşı Cd. No:101/A",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-04162130466-5",
+      "name": "İtfaiye Taksi",
+      "phone": "04162130466",
+      "website": null,
+      "lat": 37.760602,
+      "lon": 38.281513,
+      "address": "Bahçelievler Mah. Eski Kahta Cad. 3 (Şile Pazarı Yanı) Adıyaman Merkez, Adıyaman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05424200580-6",
+      "name": "Malazgirt Taksi",
+      "phone": "05424200580",
+      "website": null,
+      "lat": 37.76,
+      "lon": 38.275,
+      "address": "Sıratut, itfaiye müdürlüğü yanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05356121322-7",
+      "name": "Mimar Sinan Taksi",
+      "phone": "05356121322",
+      "website": "https://www.facebook.com/adiyamanmerkeztaksi",
+      "lat": 37.7655,
+      "lon": 38.28,
+      "address": "Malazgirt, Hısnı Mansur Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05373030535-8",
+      "name": "Otogar Taksi",
+      "phone": "05373030535",
+      "website": null,
+      "lat": 37.7635,
+      "lon": 38.2765,
+      "address": "Mimar Sinan, 1122. Sk. No:7",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05375002003-9",
+      "name": "Şile Pazarı Taksi",
+      "phone": "05375002003",
+      "website": null,
+      "lat": 37.763474,
+      "lon": 38.279644,
+      "address": "Sıratut Mah. Atatürk Blv. Adıyaman Merkez, Adıyaman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04162130466-10",
+      "name": "Turgut Reis Taksi",
+      "phone": "04162130466",
+      "website": null,
+      "lat": 37.764,
+      "lon": 38.277,
+      "address": "Bahçelievler Mah. Eski Kahta Cad. 3",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04162133869-11",
+      "name": "Yıldırım Taksi",
+      "phone": "04162133869",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 38.2786,
+      "address": "Turgut Reis Mah. 158 Sok. 6",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05375002003-12",
+      "name": "Zey Taksi",
+      "phone": "05375002003",
+      "website": null,
+      "lat": 37.7683,
+      "lon": 38.273192,
+      "address": "Turgut Reis Mah. 158 Sok. 6 Adıyaman Merkez, Adıyaman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303572902-13",
+      "name": "adiyaman-taksi",
+      "phone": "05303572902",
+      "website": null,
+      "lat": 37.765,
+      "lon": 38.279,
+      "address": "Turgut Reis, Zey Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05056400025-14",
+      "name": "ADIYAMAN TAKSi",
+      "phone": "05056400025",
+      "website": null,
+      "lat": 37.7624689,
+      "lon": 38.2599229,
+      "address": null,
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05405020037-15",
+      "name": "Adıyaman Adam Gibi Bir Taksi",
+      "phone": "05405020037",
+      "website": null,
+      "lat": 37.7725286,
+      "lon": 38.2985506,
+      "address": null,
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04166060250-16",
+      "name": "Adıyaman Bulvar Taksi",
+      "phone": "04166060250",
+      "website": null,
+      "lat": 37.7674015,
+      "lon": 38.275914,
+      "address": null,
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05438530606-17",
+      "name": "Adıyaman Merkez Taksi",
+      "phone": "05438530606",
+      "website": null,
+      "lat": 37.7609064,
+      "lon": 38.2638204,
+      "address": "Taksi Durağı · Atatürk Bv No: 171/1",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05325406170-18",
+      "name": "Adıyaman Taksi",
+      "phone": "05325406170",
+      "website": null,
+      "lat": 37.7660376,
+      "lon": 38.3053478,
+      "address": null,
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373030535-19",
+      "name": "Adıyaman Taksi",
+      "phone": "05373030535",
+      "website": null,
+      "lat": 37.761891,
+      "lon": 38.2597064,
+      "address": "Ulaşım Hizmeti ·  · 1122. Sk. No:7",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05415856802-20",
+      "name": "ALTINŞEHiR TAKSi",
+      "phone": "05415856802",
+      "website": null,
+      "lat": 37.7741667,
+      "lon": 38.2595316,
+      "address": "Taksi Durağı ·  · 25126. Sk. No:8",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05448298286-21",
+      "name": "Besni Dumlupınar Taksi",
+      "phone": "05448298286",
+      "website": null,
+      "lat": 37.7402239,
+      "lon": 38.2303242,
+      "address": "Taksi ·  · Gazihan Cd. No:3/1",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-05356042277-22",
+      "name": "Besni Taksi",
+      "phone": "05356042277",
+      "website": null,
+      "lat": 37.691,
+      "lon": 37.861,
+      "address": "Dumlupınar Mah. Cumhuriyet Cad., Besni",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-03825056707-23",
+      "name": "Besni Taksi",
+      "phone": "03825056707",
+      "website": null,
+      "lat": 37.6922562,
+      "lon": 37.86269671,
+      "address": "Yeni Besni Mah. Besni, Adıyaman",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05061249989-24",
+      "name": "Besni Yeni Mahalle Taksi",
+      "phone": "05061249989",
+      "website": "https://www.facebook.com/besnitaksi/",
+      "lat": 37.69250241,
+      "lon": 37.86398417,
+      "address": "Dumlupınar Mah. Cumhuriyet Cad. Besni, Adıyaman",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05544180504-25",
+      "name": "Taksi",
+      "phone": "05544180504",
+      "website": null,
+      "lat": 37.69,
+      "lon": 37.86,
+      "address": "Yeni Besni Mah., Besni",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05375002003-26",
+      "name": "adiyaman-taksi",
+      "phone": "05375002003",
+      "website": null,
+      "lat": 37.773922,
+      "lon": 38.281472,
+      "address": "Taksi Durağı ·  · 2218. Sk. No:1",
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05383635392-27",
+      "name": "Kahta Hürriyet Taksi",
+      "phone": "05383635392",
+      "website": null,
+      "lat": 37.781,
+      "lon": 38.621,
+      "address": "Girne, Mimar Sinan Cd. No:93, Kahta",
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05357147133-28",
+      "name": "Kahta Mimar Sinan Taksi",
+      "phone": "05357147133",
+      "website": null,
+      "lat": 37.782,
+      "lon": 38.622,
+      "address": "Hürriyet, M. Ali Turanlı Cd., Kahta",
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05550265502-29",
+      "name": "Kahta Taksi",
+      "phone": "05550265502",
+      "website": null,
+      "lat": 37.78,
+      "lon": 38.62,
+      "address": "Turgut Özal, Mimar Sinan Cd. No:110, Kahta",
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05365212302-30",
+      "name": "Kahta Taksi",
+      "phone": "05365212302",
+      "website": null,
+      "lat": 37.7854361,
+      "lon": 38.6239335,
+      "address": null,
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05383635392-31",
+      "name": "Kahta Taksi",
+      "phone": "05383635392",
+      "website": null,
+      "lat": 37.7866429,
+      "lon": 38.6219644,
+      "address": "Taksi Durağı ·  · Girne, Mimar Sinan Cd. No:93, 02400 Kâhta/Adıyaman 02450",
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355871944-32",
+      "name": "Taksi durağı",
+      "phone": "05355871944",
+      "website": null,
+      "lat": 37.78759,
+      "lon": 38.6200524,
+      "address": "Taksi Durağı · 6004. Sk. No:11",
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334952321-33",
+      "name": "Kahta Mimar Sinan Taksi",
+      "phone": "05334952321",
+      "website": null,
+      "lat": 37.7865548,
+      "lon": 38.6216624,
+      "address": null,
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04162130466-34",
+      "name": "Kahta Taksi",
+      "phone": "04162130466",
+      "website": null,
+      "lat": 37.760402,
+      "lon": 38.287467,
+      "address": null,
+      "districtId": "celikhan",
+      "districtName": "Çelikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05374873906-35",
+      "name": "Kahta Taksi",
+      "phone": "05374873906",
+      "website": null,
+      "lat": 37.7933582,
+      "lon": 38.6242492,
+      "address": "Taksi Durağı · sok No:36",
+      "districtId": "celikhan",
+      "districtName": "Çelikhan",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05325658202-36",
+      "name": "Kahta En Yakın Taksi",
+      "phone": "05325658202",
+      "website": null,
+      "lat": 37.7832552,
+      "lon": 37.6432438,
+      "address": null,
+      "districtId": "samsat",
+      "districtName": "Samsat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05454256702-37",
+      "name": "Kahta En Yakın Taksi",
+      "phone": "05454256702",
+      "website": null,
+      "lat": 37.7768031,
+      "lon": 38.6230176,
+      "address": "Ulaşım Hizmeti · 1211. Sk. No:11",
+      "districtId": "samsat",
+      "districtName": "Samsat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksicibul-05327315323-38",
+      "name": "Adıyaman altınşehir taksi",
+      "phone": "05327315323",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 38.2786,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05358506899-39",
+      "name": "Adıyaman Has Taksi",
+      "phone": "05358506899",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 38.2786,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05399159142-40",
+      "name": "Adıyaman Taksi Yıldırım Taksi Durağı",
+      "phone": "05399159142",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 38.2786,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05363151551-41",
+      "name": "Adiyaman gunes taksi",
+      "phone": "05363151551",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 38.2786,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05324577487-42",
+      "name": "YAŞAR TAKSİ",
+      "phone": "05324577487",
+      "website": null,
+      "lat": 37.7648,
+      "lon": 38.2786,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05321612412-43",
+      "name": "Adıyaman Taksi - Haydar Kaplan",
+      "phone": "05321612412",
+      "website": "https://www.instagram.com/haydarkpln.02/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05443612129-44",
+      "name": "Adıyaman Taksi - Yakup Ertaş",
+      "phone": "05443612129",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05353941988-45",
+      "name": "Altınşehir Taksi - Yaşar Çelik",
+      "phone": "05353941988",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05327360957-46",
+      "name": "Çınar Taksi - Eşref Şahin",
+      "phone": "05327360957",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "besni",
+      "districtName": "Besni",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05354102746-47",
+      "name": "Kahta Taksi - Ramazan Üstün",
+      "phone": "05354102746",
+      "website": "https://www.facebook.com/KAHTA-TAKS%C4%B0-Ramazan-%C3%9CST%C3%9CN-1306734386139445/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05376224736-48",
+      "name": "Kahta Taksi - Velat Sağır",
+      "phone": "05376224736",
+      "website": "https://www.facebook.com/KahtaTaksii02",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05344685002-49",
+      "name": "Kahta Taksi - Yusuf Memi",
+      "phone": "05344685002",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05531628022-50",
+      "name": "Kahta Taksi - Zeynel Uyar",
+      "phone": "05531628022",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kahta",
+      "districtName": "Kahta",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

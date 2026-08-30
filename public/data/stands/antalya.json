@@ -1,0 +1,5403 @@
+{
+  "cityId": "antalya",
+  "cityName": "Antalya",
+  "fetchedAt": "2026-08-30T21:27:53.085Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akseki",
+      "name": "Akseki",
+      "count": 2
+    },
+    {
+      "id": "aksu",
+      "name": "Aksu",
+      "count": 2
+    },
+    {
+      "id": "alanya",
+      "name": "Alanya",
+      "count": 56
+    },
+    {
+      "id": "demre",
+      "name": "Demre",
+      "count": 7
+    },
+    {
+      "id": "dosemealti",
+      "name": "Dosemealti",
+      "count": 3
+    },
+    {
+      "id": "elmali",
+      "name": "Elmali",
+      "count": 5
+    },
+    {
+      "id": "finike",
+      "name": "Finike",
+      "count": 9
+    },
+    {
+      "id": "gazipasa",
+      "name": "Gazipasa",
+      "count": 3
+    },
+    {
+      "id": "gundogmus",
+      "name": "Gundogmus",
+      "count": 2
+    },
+    {
+      "id": "kas",
+      "name": "Kas",
+      "count": 4
+    },
+    {
+      "id": "kemer",
+      "name": "Kemer",
+      "count": 9
+    },
+    {
+      "id": "kepez",
+      "name": "Kepez",
+      "count": 35
+    },
+    {
+      "id": "konyaalti",
+      "name": "Konyaalti",
+      "count": 18
+    },
+    {
+      "id": "korkuteli",
+      "name": "Korkuteli",
+      "count": 2
+    },
+    {
+      "id": "kumluca",
+      "name": "Kumluca",
+      "count": 7
+    },
+    {
+      "id": "manavgat",
+      "name": "Manavgat",
+      "count": 12
+    },
+    {
+      "id": "muratpasa",
+      "name": "Muratpasa",
+      "count": 102
+    },
+    {
+      "id": "serik",
+      "name": "Serik",
+      "count": 6
+    }
+  ],
+  "count": 346,
+  "stands": [
+    {
+      "id": "taksi724-02422487472-0",
+      "name": "Acar Taksi",
+      "phone": "02422487472",
+      "website": null,
+      "lat": 36.886445,
+      "lon": 30.709127,
+      "address": "Sinan Mah. 1255. Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422446588-1",
+      "name": "Adliye Taksi",
+      "phone": "02422446588",
+      "website": null,
+      "lat": 36.8832333,
+      "lon": 30.7090688,
+      "address": "Taksi Durağı · Kocatepe Sk. No:1",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05414875260-2",
+      "name": "Aksu Kemerağzı Kumsal Taksi",
+      "phone": "05414875260",
+      "website": null,
+      "lat": 36.889435,
+      "lon": 30.664839,
+      "address": "Meltem Mah. Dumlupınar Blv. 187 Dk:1 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423521985-3",
+      "name": "Altınkum Taksi",
+      "phone": "02423521985",
+      "website": null,
+      "lat": 36.857034,
+      "lon": 30.8780355,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422283344-4",
+      "name": "Altın Taksi",
+      "phone": "02422283344",
+      "website": null,
+      "lat": 36.8675583,
+      "lon": 30.6352256,
+      "address": "437. Sokak",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403114603-5",
+      "name": "Anadolu Taksi",
+      "phone": "05403114603",
+      "website": null,
+      "lat": 36.910695,
+      "lon": 30.77244,
+      "address": "Altınova Yenigöl Mah. Serik Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05459133323-6",
+      "name": "Antalya Arena Taksi",
+      "phone": "05459133323",
+      "website": null,
+      "lat": 36.888578,
+      "lon": 30.720599,
+      "address": "Çaybaşı Mah. Burhanettin Onat Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402371871-7",
+      "name": "Antalya Sur Taksi",
+      "phone": "05402371871",
+      "website": null,
+      "lat": 36.8869498,
+      "lon": 30.672252,
+      "address": "Taksi Durağı ·  · Sakıp Sabancı Blv. No:10",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05397684993-8",
+      "name": "Ant Meltem Taksi",
+      "phone": "05397684993",
+      "website": null,
+      "lat": 36.933393,
+      "lon": 30.638441,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422375832-9",
+      "name": "As Taksi",
+      "phone": "02422375832",
+      "website": null,
+      "lat": 36.8904006,
+      "lon": 30.6668548,
+      "address": "Taksi Durağı ·  · 3804. Sk. 2 F",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423233869-10",
+      "name": "Atatürk Park Taksi",
+      "phone": "02423233869",
+      "website": null,
+      "lat": 36.853891,
+      "lon": 30.755687,
+      "address": "Fener Mah. Falez Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-11-11",
+      "name": "Atatürk Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.884748,
+      "lon": 30.687459,
+      "address": "Deniz Mah. Konyaaltı Cad. Atatürk Parkı Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05413264469-12",
+      "name": "Bahçeli Laguna Taksi",
+      "phone": "05413264469",
+      "website": null,
+      "lat": 36.9238575,
+      "lon": 30.6913322,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422413053-13",
+      "name": "Barın Taksi",
+      "phone": "02422413053",
+      "website": null,
+      "lat": 36.887652,
+      "lon": 30.689464,
+      "address": "Bahçelievler Mah. Turgut Reis Cad. 20 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05342089480-14",
+      "name": "Başak Taksi",
+      "phone": "05342089480",
+      "website": null,
+      "lat": 36.889772,
+      "lon": 30.698093,
+      "address": "Kızılsaray Mah. Milli Egemenlik Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422470808-15",
+      "name": "Beach Park Taksi",
+      "phone": "02422470808",
+      "website": null,
+      "lat": 36.890146,
+      "lon": 30.704544,
+      "address": "Tahılpazarı Mah. Adnan Menderes Blv. 459. Sok. 10 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422383303-16",
+      "name": "Best Taksi",
+      "phone": "02422383303",
+      "website": null,
+      "lat": 36.906375,
+      "lon": 30.717493,
+      "address": "Kızılarık Mah. 2771. Sok. 6/B Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05396882912-17",
+      "name": "Boğaz Taksi",
+      "phone": "05396882912",
+      "website": null,
+      "lat": 36.870266,
+      "lon": 30.721051,
+      "address": "Yeşilbahçe Mah. 1450 Sok. 9 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423521999-18",
+      "name": "Çağlayan Taksi",
+      "phone": "02423521999",
+      "website": null,
+      "lat": 36.85833,
+      "lon": 30.858276,
+      "address": "Güzeloba Mah. Turizm Cad. Lara, Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445020506-19",
+      "name": "Çamyuva Taksi",
+      "phone": "05445020506",
+      "website": null,
+      "lat": 36.854975,
+      "lon": 30.775181,
+      "address": "Çağlayan Mah. Barınaklar Blv. 2037 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02428246275-20",
+      "name": "Carton Taksi",
+      "phone": "02428246275",
+      "website": null,
+      "lat": 36.5480614,
+      "lon": 30.5563126,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365951616-21",
+      "name": "Carton Taksi",
+      "phone": "05365951616",
+      "website": null,
+      "lat": 36.885371,
+      "lon": 30.694105,
+      "address": "Deniz Mah. Konyaaltı Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04840487353-22",
+      "name": "Cender Taksi",
+      "phone": "04840487353",
+      "website": null,
+      "lat": 36.884771,
+      "lon": 30.694105,
+      "address": "Deniz Mah. Konyaaltı Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05445158805-23",
+      "name": "Çiçek Taksi",
+      "phone": "05445158805",
+      "website": null,
+      "lat": 36.875256,
+      "lon": 30.711819,
+      "address": "Gençlik Mah. Işıklar Cad. 42 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423164828-24",
+      "name": "Coşkun Taksi",
+      "phone": "02423164828",
+      "website": null,
+      "lat": 36.85906,
+      "lon": 30.732534,
+      "address": "Şirinyalı Mah. 1518 Sok. 39 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05365951616-25",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05365951616",
+      "website": null,
+      "lat": 36.890253,
+      "lon": 30.71053,
+      "address": "Balbey Mah. 438 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422488483-26",
+      "name": "Değirmenönü Taksi",
+      "phone": "02422488483",
+      "website": null,
+      "lat": 36.887248,
+      "lon": 30.704978,
+      "address": "Elmalı Mah. Cumhuriyet Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453227838-27",
+      "name": "Derya Taksi",
+      "phone": "05453227838",
+      "website": null,
+      "lat": 36.881347,
+      "lon": 30.72123,
+      "address": "Demircikara Mah. Narenciye Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05550044439-28",
+      "name": "Divan Taksi",
+      "phone": "05550044439",
+      "website": null,
+      "lat": 36.900559,
+      "lon": 30.689005,
+      "address": "Güvenlik Mah. Güllük Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422483268-29",
+      "name": "Doğu Garajı Taksi",
+      "phone": "02422483268",
+      "website": null,
+      "lat": 36.878855,
+      "lon": 30.7088874,
+      "address": "Gençlik Mah. Fevzi Çakmak Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365951616-30",
+      "name": "Dutlubahçe Taksi",
+      "phone": "05365951616",
+      "website": null,
+      "lat": 36.8886747,
+      "lon": 30.7118196,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423348040-31",
+      "name": "Elmas Taksi",
+      "phone": "02423348040",
+      "website": null,
+      "lat": 36.904444,
+      "lon": 30.704113,
+      "address": "Dutlubahçe Mah. 773. Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423493345-32",
+      "name": "Etiler Taksi",
+      "phone": "02423493345",
+      "website": null,
+      "lat": 36.851924,
+      "lon": 30.802756,
+      "address": "Güzeloba Mah. Manolya Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05388216699-33",
+      "name": "Etiler Taksi",
+      "phone": "05388216699",
+      "website": null,
+      "lat": 36.901476,
+      "lon": 30.709631,
+      "address": "Taksi Durağı ·  · 882. Sk. Pk:07010",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388216699-34",
+      "name": "Fener Taksi",
+      "phone": "05388216699",
+      "website": null,
+      "lat": 36.899389,
+      "lon": 30.708913,
+      "address": "Etiler Mah. Evliya Çelebi Cad. 882. Sok. 2 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05389612666-35",
+      "name": "Fulda Taksi",
+      "phone": "05389612666",
+      "website": null,
+      "lat": 36.858227,
+      "lon": 30.749514,
+      "address": "Fener Mah. Bülent Ecevit Blv. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423454670-36",
+      "name": "Galaksi Taksi",
+      "phone": "02423454670",
+      "website": null,
+      "lat": 36.897359,
+      "lon": 30.697876,
+      "address": "Cumhuriyet Mah. Tonguç Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05070043354-37",
+      "name": "Güllük Taksi",
+      "phone": "05070043354",
+      "website": null,
+      "lat": 36.907013,
+      "lon": 30.698729,
+      "address": "Cumhuriyet Mah. 675 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-38-38",
+      "name": "Gül Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.887242,
+      "lon": 30.696455,
+      "address": "Deniz Mah. Güllük Cad. 127. Sok. 3/3 Erkaplan Apt. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422377590-39",
+      "name": "Güney Taksi",
+      "phone": "02422377590",
+      "website": null,
+      "lat": 36.8879958,
+      "lon": 30.6798719,
+      "address": "Yüzüncü Yıl Bulvarı",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422377768-40",
+      "name": "Havaalanı Taksi",
+      "phone": "02422377768",
+      "website": null,
+      "lat": 36.887591,
+      "lon": 30.682451,
+      "address": "Varlık Mah. Pirireis Cad. 9 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423303107-41",
+      "name": "Hilal Taksi",
+      "phone": "02423303107",
+      "website": null,
+      "lat": 36.9092352,
+      "lon": 30.8024924,
+      "address": "Havaalanı",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425117242-42",
+      "name": "Hızır Taksi",
+      "phone": "02425117242",
+      "website": null,
+      "lat": 36.5509123,
+      "lon": 31.9811971,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422376702-43",
+      "name": "Taksi durağı",
+      "phone": "02422376702",
+      "website": null,
+      "lat": 36.890877,
+      "lon": 30.679881,
+      "address": "Varlık Mah. Kazım Karabekir Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427465078-44",
+      "name": "Ipek Taksi",
+      "phone": "02427465078",
+      "website": null,
+      "lat": 36.7905633,
+      "lon": 31.4278276,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422442245-45",
+      "name": "Işıklar Taksi",
+      "phone": "02422442245",
+      "website": null,
+      "lat": 36.890365,
+      "lon": 30.70226,
+      "address": "Elmalı Mah. Hasan Subaşı Cad. 8 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423218200-46",
+      "name": "Işıltepe Taksi",
+      "phone": "02423218200",
+      "website": null,
+      "lat": 36.879759,
+      "lon": 30.710127,
+      "address": "Gençlik Mah. 1326 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05010020207-47",
+      "name": "Karşıyaka Taksi",
+      "phone": "05010020207",
+      "website": null,
+      "lat": 36.861849,
+      "lon": 30.729519,
+      "address": "Şirinyalı Mah. 1547 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423269676-48",
+      "name": "Taksi durağı",
+      "phone": "02423269676",
+      "website": null,
+      "lat": 36.911673,
+      "lon": 30.6998525,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428142055-49",
+      "name": "Kiriş Taksi",
+      "phone": "02428142055",
+      "website": null,
+      "lat": 36.5987473,
+      "lon": 30.5581739,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02428246999-50",
+      "name": "Kırcami umut Taksi",
+      "phone": "02428246999",
+      "website": null,
+      "lat": 36.5774909,
+      "lon": 30.5825209,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05453161403-51",
+      "name": "Kolej Taksi",
+      "phone": "05453161403",
+      "website": null,
+      "lat": 36.8649816,
+      "lon": 30.7405973,
+      "address": "Taksi Durağı · Şirinyalı Mahallesi Sinanoğlu Caddesi 1526.sokak köşesi",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422380584-52",
+      "name": "Komaş Akdeniz Taksi",
+      "phone": "02422380584",
+      "website": null,
+      "lat": 36.897365,
+      "lon": 30.670074,
+      "address": "Bayındır Mah. Toroslar Cad. 336. Sok. 1 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05374701585-53",
+      "name": "Konak Taksi",
+      "phone": "05374701585",
+      "website": null,
+      "lat": 36.878376,
+      "lon": 30.716427,
+      "address": "Zerdalilik Mah. 1387 Sok. 25 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422489822-54",
+      "name": "Konak Taksi",
+      "phone": "02422489822",
+      "website": null,
+      "lat": 36.878855,
+      "lon": 30.7101866,
+      "address": "Gençlik Mah. Fevzi Çakmak Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422489822-55",
+      "name": "Konuksever Taksi",
+      "phone": "02422489822",
+      "website": null,
+      "lat": 36.879155,
+      "lon": 30.709537,
+      "address": "Gençlik Mah. Fevzi Çakmak Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423442945-56",
+      "name": "Konyaaltı Akdeniz Taksi",
+      "phone": "02423442945",
+      "website": null,
+      "lat": 36.9043029,
+      "lon": 30.7098379,
+      "address": "Taksi Durağı ·  · Karacaoğlan Cd. No:74",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422290814-57",
+      "name": "Konyaaltı Birlik TAKSi",
+      "phone": "02422290814",
+      "website": null,
+      "lat": 36.8602559,
+      "lon": 30.6349326,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422290966-58",
+      "name": "Lara Birlik Taksi",
+      "phone": "02422290966",
+      "website": null,
+      "lat": 36.8721015,
+      "lon": 30.6529878,
+      "address": "Taksi Durağı ·  · 611. Sk. No:4",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05453494898-59",
+      "name": "Lara Taksi",
+      "phone": "05453494898",
+      "website": null,
+      "lat": 36.85893,
+      "lon": 30.858276,
+      "address": "Güzeloba Mah. Lara Turizm Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423493906-60",
+      "name": "Lara Taksi",
+      "phone": "02423493906",
+      "website": null,
+      "lat": 36.8568012,
+      "lon": 30.7858781,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05396882912-61",
+      "name": "Marina Taksi",
+      "phone": "05396882912",
+      "website": null,
+      "lat": 36.858301,
+      "lon": 30.79065,
+      "address": "Güzeloba Mah. Barınaklar Blv. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422485192-62",
+      "name": "Medstar Antalya Taksi",
+      "phone": "02422485192",
+      "website": null,
+      "lat": 36.886814,
+      "lon": 30.707372,
+      "address": "Tuzcular Mah. İkinci İnönü Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05386106503-63",
+      "name": "Metropol Taksi",
+      "phone": "05386106503",
+      "website": null,
+      "lat": 36.8947351,
+      "lon": 30.6859567,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423225423-64",
+      "name": "Meydan Festival Taksi",
+      "phone": "02423225423",
+      "website": null,
+      "lat": 36.868841,
+      "lon": 30.727833,
+      "address": "Yeşil Bahçe Mah. Çınarlı Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05386419962-65",
+      "name": "Muratpaşa Taksi",
+      "phone": "05386419962",
+      "website": null,
+      "lat": 36.885924,
+      "lon": 30.735453,
+      "address": "Taksi Durağı ·  · 1595. Sk. No:1",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422440784-66",
+      "name": "Narenciye Taksi",
+      "phone": "02422440784",
+      "website": null,
+      "lat": 36.895307,
+      "lon": 30.705576,
+      "address": "Tahılpazarı Mah. Çatalköprü Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423220199-67",
+      "name": "Ofo Taksi",
+      "phone": "02423220199",
+      "website": null,
+      "lat": 36.873716,
+      "lon": 30.722768,
+      "address": "Yeşilbahçe Mah. Portakal Çiçeği Blv. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423494413-68",
+      "name": "Örnek Onay Hamamı Taksi",
+      "phone": "02423494413",
+      "website": null,
+      "lat": 36.855059,
+      "lon": 30.798673,
+      "address": "Güzeloba Mah. Lara Cad. 395 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422426948-69",
+      "name": "Otogar Taksi",
+      "phone": "02422426948",
+      "website": null,
+      "lat": 36.890584,
+      "lon": 30.689813,
+      "address": "Altındağ Mah. 147 Sok. 6 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02425134614-70",
+      "name": "Oyak Taksi",
+      "phone": "02425134614",
+      "website": null,
+      "lat": 36.5531189,
+      "lon": 31.9778365,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453225815-71",
+      "name": "Özgür Taksi",
+      "phone": "05453225815",
+      "website": null,
+      "lat": 36.889266,
+      "lon": 30.738405,
+      "address": "Kızıltoprak Mah. Termesos Blv. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423351007-72",
+      "name": "Pamfilya Taksi",
+      "phone": "02423351007",
+      "website": null,
+      "lat": 36.9125614,
+      "lon": 30.6823369,
+      "address": "Taksi Durağı ·  · 2655. Sk.",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05342089480-73",
+      "name": "Park Taksi",
+      "phone": "05342089480",
+      "website": null,
+      "lat": 36.851306,
+      "lon": 30.772583,
+      "address": "Çağlayan Mah. 2057. Sok. 21 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05365951616-74",
+      "name": "Doğu Garajı Taksi",
+      "phone": "05365951616",
+      "website": null,
+      "lat": 36.882514,
+      "lon": 30.706808,
+      "address": "Kılınçarslan Mah. Yeni Kapı Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422282158-75",
+      "name": "Real Taksi",
+      "phone": "02422282158",
+      "website": null,
+      "lat": 36.8793585,
+      "lon": 30.6553661,
+      "address": "Taksi Durağı ·  · 600. Sk. No:18",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422485414-76",
+      "name": "Sarısu Taksi",
+      "phone": "02422485414",
+      "website": null,
+      "lat": 36.89838,
+      "lon": 30.704219,
+      "address": "Muratpaşa Mah. 591. Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422594020-77",
+      "name": "Sarıyer Taksi",
+      "phone": "02422594020",
+      "website": null,
+      "lat": 36.8455401,
+      "lon": 30.5955736,
+      "address": "Sarısu mah 169 sok",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04847193514-78",
+      "name": "Selekler Taksi",
+      "phone": "04847193514",
+      "website": null,
+      "lat": 36.900144,
+      "lon": 30.683412,
+      "address": "Güvenlik Mah. 261 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422414711-79",
+      "name": "Sera Taksi",
+      "phone": "02422414711",
+      "website": null,
+      "lat": 36.886647,
+      "lon": 30.702016,
+      "address": "Kışla Mah. Cumhuriyet Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423493210-80",
+      "name": "Sera Taksi",
+      "phone": "02423493210",
+      "website": null,
+      "lat": 36.8488943,
+      "lon": 30.8071081,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423493210-81",
+      "name": "Sizin Taksi",
+      "phone": "02423493210",
+      "website": null,
+      "lat": 36.849491,
+      "lon": 30.821835,
+      "address": "Güzeloba Mah. Lara Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423232294-82",
+      "name": "Soğuksu Akumer Taksi",
+      "phone": "02423232294",
+      "website": null,
+      "lat": 36.857627,
+      "lon": 30.749514,
+      "address": "Fener Mah. Bülent Ecevit Blv. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422382474-83",
+      "name": "Ssk Taksi",
+      "phone": "02422382474",
+      "website": null,
+      "lat": 36.900309,
+      "lon": 30.679789,
+      "address": "Soğuksu Mah. 303 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423463694-84",
+      "name": "Stad Taksi",
+      "phone": "02423463694",
+      "website": null,
+      "lat": 36.899385,
+      "lon": 30.69149,
+      "address": "Üçgen Mah. Vatan Blv. (Atatürk Devlet Hastanesi Girişi) Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422437099-85",
+      "name": "The Marmara Taksi",
+      "phone": "02422437099",
+      "website": null,
+      "lat": 36.878119,
+      "lon": 30.706736,
+      "address": "Gençlik Mah. 1311 Sok. 26 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423168891-86",
+      "name": "Tongu. Taksi",
+      "phone": "02423168891",
+      "website": null,
+      "lat": 36.8573152,
+      "lon": 30.7382507,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05537020617-87",
+      "name": "Trafo Taksi",
+      "phone": "05537020617",
+      "website": null,
+      "lat": 36.900527,
+      "lon": 30.70041,
+      "address": "Cumhuriyet Mah. 626 Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423114676-88",
+      "name": "ÜÇGEN TAKSi",
+      "phone": "02423114676",
+      "website": null,
+      "lat": 36.881411,
+      "lon": 30.710301,
+      "address": "Sinan Mah. Arık Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05301242242-89",
+      "name": "Üçkapılar Taksi",
+      "phone": "05301242242",
+      "website": null,
+      "lat": 36.8948986,
+      "lon": 30.6941266,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414875260-90",
+      "name": "Umut Taksi",
+      "phone": "05414875260",
+      "website": null,
+      "lat": 36.886623,
+      "lon": 30.706712,
+      "address": "Tuzcular Mah. İmaret Sok. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453161403-91",
+      "name": "Uncalı Atlantik Taksi",
+      "phone": "05453161403",
+      "website": null,
+      "lat": 36.862945,
+      "lon": 30.730312,
+      "address": "Şirinyalı Mah. İsmet Gökşen Cad. 9 Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422299088-92",
+      "name": "Varlık Taksi",
+      "phone": "02422299088",
+      "website": null,
+      "lat": 36.8907041,
+      "lon": 30.6331492,
+      "address": "Taksi Durağı ·  · Emniyet Cd No:98/1",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422484312-93",
+      "name": "Varlık Taksi",
+      "phone": "02422484312",
+      "website": null,
+      "lat": 36.8894174,
+      "lon": 30.6844307,
+      "address": "Taksi Durağı ·  · 184. Sk. No:100",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422484312-94",
+      "name": "Varsak siteler Taksi",
+      "phone": "02422484312",
+      "website": null,
+      "lat": 36.889635,
+      "lon": 30.687966,
+      "address": "Varlık Mah. 100 Yıl Blv. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05393206232-95",
+      "name": "Yasemin Taksi",
+      "phone": "05393206232",
+      "website": null,
+      "lat": 36.9444849,
+      "lon": 30.708787,
+      "address": "Taksi Durağı ·  · Şelale Cd. No:344",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423322432-96",
+      "name": "Yavuz Özcan Park Taksi",
+      "phone": "02423322432",
+      "website": null,
+      "lat": 36.9341686,
+      "lon": 30.6677127,
+      "address": "Taksi Durağı ·  · 4875. Sk. No:87",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422473523-97",
+      "name": "Yenigün Taksi",
+      "phone": "02422473523",
+      "website": null,
+      "lat": 36.885429,
+      "lon": 30.697155,
+      "address": "Deniz Mah. Konyaaltı Cad. Yavuz Özcan Parkı Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05539314128-98",
+      "name": "Yeşilbahçe Taksi",
+      "phone": "05539314128",
+      "website": null,
+      "lat": 36.903493,
+      "lon": 30.720583,
+      "address": "Yenigün Mah. 1066 Sok. 38 (Trafo Yanı) Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423162993-99",
+      "name": "Yüksekalan Taksi",
+      "phone": "02423162993",
+      "website": null,
+      "lat": 36.865914,
+      "lon": 30.7273,
+      "address": null,
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05403114603-100",
+      "name": "Zambak Taksi",
+      "phone": "05403114603",
+      "website": null,
+      "lat": 36.891773,
+      "lon": 30.7162053,
+      "address": "\"Mahallenin taksisi güvenilir bir duraktır.\"",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05524643144-101",
+      "name": "antalya-taksi",
+      "phone": "05524643144",
+      "website": null,
+      "lat": 36.904979,
+      "lon": 30.685517,
+      "address": "Sedir Mah. Zambak Cad. Muratpaşa, Antalya",
+      "districtId": "muratpasa",
+      "districtName": "Muratpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02425128868-102",
+      "name": "Adalet Taksi",
+      "phone": "02425128868",
+      "website": null,
+      "lat": 36.551733,
+      "lon": 32.010891,
+      "address": "Hacet Mah. Canlı Sok. 3 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425128868-103",
+      "name": "AKDENIZ TAKSI",
+      "phone": "02425128868",
+      "website": null,
+      "lat": 36.552214,
+      "lon": 32.013436,
+      "address": "Hacet Mah. Keykubat Blv. 3 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425138914-104",
+      "name": "Akdeniz Taksi",
+      "phone": "02425138914",
+      "website": null,
+      "lat": 36.548821,
+      "lon": 31.986848,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425138914-105",
+      "name": "Alaaddin Beach Taksi",
+      "phone": "02425138914",
+      "website": null,
+      "lat": 36.550827,
+      "lon": 31.988289,
+      "address": "Saray Mah. Oral Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05453494898-106",
+      "name": "Alanya Taksi",
+      "phone": "05453494898",
+      "website": null,
+      "lat": 36.549038,
+      "lon": 31.980539,
+      "address": "Saray Mah. Atatürk Blv. 159 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324206141-107",
+      "name": "Alanya Toros Taksi",
+      "phone": "05324206141",
+      "website": null,
+      "lat": 36.547588,
+      "lon": 31.982286,
+      "address": "Saray Mah. Güzel Yalı Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425131387-108",
+      "name": "Ananas Taksi",
+      "phone": "02425131387",
+      "website": null,
+      "lat": 36.5471879,
+      "lon": 32.0121311,
+      "address": "Taksi Durağı · Güller Pınarı Hasanakcalıoğlu caddesi, İsmi Sk.",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05403114603-109",
+      "name": "Ata Taksi",
+      "phone": "05403114603",
+      "website": null,
+      "lat": 36.538647,
+      "lon": 32.029373,
+      "address": "Cumhuriyet Mah. Palmiye Sok. 3 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02425122757-110",
+      "name": "Barbaros Taksi",
+      "phone": "02425122757",
+      "website": null,
+      "lat": 36.544209,
+      "lon": 32.011903,
+      "address": "Güller Pınarı Mah. Anılgan Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422432215-111",
+      "name": "Begonvil Taksi",
+      "phone": "02422432215",
+      "website": null,
+      "lat": 36.548009,
+      "lon": 31.994314,
+      "address": "Saray Mah. Sugözü Cad. 7/C Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05537990059-112",
+      "name": "Birlik Taksi",
+      "phone": "05537990059",
+      "website": null,
+      "lat": 36.544845,
+      "lon": 32.005372,
+      "address": "Güller Pınarı Mah. Akay Sok. 4 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02425171324-113",
+      "name": "Can Taksi",
+      "phone": "02425171324",
+      "website": null,
+      "lat": 36.6217093,
+      "lon": 31.7669072,
+      "address": "Taksi Durağı ·  · Bahçe Sk. No:17",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324206141-114",
+      "name": "Çiçek Taksi",
+      "phone": "05324206141",
+      "website": null,
+      "lat": 36.543727,
+      "lon": 32.001958,
+      "address": "Şekerhane Mah. Mola Kavşağı Yayla Yolu Cad. 1 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425116592-115",
+      "name": "Cikcilli Taksi",
+      "phone": "02425116592",
+      "website": null,
+      "lat": 36.554635,
+      "lon": 31.972585,
+      "address": "Kızlar Pınarı Mah. Dinek Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05362329920-116",
+      "name": "Cumhuriyet Taksi",
+      "phone": "05362329920",
+      "website": null,
+      "lat": 36.545916,
+      "lon": 32.024053,
+      "address": "Saraybeleni Mah. 111. Sok. Cikcilli, Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425140305-117",
+      "name": "Cumhuriyet Taksi",
+      "phone": "02425140305",
+      "website": null,
+      "lat": 36.5416202,
+      "lon": 32.0310557,
+      "address": "Taksi Durağı ·  · Yaşar Doğu Cd. No:53",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425140305-118",
+      "name": "Damlataş Taksi",
+      "phone": "02425140305",
+      "website": null,
+      "lat": 36.539247,
+      "lon": 32.029373,
+      "address": "Cumhuriyet Mah. Palmiye Sok. 3 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425115690-119",
+      "name": "Deniz Taksi",
+      "phone": "02425115690",
+      "website": null,
+      "lat": 36.548188,
+      "lon": 31.982286,
+      "address": "Saray Mah. Güzel Yalı Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425220413-120",
+      "name": "Dinek Taksi",
+      "phone": "02425220413",
+      "website": null,
+      "lat": 36.5556985,
+      "lon": 31.98861,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425113818-121",
+      "name": "Gazipaşa Taksi",
+      "phone": "02425113818",
+      "website": null,
+      "lat": 36.558169,
+      "lon": 31.964429,
+      "address": "Dinek Mah. Şehit İlyas Güzel Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05323715228-122",
+      "name": "Güven Taksi",
+      "phone": "05323715228",
+      "website": null,
+      "lat": 36.270077,
+      "lon": 32.313499,
+      "address": "Taksi Durağı ·  · Gazi Mahallesi Fahri Leylek Caddesi, Gazipaşa Antalya, Fahri Leylek Cd. No:2",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425123175-123",
+      "name": "Hacet Taksi",
+      "phone": "02425123175",
+      "website": null,
+      "lat": 36.545384,
+      "lon": 32.000729,
+      "address": "Şekerhane Mah. Halimağa Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425123489-124",
+      "name": "Hayat Taksi",
+      "phone": "02425123489",
+      "website": null,
+      "lat": 36.544615,
+      "lon": 32.003274,
+      "address": "Güller Pınarı Mah. Hacet Cad. 14/A Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425138204-125",
+      "name": "Hicret Taksi",
+      "phone": "02425138204",
+      "website": null,
+      "lat": 36.547566,
+      "lon": 32.001932,
+      "address": "Şekerhane Mah. Refik Bakalım Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425120094-126",
+      "name": "Içkale Taksi",
+      "phone": "02425120094",
+      "website": null,
+      "lat": 36.5466785,
+      "lon": 31.9862944,
+      "address": "Taksi Durağı ·  · Atatürk Blv. No:123",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425114183-127",
+      "name": "Kale Taksi",
+      "phone": "02425114183",
+      "website": null,
+      "lat": 36.533434,
+      "lon": 31.993107,
+      "address": "Hisariçi Mah. Kale Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425125937-128",
+      "name": "Karagöz Taksi",
+      "phone": "02425125937",
+      "website": null,
+      "lat": 36.541689,
+      "lon": 31.997326,
+      "address": "Çarşı Mah. Kale Yolu Cad. 2 Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425124985-129",
+      "name": "Kargıcak Taksi",
+      "phone": "02425124985",
+      "website": null,
+      "lat": 36.551874,
+      "lon": 32.006913,
+      "address": "Hacet Mah. Eşref Kahvecioğlu Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425262181-130",
+      "name": "Kestel Taksi",
+      "phone": "02425262181",
+      "website": null,
+      "lat": 36.466261,
+      "lon": 32.1365,
+      "address": "Kargıcak-Karagedik Mah. Sahil Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425182382-131",
+      "name": "Kestel Taksi",
+      "phone": "02425182382",
+      "website": null,
+      "lat": 36.52944,
+      "lon": 32.084758,
+      "address": "Dimçayı Mah. Sigorta Cad. (Alantur Otel Yanı) Kestel, Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342975747-132",
+      "name": "Kestel Taksi",
+      "phone": "05342975747",
+      "website": null,
+      "lat": 36.53004,
+      "lon": 32.084758,
+      "address": "Dimçayı Mah. Sigorta Cad. (Alantur Otel Yanı) Kestel, Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05015802382-133",
+      "name": "Konaklı Merkez Taksi",
+      "phone": "05015802382",
+      "website": null,
+      "lat": 36.5141166,
+      "lon": 32.0678125,
+      "address": "Taksi Durağı · Mevlana Sk.",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425651100-134",
+      "name": "Konak Taksi",
+      "phone": "02425651100",
+      "website": null,
+      "lat": 36.580366,
+      "lon": 31.8963305,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425652974-135",
+      "name": "Kültür Taksi",
+      "phone": "02425652974",
+      "website": null,
+      "lat": 36.58561,
+      "lon": 31.887624,
+      "address": "Konaklı-Kale Mah. Sancak Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425127896-136",
+      "name": "Lale Taksi",
+      "phone": "02425127896",
+      "website": null,
+      "lat": 36.544801,
+      "lon": 31.988725,
+      "address": "Taksi Durağı · İsmet Hilmi Balcı Cd. No:11",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425116575-137",
+      "name": "Mahmutlar Birlik Taksi",
+      "phone": "02425116575",
+      "website": null,
+      "lat": 36.548653,
+      "lon": 31.9995821,
+      "address": "Taksi Durağı · Atatürk evi yanı, Rektör Sipahioğlu Sk. No:8",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05516746138-138",
+      "name": "Meydan Taksi",
+      "phone": "05516746138",
+      "website": null,
+      "lat": 36.488185,
+      "lon": 32.09642,
+      "address": "Mahmutlar-Yeni Mah. Barbaros Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425136908-139",
+      "name": "Murat Taksi",
+      "phone": "02425136908",
+      "website": null,
+      "lat": 36.541907,
+      "lon": 32.000665,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425117919-140",
+      "name": "Oba Birlik Taksi",
+      "phone": "02425117919",
+      "website": null,
+      "lat": 36.5508971,
+      "lon": 31.9838788,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05405389397-141",
+      "name": "Oba Köy Taksi",
+      "phone": "05405389397",
+      "website": null,
+      "lat": 36.5376406,
+      "lon": 32.0362825,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05405389397-142",
+      "name": "Okurcalar Taksi",
+      "phone": "05405389397",
+      "website": null,
+      "lat": 36.533788,
+      "lon": 32.040871,
+      "address": "Göl Mah. Dadaşlar Cad. Oba Kasabası, Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05349808111-143",
+      "name": "Olive Taksi",
+      "phone": "05349808111",
+      "website": null,
+      "lat": 36.648503,
+      "lon": 31.706725,
+      "address": "Okurcalar-Karaburun Mah. İlifos Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388406045-144",
+      "name": "Öz Star Taksi",
+      "phone": "05388406045",
+      "website": null,
+      "lat": 36.5493732,
+      "lon": 32.0409641,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425139870-145",
+      "name": "Sahil Taksi",
+      "phone": "02425139870",
+      "website": null,
+      "lat": 36.54588,
+      "lon": 31.990723,
+      "address": "Saray Mah. Galatasaray Cad. Gülen Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425123610-146",
+      "name": "Şirin Taksi",
+      "phone": "02425123610",
+      "website": null,
+      "lat": 36.5435015,
+      "lon": 31.9914286,
+      "address": "Taksi Durağı ·  · Sahil Taksi, Taşcı Ali Sk. No:2, 07400",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425111725-147",
+      "name": "Taksi",
+      "phone": "02425111725",
+      "website": null,
+      "lat": 36.542139,
+      "lon": 31.998316,
+      "address": "Şekerhane Mah. Kalgıdım Sok. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05317496332-148",
+      "name": "Taksi durağı",
+      "phone": "05317496332",
+      "website": null,
+      "lat": 36.5457822,
+      "lon": 32.0169711,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05324206141-149",
+      "name": "Taxi Taksi",
+      "phone": "05324206141",
+      "website": null,
+      "lat": 36.552942,
+      "lon": 31.9986957,
+      "address": "Taksi · Bostancıpınarı Cd. No:128",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05314558811-150",
+      "name": "Toros Taksi",
+      "phone": "05314558811",
+      "website": null,
+      "lat": 36.4404083,
+      "lon": 32.0787414,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425131387-151",
+      "name": "Tosmur Taksi",
+      "phone": "02425131387",
+      "website": null,
+      "lat": 36.547302,
+      "lon": 32.00791,
+      "address": "Güller Pınarı Mah. Hasan Akçalıoğlu Cad. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425140997-152",
+      "name": "Transfer Taksi",
+      "phone": "02425140997",
+      "website": null,
+      "lat": 36.527838,
+      "lon": 32.0488567,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05342975747-153",
+      "name": "Türkler Taksi",
+      "phone": "05342975747",
+      "website": null,
+      "lat": 36.5023888,
+      "lon": 32.0968509,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425171711-154",
+      "name": "Türkler Taksi",
+      "phone": "02425171711",
+      "website": null,
+      "lat": 36.6107912,
+      "lon": 31.7789314,
+      "address": null,
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425171711-155",
+      "name": "Ufuk Taksi",
+      "phone": "02425171711",
+      "website": null,
+      "lat": 36.609408,
+      "lon": 31.78434,
+      "address": "Türkler-Fuğla Mah. Akdeniz Blv. Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425119141-156",
+      "name": "Ufuk Taksi",
+      "phone": "02425119141",
+      "website": null,
+      "lat": 36.5443798,
+      "lon": 32.0165344,
+      "address": "Taksi Durağı · Karabüllü Sk. 14/A",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02425119141-157",
+      "name": "antalya-taksi",
+      "phone": "02425119141",
+      "website": null,
+      "lat": 36.544238,
+      "lon": 32.019022,
+      "address": "Güller Pınarı Mah. Demirel Sok. (İlçe Jandarmanın 100m. İlerisi) Alanya, Antalya",
+      "districtId": "alanya",
+      "districtName": "Alanya",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423406644-158",
+      "name": "Antkoop Taksi",
+      "phone": "02423406644",
+      "website": null,
+      "lat": 36.9091865,
+      "lon": 30.7702657,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423465640-159",
+      "name": "Antkop Taksi",
+      "phone": "02423465640",
+      "website": null,
+      "lat": 36.917187,
+      "lon": 30.685771,
+      "address": "Zafer Mah. 2617 Sok. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423465640-160",
+      "name": "Barış Taksi",
+      "phone": "02423465640",
+      "website": null,
+      "lat": 36.917054,
+      "lon": 30.689199,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05423466564-161",
+      "name": "Çankaya Taksi",
+      "phone": "05423466564",
+      "website": null,
+      "lat": 36.917111,
+      "lon": 30.685261,
+      "address": "Yeşil Tepe Mah. Mithatpaşa Cad. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05399328785-162",
+      "name": "Can Taksi",
+      "phone": "05399328785",
+      "website": null,
+      "lat": 36.9321335,
+      "lon": 30.6833372,
+      "address": "\"Mahallemizin taksi durağı çok iyi arkadaşlardan memnunuz.\"",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423392855-163",
+      "name": "Can Taksi",
+      "phone": "02423392855",
+      "website": null,
+      "lat": 36.914388,
+      "lon": 30.732332,
+      "address": "Düdenbaşı Mah. 2324 Sok. 18 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-164-164",
+      "name": "Cezaevi Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.913788,
+      "lon": 30.732332,
+      "address": "Düdenbaşı Mah. 2324 Sok. 18 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422211017-165",
+      "name": "Deepo Taksi",
+      "phone": "02422211017",
+      "website": null,
+      "lat": 36.934992,
+      "lon": 30.629114,
+      "address": "Ünsal Mah. 5150 Sok. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315933757-166",
+      "name": "Deepo Taksi",
+      "phone": "05315933757",
+      "website": null,
+      "lat": 36.928419,
+      "lon": 30.801557,
+      "address": "Altınova Sinan Mah. Serik Cad. 371 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05315933757-167",
+      "name": "Dokuma Özdilek Taksi",
+      "phone": "05315933757",
+      "website": null,
+      "lat": 36.927819,
+      "lon": 30.801557,
+      "address": "Altınova Sinan Mah. Serik Cad. 371 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423433004-168",
+      "name": "Dünya Göz Taksi",
+      "phone": "02423433004",
+      "website": null,
+      "lat": 36.917826,
+      "lon": 30.673316,
+      "address": "Fabrikalar Mah. Namık Kemal Blv. 49 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423455374-169",
+      "name": "Emek Taksi",
+      "phone": "02423455374",
+      "website": null,
+      "lat": 36.917436,
+      "lon": 30.692838,
+      "address": "Zafer Mah. Sakarya Blv. 2628. Sok. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423265264-170",
+      "name": "Güneş Taksi",
+      "phone": "02423265264",
+      "website": null,
+      "lat": 36.916884,
+      "lon": 30.715087,
+      "address": "Emek Mah. Yeşilırmak Cad. (Düden Kavşağı Köşesi) Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423370030-171",
+      "name": "Güneş Taksi",
+      "phone": "02423370030",
+      "website": null,
+      "lat": 36.920468,
+      "lon": 30.73895,
+      "address": "Güneş Mah. Toptancı Hal Cad. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423370030-172",
+      "name": "Hürriyet Taksi",
+      "phone": "02423370030",
+      "website": null,
+      "lat": 36.921068,
+      "lon": 30.73895,
+      "address": "Güneş Mah. Toptancı Hal Cad. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422279870-173",
+      "name": "Istikbal Taksi",
+      "phone": "02422279870",
+      "website": null,
+      "lat": 36.904621,
+      "lon": 30.647249,
+      "address": "Yeşilyurt Mah. 4300 Sok. Gülveren, Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423463635-174",
+      "name": "Karatay Taksi",
+      "phone": "02423463635",
+      "website": null,
+      "lat": 36.911051,
+      "lon": 30.689736,
+      "address": "Ulus Mah. Mithat Paşa Cad. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05438114325-175",
+      "name": "Kuzeyyaka gündoğdu Taksi",
+      "phone": "05438114325",
+      "website": null,
+      "lat": 36.9230132,
+      "lon": 30.7076085,
+      "address": "Taksi Durağı · 2416. Sk.",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05384412545-176",
+      "name": "Karşıyaka Taksi",
+      "phone": "05384412545",
+      "website": null,
+      "lat": 36.9256647,
+      "lon": 30.7077949,
+      "address": "Taksi Durağı · Gündoğdu Mahallesi Kuzeyyaka mahallesi Ceyhan cd 2553 sokak Yeşilırmak caddesi, Göksu Cd. 2526 sokak",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423269676-177",
+      "name": "Kent Taksi",
+      "phone": "02423269676",
+      "website": null,
+      "lat": 36.912306,
+      "lon": 30.703444,
+      "address": "Karşıyaka Mah. Gazi Blv. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05522772648-178",
+      "name": "Lale Taksi",
+      "phone": "05522772648",
+      "website": null,
+      "lat": 36.9019643,
+      "lon": 30.6185494,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422214429-179",
+      "name": "Menzil Taksi",
+      "phone": "02422214429",
+      "website": null,
+      "lat": 36.917601,
+      "lon": 30.642774,
+      "address": "Şafak Mah. 5001 Sok. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05443314999-180",
+      "name": "Mutlu Taksi",
+      "phone": "05443314999",
+      "website": null,
+      "lat": 36.917922,
+      "lon": 30.665573,
+      "address": "Yeni Doğan Mah. Dumlupınar Blv. 3109 Sok. Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423343587-181",
+      "name": "Saray Taksi",
+      "phone": "02423343587",
+      "website": null,
+      "lat": 36.9093289,
+      "lon": 30.6794372,
+      "address": "Taksi Durağı · Fikri Erten Cd. No:1",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422484499-182",
+      "name": "Sema Yazar Taksi",
+      "phone": "02422484499",
+      "website": null,
+      "lat": 36.891756,
+      "lon": 30.6993802,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423396489-183",
+      "name": "Sütçüler Hastane Taksi",
+      "phone": "02423396489",
+      "website": null,
+      "lat": 36.913638,
+      "lon": 30.717436,
+      "address": "Teomanpaşa Mah. 2202 Sok. 2 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423264065-184",
+      "name": "Taksi Taksi",
+      "phone": "02423264065",
+      "website": null,
+      "lat": 36.9323259,
+      "lon": 30.7169854,
+      "address": "Taksi Durağı ·  · Hastane Cd. No:42",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05462599482-185",
+      "name": "Tedaş Taksi",
+      "phone": "05462599482",
+      "website": null,
+      "lat": 36.9128032,
+      "lon": 30.6789968,
+      "address": "Taksi Durağı ·  · 2658. Sk. No 9 /a",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423398741-186",
+      "name": "Ulus Taksi",
+      "phone": "02423398741",
+      "website": null,
+      "lat": 36.901935,
+      "lon": 30.764187,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423467548-187",
+      "name": "Varsak Taksi",
+      "phone": "02423467548",
+      "website": null,
+      "lat": 36.9069161,
+      "lon": 30.6827634,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05327884507-188",
+      "name": "Yasemin Taksi",
+      "phone": "05327884507",
+      "website": null,
+      "lat": 36.9775717,
+      "lon": 30.7142649,
+      "address": null,
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423322432-189",
+      "name": "Yeni Hal Taksi",
+      "phone": "02423322432",
+      "website": null,
+      "lat": 36.932981,
+      "lon": 30.665748,
+      "address": "Çamlıbel Mah. 4875 Sok. 25 Kepez, Antalya",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02423380297-190",
+      "name": "Yeşildere Doğuyaka Taksi",
+      "phone": "02423380297",
+      "website": null,
+      "lat": 36.9214924,
+      "lon": 30.7457058,
+      "address": "Taksi Durağı · Yeni Hal No:820",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05386438595-191",
+      "name": "Yeşil Sanayi Taksi",
+      "phone": "05386438595",
+      "website": null,
+      "lat": 36.9071833,
+      "lon": 30.7362454,
+      "address": "Taksi Durağı · 1124. Sk.",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05455303080-192",
+      "name": "antalya-taksi",
+      "phone": "05455303080",
+      "website": null,
+      "lat": 36.9320678,
+      "lon": 30.6493663,
+      "address": "Taksi Durağı · 3189/7. Sk.",
+      "districtId": "kepez",
+      "districtName": "Kepez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422283344-193",
+      "name": "Antalya Beach Park Taksi",
+      "phone": "02422283344",
+      "website": null,
+      "lat": 36.867646,
+      "lon": 30.637474,
+      "address": "Altınkum Mah. Atatürk Blv. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422383303-194",
+      "name": "Atlantik Taksi",
+      "phone": "02422383303",
+      "website": null,
+      "lat": 36.8837981,
+      "lon": 30.6758868,
+      "address": "Taksi Durağı ·  · Konyaaltı Plajı No:21399",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05452299088-195",
+      "name": "Beach Park Taksi",
+      "phone": "05452299088",
+      "website": null,
+      "lat": 36.887453,
+      "lon": 30.639285,
+      "address": "Akkuyu Mah. 16. Cad. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422383303-196",
+      "name": "Gürsu Taksi",
+      "phone": "02422383303",
+      "website": null,
+      "lat": 36.875345,
+      "lon": 30.658817,
+      "address": "Arapsuyu Mah. Dumlupınar Blv. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05524880844-197",
+      "name": "Hurma Taksi",
+      "phone": "05524880844",
+      "website": null,
+      "lat": 36.866109,
+      "lon": 30.632827,
+      "address": "Gürsu Mah. Gazi Mustafa Kemal Blv. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422591435-198",
+      "name": "Konyaaltı Toros Taksi",
+      "phone": "02422591435",
+      "website": null,
+      "lat": 36.857597,
+      "lon": 30.608059,
+      "address": "Hurma Mah. Boğaçayı Cad. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422280405-199",
+      "name": "Lal Taksi",
+      "phone": "02422280405",
+      "website": null,
+      "lat": 36.8748796,
+      "lon": 30.6382896,
+      "address": null,
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422291830-200",
+      "name": "Liman Setur Marina Taksi",
+      "phone": "02422291830",
+      "website": null,
+      "lat": 36.856795,
+      "lon": 30.627791,
+      "address": "Gürsu Mah. 318 Sok. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402592760-201",
+      "name": "Merkez Taksi",
+      "phone": "05402592760",
+      "website": null,
+      "lat": 36.842119,
+      "lon": 30.59778,
+      "address": "Sarısu Mah. Akdeniz Blv. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02422292728-202",
+      "name": "Pan Taksi",
+      "phone": "02422292728",
+      "website": null,
+      "lat": 36.870906,
+      "lon": 30.650196,
+      "address": "Kuşkavağı Mah. 543 Sok. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422281524-203",
+      "name": "Pınarbaşı Taksi",
+      "phone": "02422281524",
+      "website": null,
+      "lat": 36.86994,
+      "lon": 30.622145,
+      "address": "Gürsu Mah. Gazi Mustafa Kemal Blv. 372 Sok. 105 Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05412295888-204",
+      "name": "Plaj Taksi",
+      "phone": "05412295888",
+      "website": null,
+      "lat": 36.883153,
+      "lon": 30.656078,
+      "address": "Pınarbaşı Mah. 12 Cad. 1 (Migros Karşısı) Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422282158-205",
+      "name": "Porto Bello Hotel Taksi",
+      "phone": "02422282158",
+      "website": null,
+      "lat": 36.876968,
+      "lon": 30.656229,
+      "address": "Arapsuyu Mah. 600. Sok. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksi724-02422594444-206",
+      "name": "Tıp Taksi",
+      "phone": "02422594444",
+      "website": null,
+      "lat": 36.853221,
+      "lon": 30.614346,
+      "address": "Liman Mah. Boğaçayı Cad. Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412270502-207",
+      "name": "Toros Taksi",
+      "phone": "05412270502",
+      "website": null,
+      "lat": 36.896628,
+      "lon": 30.665257,
+      "address": "Dumlupınar Blv. (Akdeniz Üniversitesi Hastanesi İçinde) Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05442282890-208",
+      "name": "Tunalı Taksi",
+      "phone": "05442282890",
+      "website": null,
+      "lat": 36.871512,
+      "lon": 30.635792,
+      "address": "Öğretmenevleri Mah. Öğretmenevleri Cad. 937 Sok. 17 Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422590377-209",
+      "name": "Uncalı Taksi",
+      "phone": "02422590377",
+      "website": null,
+      "lat": 36.851875,
+      "lon": 30.619277,
+      "address": "Liman Mah. Barış Manço Cad. 17 Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02422277790-210",
+      "name": "antalya-taksi",
+      "phone": "02422277790",
+      "website": null,
+      "lat": 36.89478,
+      "lon": 30.629351,
+      "address": "Siteler Mah. 1325 Sok. 1 Konyaaltı, Antalya",
+      "districtId": "konyaalti",
+      "districtName": "Konyaalti",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02427487002-211",
+      "name": "Çolaklı Taksi",
+      "phone": "02427487002",
+      "website": null,
+      "lat": 36.730803,
+      "lon": 31.538445,
+      "address": "Kızılağaç Köyü Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427636080-212",
+      "name": "Evrenseki Taksi",
+      "phone": "02427636080",
+      "website": null,
+      "lat": 36.835751,
+      "lon": 31.32359,
+      "address": "Çolaklı-Üçtepeler Mah. Barbaros Hayrettin Cad. Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427637171-213",
+      "name": "Garaj Taksi",
+      "phone": "02427637171",
+      "website": null,
+      "lat": 36.82386,
+      "lon": 31.329381,
+      "address": "Çolaklı-Üçtepeler Mah. Tilkiler Cad. Evrenseki, Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05077665078-214",
+      "name": "Gül Taksi",
+      "phone": "05077665078",
+      "website": null,
+      "lat": 36.786328,
+      "lon": 31.4404,
+      "address": "Yukarı Hisar Mah. Antalya Cad. Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05407462727-215",
+      "name": "Hızır Taksi",
+      "phone": "05407462727",
+      "website": null,
+      "lat": 36.792089,
+      "lon": 31.465557,
+      "address": "Yayla Mah. 2568 Sok. 2 Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05077665078-216",
+      "name": "Kızılot Taksi",
+      "phone": "05077665078",
+      "website": null,
+      "lat": 36.7838165,
+      "lon": 31.435015,
+      "address": "Taksi · Bahçelievler Mahallesi 5045 Sokak No:2, Bahçeli Evler Camiisi Yanı",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427487002-217",
+      "name": "Kordon Taksi",
+      "phone": "02427487002",
+      "website": null,
+      "lat": 36.718211,
+      "lon": 31.567931,
+      "address": "Kızılot-Merkez Mah. Diğer Sok. 39 Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427466258-218",
+      "name": "Kumköy Taksi",
+      "phone": "02427466258",
+      "website": null,
+      "lat": 36.787614,
+      "lon": 31.448166,
+      "address": "Yukarı Pazarcı Mah. Kordon Cad. Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427560925-219",
+      "name": "Nur Taksi",
+      "phone": "02427560925",
+      "website": null,
+      "lat": 36.821135,
+      "lon": 31.365373,
+      "address": "Ilıca-Gömeçli Mah. 111 Sok. Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427462460-220",
+      "name": "Sorgun Taksi",
+      "phone": "02427462460",
+      "website": null,
+      "lat": 36.789252,
+      "lon": 31.451408,
+      "address": "Yukarı Pazarcı Mah. 4075. Sok. Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427462605-221",
+      "name": "Sorgun Taksi",
+      "phone": "02427462605",
+      "website": null,
+      "lat": 36.7727317,
+      "lon": 31.4265308,
+      "address": "Taksi Durağı ·  · Sorgun Mh. Sorkun Sk. Pk:07600 Manavgat/antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427462605-222",
+      "name": "antalya-taksi",
+      "phone": "02427462605",
+      "website": null,
+      "lat": 36.774317,
+      "lon": 31.428484,
+      "address": "Sorgun Mah. 8008. Sok. Manavgat, Antalya",
+      "districtId": "manavgat",
+      "districtName": "Manavgat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05368284134-223",
+      "name": "Finike Taksi",
+      "phone": "05368284134",
+      "website": null,
+      "lat": 36.3099936,
+      "lon": 30.1641712,
+      "address": "Ulaşım Hizmeti · Akdeniz Cd. No:256",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05399210707-224",
+      "name": "Finike Tur Taksi",
+      "phone": "05399210707",
+      "website": null,
+      "lat": 36.2941386,
+      "lon": 30.1479586,
+      "address": null,
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05368284134-225",
+      "name": "Finike Tur Taksi",
+      "phone": "05368284134",
+      "website": null,
+      "lat": 36.301413,
+      "lon": 30.148965,
+      "address": "Yeni Mah. Şerbetçi Blv. Finike, Antalya",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05359850329-226",
+      "name": "Kum Taksi",
+      "phone": "05359850329",
+      "website": null,
+      "lat": 36.298605,
+      "lon": 30.1468938,
+      "address": null,
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428554433-227",
+      "name": "Kum Taksi",
+      "phone": "02428554433",
+      "website": null,
+      "lat": 36.3045347,
+      "lon": 30.1524209,
+      "address": "İnönü Caddesi",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373211557-228",
+      "name": "Liman Taksi",
+      "phone": "05373211557",
+      "website": null,
+      "lat": 36.312485,
+      "lon": 30.155204,
+      "address": "Sahilkent-Kum Mah. Göksu Cad. Finike, Antalya",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05402592760-229",
+      "name": "Otogar Taksi",
+      "phone": "05402592760",
+      "website": null,
+      "lat": 36.295796,
+      "lon": 30.146192,
+      "address": "Kale Mah. Şerbetçi Blv. (Marina İçi) Finike, Antalya",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312702153-230",
+      "name": "Finike Taksi AÇIK · 7 gün 24 saat Sahilkent, Akdeniz Cd. No:256, 07940 Yuvalılar",
+      "phone": "05312702153",
+      "website": null,
+      "lat": 36.300126,
+      "lon": 30.143117,
+      "address": "Eski Mah. Elmalı Cad. Finike Otogarı Finike, Antalya",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02428554090-231",
+      "name": "Finike Tur Taksi",
+      "phone": "02428554090",
+      "website": null,
+      "lat": 36.306983,
+      "lon": 30.142411,
+      "address": "Yeni Mahalle Taxi",
+      "districtId": "finike",
+      "districtName": "Finike",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428248060-232",
+      "name": "Çıralı Dolmuş Taksi",
+      "phone": "02428248060",
+      "website": null,
+      "lat": 36.711118,
+      "lon": 30.56561,
+      "address": "Göynük-Cumhuriyet Mah. Atatürk Cad. 290 Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05327140499-233",
+      "name": "Favori Taksi",
+      "phone": "05327140499",
+      "website": null,
+      "lat": 36.454518,
+      "lon": 30.432059,
+      "address": "Ulupınar Köyü Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428142516-234",
+      "name": "Göynük Taksi",
+      "phone": "02428142516",
+      "website": null,
+      "lat": 36.599231,
+      "lon": 30.569809,
+      "address": "Merkez Mah. Yalı Cad. Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428151638-235",
+      "name": "Kemer Taksi",
+      "phone": "02428151638",
+      "website": null,
+      "lat": 36.661666,
+      "lon": 30.558533,
+      "address": "Göynük-Cumhuriyet Mah. Ahu-Ünal Aysal Cad. Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333616641-236",
+      "name": "Kemer Tur Taksi",
+      "phone": "05333616641",
+      "website": null,
+      "lat": 36.5939801,
+      "lon": 30.5674787,
+      "address": "Taksi Durağı ·  · 137. Sk.",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05333616641-237",
+      "name": "Özkemer Taksi",
+      "phone": "05333616641",
+      "website": null,
+      "lat": 36.60136,
+      "lon": 30.559894,
+      "address": "Merkez Mah. 133 Sok. 1 D:1 Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05388216699-238",
+      "name": "Taxi Taksi",
+      "phone": "05388216699",
+      "website": null,
+      "lat": 36.591379,
+      "lon": 30.563144,
+      "address": "Merkez Mah. Atatürk Cad. Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02428142516-239",
+      "name": "Tekirova Tur Taksi",
+      "phone": "02428142516",
+      "website": null,
+      "lat": 36.601825,
+      "lon": 30.566396,
+      "address": null,
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428214500-240",
+      "name": "Favori Taksi",
+      "phone": "02428214500",
+      "website": null,
+      "lat": 36.505773,
+      "lon": 30.518767,
+      "address": "Tekirova-Merkez Mah. Cumhuriyet Cad. 11 Kemer, Antalya",
+      "districtId": "kemer",
+      "districtName": "Kemer",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05322949158-241",
+      "name": "Demre Taksi",
+      "phone": "05322949158",
+      "website": null,
+      "lat": 36.2212727,
+      "lon": 29.9833978,
+      "address": null,
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05335621830-242",
+      "name": "Demre Taksi",
+      "phone": "05335621830",
+      "website": null,
+      "lat": 36.2433867,
+      "lon": 29.9873318,
+      "address": null,
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05337662219-243",
+      "name": "Demre Taksi",
+      "phone": "05337662219",
+      "website": null,
+      "lat": 36.2427689,
+      "lon": 29.9860067,
+      "address": null,
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353333913-244",
+      "name": "Demre Taksi",
+      "phone": "05353333913",
+      "website": null,
+      "lat": 36.2431469,
+      "lon": 29.9866234,
+      "address": null,
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05363224052-245",
+      "name": "DEMRE TAKSi",
+      "phone": "05363224052",
+      "website": null,
+      "lat": 36.2384814,
+      "lon": 30.0141145,
+      "address": null,
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05320645643-246",
+      "name": "Eynihal Taksi",
+      "phone": "05320645643",
+      "website": null,
+      "lat": 36.2443628,
+      "lon": 29.9880713,
+      "address": null,
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02428715501-247",
+      "name": "Demre Taksi",
+      "phone": "02428715501",
+      "website": null,
+      "lat": 36.2458932,
+      "lon": 29.9872112,
+      "address": "Taksi · Eynihal Sok.",
+      "districtId": "demre",
+      "districtName": "Demre",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-248-248",
+      "name": "Çağdaş Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.366345,
+      "lon": 30.285603,
+      "address": "Yeni Mah. Ahmet Ali Ağa Blv. Kumluca, Antalya",
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-249-249",
+      "name": "Kumluca Taksi",
+      "phone": null,
+      "website": null,
+      "lat": 36.366638,
+      "lon": 30.286909,
+      "address": "Meydan Mah. Halil Çılgın Cad. Kumluca, Antalya",
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05351051515-250",
+      "name": "Mavikent karaöz Taksi",
+      "phone": "05351051515",
+      "website": null,
+      "lat": 36.4358404,
+      "lon": 29.917899,
+      "address": null,
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010718991-251",
+      "name": "Mavi Taksi",
+      "phone": "05010718991",
+      "website": null,
+      "lat": 36.3033465,
+      "lon": 30.3245115,
+      "address": null,
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010718991-252",
+      "name": "Mavi Taksi",
+      "phone": "05010718991",
+      "website": null,
+      "lat": 36.310555,
+      "lon": 30.337671,
+      "address": "Mavikent-Orta Mah. Kumluca, Antalya",
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05010718991-253",
+      "name": "Taksi",
+      "phone": "05010718991",
+      "website": null,
+      "lat": 36.303218,
+      "lon": 30.320927,
+      "address": "Mavikent Mah. Kazım Yeşil Cad. Kumluca, Antalya",
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05370616807-254",
+      "name": "Mavi Taksi",
+      "phone": "05370616807",
+      "website": null,
+      "lat": 36.6319425,
+      "lon": 30.4937665,
+      "address": null,
+      "districtId": "kumluca",
+      "districtName": "Kumluca",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02423406644-255",
+      "name": "Belek Taksi",
+      "phone": "02423406644",
+      "website": null,
+      "lat": 36.912899,
+      "lon": 31.091624,
+      "address": "Orta Mah. Serik Cad. Serik, Antalya",
+      "districtId": "serik",
+      "districtName": "Serik",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05528966067-256",
+      "name": "Kadriye Taksi",
+      "phone": "05528966067",
+      "website": null,
+      "lat": 36.86539,
+      "lon": 31.052876,
+      "address": "Belek-Akdeniz Mah. Atatürk Cad. 18 Sok. Serik, Antalya",
+      "districtId": "serik",
+      "districtName": "Serik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05414875260-257",
+      "name": "Otogar Taksi",
+      "phone": "05414875260",
+      "website": null,
+      "lat": 36.885838,
+      "lon": 31.009574,
+      "address": "Kadriye-Yeni Mah. Cumhuriyet Cad. Serik, Antalya",
+      "districtId": "serik",
+      "districtName": "Serik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427223932-258",
+      "name": "Serik Taksi",
+      "phone": "02427223932",
+      "website": null,
+      "lat": 36.913699,
+      "lon": 31.083469,
+      "address": "Orta Mah. Belek Cad. Serik, Antalya",
+      "districtId": "serik",
+      "districtName": "Serik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427223932-259",
+      "name": "Serik Taksi",
+      "phone": "02427223932",
+      "website": null,
+      "lat": 36.912928,
+      "lon": 31.084348,
+      "address": "Orta Mah. 1. Cad. Serik Otogarı Serik, Antalya",
+      "districtId": "serik",
+      "districtName": "Serik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02427223932-260",
+      "name": "Kadriye Taksi",
+      "phone": "02427223932",
+      "website": null,
+      "lat": 36.91793,
+      "lon": 31.094623,
+      "address": "Merkez Mah. Barbaros Cad. 2155 Sok. 8 Serik, Antalya",
+      "districtId": "serik",
+      "districtName": "Serik",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428362448-261",
+      "name": "Garaj Taksi",
+      "phone": "02428362448",
+      "website": null,
+      "lat": 36.197975,
+      "lon": 29.643936,
+      "address": "Andifli Mah. Hükümet Cad. Kaş, Antalya",
+      "districtId": "kas",
+      "districtName": "Kas",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05462558064-262",
+      "name": "Kalkan Taksi",
+      "phone": "05462558064",
+      "website": null,
+      "lat": 36.202305,
+      "lon": 29.637969,
+      "address": "Andifli Mah. Kaş Otogarı Kaş, Antalya",
+      "districtId": "kas",
+      "districtName": "Kas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05334524948-263",
+      "name": "Kaş Taksi",
+      "phone": "05334524948",
+      "website": null,
+      "lat": 36.263107,
+      "lon": 29.41491,
+      "address": "Kalkan-Yalıboyu Mah. Mustafa Kocakaya Cad. Kaş, Antalya",
+      "districtId": "kas",
+      "districtName": "Kas",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02428361933-264",
+      "name": "Kalkan Taksi",
+      "phone": "02428361933",
+      "website": null,
+      "lat": 36.19815,
+      "lon": 29.640375,
+      "address": "Andifli Mah. Liman Sok. 1 Kaş, Antalya",
+      "districtId": "kas",
+      "districtName": "Kas",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05345100777-265",
+      "name": "Döşemealtı Taksi",
+      "phone": "05345100777",
+      "website": null,
+      "lat": 37.01280079,
+      "lon": 30.59169534,
+      "address": "Bahçeyaka Mah. Döşemealtı, Antalya",
+      "districtId": "dosemealti",
+      "districtName": "Dosemealti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345100777-266",
+      "name": "Döşemealtı Taksi",
+      "phone": "05345100777",
+      "website": null,
+      "lat": 37.022192,
+      "lon": 30.602975,
+      "address": "Yeniköy Mah. Şehit Mustafa Gürcan Cad. Döşemealtı, Antalya",
+      "districtId": "dosemealti",
+      "districtName": "Dosemealti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05345100777-267",
+      "name": "Döşemealtı Taksi",
+      "phone": "05345100777",
+      "website": null,
+      "lat": 37.022792,
+      "lon": 30.602975,
+      "address": "Yeniköy Mah. Şehit Mustafa Gürcan Cad. Döşemealtı, Antalya",
+      "districtId": "dosemealti",
+      "districtName": "Dosemealti",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325724186-268",
+      "name": "Elmalı Taksi",
+      "phone": "05325724186",
+      "website": null,
+      "lat": 36.736944,
+      "lon": 29.917134,
+      "address": "Taksi Durağı ·  · Otogar içi No:1 Elmalı/Antalya",
+      "districtId": "elmali",
+      "districtName": "Elmali",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05412771541-269",
+      "name": "Otogar Taksi",
+      "phone": "05412771541",
+      "website": null,
+      "lat": 36.7386233,
+      "lon": 29.9184722,
+      "address": "Taksi · Yeşil Cami yanı, Musa Dede Sk.",
+      "districtId": "elmali",
+      "districtName": "Elmali",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05325724186-270",
+      "name": "Otogar Taksi",
+      "phone": "05325724186",
+      "website": null,
+      "lat": 36.734614,
+      "lon": 29.921553,
+      "address": "Yeni Mah. Antalya Cad. 1 Elmalı, Antalya",
+      "districtId": "elmali",
+      "districtName": "Elmali",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-02424262139-271",
+      "name": "Kundu Taksi",
+      "phone": "02424262139",
+      "website": null,
+      "lat": 36.951101,
+      "lon": 30.848637,
+      "address": "Macun Mah. Mektep Sok. Aksu, Antalya",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05379154177-272",
+      "name": "Kundu Taksi",
+      "phone": "05379154177",
+      "website": null,
+      "lat": 36.875273,
+      "lon": 30.912432,
+      "address": "Özlü Köyü Aksu, Antalya",
+      "districtId": "aksu",
+      "districtName": "Aksu",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05435454938-273",
+      "name": "Hastane Taksi",
+      "phone": "05435454938",
+      "website": null,
+      "lat": 36.2629513,
+      "lon": 32.303665,
+      "address": null,
+      "districtId": "gazipasa",
+      "districtName": "Gazipasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05455541995-274",
+      "name": "Hastane Taksi",
+      "phone": "05455541995",
+      "website": null,
+      "lat": 36.27107661,
+      "lon": 32.30779834,
+      "address": "Cumhuriyet Mah. Hastane Cad. Yamaç Sok. 3 Gazipaşa, Antalya",
+      "districtId": "gazipasa",
+      "districtName": "Gazipasa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-02424621994-275",
+      "name": "Kundu Taksi",
+      "phone": "02424621994",
+      "website": null,
+      "lat": 36.9370915,
+      "lon": 30.8159463,
+      "address": null,
+      "districtId": "gundogmus",
+      "districtName": "Gundogmus",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05379154177-276",
+      "name": "Kundu Taksi",
+      "phone": "05379154177",
+      "website": null,
+      "lat": 36.8580518,
+      "lon": 30.9103755,
+      "address": null,
+      "districtId": "gundogmus",
+      "districtName": "Gundogmus",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05326894757-277",
+      "name": "Yayla Vip Taksi",
+      "phone": "05326894757",
+      "website": "https://www.facebook.com/rstersoy/",
+      "lat": 37.0609704,
+      "lon": 30.225093,
+      "address": null,
+      "districtId": "korkuteli",
+      "districtName": "Korkuteli",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksi724-05342089480-278",
+      "name": "Yayla Vip Taksi",
+      "phone": "05342089480",
+      "website": null,
+      "lat": 37.069616,
+      "lon": 30.200765,
+      "address": "Kiremitli Mah. 830 Sok. 1 Korkuteli, Antalya",
+      "districtId": "korkuteli",
+      "districtName": "Korkuteli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05378241113-279",
+      "name": "Cevizli Taksi",
+      "phone": "05378241113",
+      "website": null,
+      "lat": 37.2,
+      "lon": 31.75,
+      "address": "Taksi · hanardı sok No:2",
+      "districtId": "akseki",
+      "districtName": "Akseki",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "nerede360"
+      ]
+    },
+    {
+      "id": "taksicibul-02422421525-280",
+      "name": "Özel İdare Taksi",
+      "phone": "02422421525",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksicibul-02422423510-281",
+      "name": "Muratpaşa Kapalı Yol Taksi",
+      "phone": "02422423510",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksicibul-05432275691-282",
+      "name": "Öğretmen Evi Taksi",
+      "phone": "05432275691",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksicibul"
+      ]
+    },
+    {
+      "id": "taksiciler-05448712219-283",
+      "name": "Demre Taksi Ali Sidekli",
+      "phone": "05448712219",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05376189219-284",
+      "name": "Tümü → Döşemealtı Taksi AÇIK · 7 gün 24 saat Yeniköy, Şht. Mustafa Gürcan Cd., 0",
+      "phone": "05376189219",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05322543183-285",
+      "name": "Elmalı Taksi AÇIK · 7 gün 24 saat Gündoğan, Yeşil Cami yanı, Musa Dede Sk., 0770",
+      "phone": "05322543183",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05314567144-286",
+      "name": "Finike Taksi Üniversite",
+      "phone": "05314567144",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05352827144-287",
+      "name": "Finike Taksi Vip",
+      "phone": "05352827144",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02428142227-288",
+      "name": "Tümü → Favori Taksi",
+      "phone": "02428142227",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02428141520-289",
+      "name": "Kemer Tur Taksi",
+      "phone": "02428141520",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05417160178-290",
+      "name": "Taxi Taksi",
+      "phone": "05417160178",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423314646-291",
+      "name": "Antalya Taksi Center",
+      "phone": "02423314646",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05336545354-292",
+      "name": "Taksi Antalya 07",
+      "phone": "05336545354",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423353939-293",
+      "name": "Yükseliş Taksi",
+      "phone": "02423353939",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05428964032-294",
+      "name": "Antalya Taksi Transfer",
+      "phone": "05428964032",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05519958904-295",
+      "name": "Konyaaltı Birlik Taksi",
+      "phone": "05519958904",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422593351-296",
+      "name": "Konyaaltı Hurma Taksi",
+      "phone": "02422593351",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05070462228-297",
+      "name": "Lal Taksi",
+      "phone": "05070462228",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422591207-298",
+      "name": "Liman Taksi",
+      "phone": "02422591207",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05301086596-299",
+      "name": "Sahil Taksi Durağı AÇIK · 7 gün 24 saat Gazi Mustafa Kemal Bulvari, 412 Sk, 0798",
+      "phone": "05301086596",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422440553-300",
+      "name": "Tümü → 100 Yıl Taksi Altındağ",
+      "phone": "02422440553",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422475236-301",
+      "name": "Taksi durağı",
+      "phone": "02422475236",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422373216-302",
+      "name": "Adliye Taksi Muratpaşa AÇIK · 7 gün 24 saat Meltem, Dumlupınar Bulvarı Adliye Ya",
+      "phone": "02422373216",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422440925-303",
+      "name": "Akasya Taksi Muratpaşa",
+      "phone": "02422440925",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05347897474-304",
+      "name": "Akra Taksi",
+      "phone": "05347897474",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422430820-305",
+      "name": "Altındağ Taksi",
+      "phone": "02422430820",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423467097-306",
+      "name": "Antalya Taksi",
+      "phone": "02423467097",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422382646-307",
+      "name": "Antalya Yıldız Taksi",
+      "phone": "02422382646",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422431107-308",
+      "name": "Atatürk Park Taksi",
+      "phone": "02422431107",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423469445-309",
+      "name": "Ay Taksi",
+      "phone": "02423469445",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423130102-310",
+      "name": "Ayanoğlu Taksi Durağı",
+      "phone": "02423130102",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05354492414-311",
+      "name": "Berk Taksi",
+      "phone": "05354492414",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423225815-312",
+      "name": "Bölge Adliye Mahkemesi Taksi Durağı",
+      "phone": "02423225815",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05397106152-313",
+      "name": "Cam Piramit-akm-atik Taksi",
+      "phone": "05397106152",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422437026-314",
+      "name": "Doruk Taksi",
+      "phone": "02422437026",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423240311-315",
+      "name": "Fener Taksi Lara",
+      "phone": "02423240311",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422476813-316",
+      "name": "Güllük Deniz Taksi",
+      "phone": "02422476813",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423491962-317",
+      "name": "Güzelbağ Taksi",
+      "phone": "02423491962",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423494000-318",
+      "name": "Güzelsemt Taksi",
+      "phone": "02423494000",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422483131-319",
+      "name": "Kader Taksi",
+      "phone": "02422483131",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422488331-320",
+      "name": "Kale Taksi",
+      "phone": "02422488331",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422485111-321",
+      "name": "Kaleiçi Taksi",
+      "phone": "02422485111",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05350790092-322",
+      "name": "Katlı Otopark Taksi AÇIK · 7 gün 24 saat Kışla, Şht. Binbaşı Cengiz Toytunç Cd. ",
+      "phone": "05350790092",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05365510314-323",
+      "name": "Kırcami Taksi AÇIK · 7 gün 24 saat Şirinyalı Mahallesi Sinanoğlu Caddesi 1526.so",
+      "phone": "05365510314",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05402380584-324",
+      "name": "Kolej Taksi",
+      "phone": "05402380584",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423522233-325",
+      "name": "Lara Best Taksi AÇIK · 7 gün 24 saat Yeşilbahçe Metin Kasapoğlu Caddesi, 1450. S",
+      "phone": "02423522233",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423493663-326",
+      "name": "Lara Güzeloluk Taksi AÇIK · 7 gün 24 saat Güzeloba, Havaalanı Cd. Senekçiler Pet",
+      "phone": "02423493663",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423230382-327",
+      "name": "Mark-a-taksi",
+      "phone": "02423230382",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05462372317-328",
+      "name": "Martı Taksi AÇIK · 7 gün 24 saat Kızıltoprak, Ali Çetinkaya Cd. No:131, 07300 Mu",
+      "phone": "05462372317",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422435458-329",
+      "name": "Moda Grand Taksi",
+      "phone": "02422435458",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422431686-330",
+      "name": "Mostar Taksi",
+      "phone": "02422431686",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422488767-331",
+      "name": "Park Taksi Muratpaşa",
+      "phone": "02422488767",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423220532-332",
+      "name": "Şehitler Taksi",
+      "phone": "02423220532",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423233768-333",
+      "name": "Şirinyalı Taksi",
+      "phone": "02423233768",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05427396569-334",
+      "name": "Taksi",
+      "phone": "05427396569",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05318210575-335",
+      "name": "Topçular Taksi",
+      "phone": "05318210575",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02422474810-336",
+      "name": "Trt Merkez Taksi AÇIK · 7 gün 24 saat Altındağ Mahallesi, Tonguç Caddesi, 148. S",
+      "phone": "02422474810",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423161403-337",
+      "name": "Umut Taksi",
+      "phone": "02423161403",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-02423220978-338",
+      "name": "Zatihaz Taksi AÇIK · 7 gün 24 saat Vakıf işhanı önü ali Çetinkaya caddesi tramva",
+      "phone": "02423220978",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05325526067-339",
+      "name": "Zümrüt Taksi Durağı AÇIK · 7 gün 24 saat Kırcami, ZÜMRÜT TAKSİ DURAĞI, Sinanoğlu",
+      "phone": "05325526067",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05362444504-340",
+      "name": "Kale Taksi Durağı Antalya",
+      "phone": "05362444504",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-05531009870-341",
+      "name": "Sütçüler Kaplan Taksi",
+      "phone": "05531009870",
+      "website": null,
+      "lat": 36.8969,
+      "lon": 30.7133,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05352136120-342",
+      "name": "Akseki Taksi - Ramazan Uzun",
+      "phone": "05352136120",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "akseki",
+      "districtName": "Akseki",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05435727153-343",
+      "name": "Elmalı Taksi - Mehmet",
+      "phone": "05435727153",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "elmali",
+      "districtName": "Elmalı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05073356099-344",
+      "name": "Hastane Taksi - Ömer Kunter",
+      "phone": "05073356099",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "elmali",
+      "districtName": "Elmalı",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05382898591-345",
+      "name": "Otogar Taksi - Ersin Tuncer",
+      "phone": "05382898591",
+      "website": "https://www.facebook.com/ersintuncertaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "gazipasa",
+      "districtName": "Gazipaşa",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}

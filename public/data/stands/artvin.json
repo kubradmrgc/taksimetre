@@ -1,0 +1,744 @@
+{
+  "cityId": "artvin",
+  "cityName": "Artvin",
+  "fetchedAt": "2026-08-30T21:27:58.794Z",
+  "sources": [
+    "https://taksi724.com/",
+    "https://www.taksicibul.com/",
+    "https://taksiciler.com/",
+    "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "ardanuc",
+      "name": "Ardanuc",
+      "count": 4
+    },
+    {
+      "id": "arhavi",
+      "name": "Arhavi",
+      "count": 7
+    },
+    {
+      "id": "borcka",
+      "name": "Borcka",
+      "count": 3
+    },
+    {
+      "id": "hopa",
+      "name": "Hopa",
+      "count": 12
+    },
+    {
+      "id": "kemalpasa",
+      "name": "Kemalpasa",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 6
+    },
+    {
+      "id": "murgul",
+      "name": "Murgul",
+      "count": 2
+    },
+    {
+      "id": "savsat",
+      "name": "Savsat",
+      "count": 2
+    },
+    {
+      "id": "yusufeli",
+      "name": "Yusufeli",
+      "count": 2
+    }
+  ],
+  "count": 45,
+  "stands": [
+    {
+      "id": "taksi724-04663513878-0",
+      "name": "Hizmet Taksi",
+      "phone": "04663513878",
+      "website": null,
+      "lat": 41.403843,
+      "lon": 41.428953,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663514264-1",
+      "name": "Hopa Havaş Akasya Taksi",
+      "phone": "04663514264",
+      "website": null,
+      "lat": 41.391287,
+      "lon": 41.420428,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663511516-2",
+      "name": "Hopam Taksi",
+      "phone": "04663511516",
+      "website": null,
+      "lat": 41.3963363,
+      "lon": 41.4218398,
+      "address": "Taksi · Sahil Caddesi Vergi Dairesi Yanı No:68",
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04663511213-3",
+      "name": "Hopa Sahil Taksi",
+      "phone": "04663511213",
+      "website": null,
+      "lat": 41.389553,
+      "lon": 41.458199,
+      "address": "Yukarı Kuledibi Mah. Kars Cad. Hopa, Artvin",
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303459008-4",
+      "name": "Hopa Taksi",
+      "phone": "05303459008",
+      "website": null,
+      "lat": 41.3971721,
+      "lon": 41.4218889,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663512020-5",
+      "name": "Hopa Umut Taksi",
+      "phone": "04663512020",
+      "website": null,
+      "lat": 41.41,
+      "lon": 41.42,
+      "address": "Hopa Merkez",
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663516869-6",
+      "name": "Hudut Taksi",
+      "phone": "04663516869",
+      "website": null,
+      "lat": 41.3919301,
+      "lon": 41.418122,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04663514351-7",
+      "name": "Ilçe Taksi",
+      "phone": "04663514351",
+      "website": null,
+      "lat": 41.3950089,
+      "lon": 41.4209006,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05303459008-8",
+      "name": "Liman Taksi",
+      "phone": "05303459008",
+      "website": null,
+      "lat": 41.486174,
+      "lon": 41.527419,
+      "address": "Cumhuriyet Mah. Atatürk Blv. Kemalpaşa, Hopa, Artvin",
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05354580578-9",
+      "name": "Terminal Taksi",
+      "phone": "05354580578",
+      "website": null,
+      "lat": 41.4011271,
+      "lon": 41.432738,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663512752-10",
+      "name": "Hopa Havaş Akasya Taksi",
+      "phone": "04663512752",
+      "website": null,
+      "lat": 41.3871511,
+      "lon": 41.4119572,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423125208-11",
+      "name": "Arhavi Taksi",
+      "phone": "05423125208",
+      "website": null,
+      "lat": 41.3522776,
+      "lon": 41.3073243,
+      "address": "Taksi · 1 Nolu Sk No:4",
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663122020-12",
+      "name": "Çiçek Taksi",
+      "phone": "04663122020",
+      "website": null,
+      "lat": 41.35,
+      "lon": 41.31,
+      "address": "Arhavi Merkez",
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05423125208-13",
+      "name": "Gül Taksi",
+      "phone": "05423125208",
+      "website": null,
+      "lat": 41.343875,
+      "lon": 41.30809,
+      "address": "Musazade Mah. Cumhuriyet Cad. Arhavi, Artvin",
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663124321-14",
+      "name": "Merkez Taksi",
+      "phone": "04663124321",
+      "website": null,
+      "lat": 41.3505383,
+      "lon": 41.3066612,
+      "address": null,
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663122940-15",
+      "name": "Meydan Taksi",
+      "phone": "04663122940",
+      "website": null,
+      "lat": 41.3519138,
+      "lon": 41.30984,
+      "address": null,
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663125052-16",
+      "name": "Terminal Taksi",
+      "phone": "04663125052",
+      "website": null,
+      "lat": 41.352817,
+      "lon": 41.3087941,
+      "address": null,
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04663127080-17",
+      "name": "içek Taksi",
+      "phone": "04663127080",
+      "website": null,
+      "lat": 41.3508,
+      "lon": 41.303507,
+      "address": "Musazade Mah. İnönü Cad. Arhavi Otogarı Arhavi, Artvin",
+      "districtId": "arhavi",
+      "districtName": "Arhavi",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04662121212-18",
+      "name": "Merkez Taksi",
+      "phone": "04662121212",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": "Artvin Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05540252808-19",
+      "name": "Çoruh Taksi",
+      "phone": "05540252808",
+      "website": null,
+      "lat": 41.181199,
+      "lon": 41.821018,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05540252808-20",
+      "name": "Merkez Taksi",
+      "phone": "05540252808",
+      "website": null,
+      "lat": 41.18278,
+      "lon": 41.833736,
+      "address": "Çayağzı Mah. Fevzi Çakmak Cad. 2 Artvin Merkez, Artvin",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05540252808-21",
+      "name": "Otogar Taksi",
+      "phone": "05540252808",
+      "website": null,
+      "lat": 41.184781,
+      "lon": 41.820204,
+      "address": "Çarşı Mah. İnönü Cad. Artvin Merkez, Artvin",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04662122020-22",
+      "name": "Sgk Taksi",
+      "phone": "04662122020",
+      "website": null,
+      "lat": 41.185,
+      "lon": 41.82,
+      "address": "Artvin Otogarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05540252808-23",
+      "name": "oruh Taksi",
+      "phone": "05540252808",
+      "website": null,
+      "lat": 41.184646,
+      "lon": 41.827192,
+      "address": "Orta Mah. Miralay Şükrü Bey Cad. Artvin Merkez, Artvin",
+      "districtId": "merkez",
+      "districtName": "Merkez",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05355905395-24",
+      "name": "Ardanuç Taksi",
+      "phone": "05355905395",
+      "website": null,
+      "lat": 41.1237981,
+      "lon": 42.0661741,
+      "address": "Taksi Durağı · Hürriyet Cd. No:9",
+      "districtId": "ardanuc",
+      "districtName": "Ardanuc",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05373226288-25",
+      "name": "Ardanuç Taksi",
+      "phone": "05373226288",
+      "website": null,
+      "lat": 41.1218598,
+      "lon": 42.065416,
+      "address": "Taksi · 7 Mart Cd. No:22",
+      "districtId": "ardanuc",
+      "districtName": "Ardanuc",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05358301800-26",
+      "name": "Bülent Taksi",
+      "phone": "05358301800",
+      "website": null,
+      "lat": 41.1210322,
+      "lon": 42.067118,
+      "address": "Taksi Durağı · Hükümet Cd. No:72",
+      "districtId": "ardanuc",
+      "districtName": "Ardanuc",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05377112150-27",
+      "name": "Ardanuç Taksi",
+      "phone": "05377112150",
+      "website": null,
+      "lat": 41.1215213,
+      "lon": 42.0657874,
+      "address": null,
+      "districtId": "ardanuc",
+      "districtName": "Ardanuc",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-04664152020-28",
+      "name": "Borçka Terminal Taksi",
+      "phone": "04664152020",
+      "website": null,
+      "lat": 41.35,
+      "lon": 41.68,
+      "address": "Borçka Merkez",
+      "districtId": "borcka",
+      "districtName": "Borcka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05353864015-29",
+      "name": "Merkez Taksi",
+      "phone": "05353864015",
+      "website": null,
+      "lat": 41.3607333,
+      "lon": 41.6751876,
+      "address": "Taksi Durağı · Emniyet Cd. No:7 D:1A",
+      "districtId": "borcka",
+      "districtName": "Borcka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05312343389-30",
+      "name": "Merkez Taksi",
+      "phone": "05312343389",
+      "website": null,
+      "lat": 41.3559728,
+      "lon": 41.6807465,
+      "address": null,
+      "districtId": "borcka",
+      "districtName": "Borcka",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05432422552-31",
+      "name": "Şavşat Taksi",
+      "phone": "05432422552",
+      "website": null,
+      "lat": 41.251884,
+      "lon": 42.358357,
+      "address": "Yeniköy Mah. Kazım Karabekir Cad. 3 Şavşat, Artvin",
+      "districtId": "savsat",
+      "districtName": "Savsat",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04665172020-32",
+      "name": "Yeşil Şavşat Taksi",
+      "phone": "04665172020",
+      "website": null,
+      "lat": 41.22,
+      "lon": 42.37,
+      "address": "Şavşat Merkez",
+      "districtId": "savsat",
+      "districtName": "Savsat",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksi724-05540252808-33",
+      "name": "Atatepe Dolmuş Taksi",
+      "phone": "05540252808",
+      "website": null,
+      "lat": 41.180497,
+      "lon": 41.820952,
+      "address": null,
+      "districtId": "murgul",
+      "districtName": "Murgul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04662122035-34",
+      "name": "Atatepe Dolmuş Taksi",
+      "phone": "04662122035",
+      "website": null,
+      "lat": 41.178833,
+      "lon": 41.8172572,
+      "address": null,
+      "districtId": "murgul",
+      "districtName": "Murgul",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksicibul",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-05413619008-35",
+      "name": "KEMALPAŞA hopa Artvin batum Taksi",
+      "phone": "05413619008",
+      "website": null,
+      "lat": 41.4809364,
+      "lon": 41.5275241,
+      "address": null,
+      "districtId": "kemalpasa",
+      "districtName": "Kemalpasa",
+      "approximate": false,
+      "sources": [
+        "taksi724",
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksi724-04668113628-36",
+      "name": "Yusufeli Taksi",
+      "phone": "04668113628",
+      "website": null,
+      "lat": 40.819704,
+      "lon": 41.544017,
+      "address": "Merkez Mah. İnönü Cad. 8 Yusufeli, Artvin",
+      "districtId": "yusufeli",
+      "districtName": "Yusufeli",
+      "approximate": false,
+      "sources": [
+        "taksi724"
+      ]
+    },
+    {
+      "id": "taksiciler-04663612259-37",
+      "name": "Tümü → Kemalpaşa İlçe Taksi Durağı",
+      "phone": "04663612259",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04663613878-38",
+      "name": "Makriyal Taksi Durağı",
+      "phone": "04663613878",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04663613035-39",
+      "name": "Taksi durağı",
+      "phone": "04663613035",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04665173040-40",
+      "name": "Tümü → Sahara Taksi Durağı",
+      "phone": "04665173040",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04665171020-41",
+      "name": "Şavşat Park Taksi",
+      "phone": "04665171020",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "taksiciler-04665171093-42",
+      "name": "Yeşil Şavşat Taksi Durağı",
+      "phone": "04665171093",
+      "website": null,
+      "lat": 41.1828,
+      "lon": 41.8183,
+      "address": null,
+      "districtId": null,
+      "districtName": null,
+      "approximate": true,
+      "sources": [
+        "taksiciler"
+      ]
+    },
+    {
+      "id": "nerede360-05318229317-43",
+      "name": "Hopa Taksi - Nurullah Balcı",
+      "phone": "05318229317",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "hopa",
+      "districtName": "Hopa",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    },
+    {
+      "id": "nerede360-05382973736-44",
+      "name": "Yusufeli Taksi - İbrahim Arslan",
+      "phone": "05382973736",
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yusufeli",
+      "districtName": "Yusufeli",
+      "approximate": true,
+      "sources": [
+        "nerede360"
+      ]
+    }
+  ]
+}
