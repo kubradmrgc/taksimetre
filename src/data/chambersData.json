@@ -1,0 +1,290 @@
+{
+  "updatedAt": "2026-08-30",
+  "disclaimer": "Numaralar bilgilendirme amaçlıdır; değişiklik gösterebilir. Acil durumda 112'yi arayın.",
+  "national": [
+    {
+      "id": "emergency-112",
+      "name": "Acil Çağrı Merkezi",
+      "role": "Polis, ambulans, itfaiye",
+      "phone": "112",
+      "website": "https://www.112.gov.tr",
+      "priority": "emergency"
+    },
+    {
+      "id": "cimer",
+      "name": "CİMER",
+      "role": "Cumhurbaşkanlığı İletişim Merkezi",
+      "phone": "150",
+      "website": "https://www.cimer.gov.tr",
+      "priority": "complaint"
+    }
+  ],
+  "cities": [
+    {
+      "id": "istanbul",
+      "name": "İstanbul",
+      "contacts": [
+        {
+          "id": "ibb-153",
+          "name": "İBB Beyaz Masa / ALO 153",
+          "role": "Belediye şikayet ve bilgi hattı",
+          "phone": "153",
+          "website": "https://cozummerkezi.ibb.istanbul",
+          "priority": "complaint"
+        },
+        {
+          "id": "istanbul-taksi-denetim",
+          "name": "İBB Taksi Şikayet",
+          "role": "Taksimetre / yolcu şikayetleri",
+          "phone": "153",
+          "website": "https://taksi.ibb.istanbul",
+          "priority": "complaint"
+        },
+        {
+          "id": "istanbul-soforler",
+          "name": "İstanbul Şoförler ve Otomobilciler Esnaf Odası",
+          "role": "Taksiciler odası bilgilendirme",
+          "phone": "02125120112",
+          "website": "https://www.isto.org.tr",
+          "priority": "chamber"
+        }
+      ]
+    },
+    {
+      "id": "ankara",
+      "name": "Ankara",
+      "contacts": [
+        {
+          "id": "abb-153",
+          "name": "ABB Çözüm Merkezi / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.ankara.bel.tr",
+          "priority": "complaint"
+        },
+        {
+          "id": "ankara-soforler",
+          "name": "Ankara Şoförler ve Otomobilciler Esnaf Odası",
+          "role": "Taksiciler odası",
+          "phone": "03123100000",
+          "website": "https://www.aso.org.tr",
+          "priority": "chamber"
+        }
+      ]
+    },
+    {
+      "id": "izmir",
+      "name": "İzmir",
+      "contacts": [
+        {
+          "id": "izbb-153",
+          "name": "İzmir Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.izmir.bel.tr",
+          "priority": "complaint"
+        },
+        {
+          "id": "izmir-soforler",
+          "name": "İzmir Şoförler ve Otomobilciler Esnaf Odası",
+          "role": "Taksiciler odası",
+          "phone": "02324891100",
+          "website": "https://www.izmirsoforlerodasi.org.tr",
+          "priority": "chamber"
+        }
+      ]
+    },
+    {
+      "id": "bursa",
+      "name": "Bursa",
+      "contacts": [
+        {
+          "id": "bursa-153",
+          "name": "Bursa Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.bursa.bel.tr",
+          "priority": "complaint"
+        },
+        {
+          "id": "bursa-soforler",
+          "name": "Bursa Şoförler ve Otomobilciler Esnaf Odası",
+          "role": "Taksiciler odası",
+          "phone": "02242510000",
+          "website": null,
+          "priority": "chamber"
+        }
+      ]
+    },
+    {
+      "id": "antalya",
+      "name": "Antalya",
+      "contacts": [
+        {
+          "id": "antalya-153",
+          "name": "Antalya Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.antalya.bel.tr",
+          "priority": "complaint"
+        },
+        {
+          "id": "antalya-soforler",
+          "name": "Antalya Şoförler ve Otomobilciler Esnaf Odası",
+          "role": "Taksiciler odası",
+          "phone": "02422470000",
+          "website": null,
+          "priority": "chamber"
+        }
+      ]
+    },
+    {
+      "id": "adana",
+      "name": "Adana",
+      "contacts": [
+        {
+          "id": "adana-153",
+          "name": "Adana Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.adana.bel.tr",
+          "priority": "complaint"
+        },
+        {
+          "id": "adana-soforler",
+          "name": "Adana Şoförler ve Otomobilciler Esnaf Odası",
+          "role": "Taksiciler odası",
+          "phone": "03224540000",
+          "website": null,
+          "priority": "chamber"
+        }
+      ]
+    },
+    {
+      "id": "gaziantep",
+      "name": "Gaziantep",
+      "contacts": [
+        {
+          "id": "gantep-153",
+          "name": "Gaziantep Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.gaziantep.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "konya",
+      "name": "Konya",
+      "contacts": [
+        {
+          "id": "konya-153",
+          "name": "Konya Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.konya.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "kocaeli",
+      "name": "Kocaeli",
+      "contacts": [
+        {
+          "id": "kocaeli-153",
+          "name": "Kocaeli Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.kocaeli.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "sanliurfa",
+      "name": "Şanlıurfa",
+      "contacts": [
+        {
+          "id": "sanliurfa-153",
+          "name": "Şanlıurfa Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.sanliurfa.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "mersin",
+      "name": "Mersin",
+      "contacts": [
+        {
+          "id": "mersin-153",
+          "name": "Mersin Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.mersin.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "eskisehir",
+      "name": "Eskişehir",
+      "contacts": [
+        {
+          "id": "eskisehir-153",
+          "name": "Eskişehir Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.eskisehir.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "diyarbakir",
+      "name": "Diyarbakır",
+      "contacts": [
+        {
+          "id": "diyarbakir-153",
+          "name": "Diyarbakır Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.diyarbakir.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "samsun",
+      "name": "Samsun",
+      "contacts": [
+        {
+          "id": "samsun-153",
+          "name": "Samsun Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.samsun.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "trabzon",
+      "name": "Trabzon",
+      "contacts": [
+        {
+          "id": "trabzon-153",
+          "name": "Trabzon Büyükşehir / ALO 153",
+          "role": "Belediye şikayet hattı",
+          "phone": "153",
+          "website": "https://www.trabzon.bel.tr",
+          "priority": "complaint"
+        }
+      ]
+    }
+  ]
+}

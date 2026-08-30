@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CityPresets } from "./components/CityPresets.jsx";
+import { ContactHub } from "./components/ContactHub.jsx";
 import { DestinationSearch } from "./components/DestinationSearch.jsx";
 import { DeviationAlert } from "./components/DeviationAlert.jsx";
 import { FareForm } from "./components/FareForm.jsx";
@@ -360,6 +361,10 @@ export default function App() {
             )}
           </div>
         </div>
+
+        <ContactHub
+          preferredCityId={cityId === "custom" ? DEFAULT_CITY_ID : cityId}
+        />
       </main>
     </div>
   );
