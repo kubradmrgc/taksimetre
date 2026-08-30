@@ -19,6 +19,7 @@ import {
 } from "./lib/routing.js";
 import {
   DEFAULT_CITY_ID,
+  formatFetchedAt,
   getCityTariff,
   tariffToFormValues,
 } from "./lib/tariffs.js";
@@ -269,8 +270,15 @@ export default function App() {
             <p className="text-xs leading-relaxed text-stone-500 dark:text-stone-400">
               {cityId === "custom"
                 ? "Özel tarife kullanılıyor. Şehir butonlarından güncel tarifeye dönebilirsiniz."
-                : `${selectedCity.note}. Resmi tarife değişebilir; değerleri dilediğiniz gibi düzenleyebilirsiniz.`}{" "}
-              Canlı yolculuk için konum izni ve HTTPS (veya localhost) gerekir.
+                : `${selectedCity.note}.`}{" "}
+              Tarifeler taksicilerodasi.com ve Hemen Hesap (CC BY 4.0)
+              bilgilendirme verisinden; resmi kurum değildir
+              {formatFetchedAt()
+                ? ` · son senkron ${formatFetchedAt()}`
+                : ""}
+              . Köprü / otoyol ek ücretleri dahil değildir. Değerleri
+              dilediğiniz gibi düzenleyebilirsiniz. Canlı yolculuk için konum
+              izni ve HTTPS (veya localhost) gerekir.
             </p>
           </div>
 

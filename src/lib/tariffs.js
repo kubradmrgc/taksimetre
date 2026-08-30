@@ -1,43 +1,48 @@
+import tariffData from "../data/tariffs.json";
+import { PROVINCES } from "./provinces.js";
+
 /**
- * Büyükşehir sarı taksi tarifeleri (2026 belediye / oda duyuruları).
- *
- * Dakika başı bekleme ücreti, duyurulan saatlik bedelin 60'a bölümüdür.
- * Resmi tarife değişebileceği için değerler formda düzenlenebilir bırakılmıştır.
+ * Sitede dakika / bekleme alanı yok. Yalnızca duyurulan saatlik veya
+ * dakika bedeli bilinen iller için yerel tamamlayıcı:
+ * İstanbul İBB 2026 saatlik bekleme 598,90 ₺ / 60;
+ * Ankara 7 ₺/dk; İzmir 4 ₺/dk.
  */
-export const CITY_TARIFFS = [
-  {
-    id: "istanbul",
-    name: "İstanbul",
-    shortName: "İST",
-    note: "İBB, 20 Temmuz 2026 · sarı taksi",
-    openingFee: 71.94,
-    perKmFee: 47.92,
-    perMinuteFee: Number((598.9 / 60).toFixed(2)),
-    minimumFee: 230,
-  },
-  {
-    id: "ankara",
-    name: "Ankara",
-    shortName: "ANK",
-    note: "ABB, 1 Mart 2026",
-    openingFee: 65,
-    perKmFee: 40,
-    perMinuteFee: 7,
-    minimumFee: 200,
-  },
-  {
-    id: "izmir",
-    name: "İzmir",
-    shortName: "İZM",
-    note: "İzBB, 1 Mayıs 2026",
-    openingFee: 40,
-    perKmFee: 54,
-    perMinuteFee: 4,
-    minimumFee: 210,
-  },
-];
+export const WAITING_FEE_FALLBACKS = {
+  istanbul: Number((598.9 / 60).toFixed(2)),
+  ankara: 7,
+  izmir: 4,
+};
+
+const feesById = new Map(tariffData.cities.map((city) => [city.id, city]));
+
+export const CITY_TARIFFS = PROVINCES.map((province) => {
+  const fees = feesById.get(province.id);
+  if (!fees) {
+    throw new Error(`tariffs.json içinde ${province.id} yok; npm run sync:tariffs çalıştırın.`);
+  }
+
+  return {
+    ...province,
+    openingFee: fees.openingFee,
+    perKmFee: fees.perKmFee,
+    minimumFee: fees.minimumFee,
+    perMinuteFee:
+      fees.perMinuteFee ?? WAITING_FEE_FALLBACKS[province.id] ?? 0,
+    note: fees.note,
+    source: fees.source,
+    sourceUrl: fees.sourceUrl,
+  };
+});
 
 export const DEFAULT_CITY_ID = "istanbul";
+
+export const TARIFF_META = {
+  source: tariffData.source,
+  sources: tariffData.sources ?? [],
+  fetchedAt: tariffData.fetchedAt,
+  disclaimer: tariffData.disclaimer,
+  cityCount: CITY_TARIFFS.length,
+};
 
 export function getCityTariff(cityId) {
   return CITY_TARIFFS.find((city) => city.id === cityId) ?? CITY_TARIFFS[0];
@@ -50,4 +55,14 @@ export function tariffToFormValues(tariff) {
     perMinuteFee: String(tariff.perMinuteFee),
     minimumFee: String(tariff.minimumFee),
   };
+}
+
+export function formatFetchedAt(isoDate = TARIFF_META.fetchedAt) {
+  const date = new Date(isoDate);
+  if (Number.isNaN(date.getTime())) return null;
+  return date.toLocaleDateString("tr-TR", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
 }

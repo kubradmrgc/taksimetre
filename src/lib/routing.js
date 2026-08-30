@@ -1,15 +1,14 @@
 import { calculateFare } from "./calculateFare.js";
+import { PROVINCES } from "./provinces.js";
 
 const NOMINATIM_URL = "https://nominatim.openstreetmap.org/search";
 const OSRM_URL = "https://router.project-osrm.org/route/v1/driving";
 
-/** Şehir merkezi yedekleri (konum alınamazsa rota başlangıcı). */
-export const CITY_CENTERS = {
-  istanbul: { lat: 41.0082, lon: 28.9784 },
-  ankara: { lat: 39.9208, lon: 32.8541 },
-  izmir: { lat: 38.4192, lon: 27.1287 },
-  custom: { lat: 41.0082, lon: 28.9784 },
-};
+/** 81 il merkezi yedeği (konum alınamazsa rota başlangıcı). */
+export const CITY_CENTERS = Object.fromEntries(
+  PROVINCES.map((city) => [city.id, { lat: city.lat, lon: city.lon }]),
+);
+CITY_CENTERS.custom = CITY_CENTERS.istanbul;
 
 /**
  * Türkiye'de adres / yer adı arar (Nominatim).
