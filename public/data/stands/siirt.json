@@ -1,12 +1,29 @@
 {
   "cityId": "siirt",
   "cityName": "Siirt",
-  "fetchedAt": "2026-08-30T21:23:01.425Z",
+  "fetchedAt": "2026-08-30T21:35:44.481Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "baykan",
+      "name": "Baykan",
+      "count": 18
+    },
+    {
+      "id": "kurtalan",
+      "name": "Kurtalan",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 13
+    }
   ],
   "count": 45,
   "stands": [
@@ -14,9 +31,12 @@
       "id": "taksi724-05447435657-0",
       "name": "Anderapark Taksi",
       "phone": "05447435657",
+      "website": null,
       "lat": 37.7512374,
       "lon": 42.1798852,
       "address": "Taksi Durağı · Hayri Özlü Sk. caddesi",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +46,12 @@
       "id": "taksi724-05425326782-1",
       "name": "Kurtalan Mansur Taksi",
       "phone": "05425326782",
+      "website": null,
       "lat": 37.9381114,
       "lon": 41.9436539,
       "address": "Taksi Durağı ·  · Yeni Mahallesi, Yeni Mahallesi, anderapark avm, Cengiz Topel Cd.",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +62,12 @@
       "id": "taksi724-05433804587-2",
       "name": "Kurtalan Taksi",
       "phone": "05433804587",
+      "website": null,
       "lat": 37.9265522,
       "lon": 41.700412,
       "address": "Taksi Durağı · Kervan Cd. No:24",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -52,9 +78,12 @@
       "id": "taksi724-05326408435-3",
       "name": "Nurtaksi",
       "phone": "05326408435",
+      "website": null,
       "lat": 37.920814,
       "lon": 41.7003558,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -65,9 +94,12 @@
       "id": "taksi724-04842239393-4",
       "name": "Nur Taksi",
       "phone": "04842239393",
+      "website": null,
       "lat": 37.9356494,
       "lon": 41.9419521,
       "address": "Taksi Durağı · 1529. Sk.",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -77,9 +109,12 @@
       "id": "taksi724-04842239393-5",
       "name": "Oto Şark Taksi",
       "phone": "04842239393",
+      "website": null,
       "lat": 37.936269,
       "lon": 41.943027,
       "address": "Taksi Durağı ·  · 1526. Sk.",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -90,9 +125,12 @@
       "id": "taksi724-04842241444-6",
       "name": "Sağlık Taksi",
       "phone": "04842241444",
+      "website": null,
       "lat": 37.927049,
       "lon": 41.9416999,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -102,9 +140,12 @@
       "id": "taksi724-04842232405-7",
       "name": "Siirt Gold Taksi",
       "phone": "04842232405",
+      "website": null,
       "lat": 37.9358104,
       "lon": 41.9429339,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -114,9 +155,12 @@
       "id": "taksi724-05448750809-8",
       "name": "Siirt Taksi",
       "phone": "05448750809",
+      "website": null,
       "lat": 37.9447784,
       "lon": 41.8933449,
       "address": "Taksi Durağı · Afetevleri Mh No:29",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -126,9 +170,12 @@
       "id": "taksi724-05465461544-9",
       "name": "Siirt Jet Taksi",
       "phone": "05465461544",
+      "website": null,
       "lat": 37.930374,
       "lon": 41.933387,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -138,9 +185,12 @@
       "id": "taksi724-05077245634-10",
       "name": "Siirt Kent Taksi",
       "phone": "05077245634",
+      "website": null,
       "lat": 37.9314378,
       "lon": 41.93416,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -152,9 +202,12 @@
       "id": "taksi724-05458985656-11",
       "name": "Siirt Kooperatif Taksi",
       "phone": "05458985656",
+      "website": null,
       "lat": 37.9390039,
       "lon": 41.9341838,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -164,9 +217,12 @@
       "id": "taksi724-05303639310-12",
       "name": "Siirt Otogar Taksi",
       "phone": "05303639310",
+      "website": null,
       "lat": 37.9399802,
       "lon": 41.9258867,
       "address": "Taksi Durağı · Nihat Aykut Cd. No:42, 56100",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -178,9 +234,12 @@
       "id": "taksi724-05446936162-13",
       "name": "Siirt Şen Taksi",
       "phone": "05446936162",
+      "website": null,
       "lat": 37.9234486,
       "lon": 41.9207798,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -191,9 +250,12 @@
       "id": "taksi724-05079307256-14",
       "name": "Siirt Taksi",
       "phone": "05079307256",
+      "website": null,
       "lat": 37.939648,
       "lon": 41.9314041,
       "address": "Taksi Durağı · 1706. Sk.",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -203,9 +265,12 @@
       "id": "taksi724-05527425989-15",
       "name": "Siirt Taksi",
       "phone": "05527425989",
+      "website": null,
       "lat": 37.9343465,
       "lon": 41.9369108,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -215,9 +280,12 @@
       "id": "taksi724-05444232156-16",
       "name": "Siirt Varan Taksi",
       "phone": "05444232156",
+      "website": null,
       "lat": 37.94045,
       "lon": 41.936618,
       "address": "Taksi · No:92 Fakirullah Cad",
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -227,9 +295,12 @@
       "id": "taksi724-04842234848-17",
       "name": "siirt-taksi",
       "phone": "04842234848",
+      "website": null,
       "lat": 37.9316239,
       "lon": 41.9391712,
       "address": null,
+      "districtId": "baykan",
+      "districtName": "Baykan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -239,9 +310,12 @@
       "id": "taksi724-05324827663-18",
       "name": "Hayat Taksi",
       "phone": "05324827663",
+      "website": null,
       "lat": 37.937496,
       "lon": 41.927107,
       "address": "Kooperatif Mah. Mahmut Çalapkulu Cad. 4 Siirt Merkez, Siirt",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -251,9 +325,12 @@
       "id": "taksi724-04842231100-19",
       "name": "Otogar Taksi",
       "phone": "04842231100",
+      "website": null,
       "lat": 37.93716,
       "lon": 41.938618,
       "address": "Yeni Mah. Güres Blv. 88 Siirt Merkez, Siirt",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -264,9 +341,12 @@
       "id": "taksi724-04842233030-20",
       "name": "Özlem Taksi",
       "phone": "04842233030",
+      "website": null,
       "lat": 37.928,
       "lon": 41.96,
       "address": "Siirt Otogarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -276,9 +356,12 @@
       "id": "taksi724-05432241540-21",
       "name": "Ses Taksi",
       "phone": "05432241540",
+      "website": null,
       "lat": 37.925208,
       "lon": 41.938425,
       "address": "Doğan Mah. Kadri Oktay Cad. (Hayat Hastanesi Karşısı) Siirt Merkez, Siirt",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -288,9 +371,12 @@
       "id": "taksi724-04842236262-22",
       "name": "Siirt Hastane Taksi",
       "phone": "04842236262",
+      "website": null,
       "lat": 37.9345,
       "lon": 41.9505,
       "address": "Kooperatif Mah. Mehmet Süer Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -300,9 +386,12 @@
       "id": "taksi724-05444232156-23",
       "name": "Siirt Merkez Taksi",
       "phone": "05444232156",
+      "website": null,
       "lat": 37.935,
       "lon": 41.952,
       "address": "Yeni Mahalle Hz. Fakirullah Cad. No:92, Devlet Hastanesi Yanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -312,9 +401,12 @@
       "id": "taksi724-05461420056-24",
       "name": "Siirt Taksi",
       "phone": "05461420056",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": "15 Temmuz Demokrasi Meydanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -324,9 +416,12 @@
       "id": "taksi724-05417276171-25",
       "name": "Taksi",
       "phone": "05417276171",
+      "website": null,
       "lat": 37.936,
       "lon": 41.954,
       "address": "Kooperatif Mahallesi Hz. Fakirullah Cd., Üniversite karşısı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -336,9 +431,12 @@
       "id": "taksi724-04842231111-26",
       "name": "Tepe Taksi",
       "phone": "04842231111",
+      "website": null,
       "lat": 37.932,
       "lon": 41.948,
       "address": "Bahçelievler Mah.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -348,9 +446,12 @@
       "id": "taksi724-04842231817-27",
       "name": "Varan Taksi",
       "phone": "04842231817",
+      "website": null,
       "lat": 37.934,
       "lon": 41.951,
       "address": "Tepe Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -361,9 +462,12 @@
       "id": "taksi724-04842234848-28",
       "name": "siirt-taksi",
       "phone": "04842234848",
+      "website": null,
       "lat": 37.930264,
       "lon": 41.940837,
       "address": "Bahçelievler Mah. Gaffar Okkan Cad. Siirt Merkez, Siirt",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -373,9 +477,12 @@
       "id": "taksicibul-05452234848-29",
       "name": "ULAŞ TAKSİ",
       "phone": "05452234848",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -386,9 +493,12 @@
       "id": "taksicibul-04842234551-30",
       "name": "Siirt Özel Meydan Taksi",
       "phone": "04842234551",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -398,9 +508,12 @@
       "id": "taksicibul-05423910687-31",
       "name": "Saygı Taksi",
       "phone": "05423910687",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -410,9 +523,12 @@
       "id": "taksicibul-05366611487-32",
       "name": "Ayhan Taksi",
       "phone": "05366611487",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -422,9 +538,12 @@
       "id": "taksicibul-05441515656-33",
       "name": "Siirt Fırat taksi",
       "phone": "05441515656",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -434,9 +553,12 @@
       "id": "taksicibul-05432930006-34",
       "name": "Siirt BY TAKSİ",
       "phone": "05432930006",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -446,9 +568,12 @@
       "id": "taksicibul-05452635038-35",
       "name": "Siirt Taksi Geçer",
       "phone": "05452635038",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -458,9 +583,12 @@
       "id": "taksicibul-04842231919-36",
       "name": "Gap Taxi",
       "phone": "04842231919",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -470,9 +598,12 @@
       "id": "taksiciler-05524896262-37",
       "name": "Tümü → Anderaparktaksi AÇIK · 7 gün 24 saat Yeni Mahallesi, Yeni Mahallesi, no, ",
       "phone": "05524896262",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -482,9 +613,12 @@
       "id": "taksiciler-04842231530-38",
       "name": "Oto Şark Taksi",
       "phone": "04842231530",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -494,9 +628,12 @@
       "id": "taksiciler-05344886994-39",
       "name": "Siirt Merkez Taksi",
       "phone": "05344886994",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -506,9 +643,12 @@
       "id": "taksiciler-05466860293-40",
       "name": "Tümü → Kurtalan Güven Taksi",
       "phone": "05466860293",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": "kurtalan",
+      "districtName": "Kurtalan",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -519,9 +659,12 @@
       "id": "taksiciler-05443836938-41",
       "name": "Kurtalan Yorulmaz Taksi",
       "phone": "05443836938",
+      "website": null,
       "lat": 37.9333,
       "lon": 41.95,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -531,8 +674,12 @@
       "id": "nerede360-05432073596-42",
       "name": "Ayaz Taksi - Seyithan Ayaz",
       "phone": "05432073596",
-      "lat": 37.9333,
-      "lon": 41.95,
+      "website": "https://www.facebook.com/seyithan.ayaz.35",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kurtalan",
+      "districtName": "Kurtalan",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -542,8 +689,12 @@
       "id": "nerede360-05417378881-43",
       "name": "Kings Taksi - Kenan Oğurtay",
       "phone": "05417378881",
-      "lat": 37.9333,
-      "lon": 41.95,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -553,8 +704,12 @@
       "id": "nerede360-05056384749-44",
       "name": "Siirt Vip Taksi - Ferhat Kaya",
       "phone": "05056384749",
-      "lat": 37.9333,
-      "lon": 41.95,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

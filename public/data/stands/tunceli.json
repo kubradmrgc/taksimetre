@@ -1,12 +1,39 @@
 {
   "cityId": "tunceli",
   "cityName": "Tunceli",
-  "fetchedAt": "2026-08-30T21:23:47.501Z",
+  "fetchedAt": "2026-08-30T21:36:31.797Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "cemisgezek",
+      "name": "Cemisgezek",
+      "count": 2
+    },
+    {
+      "id": "hozat",
+      "name": "Hozat",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 10
+    },
+    {
+      "id": "ovacik",
+      "name": "Ovacik",
+      "count": 2
+    },
+    {
+      "id": "pertek",
+      "name": "Pertek",
+      "count": 3
+    }
   ],
   "count": 25,
   "stands": [
@@ -14,9 +41,12 @@
       "id": "taksi724-04282121722-0",
       "name": "Barış Taksi",
       "phone": "04282121722",
+      "website": null,
       "lat": 39.108855,
       "lon": 39.549355,
       "address": "Moğultay Mah. Okullar Cad. Tunceli Merkez, Tunceli",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +56,12 @@
       "id": "taksi724-04282121781-1",
       "name": "Cumhuriyet Taksi",
       "phone": "04282121781",
+      "website": null,
       "lat": 39.106594,
       "lon": 39.548677,
       "address": "Moğultay Mah. Ata Sok. 1 Tunceli Merkez, Tunceli",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +72,12 @@
       "id": "taksi724-2-2",
       "name": "Hastane Taksi",
       "phone": null,
+      "website": null,
       "lat": 39.105876,
       "lon": 39.547304,
       "address": "Moğultay Mah. Hürriyet Cad. Tunceli Merkez, Tunceli",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -51,9 +87,12 @@
       "id": "taksi724-04282123030-3",
       "name": "Hastane Taksi",
       "phone": "04282123030",
+      "website": null,
       "lat": 39.109,
       "lon": 39.541,
       "address": "Tunceli Devlet Hastanesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -63,9 +102,12 @@
       "id": "taksi724-04282127262-4",
       "name": "Munzur Taksi",
       "phone": "04282127262",
+      "website": null,
       "lat": 39.100665,
       "lon": 39.538533,
       "address": "Cumhuriyet Mah. 203. Cad. 1 Tunceli Merkez, Tunceli",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -75,9 +117,12 @@
       "id": "taksi724-04282124040-5",
       "name": "Munzur Taksi",
       "phone": "04282124040",
+      "website": null,
       "lat": 39.1085,
       "lon": 39.5405,
       "address": "Munzur Caddesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -87,9 +132,12 @@
       "id": "taksi724-04282121812-6",
       "name": "Otogar Taksi",
       "phone": "04282121812",
+      "website": null,
       "lat": 39.106147,
       "lon": 39.550836,
       "address": "Moğultay Mah. Cumhuriyet Cad. Tunceli Merkez, Tunceli",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -101,9 +149,12 @@
       "id": "taksi724-04282122020-7",
       "name": "Tunceli Merkez Taksi",
       "phone": "04282122020",
+      "website": null,
       "lat": 39.11,
       "lon": 39.542,
       "address": "Tunceli Otogarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -113,9 +164,12 @@
       "id": "taksi724-04282121212-8",
       "name": "Varan Taksi",
       "phone": "04282121212",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": "Tunceli Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -125,9 +179,12 @@
       "id": "taksi724-04282123682-9",
       "name": "tunceli-taksi",
       "phone": "04282123682",
+      "website": null,
       "lat": 39.105995,
       "lon": 39.548256,
       "address": "Moğultay Mah. Boysan Cad. Tunceli Merkez, Tunceli",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -138,9 +195,12 @@
       "id": "taksi724-05355445890-10",
       "name": "Terminal Taksi",
       "phone": "05355445890",
+      "website": null,
       "lat": 38.86777,
       "lon": 39.324566,
       "address": "Taksi Durağı · Atatürk Cd. No:26",
+      "districtId": "cemisgezek",
+      "districtName": "Cemisgezek",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -150,9 +210,12 @@
       "id": "taksi724-04282122618-11",
       "name": "Terminal Taksi",
       "phone": "04282122618",
+      "website": null,
       "lat": 39.1074454,
       "lon": 39.5443884,
       "address": null,
+      "districtId": "cemisgezek",
+      "districtName": "Cemisgezek",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -163,9 +226,12 @@
       "id": "taksi724-04286112020-12",
       "name": "Ovacık Taksi",
       "phone": "04286112020",
+      "website": null,
       "lat": 39.35,
       "lon": 39.69,
       "address": "Ovacık Merkez",
+      "districtId": "ovacik",
+      "districtName": "Ovacik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -175,9 +241,12 @@
       "id": "taksi724-13-13",
       "name": "Ovacık Taksi",
       "phone": null,
+      "website": null,
       "lat": 39.358267,
       "lon": 39.215744,
       "address": "Pulur Mah. Yeniçarşı Cad. Ovacık, Tunceli",
+      "districtId": "ovacik",
+      "districtName": "Ovacik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -187,9 +256,12 @@
       "id": "taksi724-04285112020-14",
       "name": "Pertek Taksi",
       "phone": "04285112020",
+      "website": null,
       "lat": 38.87,
       "lon": 39.31,
       "address": "Pertek Merkez",
+      "districtId": "pertek",
+      "districtName": "Pertek",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -199,9 +271,12 @@
       "id": "taksi724-05355445890-15",
       "name": "Pertek Taksi",
       "phone": "05355445890",
+      "website": null,
       "lat": 38.893536,
       "lon": 39.272044,
       "address": "Çakırbahçe Köyü Pertek, Tunceli",
+      "districtId": "pertek",
+      "districtName": "Pertek",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -212,9 +287,12 @@
       "id": "taksi724-05347035136-16",
       "name": "Pertek Taksi",
       "phone": "05347035136",
+      "website": null,
       "lat": 38.8666825,
       "lon": 39.3269089,
       "address": null,
+      "districtId": "hozat",
+      "districtName": "Hozat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -225,9 +303,12 @@
       "id": "taksicibul-05347636847-17",
       "name": "Tümü → 7/24 Dersim Taksi",
       "phone": "05347636847",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -238,9 +319,12 @@
       "id": "taksicibul-04282122114-18",
       "name": "Tunceli Mameki Taksi",
       "phone": "04282122114",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -251,9 +335,12 @@
       "id": "taksiciler-05459479869-19",
       "name": "Tunceli Taksi",
       "phone": "05459479869",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -263,9 +350,12 @@
       "id": "taksiciler-05322073538-20",
       "name": "Varan Taksi AÇIK · 7 gün 24 saat Moğultay, Behice Boran Sk. No:26, 62000 Tunceli",
       "phone": "05322073538",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -275,9 +365,12 @@
       "id": "taksiciler-04285112008-21",
       "name": "Tümü → Ovacık Taksi",
       "phone": "04285112008",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -287,9 +380,12 @@
       "id": "taksiciler-04285112102-22",
       "name": "Tümü → Ovacık Dersim Taksi",
       "phone": "04285112102",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -299,9 +395,12 @@
       "id": "taksiciler-05337174955-23",
       "name": "Pertek Taksi",
       "phone": "05337174955",
+      "website": null,
       "lat": 39.1079,
       "lon": 39.5401,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -311,8 +410,12 @@
       "id": "nerede360-05373372212-24",
       "name": "Çınar Taksi - Nihat Daş",
       "phone": "05373372212",
-      "lat": 39.1079,
-      "lon": 39.5401,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "pertek",
+      "districtName": "Pertek",
       "approximate": true,
       "sources": [
         "nerede360"

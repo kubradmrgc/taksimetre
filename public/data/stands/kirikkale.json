@@ -1,12 +1,34 @@
 {
   "cityId": "kirikkale",
   "cityName": "Kırıkkale",
-  "fetchedAt": "2026-08-30T21:24:41.648Z",
+  "fetchedAt": "2026-08-30T21:37:29.320Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bahsili",
+      "name": "Bahsili",
+      "count": 25
+    },
+    {
+      "id": "karakecili",
+      "name": "Karakecili",
+      "count": 5
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 13
+    },
+    {
+      "id": "yahsihan",
+      "name": "Yahsihan",
+      "count": 2
+    }
   ],
   "count": 71,
   "stands": [
@@ -14,9 +36,12 @@
       "id": "taksi724-05444041572-0",
       "name": "Aziziye Taksi",
       "phone": "05444041572",
+      "website": null,
       "lat": 39.846787,
       "lon": 33.4988101,
       "address": "Taksi Durağı · Atatürk Blv. No:69",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +51,12 @@
       "id": "taksi724-05309053787-1",
       "name": "Dispanser Taksi",
       "phone": "05309053787",
+      "website": null,
       "lat": 39.8554705,
       "lon": 33.4963428,
       "address": "Taksi Durağı · Lefkoşa Cd. No:37",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +66,12 @@
       "id": "taksi724-05411710289-2",
       "name": "Dörtyol Taksi",
       "phone": "05411710289",
+      "website": null,
       "lat": 39.848401,
       "lon": 33.5098379,
       "address": "Taksi Durağı ·  · Kazım Karabekir Cd. No:98",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +81,12 @@
       "id": "taksi724-05416446255-3",
       "name": "DUMLUPINAR TAKSi",
       "phone": "05416446255",
+      "website": null,
       "lat": 39.8443195,
       "lon": 33.5032587,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -62,9 +96,12 @@
       "id": "taksi724-05411710250-4",
       "name": "Hastane Taksi",
       "phone": "05411710250",
+      "website": null,
       "lat": 39.8467479,
       "lon": 33.5216883,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -74,9 +111,12 @@
       "id": "taksi724-05451360143-5",
       "name": "Kaletepe Taksi",
       "phone": "05451360143",
+      "website": null,
       "lat": 39.8397835,
       "lon": 33.5088782,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -86,9 +126,12 @@
       "id": "taksi724-05313735955-6",
       "name": "KIRIKKALE KALETEPE TAKSi",
       "phone": "05313735955",
+      "website": null,
       "lat": 39.8596794,
       "lon": 33.5122821,
       "address": "Taksi Durağı · 1069. Sk. No:10",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -98,9 +141,12 @@
       "id": "taksi724-05379838221-7",
       "name": "KIRIKKALE TAKSi",
       "phone": "05379838221",
+      "website": null,
       "lat": 39.8588062,
       "lon": 33.5096118,
       "address": "Taksi Durağı · 1056. Sk. No:13",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -111,9 +157,12 @@
       "id": "taksi724-05059105574-8",
       "name": "CEZAEVi TAKSi",
       "phone": "05059105574",
+      "website": null,
       "lat": 39.8616243,
       "lon": 33.4809568,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -123,9 +172,12 @@
       "id": "taksi724-05428918699-9",
       "name": "Kırıkkale 7/24 hızli Taksi",
       "phone": "05428918699",
+      "website": null,
       "lat": 39.8325244,
       "lon": 33.4922476,
       "address": "Taksi Durağı ·  · Adalet Cd. No:9",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -135,9 +187,12 @@
       "id": "taksi724-05323923874-10",
       "name": "Kırıkkale Podium Avm Taksi",
       "phone": "05323923874",
+      "website": null,
       "lat": 39.840654,
       "lon": 33.5216958,
       "address": "Taksi Durağı ·  · Karadeniz Cd. No:1",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -147,9 +202,12 @@
       "id": "taksi724-05058162024-11",
       "name": "Kırıkkale Sanayi Taksi",
       "phone": "05058162024",
+      "website": null,
       "lat": 39.8576488,
       "lon": 33.4784425,
       "address": "Taksi Durağı · Bağdat Caddesi No:5",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -160,9 +218,12 @@
       "id": "taksi724-05010061506-12",
       "name": "Kırıkkale Saray Taksi",
       "phone": "05010061506",
+      "website": null,
       "lat": 39.8400923,
       "lon": 33.5219477,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -172,9 +233,12 @@
       "id": "taksi724-05414985460-13",
       "name": "Taksi durağı",
       "phone": "05414985460",
+      "website": null,
       "lat": 39.8513626,
       "lon": 33.4971942,
       "address": "Taksi Durağı · 513. Sk. No:2",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -184,9 +248,12 @@
       "id": "taksi724-05432330876-14",
       "name": "Kırıkkale Taksi",
       "phone": "05432330876",
+      "website": null,
       "lat": 39.8414381,
       "lon": 33.5073958,
       "address": "Taksi ·  · Ziya Gökalp Cd. No:2",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -196,9 +263,12 @@
       "id": "taksi724-05417122076-15",
       "name": "Kırıkkale Yenişehir Kampüs Taksi",
       "phone": "05417122076",
+      "website": null,
       "lat": 39.8532637,
       "lon": 33.4827957,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -208,9 +278,12 @@
       "id": "taksi724-05445133585-16",
       "name": "Kızılay Taksi",
       "phone": "05445133585",
+      "website": null,
       "lat": 39.8713244,
       "lon": 33.4562645,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -220,9 +293,12 @@
       "id": "taksi724-05333826107-17",
       "name": "Lale Taksi",
       "phone": "05333826107",
+      "website": null,
       "lat": 39.838493,
       "lon": 33.497951,
       "address": "Taksi Durağı · Ağabey Pehlivanlı Blv. No:25",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -232,9 +308,12 @@
       "id": "taksi724-05334113549-18",
       "name": "Mobil Taksi",
       "phone": "05334113549",
+      "website": null,
       "lat": 39.839573,
       "lon": 33.508188,
       "address": "Taksi Durağı · Millet Blv. No:40",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -244,9 +323,12 @@
       "id": "taksi724-03182185566-19",
       "name": "Nokta Taksi",
       "phone": "03182185566",
+      "website": null,
       "lat": 39.840691,
       "lon": 33.513476,
       "address": "Taksi Durağı · Menderes Cd. No:93",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -257,9 +339,12 @@
       "id": "taksi724-03182124613-20",
       "name": "SiTE TAKSi",
       "phone": "03182124613",
+      "website": null,
       "lat": 39.8503029,
       "lon": 33.5020011,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -269,9 +354,12 @@
       "id": "taksi724-05453180672-21",
       "name": "TAKSi",
       "phone": "05453180672",
+      "website": null,
       "lat": 39.8418365,
       "lon": 33.5056886,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -281,9 +369,12 @@
       "id": "taksi724-05536133886-22",
       "name": "Yenişehir Taksi",
       "phone": "05536133886",
+      "website": null,
       "lat": 39.8369292,
       "lon": 33.4970083,
       "address": "Taksi Durağı · 25. Sk. No:5",
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -293,9 +384,12 @@
       "id": "taksi724-05461712056-23",
       "name": "kirikkale-taksi",
       "phone": "05461712056",
+      "website": null,
       "lat": 39.86934,
       "lon": 33.4552336,
       "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahsili",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -306,9 +400,12 @@
       "id": "taksi724-05077325922-24",
       "name": "Bulvar Park Taksi",
       "phone": "05077325922",
+      "website": null,
       "lat": 39.828371,
       "lon": 33.480247,
       "address": "Yenimahalle Mah. 148. Sok. 1 Kırıkkale Merkez, Kırıkkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -319,9 +416,12 @@
       "id": "taksi724-03182243200-25",
       "name": "Gar Taksi",
       "phone": "03182243200",
+      "website": null,
       "lat": 39.846,
       "lon": 33.5145,
       "address": "Bulvar Park",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -331,9 +431,12 @@
       "id": "taksi724-05357716033-26",
       "name": "Kırıkkale Alo Taksi",
       "phone": "05357716033",
+      "website": null,
       "lat": 39.83307439,
       "lon": 33.49623305,
       "address": "Fabrikalar Mah. Millet Blv. İstasyon Cad. Kırıkkale Merkez, Kırıkkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -343,9 +446,12 @@
       "id": "taksi724-05522360003-27",
       "name": "Kırıkkale Merkez Taksi",
       "phone": "05522360003",
+      "website": null,
       "lat": 39.847,
       "lon": 33.516,
       "address": "Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -355,9 +461,12 @@
       "id": "taksi724-05432330876-28",
       "name": "Konak Taksi",
       "phone": "05432330876",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": "Tepebaşı Mah. Cumhuriyet Meydanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -367,9 +476,12 @@
       "id": "taksi724-05319680149-29",
       "name": "Podium Taksi",
       "phone": "05319680149",
+      "website": null,
       "lat": 39.839507,
       "lon": 33.505284,
       "address": "Fabrikalar Mah. Fevzi Çakmak Cad. 1 Kırıkkale Merkez, Kırıkkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -379,9 +491,12 @@
       "id": "taksi724-05364014582-30",
       "name": "Terminal Taksi",
       "phone": "05364014582",
+      "website": null,
       "lat": 39.845,
       "lon": 33.514,
       "address": "Podium AVM yanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -391,9 +506,12 @@
       "id": "taksi724-31-31",
       "name": "Yeni Mahalle Cezaevi Taksi",
       "phone": null,
+      "website": null,
       "lat": 39.85629,
       "lon": 33.484312,
       "address": "Çalılıöz Mah. Kırıkkale Otogarı Kırıkkale Merkez, Kırıkkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -403,9 +521,12 @@
       "id": "taksi724-05428918699-32",
       "name": "Yenişehir Kampüs Taksi",
       "phone": "05428918699",
+      "website": null,
       "lat": 39.848,
       "lon": 33.517,
       "address": "Yeni Mahalle",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -415,9 +536,12 @@
       "id": "taksi724-05054687529-33",
       "name": "Zafer Taksi",
       "phone": "05054687529",
+      "website": null,
       "lat": 39.842,
       "lon": 33.51,
       "address": "Yenişehir KKÜ yanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -427,9 +551,12 @@
       "id": "taksi724-03182184918-34",
       "name": "kirikkale-taksi",
       "phone": "03182184918",
+      "website": null,
       "lat": 39.844297,
       "lon": 33.506574,
       "address": "Yenidoğan Mah. Belediye Cad. Kırıkkale Merkez, Kırıkkale",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -439,9 +566,12 @@
       "id": "taksi724-05435034094-35",
       "name": "- Onur Taksi",
       "phone": "05435034094",
+      "website": null,
       "lat": 39.9222899,
       "lon": 33.2272639,
       "address": "Taksi Durağı · Altınbaş Sk.",
+      "districtId": "karakecili",
+      "districtName": "Karakecili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -451,9 +581,12 @@
       "id": "taksi724-05443789317-36",
       "name": "Karşıyaka Can Taksi",
       "phone": "05443789317",
+      "website": null,
       "lat": 39.9224476,
       "lon": 33.2275275,
       "address": "Ulaşım Hizmeti · Altınbaş Sk. No:3",
+      "districtId": "karakecili",
+      "districtName": "Karakecili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -463,9 +596,12 @@
       "id": "taksi724-03182561211-37",
       "name": "YENIŞEHIR TAKSI",
       "phone": "03182561211",
+      "website": null,
       "lat": 39.8280139,
       "lon": 33.5207722,
       "address": "Taksi Durağı · Ahılı Cd. No:52",
+      "districtId": "karakecili",
+      "districtName": "Karakecili",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -476,9 +612,12 @@
       "id": "taksi724-05454367036-38",
       "name": "Yenişehir Taksi",
       "phone": "05454367036",
+      "website": null,
       "lat": 39.8639178,
       "lon": 33.463125,
       "address": null,
+      "districtId": "karakecili",
+      "districtName": "Karakecili",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -488,9 +627,12 @@
       "id": "taksi724-05457919509-39",
       "name": "Karşıyaka Can Taksi",
       "phone": "05457919509",
+      "website": null,
       "lat": 39.8765443,
       "lon": 33.4618727,
       "address": null,
+      "districtId": "karakecili",
+      "districtName": "Karakecili",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -501,9 +643,12 @@
       "id": "taksi724-05057097347-40",
       "name": "Yenişehir Taksi",
       "phone": "05057097347",
+      "website": null,
       "lat": 39.8558109,
       "lon": 33.4812967,
       "address": "Taksi Durağı · Kırıkkale Kırşehir Yolu No:6",
+      "districtId": "yahsihan",
+      "districtName": "Yahsihan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -513,9 +658,12 @@
       "id": "taksi724-05051182046-41",
       "name": "Yenişehir Taksi",
       "phone": "05051182046",
+      "website": null,
       "lat": 39.8725667,
       "lon": 33.458461,
       "address": "Taksi · Recep Tayyip Erdoğan Caddesi No: 7",
+      "districtId": "yahsihan",
+      "districtName": "Yahsihan",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -525,9 +673,12 @@
       "id": "taksicibul-05513462045-42",
       "name": "Podium Taksi 71 T 2045",
       "phone": "05513462045",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -537,9 +688,12 @@
       "id": "taksicibul-05449513008-43",
       "name": "Lale taksi merkez",
       "phone": "05449513008",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -549,9 +703,12 @@
       "id": "taksicibul-05423961250-44",
       "name": "PODİUM TAKSİ İLETİŞİM",
       "phone": "05423961250",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -562,9 +719,12 @@
       "id": "taksicibul-05414371005-45",
       "name": "YENİŞEHİR TAKSİ 2020",
       "phone": "05414371005",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -575,9 +735,12 @@
       "id": "taksicibul-05070977825-46",
       "name": "Podium Avm Taksi 7/24 Kırıkkale",
       "phone": "05070977825",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -587,9 +750,12 @@
       "id": "taksicibul-05461854851-47",
       "name": "Yenişehir Kampüs Taksi ACİL",
       "phone": "05461854851",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -600,9 +766,12 @@
       "id": "taksicibul-05452123062-48",
       "name": "YENİŞEHİR TAKSİ 71 T 2007",
       "phone": "05452123062",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -612,9 +781,12 @@
       "id": "taksicibul-05539292010-49",
       "name": "Kırıkkale Yenişehir Taksi",
       "phone": "05539292010",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -625,9 +797,12 @@
       "id": "taksicibul-05421712085-50",
       "name": "BAYRAKTEPE TAKSİ DURAĞI",
       "phone": "05421712085",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -638,9 +813,12 @@
       "id": "taksicibul-03182189619-51",
       "name": "Ankara Sigorta",
       "phone": "03182189619",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -650,9 +828,12 @@
       "id": "taksiciler-05427459591-52",
       "name": "Tümü → Adliye Taksi Kırıkkale",
       "phone": "05427459591",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -662,9 +843,12 @@
       "id": "taksiciler-05426766869-53",
       "name": "As Taksi AÇIK · 7 gün 24 saat Çalılıöz, Atatürk Blv. No:69, 71100 Kırıkkale Merk",
       "phone": "05426766869",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -674,9 +858,12 @@
       "id": "taksiciler-03182455053-54",
       "name": "Böke Taksi AÇIK · 7 gün 24 saat Ovacık, Ergenekon Cd. 27-25, 71200 Kırıkkale Mer",
       "phone": "03182455053",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -686,9 +873,12 @@
       "id": "taksiciler-03182243287-55",
       "name": "Bulvar Park Taksi",
       "phone": "03182243287",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -698,9 +888,12 @@
       "id": "taksiciler-05436230941-56",
       "name": "Çalılıöz Taksi",
       "phone": "05436230941",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -710,9 +903,12 @@
       "id": "taksiciler-05453494998-57",
       "name": "Derya Taksi AÇIK · 7 gün 24 saat Yenidoğan, Menderes Cd. No:2, 71200 Kırıkkale M",
       "phone": "05453494998",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -722,9 +918,12 @@
       "id": "taksiciler-05411019904-58",
       "name": "Dispanser Taksi AÇIK · 7 gün 24 saat Tepebaşı, Kazım Karabekir Cd. No:98, 71200 ",
       "phone": "05411019904",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -734,9 +933,12 @@
       "id": "taksiciler-05352706667-59",
       "name": "Kırıkkale Taksi (yüksek İhtisas) AÇIK · 7 gün 24 saat Bağlarbaşı, Yüksek İhtisas",
       "phone": "05352706667",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -746,9 +948,12 @@
       "id": "taksiciler-05427910015-60",
       "name": "Olgun Taksi AÇIK · 7 gün 24 saat Yenidoğan, 600. Sk. No:1, 71200 Kırıkkale Merke",
       "phone": "05427910015",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -758,9 +963,12 @@
       "id": "taksiciler-03182453056-61",
       "name": "Park Taksi Kırıkkale AÇIK · 7 gün 24 saat Sanayi, Karadeniz Cd. No:1, 71400 Kırı",
       "phone": "03182453056",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -770,9 +978,12 @@
       "id": "taksiciler-03182240160-62",
       "name": "Site Taksi AÇIK · 7 gün 24 saat Ovacık, Zafer Cd. 591.Sokak, 71200 Kırıkkale Mer",
       "phone": "03182240160",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -782,9 +993,12 @@
       "id": "taksiciler-05461982501-63",
       "name": "Zafer Taksi Kırıkkale AÇIK · 7 gün 24 saat Yenidoğan, Zafer Cd. No:58, 71200 Kır",
       "phone": "05461982501",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -794,9 +1008,12 @@
       "id": "taksiciler-05358559053-64",
       "name": "Tümü → Delice Taksi",
       "phone": "05358559053",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -806,9 +1023,12 @@
       "id": "taksiciler-05339732036-65",
       "name": "Taksi 2036",
       "phone": "05339732036",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -818,9 +1038,12 @@
       "id": "taksiciler-05413251109-66",
       "name": "Yenişehir Kampüs Taksi 2019",
       "phone": "05413251109",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -830,9 +1053,12 @@
       "id": "taksiciler-05433472500-67",
       "name": "Yenişehir Kampüs Taksi Yahşihan",
       "phone": "05433472500",
+      "website": null,
       "lat": 39.8468,
       "lon": 33.5153,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -842,8 +1068,12 @@
       "id": "nerede360-05322804117-68",
       "name": "Bahşılı Taksi - Osman Önger",
       "phone": "05322804117",
-      "lat": 39.8468,
-      "lon": 33.5153,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "bahsili",
+      "districtName": "Bahşılı",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -853,8 +1083,12 @@
       "id": "nerede360-05362817209-69",
       "name": "Tuna Taksi - Mustafa Kıymaz",
       "phone": "05362817209",
-      "lat": 39.8468,
-      "lon": 33.5153,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -864,8 +1098,12 @@
       "id": "nerede360-05447836624-70",
       "name": "Yenimahalle Cezaevi Taksi - Ramis Canpolat",
       "phone": "05447836624",
-      "lat": 39.8468,
-      "lon": 33.5153,
+      "website": "https://www.instagram.com/yenimahalletaksi0321/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

@@ -1,12 +1,29 @@
 {
   "cityId": "nigde",
   "cityName": "Niğde",
-  "fetchedAt": "2026-08-30T21:22:14.303Z",
+  "fetchedAt": "2026-08-30T21:34:57.227Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bor",
+      "name": "Bor",
+      "count": 29
+    },
+    {
+      "id": "camardi",
+      "name": "Camardi",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 11
+    }
   ],
   "count": 61,
   "stands": [
@@ -14,9 +31,12 @@
       "id": "taksi724-03882320518-0",
       "name": "Bor Taksi",
       "phone": "03882320518",
+      "website": null,
       "lat": 37.9633442,
       "lon": 34.6700763,
       "address": "Taksi Durağı ·  · Deniz Sk. No:32",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +46,12 @@
       "id": "taksi724-05465583878-1",
       "name": "niğde Nigde Doğan Taksi",
       "phone": "05465583878",
+      "website": null,
       "lat": 37.89493387,
       "lon": 34.56176292,
       "address": "Sokubaşı Mah. Karaköprü Cad. Çakmak Sok. Bor, Niğde",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -40,9 +63,12 @@
       "id": "taksi724-03882137658-2",
       "name": "Fatih öcal Taksi",
       "phone": "03882137658",
+      "website": null,
       "lat": 37.9735123,
       "lon": 34.6794698,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -52,9 +78,12 @@
       "id": "taksi724-05356673660-3",
       "name": "Güvenli Taksi",
       "phone": "05356673660",
+      "website": null,
       "lat": 37.8781,
       "lon": 34.5985005,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -64,9 +93,12 @@
       "id": "taksi724-05434119151-4",
       "name": "Has Taksi",
       "phone": "05434119151",
+      "website": null,
       "lat": 37.8949,
       "lon": 34.56172,
       "address": "Cumhuriyet Mah. Postane Cad. Çakmak Sok. Bor, Niğde",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -77,9 +109,12 @@
       "id": "taksi724-03882138766-5",
       "name": "Niğde Acil Taksi",
       "phone": "03882138766",
+      "website": null,
       "lat": 37.970428,
       "lon": 34.674664,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -90,9 +125,12 @@
       "id": "taksi724-05448987822-6",
       "name": "Niğde Afa Taksi",
       "phone": "05448987822",
+      "website": null,
       "lat": 37.9740429,
       "lon": 34.6812957,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -102,9 +140,12 @@
       "id": "taksi724-05061771864-7",
       "name": "Niğde Evleri Taksi",
       "phone": "05061771864",
+      "website": null,
       "lat": 37.979029,
       "lon": 34.6816685,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -115,9 +156,12 @@
       "id": "taksi724-05455110209-8",
       "name": "Niğde Ferhat Taksi",
       "phone": "05455110209",
+      "website": null,
       "lat": 37.9882375,
       "lon": 34.69131,
       "address": "Taksi Durağı · Candan Sk. No:14",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -127,9 +171,12 @@
       "id": "taksi724-05438755976-9",
       "name": "Niğde Güven Taksi",
       "phone": "05438755976",
+      "website": null,
       "lat": 37.9704692,
       "lon": 34.6767238,
       "address": "Taksi · Feridun Zeren Cd. No: 4",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -139,9 +186,12 @@
       "id": "taksi724-05336576402-10",
       "name": "Niğde Hacettepe Taksi",
       "phone": "05336576402",
+      "website": null,
       "lat": 37.9697839,
       "lon": 34.6435052,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -151,9 +201,12 @@
       "id": "taksi724-03882337478-11",
       "name": "Niğde Hastaneler Taksi",
       "phone": "03882337478",
+      "website": null,
       "lat": 37.9615874,
       "lon": 34.6641485,
       "address": "Taksi Durağı · Temapark Avm Yanı, Alpat Sk.",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -163,9 +216,12 @@
       "id": "taksi724-03882211376-12",
       "name": "Niğde Korkmaz Taksi",
       "phone": "03882211376",
+      "website": null,
       "lat": 37.9676095,
       "lon": 34.6443219,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -176,9 +232,12 @@
       "id": "taksi724-05455170081-13",
       "name": "Nigdemerkeztaksi",
       "phone": "05455170081",
+      "website": null,
       "lat": 37.7284172,
       "lon": 33.9963406,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -190,9 +249,12 @@
       "id": "taksi724-05396199151-14",
       "name": "Niğde Taksi",
       "phone": "05396199151",
+      "website": null,
       "lat": 37.9632519,
       "lon": 34.6681603,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -202,9 +264,12 @@
       "id": "taksi724-05455110209-15",
       "name": "Taksi durağı",
       "phone": "05455110209",
+      "website": null,
       "lat": 37.963343,
       "lon": 34.66867,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -214,9 +279,12 @@
       "id": "taksi724-03883117060-16",
       "name": "Niğde Taksi",
       "phone": "03883117060",
+      "website": null,
       "lat": 37.8903387,
       "lon": 34.5608038,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -227,9 +295,12 @@
       "id": "taksi724-05416192009-17",
       "name": "Niğde Taksi",
       "phone": "05416192009",
+      "website": null,
       "lat": 37.9568801,
       "lon": 34.6437658,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -239,9 +310,12 @@
       "id": "taksi724-05060232742-18",
       "name": "Niğde Taksi",
       "phone": "05060232742",
+      "website": null,
       "lat": 37.9882142,
       "lon": 34.6913316,
       "address": "Taksi Durağı · Candan Sk. No:14",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -251,9 +325,12 @@
       "id": "taksi724-05060232742-19",
       "name": "Niğde Taksi",
       "phone": "05060232742",
+      "website": null,
       "lat": 37.9992756,
       "lon": 34.6880225,
       "address": "Taksi Durağı · Recep Tayyip Erdoğan Bulv No:82/A",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -265,9 +342,12 @@
       "id": "taksi724-05421986851-20",
       "name": "Niğde Taksi",
       "phone": "05421986851",
+      "website": null,
       "lat": 37.971992,
       "lon": 34.683518,
       "address": "Taksi ·  · FAİK ŞAHENK BULVARI, Terminal 1. Sk.",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -277,9 +357,12 @@
       "id": "taksi724-05551884639-21",
       "name": "Niğde Taksi",
       "phone": "05551884639",
+      "website": null,
       "lat": 37.9737013,
       "lon": 34.6649187,
       "address": "Taksi Durağı · Dr. Sami Yağız Cd. No:51100",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -289,9 +372,12 @@
       "id": "taksi724-05370107051-22",
       "name": "Niğde Taksi",
       "phone": "05370107051",
+      "website": null,
       "lat": 37.9716021,
       "lon": 34.6870333,
       "address": "Taksi ·  · 120.Sok No:11 İç Kapı No:2",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -301,9 +387,12 @@
       "id": "taksi724-05016015151-23",
       "name": "Sami Aydoğan 7/24 Niğde Taksi",
       "phone": "05016015151",
+      "website": null,
       "lat": 37.9742711,
       "lon": 34.6814216,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -313,9 +402,12 @@
       "id": "taksi724-05403550180-24",
       "name": "Selçuk Taksi",
       "phone": "05403550180",
+      "website": null,
       "lat": 37.961758,
       "lon": 34.661946,
       "address": "Taksi Durağı · Akıncı Sk.",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -326,9 +418,12 @@
       "id": "taksi724-03882133058-25",
       "name": "Taksi durağı",
       "phone": "03882133058",
+      "website": null,
       "lat": 37.9629824,
       "lon": 34.6753261,
       "address": "Taksi Durağı · Şht.Recep Tektaş Sk. No:4",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -338,9 +433,12 @@
       "id": "taksi724-05469082838-26",
       "name": "Tlg Taksi",
       "phone": "05469082838",
+      "website": null,
       "lat": 37.9716906,
       "lon": 34.6834615,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -350,9 +448,12 @@
       "id": "taksi724-05443167812-27",
       "name": "Yılmaz Taksi",
       "phone": "05443167812",
+      "website": null,
       "lat": 37.9636569,
       "lon": 34.6696725,
       "address": null,
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -362,9 +463,12 @@
       "id": "taksi724-05387195118-28",
       "name": "nigde-taksi",
       "phone": "05387195118",
+      "website": null,
       "lat": 37.9625565,
       "lon": 34.6647293,
       "address": "Taksi Durağı ·  · Hayat Hastahanesi Yanı, Alpat Sk.",
+      "districtId": "bor",
+      "districtName": "Bor",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -375,9 +479,12 @@
       "id": "taksi724-03882324611-29",
       "name": "Doğan Taksi",
       "phone": "03882324611",
+      "website": null,
       "lat": 37.97669,
       "lon": 34.684066,
       "address": "Şahsüleyman Mah. Suat Baykal Cad. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -387,9 +494,12 @@
       "id": "taksi724-03882137658-30",
       "name": "Doğumevi Taksi",
       "phone": "03882137658",
+      "website": null,
       "lat": 37.973643,
       "lon": 34.677082,
       "address": "Şehitler Mah. Kemali Ümmiye Cad. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -400,9 +510,12 @@
       "id": "taksi724-05455110209-31",
       "name": "Güven Taksi",
       "phone": "05455110209",
+      "website": null,
       "lat": 37.965033,
       "lon": 34.644043,
       "address": "Aşağı Kayabaşı Mah. Özbelde, Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -414,9 +527,12 @@
       "id": "taksi724-05336576402-32",
       "name": "Inan Taksi",
       "phone": "05336576402",
+      "website": null,
       "lat": 37.968801,
       "lon": 34.67579,
       "address": "Yukarı Kayabaşı Mah. Dr. Sami Yağız Cad. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -427,9 +543,12 @@
       "id": "taksi724-03882131560-33",
       "name": "Ipek Taksi",
       "phone": "03882131560",
+      "website": null,
       "lat": 37.96718,
       "lon": 34.672969,
       "address": "Aşağı Kayabaşı Mah. Öğretmenokulu 1. Sok. (Sarı Han Yanı) Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -439,9 +558,12 @@
       "id": "taksi724-03882327416-34",
       "name": "Özataç Taksi",
       "phone": "03882327416",
+      "website": null,
       "lat": 37.965873,
       "lon": 34.672773,
       "address": "Selçuk Mah. Dr. Sami Yağız Cad. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -452,9 +574,12 @@
       "id": "taksi724-03882132148-35",
       "name": "Toros Taksi",
       "phone": "03882132148",
+      "website": null,
       "lat": 37.974636,
       "lon": 34.674591,
       "address": "Yenice Mah. Mescit Sok. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -465,9 +590,12 @@
       "id": "taksi724-05515301309-36",
       "name": "Yıldız Taksi",
       "phone": "05515301309",
+      "website": null,
       "lat": 37.966473,
       "lon": 34.672773,
       "address": "Aşağı Kayabaşı Mah. Dr. Sami Yağız Cad. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -477,9 +605,12 @@
       "id": "taksi724-03882326785-37",
       "name": "Zafer Taksi",
       "phone": "03882326785",
+      "website": null,
       "lat": 37.972669,
       "lon": 34.671005,
       "address": "Yukarı Kayabaşı Mah. Kayardı Geçidi Sok. (1. Nolu Sağlık Ocağı Karşısı) Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -490,9 +621,12 @@
       "id": "taksi724-05451230051-38",
       "name": "nigde-taksi",
       "phone": "05451230051",
+      "website": null,
       "lat": 37.971342,
       "lon": 34.679514,
       "address": "Esenbey Mah. Paşakapı Cad. Niğde Merkez, Niğde",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -502,9 +636,12 @@
       "id": "taksi724-05377447709-39",
       "name": "Çamardı Taksi",
       "phone": "05377447709",
+      "website": null,
       "lat": 37.8327502,
       "lon": 34.9870933,
       "address": null,
+      "districtId": "camardi",
+      "districtName": "Camardi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -514,9 +651,12 @@
       "id": "taksi724-05377447709-40",
       "name": "amardı Taksi",
       "phone": "05377447709",
+      "website": null,
       "lat": 37.8321484,
       "lon": 34.987438,
       "address": "Taksi Durağı · Pazaryeri Cd. No:16",
+      "districtId": "camardi",
+      "districtName": "Camardi",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -527,9 +667,12 @@
       "id": "taksicibul-05374106116-41",
       "name": "Niğde taksi harun",
       "phone": "05374106116",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -539,9 +682,12 @@
       "id": "taksicibul-05524054430-42",
       "name": "Niğde Yıldıray Taksi",
       "phone": "05524054430",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -551,9 +697,12 @@
       "id": "taksicibul-05534065599-43",
       "name": "NİĞDE Taksi OĞUZHAN 51T0060",
       "phone": "05534065599",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -563,9 +712,12 @@
       "id": "taksicibul-05075629880-44",
       "name": "Niğde Taksi Ertan",
       "phone": "05075629880",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -576,9 +728,12 @@
       "id": "taksicibul-05330193551-45",
       "name": "Niğde Taksi Emre",
       "phone": "05330193551",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -588,9 +743,12 @@
       "id": "taksicibul-05325438451-46",
       "name": "Niğde Taksi Eser Bayer",
       "phone": "05325438451",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -601,9 +759,12 @@
       "id": "taksiciler-03882132111-47",
       "name": "Tümü → Birlik Taksi Niğde",
       "phone": "03882132111",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -613,9 +774,12 @@
       "id": "taksiciler-03882131558-48",
       "name": "Güven Taksi Niğde",
       "phone": "03882131558",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -625,9 +789,12 @@
       "id": "taksiciler-05304111305-49",
       "name": "Hasan Hüseyin Demir Güven Taksi",
       "phone": "05304111305",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -637,9 +804,12 @@
       "id": "taksiciler-03885020310-50",
       "name": "Niğde Levent Taksi",
       "phone": "03885020310",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -649,9 +819,12 @@
       "id": "taksiciler-05366930051-51",
       "name": "Niğde Merkez Taksi AÇIK · 7 gün 24 saat Aşağı Kayabaşı, İmamhatip meydanı, 51100",
       "phone": "05366930051",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -661,9 +834,12 @@
       "id": "taksiciler-05353889565-52",
       "name": "Nigde Taksi Semih Şahin",
       "phone": "05353889565",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -673,9 +849,12 @@
       "id": "taksiciler-05055904537-53",
       "name": "Niğde Taksi Soner Haliloğlu",
       "phone": "05055904537",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -685,9 +864,12 @@
       "id": "taksiciler-05366004675-54",
       "name": "Tümü → Bor Taksi 7 / 24 Konfor",
       "phone": "05366004675",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -697,9 +879,12 @@
       "id": "taksiciler-03883117209-55",
       "name": "Çiçek Taksi",
       "phone": "03883117209",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -709,9 +894,12 @@
       "id": "taksiciler-03883117151-56",
       "name": "Ses Taksi",
       "phone": "03883117151",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -721,9 +909,12 @@
       "id": "taksiciler-03887112676-57",
       "name": "Özlem Taksi",
       "phone": "03887112676",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -733,9 +924,12 @@
       "id": "taksiciler-05358568636-58",
       "name": "Tümü → Gödem Taksi",
       "phone": "05358568636",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -745,9 +939,12 @@
       "id": "taksiciler-05369927670-59",
       "name": "Melendiz Taksi Erhan Aktaş",
       "phone": "05369927670",
+      "website": null,
       "lat": 37.9667,
       "lon": 34.6793,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -757,8 +954,12 @@
       "id": "nerede360-05426788401-60",
       "name": "Niğde Taksi - Sercan Güldağı",
       "phone": "05426788401",
-      "lat": 37.9667,
-      "lon": 34.6793,
+      "website": "https://www.instagram.com/taksisercan/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

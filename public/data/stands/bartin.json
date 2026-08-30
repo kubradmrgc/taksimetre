@@ -1,12 +1,34 @@
 {
   "cityId": "bartin",
   "cityName": "Bartın",
-  "fetchedAt": "2026-08-30T21:24:57.473Z",
+  "fetchedAt": "2026-08-30T21:37:45.668Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "amasra",
+      "name": "Amasra",
+      "count": 12
+    },
+    {
+      "id": "kurucasile",
+      "name": "Kurucasile",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 12
+    },
+    {
+      "id": "ulus",
+      "name": "Ulus",
+      "count": 1
+    }
   ],
   "count": 38,
   "stands": [
@@ -14,9 +36,12 @@
       "id": "taksi724-05424400084-0",
       "name": "Amasra Kaleşah Taksi",
       "phone": "05424400084",
+      "website": null,
       "lat": 41.6278492,
       "lon": 32.3302541,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +51,12 @@
       "id": "taksi724-05453152929-1",
       "name": "Amasra Taksi",
       "phone": "05453152929",
+      "website": null,
       "lat": 41.7375033,
       "lon": 32.3956296,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +67,12 @@
       "id": "taksi724-05369366001-2",
       "name": "Amasra Taksi",
       "phone": "05369366001",
+      "website": "https://www.facebook.com/taksicicemalpekin/",
       "lat": 41.743885,
       "lon": 32.387352,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -52,9 +83,12 @@
       "id": "taksi724-05407741024-3",
       "name": "BARTIN ŞAR TAKSi",
       "phone": "05407741024",
+      "website": null,
       "lat": 41.747705,
       "lon": 32.4594504,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -64,9 +98,12 @@
       "id": "taksi724-05079220771-4",
       "name": "Bartın Taksi",
       "phone": "05079220771",
+      "website": null,
       "lat": 41.4749633,
       "lon": 32.341912,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -77,9 +114,12 @@
       "id": "taksi724-05424400084-5",
       "name": "Bartın Terminal Otogar Taksi",
       "phone": "05424400084",
+      "website": null,
       "lat": 41.6275546,
       "lon": 32.3275743,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -89,9 +129,12 @@
       "id": "taksi724-05416113350-6",
       "name": "Durağı Bartın Taksi",
       "phone": "05416113350",
+      "website": null,
       "lat": 41.5750016,
       "lon": 32.3259747,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -103,9 +146,12 @@
       "id": "taksi724-05412278877-7",
       "name": "Deniz Taksi",
       "phone": "05412278877",
+      "website": null,
       "lat": 41.62788,
       "lon": 32.3302191,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -115,9 +161,12 @@
       "id": "taksi724-8-8",
       "name": "Güneş Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.748655,
       "lon": 32.385717,
       "address": "Kum Mah. Cumhuriyet Cad. 8 Amasra, Bartın",
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -127,9 +176,12 @@
       "id": "taksi724-03782270502-9",
       "name": "Terminal Taksi",
       "phone": "03782270502",
+      "website": null,
       "lat": 41.6411293,
       "lon": 32.3443355,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -140,9 +192,12 @@
       "id": "taksi724-05458407535-10",
       "name": "bartin-taksi",
       "phone": "05458407535",
+      "website": null,
       "lat": 41.5607076,
       "lon": 32.3101211,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -152,9 +207,12 @@
       "id": "taksi724-03782273005-11",
       "name": "Bartın Taksi",
       "phone": "03782273005",
+      "website": null,
       "lat": 41.63481,
       "lon": 32.331328,
       "address": "Kırtepe Mah. Asma Cad. Meliha Lülleci Dizdar Sok. 1 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -165,9 +223,12 @@
       "id": "taksi724-05321783401-12",
       "name": "Belediye Taksi",
       "phone": "05321783401",
+      "website": null,
       "lat": 41.6347253,
       "lon": 32.3365093,
       "address": "Taksi Durağı ·  · Birlik Taksi Durağı, Yukarı Çarşı Cd. No: 12/A",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -177,9 +238,12 @@
       "id": "taksi724-05412278877-13",
       "name": "Birlik Taksi",
       "phone": "05412278877",
+      "website": null,
       "lat": 41.626115,
       "lon": 32.322762,
       "address": "Kemer Köprü Mah. Bülent Ecevit Blv. 41 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -189,9 +253,12 @@
       "id": "taksi724-05467230057-14",
       "name": "Doğan Taksi",
       "phone": "05467230057",
+      "website": null,
       "lat": 41.634608,
       "lon": 32.336368,
       "address": "Kırtepe Mah. Cumhuriyet Cad. 14 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -203,9 +270,12 @@
       "id": "taksi724-03782272766-15",
       "name": "Hal Taksi",
       "phone": "03782272766",
+      "website": null,
       "lat": 41.632085,
       "lon": 32.342637,
       "address": "Orta Mah. Hendek Yanı Cad. Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -215,9 +285,12 @@
       "id": "taksi724-03782271506-16",
       "name": "Hastane Taksi",
       "phone": "03782271506",
+      "website": null,
       "lat": 41.630506,
       "lon": 32.336705,
       "address": "Kemerköprü Mah. Davut Fırıncıoğlu Cad. 48 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -228,9 +301,12 @@
       "id": "taksi724-03782277200-17",
       "name": "Kavaklı Taksi",
       "phone": "03782277200",
+      "website": null,
       "lat": 41.627298,
       "lon": 32.356837,
       "address": "Tuna Mah. Kanlı Irmak Cad. (Devlet Hastanesi Karşısı) Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -241,9 +317,12 @@
       "id": "taksi724-03782271717-18",
       "name": "Kemer Taksi",
       "phone": "03782271717",
+      "website": null,
       "lat": 41.637118,
       "lon": 32.339298,
       "address": "Köyortası Mah. Kavaklı Cad. 5 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -255,9 +334,12 @@
       "id": "taksi724-19-19",
       "name": "Tuna Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.628855,
       "lon": 32.336975,
       "address": "Kemer Köprü Mah. Davut Fırıncıoğlu Cad. 74 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -267,9 +349,12 @@
       "id": "taksi724-20-20",
       "name": "Yalı Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.626698,
       "lon": 32.356837,
       "address": "Tuna Mah. Kanlıırmak Cad. 1 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -279,9 +364,12 @@
       "id": "taksi724-03782287755-21",
       "name": "bartin-taksi",
       "phone": "03782287755",
+      "website": null,
       "lat": 41.637283,
       "lon": 32.334309,
       "address": "Kırtepe Mah. 162. Sok. 47 Bartın Merkez, Bartın",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -292,9 +380,12 @@
       "id": "taksi724-05412278877-22",
       "name": "Merkez Taksi",
       "phone": "05412278877",
+      "website": null,
       "lat": 41.841831,
       "lon": 32.712794,
       "address": "Liman Mah. Atatürk Cad. Kurucaşile, Bartın",
+      "districtId": "kurucasile",
+      "districtName": "Kurucasile",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -304,9 +395,12 @@
       "id": "taksi724-03784161814-23",
       "name": "Güven Taksi",
       "phone": "03784161814",
+      "website": null,
       "lat": 41.583488,
       "lon": 32.639427,
       "address": "Taksi · Kaldırım Mh. İtfaiye Sk. Pk:74600 Ulus/bartın",
+      "districtId": "ulus",
+      "districtName": "Ulus",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -317,9 +411,12 @@
       "id": "taksicibul-05358206441-24",
       "name": "SERDAR TAKSİ 7/24",
       "phone": "05358206441",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -329,9 +426,12 @@
       "id": "taksicibul-05324722466-25",
       "name": "Bartın taksi 74 T 0066",
       "phone": "05324722466",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -341,9 +441,12 @@
       "id": "taksicibul-05323797400-26",
       "name": "Amasra Taksi Recep 1007",
       "phone": "05323797400",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -353,9 +456,12 @@
       "id": "taksicibul-03782282076-27",
       "name": "Arıt-Kurucaşile Minibüs Durağı",
       "phone": "03782282076",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -365,9 +471,12 @@
       "id": "taksicibul-05325203474-28",
       "name": "amasra taksi duragi turgut",
       "phone": "05325203474",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -378,9 +487,12 @@
       "id": "taksicibul-03784161864-29",
       "name": "Taksi durağı",
       "phone": "03784161864",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -391,9 +503,12 @@
       "id": "taksicibul-03784466168-30",
       "name": "BARTIN KUMLUCA TAKSİ DURAĞI",
       "phone": "03784466168",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -404,9 +519,12 @@
       "id": "taksicibul-05425818918-31",
       "name": "Doğan Taksi",
       "phone": "05425818918",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -416,9 +534,12 @@
       "id": "taksiciler-05317370084-32",
       "name": "Bartın Taksici",
       "phone": "05317370084",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -428,9 +549,12 @@
       "id": "taksiciler-05449640548-33",
       "name": "Kemer Taksi Bartın AÇIK · 7 gün 24 saat Kemer Köprü, Davut Fırıncıoğlu Cd. No:74",
       "phone": "05449640548",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -440,9 +564,12 @@
       "id": "taksiciler-03783152097-34",
       "name": "Tümü → Amasra Deniz Taksi",
       "phone": "03783152097",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -452,9 +579,12 @@
       "id": "taksiciler-05356877274-35",
       "name": "Amasra Taksi (muhammet Aksu)",
       "phone": "05356877274",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": "amasra",
+      "districtName": "Amasra",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -465,9 +595,12 @@
       "id": "taksiciler-05307758578-36",
       "name": "Amasra Taksi Erdem Yalçın",
       "phone": "05307758578",
+      "website": null,
       "lat": 41.6358,
       "lon": 32.3375,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -477,8 +610,12 @@
       "id": "nerede360-05340427467-37",
       "name": "Bartın Taksi - Hakan Karamazak",
       "phone": "05340427467",
-      "lat": 41.6358,
-      "lon": 32.3375,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

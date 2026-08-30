@@ -1,12 +1,44 @@
 {
   "cityId": "yalova",
   "cityName": "Yalova",
-  "fetchedAt": "2026-08-30T21:25:12.108Z",
+  "fetchedAt": "2026-08-30T21:37:58.878Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "altinova",
+      "name": "Altinova",
+      "count": 5
+    },
+    {
+      "id": "armutlu",
+      "name": "Armutlu",
+      "count": 2
+    },
+    {
+      "id": "ciftlikkoy",
+      "name": "Ciftlikkoy",
+      "count": 10
+    },
+    {
+      "id": "cinarcik",
+      "name": "Cinarcik",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 11
+    },
+    {
+      "id": "termal",
+      "name": "Termal",
+      "count": 1
+    }
   ],
   "count": 40,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-02268142762-0",
       "name": "Fatih Taksi",
       "phone": "02268142762",
+      "website": null,
       "lat": 40.658262,
       "lon": 29.280947,
       "address": "Süleymanbey Mah. Süvari Sok. Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -27,9 +62,12 @@
       "id": "taksi724-02268144548-1",
       "name": "Gop Taksi",
       "phone": "02268144548",
+      "website": null,
       "lat": 40.656177,
       "lon": 29.259172,
       "address": "Bahçelievler Mah. Fatih Cad. 1 Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -39,9 +77,12 @@
       "id": "taksi724-05370578478-2",
       "name": "Hastane Taksi",
       "phone": "05370578478",
+      "website": null,
       "lat": 40.656479,
       "lon": 29.28762,
       "address": "Gazi Osman Paşa Mah. Şehit Mustafa Kalender Cad. 4 Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -51,9 +92,12 @@
       "id": "taksi724-05352339955-3",
       "name": "Ido Taksi",
       "phone": "05352339955",
+      "website": null,
       "lat": 40.657093,
       "lon": 29.284021,
       "address": "Süleyman Bey Mah. Atatürk Blv. Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -63,9 +107,12 @@
       "id": "taksi724-02268121999-4",
       "name": "Iskele Taksi",
       "phone": "02268121999",
+      "website": null,
       "lat": 40.658554,
       "lon": 29.274003,
       "address": "Süleymanbey Mah. Yalı Cad. Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -75,9 +122,12 @@
       "id": "taksi724-02268141666-5",
       "name": "Kipa Bulvar Taksi",
       "phone": "02268141666",
+      "website": null,
       "lat": 40.657991,
       "lon": 29.268368,
       "address": "Rüstem Paşa Mah. Gazipaşa Cad. Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -87,9 +137,12 @@
       "id": "taksi724-05347651189-6",
       "name": "Ova Taksi",
       "phone": "05347651189",
+      "website": null,
       "lat": 40.651134,
       "lon": 29.254271,
       "address": "Kazım Karabekir Mah. Doruk Sok. Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -99,9 +152,12 @@
       "id": "taksi724-02268144111-7",
       "name": "Terminal Taksi",
       "phone": "02268144111",
+      "website": null,
       "lat": 40.638476,
       "lon": 29.256972,
       "address": "Adnan Menderes Mah. Rahmi Üstel Cad. 80/A Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -112,9 +168,12 @@
       "id": "taksi724-02268144088-8",
       "name": "Varol Taksi",
       "phone": "02268144088",
+      "website": null,
       "lat": 40.655182,
       "lon": 29.283978,
       "address": "Fevzi Çakmak Mah. Yalova Bursa Yolu Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -124,9 +183,12 @@
       "id": "taksi724-05439771377-9",
       "name": "Yıldız Taksi",
       "phone": "05439771377",
+      "website": null,
       "lat": 40.654633,
       "lon": 29.256022,
       "address": "Bahçelievler Mah. Marmara Cad. Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -136,9 +198,12 @@
       "id": "taksi724-02268148383-10",
       "name": "yalova-taksi",
       "phone": "02268148383",
+      "website": null,
       "lat": 40.654989,
       "lon": 29.27109,
       "address": "Fevzi Çakmak Mah. Cumhuriyet Cad. Yıldız Sok. 1 Yalova Merkez, Yalova",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -148,9 +213,12 @@
       "id": "taksi724-05343546037-11",
       "name": "Çiftlikköy Taksi",
       "phone": "05343546037",
+      "website": null,
       "lat": 40.6644994,
       "lon": 29.3237297,
       "address": "Taksi Durağı · Çiftlik Mahallesi Atatürk Caddesi, Asena Sk. No:1",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -160,9 +228,12 @@
       "id": "taksi724-02263528383-12",
       "name": "Çiftlik Taksi",
       "phone": "02263528383",
+      "website": null,
       "lat": 40.6657629,
       "lon": 29.3234399,
       "address": null,
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -172,9 +243,12 @@
       "id": "taksi724-05343546037-13",
       "name": "Gaziosmanpaşa Taksi",
       "phone": "05343546037",
+      "website": null,
       "lat": 40.66136,
       "lon": 29.324452,
       "address": "Çiftlik Mah. Atatürk Cad. Çiftlikköy, Yalova",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -184,9 +258,12 @@
       "id": "taksi724-05370578478-14",
       "name": "İsmetpaşa Taksi",
       "phone": "05370578478",
+      "website": null,
       "lat": 40.6540181,
       "lon": 29.2884032,
       "address": "Taksi Durağı · Şht. Mustafa Kalender Cd. No:8",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -197,9 +274,12 @@
       "id": "taksi724-02268113595-15",
       "name": "Sahil Taksi",
       "phone": "02268113595",
+      "website": null,
       "lat": 40.6631872,
       "lon": 29.3063189,
       "address": "Taksi Durağı · Eski Hastane Karşısı, Bağ Sk.",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -209,9 +289,12 @@
       "id": "taksi724-05344822323-16",
       "name": "Site Taksi",
       "phone": "05344822323",
+      "website": null,
       "lat": 40.663188,
       "lon": 29.31282,
       "address": "Sahil Mah. Yalı Cad. Çiftlikköy, Yalova",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -223,9 +306,12 @@
       "id": "taksi724-05343546047-17",
       "name": "Taşköprü Taksi",
       "phone": "05343546047",
+      "website": null,
       "lat": 40.66841,
       "lon": 29.330521,
       "address": "Siteler Mah. Başkent 3. Cad. 18 Çiftlikköy, Yalova",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -236,9 +322,12 @@
       "id": "taksi724-18-18",
       "name": "Yalova Devlet Hastanesi Taksi",
       "phone": null,
+      "website": null,
       "lat": 40.677173,
       "lon": 29.38731,
       "address": "Taşköprü-Taşköprümerkez Mah. Musa Gündüz Cad. 56 Çiftlikköy, Yalova",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -248,9 +337,12 @@
       "id": "taksi724-02268113595-19",
       "name": "Yalova Terminal Taksi",
       "phone": "02268113595",
+      "website": null,
       "lat": 40.6630674,
       "lon": 29.3063307,
       "address": "Taksi Durağı · İsmet Paşa Mahallesi Bağ Sokak Devlet Hastanesi Karşısı",
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -261,9 +353,12 @@
       "id": "taksi724-02268144088-20",
       "name": "yalova-taksi",
       "phone": "02268144088",
+      "website": null,
       "lat": 40.6334518,
       "lon": 29.2738762,
       "address": null,
+      "districtId": "ciftlikkoy",
+      "districtName": "Ciftlikkoy",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -275,9 +370,12 @@
       "id": "taksi724-05334907861-21",
       "name": "Altınova Şahin Taksi",
       "phone": "05334907861",
+      "website": null,
       "lat": 40.7238841,
       "lon": 29.5046545,
       "address": null,
+      "districtId": "altinova",
+      "districtName": "Altinova",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -287,9 +385,12 @@
       "id": "taksi724-02264613001-22",
       "name": "Altınova Taksi",
       "phone": "02264613001",
+      "website": null,
       "lat": 40.696306,
       "lon": 29.509555,
       "address": null,
+      "districtId": "altinova",
+      "districtName": "Altinova",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -300,9 +401,12 @@
       "id": "taksi724-02264612676-23",
       "name": "Tersane Taksi",
       "phone": "02264612676",
+      "website": null,
       "lat": 40.6968251,
       "lon": 29.5100073,
       "address": "Taksi Durağı · İzmit Yalova Yolu No:25/B",
+      "districtId": "altinova",
+      "districtName": "Altinova",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -312,9 +416,12 @@
       "id": "taksi724-05332657790-24",
       "name": "Topçular Taksi",
       "phone": "05332657790",
+      "website": null,
       "lat": 40.696089,
       "lon": 29.50941,
       "address": null,
+      "districtId": "altinova",
+      "districtName": "Altinova",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -325,9 +432,12 @@
       "id": "taksi724-05531361170-25",
       "name": "Altınova Taksi",
       "phone": "05531361170",
+      "website": null,
       "lat": 40.688657,
       "lon": 29.45505,
       "address": "Tavşanlı-Fatih Mah. Altınova, Yalova",
+      "districtId": "altinova",
+      "districtName": "Altinova",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -337,9 +447,12 @@
       "id": "taksi724-02265311055-26",
       "name": "Iskele Taksi",
       "phone": "02265311055",
+      "website": null,
       "lat": 40.519427,
       "lon": 28.828417,
       "address": "Bayır Mah. Atatürk Cad. (Belediye Binası Karşısında) Armutlu, Yalova",
+      "districtId": "armutlu",
+      "districtName": "Armutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -349,9 +462,12 @@
       "id": "taksi724-02268141666-27",
       "name": "Iskele Taksi",
       "phone": "02268141666",
+      "website": null,
       "lat": 40.518827,
       "lon": 28.828417,
       "address": "Bayır Mah. Atatürk Cad. Armutlu, Yalova",
+      "districtId": "armutlu",
+      "districtName": "Armutlu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -361,9 +477,12 @@
       "id": "taksi724-05320559387-28",
       "name": "Çınar Taksi",
       "phone": "05320559387",
+      "website": null,
       "lat": 40.645858,
       "lon": 29.118148,
       "address": "Taşliman Mah. Vali Akı Cad. Çınarcık, Yalova",
+      "districtId": "cinarcik",
+      "districtName": "Cinarcik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -373,9 +492,12 @@
       "id": "taksi724-05347651189-29",
       "name": "nar Taksi",
       "phone": "05347651189",
+      "website": null,
       "lat": 40.645872,
       "lon": 29.11684,
       "address": "Harman Mah. İskele Meydanı Vali Akı Cad. Çınarcık, Yalova",
+      "districtId": "cinarcik",
+      "districtName": "Cinarcik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -387,9 +509,12 @@
       "id": "taksi724-05345569105-30",
       "name": "Termal ilçesindeki bazı taksi",
       "phone": "05345569105",
+      "website": null,
       "lat": 40.6061499,
       "lon": 29.1742302,
       "address": null,
+      "districtId": "termal",
+      "districtName": "Termal",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -400,9 +525,12 @@
       "id": "taksicibul-02263330330-31",
       "name": "YALOVA TAKSİ",
       "phone": "02263330330",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -413,9 +541,12 @@
       "id": "taksiciler-05466502058-32",
       "name": "Yıldız Taksi AÇIK · 7 gün 24 saat Süleyman Bey Cumhuriyet Cad, Ay Sk., 77100 Yal",
       "phone": "05466502058",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -425,9 +556,12 @@
       "id": "taksiciler-02264612111-33",
       "name": "Altınova Birlik Taksi",
       "phone": "02264612111",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -437,9 +571,12 @@
       "id": "taksiciler-02264613303-34",
       "name": "Altınova Merkez Taksi",
       "phone": "02264613303",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -449,9 +586,12 @@
       "id": "taksiciler-05335820471-35",
       "name": "Subaşı Taksi",
       "phone": "05335820471",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -461,9 +601,12 @@
       "id": "taksiciler-02263526969-36",
       "name": "Tümü → Çiftlikköy Çiftlik Taksi AÇIK · 7 gün 24 saat Çiftlik Mahallesi Atatürk C",
       "phone": "02263526969",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -473,9 +616,12 @@
       "id": "taksiciler-02262461100-37",
       "name": "Site Taksi Durağı AÇIK · 7 gün 24 saat Taşköprü Yeni, Sahil, İzmit Yalova Yolu N",
       "phone": "02262461100",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -485,9 +631,12 @@
       "id": "taksiciler-05392001920-38",
       "name": "Koru Taksi Çınarcık",
       "phone": "05392001920",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -497,9 +646,12 @@
       "id": "taksiciler-05322894077-39",
       "name": "Teşvikiye Taksi Durağı",
       "phone": "05322894077",
+      "website": null,
       "lat": 40.65,
       "lon": 29.2667,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"

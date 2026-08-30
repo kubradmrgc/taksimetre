@@ -1,12 +1,54 @@
 {
   "cityId": "sinop",
   "cityName": "Sinop",
-  "fetchedAt": "2026-08-30T21:23:07.736Z",
+  "fetchedAt": "2026-08-30T21:35:50.677Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "ayancik",
+      "name": "Ayancik",
+      "count": 14
+    },
+    {
+      "id": "boyabat",
+      "name": "Boyabat",
+      "count": 10
+    },
+    {
+      "id": "dikmen",
+      "name": "Dikmen",
+      "count": 1
+    },
+    {
+      "id": "erfelek",
+      "name": "Erfelek",
+      "count": 2
+    },
+    {
+      "id": "gerze",
+      "name": "Gerze",
+      "count": 5
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 4
+    },
+    {
+      "id": "sarayduzu",
+      "name": "Sarayduzu",
+      "count": 1
+    },
+    {
+      "id": "turkeli",
+      "name": "Turkeli",
+      "count": 3
+    }
   ],
   "count": 63,
   "stands": [
@@ -14,9 +56,12 @@
       "id": "taksi724-05357003941-0",
       "name": "Ayancık Terminal Taksi",
       "phone": "05357003941",
+      "website": null,
       "lat": 41.9451995,
       "lon": 34.5865946,
       "address": null,
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -27,9 +72,12 @@
       "id": "taksi724-05383127368-1",
       "name": "Birlik Taksi",
       "phone": "05383127368",
+      "website": null,
       "lat": 41.93768404,
       "lon": 34.58862363,
       "address": "Cevizli Mah. Recep Tayyip Erdoğan Blv. Ayancık Otogarı Ayancık, Sinop",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -40,9 +88,12 @@
       "id": "taksi724-2-2",
       "name": "Emek Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.9482,
       "lon": 34.588321,
       "address": "Yalı Mah. Cahit Övet Cad. Ayancık, Sinop",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -52,9 +103,12 @@
       "id": "taksi724-03682615913-3",
       "name": "Hastane Taksi",
       "phone": "03682615913",
+      "website": null,
       "lat": 42.027776,
       "lon": 35.150129,
       "address": "Taksi Durağı · İtfaiye Cd. No:19",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -65,9 +119,12 @@
       "id": "taksi724-05522448929-4",
       "name": "Öz Sinop Taksi",
       "phone": "05522448929",
+      "website": null,
       "lat": 42.0048138,
       "lon": 35.0784521,
       "address": null,
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -77,9 +134,12 @@
       "id": "taksi724-05369497938-5",
       "name": "Şen Taksi",
       "phone": "05369497938",
+      "website": null,
       "lat": 42.0195294,
       "lon": 35.1273856,
       "address": "Taksi Durağı ·  · Gelincik Öz Sinop Taksi, 100 . Sk. No:12",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -90,9 +150,12 @@
       "id": "taksi724-05453991307-6",
       "name": "Sinop Merkez Taksi",
       "phone": "05453991307",
+      "website": null,
       "lat": 42.0263819,
       "lon": 35.1489187,
       "address": "Taksi · İncedayı Sk. no:2",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -103,9 +166,12 @@
       "id": "taksi724-05356743157-7",
       "name": "Sinop Otogar Taksi",
       "phone": "05356743157",
+      "website": null,
       "lat": 42.0242172,
       "lon": 35.1470839,
       "address": "Taksi · Korucuk Mahallesi Tırkışlar Mevkii, Otogar",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -115,9 +181,12 @@
       "id": "taksi724-05541480057-8",
       "name": "Sinop Taksi",
       "phone": "05541480057",
+      "website": null,
       "lat": 42.0070287,
       "lon": 35.0867023,
       "address": null,
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -127,9 +196,12 @@
       "id": "taksi724-05419035752-9",
       "name": "- Medya Taksi",
       "phone": "05419035752",
+      "website": null,
       "lat": 42.0221959,
       "lon": 35.1560491,
       "address": null,
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -139,9 +211,12 @@
       "id": "taksi724-05462269332-10",
       "name": "Sinop'ta Taksi",
       "phone": "05462269332",
+      "website": null,
       "lat": 42.0256119,
       "lon": 35.1435177,
       "address": null,
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -151,9 +226,12 @@
       "id": "taksi724-05053850017-11",
       "name": "Tekin Taksi",
       "phone": "05053850017",
+      "website": null,
       "lat": 42.0250364,
       "lon": 35.1475473,
       "address": "Taksi · Tufan Sk. Gürkan Apt No: 8",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -163,9 +241,12 @@
       "id": "taksi724-05458158303-12",
       "name": "sinop-taksi",
       "phone": "05458158303",
+      "website": null,
       "lat": 42.0205435,
       "lon": 35.1318894,
       "address": "Taksi · Fatih caddesi, Acar Sk.",
+      "districtId": "ayancik",
+      "districtName": "Ayancik",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -176,9 +257,12 @@
       "id": "taksi724-05438745268-13",
       "name": "Boyabat Taksi",
       "phone": "05438745268",
+      "website": null,
       "lat": 41.4657579,
       "lon": 34.7712921,
       "address": "Taksi · Stadyum Cd. No:1",
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -188,9 +272,12 @@
       "id": "taksi724-05316573044-14",
       "name": "Taksi durağı",
       "phone": "05316573044",
+      "website": null,
       "lat": 41.465858,
       "lon": 34.7781425,
       "address": null,
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -200,9 +287,12 @@
       "id": "taksi724-05436306568-15",
       "name": "Boyabat Taksi",
       "phone": "05436306568",
+      "website": null,
       "lat": 41.4658414,
       "lon": 34.7711721,
       "address": "Taksi Durağı ·  · Hacı Ergün Gürbüz Cd No:1",
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -213,9 +303,12 @@
       "id": "taksi724-05362597757-16",
       "name": "Boyabat Taksi",
       "phone": "05362597757",
+      "website": null,
       "lat": 41.4685424,
       "lon": 34.7677571,
       "address": null,
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -225,9 +318,12 @@
       "id": "taksi724-05316573044-17",
       "name": "Boyabat Taksi",
       "phone": "05316573044",
+      "website": null,
       "lat": 41.4677567,
       "lon": 34.7688946,
       "address": null,
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -237,9 +333,12 @@
       "id": "taksi724-05464389813-18",
       "name": "Dörtyol Taksi",
       "phone": "05464389813",
+      "website": null,
       "lat": 41.464466,
       "lon": 34.7842742,
       "address": null,
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -249,9 +348,12 @@
       "id": "taksi724-19-19",
       "name": "Kale Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.463612,
       "lon": 34.770372,
       "address": "Kumluk Mah. Stadyum Cad. Boyabat, Sinop",
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -261,9 +363,12 @@
       "id": "taksi724-05438853269-20",
       "name": "Boyabat Taksi",
       "phone": "05438853269",
+      "website": null,
       "lat": 41.4665866,
       "lon": 34.769832,
       "address": "Taksi · Mustafa Özvatan Sk. Pk:57200",
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -274,9 +379,12 @@
       "id": "taksi724-04427381041-21",
       "name": "Garaj Taksi",
       "phone": "04427381041",
+      "website": null,
       "lat": 41.804893,
       "lon": 35.192567,
       "address": "Hamidiye Mah. Okullar Cad. Gerze, Sinop",
+      "districtId": "gerze",
+      "districtName": "Gerze",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -286,9 +394,12 @@
       "id": "taksi724-05419035752-22",
       "name": "Gerze Otogar Taksi",
       "phone": "05419035752",
+      "website": null,
       "lat": 41.802665,
       "lon": 35.196582,
       "address": "Çarşı Mah. Zincirlikuyu Cad. 2 Gerze, Sinop",
+      "districtId": "gerze",
+      "districtName": "Gerze",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -299,9 +410,12 @@
       "id": "taksi724-03687181857-23",
       "name": "Şirin gerze Taksi",
       "phone": "03687181857",
+      "website": null,
       "lat": 41.8124795,
       "lon": 35.1737832,
       "address": "Taksi Durağı · Şehirler Arasi Otobüs Terminali, Gerze Otogar Taksi Yeni Mah, Sinop Cad No:91",
+      "districtId": "gerze",
+      "districtName": "Gerze",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -311,9 +425,12 @@
       "id": "taksi724-03687181876-24",
       "name": "Şirin Taksi",
       "phone": "03687181876",
+      "website": null,
       "lat": 41.8021873,
       "lon": 35.1871889,
       "address": null,
+      "districtId": "gerze",
+      "districtName": "Gerze",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -323,9 +440,12 @@
       "id": "taksi724-05357375495-25",
       "name": "Gerze Otogar Taksi",
       "phone": "05357375495",
+      "website": null,
       "lat": 41.802707,
       "lon": 35.196975,
       "address": "Çarşı Mah. General Osman Pamukoğlu Cad. Gerze, Sinop",
+      "districtId": "gerze",
+      "districtName": "Gerze",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -335,9 +455,12 @@
       "id": "taksi724-05053850017-26",
       "name": "Havalimanı Ve Otogar Taksi",
       "phone": "05053850017",
+      "website": null,
       "lat": 42.025067,
       "lon": 35.152187,
       "address": "Yeni Mah. Uğur Mumcu Meydanı Gümüş Sok. 1 Sinop Merkez, Sinop",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -348,9 +471,12 @@
       "id": "taksi724-05541480057-27",
       "name": "Sinop Hastane Taksi",
       "phone": "05541480057",
+      "website": null,
       "lat": 42.007623,
       "lon": 35.094744,
       "address": "Korucuk Köyü Ayancık Yolu 10 Yeni Belediye Otogarı Dk:25 Sinop Merkez, Sinop",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -361,9 +487,12 @@
       "id": "taksi724-05522448929-28",
       "name": "Yıldız Taksi",
       "phone": "05522448929",
+      "website": null,
       "lat": 41.990006,
       "lon": 35.060442,
       "address": "Osmaniye Köyü (Sinop Devlet Hastanesi Yanı) Sinop Merkez, Sinop",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -373,9 +502,12 @@
       "id": "taksi724-03846479028-29",
       "name": "Sinop Hastane Taksi",
       "phone": "03846479028",
+      "website": null,
       "lat": 42.025827,
       "lon": 35.151551,
       "address": "Yeni Mah. Dizdaroğlu Sok. Sinop Merkez, Sinop",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -385,9 +517,12 @@
       "id": "taksi724-05052581876-30",
       "name": "Erfelek Taksi",
       "phone": "05052581876",
+      "website": null,
       "lat": 41.879806,
       "lon": 34.905865,
       "address": "Merkez Mah. Musa Can Meydanı Erfelek, Sinop",
+      "districtId": "erfelek",
+      "districtName": "Erfelek",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -398,9 +533,12 @@
       "id": "taksi724-05359800840-31",
       "name": "Erfelek Taksi",
       "phone": "05359800840",
+      "website": null,
       "lat": 41.8917069,
       "lon": 34.8995995,
       "address": null,
+      "districtId": "erfelek",
+      "districtName": "Erfelek",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -411,9 +549,12 @@
       "id": "taksi724-05415025757-32",
       "name": "Türkeli kaya Taksi",
       "phone": "05415025757",
+      "website": null,
       "lat": 41.944788,
       "lon": 34.335479,
       "address": "Tümerkan Mah. Cumhuriyet Blv. 64 Türkeli, Sinop",
+      "districtId": "turkeli",
+      "districtName": "Turkeli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -423,9 +564,12 @@
       "id": "taksi724-05415025757-33",
       "name": "Meydan Taksi",
       "phone": "05415025757",
+      "website": null,
       "lat": 41.9452925,
       "lon": 34.339771,
       "address": null,
+      "districtId": "turkeli",
+      "districtName": "Turkeli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -436,9 +580,12 @@
       "id": "taksi724-34-34",
       "name": "Dikmen ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 39.8877391,
       "lon": 32.8403181,
       "address": "Taksi Durağı · Şakrak Sokağı No:6",
+      "districtId": "dikmen",
+      "districtName": "Dikmen",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -448,9 +595,12 @@
       "id": "taksi724-05427632150-35",
       "name": "Türkeli Taksi",
       "phone": "05427632150",
+      "website": null,
       "lat": 41.946609,
       "lon": 34.334009,
       "address": null,
+      "districtId": "sarayduzu",
+      "districtName": "Sarayduzu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -461,9 +611,12 @@
       "id": "taksicibul-05325111762-36",
       "name": "Soylu Taksi",
       "phone": "05325111762",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -473,9 +626,12 @@
       "id": "taksicibul-05323832564-37",
       "name": "SİNOP ÇİÇEK TAKSİ",
       "phone": "05323832564",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -486,9 +642,12 @@
       "id": "taksicibul-05459035752-38",
       "name": "sinoptaksi.com.tr",
       "phone": "05459035752",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -498,9 +657,12 @@
       "id": "taksicibul-05439779771-39",
       "name": "Sinop Taksi Durağı",
       "phone": "05439779771",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -510,9 +672,12 @@
       "id": "taksicibul-05449476130-40",
       "name": "Sinop Arda taksi",
       "phone": "05449476130",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -522,9 +687,12 @@
       "id": "taksicibul-05413631774-41",
       "name": "Berker Kırkan Taksi 7/24",
       "phone": "05413631774",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -534,9 +702,12 @@
       "id": "taksicibul-05451570081-42",
       "name": "SinopTaksicim",
       "phone": "05451570081",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -547,9 +718,12 @@
       "id": "taksicibul-05539013957-43",
       "name": "Taksici İbo",
       "phone": "05539013957",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -559,9 +733,12 @@
       "id": "taksicibul-05445247635-44",
       "name": "SİNOP DOBLO TAKSİ",
       "phone": "05445247635",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -571,9 +748,12 @@
       "id": "taksiciler-05522126357-45",
       "name": "Medya Taksi – Sinop Taksi AÇIK · 7 gün 24 saat Kaleyazısı, Tarihi Cezaevi, Karşı",
       "phone": "05522126357",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -583,9 +763,12 @@
       "id": "taksiciler-05052230354-46",
       "name": "Sinop Doblo Taksi AÇIK · 7 gün 24 saat Sinop Merkez Kemalettin Sami Paşa Caddesi",
       "phone": "05052230354",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -595,9 +778,12 @@
       "id": "taksiciler-03682611774-47",
       "name": "Sinop Taksi 24 Saat Taksi AÇIK · 7 gün 24 saat TAXİ Atatürk Caddesi, Kaledibi Sk",
       "phone": "03682611774",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -607,9 +793,12 @@
       "id": "taksiciler-05468081758-48",
       "name": "Tümü → Akın Taksi Durağı",
       "phone": "05468081758",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -619,9 +808,12 @@
       "id": "taksiciler-03686135050-49",
       "name": "Birlik Taksi Ayancık",
       "phone": "03686135050",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -631,9 +823,12 @@
       "id": "taksiciler-05318302017-50",
       "name": "Güven Taksi Ayancık",
       "phone": "05318302017",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -643,9 +838,12 @@
       "id": "taksiciler-05464978822-51",
       "name": "Tümü → Boyabat Alo Taksi",
       "phone": "05464978822",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -655,9 +853,12 @@
       "id": "taksiciler-05454770279-52",
       "name": "Boyabat Merkez Taksi (bayram Özaslan) AÇIK · 7 gün 24 saat Kumluk, Dörtyol Taksi",
       "phone": "05454770279",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -668,9 +869,12 @@
       "id": "taksiciler-03683150216-53",
       "name": "Dörtyol Taksi",
       "phone": "03683150216",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": "boyabat",
+      "districtName": "Boyabat",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -681,9 +885,12 @@
       "id": "taksiciler-03683153158-54",
       "name": "Pala Taksi Boyabat",
       "phone": "03683153158",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -693,9 +900,12 @@
       "id": "taksiciler-03683153888-55",
       "name": "Terminal Taksi",
       "phone": "03683153888",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -705,9 +915,12 @@
       "id": "taksiciler-05443400837-56",
       "name": "Taksici Ömer Yıldırım",
       "phone": "05443400837",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -717,9 +930,12 @@
       "id": "taksiciler-03687181113-57",
       "name": "Tümü → Çeşme Taksi",
       "phone": "03687181113",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -729,9 +945,12 @@
       "id": "taksiciler-05417907457-58",
       "name": "Durağan Taksi",
       "phone": "05417907457",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -741,9 +960,12 @@
       "id": "taksiciler-03687184457-59",
       "name": "Tümü → Bulvar Taksi",
       "phone": "03687184457",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -753,9 +975,12 @@
       "id": "taksiciler-03687181949-60",
       "name": "Gerze Garaj Taksi",
       "phone": "03687181949",
+      "website": null,
       "lat": 42.0267,
       "lon": 35.1551,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -765,8 +990,12 @@
       "id": "nerede360-03686712200-61",
       "name": "Meydan Taksi Durağı",
       "phone": "03686712200",
-      "lat": 42.0267,
-      "lon": 35.1551,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "turkeli",
+      "districtName": "Türkeli",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -776,8 +1005,12 @@
       "id": "nerede360-05397003941-62",
       "name": "Terminal Taksi - Muammer Sarısoy",
       "phone": "05397003941",
-      "lat": 42.0267,
-      "lon": 35.1551,
+      "website": "https://www.facebook.com/Muammer-Sarisoy-Otogar-Taksi-337500170094057/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ayancik",
+      "districtName": "Ayancık",
       "approximate": true,
       "sources": [
         "nerede360"

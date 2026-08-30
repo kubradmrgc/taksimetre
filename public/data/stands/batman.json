@@ -1,12 +1,44 @@
 {
   "cityId": "batman",
   "cityName": "Batman",
-  "fetchedAt": "2026-08-30T21:24:48.022Z",
+  "fetchedAt": "2026-08-30T21:37:35.783Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "besiri",
+      "name": "Besiri",
+      "count": 17
+    },
+    {
+      "id": "gercus",
+      "name": "Gercus",
+      "count": 1
+    },
+    {
+      "id": "hasankeyf",
+      "name": "Hasankeyf",
+      "count": 1
+    },
+    {
+      "id": "kozluk",
+      "name": "Kozluk",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 32
+    },
+    {
+      "id": "sason",
+      "name": "Sason",
+      "count": 7
+    }
   ],
   "count": 80,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-04882125522-0",
       "name": "Acetler Kavşağı Taksi",
       "phone": "04882125522",
+      "website": null,
       "lat": 37.8805,
       "lon": 41.1345,
       "address": "19 Mayıs Mah. Tütüncüler Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +61,12 @@
       "id": "taksi724-05314727711-1",
       "name": "Adalet Taksi",
       "phone": "05314727711",
+      "website": null,
       "lat": 37.8822,
       "lon": 41.1362,
       "address": "Kültür, Acetler Kavşağı, Mahatma Gandhi Blv.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +77,12 @@
       "id": "taksi724-05070707225-2",
       "name": "Aydın Taksi",
       "phone": "05070707225",
+      "website": null,
       "lat": 37.8818,
       "lon": 41.1358,
       "address": "Kültür, Adalet Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -51,9 +92,12 @@
       "id": "taksi724-04882134533-3",
       "name": "Bahçeşehir Taksi",
       "phone": "04882134533",
+      "website": null,
       "lat": 37.883171,
       "lon": 41.127192,
       "address": "Meydan Mah. 1106 Sok. 57 Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -63,9 +107,12 @@
       "id": "taksi724-04882210333-4",
       "name": "Batman Çiçek Taksi",
       "phone": "04882210333",
+      "website": null,
       "lat": 37.912454,
       "lon": 41.1520442,
       "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -75,9 +122,12 @@
       "id": "taksi724-04882211828-5",
       "name": "Batman Park Taksi",
       "phone": "04882211828",
+      "website": null,
       "lat": 37.896124,
       "lon": 41.122975,
       "address": "Belde Mah. Tpoa Blv. Mahatma Gandi Cad. 1 Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -87,9 +137,12 @@
       "id": "taksi724-05345688454-6",
       "name": "Batman Taksi",
       "phone": "05345688454",
+      "website": null,
       "lat": 37.900594,
       "lon": 41.131282,
       "address": "Kültür Mah. Turgut Özal Blv. Diyarbakır Cad. Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -99,9 +152,12 @@
       "id": "taksi724-05342223177-7",
       "name": "Belde Taksi",
       "phone": "05342223177",
+      "website": null,
       "lat": 37.8808,
       "lon": 41.1348,
       "address": "Ahmet Arif Bulvarı No/140",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -112,9 +168,12 @@
       "id": "taksi724-04882211828-8",
       "name": "Böge Taksi",
       "phone": "04882211828",
+      "website": null,
       "lat": 37.883,
       "lon": 41.137,
       "address": "Belde Mah. Tpoa Blv. Mahatma Gandi Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -125,9 +184,12 @@
       "id": "taksi724-9-9",
       "name": "Bölge Hastanesi Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.916023,
       "lon": 41.1333,
       "address": "Gültepe Mah. Eflatun Cad. (Bölge Hastanesi Karşısı) Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -137,9 +199,12 @@
       "id": "taksi724-04882212909-10",
       "name": "Çınar Taksi",
       "phone": "04882212909",
+      "website": null,
       "lat": 37.8825,
       "lon": 41.1365,
       "address": "Gültepe Mah. Eflatun Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -149,9 +214,12 @@
       "id": "taksi724-04882155600-11",
       "name": "Dünya Hastanesi Taksi",
       "phone": "04882155600",
+      "website": null,
       "lat": 37.8907024,
       "lon": 41.1289337,
       "address": "Turgut Özal Bulvarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -161,9 +229,12 @@
       "id": "taksi724-05448860367-12",
       "name": "Gültepe Taksi",
       "phone": "05448860367",
+      "website": null,
       "lat": 37.8835,
       "lon": 41.1375,
       "address": "Çamlıtepe, Özel Dünya Hastanesi, Ahmet Necdet Sezer Bulvarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -173,9 +244,12 @@
       "id": "taksi724-05375597886-13",
       "name": "Işık Taksi",
       "phone": "05375597886",
+      "website": null,
       "lat": 37.8828,
       "lon": 41.1368,
       "address": "Gültepe Mah. 4378 Sok.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -185,9 +259,12 @@
       "id": "taksi724-04882125522-14",
       "name": "Kültür Taksi",
       "phone": "04882125522",
+      "website": null,
       "lat": 37.880512,
       "lon": 41.112181,
       "address": "19 Mayıs Mah. Tütüncüler Cad. Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -198,9 +275,12 @@
       "id": "taksi724-04882129337-15",
       "name": "Merkez Taksi",
       "phone": "04882129337",
+      "website": null,
       "lat": 37.882,
       "lon": 41.136,
       "address": "Kültür Mah. Turgut Özal Blv. Diyarbakır Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -210,9 +290,12 @@
       "id": "taksi724-05437147001-16",
       "name": "Meydan Taksi",
       "phone": "05437147001",
+      "website": null,
       "lat": 37.8755202,
       "lon": 41.1157971,
       "address": "Felek Caddesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -222,9 +305,12 @@
       "id": "taksi724-04882134533-17",
       "name": "Mezopotamya Taksi",
       "phone": "04882134533",
+      "website": null,
       "lat": 37.881,
       "lon": 41.135,
       "address": "Meydan Mah. 1106 Sok. 57",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -234,9 +320,12 @@
       "id": "taksi724-05425507672-18",
       "name": "Nur Taksi",
       "phone": "05425507672",
+      "website": null,
       "lat": 37.8816,
       "lon": 41.1356,
       "address": "Kültür, Mezopotamya Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -246,9 +335,12 @@
       "id": "taksi724-05526397281-19",
       "name": "Otogar Taksi",
       "phone": "05526397281",
+      "website": null,
       "lat": 37.885785,
       "lon": 41.122061,
       "address": "Sağlık Mah. Yunus Emre Cad. 233/B Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -258,9 +350,12 @@
       "id": "taksi724-05397442636-20",
       "name": "Park Taksi",
       "phone": "05397442636",
+      "website": null,
       "lat": 37.884,
       "lon": 41.138,
       "address": "Pazaryeri, Başti Otogar No:72060",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -270,9 +365,12 @@
       "id": "taksi724-04882129337-21",
       "name": "PetrolCity AVM Taksi",
       "phone": "04882129337",
+      "website": null,
       "lat": 37.9041232,
       "lon": 41.1322543,
       "address": "Turgut Özal Bulvarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -282,9 +380,12 @@
       "id": "taksi724-05448277221-22",
       "name": "Pınarbaşı Taksi",
       "phone": "05448277221",
+      "website": null,
       "lat": 37.8832,
       "lon": 41.1372,
       "address": "Gültepe, Petrolcity AVM, Yeniçağ Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -294,9 +395,12 @@
       "id": "taksi724-04882132165-23",
       "name": "Sağlık Taksi",
       "phone": "04882132165",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": "Pınarbaşı Mah. 2211 Sok.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -306,9 +410,12 @@
       "id": "taksi724-05362384308-24",
       "name": "Şirinevler Taksi",
       "phone": "05362384308",
+      "website": null,
       "lat": 37.921436,
       "lon": 41.146579,
       "address": "Gültepe Mah. 4378 Sok. Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -318,9 +425,12 @@
       "id": "taksi724-05458778302-25",
       "name": "Vold Yaşam Taksi",
       "phone": "05458778302",
+      "website": null,
       "lat": 37.88,
       "lon": 41.134,
       "address": "Şirinevler, Atatürk Blv.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -330,9 +440,12 @@
       "id": "taksi724-04882132165-26",
       "name": "World Yaşam Taksi",
       "phone": "04882132165",
+      "website": null,
       "lat": 37.895242,
       "lon": 41.126658,
       "address": "Pınarbaşı Mah. 2211 Sok. Batman Merkez, Batman",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -342,9 +455,12 @@
       "id": "taksi724-04882132165-27",
       "name": "batman-taksi",
       "phone": "04882132165",
+      "website": null,
       "lat": 37.895857,
       "lon": 41.1300348,
       "address": "Turgut Özal Bulvarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -354,9 +470,12 @@
       "id": "taksi724-05336610123-28",
       "name": "Alman Taksi",
       "phone": "05336610123",
+      "website": null,
       "lat": 37.8904853,
       "lon": 41.1532201,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -366,9 +485,12 @@
       "id": "taksi724-04882127233-29",
       "name": "Başaran Taksi",
       "phone": "04882127233",
+      "website": null,
       "lat": 37.8969493,
       "lon": 41.1257527,
       "address": "Mahatma Gandhi Blv",
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -378,9 +500,12 @@
       "id": "taksi724-04882138734-30",
       "name": "Batman Araştırma Taksi",
       "phone": "04882138734",
+      "website": null,
       "lat": 37.8785547,
       "lon": 41.1178412,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -390,9 +515,12 @@
       "id": "taksi724-04882212928-31",
       "name": "Batman'da Taksi",
       "phone": "04882212928",
+      "website": null,
       "lat": 37.9131387,
       "lon": 41.1371855,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -402,9 +530,12 @@
       "id": "taksi724-05526397281-32",
       "name": "Batman Dörtyol Taksi",
       "phone": "05526397281",
+      "website": null,
       "lat": 37.8997049,
       "lon": 41.1240406,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -415,9 +546,12 @@
       "id": "taksi724-05355625339-33",
       "name": "Batman Kültür Taksi",
       "phone": "05355625339",
+      "website": null,
       "lat": 37.8890383,
       "lon": 41.1326973,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -427,9 +561,12 @@
       "id": "taksi724-05070707225-34",
       "name": "Batman Mehtap Taksi",
       "phone": "05070707225",
+      "website": null,
       "lat": 37.900963,
       "lon": 41.126395,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -439,9 +576,12 @@
       "id": "taksi724-05373982562-35",
       "name": "Batman Petrol City Taksi",
       "phone": "05373982562",
+      "website": null,
       "lat": 37.881856,
       "lon": 41.1198712,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -453,9 +593,12 @@
       "id": "taksi724-05448277221-36",
       "name": "Batman Taksi",
       "phone": "05448277221",
+      "website": null,
       "lat": 37.9206105,
       "lon": 41.1374703,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -466,9 +609,12 @@
       "id": "taksi724-05522204889-37",
       "name": "Bölge Taksi",
       "phone": "05522204889",
+      "website": null,
       "lat": 37.9042733,
       "lon": 41.1200737,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -478,9 +624,12 @@
       "id": "taksi724-04882212909-38",
       "name": "ÇARŞI TAKSi",
       "phone": "04882212909",
+      "website": null,
       "lat": 37.9125685,
       "lon": 41.1402439,
       "address": "Fırat Caddesi",
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -490,9 +639,12 @@
       "id": "taksi724-05373766306-39",
       "name": "Dörtyol Taksi",
       "phone": "05373766306",
+      "website": null,
       "lat": 37.8793299,
       "lon": 41.1233393,
       "address": "Taksi Durağı · Selehaddini Eyyübi Cd. No:4",
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -502,9 +654,12 @@
       "id": "taksi724-04882127186-40",
       "name": "Esen Taksi",
       "phone": "04882127186",
+      "website": null,
       "lat": 37.8889908,
       "lon": 41.128738,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -514,9 +669,12 @@
       "id": "taksi724-04882211376-41",
       "name": "Gold Taksi",
       "phone": "04882211376",
+      "website": null,
       "lat": 37.9073996,
       "lon": 41.1099954,
       "address": "Türkiye Petrolleri A.O. Bulvarı",
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -526,9 +684,12 @@
       "id": "taksi724-04882123863-42",
       "name": "Hilal Taksi",
       "phone": "04882123863",
+      "website": null,
       "lat": 37.8983006,
       "lon": 41.1309034,
       "address": "Turgut Ozal Blv",
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -538,9 +699,12 @@
       "id": "taksi724-05532383407-43",
       "name": "Tılmerc Taksi",
       "phone": "05532383407",
+      "website": null,
       "lat": 37.8932253,
       "lon": 41.1355462,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -550,9 +714,12 @@
       "id": "taksi724-05317022464-44",
       "name": "batman-taksi",
       "phone": "05317022464",
+      "website": null,
       "lat": 37.919299,
       "lon": 41.1470744,
       "address": null,
+      "districtId": "besiri",
+      "districtName": "Besiri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -564,9 +731,12 @@
       "id": "taksi724-05412692457-45",
       "name": "Silvan Hastane Taksi",
       "phone": "05412692457",
+      "website": null,
       "lat": 38.1480594,
       "lon": 41.0056954,
       "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -576,9 +746,12 @@
       "id": "taksi724-05453717331-46",
       "name": "Silvan Merkez Taksi",
       "phone": "05453717331",
+      "website": null,
       "lat": 38.1550338,
       "lon": 40.9679322,
       "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -588,9 +761,12 @@
       "id": "taksi724-05447115744-47",
       "name": "Silvan Taksi",
       "phone": "05447115744",
+      "website": null,
       "lat": 38.1446987,
       "lon": 41.0098224,
       "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -600,9 +776,12 @@
       "id": "taksi724-05411416721-48",
       "name": "Silvan ticari Taksi",
       "phone": "05411416721",
+      "website": null,
       "lat": 38.1438198,
       "lon": 41.0135396,
       "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -613,9 +792,12 @@
       "id": "taksi724-05385462336-49",
       "name": "Silvan Toki Taksi",
       "phone": "05385462336",
+      "website": null,
       "lat": 38.1422485,
       "lon": 41.0033547,
       "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -625,9 +807,12 @@
       "id": "taksi724-05342339002-50",
       "name": "Silvan Merkez Taksi",
       "phone": "05342339002",
+      "website": null,
       "lat": 38.1525908,
       "lon": 40.971877,
       "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -637,9 +822,12 @@
       "id": "taksi724-05444223141-51",
       "name": "Batman Yakın Taksi",
       "phone": "05444223141",
+      "website": null,
       "lat": 37.9172384,
       "lon": 41.1505268,
       "address": null,
+      "districtId": "gercus",
+      "districtName": "Gercus",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -650,9 +838,12 @@
       "id": "taksicibul-05079190124-52",
       "name": "ÇamlıTepe Taksi Durağı",
       "phone": "05079190124",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -662,9 +853,12 @@
       "id": "taksicibul-05326328272-53",
       "name": "Thetaxibatman",
       "phone": "05326328272",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -674,9 +868,12 @@
       "id": "taksicibul-05442896936-54",
       "name": "Özgür turizm",
       "phone": "05442896936",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -686,9 +883,12 @@
       "id": "taksicibul-05412447213-55",
       "name": "Batman istiklal taksi",
       "phone": "05412447213",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -698,9 +898,12 @@
       "id": "taksicibul-05364056240-56",
       "name": "Batman Otogar Taksi Durağı",
       "phone": "05364056240",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -710,9 +913,12 @@
       "id": "taksicibul-05437144375-57",
       "name": "Batman Hasankeyf Taksi",
       "phone": "05437144375",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -723,9 +929,12 @@
       "id": "taksicibul-05078186622-58",
       "name": "Batman Bahçeşehir Taksi Durağı",
       "phone": "05078186622",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -735,9 +944,12 @@
       "id": "taksicibul-05496484714-59",
       "name": "Batman Hanedan Nakliyat",
       "phone": "05496484714",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -747,9 +959,12 @@
       "id": "taksiciler-05454988906-60",
       "name": "Batman Eğitim Araştırma Hastane Taksi AÇIK · 7 gün 24 saat Gültepe, İbrahim Hakk",
       "phone": "05454988906",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -759,9 +974,12 @@
       "id": "taksiciler-05445820541-61",
       "name": "Batman Merkez Taksi",
       "phone": "05445820541",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -771,9 +989,12 @@
       "id": "taksiciler-05368975228-62",
       "name": "Batman Otogar ! Taksi AÇIK · 7 gün 24 saat Pazaryeri, başti taksi durağı, İpekyo",
       "phone": "05368975228",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -783,9 +1004,12 @@
       "id": "taksiciler-05378224705-63",
       "name": "Batman Taksi AÇIK · 7 gün 24 saat Pınarbaşı, Mahatma Gandhi Blv., 72060 Batman M",
       "phone": "05378224705",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -795,9 +1019,12 @@
       "id": "taksiciler-05423720083-64",
       "name": "World Yaşam Taksi",
       "phone": "05423720083",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -807,9 +1034,12 @@
       "id": "taksiciler-05455774072-65",
       "name": "Tümü → Hazo Taksi",
       "phone": "05455774072",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -819,9 +1049,12 @@
       "id": "taksiciler-05356518872-66",
       "name": "Kozluk Hazo Taksi",
       "phone": "05356518872",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -831,9 +1064,12 @@
       "id": "taksiciler-05456601804-67",
       "name": "Kozluk Taksi",
       "phone": "05456601804",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -843,9 +1079,12 @@
       "id": "taksiciler-05427116586-68",
       "name": "Tümü → Nedim Taksi Silvan",
       "phone": "05427116586",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -855,9 +1094,12 @@
       "id": "taksiciler-04842232405-69",
       "name": "Sağlık Taksi",
       "phone": "04842232405",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -867,9 +1109,12 @@
       "id": "taksiciler-04842236262-70",
       "name": "Siirt Çiçek Taksi",
       "phone": "04842236262",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -879,9 +1124,12 @@
       "id": "taksiciler-04348275218-71",
       "name": "Tatvan @ Star Taksi Durağı",
       "phone": "04348275218",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -891,9 +1139,12 @@
       "id": "taksiciler-05454232156-72",
       "name": "Tepe Taksi",
       "phone": "05454232156",
+      "website": null,
       "lat": 37.8812,
       "lon": 41.1351,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -903,8 +1154,12 @@
       "id": "nerede360-05537050091-73",
       "name": "Adliye Taksi - M. Emin Kaplan",
       "phone": "05537050091",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": "https://www.instagram.com/batman.taksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -914,8 +1169,12 @@
       "id": "nerede360-05357195853-74",
       "name": "Alman Taksi Durağı",
       "phone": "05357195853",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -925,8 +1184,12 @@
       "id": "nerede360-05074288963-75",
       "name": "Dörtyol Taksi - Veysi Kapar",
       "phone": "05074288963",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -936,8 +1199,12 @@
       "id": "nerede360-05536209555-76",
       "name": "Hasankeyf Taksi - Memet Yel",
       "phone": "05536209555",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "hasankeyf",
+      "districtName": "Hasankeyf",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -947,8 +1214,12 @@
       "id": "nerede360-05395581641-77",
       "name": "Hazo Taksi - Mehmet Acar",
       "phone": "05395581641",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kozluk",
+      "districtName": "Kozluk",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -958,8 +1229,12 @@
       "id": "nerede360-05051224172-78",
       "name": "Sason Taksi - Ahmet Gelen",
       "phone": "05051224172",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "sason",
+      "districtName": "Sason",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -969,8 +1244,12 @@
       "id": "nerede360-05454807172-79",
       "name": "Yeni Otogar Taksi - İlhan Çakıcı",
       "phone": "05454807172",
-      "lat": 37.8812,
-      "lon": 41.1351,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

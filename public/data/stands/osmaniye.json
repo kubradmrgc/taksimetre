@@ -1,12 +1,44 @@
 {
   "cityId": "osmaniye",
   "cityName": "Osmaniye",
-  "fetchedAt": "2026-08-30T21:25:24.539Z",
+  "fetchedAt": "2026-08-30T21:38:11.335Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "bahce",
+      "name": "Bahce",
+      "count": 26
+    },
+    {
+      "id": "duzici",
+      "name": "Duzici",
+      "count": 1
+    },
+    {
+      "id": "hasanbeyli",
+      "name": "Hasanbeyli",
+      "count": 7
+    },
+    {
+      "id": "kadirli",
+      "name": "Kadirli",
+      "count": 8
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 6
+    },
+    {
+      "id": "sumbas",
+      "name": "Sumbas",
+      "count": 5
+    }
   ],
   "count": 68,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-0-0",
       "name": "328 Taksi",
       "phone": null,
+      "website": null,
       "lat": 40.9923594,
       "lon": 28.8815432,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +61,12 @@
       "id": "taksi724-03288258585-1",
       "name": "ALO BAHÇE EN YAKIN TAKSi",
       "phone": "03288258585",
+      "website": null,
       "lat": 37.0629171,
       "lon": 36.232973,
       "address": "Taksi Durağı · 19524. Sk. no:9/b",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +77,12 @@
       "id": "taksi724-05443335640-2",
       "name": "Bahçe Merkez Taksi",
       "phone": "05443335640",
+      "website": null,
       "lat": 37.195815,
       "lon": 36.5722713,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -51,9 +92,12 @@
       "id": "taksi724-05446987734-3",
       "name": "Bahçe Meydan Taksi",
       "phone": "05446987734",
+      "website": null,
       "lat": 37.2045391,
       "lon": 36.5819946,
       "address": "Taksi Durağı · İslam Mahallesi Ali Farsakoğlu Caddesi bo:9",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -63,9 +107,12 @@
       "id": "taksi724-05462101392-4",
       "name": "Bahçe/Osmaniye Taksi",
       "phone": "05462101392",
+      "website": null,
       "lat": 37.2036555,
       "lon": 36.5821784,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -75,9 +122,12 @@
       "id": "taksi724-05443335640-5",
       "name": "24 Saat Taksi",
       "phone": "05443335640",
+      "website": null,
       "lat": 37.2041439,
       "lon": 36.58193,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -87,9 +137,12 @@
       "id": "taksi724-05312405980-6",
       "name": "Düziçi Otogar Taksi",
       "phone": "05312405980",
+      "website": null,
       "lat": 37.2011636,
       "lon": 36.5784374,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -99,9 +152,12 @@
       "id": "taksi724-03288760707-7",
       "name": "Kadirli Murat Taksi",
       "phone": "03288760707",
+      "website": null,
       "lat": 37.2311613,
       "lon": 36.4453221,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -112,9 +168,12 @@
       "id": "taksi724-05326539008-8",
       "name": "Kadirli Taksi",
       "phone": "05326539008",
+      "website": null,
       "lat": 37.372817,
       "lon": 36.0746353,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -125,9 +184,12 @@
       "id": "taksi724-05428161572-9",
       "name": "Kadirli Taksi",
       "phone": "05428161572",
+      "website": null,
       "lat": 37.373442,
       "lon": 36.098481,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -137,9 +199,12 @@
       "id": "taksi724-05467102364-10",
       "name": "Kadirli Ticari Taksi",
       "phone": "05467102364",
+      "website": null,
       "lat": 37.3569514,
       "lon": 36.0949647,
       "address": "Taksi Durağı · Alparslan Türkeş Blv. No:159 D:B",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -149,9 +214,12 @@
       "id": "taksi724-05417678500-11",
       "name": "Osmaniye 7/24 Merkez Taksi",
       "phone": "05417678500",
+      "website": null,
       "lat": 37.3669161,
       "lon": 36.08673,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -161,9 +229,12 @@
       "id": "taksi724-05464640003-12",
       "name": "Osmaniye Acil Taksi",
       "phone": "05464640003",
+      "website": null,
       "lat": 37.065272,
       "lon": 36.2445706,
       "address": "Taksi Durağı ·  · 8029. Sk. No:6",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -173,9 +244,12 @@
       "id": "taksi724-05376870030-13",
       "name": "Osmaniye Bahçe 7/24 Taksi",
       "phone": "05376870030",
+      "website": null,
       "lat": 37.067314,
       "lon": 36.2425459,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -185,9 +259,12 @@
       "id": "taksi724-05442348080-14",
       "name": "Osmaniye Fakıuşağı Korkut Ata Taksi",
       "phone": "05442348080",
+      "website": null,
       "lat": 37.2021742,
       "lon": 36.5791398,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -197,9 +274,12 @@
       "id": "taksi724-05454715235-15",
       "name": "Osmaniye Fakıuşağı Taksi",
       "phone": "05454715235",
+      "website": null,
       "lat": 37.0427069,
       "lon": 36.2289693,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -210,9 +290,12 @@
       "id": "taksi724-05467460003-16",
       "name": "Osmaniye Hemen Taksi",
       "phone": "05467460003",
+      "website": null,
       "lat": 37.0398106,
       "lon": 36.2259914,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -223,9 +306,12 @@
       "id": "taksi724-05467460027-17",
       "name": "Osmaniye Merkez Fakıuşağı Taksi",
       "phone": "05467460027",
+      "website": null,
       "lat": 37.054444,
       "lon": 36.155212,
       "address": "Taksi Durağı · 32. Sk. No:50",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -235,9 +321,12 @@
       "id": "taksi724-05416410069-18",
       "name": "Osmaniye Merkez Taksi",
       "phone": "05416410069",
+      "website": null,
       "lat": 37.040997,
       "lon": 36.2298983,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -248,9 +337,12 @@
       "id": "taksi724-05418801101-19",
       "name": "Osmaniye Toki Taksi",
       "phone": "05418801101",
+      "website": null,
       "lat": 37.064332,
       "lon": 36.23524,
       "address": "Taksi Durağı · 19524. Sk.",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -260,9 +352,12 @@
       "id": "taksi724-05467460027-20",
       "name": "Osmaniye Üniversite Taksi",
       "phone": "05467460027",
+      "website": null,
       "lat": 37.0644068,
       "lon": 36.2158256,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -272,9 +367,12 @@
       "id": "taksi724-05441470057-21",
       "name": "Otogar Taksi",
       "phone": "05441470057",
+      "website": null,
       "lat": 37.064911,
       "lon": 36.235919,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -285,9 +383,12 @@
       "id": "taksi724-03288144216-22",
       "name": "Park Taksi",
       "phone": "03288144216",
+      "website": null,
       "lat": 37.1006058,
       "lon": 36.2439823,
       "address": "Ulaşım Hizmeti · Yunusemre Mah Yeni Otogar Peron 7 No:5 80000",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -297,9 +398,12 @@
       "id": "taksi724-03288121040-23",
       "name": "Toprakkale Toki Taksi",
       "phone": "03288121040",
+      "website": "https://www.facebook.com/parktaksi80/",
       "lat": 37.079778,
       "lon": 36.2376164,
       "address": "Taksi Durağı ·  · 15544. Sk. No 8",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -311,9 +415,12 @@
       "id": "taksi724-05464640003-24",
       "name": "Yarbaşı Otogar Taksi",
       "phone": "05464640003",
+      "website": null,
       "lat": 37.0797528,
       "lon": 36.1950578,
       "address": "Taksi Durağı · TOKİ No:3",
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -323,9 +430,12 @@
       "id": "taksi724-03288762222-25",
       "name": "osmaniye-taksi",
       "phone": "03288762222",
+      "website": null,
       "lat": 37.1984672,
       "lon": 36.4290653,
       "address": null,
+      "districtId": "bahce",
+      "districtName": "Bahce",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -335,9 +445,12 @@
       "id": "taksi724-03486060525-26",
       "name": "En Yakın Taksi",
       "phone": "03486060525",
+      "website": null,
       "lat": 36.719918,
       "lon": 37.1263195,
       "address": null,
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -347,9 +460,12 @@
       "id": "taksi724-05442202280-27",
       "name": "Kadirli Taksi",
       "phone": "05442202280",
+      "website": null,
       "lat": 36.756864,
       "lon": 36.2164447,
       "address": "Taksi Durağı · Çiçek Taksi, Taksi, Park Sk.",
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -359,9 +475,12 @@
       "id": "taksi724-05312507004-28",
       "name": "Kadirli Taksi",
       "phone": "05312507004",
+      "website": null,
       "lat": 37.3693102,
       "lon": 36.0753935,
       "address": null,
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -371,9 +490,12 @@
       "id": "taksi724-05349187085-29",
       "name": "Kültür Taksi",
       "phone": "05349187085",
+      "website": null,
       "lat": 37.3723404,
       "lon": 36.078019,
       "address": null,
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -383,9 +505,12 @@
       "id": "taksi724-05384175200-30",
       "name": "7/24 Taksi",
       "phone": "05384175200",
+      "website": null,
       "lat": 37.5872534,
       "lon": 36.8971418,
       "address": null,
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -395,9 +520,12 @@
       "id": "taksi724-05461624646-31",
       "name": "Taksi",
       "phone": "05461624646",
+      "website": null,
       "lat": 37.5711559,
       "lon": 36.9242145,
       "address": "Taksi Durağı ·  · Piazza Avm yani Şazi Bey mah haydar aliyev bul 3-1 Stad Cd. No:11, Kahramanmaraş Merkez",
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -407,9 +535,12 @@
       "id": "taksi724-05436569526-32",
       "name": "Kadirli Taksi",
       "phone": "05436569526",
+      "website": null,
       "lat": 37.2014554,
       "lon": 36.5761095,
       "address": null,
+      "districtId": "hasanbeyli",
+      "districtName": "Hasanbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -419,9 +550,12 @@
       "id": "taksi724-05461558111-33",
       "name": "Kadirli Otogar Taksi",
       "phone": "05461558111",
+      "website": null,
       "lat": 37.3718434,
       "lon": 36.0696856,
       "address": null,
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -431,9 +565,12 @@
       "id": "taksi724-03287182092-34",
       "name": "Kadirli Park Taksi",
       "phone": "03287182092",
+      "website": null,
       "lat": 37.36833558,
       "lon": 36.09757707,
       "address": "Dere Mah. Atatürk Cad. 380. Sok. 1 Kadirli Otogarı Kadirli, Osmaniye",
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -443,9 +580,12 @@
       "id": "taksi724-05010107013-35",
       "name": "Taksi durağı",
       "phone": "05010107013",
+      "website": null,
       "lat": 37.369809,
       "lon": 36.097713,
       "address": "Savrun Mah. Atatürk Cad. 39 Kadirli, Osmaniye",
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -455,9 +595,12 @@
       "id": "taksi724-05319152800-36",
       "name": "Kadirli Taksi",
       "phone": "05319152800",
+      "website": null,
       "lat": 37.3692208,
       "lon": 36.105774,
       "address": "Taksi · 404. Sk. No:5",
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -468,9 +611,12 @@
       "id": "taksi724-05428161572-37",
       "name": "Kadirli Uğur Taksi",
       "phone": "05428161572",
+      "website": null,
       "lat": 37.367144,
       "lon": 36.096945,
       "address": "7 Mart Mah. Köprübaşı, Kadirli, Osmaniye",
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -480,9 +626,12 @@
       "id": "taksi724-05445213477-38",
       "name": "Şafak Taksi",
       "phone": "05445213477",
+      "website": null,
       "lat": 37.3662072,
       "lon": 36.1096917,
       "address": "Taksi Durağı · Ş, 613. Sk. No:21",
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -492,9 +641,12 @@
       "id": "taksi724-05428161572-39",
       "name": "Kadirli Park Taksi",
       "phone": "05428161572",
+      "website": null,
       "lat": 37.369846,
       "lon": 36.103202,
       "address": "7 Mart Mah. Andırın Cad. 47 Kadirli, Osmaniye",
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -504,9 +656,12 @@
       "id": "taksi724-40-40",
       "name": "Hayat Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.072397,
       "lon": 36.251753,
       "address": "Hacı Osmanlı Mah. Büyük Cami Sok. 10 Gebeli, Osmaniye Merkez, Osmaniye",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -516,9 +671,12 @@
       "id": "taksi724-04140837188-41",
       "name": "Meydan Taksi",
       "phone": "04140837188",
+      "website": null,
       "lat": 37.062165,
       "lon": 36.239214,
       "address": "M.Akif Ersoy Mah. 8010 Sok. 2 Osmaniye Merkez, Osmaniye",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -528,9 +686,12 @@
       "id": "taksi724-42-42",
       "name": "Park Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.07365,
       "lon": 36.253919,
       "address": "İstiklal Mah. Atatürk Cad. 5004. Sok. 2 Osmaniye Merkez, Osmaniye",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -540,9 +701,12 @@
       "id": "taksi724-05436702747-43",
       "name": "Site Taksi",
       "phone": "05436702747",
+      "website": null,
       "lat": 37.07334,
       "lon": 36.248075,
       "address": "Alibeyli Mah. Dr. Ahmet Alkan Cad. Prof. Dr. Halet Çambel Sok. 13/2 Osmaniye Merkez, Osmaniye",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -552,9 +716,12 @@
       "id": "taksi724-03288250033-44",
       "name": "Zorkun Taksi",
       "phone": "03288250033",
+      "website": null,
       "lat": 37.063466,
       "lon": 36.239924,
       "address": "Raufbey Mah. Atatürk Cad. (Hayat Hastanesi Karşısı) Osmaniye Merkez, Osmaniye",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -565,9 +732,12 @@
       "id": "taksi724-03288142973-45",
       "name": "Site Taksi",
       "phone": "03288142973",
+      "website": null,
       "lat": 37.071797,
       "lon": 36.250618,
       "address": "Alibeyli Mah. 503. Sok. 5 Yeni Çrş. B Blok Osmaniye Merkez, Osmaniye",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -579,9 +749,12 @@
       "id": "taksi724-05422460450-46",
       "name": "Kışla Deniz Taksi",
       "phone": "05422460450",
+      "website": null,
       "lat": 37.0430984,
       "lon": 35.3116089,
       "address": null,
+      "districtId": "sumbas",
+      "districtName": "Sumbas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -591,9 +764,12 @@
       "id": "taksi724-05322976135-47",
       "name": "Makas Taksi",
       "phone": "05322976135",
+      "website": null,
       "lat": 37.0140464,
       "lon": 35.337413,
       "address": "Taksi Durağı · Hasan GÜRHANİ Caddesi No:16",
+      "districtId": "sumbas",
+      "districtName": "Sumbas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -603,9 +779,12 @@
       "id": "taksi724-05428302456-48",
       "name": "Ozan Taksi",
       "phone": "05428302456",
+      "website": null,
       "lat": 37.0103307,
       "lon": 35.3766723,
       "address": null,
+      "districtId": "sumbas",
+      "districtName": "Sumbas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -615,9 +794,12 @@
       "id": "taksi724-49-49",
       "name": "Sun Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.036048,
       "lon": 35.3128159,
       "address": "Taksi Durağı ·  · 79014. Sk. No:8 D:1",
+      "districtId": "sumbas",
+      "districtName": "Sumbas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -627,9 +809,12 @@
       "id": "taksi724-50-50",
       "name": "Makas Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.000786,
       "lon": 35.3210929,
       "address": null,
+      "districtId": "sumbas",
+      "districtName": "Sumbas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -639,9 +824,12 @@
       "id": "taksi724-51-51",
       "name": "Düziçi ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 37.239451,
       "lon": 36.454512,
       "address": "İstiklal Mah. Asaf Namlı Cad. 400 Düziçi, Osmaniye",
+      "districtId": "duzici",
+      "districtName": "Duzici",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -651,9 +839,12 @@
       "id": "taksicibul-03288251010-52",
       "name": "Pizza Taxi Osmaniye",
       "phone": "03288251010",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -663,9 +854,12 @@
       "id": "taksicibul-05417311430-53",
       "name": "Osmaniye Park Taksi Merkez İstasyon",
       "phone": "05417311430",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -676,9 +870,12 @@
       "id": "taksicibul-03288142650-54",
       "name": "Birlik Taksi Osmaniye",
       "phone": "03288142650",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -689,9 +886,12 @@
       "id": "taksicibul-03288256565-55",
       "name": "Osmaniye Hayat Taksi",
       "phone": "03288256565",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -701,9 +901,12 @@
       "id": "taksiciler-05537980080-56",
       "name": "Tümü → 328 Taksi AÇIK · 7 gün 24 saat Adnan Menderes, 19524. Sk. no:9/b, 80010 O",
       "phone": "05537980080",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -713,9 +916,12 @@
       "id": "taksiciler-05358836656-57",
       "name": "Bahçe Merkez Taksi AÇIK · 7 gün 24 saat İslam Mahallesi Ali Farsakoğlu Caddesi b",
       "phone": "05358836656",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -725,9 +931,12 @@
       "id": "taksiciler-03288763200-58",
       "name": "Düziçi Taksi",
       "phone": "03288763200",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -737,9 +946,12 @@
       "id": "taksiciler-05423455517-59",
       "name": "Cicek Taksi Duragı",
       "phone": "05423455517",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -749,9 +961,12 @@
       "id": "taksiciler-05340137043-60",
       "name": "Kadirli Osmaniye Taksi",
       "phone": "05340137043",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -761,9 +976,12 @@
       "id": "taksiciler-05415970181-61",
       "name": "Kadirli Taksi (berkay) AÇIK · 7 gün 24 saat Şehit Halis Şişman, Kamil Kara Blv. ",
       "phone": "05415970181",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -773,9 +991,12 @@
       "id": "taksiciler-05351007048-62",
       "name": "Kadirli Taksi 7034 AÇIK · 7 gün 24 saat bağ mahallesi turgut özal cad 80 / a, ka",
       "phone": "05351007048",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -785,9 +1006,12 @@
       "id": "taksiciler-05432610500-63",
       "name": "Kadirli Taksi Burak",
       "phone": "05432610500",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -797,9 +1021,12 @@
       "id": "taksiciler-05423910412-64",
       "name": "Kadirli Taksi Durağı",
       "phone": "05423910412",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -809,9 +1036,12 @@
       "id": "taksiciler-05302327040-65",
       "name": "Kadirli Taksi Osmaniye",
       "phone": "05302327040",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -821,9 +1051,12 @@
       "id": "taksiciler-05425464787-66",
       "name": "Kadirli Taksicim",
       "phone": "05425464787",
+      "website": null,
       "lat": 37.0742,
       "lon": 36.2478,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -833,8 +1066,12 @@
       "id": "nerede360-05370156600-67",
       "name": "Kadirli Taksi - İsa Topalak",
       "phone": "05370156600",
-      "lat": 37.0742,
-      "lon": 36.2478,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kadirli",
+      "districtName": "Kadirli",
       "approximate": true,
       "sources": [
         "nerede360"

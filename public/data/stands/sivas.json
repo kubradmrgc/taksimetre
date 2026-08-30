@@ -1,12 +1,84 @@
 {
   "cityId": "sivas",
   "cityName": "Sivas",
-  "fetchedAt": "2026-08-30T21:23:17.716Z",
+  "fetchedAt": "2026-08-30T21:36:01.103Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akincilar",
+      "name": "Akincilar",
+      "count": 1
+    },
+    {
+      "id": "altinyayla",
+      "name": "Altinyayla",
+      "count": 5
+    },
+    {
+      "id": "divrigi",
+      "name": "Divrigi",
+      "count": 3
+    },
+    {
+      "id": "dogansar",
+      "name": "Dogansar",
+      "count": 6
+    },
+    {
+      "id": "gemerek",
+      "name": "Gemerek",
+      "count": 2
+    },
+    {
+      "id": "gurun",
+      "name": "Gurun",
+      "count": 1
+    },
+    {
+      "id": "kangal",
+      "name": "Kangal",
+      "count": 3
+    },
+    {
+      "id": "koyulhisar",
+      "name": "Koyulhisar",
+      "count": 2
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 18
+    },
+    {
+      "id": "sarkisla",
+      "name": "Sarkisla",
+      "count": 28
+    },
+    {
+      "id": "susehri",
+      "name": "Susehri",
+      "count": 11
+    },
+    {
+      "id": "ulas",
+      "name": "Ulas",
+      "count": 1
+    },
+    {
+      "id": "yildizeli",
+      "name": "Yildizeli",
+      "count": 3
+    },
+    {
+      "id": "zara",
+      "name": "Zara",
+      "count": 1
+    }
   ],
   "count": 128,
   "stands": [
@@ -14,9 +86,12 @@
       "id": "taksi724-05325270081-0",
       "name": "Gar Taksi",
       "phone": "05325270081",
+      "website": null,
       "lat": 39.7465559,
       "lon": 37.0117211,
       "address": "Taksi Durağı ·  · Şht. Mustafa Erdem sk No:1",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +101,12 @@
       "id": "taksi724-05462232166-1",
       "name": "Gece Gündüz Taksi",
       "phone": "05462232166",
+      "website": null,
       "lat": 39.7297712,
       "lon": 36.9761612,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +116,12 @@
       "id": "taksi724-05316852894-2",
       "name": "İstasyon Gar Taksi",
       "phone": "05316852894",
+      "website": null,
       "lat": 39.7471249,
       "lon": 37.013195,
       "address": "Taksi Durağı ·  · Hoca Ahmet Yesevi Cd. No:1",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +131,12 @@
       "id": "taksi724-03462232166-3",
       "name": "İva park AVM Taksi",
       "phone": "03462232166",
+      "website": null,
       "lat": 39.7394563,
       "lon": 37.0049039,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -62,9 +146,12 @@
       "id": "taksi724-05534068381-4",
       "name": "Numune Taksi",
       "phone": "05534068381",
+      "website": null,
       "lat": 39.7273724,
       "lon": 36.9914812,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -75,9 +162,12 @@
       "id": "taksi724-03462212720-5",
       "name": "Şarkışla Taksi",
       "phone": "03462212720",
+      "website": null,
       "lat": 39.753768,
       "lon": 37.013838,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -89,9 +179,12 @@
       "id": "taksi724-05428432634-6",
       "name": "Şarkışla Taksi",
       "phone": "05428432634",
+      "website": null,
       "lat": 39.3504276,
       "lon": 36.4109256,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -101,9 +194,12 @@
       "id": "taksi724-05435718774-7",
       "name": "Sivas Adliye Taksi",
       "phone": "05435718774",
+      "website": null,
       "lat": 39.3431755,
       "lon": 36.3884613,
       "address": "Taksi Durağı · Şarkışla Sanayi Sitesi No:2",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -113,9 +209,12 @@
       "id": "taksi724-05051256871-8",
       "name": "Sivas Bi Taksi",
       "phone": "05051256871",
+      "website": null,
       "lat": 39.7310515,
       "lon": 36.982899,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -125,9 +224,12 @@
       "id": "taksi724-05319158105-9",
       "name": "- Adliye Taksi - 7/24 Taksi",
       "phone": "05319158105",
+      "website": null,
       "lat": 39.7319499,
       "lon": 36.9849821,
       "address": "Taksi · Muhsin Yazıcıoğlu Blv. No:66 D:2",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -137,9 +239,12 @@
       "id": "taksi724-05442386546-10",
       "name": "Sivas Merkez Taksi",
       "phone": "05442386546",
+      "website": null,
       "lat": 39.7292671,
       "lon": 36.9930837,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -149,9 +254,12 @@
       "id": "taksi724-05464796803-11",
       "name": "Sivas Merkez Taksi",
       "phone": "05464796803",
+      "website": null,
       "lat": 39.7403572,
       "lon": 37.0234036,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -162,9 +270,12 @@
       "id": "taksi724-05321580857-12",
       "name": "Sivas Merkez Taksi",
       "phone": "05321580857",
+      "website": null,
       "lat": 39.734661,
       "lon": 36.9838616,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -174,9 +285,12 @@
       "id": "taksi724-05064745658-13",
       "name": "Sivas Selçuk Taksi",
       "phone": "05064745658",
+      "website": null,
       "lat": 39.7494874,
       "lon": 37.0292433,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -186,9 +300,12 @@
       "id": "taksi724-05464920841-14",
       "name": "Sivas stad Taksi",
       "phone": "05464920841",
+      "website": null,
       "lat": 39.7472561,
       "lon": 37.0128399,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -198,9 +315,12 @@
       "id": "taksi724-03462277143-15",
       "name": "Sivas Stad Taksi",
       "phone": "03462277143",
+      "website": null,
       "lat": 39.7414415,
       "lon": 37.0005583,
       "address": "Taksi Durağı · 55-4. Sk. No:1",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -211,9 +331,12 @@
       "id": "taksi724-05300778858-16",
       "name": "Sivastaksi",
       "phone": "05300778858",
+      "website": null,
       "lat": 39.7411476,
       "lon": 36.9993688,
       "address": "Taksi · 55-5. Sk. no:14/8",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -223,9 +346,12 @@
       "id": "taksi724-05527121042-17",
       "name": "Sivas Taksi",
       "phone": "05527121042",
+      "website": null,
       "lat": 39.7484467,
       "lon": 37.0003979,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -236,9 +362,12 @@
       "id": "taksi724-05324780664-18",
       "name": "Sivas Taksi",
       "phone": "05324780664",
+      "website": null,
       "lat": 39.7622821,
       "lon": 37.0507491,
       "address": "Taksi Durağı ·  · mega kent sitesi, şehşamil mahallesi kartopu sokak, Sidaş No:4 b blok kat 1 no 7",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -248,9 +377,12 @@
       "id": "taksi724-05335100279-19",
       "name": "Sivas Taksi",
       "phone": "05335100279",
+      "website": null,
       "lat": 39.708996,
       "lon": 37.04724,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -261,9 +393,12 @@
       "id": "taksi724-05424684993-20",
       "name": "SiVAS Taksi",
       "phone": "05424684993",
+      "website": null,
       "lat": 39.7331851,
       "lon": 36.9789444,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -274,9 +409,12 @@
       "id": "taksi724-05548770131-21",
       "name": "Sivas Taksi",
       "phone": "05548770131",
+      "website": null,
       "lat": 39.7536421,
       "lon": 36.9999107,
       "address": "Taksi Durağı ·  · Hayri Sığırcı Cd. No:111",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -287,9 +425,12 @@
       "id": "taksi724-05384647829-22",
       "name": "Sivas TAKSi",
       "phone": "05384647829",
+      "website": null,
       "lat": 39.7538834,
       "lon": 37.0138849,
       "address": "Sivas Taksi / Mevlana Mahallesi",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -301,9 +442,12 @@
       "id": "taksi724-05300778858-23",
       "name": "/Sivas Merkez Taksi/Tuzlugöl Taksi",
       "phone": "05300778858",
+      "website": null,
       "lat": 39.7398167,
       "lon": 36.9944408,
       "address": "Taksi Durağı · fatih cad, 7. Sokak No:65",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -314,9 +458,12 @@
       "id": "taksi724-05309727158-24",
       "name": "Taksi Sivas AÇIK · 7 gün 24 saat Sularbaşı Mh. Hikmet Işık Cad. Şenyurt Sitesi, ",
       "phone": "05309727158",
+      "website": null,
       "lat": 39.7403277,
       "lon": 36.9840779,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -327,9 +474,12 @@
       "id": "taksi724-05515880358-25",
       "name": "Terminal Taksi",
       "phone": "05515880358",
+      "website": null,
       "lat": 39.7500705,
       "lon": 37.0210604,
       "address": "Taksi Durağı ·  · 27-Şemsi Sivasi Cd. No:17 D:17",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -340,9 +490,12 @@
       "id": "taksi724-03462262085-26",
       "name": "Yenişehir Taksi",
       "phone": "03462262085",
+      "website": null,
       "lat": 39.7338551,
       "lon": 37.0173046,
       "address": "Taksi Durağı · 52-Terminal Cd. No:5",
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -353,9 +506,12 @@
       "id": "taksi724-03462262093-27",
       "name": "sivas-taksi",
       "phone": "03462262093",
+      "website": null,
       "lat": 39.738939,
       "lon": 37.0201909,
       "address": null,
+      "districtId": "sarkisla",
+      "districtName": "Sarkisla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -366,9 +522,12 @@
       "id": "taksi724-05523000403-28",
       "name": "Çiçek Taksi",
       "phone": "05523000403",
+      "website": null,
       "lat": 39.760785,
       "lon": 37.025916,
       "address": "Alibaba Mah. Alibaba Cad. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -378,9 +537,12 @@
       "id": "taksi724-05334860920-29",
       "name": "Esen Taksi",
       "phone": "05334860920",
+      "website": null,
       "lat": 39.747993,
       "lon": 37.020693,
       "address": "Paşabey Mah. Kerim Çavuş Cad. 20 Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -390,9 +552,12 @@
       "id": "taksi724-05309726877-30",
       "name": "Gar Taksi",
       "phone": "05309726877",
+      "website": null,
       "lat": 39.751997,
       "lon": 37.019361,
       "address": "Çarşıbaşı Mah. Nalbantlarbaşı Cad. (Mimoza Çiçekevi Karşısı) Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -402,9 +567,12 @@
       "id": "taksi724-05462232166-31",
       "name": "Havaalanı Büyük Otel Taksi",
       "phone": "05462232166",
+      "website": null,
       "lat": 39.742315,
       "lon": 37.008397,
       "address": "Kadıburhanettin Mah. İnönü Blv. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -414,9 +582,12 @@
       "id": "taksi724-05325270081-32",
       "name": "Lise Taksi",
       "phone": "05325270081",
+      "website": null,
       "lat": 39.746292,
       "lon": 37.009356,
       "address": "Örtülüpınar Mah. Şehit Mustafa Erdem Sok. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -426,9 +597,12 @@
       "id": "taksi724-05438186794-33",
       "name": "Park Taksi",
       "phone": "05438186794",
+      "website": null,
       "lat": 39.750916,
       "lon": 37.008926,
       "address": "Aydoğan Mah. Pünzürük Cad. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -438,9 +612,12 @@
       "id": "taksi724-05143247050-34",
       "name": "Selimiye Taksi",
       "phone": "05143247050",
+      "website": null,
       "lat": 39.751047,
       "lon": 37.013116,
       "address": "Mehmetpaşa Mah. Saraybosna Cad. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -450,9 +627,12 @@
       "id": "taksi724-05427223164-35",
       "name": "Şeyh Şamil Taksi",
       "phone": "05427223164",
+      "website": null,
       "lat": 39.7537223,
       "lon": 37.000186,
       "address": "Taksi Durağı · Sivas Hayri Sığırcı Caddesi/Selimiye Park yanı/Sivas/Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -462,9 +642,12 @@
       "id": "taksi724-05443320078-36",
       "name": "Sigorta Taksi",
       "phone": "05443320078",
+      "website": null,
       "lat": 39.7654175,
       "lon": 37.0553893,
       "address": "Taksi Durağı · Şeyh Şamil Mahallesi 80.Yıl Bulvarı Sivas merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -475,9 +658,12 @@
       "id": "taksi724-03462245524-37",
       "name": "Sivas Cevher Taksi",
       "phone": "03462245524",
+      "website": null,
       "lat": 39.744906,
       "lon": 37.010466,
       "address": "Örtülüpınar Mah. İnönü Blv. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -488,9 +674,12 @@
       "id": "taksi724-38-38",
       "name": "Sivas Köşk Taksi",
       "phone": null,
+      "website": null,
       "lat": 39.746296,
       "lon": 37.008725,
       "address": "Ece Mah. Halil Rıfat Paşa Cad. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -500,9 +689,12 @@
       "id": "taksi724-05422646175-39",
       "name": "Sivas Taksi",
       "phone": "05422646175",
+      "website": null,
       "lat": 39.75158089,
       "lon": 37.01812003,
       "address": "Sularbaşı Mah. Atatürk Cad. Afyon Sok. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -512,9 +704,12 @@
       "id": "taksi724-05334401058-40",
       "name": "Ulu Taksi",
       "phone": "05334401058",
+      "website": null,
       "lat": 39.7485614,
       "lon": 37.0156895,
       "address": "Sivas Taksi / İstasyon Caddesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -525,9 +720,12 @@
       "id": "taksi724-05523000403-41",
       "name": "Yüce Taksi",
       "phone": "05523000403",
+      "website": null,
       "lat": 39.746196,
       "lon": 37.018053,
       "address": "Gökmedrese Mah. Fevzi Çakmak Cad. 29 Sefer Apt. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -538,9 +736,12 @@
       "id": "taksi724-05050506346-42",
       "name": "sivas-taksi",
       "phone": "05050506346",
+      "website": null,
       "lat": 39.755393,
       "lon": 37.009029,
       "address": "Yüceyurt Mah. Hastane Cad. Sivas Merkez, Sivas",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -551,9 +752,12 @@
       "id": "taksi724-05466217109-43",
       "name": "Erdem Taksi",
       "phone": "05466217109",
+      "website": null,
       "lat": 40.168735,
       "lon": 38.0733035,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -563,9 +767,12 @@
       "id": "taksi724-05412928334-44",
       "name": "Suşehri Eren Taksi",
       "phone": "05412928334",
+      "website": null,
       "lat": 40.1643832,
       "lon": 38.0913708,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -575,9 +782,12 @@
       "id": "taksi724-05442961502-45",
       "name": "Suşehri Hakan TAKSi",
       "phone": "05442961502",
+      "website": null,
       "lat": 40.162503,
       "lon": 38.0917142,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -587,9 +797,12 @@
       "id": "taksi724-05369294077-46",
       "name": "Suşehri köroğlu Taksi",
       "phone": "05369294077",
+      "website": null,
       "lat": 40.162638,
       "lon": 38.0901094,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -599,9 +812,12 @@
       "id": "taksi724-05355480579-47",
       "name": "Suşehri Köroğlu Taksi",
       "phone": "05355480579",
+      "website": null,
       "lat": 40.1626383,
       "lon": 38.0900735,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -612,9 +828,12 @@
       "id": "taksi724-05342870747-48",
       "name": "Suşehri Taksi",
       "phone": "05342870747",
+      "website": null,
       "lat": 40.163154,
       "lon": 38.0915,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -624,9 +843,12 @@
       "id": "taksi724-05332275875-49",
       "name": "Susehri Taksi",
       "phone": "05332275875",
+      "website": null,
       "lat": 40.1627087,
       "lon": 38.0901938,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -637,9 +859,12 @@
       "id": "taksi724-05395117730-50",
       "name": "susehri kardeşler Taksi",
       "phone": "05395117730",
+      "website": null,
       "lat": 40.16319,
       "lon": 38.091808,
       "address": "Taksi · İstanbul Sk.",
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -650,9 +875,12 @@
       "id": "taksi724-05419172943-51",
       "name": "Susehri Telekom Taksi",
       "phone": "05419172943",
+      "website": null,
       "lat": 40.1650361,
       "lon": 38.079823,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -663,9 +891,12 @@
       "id": "taksi724-05356617696-52",
       "name": "Tekin Taksi",
       "phone": "05356617696",
+      "website": null,
       "lat": 40.1657457,
       "lon": 38.0789522,
       "address": null,
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -675,9 +906,12 @@
       "id": "taksi724-05447758147-53",
       "name": "sivas-taksi",
       "phone": "05447758147",
+      "website": null,
       "lat": 40.163342,
       "lon": 38.087885,
       "address": "Gönüloğlu Mah. Sivas Cad. İnönü Sok. Suşehri, Sivas",
+      "districtId": "susehri",
+      "districtName": "Susehri",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -687,9 +921,12 @@
       "id": "taksi724-05526510397-54",
       "name": "Seyrantepe Taksi",
       "phone": "05526510397",
+      "website": null,
       "lat": 39.7361682,
       "lon": 37.0353808,
       "address": "Kardeşler Mahallesi Taksi",
+      "districtId": "dogansar",
+      "districtName": "Dogansar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -700,9 +937,12 @@
       "id": "taksi724-05012555100-55",
       "name": "Sivas Ali Baba Taksi",
       "phone": "05012555100",
+      "website": null,
       "lat": 39.7618409,
       "lon": 37.0202051,
       "address": null,
+      "districtId": "dogansar",
+      "districtName": "Dogansar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -712,9 +952,12 @@
       "id": "taksi724-05325932858-56",
       "name": "Taksi durağı",
       "phone": "05325932858",
+      "website": null,
       "lat": 39.7644069,
       "lon": 37.028297,
       "address": null,
+      "districtId": "dogansar",
+      "districtName": "Dogansar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -724,9 +967,12 @@
       "id": "taksi724-05525989458-57",
       "name": "Taksi",
       "phone": "05525989458",
+      "website": null,
       "lat": 39.7135248,
       "lon": 37.0404269,
       "address": null,
+      "districtId": "dogansar",
+      "districtName": "Dogansar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -736,9 +982,12 @@
       "id": "taksi724-05462323472-58",
       "name": "Yiğitler Taksi",
       "phone": "05462323472",
+      "website": null,
       "lat": 39.7318223,
       "lon": 36.9304607,
       "address": null,
+      "districtId": "dogansar",
+      "districtName": "Dogansar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -748,9 +997,12 @@
       "id": "taksi724-05541521558-59",
       "name": "Sivas Ali Baba Taksi",
       "phone": "05541521558",
+      "website": null,
       "lat": 39.7526458,
       "lon": 37.0238719,
       "address": null,
+      "districtId": "dogansar",
+      "districtName": "Dogansar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -760,9 +1012,12 @@
       "id": "taksi724-05444585652-60",
       "name": "Sivas TAKSİ.EMEK TUZLUGÖL",
       "phone": "05444585652",
+      "website": null,
       "lat": 39.7607744,
       "lon": 37.0490582,
       "address": null,
+      "districtId": "altinyayla",
+      "districtName": "Altinyayla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -773,9 +1028,12 @@
       "id": "taksi724-05319158105-61",
       "name": "Yakın Taksi",
       "phone": "05319158105",
+      "website": null,
       "lat": 39.735259,
       "lon": 36.9971885,
       "address": null,
+      "districtId": "altinyayla",
+      "districtName": "Altinyayla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -785,9 +1043,12 @@
       "id": "taksi724-05447758147-62",
       "name": "Yüce Taksi",
       "phone": "05447758147",
+      "website": null,
       "lat": 39.7489748,
       "lon": 36.9908636,
       "address": null,
+      "districtId": "altinyayla",
+      "districtName": "Altinyayla",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -798,9 +1059,12 @@
       "id": "taksi724-03462212159-63",
       "name": "Sivasta Taksi",
       "phone": "03462212159",
+      "website": null,
       "lat": 39.7551187,
       "lon": 37.0118967,
       "address": null,
+      "districtId": "altinyayla",
+      "districtName": "Altinyayla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -810,9 +1074,12 @@
       "id": "taksi724-05064745658-64",
       "name": "Yakın Taksi",
       "phone": "05064745658",
+      "website": null,
       "lat": 39.7172194,
       "lon": 37.0432412,
       "address": null,
+      "districtId": "altinyayla",
+      "districtName": "Altinyayla",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -822,9 +1089,12 @@
       "id": "taksi724-05414185804-65",
       "name": "Gül Taksi",
       "phone": "05414185804",
+      "website": null,
       "lat": 39.373984,
       "lon": 38.1184864,
       "address": "Taksi Durağı · Naci Demirağa Cd. No:2",
+      "districtId": "divrigi",
+      "districtName": "Divrigi",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -835,9 +1105,12 @@
       "id": "taksi724-03464181645-66",
       "name": "Selçuk Taksi",
       "phone": "03464181645",
+      "website": null,
       "lat": 39.371651,
       "lon": 38.1180892,
       "address": null,
+      "districtId": "divrigi",
+      "districtName": "Divrigi",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -848,9 +1121,12 @@
       "id": "taksi724-03464184664-67",
       "name": "Selçuk Taksi",
       "phone": "03464184664",
+      "website": null,
       "lat": 39.3718047,
       "lon": 38.1176354,
       "address": "Taksi Durağı · Meydan Sk.",
+      "districtId": "divrigi",
+      "districtName": "Divrigi",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -861,9 +1137,12 @@
       "id": "taksi724-05531421273-68",
       "name": "YENiÇUBUK-GEMEREK TAKSI",
       "phone": "05531421273",
+      "website": null,
       "lat": 39.2117564,
       "lon": 36.0989735,
       "address": null,
+      "districtId": "gemerek",
+      "districtName": "Gemerek",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -873,9 +1152,12 @@
       "id": "taksi724-05356926948-69",
       "name": "YENiÇUBUK-GEMEREK TAKSI",
       "phone": "05356926948",
+      "website": null,
       "lat": 39.2109827,
       "lon": 36.0988532,
       "address": null,
+      "districtId": "gemerek",
+      "districtName": "Gemerek",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -885,9 +1167,12 @@
       "id": "taksi724-05435388526-70",
       "name": "Otogar Taksi",
       "phone": "05435388526",
+      "website": null,
       "lat": 40.2851286,
       "lon": 37.813133,
       "address": null,
+      "districtId": "koyulhisar",
+      "districtName": "Koyulhisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -897,9 +1182,12 @@
       "id": "taksi724-05469333162-71",
       "name": "Koyulhisar ilçesindeki bazı taksi",
       "phone": "05469333162",
+      "website": null,
       "lat": 40.300207,
       "lon": 37.83184,
       "address": "Camiikebir Mah. Koyulhisar Otogarı Koyulhisar, Sivas",
+      "districtId": "koyulhisar",
+      "districtName": "Koyulhisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -910,9 +1198,12 @@
       "id": "taksi724-05469112093-72",
       "name": "nar Taksi",
       "phone": "05469112093",
+      "website": null,
       "lat": 40.0786126,
       "lon": 38.3466508,
       "address": null,
+      "districtId": "akincilar",
+      "districtName": "Akincilar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -922,9 +1213,12 @@
       "id": "taksi724-05053960766-73",
       "name": "Gürün Taksi",
       "phone": "05053960766",
+      "website": null,
       "lat": 38.721392,
       "lon": 37.270957,
       "address": "Pınarönü Mah. Atatürk Cad. Gürün, Sivas",
+      "districtId": "gurun",
+      "districtName": "Gurun",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -935,9 +1229,12 @@
       "id": "taksi724-05064745658-74",
       "name": "Merkez Taksi",
       "phone": "05064745658",
+      "website": null,
       "lat": 39.234416,
       "lon": 37.391252,
       "address": "Malatya Cad. (Çarşı İçinde) Kangal, Sivas",
+      "districtId": "kangal",
+      "districtName": "Kangal",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -948,9 +1245,12 @@
       "id": "taksi724-05511695680-75",
       "name": "Ethembey Taksi",
       "phone": "05511695680",
+      "website": null,
       "lat": 39.758771,
       "lon": 37.012389,
       "address": "Ulaşım Hizmeti · 16-7. Sk. No:2",
+      "districtId": "ulas",
+      "districtName": "Ulas",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -960,9 +1260,12 @@
       "id": "taksi724-05143247050-76",
       "name": "Metro Taksi",
       "phone": "05143247050",
+      "website": null,
       "lat": 39.866648,
       "lon": 36.598275,
       "address": "Cumhuriyet Mah. Atatürk Cad. Yıldızeli, Sivas",
+      "districtId": "yildizeli",
+      "districtName": "Yildizeli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -972,9 +1275,12 @@
       "id": "taksi724-05462361701-77",
       "name": "Belde Taksi",
       "phone": "05462361701",
+      "website": null,
       "lat": 39.897087,
       "lon": 37.759211,
       "address": "Kızılırmak Mah. Varinli Cad. Zara, Sivas",
+      "districtId": "zara",
+      "districtName": "Zara",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -984,9 +1290,12 @@
       "id": "taksicibul-05375067035-78",
       "name": "Gezmen Taksi Durağı",
       "phone": "05375067035",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -996,9 +1305,12 @@
       "id": "taksicibul-05424089290-79",
       "name": "Yusuf hayran",
       "phone": "05424089290",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1008,9 +1320,12 @@
       "id": "taksicibul-05012550163-80",
       "name": "Sivas Fix taksim",
       "phone": "05012550163",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1020,9 +1335,12 @@
       "id": "taksicibul-05424156806-81",
       "name": "Sivas taksi sivas merkez taksi 58",
       "phone": "05424156806",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1032,9 +1350,12 @@
       "id": "taksicibul-05382637719-82",
       "name": "Sivas Eken taksi (Muzaffer Tektaş)",
       "phone": "05382637719",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1044,9 +1365,12 @@
       "id": "taksicibul-05013625881-83",
       "name": "Cumhuriyet Taksi Durağı",
       "phone": "05013625881",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1056,9 +1380,12 @@
       "id": "taksicibul-05524337781-84",
       "name": "Sivas Taksim",
       "phone": "05524337781",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1068,9 +1395,12 @@
       "id": "taksicibul-05417477815-85",
       "name": "Eken Taksi Muhammed Yıldırım",
       "phone": "05417477815",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1080,9 +1410,12 @@
       "id": "taksicibul-03462254851-86",
       "name": "BEHRAMPAŞA TAKSİ",
       "phone": "03462254851",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1092,9 +1425,12 @@
       "id": "taksiciler-05524348822-87",
       "name": "Tümü → 58 Taksi",
       "phone": "05524348822",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1104,9 +1440,12 @@
       "id": "taksiciler-05354725200-88",
       "name": "Ay Yıldız Taksi Sivas Klavuz Şeyhşamil AÇIK · 7 gün 24 saat Kılavuz, Sivas Şeyh ",
       "phone": "05354725200",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1116,9 +1455,12 @@
       "id": "taksiciler-05344465175-89",
       "name": "Cü Taksi AÇIK · 7 gün 24 saat Kaleardı Mahallesi, Sivas Kalesi, 58140 Sivas Merk",
       "phone": "05344465175",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1128,9 +1470,12 @@
       "id": "taksiciler-05425087662-90",
       "name": "Emniyet Taksi Çarşıbaşı Sivas",
       "phone": "05425087662",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1140,9 +1485,12 @@
       "id": "taksiciler-04462142521-91",
       "name": "Eren Taksi",
       "phone": "04462142521",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1152,9 +1500,12 @@
       "id": "taksiciler-03462211300-92",
       "name": "Esen Taksi",
       "phone": "03462211300",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1164,9 +1515,12 @@
       "id": "taksiciler-05303075153-93",
       "name": "Ethembey Taksi",
       "phone": "05303075153",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1176,9 +1530,12 @@
       "id": "taksiciler-05067416970-94",
       "name": "Lise Taksi AÇIK · 7 gün 24 saat Aydoğan Mh. Saray Bosna Cd. Pk:58040 Merkez, 580",
       "phone": "05067416970",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1188,9 +1545,12 @@
       "id": "taksiciler-05495858349-95",
       "name": "Park Taksi Çelebiler",
       "phone": "05495858349",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1200,9 +1560,12 @@
       "id": "taksiciler-05383147758-96",
       "name": "Selimiye Taksi Durağı Çavuş AÇIK · 7 gün 24 saat Sivas Hayri Sığırcı Caddesi/Sel",
       "phone": "05383147758",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1212,9 +1575,12 @@
       "id": "taksiciler-05069917926-97",
       "name": "Sivas Bi Taksi",
       "phone": "05069917926",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1224,9 +1590,12 @@
       "id": "taksiciler-05442461512-98",
       "name": "Sivas Bulvar Taksi Durağı",
       "phone": "05442461512",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1236,9 +1605,12 @@
       "id": "taksiciler-05412110948-99",
       "name": "Sivas Hal Taksi",
       "phone": "05412110948",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1248,9 +1620,12 @@
       "id": "taksiciler-05544645027-100",
       "name": "Sivas Havaalanı Taksi AÇIK · 7 gün 24 saat Örtülüpınar, büyük otel taksi durağı,",
       "phone": "05544645027",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1260,9 +1635,12 @@
       "id": "taksiciler-05318264458-101",
       "name": "Sivas Merkez Pınar Taksi",
       "phone": "05318264458",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1272,9 +1650,12 @@
       "id": "taksiciler-05332485805-102",
       "name": "Sivas Pınar Taksi",
       "phone": "05332485805",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1284,9 +1665,12 @@
       "id": "taksiciler-05468060929-103",
       "name": "Sivas Pos Taksi ( Sivas Taksi ) AÇIK · 7 gün 24 saat Sularbaşı, doğruyol apt, Ke",
       "phone": "05468060929",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1296,9 +1680,12 @@
       "id": "taksiciler-05464033684-104",
       "name": "Sivas Taksi",
       "phone": "05464033684",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1308,9 +1695,12 @@
       "id": "taksiciler-05326620687-105",
       "name": "Sivas Taksi – Vişneli Taksi – Kılavuz Taksi – Doblo",
       "phone": "05326620687",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1320,9 +1710,12 @@
       "id": "taksiciler-05435091418-106",
       "name": "Yiğitler Taksi",
       "phone": "05435091418",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1332,9 +1725,12 @@
       "id": "taksiciler-05354777646-107",
       "name": "Tümü → Sivas Gemerek Taksi AÇIK · 7 gün 24 saat Yenihayat, karagöl sok, İstanbul",
       "phone": "05354777646",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1344,9 +1740,12 @@
       "id": "taksiciler-03467153333-108",
       "name": "Gürün Taksi Duraği",
       "phone": "03467153333",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1356,9 +1755,12 @@
       "id": "taksiciler-03467154044-109",
       "name": "Terminal Taksi",
       "phone": "03467154044",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1368,9 +1770,12 @@
       "id": "taksiciler-05366315868-110",
       "name": "Tümü → Taksi Durağı",
       "phone": "05366315868",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1380,9 +1785,12 @@
       "id": "taksiciler-05447652972-111",
       "name": "Tümü → Şarkışla Emniyet Taksi",
       "phone": "05447652972",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1392,9 +1800,12 @@
       "id": "taksiciler-05360695800-112",
       "name": "Şarkışla Taksi Otogar Taksi AÇIK · 7 gün 24 saat Esentepe, Şarkışla Sanayi Sites",
       "phone": "05360695800",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1404,9 +1815,12 @@
       "id": "taksiciler-05334481940-113",
       "name": "Suşehri Hakan Taksi AÇIK · 7 gün 24 saat Camiorta, Köroğlu Taksi Durağı Hakan TA",
       "phone": "05334481940",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1416,9 +1830,12 @@
       "id": "taksiciler-05426832802-114",
       "name": "Suşehri Köroğlu Taksi Ekrem Dilce",
       "phone": "05426832802",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1428,9 +1845,12 @@
       "id": "taksiciler-05327114034-115",
       "name": "Susehri Taksi",
       "phone": "05327114034",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1440,9 +1860,12 @@
       "id": "taksiciler-05066356309-116",
       "name": "Suşehri Taksi Süleyman Köylü",
       "phone": "05066356309",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1452,9 +1875,12 @@
       "id": "taksiciler-05417714530-117",
       "name": "Suşehri Taksi Tekin Arslan",
       "phone": "05417714530",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1464,9 +1890,12 @@
       "id": "taksiciler-05396135800-118",
       "name": "Susehri Telekom Taksi İbrahim Öz AÇIK · 7 gün 24 saat Sivas caddesi izmir sokak,",
       "phone": "05396135800",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1476,9 +1905,12 @@
       "id": "taksiciler-05358185277-119",
       "name": "Tümü → Belde Taksi",
       "phone": "05358185277",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1488,9 +1920,12 @@
       "id": "taksiciler-03467512070-120",
       "name": "Yıldırım Taksi",
       "phone": "03467512070",
+      "website": null,
       "lat": 39.7477,
       "lon": 37.0179,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1500,8 +1935,12 @@
       "id": "nerede360-05465048558-121",
       "name": "Durna Taksi - Ümit",
       "phone": "05465048558",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": "https://www.instagram.com/sivasdurnataksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1511,8 +1950,12 @@
       "id": "nerede360-05367173443-122",
       "name": "Emniyet Taksi - Halis Tecer",
       "phone": "05367173443",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": "https://www.facebook.com/profile.php?id=100063523204098",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1522,8 +1965,12 @@
       "id": "nerede360-05452183464-123",
       "name": "Merkez Taksi - Ahmetcan Yıldırım",
       "phone": "05452183464",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kangal",
+      "districtName": "Kangal",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1533,8 +1980,12 @@
       "id": "nerede360-05454589011-124",
       "name": "Merkez Taksi - Yunus Dağ",
       "phone": "05454589011",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "kangal",
+      "districtName": "Kangal",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1544,8 +1995,12 @@
       "id": "nerede360-05464919651-125",
       "name": "Selçuk Taksi - Hasan Ağbaba",
       "phone": "05464919651",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1555,8 +2010,12 @@
       "id": "nerede360-05419465927-126",
       "name": "Yıldızeli Taksi - Fatih Lale",
       "phone": "05419465927",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yildizeli",
+      "districtName": "Yıldızeli",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1566,8 +2025,12 @@
       "id": "nerede360-05057821421-127",
       "name": "Yıldızeli Taksi - Hayati Oktay",
       "phone": "05057821421",
-      "lat": 39.7477,
-      "lon": 37.0179,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "yildizeli",
+      "districtName": "Yıldızeli",
       "approximate": true,
       "sources": [
         "nerede360"

@@ -1,12 +1,44 @@
 {
   "cityId": "ardahan",
   "cityName": "Ardahan",
-  "fetchedAt": "2026-08-30T21:25:04.312Z",
+  "fetchedAt": "2026-08-30T21:37:51.383Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "cildir",
+      "name": "Cildir",
+      "count": 9
+    },
+    {
+      "id": "damal",
+      "name": "Damal",
+      "count": 3
+    },
+    {
+      "id": "gole",
+      "name": "Gole",
+      "count": 3
+    },
+    {
+      "id": "hanak",
+      "name": "Hanak",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 9
+    },
+    {
+      "id": "posof",
+      "name": "Posof",
+      "count": 1
+    }
   ],
   "count": 32,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-04782111212-0",
       "name": "Ardahan Taksi",
       "phone": "04782111212",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": "Ardahan Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +61,12 @@
       "id": "taksi724-04782115150-1",
       "name": "Belediye Taksi",
       "phone": "04782115150",
+      "website": null,
       "lat": 41.112481,
       "lon": 42.701034,
       "address": "Kaptanpaşa Mah. Kongre Cad. Ardahan Merkez, Ardahan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +76,12 @@
       "id": "taksi724-04782115616-2",
       "name": "Bizim Taksi",
       "phone": "04782115616",
+      "website": null,
       "lat": 41.112964,
       "lon": 42.702519,
       "address": "Kaptanpaşa Mah. Kongre Cad. 5/A Ardahan Merkez, Ardahan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -52,9 +93,12 @@
       "id": "taksi724-04782113255-3",
       "name": "Çiçek Taksi",
       "phone": "04782113255",
+      "website": null,
       "lat": 41.113544,
       "lon": 42.700277,
       "address": "Kaptanpaşa Mah. Hamam Cad. Ardahan Merkez, Ardahan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -65,9 +109,12 @@
       "id": "taksi724-04782113215-4",
       "name": "Hastane Taksi",
       "phone": "04782113215",
+      "website": null,
       "lat": 41.112854,
       "lon": 42.703752,
       "address": "Kaptanpaşa Mah. İnönü Cad. 11 Ardahan Merkez, Ardahan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -78,9 +125,12 @@
       "id": "taksi724-04782114041-5",
       "name": "Hizmet Taksi",
       "phone": "04782114041",
+      "website": null,
       "lat": 41.111,
       "lon": 42.703,
       "address": "Ardahan Devlet Hastanesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -90,9 +140,12 @@
       "id": "taksi724-04782113328-6",
       "name": "Merez Taksi",
       "phone": "04782113328",
+      "website": null,
       "lat": 41.11179,
       "lon": 42.700763,
       "address": "Karagöl Mah. İskan Sok. Ardahan Merkez, Ardahan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -102,9 +155,12 @@
       "id": "taksi724-04782115150-7",
       "name": "Otogar Taksi",
       "phone": "04782115150",
+      "website": null,
       "lat": 41.110582,
       "lon": 42.705236,
       "address": "Kaptanpaşa Mah. Cumhuriyet Cad. 67 Ardahan Merkez, Ardahan",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -115,9 +171,12 @@
       "id": "taksi724-04782112020-8",
       "name": "Belediye Taksi",
       "phone": "04782112020",
+      "website": null,
       "lat": 41.112,
       "lon": 42.704,
       "address": "Ardahan Otogarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -127,9 +186,12 @@
       "id": "taksi724-04784112020-9",
       "name": "Taksi durağı",
       "phone": "04784112020",
+      "website": null,
       "lat": 41.14,
       "lon": 43.13,
       "address": "Çıldır Merkez",
+      "districtId": "cildir",
+      "districtName": "Cildir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -139,9 +201,12 @@
       "id": "taksi724-04785112323-10",
       "name": "Yeni Toki Yurt Taksi",
       "phone": "04785112323",
+      "website": null,
       "lat": 41.5093248,
       "lon": 42.7273225,
       "address": null,
+      "districtId": "cildir",
+      "districtName": "Cildir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -151,9 +216,12 @@
       "id": "taksi724-04782113939-11",
       "name": "Yeni Toki Yurt Taksi",
       "phone": "04782113939",
+      "website": null,
       "lat": 41.0939645,
       "lon": 42.6676259,
       "address": null,
+      "districtId": "cildir",
+      "districtName": "Cildir",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -165,9 +233,12 @@
       "id": "taksi724-04784113227-12",
       "name": "Göle Taksi",
       "phone": "04784113227",
+      "website": null,
       "lat": 40.800701,
       "lon": 42.603926,
       "address": "Salim Bey Mah. Ardahan Cad. 8 Göle, Ardahan",
+      "districtId": "gole",
+      "districtName": "Gole",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -177,9 +248,12 @@
       "id": "taksi724-04785112020-13",
       "name": "Yeşil Göle Taksi",
       "phone": "04785112020",
+      "website": null,
       "lat": 40.78,
       "lon": 42.59,
       "address": "Göle Merkez",
+      "districtId": "gole",
+      "districtName": "Gole",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -189,9 +263,12 @@
       "id": "taksi724-04784113227-14",
       "name": "Yeşil Göle Taksi",
       "phone": "04784113227",
+      "website": null,
       "lat": 40.792769,
       "lon": 42.611143,
       "address": "Kubilaybey Mah. Kars Cad. Göle, Ardahan",
+      "districtId": "gole",
+      "districtName": "Gole",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -202,9 +279,12 @@
       "id": "taksi724-04786112212-15",
       "name": "Gözde Taksi",
       "phone": "04786112212",
+      "website": null,
       "lat": 41.23623854,
       "lon": 42.84533007,
       "address": "Selam Verdi Mah. Atatürk Cad. Park Sok. 98 Hanak, Ardahan",
+      "districtId": "hanak",
+      "districtName": "Hanak",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -214,9 +294,12 @@
       "id": "taksi724-04786112020-16",
       "name": "Posof Taksi",
       "phone": "04786112020",
+      "website": null,
       "lat": 41.51,
       "lon": 42.71,
       "address": "Posof Merkez",
+      "districtId": "posof",
+      "districtName": "Posof",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -226,9 +309,12 @@
       "id": "taksicibul-04782114352-17",
       "name": "Otogar Taksi",
       "phone": "04782114352",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -238,9 +324,12 @@
       "id": "taksicibul-04782115199-18",
       "name": "ARDAHAN KOÇ TAKSİ",
       "phone": "04782115199",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -251,9 +340,12 @@
       "id": "taksicibul-04782114985-19",
       "name": "ARDAHAN TAKSİ",
       "phone": "04782114985",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -264,9 +356,12 @@
       "id": "taksiciler-04782115393-20",
       "name": "Tümü → Ardahan Hastane Taksi",
       "phone": "04782115393",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -276,9 +371,12 @@
       "id": "taksiciler-05308841652-21",
       "name": "Ardahan Park Taksi",
       "phone": "05308841652",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -288,9 +386,12 @@
       "id": "taksiciler-04782116262-22",
       "name": "Otogar Taksi Ardahan AÇIK · 7 gün 24 saat Kaptanpaşa, Cumhuriyet Cd. No:8, 75000",
       "phone": "04782116262",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -300,9 +401,12 @@
       "id": "taksiciler-05360638200-23",
       "name": "Tümü → Çıldır Taksi",
       "phone": "05360638200",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": "cildir",
+      "districtName": "Çıldır",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -313,9 +417,12 @@
       "id": "taksiciler-05325024326-24",
       "name": "Çıldır Taksi (akın Kalacay)",
       "phone": "05325024326",
+      "website": null,
       "lat": 41.1105,
       "lon": 42.7022,
       "address": null,
+      "districtId": "cildir",
+      "districtName": "Çıldır",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -326,8 +433,12 @@
       "id": "nerede360-05455863066-25",
       "name": "Aktaş Taksi - Burak Kalaçay",
       "phone": "05455863066",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cildir",
+      "districtName": "Çıldır",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -337,8 +448,12 @@
       "id": "nerede360-05373876805-26",
       "name": "Aktaş Taksi - Ufuk Yılmaz",
       "phone": "05373876805",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cildir",
+      "districtName": "Çıldır",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -348,8 +463,12 @@
       "id": "nerede360-05352519644-27",
       "name": "Çıldır Taksi - Kamber Altundaş",
       "phone": "05352519644",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cildir",
+      "districtName": "Çıldır",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -359,8 +478,12 @@
       "id": "nerede360-05312801156-28",
       "name": "Damal Taksi - Ergin Alşan",
       "phone": "05312801156",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "damal",
+      "districtName": "Damal",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -370,8 +493,12 @@
       "id": "nerede360-05532368903-29",
       "name": "Damal Taksi - Selçuk Yalıtekin",
       "phone": "05532368903",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "damal",
+      "districtName": "Damal",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -381,8 +508,12 @@
       "id": "nerede360-05340791610-30",
       "name": "Kalender Taksi - Okan Çamlıyurt",
       "phone": "05340791610",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "damal",
+      "districtName": "Damal",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -392,8 +523,12 @@
       "id": "nerede360-05395867385-31",
       "name": "Sezer Taksi - Ayhan Yılmaz",
       "phone": "05395867385",
-      "lat": 41.1105,
-      "lon": 42.7022,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cildir",
+      "districtName": "Çıldır",
       "approximate": true,
       "sources": [
         "nerede360"

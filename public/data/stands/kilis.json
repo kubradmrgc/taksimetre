@@ -1,12 +1,29 @@
 {
   "cityId": "kilis",
   "cityName": "Kilis",
-  "fetchedAt": "2026-08-30T21:25:19.777Z",
+  "fetchedAt": "2026-08-30T21:38:06.445Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "elbeyli",
+      "name": "Elbeyli",
+      "count": 17
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 17
+    },
+    {
+      "id": "musabeyli",
+      "name": "Musabeyli",
+      "count": 1
+    }
   ],
   "count": 45,
   "stands": [
@@ -14,9 +31,12 @@
       "id": "taksi724-05524500122-0",
       "name": "A Bulvar Taksi",
       "phone": "05524500122",
+      "website": null,
       "lat": 36.7060559,
       "lon": 37.1246839,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +46,12 @@
       "id": "taksi724-05436356404-1",
       "name": "Ay yıldız Taksi",
       "phone": "05436356404",
+      "website": null,
       "lat": 36.7129037,
       "lon": 37.1074441,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +62,12 @@
       "id": "taksi724-05445327879-2",
       "name": "Beşevler Adliye Taksi",
       "phone": "05445327879",
+      "website": null,
       "lat": 36.7245449,
       "lon": 37.1017507,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -52,9 +78,12 @@
       "id": "taksi724-03488140099-3",
       "name": "Beşevler Taksi",
       "phone": "03488140099",
+      "website": null,
       "lat": 36.7109143,
       "lon": 37.131899,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -64,9 +93,12 @@
       "id": "taksi724-05059934122-4",
       "name": "Numarası-Hemen Taksi-Acil Taksi-7 24 Taksi",
       "phone": "05059934122",
+      "website": null,
       "lat": 36.7114408,
       "lon": 37.1401376,
       "address": "Taksi Durağı ·  · Dr. Sadık Ahmet Cd. No:2",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -76,9 +108,12 @@
       "id": "taksi724-03486060525-5",
       "name": "Emek Taksi",
       "phone": "03486060525",
+      "website": null,
       "lat": 36.719648,
       "lon": 37.1259895,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -88,9 +123,12 @@
       "id": "taksi724-05423797919-6",
       "name": "Hastane Taksi",
       "phone": "05423797919",
+      "website": null,
       "lat": 36.7292485,
       "lon": 37.1055164,
       "address": "Taksi Durağı · Atatürk Mh. Üniversite Cad. No:2 (Üniversite Arkası Emek Site Civarı",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -100,9 +138,12 @@
       "id": "taksi724-03488131111-7",
       "name": "Karadeniz Taksi",
       "phone": "03488131111",
+      "website": null,
       "lat": 36.702825,
       "lon": 37.110247,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -113,9 +154,12 @@
       "id": "taksi724-03488131947-8",
       "name": "Kilis 7/24 Vip Taksi",
       "phone": "03488131947",
+      "website": null,
       "lat": 36.704151,
       "lon": 37.130084,
       "address": "Taksi · Hacı Derviş Sok.",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -126,9 +170,12 @@
       "id": "taksi724-05527520079-9",
       "name": "Taksi durağı",
       "phone": "05527520079",
+      "website": null,
       "lat": 36.7248914,
       "lon": 37.1034158,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -138,9 +185,12 @@
       "id": "taksi724-03488132112-10",
       "name": "Kilis Taksi",
       "phone": "03488132112",
+      "website": null,
       "lat": 36.7099507,
       "lon": 37.1188938,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -150,9 +200,12 @@
       "id": "taksi724-05459561304-11",
       "name": "ticari Taksi",
       "phone": "05459561304",
+      "website": null,
       "lat": 36.7217316,
       "lon": 37.1085885,
       "address": "Ulaşım Hizmeti · Sarıkekilli Sk. No:6",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -162,9 +215,12 @@
       "id": "taksi724-05396450213-12",
       "name": "Lina Taksi",
       "phone": "05396450213",
+      "website": null,
       "lat": 36.7270101,
       "lon": 37.1012139,
       "address": "Taksi Durağı · Kader Sk. No:14",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -176,9 +232,12 @@
       "id": "taksi724-05398142828-13",
       "name": "Neşeli Taksi",
       "phone": "05398142828",
+      "website": null,
       "lat": 36.7332143,
       "lon": 37.0966574,
       "address": "Taksi Durağı ·  · Erdoğan Bayraktar Cd No:24",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -190,9 +249,12 @@
       "id": "taksi724-05454221431-14",
       "name": "Park Taksi",
       "phone": "05454221431",
+      "website": null,
       "lat": 36.717285,
       "lon": 37.1147458,
       "address": "Taksi Durağı · Debboy Sk. no 1",
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -204,9 +266,12 @@
       "id": "taksi724-05333260079-15",
       "name": "Rüya TAKSi",
       "phone": "05333260079",
+      "website": null,
       "lat": 36.71981,
       "lon": 37.1253955,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -216,9 +281,12 @@
       "id": "taksi724-05417107942-16",
       "name": "kilis-taksi",
       "phone": "05417107942",
+      "website": null,
       "lat": 36.7229552,
       "lon": 37.1054489,
       "address": null,
+      "districtId": "elbeyli",
+      "districtName": "Elbeyli",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -228,9 +296,12 @@
       "id": "taksi724-05527520079-17",
       "name": "Beşevler Adliye Taksi",
       "phone": "05527520079",
+      "website": null,
       "lat": 36.719,
       "lon": 37.12,
       "address": "Atatürk Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -241,9 +312,12 @@
       "id": "taksi724-03488140099-18",
       "name": "Büyükkütah Taksi",
       "phone": "03488140099",
+      "website": null,
       "lat": 36.721,
       "lon": 37.124,
       "address": "Necmettin Erbakan Mah. Muhsin Yazıcıoğlu Blv. No:4",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -253,9 +327,12 @@
       "id": "taksi724-05550874577-19",
       "name": "Doğan Güreş Paşa Taksi",
       "phone": "05550874577",
+      "website": null,
       "lat": 36.718,
       "lon": 37.122,
       "address": "Cumhuriyet Cd.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -267,9 +344,12 @@
       "id": "taksi724-05059934122-20",
       "name": "Erdoğan Bulvar Taksi",
       "phone": "05059934122",
+      "website": null,
       "lat": 36.717,
       "lon": 37.1185,
       "address": "Dr. Sadık Ahmet Cd. No:2",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -279,9 +359,12 @@
       "id": "taksi724-05411440164-21",
       "name": "İsmet Paşa Taksi",
       "phone": "05411440164",
+      "website": null,
       "lat": 36.7195,
       "lon": 37.1225,
       "address": "Erdoğan Bulvarı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -291,9 +374,12 @@
       "id": "taksi724-05459561304-22",
       "name": "Necmettin Erbakan Taksi",
       "phone": "05459561304",
+      "website": null,
       "lat": 36.7165,
       "lon": 37.118,
       "address": "Sarıkekilli Sk. No:6",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -303,9 +389,12 @@
       "id": "taksi724-05524500122-23",
       "name": "Otogar Taksi",
       "phone": "05524500122",
+      "website": null,
       "lat": 36.72,
       "lon": 37.123,
       "address": "Yavuz Sultan Selim Mahallesi",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -315,9 +404,12 @@
       "id": "taksi724-03488135615-24",
       "name": "Site Taksi",
       "phone": "03488135615",
+      "website": null,
       "lat": 36.722,
       "lon": 37.115,
       "address": "Yavuz Sultan Selim, Mercidabık Cd. No:164",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -327,9 +419,12 @@
       "id": "taksi724-03488134948-25",
       "name": "Taksi",
       "phone": "03488134948",
+      "website": null,
       "lat": 36.715267,
       "lon": 37.131692,
       "address": "Yaşar Aktürk Mah. 6 Nolu Sok. 16 Kilis Merkez, Kilis",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -340,9 +435,12 @@
       "id": "taksi724-05458400418-26",
       "name": "Tırıklı Taksi",
       "phone": "05458400418",
+      "website": null,
       "lat": 36.7185,
       "lon": 37.1205,
       "address": "Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -352,9 +450,12 @@
       "id": "taksi724-05538703384-27",
       "name": "Üniversite Emek Taksi",
       "phone": "05538703384",
+      "website": null,
       "lat": 36.7175,
       "lon": 37.1195,
       "address": "Haki Efendi Sk. No:17",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -366,9 +467,12 @@
       "id": "taksi724-05423797919-28",
       "name": "Üniversite Taksi",
       "phone": "05423797919",
+      "website": null,
       "lat": 36.725,
       "lon": 37.11,
       "address": "Atatürk Mh. Üniversite Cad. No:2",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -378,9 +482,12 @@
       "id": "taksi724-05389720909-29",
       "name": "Vatan Taksi",
       "phone": "05389720909",
+      "website": null,
       "lat": 36.728867,
       "lon": 37.099478,
       "address": "Ekrem Çetin Mah. Doğan Güreş Paşa Blv. Kilis Merkez, Kilis",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -390,9 +497,12 @@
       "id": "taksi724-05077910079-30",
       "name": "kilis-taksi",
       "phone": "05077910079",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": "Yaşar Aktürk, Vatan Cd. No:22",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -402,9 +512,12 @@
       "id": "taksi724-05436919682-31",
       "name": "Kilis Arslan Taksi",
       "phone": "05436919682",
+      "website": null,
       "lat": 36.7101905,
       "lon": 37.1019978,
       "address": null,
+      "districtId": "musabeyli",
+      "districtName": "Musabeyli",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -416,9 +529,12 @@
       "id": "taksicibul-05061544958-32",
       "name": "Taksi79",
       "phone": "05061544958",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -428,9 +544,12 @@
       "id": "taksicibul-05448447900-33",
       "name": "halep şam suriye kilis gaziantep taksi tur kargo nakliye",
       "phone": "05448447900",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -440,9 +559,12 @@
       "id": "taksicibul-05303859570-34",
       "name": "Zeki turizm yolcu taşımacılığı",
       "phone": "05303859570",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -452,9 +574,12 @@
       "id": "taksicibul-05457307979-35",
       "name": "KİLİS 500 EVLER MERT TAKSİ",
       "phone": "05457307979",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -465,9 +590,12 @@
       "id": "taksicibul-05365009765-36",
       "name": "Kilis hastane taksi 7/24",
       "phone": "05365009765",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -477,9 +605,12 @@
       "id": "taksicibul-03488136321-37",
       "name": "CEM TAKSİ",
       "phone": "03488136321",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -490,9 +621,12 @@
       "id": "taksiciler-05376555649-38",
       "name": "Çengel Taksi",
       "phone": "05376555649",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -502,9 +636,12 @@
       "id": "taksiciler-03488131263-39",
       "name": "Kilis Beşevler Adliye Taksi AÇIK · 7 gün 24 saat necmettin erbakan mahallesi muh",
       "phone": "03488131263",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -514,9 +651,12 @@
       "id": "taksiciler-05446277900-40",
       "name": "Kilis Kahraman Taksi AÇIK · 7 gün 24 saat Şıh Mehmet, büyük Ayman sokak 11/1, 79",
       "phone": "05446277900",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -526,9 +666,12 @@
       "id": "taksiciler-05326438736-41",
       "name": "Otogar Taksi Kilis AÇIK · 7 gün 24 saat Yavuz Sultan Selim, Mercidabık Cd. No:16",
       "phone": "05326438736",
+      "website": null,
       "lat": 36.7184,
       "lon": 37.1212,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -538,8 +681,12 @@
       "id": "nerede360-03488141460-42",
       "name": "Kahraman Taksi Durağı",
       "phone": "03488141460",
-      "lat": 36.7184,
-      "lon": 37.1212,
+      "website": "https://www.facebook.com/profile.php?id=100063656306972",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -549,8 +696,12 @@
       "id": "nerede360-05535351973-43",
       "name": "Vatan Taksi - Uğur Polat",
       "phone": "05535351973",
-      "lat": 36.7184,
-      "lon": 37.1212,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -560,8 +711,12 @@
       "id": "nerede360-03488131014-44",
       "name": "Vatan Taksi Durağı",
       "phone": "03488131014",
-      "lat": 36.7184,
-      "lon": 37.1212,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": true,
       "sources": [
         "nerede360"

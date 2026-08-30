@@ -1,12 +1,44 @@
 {
   "cityId": "sirnak",
   "cityName": "Şırnak",
-  "fetchedAt": "2026-08-30T21:24:53.724Z",
+  "fetchedAt": "2026-08-30T21:37:41.771Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "beytussebap",
+      "name": "Beytussebap",
+      "count": 7
+    },
+    {
+      "id": "cizre",
+      "name": "Cizre",
+      "count": 18
+    },
+    {
+      "id": "idil",
+      "name": "İdil",
+      "count": 4
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 10
+    },
+    {
+      "id": "silopi",
+      "name": "Silopi",
+      "count": 5
+    },
+    {
+      "id": "uludere",
+      "name": "Uludere",
+      "count": 2
+    }
   ],
   "count": 72,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-05426492108-0",
       "name": "Cizre bi Taksi",
       "phone": "05426492108",
+      "website": null,
       "lat": 37.320162,
       "lon": 42.186647,
       "address": "Sur Mah. Nusaybin Cad. Cizre, Şırnak",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +61,12 @@
       "id": "taksi724-05442027342-1",
       "name": "Cizre çiçek Taksi",
       "phone": "05442027342",
+      "website": null,
       "lat": 37.3327561,
       "lon": 42.1882661,
       "address": "Taksi Durağı · Arma Sk. No:2",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +76,12 @@
       "id": "taksi724-05377294443-2",
       "name": "Cizre Deniz Taksi",
       "phone": "05377294443",
+      "website": null,
       "lat": 37.328326,
       "lon": 42.1888079,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +91,12 @@
       "id": "taksi724-05428188384-3",
       "name": "Cizre Hastane Taksi",
       "phone": "05428188384",
+      "website": null,
       "lat": 37.3425907,
       "lon": 42.1780394,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -63,9 +107,12 @@
       "id": "taksi724-05417381417-4",
       "name": "Cizre İpekyol Taksi",
       "phone": "05417381417",
+      "website": null,
       "lat": 37.3152796,
       "lon": 42.1921728,
       "address": "Taksi Durağı ·  · Amina Yaşin Cad No:10",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -76,9 +123,12 @@
       "id": "taksi724-05422037373-5",
       "name": "Cizre mem u zin Taksi",
       "phone": "05422037373",
+      "website": null,
       "lat": 37.3302868,
       "lon": 42.1836737,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -89,9 +139,12 @@
       "id": "taksi724-05444466864-6",
       "name": "Cizrem Taksi",
       "phone": "05444466864",
+      "website": null,
       "lat": 37.3236825,
       "lon": 42.18574,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -102,9 +155,12 @@
       "id": "taksi724-05423714424-7",
       "name": "Cizre serbest Taksi",
       "phone": "05423714424",
+      "website": null,
       "lat": 37.3268153,
       "lon": 42.1872635,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -114,9 +170,12 @@
       "id": "taksi724-05411281080-8",
       "name": "Cizre Surdibi Taksi",
       "phone": "05411281080",
+      "website": null,
       "lat": 37.3265899,
       "lon": 42.1909178,
       "address": "Ulaşım Hizmeti · Orhan Doğan Cd. No:115",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -126,9 +185,12 @@
       "id": "taksi724-05428307320-9",
       "name": "Cizre Taksi",
       "phone": "05428307320",
+      "website": null,
       "lat": 37.3277895,
       "lon": 42.1939683,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -138,9 +200,12 @@
       "id": "taksi724-05445699880-10",
       "name": "Cizre Taksi",
       "phone": "05445699880",
+      "website": null,
       "lat": 37.33,
       "lon": 42.19,
       "address": "Cizre Merkez",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -150,9 +215,12 @@
       "id": "taksi724-05432581069-11",
       "name": "Cizre Taksi",
       "phone": "05432581069",
+      "website": null,
       "lat": 37.3262573,
       "lon": 42.2138266,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -162,9 +230,12 @@
       "id": "taksi724-05079180993-12",
       "name": "Cizre Taksi",
       "phone": "05079180993",
+      "website": null,
       "lat": 37.3271276,
       "lon": 42.1864723,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -174,9 +245,12 @@
       "id": "taksi724-05072614867-13",
       "name": "Cizre Taksi",
       "phone": "05072614867",
+      "website": null,
       "lat": 37.3224597,
       "lon": 42.1867244,
       "address": "Taksi Durağı ·  · Sur Mahallesi Nusaybin Caddesi, Otogar No:49/5",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -186,9 +260,12 @@
       "id": "taksi724-05521241595-14",
       "name": "Furkan Taksi",
       "phone": "05521241595",
+      "website": null,
       "lat": 37.3202373,
       "lon": 42.1834891,
       "address": "Taksi Durağı · Oğuz Sk. No:13",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -198,9 +275,12 @@
       "id": "taksi724-05433156038-15",
       "name": "İpekyol Taksi",
       "phone": "05433156038",
+      "website": null,
       "lat": 37.3376188,
       "lon": 42.2178483,
       "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -210,9 +290,12 @@
       "id": "taksi724-05427442324-16",
       "name": "sirnak-taksi",
       "phone": "05427442324",
+      "website": null,
       "lat": 37.326868,
       "lon": 42.1847773,
       "address": "Taksi Durağı · Mem U Zin Blv No:34",
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -222,9 +305,12 @@
       "id": "taksi724-05449287515-17",
       "name": "Hastane Toki Taksi",
       "phone": "05449287515",
+      "website": null,
       "lat": 37.5168,
       "lon": 42.4615,
       "address": "Aydınlıkevler, Cumhuriyet Meydanı",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -234,9 +320,12 @@
       "id": "taksi724-04862161500-18",
       "name": "Hastane Toki Taksi",
       "phone": "04862161500",
+      "website": null,
       "lat": 37.5175,
       "lon": 42.4625,
       "address": "Yeni Mah. Cizre Cad.",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -246,9 +335,12 @@
       "id": "taksi724-19-19",
       "name": "Kuran Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.519313,
       "lon": 42.449613,
       "address": "Yeni Mah. Cizre Cad. Şırnak Merkez, Şırnak",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -258,9 +350,12 @@
       "id": "taksi724-05443632774-20",
       "name": "Nergiz Taksi",
       "phone": "05443632774",
+      "website": null,
       "lat": 37.522873,
       "lon": 42.455997,
       "address": "Atatürk Mah. Atatürk Cad. Şırnak Merkez, Şırnak",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -270,9 +365,12 @@
       "id": "taksi724-04862163033-21",
       "name": "Şehri Nur Taksi",
       "phone": "04862163033",
+      "website": null,
       "lat": 37.516,
       "lon": 42.46,
       "address": "Gündoğdu, Uludere Cd. No:98",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -283,9 +381,12 @@
       "id": "taksi724-04427929597-22",
       "name": "Şırnak Merkez Taksi",
       "phone": "04427929597",
+      "website": null,
       "lat": 37.517665,
       "lon": 42.453334,
       "address": "Yeni Mah. Şehit Ali Batmaz Cad. Şırnak Merkez, Şırnak",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -295,9 +396,12 @@
       "id": "taksi724-05426492108-23",
       "name": "Şırnak Otogar Taksi",
       "phone": "05426492108",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": "Şırnak Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -307,9 +411,12 @@
       "id": "taksi724-05433081858-24",
       "name": "Tekser Taksi",
       "phone": "05433081858",
+      "website": null,
       "lat": 37.517,
       "lon": 42.462,
       "address": "Yeni, otogar",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -320,9 +427,12 @@
       "id": "taksi724-04862164006-25",
       "name": "Tekser Taksi",
       "phone": "04862164006",
+      "website": null,
       "lat": 37.5172,
       "lon": 42.4618,
       "address": "Vakıfkent Mah. Siteler Cad. No:13",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -332,9 +442,12 @@
       "id": "taksi724-04862164006-26",
       "name": "sirnak-taksi",
       "phone": "04862164006",
+      "website": null,
       "lat": 37.516198,
       "lon": 42.457425,
       "address": "Vakıfkent Mah. Siteler Cad. (Toki Lojmanları İçinde Vakıfkent Karşısında) Şırnak Merkez, Şırnak",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -345,9 +458,12 @@
       "id": "taksi724-04862161585-27",
       "name": "ŞIRNAK GÜVEN TAKSi",
       "phone": "04862161585",
+      "website": null,
       "lat": 37.4907288,
       "lon": 42.4281826,
       "address": "Taksi Durağı · Bahçeli evler Lise Caddesi No:21 Toki konutları AB7-14 blo",
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -358,9 +474,12 @@
       "id": "taksi724-05442161309-28",
       "name": "Şirnak Taksi",
       "phone": "05442161309",
+      "website": null,
       "lat": 37.5279967,
       "lon": 42.4524287,
       "address": "Taksi · Şırnak, Anıl Sk.",
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -371,9 +490,12 @@
       "id": "taksi724-05468211206-29",
       "name": "Taksi durağı",
       "phone": "05468211206",
+      "website": null,
       "lat": 37.5199164,
       "lon": 42.4537312,
       "address": null,
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -383,9 +505,12 @@
       "id": "taksi724-05422046373-30",
       "name": "Şırnak Güven Taksi",
       "phone": "05422046373",
+      "website": null,
       "lat": 37.5096879,
       "lon": 42.4580797,
       "address": null,
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -395,9 +520,12 @@
       "id": "taksi724-05449287515-31",
       "name": "Şırnak Taksi",
       "phone": "05449287515",
+      "website": null,
       "lat": 37.5217498,
       "lon": 42.4529519,
       "address": null,
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -408,9 +536,12 @@
       "id": "taksi724-05379723338-32",
       "name": "Yeni Çiçek Taksi",
       "phone": "05379723338",
+      "website": null,
       "lat": 37.5274342,
       "lon": 42.4558478,
       "address": null,
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -420,9 +551,12 @@
       "id": "taksi724-04862165153-33",
       "name": "irnak Taksi",
       "phone": "04862165153",
+      "website": null,
       "lat": 37.5154439,
       "lon": 42.4645214,
       "address": "Taksi Durağı · Mesut Sk. No:21",
+      "districtId": "beytussebap",
+      "districtName": "Beytussebap",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -433,9 +567,12 @@
       "id": "taksi724-04867112020-34",
       "name": "İdil Taksi",
       "phone": "04867112020",
+      "website": null,
       "lat": 37.34,
       "lon": 41.88,
       "address": "İdil Merkez",
+      "districtId": "idil",
+      "districtName": "İdil",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -445,9 +582,12 @@
       "id": "taksi724-05435868119-35",
       "name": "İdil Taksi",
       "phone": "05435868119",
+      "website": null,
       "lat": 37.3411364,
       "lon": 41.8881509,
       "address": "Taksi Durağı ·  · 405. Sk. No:8",
+      "districtId": "idil",
+      "districtName": "İdil",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -458,9 +598,12 @@
       "id": "taksi724-05362822002-36",
       "name": "dil Taksi",
       "phone": "05362822002",
+      "website": null,
       "lat": 37.3401387,
       "lon": 41.8926888,
       "address": null,
+      "districtId": "idil",
+      "districtName": "İdil",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -470,9 +613,12 @@
       "id": "taksi724-37-37",
       "name": "Habur Taksi",
       "phone": null,
+      "website": null,
       "lat": 37.247315,
       "lon": 42.468807,
       "address": "Dicle Mah. İpek Yolu 58 Silopi, Şırnak",
+      "districtId": "silopi",
+      "districtName": "Silopi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -482,9 +628,12 @@
       "id": "taksi724-05414571397-38",
       "name": "Silopi Taksi",
       "phone": "05414571397",
+      "website": null,
       "lat": 37.246688,
       "lon": 42.469495,
       "address": "Dicle Mah. İpekyol Cad. 57 Silopi, Şırnak",
+      "districtId": "silopi",
+      "districtName": "Silopi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -494,9 +643,12 @@
       "id": "taksi724-04865185050-39",
       "name": "Silopi Taksi",
       "phone": "04865185050",
+      "website": null,
       "lat": 37.25,
       "lon": 42.47,
       "address": "Silopi Merkez",
+      "districtId": "silopi",
+      "districtName": "Silopi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -506,9 +658,12 @@
       "id": "taksicibul-05445011133-40",
       "name": "Şehri Nuh Otel Taksi",
       "phone": "05445011133",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -518,9 +673,12 @@
       "id": "taksicibul-05425300773-41",
       "name": "Şırnak Taksi Sabri",
       "phone": "05425300773",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -530,9 +688,12 @@
       "id": "taksicibul-05414864259-42",
       "name": "Şırnak taksi güven vedat",
       "phone": "05414864259",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -543,9 +704,12 @@
       "id": "taksicibul-05515360043-43",
       "name": "Taksi durağı",
       "phone": "05515360043",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -555,9 +719,12 @@
       "id": "taksicibul-05377023276-44",
       "name": "Şırnak Taksi Muhammed",
       "phone": "05377023276",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -567,9 +734,12 @@
       "id": "taksicibul-05444197553-45",
       "name": "Şırnak Nihat Taksi",
       "phone": "05444197553",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -579,9 +749,12 @@
       "id": "taksicibul-05376650073-46",
       "name": "Yusuf taksi",
       "phone": "05376650073",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -591,9 +764,12 @@
       "id": "taksiciler-05424862173-47",
       "name": "Tümü → Meydan Taksi Şırnak AÇIK · 7 gün 24 saat Atatürk mahallesi cumhuriyet mah",
       "phone": "05424862173",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -603,9 +779,12 @@
       "id": "taksiciler-05434151057-48",
       "name": "Taksi",
       "phone": "05434151057",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -615,9 +794,12 @@
       "id": "taksiciler-05448758136-49",
       "name": "Yusuf Taksi Şırnak AÇIK · 7 gün 24 saat Bahçelievler, üst geçit yani, Şırnak, Ci",
       "phone": "05448758136",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -627,9 +809,12 @@
       "id": "taksiciler-05446162624-50",
       "name": "Botan Taksi",
       "phone": "05446162624",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -639,9 +824,12 @@
       "id": "taksiciler-05422027381-51",
       "name": "Cizre Bi Taksi",
       "phone": "05422027381",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -651,9 +839,12 @@
       "id": "taksiciler-05448866996-52",
       "name": "Cizre Taksi",
       "phone": "05448866996",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -663,9 +854,12 @@
       "id": "taksiciler-05413634084-53",
       "name": "Cizre Taksi Durağı",
       "phone": "05413634084",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -675,9 +869,12 @@
       "id": "taksiciler-05427978729-54",
       "name": "Cizre Taksi İkram AÇIK · 7 gün 24 saat Cudi, Şehirlerarası Cizre Taksi hizmeti D",
       "phone": "05427978729",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -687,9 +884,12 @@
       "id": "taksiciler-05452523410-55",
       "name": "Uçar Taksi Cizre",
       "phone": "05452523410",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -699,9 +899,12 @@
       "id": "taksiciler-04862161347-56",
       "name": "Tümü → Deniz Taksi",
       "phone": "04862161347",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -711,9 +914,12 @@
       "id": "taksiciler-05319891995-57",
       "name": "Midyat Taksi 3007",
       "phone": "05319891995",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -723,9 +929,12 @@
       "id": "taksiciler-05356876503-58",
       "name": "Midyat Taksi 7/25",
       "phone": "05356876503",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -735,9 +944,12 @@
       "id": "taksiciler-05415051373-59",
       "name": "Silopi Gümrük Kapısı Taksi",
       "phone": "05415051373",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -747,9 +959,12 @@
       "id": "taksiciler-05439286998-60",
       "name": "Silopi Taksi 73",
       "phone": "05439286998",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -759,9 +974,12 @@
       "id": "taksiciler-05424468803-61",
       "name": "Uludere Taksi Durağı",
       "phone": "05424468803",
+      "website": "https://www.facebook.com/share/19HBGAhtTx/",
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": "uludere",
+      "districtName": "Uludere",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -772,9 +990,12 @@
       "id": "taksiciler-05525020673-62",
       "name": "Tümü → İdil Merkez Taksi",
       "phone": "05525020673",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -784,9 +1005,12 @@
       "id": "taksiciler-05433287053-63",
       "name": "İdil Taksi",
       "phone": "05433287053",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -796,9 +1020,12 @@
       "id": "taksiciler-05443914450-64",
       "name": "Tümü → Akasya Taksi Durağı Silopi",
       "phone": "05443914450",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -808,9 +1035,12 @@
       "id": "taksiciler-05461857773-65",
       "name": "Habur Taksi – Silopi Taksi",
       "phone": "05461857773",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": "silopi",
+      "districtName": "Silopi",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -821,9 +1051,12 @@
       "id": "taksiciler-05445285708-66",
       "name": "Silopi Taksi",
       "phone": "05445285708",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -833,9 +1066,12 @@
       "id": "taksiciler-05415197180-67",
       "name": "Taksici Ali",
       "phone": "05415197180",
+      "website": null,
       "lat": 37.5164,
       "lon": 42.4611,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -845,8 +1081,12 @@
       "id": "nerede360-05448840073-68",
       "name": "İdil Taksi - Ahmet Özel",
       "phone": "05448840073",
-      "lat": 37.5164,
-      "lon": 42.4611,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "idil",
+      "districtName": "İdil",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -856,8 +1096,12 @@
       "id": "nerede360-05445545050-69",
       "name": "Silopi Taksi - Kemal Nedim",
       "phone": "05445545050",
-      "lat": 37.5164,
-      "lon": 42.4611,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "silopi",
+      "districtName": "Silopi",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -867,8 +1111,12 @@
       "id": "nerede360-05459044266-70",
       "name": "Uludure Taksi - Servet Ürper",
       "phone": "05459044266",
-      "lat": 37.5164,
-      "lon": 42.4611,
+      "website": "https://instagram.com/uluderetaksi/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "uludere",
+      "districtName": "Uludere",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -878,8 +1126,12 @@
       "id": "nerede360-05456204989-71",
       "name": "Umut Taksi - Fırat Demir",
       "phone": "05456204989",
-      "lat": 37.5164,
-      "lon": 42.4611,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "cizre",
+      "districtName": "Cizre",
       "approximate": true,
       "sources": [
         "nerede360"

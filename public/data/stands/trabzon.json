@@ -1,12 +1,89 @@
 {
   "cityId": "trabzon",
   "cityName": "Trabzon",
-  "fetchedAt": "2026-08-30T21:23:42.693Z",
+  "fetchedAt": "2026-08-30T21:36:26.743Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "akcaabat",
+      "name": "Akcaabat",
+      "count": 15
+    },
+    {
+      "id": "arsin",
+      "name": "Arsin",
+      "count": 4
+    },
+    {
+      "id": "besikduzu",
+      "name": "Besikduzu",
+      "count": 2
+    },
+    {
+      "id": "carsibasi",
+      "name": "Carsibasi",
+      "count": 2
+    },
+    {
+      "id": "caykara",
+      "name": "Caykara",
+      "count": 1
+    },
+    {
+      "id": "duzkoy",
+      "name": "Duzkoy",
+      "count": 1
+    },
+    {
+      "id": "hayrat",
+      "name": "Hayrat",
+      "count": 1
+    },
+    {
+      "id": "macka",
+      "name": "Macka",
+      "count": 1
+    },
+    {
+      "id": "of",
+      "name": "Of",
+      "count": 12
+    },
+    {
+      "id": "ortahisar",
+      "name": "Ortahisar",
+      "count": 37
+    },
+    {
+      "id": "salpazari",
+      "name": "Salpazari",
+      "count": 2
+    },
+    {
+      "id": "surmene",
+      "name": "Surmene",
+      "count": 4
+    },
+    {
+      "id": "tonya",
+      "name": "Tonya",
+      "count": 2
+    },
+    {
+      "id": "vakfikebir",
+      "name": "Vakfikebir",
+      "count": 8
+    },
+    {
+      "id": "yomra",
+      "name": "Yomra",
+      "count": 5
+    }
   ],
   "count": 115,
   "stands": [
@@ -14,9 +91,12 @@
       "id": "taksi724-04622232000-0",
       "name": "Bahçecik Taksi",
       "phone": "04622232000",
+      "website": null,
       "lat": 40.9945717,
       "lon": 39.6718648,
       "address": "Taksi Durağı · Nurettin Doğan Cd. No:6",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +106,12 @@
       "id": "taksi724-04627836100-1",
       "name": "Beşirli Taksi",
       "phone": "04627836100",
+      "website": null,
       "lat": 40.996913,
       "lon": 39.7177642,
       "address": "Taksi Durağı · Affan Kitapçıoğlu Cd. No:13",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +121,12 @@
       "id": "taksi724-04622210050-2",
       "name": "Boztepe Çukurçayır Taksi",
       "phone": "04622210050",
+      "website": null,
       "lat": 40.9935398,
       "lon": 39.6652373,
       "address": "Taksi Durağı · Eyüboğlu Cd. No:3",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +136,12 @@
       "id": "taksi724-05524616149-3",
       "name": "Erdoğdu Çatak Taksi",
       "phone": "05524616149",
+      "website": null,
       "lat": 41.01,
       "lon": 39.73,
       "address": "Boztepe",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -62,9 +151,12 @@
       "id": "taksi724-04622235446-4",
       "name": "Fatih Devlet Hastanesi Taksi",
       "phone": "04622235446",
+      "website": null,
       "lat": 40.9942078,
       "lon": 39.7057059,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -74,9 +166,12 @@
       "id": "taksi724-05385297387-5",
       "name": "Fatih Taksi",
       "phone": "05385297387",
+      "website": null,
       "lat": 41.005,
       "lon": 39.72,
       "address": "Devlet Hastanesi Önü",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -86,9 +181,12 @@
       "id": "taksi724-04622249191-6",
       "name": "Forum Taksi",
       "phone": "04622249191",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": "Fatih Mahallesi, Ortahisar",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -98,9 +196,12 @@
       "id": "taksi724-05379192931-7",
       "name": "Forum Trabzon Taksi",
       "phone": "05379192931",
+      "website": null,
       "lat": 40.9975078,
       "lon": 39.7622516,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -110,9 +211,12 @@
       "id": "taksi724-04623257070-8",
       "name": "Havaalanı Taksi",
       "phone": "04623257070",
+      "website": null,
       "lat": 40.998,
       "lon": 39.765,
       "address": "Forum Trabzon AVM",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -122,9 +226,12 @@
       "id": "taksi724-04623256729-9",
       "name": "Havalimanı Taksi",
       "phone": "04623256729",
+      "website": null,
       "lat": 40.9930601,
       "lon": 39.781731,
       "address": "Taksi · Havalimanı Cd. No:8",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -134,9 +241,12 @@
       "id": "taksi724-04623256060-10",
       "name": "Kalkınma Tıp Fakültesi Taksi",
       "phone": "04623256060",
+      "website": null,
       "lat": 40.995,
       "lon": 39.79,
       "address": "Trabzon Havalimanı",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -146,9 +256,12 @@
       "id": "taksi724-04623253030-11",
       "name": "Karşıyaka Taksi",
       "phone": "04623253030",
+      "website": null,
       "lat": 40.992,
       "lon": 39.775,
       "address": "KTÜ Tıp Fakültesi",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -159,9 +272,12 @@
       "id": "taksi724-05309524714-12",
       "name": "Kaşüstü Hastane Taksi",
       "phone": "05309524714",
+      "website": null,
       "lat": 40.9961231,
       "lon": 39.6830184,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -173,9 +289,12 @@
       "id": "taksi724-05331522364-13",
       "name": "CUMHURiYET cad. TAKSi",
       "phone": "05331522364",
+      "website": null,
       "lat": 40.954483,
       "lon": 39.8206586,
       "address": "Taksi Durağı · Topal Osman Sok. No:12 Kaşüstü",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -186,9 +305,12 @@
       "id": "taksi724-04623000404-14",
       "name": "Kemerkaya Taksi",
       "phone": "04623000404",
+      "website": null,
       "lat": 41.0084146,
       "lon": 39.7260259,
       "address": "Taksi Durağı ·  · TAKSİ durağı, Muhteşem Sk. no:2",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -198,9 +320,12 @@
       "id": "taksi724-04623000404-15",
       "name": "KTÜ Taksi",
       "phone": "04623000404",
+      "website": null,
       "lat": 41.003,
       "lon": 39.725,
       "address": "Kemerkaya Mahallesi",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -210,9 +335,12 @@
       "id": "taksi724-05350532155-16",
       "name": "Meydan Park Taksi",
       "phone": "05350532155",
+      "website": null,
       "lat": 40.9966642,
       "lon": 39.7730245,
       "address": "Taksi Durağı · Milli Egemenlik Cd. No:27",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -223,9 +351,12 @@
       "id": "taksi724-04623211328-17",
       "name": "Meydan Taksi",
       "phone": "04623211328",
+      "website": null,
       "lat": 41.0044086,
       "lon": 39.7310212,
       "address": "Taksi Durağı · Gazipaşa Mah. Atatürk Alanı Karşısı, Taksim Cd. No:79",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -235,9 +366,12 @@
       "id": "taksi724-04623211328-18",
       "name": "Numune Hastanesi Taksi",
       "phone": "04623211328",
+      "website": null,
       "lat": 41.0025,
       "lon": 39.7175,
       "address": "Trabzon Meydanı",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -247,9 +381,12 @@
       "id": "taksi724-04623212525-19",
       "name": "Numune Taksi",
       "phone": "04623212525",
+      "website": null,
       "lat": 41.004,
       "lon": 39.722,
       "address": "Numune Hastanesi",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -259,9 +396,12 @@
       "id": "taksi724-05336272166-20",
       "name": "Otogar Taksi",
       "phone": "05336272166",
+      "website": null,
       "lat": 41.0059695,
       "lon": 39.7078142,
       "address": "Taksi Durağı · Numune Hastanesi Önü, Kahramanmaraş Cd. No:301",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -271,9 +411,12 @@
       "id": "taksi724-04623255050-21",
       "name": "Pazarkapı Taksi",
       "phone": "04623255050",
+      "website": null,
       "lat": 40.985,
       "lon": 39.76,
       "address": "Trabzon Otogarı",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -283,9 +426,12 @@
       "id": "taksi724-04623216078-22",
       "name": "Pelitli Konaklar Çimenli Taksi",
       "phone": "04623216078",
+      "website": null,
       "lat": 41.002,
       "lon": 39.715,
       "address": "Pazarkapı Meydanı",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -295,9 +441,12 @@
       "id": "taksi724-04623355444-23",
       "name": "Pelitli Taksi",
       "phone": "04623355444",
+      "website": null,
       "lat": 40.9881379,
       "lon": 39.7914882,
       "address": "Taksi Durağı ·  · Yunus Emre Cd. No:25",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -307,9 +456,12 @@
       "id": "taksi724-04623355444-24",
       "name": "Sanayi Taksi",
       "phone": "04623355444",
+      "website": null,
       "lat": 40.99,
       "lon": 39.68,
       "address": "Pelitli Mahallesi",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -320,9 +472,12 @@
       "id": "taksi724-05550467818-25",
       "name": "Taksi",
       "phone": "05550467818",
+      "website": null,
       "lat": 41.008,
       "lon": 39.71,
       "address": "Sanayi Mahallesi",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -332,9 +487,12 @@
       "id": "taksi724-05436349961-26",
       "name": "TIP FAKÜLTESi KALKINMA TAKSi",
       "phone": "05436349961",
+      "website": null,
       "lat": 40.99636,
       "lon": 39.750118,
       "address": "Taksi · Akmeşe Sk. No:19",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -345,9 +503,12 @@
       "id": "taksi724-05387192413-27",
       "name": "Trabzon degirmendere Sanayi Taksi",
       "phone": "05387192413",
+      "website": null,
       "lat": 40.992169,
       "lon": 39.7679198,
       "address": "Taksi Durağı ·  · Farabi Cd. No: 64",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -358,9 +519,12 @@
       "id": "taksi724-05461388233-28",
       "name": "Trabzon Fatih Taksi",
       "phone": "05461388233",
+      "website": null,
       "lat": 40.99381,
       "lon": 39.7496151,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -371,9 +535,12 @@
       "id": "taksi724-05496161212-29",
       "name": "Trabzon Taksi",
       "phone": "05496161212",
+      "website": null,
       "lat": 40.9943974,
       "lon": 39.6903453,
       "address": "Taksi Durağı · 612. Sk.",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -383,9 +550,12 @@
       "id": "taksi724-05527517061-30",
       "name": "Trabzon Taksi",
       "phone": "05527517061",
+      "website": null,
       "lat": 41.0024486,
       "lon": 39.7306808,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -395,9 +565,12 @@
       "id": "taksi724-05346539961-31",
       "name": "Trabzon Yalıncak Taksi",
       "phone": "05346539961",
+      "website": null,
       "lat": 40.9974114,
       "lon": 39.7525248,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -409,9 +582,12 @@
       "id": "taksi724-05400108080-32",
       "name": "Trabzon Yıldız Taksi",
       "phone": "05400108080",
+      "website": null,
       "lat": 40.9846651,
       "lon": 39.8139122,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -421,9 +597,12 @@
       "id": "taksi724-05394340130-33",
       "name": "Yalıncak Taksi",
       "phone": "05394340130",
+      "website": null,
       "lat": 41.008296,
       "lon": 39.7230012,
       "address": "Taksi Durağı · Çarşı Mahallesi Kahramanmaraş Caddesi No:70 D: 70A",
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -433,9 +612,12 @@
       "id": "taksi724-05400108080-34",
       "name": "YENiMAHALLE ÖZEN TAKSi",
       "phone": "05400108080",
+      "website": null,
       "lat": 40.9700377,
       "lon": 39.8327386,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -447,9 +629,12 @@
       "id": "taksi724-05406040061-35",
       "name": "trabzon-taksi",
       "phone": "05406040061",
+      "website": null,
       "lat": 41.0057803,
       "lon": 39.70114,
       "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -460,9 +645,12 @@
       "id": "taksi724-04622682442-36",
       "name": "Akçaabat Dürbinar Taksi",
       "phone": "04622682442",
+      "website": null,
       "lat": 41.02,
       "lon": 39.565,
       "address": "Darıca Mahallesi",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -472,9 +660,12 @@
       "id": "taksi724-04622281710-37",
       "name": "Akçaabat Hastane Taksi",
       "phone": "04622281710",
+      "website": null,
       "lat": 41.022,
       "lon": 39.56,
       "address": "Dürbinar Mahallesi",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -484,9 +675,12 @@
       "id": "taksi724-04622276264-38",
       "name": "Akçaabat Kavaklı Taksi",
       "phone": "04622276264",
+      "website": null,
       "lat": 41.019643,
       "lon": 39.579701,
       "address": "Yaylacık Mah. Adnan Menderes Blv. Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -496,9 +690,12 @@
       "id": "taksi724-04622600260-39",
       "name": "Akçaabat Merkez Taksi",
       "phone": "04622600260",
+      "website": null,
       "lat": 41.0343785,
       "lon": 39.5581646,
       "address": "Taksi Durağı · Biz-Mar Karşısı, Akçaabat Caddesi, Taksi Durağı",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -508,9 +705,12 @@
       "id": "taksi724-04622484801-40",
       "name": "Birlik Taksi",
       "phone": "04622484801",
+      "website": null,
       "lat": 41.018,
       "lon": 39.57,
       "address": "Akçaabat Merkez",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -520,9 +720,12 @@
       "id": "taksi724-04622281706-41",
       "name": "Darıca Park Taksi",
       "phone": "04622281706",
+      "website": null,
       "lat": 41.022335,
       "lon": 39.570041,
       "address": "Dürbinar Mah. Atatürk Blv. Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -533,9 +736,12 @@
       "id": "taksi724-04622682442-42",
       "name": "Derecik Taksi",
       "phone": "04622682442",
+      "website": null,
       "lat": 41.0472545,
       "lon": 39.5452137,
       "address": null,
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -546,9 +752,12 @@
       "id": "taksi724-04623232132-43",
       "name": "Körfez Taksi",
       "phone": "04623232132",
+      "website": null,
       "lat": 40.9529567,
       "lon": 39.5999647,
       "address": null,
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -559,9 +768,12 @@
       "id": "taksi724-05496161212-44",
       "name": "Pulathane Taksi",
       "phone": "05496161212",
+      "website": null,
       "lat": 41.02609803,
       "lon": 39.56448117,
       "address": "Nefsipulathane Mah. Bahçeli Sok. Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -573,9 +785,12 @@
       "id": "taksi724-04622288845-45",
       "name": "Salacık Taksi",
       "phone": "04622288845",
+      "website": null,
       "lat": 41.025719,
       "lon": 39.563596,
       "address": "Nefsipulathane Mah. İnönü Cad. Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -586,9 +801,12 @@
       "id": "taksi724-04622592363-46",
       "name": "Sebat Taksi",
       "phone": "04622592363",
+      "website": null,
       "lat": 41.053578,
       "lon": 39.519784,
       "address": "Salacık Köyü Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -599,9 +817,12 @@
       "id": "taksi724-04622281710-47",
       "name": "Söğütlü TAKSI",
       "phone": "04622281710",
+      "website": null,
       "lat": 41.022553,
       "lon": 39.568838,
       "address": "Dürbinar Mah. Durak Sok. Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -612,9 +833,12 @@
       "id": "taksi724-04626669111-48",
       "name": "Yaylacık Taksi",
       "phone": "04626669111",
+      "website": null,
       "lat": 41.0119293,
       "lon": 39.606269,
       "address": null,
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -624,9 +848,12 @@
       "id": "taksi724-04622288181-49",
       "name": "Yildizli Taksi",
       "phone": "04622288181",
+      "website": null,
       "lat": 41.01778,
       "lon": 39.579418,
       "address": "Yaylacık Mah. Cumhuriyet Sok. Akçaabat, Trabzon",
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -637,9 +864,12 @@
       "id": "taksi724-04622484801-50",
       "name": "trabzon-taksi",
       "phone": "04622484801",
+      "website": null,
       "lat": 41.0084436,
       "lon": 39.6208496,
       "address": null,
+      "districtId": "akcaabat",
+      "districtName": "Akcaabat",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -649,9 +879,12 @@
       "id": "taksi724-04627214444-51",
       "name": "Araklı Taksi",
       "phone": "04627214444",
+      "website": null,
       "lat": 40.9403253,
       "lon": 40.0561222,
       "address": "Taksi Durağı · Deniz Sk.",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -662,9 +895,12 @@
       "id": "taksi724-05368719661-52",
       "name": "Of Çarşıbaşı Taksi",
       "phone": "05368719661",
+      "website": null,
       "lat": 40.9372834,
       "lon": 40.0554787,
       "address": null,
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -674,9 +910,12 @@
       "id": "taksi724-04627713636-53",
       "name": "Of Hastane Taksi",
       "phone": "04627713636",
+      "website": null,
       "lat": 40.943,
       "lon": 40.266,
       "address": "Çarşıbaşı Mahallesi",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -686,9 +925,12 @@
       "id": "taksi724-04627713774-54",
       "name": "Of Sahil Taksi",
       "phone": "04627713774",
+      "website": null,
       "lat": 40.946,
       "lon": 40.262,
       "address": "Of Devlet Hastanesi",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -699,9 +941,12 @@
       "id": "taksi724-04627714404-55",
       "name": "Of Sanayi Çiçek Taksi",
       "phone": "04627714404",
+      "website": null,
       "lat": 40.945,
       "lon": 40.265,
       "address": "Of Sahil",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -712,9 +957,12 @@
       "id": "taksi724-04627716565-56",
       "name": "Çiçek Taksi Durağı",
       "phone": "04627716565",
+      "website": null,
       "lat": 40.942,
       "lon": 40.27,
       "address": "Of Sanayi Sitesi",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -725,9 +973,12 @@
       "id": "taksi724-05333578061-57",
       "name": "Of Terminal Taksi",
       "phone": "05333578061",
+      "website": null,
       "lat": 40.9475453,
       "lon": 40.2682983,
       "address": null,
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -737,9 +988,12 @@
       "id": "taksi724-04627714919-58",
       "name": "Şana Taksi",
       "phone": "04627714919",
+      "website": null,
       "lat": 40.944,
       "lon": 40.268,
       "address": "Of Terminal",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -749,9 +1003,12 @@
       "id": "taksi724-04623446061-59",
       "name": "Ayasofya Müze altı Taksi",
       "phone": "04623446061",
+      "website": null,
       "lat": 40.9603214,
       "lon": 39.8427334,
       "address": "Taksi Durağı · İncirlik Cd. No:19",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -761,9 +1018,12 @@
       "id": "taksi724-05334101984-60",
       "name": "Yanbolu Taksi",
       "phone": "05334101984",
+      "website": null,
       "lat": 41.0028612,
       "lon": 39.6938429,
       "address": "Trabzon Site Taksi, Karşıyaka Taksi, Ayasofya Müze altı Taksi, Fatih Mahallesi",
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -774,9 +1034,12 @@
       "id": "taksi724-05516477882-61",
       "name": "trabzon-taksi",
       "phone": "05516477882",
+      "website": null,
       "lat": 40.9584679,
       "lon": 39.9987866,
       "address": null,
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -786,9 +1049,12 @@
       "id": "taksi724-05442999585-62",
       "name": "Kardeşler Taksi",
       "phone": "05442999585",
+      "website": null,
       "lat": 41.0474844,
       "lon": 39.2757346,
       "address": null,
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -799,9 +1065,12 @@
       "id": "taksi724-05379652872-63",
       "name": "Vakfikebir Taksi",
       "phone": "05379652872",
+      "website": null,
       "lat": 41.047923,
       "lon": 39.2739872,
       "address": null,
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -811,9 +1080,12 @@
       "id": "taksi724-05412110036-64",
       "name": "Vakfıkebir İlçe Taksi",
       "phone": "05412110036",
+      "website": "https://www.instagram.com/61_hy_036/",
       "lat": 41.0477307,
       "lon": 39.2699875,
       "address": null,
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -825,9 +1097,12 @@
       "id": "taksi724-05322303563-65",
       "name": "Vakfıkebir Merkez Taksi",
       "phone": "05322303563",
+      "website": null,
       "lat": 41.0475974,
       "lon": 39.274673,
       "address": null,
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -837,9 +1112,12 @@
       "id": "taksi724-05432025359-66",
       "name": "Vakfıkebir Çarşı Taksi AÇIK · 7 gün 24 saat HÜKÜMET KONAĞI, 14 ŞUBAT KURTULUŞ CA",
       "phone": "05432025359",
+      "website": null,
       "lat": 41.0471203,
       "lon": 39.2762487,
       "address": null,
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -851,9 +1129,12 @@
       "id": "taksi724-05010619061-67",
       "name": "Vakfıkebir Terminal Taksi",
       "phone": "05010619061",
+      "website": null,
       "lat": 41.0478997,
       "lon": 39.2755577,
       "address": "Taksi · Hükümet caddesi, Belediye Sk.",
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -863,9 +1144,12 @@
       "id": "taksi724-04628418111-68",
       "name": "Vakfikebir Taksi",
       "phone": "04628418111",
+      "website": null,
       "lat": 41.049069,
       "lon": 39.2784477,
       "address": "Taksi Durağı · Belediye Otobüs Terminali Taksi Durağı, Gülbahar Hatun Cd. No:8",
+      "districtId": "vakfikebir",
+      "districtName": "Vakfikebir",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -875,9 +1159,12 @@
       "id": "taksi724-05320644023-69",
       "name": "Kaşüstü İncirlik Taksi",
       "phone": "05320644023",
+      "website": null,
       "lat": 40.97,
       "lon": 39.85,
       "address": "Cevahir AVM, Kaşüstü",
+      "districtId": "yomra",
+      "districtName": "Yomra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -888,9 +1175,12 @@
       "id": "taksi724-04623446061-70",
       "name": "Yomra Hükümet Taksi",
       "phone": "04623446061",
+      "website": null,
       "lat": 40.968,
       "lon": 39.845,
       "address": "Kaşüstü Mahallesi",
+      "districtId": "yomra",
+      "districtName": "Yomra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -901,9 +1191,12 @@
       "id": "taksi724-04623411202-71",
       "name": "Yomra Taksi",
       "phone": "04623411202",
+      "website": null,
       "lat": 40.955,
       "lon": 39.865,
       "address": "Yomra Merkez",
+      "districtId": "yomra",
+      "districtName": "Yomra",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -913,9 +1206,12 @@
       "id": "taksi724-04623411202-72",
       "name": "Yomra Taksi",
       "phone": "04623411202",
+      "website": null,
       "lat": 40.9559255,
       "lon": 39.8588473,
       "address": "Taksi Durağı ·  · Hükümet Cd. No:97",
+      "districtId": "yomra",
+      "districtName": "Yomra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -926,9 +1222,12 @@
       "id": "taksi724-05359779855-73",
       "name": "Yomra Hükümet Taksi",
       "phone": "05359779855",
+      "website": null,
       "lat": 40.9539012,
       "lon": 39.8670525,
       "address": null,
+      "districtId": "yomra",
+      "districtName": "Yomra",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -939,9 +1238,12 @@
       "id": "taksi724-04627114848-74",
       "name": "Arsin Taksi",
       "phone": "04627114848",
+      "website": null,
       "lat": 40.9534837,
       "lon": 39.9345417,
       "address": "Taksi Durağı · 167. Sk.",
+      "districtId": "arsin",
+      "districtName": "Arsin",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -951,9 +1253,12 @@
       "id": "taksi724-05325237745-75",
       "name": "Arsin Taksi",
       "phone": "05325237745",
+      "website": null,
       "lat": 40.9538957,
       "lon": 39.9357474,
       "address": "Taksi · 166. Sk.",
+      "districtId": "arsin",
+      "districtName": "Arsin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -964,9 +1269,12 @@
       "id": "taksi724-04627114848-76",
       "name": "Arsin Taksi",
       "phone": "04627114848",
+      "website": null,
       "lat": 40.935,
       "lon": 40.045,
       "address": "Arsin Merkez",
+      "districtId": "arsin",
+      "districtName": "Arsin",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -977,9 +1285,12 @@
       "id": "taksi724-04623216078-77",
       "name": "Sürmene Sahil Taksi",
       "phone": "04623216078",
+      "website": null,
       "lat": 40.913998,
       "lon": 40.112694,
       "address": "Çarşı Mah. Sahil Cad. Sürmene, Trabzon",
+      "districtId": "surmene",
+      "districtName": "Surmene",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -989,9 +1300,12 @@
       "id": "taksi724-05356024148-78",
       "name": "Sürmene Taksi",
       "phone": "05356024148",
+      "website": null,
       "lat": 40.91,
       "lon": 40.115,
       "address": "Sürmene Sahil",
+      "districtId": "surmene",
+      "districtName": "Surmene",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1002,9 +1316,12 @@
       "id": "taksi724-05443051700-79",
       "name": "Sürmene Taksi",
       "phone": "05443051700",
+      "website": "https://www.instagram.com/surmenemeydantaksi/",
       "lat": 40.913615,
       "lon": 40.113075,
       "address": "Çarşı Mah. Sahil Cad. 18 Sürmene, Trabzon",
+      "districtId": "surmene",
+      "districtName": "Surmene",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1015,9 +1332,12 @@
       "id": "taksi724-05455695261-80",
       "name": "Beşikdüzü Merkez Taksi",
       "phone": "05455695261",
+      "website": null,
       "lat": 41.0530007,
       "lon": 39.2284151,
       "address": "Taksi Durağı · Çilek Sk.",
+      "districtId": "besikduzu",
+      "districtName": "Besikduzu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1028,9 +1348,12 @@
       "id": "taksi724-05424075852-81",
       "name": "Beşikdüzü Merkez Taksi",
       "phone": "05424075852",
+      "website": null,
       "lat": 41.0527273,
       "lon": 39.2280009,
       "address": null,
+      "districtId": "besikduzu",
+      "districtName": "Besikduzu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1040,9 +1363,12 @@
       "id": "taksi724-05616111024-82",
       "name": "Çarşıbaşı Taksi",
       "phone": "05616111024",
+      "website": null,
       "lat": 41.0833735,
       "lon": 39.3789499,
       "address": "Taksi Durağı ·  · ş, Şht. Muhammet Türk Sk. no:17",
+      "districtId": "carsibasi",
+      "districtName": "Carsibasi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1052,9 +1378,12 @@
       "id": "taksi724-05427812053-83",
       "name": "arşıbaşı Taksi",
       "phone": "05427812053",
+      "website": null,
       "lat": 41.0823783,
       "lon": 39.3805422,
       "address": null,
+      "districtId": "carsibasi",
+      "districtName": "Carsibasi",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1064,9 +1393,12 @@
       "id": "taksi724-05389410182-84",
       "name": "Şalpazarı Taksi",
       "phone": "05389410182",
+      "website": null,
       "lat": 40.9420849,
       "lon": 39.1933378,
       "address": null,
+      "districtId": "salpazari",
+      "districtName": "Salpazari",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1077,9 +1409,12 @@
       "id": "taksi724-05332935381-85",
       "name": "alpazarı Taksi",
       "phone": "05332935381",
+      "website": null,
       "lat": 40.942139,
       "lon": 39.1930916,
       "address": null,
+      "districtId": "salpazari",
+      "districtName": "Salpazari",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1089,9 +1424,12 @@
       "id": "taksi724-05451811212-86",
       "name": "Taksi durağı",
       "phone": "05451811212",
+      "website": null,
       "lat": 40.8862582,
       "lon": 39.2910345,
       "address": null,
+      "districtId": "tonya",
+      "districtName": "Tonya",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1101,9 +1439,12 @@
       "id": "taksi724-05451811212-87",
       "name": "Tonya Merkez Taksi",
       "phone": "05451811212",
+      "website": null,
       "lat": 40.903819,
       "lon": 39.274138,
       "address": null,
+      "districtId": "tonya",
+      "districtName": "Tonya",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1114,9 +1455,12 @@
       "id": "taksi724-04626566060-88",
       "name": "Uzungöl Taksi",
       "phone": "04626566060",
+      "website": null,
       "lat": 40.62,
       "lon": 40.29,
       "address": "Uzungöl",
+      "districtId": "caykara",
+      "districtName": "Caykara",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1126,9 +1470,12 @@
       "id": "taksi724-05356382908-89",
       "name": "Düzköy Taksi",
       "phone": "05356382908",
+      "website": null,
       "lat": 40.8705083,
       "lon": 39.4252602,
       "address": null,
+      "districtId": "duzkoy",
+      "districtName": "Duzkoy",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -1139,9 +1486,12 @@
       "id": "taksi724-04625312020-90",
       "name": "Maçka Taksi",
       "phone": "04625312020",
+      "website": null,
       "lat": 40.82,
       "lon": 39.61,
       "address": "Maçka Merkez",
+      "districtId": "macka",
+      "districtName": "Macka",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -1151,9 +1501,12 @@
       "id": "taksicibul-04623300364-91",
       "name": "Big Yellow Taxi Benzin Cafe",
       "phone": "04623300364",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1163,9 +1516,12 @@
       "id": "taksicibul-05300476189-92",
       "name": "Trabzon Taksi",
       "phone": "05300476189",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1175,9 +1531,12 @@
       "id": "taksicibul-04622292299-93",
       "name": "NUMUNE TAKSİ DURAĞI",
       "phone": "04622292299",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1187,9 +1546,12 @@
       "id": "taksicibul-05367387861-94",
       "name": "Trabzon Meydan Liman Taksi",
       "phone": "05367387861",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -1199,9 +1561,12 @@
       "id": "taksiciler-05333366057-95",
       "name": "Doğanköy Taksi",
       "phone": "05333366057",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1211,9 +1576,12 @@
       "id": "taksiciler-04622287722-96",
       "name": "Orta Mahalle Taksi Duraği",
       "phone": "04622287722",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1223,9 +1591,12 @@
       "id": "taksiciler-05434826161-97",
       "name": "Arsin Taksi Trabzon AÇIK · 7 gün 24 saat Cumhuriyet, Cumhuriyet Mah. Şehit Halil",
       "phone": "05434826161",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1235,9 +1606,12 @@
       "id": "taksiciler-05439639634-98",
       "name": "Taksi durağı",
       "phone": "05439639634",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1247,9 +1621,12 @@
       "id": "taksiciler-05383764307-99",
       "name": "Tümü → Alo Of Taksi",
       "phone": "05383764307",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1259,9 +1636,12 @@
       "id": "taksiciler-05369466147-100",
       "name": "Bulvar Taksi Durağı",
       "phone": "05369466147",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1271,9 +1651,12 @@
       "id": "taksiciler-04627712000-101",
       "name": "Of İrfanlı Taksi Durağı",
       "phone": "04627712000",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1283,9 +1666,12 @@
       "id": "taksiciler-05352396341-102",
       "name": "Of Taksi",
       "phone": "05352396341",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": "of",
+      "districtName": "Of",
       "approximate": true,
       "sources": [
         "taksiciler",
@@ -1296,9 +1682,12 @@
       "id": "taksiciler-05354499576-103",
       "name": "Of Taksi 1 Numara Hizmet",
       "phone": "05354499576",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1308,9 +1697,12 @@
       "id": "taksiciler-05359256341-104",
       "name": "Of Taksi Durağı",
       "phone": "05359256341",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1320,9 +1712,12 @@
       "id": "taksiciler-05373814461-105",
       "name": "Of Taksim",
       "phone": "05373814461",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1332,9 +1727,12 @@
       "id": "taksiciler-05364131198-106",
       "name": "Terminal Taksi",
       "phone": "05364131198",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1344,9 +1742,12 @@
       "id": "taksiciler-05374375129-107",
       "name": "Trabzon Kalkınma Taksi AÇIK · 7 gün 24 saat Kalkınma, Akif Saruhan Cd. No:21, 61",
       "phone": "05374375129",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1356,9 +1757,12 @@
       "id": "taksiciler-05442509561-108",
       "name": "Vakfıkebir Taksi",
       "phone": "05442509561",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1368,9 +1772,12 @@
       "id": "taksiciler-04623414340-109",
       "name": "Yomra Merkez Taksi",
       "phone": "04623414340",
+      "website": null,
       "lat": 41.0027,
       "lon": 39.7168,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -1380,8 +1787,12 @@
       "id": "nerede360-05343053255-110",
       "name": "Çamlıca Taksi - Hüsnü İsmailoğlu",
       "phone": "05343053255",
-      "lat": 41.0027,
-      "lon": 39.7168,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "surmene",
+      "districtName": "Sürmene",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1391,8 +1802,12 @@
       "id": "nerede360-05372418107-111",
       "name": "Forum Trabzon Taksi - Refik Karataş",
       "phone": "05372418107",
-      "lat": 41.0027,
-      "lon": 39.7168,
+      "website": "https://www.instagram.com/forumtaksitrabzon/",
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "ortahisar",
+      "districtName": "Ortahisar",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1402,8 +1817,12 @@
       "id": "nerede360-05375055478-112",
       "name": "Merkez Taksi - Onur Erdem",
       "phone": "05375055478",
-      "lat": 41.0027,
-      "lon": 39.7168,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "hayrat",
+      "districtName": "Hayrat",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1413,8 +1832,12 @@
       "id": "nerede360-05422064261-113",
       "name": "Taksi Arsin - Bircan Baş",
       "phone": "05422064261",
-      "lat": 41.0027,
-      "lon": 39.7168,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "arsin",
+      "districtName": "Arsin",
       "approximate": true,
       "sources": [
         "nerede360"
@@ -1424,8 +1847,12 @@
       "id": "nerede360-05451922161-114",
       "name": "Vakfıkebir Taksi - Ömer Bayraktar",
       "phone": "05451922161",
-      "lat": 41.0027,
-      "lon": 39.7168,
+      "website": null,
+      "lat": null,
+      "lon": null,
+      "address": null,
+      "districtId": "vakfikebir",
+      "districtName": "Vakfıkebir",
       "approximate": true,
       "sources": [
         "nerede360"

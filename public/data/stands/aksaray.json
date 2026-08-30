@@ -1,12 +1,29 @@
 {
   "cityId": "aksaray",
   "cityName": "Aksaray",
-  "fetchedAt": "2026-08-30T21:24:29.613Z",
+  "fetchedAt": "2026-08-30T21:37:17.345Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "agacoren",
+      "name": "Agacoren",
+      "count": 6
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 12
+    },
+    {
+      "id": "ortakoy",
+      "name": "Ortakoy",
+      "count": 1
+    }
   ],
   "count": 32,
   "stands": [
@@ -14,9 +31,12 @@
       "id": "taksi724-05337030768-0",
       "name": "Aksaray Taksi",
       "phone": "05337030768",
+      "website": null,
       "lat": 38.371656,
       "lon": 34.031441,
       "address": "Hacı Hasanlı Mah. Ptt Cad. 700. Sok. 3/A Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +46,12 @@
       "id": "taksi724-05337030768-1",
       "name": "Aksaray Taksi",
       "phone": "05337030768",
+      "website": null,
       "lat": 38.35707927,
       "lon": 33.98941993,
       "address": "Hacılarharmanı Mah. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -38,9 +61,12 @@
       "id": "taksi724-05337030768-2",
       "name": "As Taksi",
       "phone": "05337030768",
+      "website": null,
       "lat": 38.35721389,
       "lon": 33.98929863,
       "address": "Hacılarharmanı Mah. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -50,9 +76,12 @@
       "id": "taksi724-05549209066-3",
       "name": "Güven Taksi",
       "phone": "05549209066",
+      "website": null,
       "lat": 38.376776,
       "lon": 34.025774,
       "address": "Meydan Mah. Necip Fazıl Kısakürek Cad. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -62,9 +91,12 @@
       "id": "taksi724-05337030768-4",
       "name": "Hastane Taksi",
       "phone": "05337030768",
+      "website": null,
       "lat": 38.370528,
       "lon": 34.026179,
       "address": "Taşpazar Mah. Ankara Cad. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -74,9 +106,12 @@
       "id": "taksi724-05526813500-5",
       "name": "Hastane Taksi",
       "phone": "05526813500",
+      "website": null,
       "lat": 38.399931,
       "lon": 34.0186,
       "address": "Zafer Mah. Nevşehir Cad. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -86,9 +121,12 @@
       "id": "taksi724-05368898790-6",
       "name": "Kent Taksi",
       "phone": "05368898790",
+      "website": null,
       "lat": 38.400531,
       "lon": 34.0186,
       "address": "Zafer Mah. Nevşehir Cad. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -98,9 +136,12 @@
       "id": "taksi724-05337030768-7",
       "name": "Meydan Taksi",
       "phone": "05337030768",
+      "website": null,
       "lat": 38.370435,
       "lon": 34.025161,
       "address": "Taşpazar Mah. 806 Sok. (İstanbul Ucuzluk Pazarı ve Pizza Pizza Yakını) Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -110,9 +151,12 @@
       "id": "taksi724-03822135386-8",
       "name": "Park Taksi",
       "phone": "03822135386",
+      "website": null,
       "lat": 38.370659,
       "lon": 34.02557,
       "address": "Minarecik Mah. Ankara Cad. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -124,9 +168,12 @@
       "id": "taksi724-9-9",
       "name": "Sanayi Taksi",
       "phone": null,
+      "website": null,
       "lat": 38.372643,
       "lon": 34.025317,
       "address": "Zincirli Mah. Belediye Cad. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -136,9 +183,12 @@
       "id": "taksi724-03822151285-10",
       "name": "Varan Taksi",
       "phone": "03822151285",
+      "website": null,
       "lat": 38.391316,
       "lon": 33.989542,
       "address": "Yeni Sanayi Mah. E-90 Blv. Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -148,9 +198,12 @@
       "id": "taksi724-03822121100-11",
       "name": "aksaray-taksi",
       "phone": "03822121100",
+      "website": null,
       "lat": 38.372765,
       "lon": 34.030062,
       "address": "Hacı Hasanlı Mah. Kale Altı Cad. Merkez, Aksaray Merkez, Aksaray",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -162,9 +215,12 @@
       "id": "taksi724-05337030768-12",
       "name": "Güven Taksi",
       "phone": "05337030768",
+      "website": null,
       "lat": 38.3721805,
       "lon": 33.9826544,
       "address": null,
+      "districtId": "agacoren",
+      "districtName": "Agacoren",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -175,9 +231,12 @@
       "id": "taksi724-03822128404-13",
       "name": "Hastane Taksi",
       "phone": "03822128404",
+      "website": null,
       "lat": 38.367908,
       "lon": 34.019967,
       "address": null,
+      "districtId": "agacoren",
+      "districtName": "Agacoren",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -187,9 +246,12 @@
       "id": "taksi724-05437625484-14",
       "name": "Huzur Taksi",
       "phone": "05437625484",
+      "website": null,
       "lat": 38.372945,
       "lon": 33.983041,
       "address": null,
+      "districtId": "agacoren",
+      "districtName": "Agacoren",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -200,9 +262,12 @@
       "id": "taksi724-03822131699-15",
       "name": "Sanayi Taksi",
       "phone": "03822131699",
+      "website": null,
       "lat": 38.3757774,
       "lon": 34.0286389,
       "address": "Taksi Durağı · Hasas Mah. Cd. No:8",
+      "districtId": "agacoren",
+      "districtName": "Agacoren",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -213,9 +278,12 @@
       "id": "taksi724-03822151285-16",
       "name": "Uğrak Taksi",
       "phone": "03822151285",
+      "website": null,
       "lat": 38.3755449,
       "lon": 33.9996813,
       "address": "Taksi Durağı ·  · 2. Cd. No:51",
+      "districtId": "agacoren",
+      "districtName": "Agacoren",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -227,9 +295,12 @@
       "id": "taksi724-03822151677-17",
       "name": "Hastane Taksi",
       "phone": "03822151677",
+      "website": null,
       "lat": 38.3651326,
       "lon": 34.0073818,
       "address": "Taksi · Bediüzzaman Cd. No:33",
+      "districtId": "agacoren",
+      "districtName": "Agacoren",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -241,9 +312,12 @@
       "id": "taksi724-05522512754-18",
       "name": "Ortaköy ilçesindeki bazı taksi",
       "phone": "05522512754",
+      "website": null,
       "lat": 38.7366622,
       "lon": 34.0388179,
       "address": null,
+      "districtId": "ortakoy",
+      "districtName": "Ortakoy",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -253,9 +327,12 @@
       "id": "taksicibul-05330151375-19",
       "name": "Keldayı Pet Taksi",
       "phone": "05330151375",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -265,9 +342,12 @@
       "id": "taksicibul-03822137800-20",
       "name": "Aksaray Otogarı",
       "phone": "03822137800",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -277,9 +357,12 @@
       "id": "taksicibul-05353663171-21",
       "name": "ORTAKÖY TAKSİ",
       "phone": "05353663171",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -289,9 +372,12 @@
       "id": "taksicibul-05366663136-22",
       "name": "Aksaray Merkez Taksi",
       "phone": "05366663136",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -301,9 +387,12 @@
       "id": "taksicibul-05417451984-23",
       "name": "Aksaray Saray Taksi",
       "phone": "05417451984",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -313,9 +402,12 @@
       "id": "taksicibul-05050916868-24",
       "name": "Aksaray 7/24 TAKSİ",
       "phone": "05050916868",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -326,9 +418,12 @@
       "id": "taksicibul-03822150951-25",
       "name": "Aksaray Ağaçlı Taksi",
       "phone": "03822150951",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -338,9 +433,12 @@
       "id": "taksiciler-05386234716-26",
       "name": "As Taksi AÇIK · 7 gün 24 saat Sofular, Hasas Mah. Cd. No:4, 68100 Aksaray Merkez",
       "phone": "05386234716",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -350,9 +448,12 @@
       "id": "taksiciler-05447453561-27",
       "name": "Taksi",
       "phone": "05447453561",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -362,9 +463,12 @@
       "id": "taksiciler-03822131163-28",
       "name": "Aksaray Taksi",
       "phone": "03822131163",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -374,9 +478,12 @@
       "id": "taksiciler-05444185784-29",
       "name": "Tümü → Ortaköy Aksaray Taksi (gül Taksi)",
       "phone": "05444185784",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -386,9 +493,12 @@
       "id": "taksiciler-03823518916-30",
       "name": "Ortaköy Fatih Taksi",
       "phone": "03823518916",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -398,9 +508,12 @@
       "id": "taksiciler-03823518080-31",
       "name": "Şahin Taksi",
       "phone": "03823518080",
+      "website": null,
       "lat": 38.3687,
       "lon": 34.036,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"

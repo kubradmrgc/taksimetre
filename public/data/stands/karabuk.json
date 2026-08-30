@@ -1,12 +1,44 @@
 {
   "cityId": "karabuk",
   "cityName": "Karabük",
-  "fetchedAt": "2026-08-30T21:25:16.171Z",
+  "fetchedAt": "2026-08-30T21:38:02.861Z",
   "sources": [
     "https://taksi724.com/",
     "https://www.taksicibul.com/",
     "https://taksiciler.com/",
     "https://www.nerede360.com/"
+  ],
+  "districts": [
+    {
+      "id": "eflani",
+      "name": "Eflani",
+      "count": 15
+    },
+    {
+      "id": "eskipazar",
+      "name": "Eskipazar",
+      "count": 1
+    },
+    {
+      "id": "merkez",
+      "name": "Merkez",
+      "count": 11
+    },
+    {
+      "id": "ovacik",
+      "name": "Ovacik",
+      "count": 1
+    },
+    {
+      "id": "safranbolu",
+      "name": "Safranbolu",
+      "count": 2
+    },
+    {
+      "id": "yenice",
+      "name": "Yenice",
+      "count": 1
+    }
   ],
   "count": 47,
   "stands": [
@@ -14,9 +46,12 @@
       "id": "taksi724-03704336000-0",
       "name": "100.Yıl Taksi",
       "phone": "03704336000",
+      "website": null,
       "lat": 41.223708,
       "lon": 32.6641025,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -26,9 +61,12 @@
       "id": "taksi724-03704336000-1",
       "name": "5000 Evler Taksi",
       "phone": "03704336000",
+      "website": null,
       "lat": 41.2180358,
       "lon": 32.6635612,
       "address": "Ulaşım Hizmeti · Nur Mar karşısı Pazar yeri. Orta, Kastamonu yolu üstü sokak kat No: 19",
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -39,9 +77,12 @@
       "id": "taksi724-05422523746-2",
       "name": "Eflani Taksi",
       "phone": "05422523746",
+      "website": null,
       "lat": 41.229208,
       "lon": 32.662717,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -51,9 +92,12 @@
       "id": "taksi724-05356951922-3",
       "name": "Meydan Taksi",
       "phone": "05356951922",
+      "website": null,
       "lat": 41.4231035,
       "lon": 32.9575994,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -65,9 +109,12 @@
       "id": "taksi724-05438140891-4",
       "name": "Eski Çarşı Taksi",
       "phone": "05438140891",
+      "website": null,
       "lat": 41.4227179,
       "lon": 32.9546576,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -79,9 +126,12 @@
       "id": "taksi724-03707252595-5",
       "name": "Gökçebey BelenTaksi",
       "phone": "03707252595",
+      "website": null,
       "lat": 41.2493705,
       "lon": 32.6831281,
       "address": "Taksi Durağı · Eski Çarşı Kazdağlı Meydanı No:13",
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -91,9 +141,12 @@
       "id": "taksi724-05511444282-6",
       "name": "Gökçebey Taksi",
       "phone": "05511444282",
+      "website": null,
       "lat": 41.3062512,
       "lon": 32.1455186,
       "address": "Taksi · Güven Taksi Durağı, İsmet Paşa Caddesi Çarşı İçi Mahallesi Şok Market, Karşısı",
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -103,9 +156,12 @@
       "id": "taksi724-05072749974-7",
       "name": "HÜR TAKSi",
       "phone": "05072749974",
+      "website": null,
       "lat": 41.305628,
       "lon": 32.141661,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -115,9 +171,12 @@
       "id": "taksi724-03707663008-8",
       "name": "Karabük Site Taksi",
       "phone": "03707663008",
+      "website": null,
       "lat": 41.2011364,
       "lon": 32.3264904,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -128,9 +187,12 @@
       "id": "taksi724-03704122066-9",
       "name": "Karabük Taksi",
       "phone": "03704122066",
+      "website": null,
       "lat": 41.1942913,
       "lon": 32.6187454,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -140,9 +202,12 @@
       "id": "taksi724-05476178279-10",
       "name": "Koç Taksi",
       "phone": "05476178279",
+      "website": null,
       "lat": 41.1956971,
       "lon": 32.6231352,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -152,9 +217,12 @@
       "id": "taksi724-05422523746-11",
       "name": "Safranbolu carsi Taksi",
       "phone": "05422523746",
+      "website": null,
       "lat": 41.421414,
       "lon": 32.960382,
       "address": "Candaroğulları Mah. Tabaklar Cad. 6 Eflani, Karabük",
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -164,9 +232,12 @@
       "id": "taksi724-03707252595-12",
       "name": "Eski Çarşı Taksi",
       "phone": "03707252595",
+      "website": null,
       "lat": 41.2479109,
       "lon": 32.6924873,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -177,9 +248,12 @@
       "id": "taksi724-03704133090-13",
       "name": "Taksi durağı",
       "phone": "03704133090",
+      "website": null,
       "lat": 41.2389528,
       "lon": 32.6753944,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -189,9 +263,12 @@
       "id": "taksi724-03704122722-14",
       "name": "karabuk-taksi",
       "phone": "03704122722",
+      "website": null,
       "lat": 41.2096285,
       "lon": 32.6202531,
       "address": null,
+      "districtId": "eflani",
+      "districtName": "Eflani",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -201,9 +278,12 @@
       "id": "taksi724-15-15",
       "name": "Emniyet Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.197399,
       "lon": 32.610814,
       "address": "Bayır Mah. Fevzi Çakmak Cad. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -213,9 +293,12 @@
       "id": "taksi724-03704246707-16",
       "name": "Esen Taksi",
       "phone": "03704246707",
+      "website": null,
       "lat": 41.192841,
       "lon": 32.61264475,
       "address": "Hürriyet Mah. Aktaş Cad. 17/1 Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -225,9 +308,12 @@
       "id": "taksi724-17-17",
       "name": "Filiz Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.205614,
       "lon": 32.626441,
       "address": "Yeşil Mah. Taşkent Cad. Esentepe, Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -237,9 +323,12 @@
       "id": "taksi724-03704126617-18",
       "name": "Kaya Taksi",
       "phone": "03704126617",
+      "website": null,
       "lat": 41.196135,
       "lon": 32.610281,
       "address": "Bayır Mah. Fevzi Fırat Cad. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -250,9 +339,12 @@
       "id": "taksi724-03704127875-19",
       "name": "Meydan Taksi",
       "phone": "03704127875",
+      "website": null,
       "lat": 41.188652,
       "lon": 32.6149729,
       "address": "Taksi Durağı · Kayabaşı Mah Bahattin Gazi Caddesi 35 Karabük Merkez",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -262,9 +354,12 @@
       "id": "taksi724-03704243276-20",
       "name": "Oğuz Taksi",
       "phone": "03704243276",
+      "website": null,
       "lat": 41.192756,
       "lon": 32.613627,
       "address": "Hürriyet Mah. İnönü Cad. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -275,9 +370,12 @@
       "id": "taksi724-03704123139-21",
       "name": "Site Taksi",
       "phone": "03704123139",
+      "website": null,
       "lat": 41.198518,
       "lon": 32.616984,
       "address": "Kartaltepe Mah. Yılmaz Sok. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -288,9 +386,12 @@
       "id": "taksi724-05422523746-22",
       "name": "Soğuksu Taksi",
       "phone": "05422523746",
+      "website": null,
       "lat": 41.192156,
       "lon": 32.613627,
       "address": "Hürriyet Mah. İnönü Cad. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -300,9 +401,12 @@
       "id": "taksi724-03704150077-23",
       "name": "Ssk Taksi",
       "phone": "03704150077",
+      "website": null,
       "lat": 41.188921,
       "lon": 32.601218,
       "address": "Soğuksu Mah. Derviş Cad. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -314,9 +418,12 @@
       "id": "taksi724-03704247304-24",
       "name": "Terminal Taksi",
       "phone": "03704247304",
+      "website": null,
       "lat": 41.207239,
       "lon": 32.619199,
       "address": "Şirinevler Mah. Alparslan Cad. Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -326,9 +433,12 @@
       "id": "taksi724-03704246912-25",
       "name": "karabuk-taksi",
       "phone": "03704246912",
+      "website": null,
       "lat": 41.200041,
       "lon": 32.627537,
       "address": "Yeşil Mah. Atatürk Blv. 10/C Karabük Merkez, Karabük",
+      "districtId": "merkez",
+      "districtName": "Merkez",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -338,9 +448,12 @@
       "id": "taksi724-03707123887-26",
       "name": "Güven Taksi",
       "phone": "03707123887",
+      "website": null,
       "lat": 41.25669,
       "lon": 32.678304,
       "address": "Yenimahalle Mah. Ata Sok. 25 Safranbolu, Karabük",
+      "districtId": "safranbolu",
+      "districtName": "Safranbolu",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -352,9 +465,12 @@
       "id": "taksi724-27-27",
       "name": "Bağlar Taksi",
       "phone": null,
+      "website": null,
       "lat": 41.252452,
       "lon": 32.679423,
       "address": "Atatürk Mah. Sadri Artunç Cad. Safranbolu, Karabük",
+      "districtId": "safranbolu",
+      "districtName": "Safranbolu",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -364,9 +480,12 @@
       "id": "taksi724-05422523746-28",
       "name": "Merkez Taksi",
       "phone": "05422523746",
+      "website": null,
       "lat": 40.943673,
       "lon": 32.530695,
       "address": "Merkez Mah. Camı Cad. 6 Eskipazar, Karabük",
+      "districtId": "eskipazar",
+      "districtName": "Eskipazar",
       "approximate": false,
       "sources": [
         "taksi724",
@@ -378,9 +497,12 @@
       "id": "taksi724-29-29",
       "name": "Ovacık ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 40.0101979,
       "lon": 32.8372926,
       "address": "Taksi Durağı · 567/6. Sk.",
+      "districtId": "ovacik",
+      "districtName": "Ovacik",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -390,9 +512,12 @@
       "id": "taksi724-30-30",
       "name": "Yenice ilçesindeki taksi",
       "phone": null,
+      "website": null,
       "lat": 41.199772,
       "lon": 32.330346,
       "address": "Merkez Mah. İnönü Cad. Yenice Karabük, Karabük",
+      "districtId": "yenice",
+      "districtName": "Yenice",
       "approximate": false,
       "sources": [
         "taksi724"
@@ -402,9 +527,12 @@
       "id": "taksicibul-03707663826-31",
       "name": "Umut Taksi Durağı",
       "phone": "03707663826",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul",
@@ -415,9 +543,12 @@
       "id": "taksicibul-03704241602-32",
       "name": "Karabük Şoförler Ve Otomobilciler Esnaf Odası",
       "phone": "03704241602",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -427,9 +558,12 @@
       "id": "taksicibul-05322808684-33",
       "name": "Karabük Taksi Mehmet",
       "phone": "05322808684",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -439,9 +573,12 @@
       "id": "taksicibul-05421807778-34",
       "name": "Taksi Ali Karabük Kayabaşı",
       "phone": "05421807778",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksicibul"
@@ -451,9 +588,12 @@
       "id": "taksiciler-03704127488-35",
       "name": "Emniyet Taksi Karabük AÇIK · 7 gün 24 saat Bayır, Fevzi Fırat Cd. No:72, 78100 K",
       "phone": "03704127488",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -463,9 +603,12 @@
       "id": "taksiciler-03704151500-36",
       "name": "Gar Taksi",
       "phone": "03704151500",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -475,9 +618,12 @@
       "id": "taksiciler-03704125693-37",
       "name": "Gül Taksi Karabük",
       "phone": "03704125693",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -487,9 +633,12 @@
       "id": "taksiciler-03704612454-38",
       "name": "Ssk Taksi AÇIK · 7 gün 24 saat Şirinevler, Alparslan Cd. 1 ŞİRİNEVLER, 78200 Kar",
       "phone": "03704612454",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -499,9 +648,12 @@
       "id": "taksiciler-03704612829-39",
       "name": "Menekşe Taksi Durağı",
       "phone": "03704612829",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -511,9 +663,12 @@
       "id": "taksiciler-03708181902-40",
       "name": "Tümü → Eskipazar Merkez Taksi",
       "phone": "03708181902",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -523,9 +678,12 @@
       "id": "taksiciler-05427838446-41",
       "name": "Tümü → Araç Merkez Taksici Serkan",
       "phone": "05427838446",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -535,9 +693,12 @@
       "id": "taksiciler-05439160007-42",
       "name": "Kastamonu Havalimanı Havaalanı Taksi",
       "phone": "05439160007",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -547,9 +708,12 @@
       "id": "taksiciler-05352278759-43",
       "name": "Kastamonu Havalimanı Taksi",
       "phone": "05352278759",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -559,9 +723,12 @@
       "id": "taksiciler-05437988411-44",
       "name": "Soydan Taksi",
       "phone": "05437988411",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -571,9 +738,12 @@
       "id": "taksiciler-05323526637-45",
       "name": "Ticari Taksi İşletmesi",
       "phone": "05323526637",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
@@ -583,9 +753,12 @@
       "id": "taksiciler-03707251090-46",
       "name": "Eski Çarşı Taksi AÇIK · 7 gün 24 saat Eski Çarşı Kazdağlı Meydanı No:13, 78600 S",
       "phone": "03707251090",
+      "website": null,
       "lat": 41.2061,
       "lon": 32.6204,
       "address": null,
+      "districtId": null,
+      "districtName": null,
       "approximate": true,
       "sources": [
         "taksiciler"
