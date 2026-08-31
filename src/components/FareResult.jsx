@@ -1,7 +1,16 @@
 import { useAnimatedNumber } from "../hooks/useAnimatedNumber.js";
 import { formatDecimal, formatLira } from "../lib/formatCurrency.js";
+import { ShareFareActions } from "./ShareFareActions.jsx";
 
-export function FareResult({ fare, cityLabel, compact = false }) {
+export function FareResult({
+  fare,
+  cityLabel,
+  compact = false,
+  distanceKm,
+  waitingMinutes,
+  originLabel,
+  destinationLabel,
+}) {
   const animatedTotal = useAnimatedNumber(fare.total);
 
   return (
@@ -62,6 +71,15 @@ export function FareResult({ fare, cityLabel, compact = false }) {
           <BreakdownRow label="Geçişler" amount={fare.tolls} />
         ) : null}
       </ul>
+
+      <ShareFareActions
+        fare={fare}
+        cityLabel={cityLabel}
+        distanceKm={distanceKm}
+        waitingMinutes={waitingMinutes}
+        originLabel={originLabel}
+        destinationLabel={destinationLabel}
+      />
     </section>
   );
 }

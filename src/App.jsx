@@ -517,11 +517,34 @@ export default function App() {
                   appliedMinimum={fare.appliedMinimum}
                 />
                 <DeviationAlert alerts={rangeAlerts} />
-                <FareResult fare={fare} cityLabel={cityLabel} compact />
+                <FareResult
+                  fare={fare}
+                  cityLabel={cityLabel}
+                  compact
+                  distanceKm={
+                    trip.isLive || trip.status === "ended"
+                      ? trip.distanceKm
+                      : values.distanceKm
+                  }
+                  waitingMinutes={
+                    trip.isLive || trip.status === "ended"
+                      ? trip.waitingMinutes
+                      : values.waitingMinutes
+                  }
+                  originLabel={origin?.label}
+                  destinationLabel={destination?.label}
+                />
               </>
             ) : (
               <>
-                <FareResult fare={fare} cityLabel={cityLabel} />
+                <FareResult
+                  fare={fare}
+                  cityLabel={cityLabel}
+                  distanceKm={values.distanceKm}
+                  waitingMinutes={values.waitingMinutes}
+                  originLabel={origin?.label}
+                  destinationLabel={destination?.label}
+                />
                 <DeviationAlert alerts={rangeAlerts} />
               </>
             )}
