@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/generate-seo.mjs",
     "preview": "vite preview",
+    "seo": "node scripts/generate-seo.mjs",
     "sync:tariffs": "node scripts/sync-tariffs.mjs",
     "sync:stands": "node scripts/sync-taxi-stands.mjs",
     "predev": "node scripts/sync-tariffs.mjs --optional",
@@ -15,7 +16,8 @@
   "dependencies": {
     "leaflet": "^1.9.4",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.18.3"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.13",

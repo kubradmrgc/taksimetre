@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { CityPresets } from "./components/CityPresets.jsx";
 import { ContactHub } from "./components/ContactHub.jsx";
 import { DestinationSearch } from "./components/DestinationSearch.jsx";
@@ -13,9 +14,15 @@ import { TariffMetaCard } from "./components/TariffMetaCard.jsx";
 import { TravelHubShortcuts } from "./components/TravelHubShortcuts.jsx";
 import { TripControls } from "./components/TripControls.jsx";
 import { TripHud } from "./components/TripHud.jsx";
+import { useDocumentMeta } from "./hooks/useDocumentMeta.js";
 import { useTheme } from "./hooks/useTheme.js";
 import { useTrip } from "./hooks/useTrip.js";
 import { calculateFare } from "./lib/calculateFare.js";
+import {
+  buildDefaultSeoMeta,
+  cityPath,
+  getSiteUrl,
+} from "./lib/citySeo.js";
 import {
   buildFareRange,
   evaluateFareAgainstRange,
@@ -34,6 +41,7 @@ import {
 } from "./lib/routing.js";
 import { sumTollIds } from "./lib/tolls.js";
 import {
+  CITY_TARIFFS,
   DEFAULT_CITY_ID,
   formatFetchedAt,
   getCityTariff,
@@ -48,13 +56,34 @@ const TARIFF_FIELDS = new Set([
   "minimumFee",
 ]);
 
-function createInitialValues() {
-  return {
+function createInitialValues(cityId = DEFAULT_CITY_ID) {
+  const base = {
     distanceKm: "",
     waitingMinutes: "",
     tolls: "",
-    ...tariffToFormValues(getCityTariff(DEFAULT_CITY_ID)),
   };
+
+  if (cityId === "istanbul") {
+    return {
+      ...base,
+      ...segmentToFormValues(getIstanbulSegment(DEFAULT_ISTANBUL_SEGMENT_ID)),
+    };
+  }
+
+  return {
+    ...base,
+    ...tariffToFormValues(getCityTariff(cityId)),
+  };
+}
+
+function readInitialCityId() {
+  try {
+    const id = new URLSearchParams(window.location.search).get("city");
+    if (id && CITY_TARIFFS.some((city) => city.id === id)) return id;
+  } catch {
+    /* SSR / test ortamı */
+  }
+  return DEFAULT_CITY_ID;
 }
 
 function formatTripField(value, digits = 2) {
@@ -75,12 +104,14 @@ function placeFromCityCenter(cityId) {
 
 export default function App() {
   const { theme, toggleTheme } = useTheme();
-  const [cityId, setCityId] = useState(DEFAULT_CITY_ID);
+  const [cityId, setCityId] = useState(readInitialCityId);
   const [segmentId, setSegmentId] = useState(DEFAULT_ISTANBUL_SEGMENT_ID);
   const [roundTrip, setRoundTrip] = useState(false);
   const [selectedTollIds, setSelectedTollIds] = useState([]);
-  const [values, setValues] = useState(createInitialValues);
-  const [origin, setOrigin] = useState(() => placeFromCityCenter(DEFAULT_CITY_ID));
+  const [values, setValues] = useState(() => createInitialValues(readInitialCityId()));
+  const [origin, setOrigin] = useState(() =>
+    placeFromCityCenter(readInitialCityId()),
+  );
   const [destination, setDestination] = useState(null);
   const [estimate, setEstimate] = useState(null);
   const [estimateLoading, setEstimateLoading] = useState(false);
@@ -118,6 +149,13 @@ export default function App() {
       : segment
         ? `${selectedCity.name} · ${segment.name}`
         : selectedCity.name;
+
+  const homeMeta = buildDefaultSeoMeta({ siteUrl: getSiteUrl() });
+  useDocumentMeta({
+    title: homeMeta.title,
+    description: homeMeta.description,
+    canonical: homeMeta.canonical,
+  });
 
   const fare = useMemo(
     () =>
@@ -414,6 +452,24 @@ export default function App() {
         <div className="grid items-start gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="order-2 space-y-6 rounded-3xl border border-stone-300/70 bg-card p-5 shadow-sm sm:p-6 dark:border-white/10 dark:bg-panel lg:order-1">
             <CityPresets selectedId={cityId} onSelect={handleCitySelect} />
+
+            {cityId !== "custom" ? (
+              <p className="text-xs text-stone-500 dark:text-stone-400">
+                <Link
+                  to={cityPath(cityId)}
+                  className="font-medium text-ink underline-offset-2 hover:underline dark:text-taxi"
+                >
+                  {selectedCity.name} tarife sayfası
+                </Link>
+                {" · "}
+                <Link
+                  to="/sehirler"
+                  className="underline-offset-2 hover:underline"
+                >
+                  Tüm iller
+                </Link>
+              </p>
+            ) : null}
 
             <DestinationSearch
               selected={destination}
