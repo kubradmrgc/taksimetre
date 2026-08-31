@@ -27,8 +27,12 @@ export function ContactHub({ preferredCityId }) {
   const [context, setContext] = useState(null);
   const [error, setError] = useState(null);
   const [standCityId, setStandCityId] = useState(preferredCityId || "istanbul");
+  const [complaintCityId, setComplaintCityId] = useState(
+    preferredCityId || "istanbul",
+  );
   const [districtId, setDistrictId] = useState("");
   const [cityManual, setCityManual] = useState(false);
+  const [complaintManual, setComplaintManual] = useState(false);
   const [selectedStandId, setSelectedStandId] = useState(null);
   const abortRef = useRef(null);
   const standsAbortRef = useRef(null);
@@ -40,10 +44,19 @@ export function ContactHub({ preferredCityId }) {
     }
   }, [preferredCityId, cityManual]);
 
+  useEffect(() => {
+    if (!complaintManual && preferredCityId) {
+      setComplaintCityId(preferredCityId);
+    }
+  }, [preferredCityId, complaintManual]);
+
   async function refresh() {
     abortRef.current?.abort();
     const controller = new AbortController();
     abortRef.current = controller;
+
+    const keepComplaintCity = complaintManual;
+    const fixedComplaintCity = complaintCityId;
 
     setLoading(true);
     setError(null);
@@ -54,10 +67,18 @@ export function ContactHub({ preferredCityId }) {
         standCityId: cityManual ? standCityId : null,
         signal: controller.signal,
       });
-      setContext(result);
+      setContext({
+        ...result,
+        chambers: keepComplaintCity
+          ? getChamberContacts(fixedComplaintCity)
+          : result.chambers,
+      });
       setDistrictId("");
       if (!cityManual && result.standCityId) {
         setStandCityId(result.standCityId);
+      }
+      if (!keepComplaintCity && result.chambers?.cityId) {
+        setComplaintCityId(result.chambers.cityId);
       }
       if (result.error) setError(result.error);
     } catch (err) {
@@ -66,6 +87,15 @@ export function ContactHub({ preferredCityId }) {
     } finally {
       setLoading(false);
     }
+  }
+
+  function handleComplaintCityChange(nextCityId) {
+    setComplaintManual(true);
+    setComplaintCityId(nextCityId);
+    setContext((current) => ({
+      ...(current ?? {}),
+      chambers: getChamberContacts(nextCityId),
+    }));
   }
 
   async function loadStandsForSelectedCity(nextCityId) {
@@ -131,11 +161,20 @@ export function ContactHub({ preferredCityId }) {
     () => PROVINCES.find((city) => city.id === standCityId),
     [standCityId],
   );
+  const complaintProvince = useMemo(
+    () => PROVINCES.find((city) => city.id === complaintCityId),
+    [complaintCityId],
+  );
   const cityLabel =
-    selectedProvince?.name ||
-    context?.detectedCity?.cityName ||
-    chambers?.cityName ||
-    "Seçili şehir";
+    tab === "complaint"
+      ? complaintProvince?.name ||
+        chambers?.cityName ||
+        context?.detectedCity?.cityName ||
+        "Seçili şehir"
+      : selectedProvince?.name ||
+        context?.detectedCity?.cityName ||
+        chambers?.cityName ||
+        "Seçili şehir";
 
   const featuredCities = FEATURED_CITY_IDS.map((id) =>
     PROVINCES.find((city) => city.id === id),
@@ -210,6 +249,7 @@ export function ContactHub({ preferredCityId }) {
           type="button"
           onClick={() => {
             setCityManual(false);
+            setComplaintManual(false);
             refresh();
           }}
           disabled={loading}
@@ -255,6 +295,58 @@ export function ContactHub({ preferredCityId }) {
 
       {tab === "complaint" ? (
         <div role="tabpanel" className="mt-4 space-y-3">
+          <div>
+            <p className="text-sm font-medium">Şehir seç</p>
+            <p className="mt-1 text-xs text-stone-500 dark:text-stone-400">
+              Belediye / oda şikayet hatları seçtiğiniz ile göre listelenir. 112
+              ve CİMER her zaman üstte kalır.
+            </p>
+
+            <div className="mt-2 grid grid-cols-3 gap-2">
+              {featuredCities.map((city) => {
+                const active = complaintCityId === city.id;
+                return (
+                  <button
+                    key={city.id}
+                    type="button"
+                    onClick={() => handleComplaintCityChange(city.id)}
+                    className={`rounded-2xl border px-3 py-2.5 text-left text-sm font-semibold transition ${
+                      active
+                        ? "border-red-500 bg-red-500 text-white"
+                        : "border-stone-300/80 bg-white hover:border-red-400/70 dark:border-white/10 dark:bg-white/5"
+                    }`}
+                  >
+                    {city.shortName}
+                    <span className="mt-0.5 block text-xs font-medium opacity-70">
+                      {city.name}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            <label
+              htmlFor="complaint-city"
+              className="mt-3 block text-sm font-medium"
+            >
+              Tüm iller
+            </label>
+            <select
+              id="complaint-city"
+              value={complaintCityId}
+              onChange={(event) =>
+                handleComplaintCityChange(event.target.value)
+              }
+              className="mt-1.5 w-full rounded-xl border border-stone-300/80 bg-white px-3.5 py-2.5 text-base text-ink shadow-sm outline-none transition [color-scheme:light] focus:border-red-500 focus:ring-2 focus:ring-red-500/25 dark:border-white/20"
+            >
+              {PROVINCES.map((city) => (
+                <option key={city.id} value={city.id}>
+                  {city.plate} · {city.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
           <p className="text-xs text-stone-500 dark:text-stone-400">
             {chambers?.disclaimer}
           </p>
