@@ -1,6 +1,14 @@
-export function TaxiStandCard({ stand }) {
+export function TaxiStandCard({ stand, selected = false, cardRef = null }) {
   return (
-    <article className="rounded-2xl border border-stone-300/70 bg-white/80 px-4 py-3 dark:border-white/10 dark:bg-white/5">
+    <article
+      ref={cardRef}
+      id={`stand-card-${stand.id}`}
+      className={`rounded-2xl border px-4 py-3 transition ${
+        selected
+          ? "border-taxi bg-taxi/15 dark:bg-taxi/10"
+          : "border-stone-300/70 bg-white/80 dark:border-white/10 dark:bg-white/5"
+      }`}
+    >
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <h4 className="truncate text-sm font-semibold text-ink dark:text-stone-100">

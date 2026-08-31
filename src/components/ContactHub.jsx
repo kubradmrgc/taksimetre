@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ContactCard } from "./ContactCard.jsx";
 import { TaxiStandCard } from "./TaxiStandCard.jsx";
+import { TaxiStandsMap } from "./TaxiStandsMap.jsx";
 import { FEATURED_CITY_IDS, PROVINCES } from "../lib/provinces.js";
 import {
   fetchStandsForCity,
@@ -27,8 +28,10 @@ export function ContactHub({ preferredCityId }) {
   const [standCityId, setStandCityId] = useState(preferredCityId || "istanbul");
   const [districtId, setDistrictId] = useState("");
   const [cityManual, setCityManual] = useState(false);
+  const [selectedStandId, setSelectedStandId] = useState(null);
   const abortRef = useRef(null);
   const standsAbortRef = useRef(null);
+  const standCardRefs = useRef(new Map());
 
   useEffect(() => {
     if (!cityManual && preferredCityId) {
@@ -72,6 +75,7 @@ export function ContactHub({ preferredCityId }) {
     setStandsLoading(true);
     setError(null);
     setDistrictId("");
+    setSelectedStandId(null);
 
     try {
       const result = await fetchStandsForCity(nextCityId, {
@@ -167,6 +171,17 @@ export function ContactHub({ preferredCityId }) {
       .filter((stand) => !stand.approximate && stand.distanceLabel)
       .slice(0, STANDS_DISPLAY_LIMIT);
   }, [context?.stands, districtId]);
+
+  function handleSelectStand(stand) {
+    setSelectedStandId(stand.id);
+    const node = standCardRefs.current.get(stand.id);
+    node?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  // İlçe değişince seçimi temizle
+  useEffect(() => {
+    setSelectedStandId(null);
+  }, [districtId]);
 
   return (
     <section
@@ -347,8 +362,25 @@ export function ContactHub({ preferredCityId }) {
             <p className="text-sm text-stone-500">Duraklar aranıyor…</p>
           ) : null}
 
+          {!standsLoading && filteredStands.length > 0 ? (
+            <TaxiStandsMap
+              stands={filteredStands}
+              selectedId={selectedStandId}
+              center={context?.position}
+              onSelect={handleSelectStand}
+            />
+          ) : null}
+
           {filteredStands.map((stand) => (
-            <TaxiStandCard key={stand.id} stand={stand} />
+            <TaxiStandCard
+              key={stand.id}
+              stand={stand}
+              selected={stand.id === selectedStandId}
+              cardRef={(node) => {
+                if (node) standCardRefs.current.set(stand.id, node);
+                else standCardRefs.current.delete(stand.id);
+              }}
+            />
           ))}
 
           {!standsLoading &&
