@@ -1,8 +1,6 @@
 import { hubsForCity, hubToPlace } from "../lib/travelHubs.js";
 
-/**
- * Seçili ile göre havalimanı / otogar kısayolları.
- */
+
 export function TravelHubShortcuts({
   cityId,
   selectedId = null,

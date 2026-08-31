@@ -1,11 +1,7 @@
 import { calculateFare, toNonNegativeNumber } from "./calculateFare.js";
 
 /**
- * Mesafe / süre / tarife ile beklenen ücret aralığı (min–ort–max).
- *
- * Min: verilen km, 0 dk bekleme (indi-bindi dahil)
- * Ortalama: km + mevcut bekleme (yoksa süre tahmini × %25)
- * Max: km × 1.15 + bekleme × 1.8 (veya süre × %45)
+ * Beklenen ücret aralığı (min–ort–max).
  */
 export function buildFareRange({
   distanceKm,
@@ -80,10 +76,7 @@ export function buildFareRange({
 
 /**
  * Anlık tutarın beklenen aralık içinde olup olmadığını değerlendirir.
- * Aralık dışındaki değerler sorunlu / şüpheli kabul edilir.
- *
- * @param {object} [options]
- * @param {boolean} [options.checkBelow=true] Yolculuk başında düşük tutar için kapatılabilir.
+ * @param {boolean} [options.checkBelow=true]
  */
 export function evaluateFareAgainstRange(fareTotal, range, options = {}) {
   const { checkBelow = true } = options;
@@ -126,7 +119,7 @@ function formatBand(min, max) {
   return `₺${min.toFixed(2)} – ₺${max.toFixed(2)}`;
 }
 
-/** İki uyarı sonucunu birleştirir (daha yüksek seviye kazanır). */
+/** İki uyarı sonucunu birleştirir. */
 export function mergeAlerts(...alerts) {
   const rank = { ok: 0, warn: 1, danger: 2 };
   let level = "ok";

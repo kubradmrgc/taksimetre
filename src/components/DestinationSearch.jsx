@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { searchPlaces } from "../lib/routing.js";
 
-/**
- * Varış noktası araması (Nominatim). Seçim onSelect ile üst bileşene iletilir.
- */
 export function DestinationSearch({
   selected,
   onSelect,

@@ -17,9 +17,7 @@ const TABS = [
 
 const STANDS_DISPLAY_LIMIT = 40;
 
-/**
- * Şikayet hatları (yerel JSON) + yakındaki taksi durakları (Overpass / Google).
- */
+
 export function ContactHub({ preferredCityId }) {
   const [tab, setTab] = useState("complaint");
   const [loading, setLoading] = useState(false);
@@ -56,7 +54,6 @@ export function ContactHub({ preferredCityId }) {
     abortRef.current = controller;
 
     const keepComplaintCity = complaintManual;
-    const fixedComplaintCity = complaintCityId;
 
     setLoading(true);
     setError(null);
@@ -67,18 +64,17 @@ export function ContactHub({ preferredCityId }) {
         standCityId: cityManual ? standCityId : null,
         signal: controller.signal,
       });
-      setContext({
-        ...result,
-        chambers: keepComplaintCity
-          ? getChamberContacts(fixedComplaintCity)
-          : result.chambers,
-      });
+      setContext(result);
       setDistrictId("");
       if (!cityManual && result.standCityId) {
         setStandCityId(result.standCityId);
       }
-      if (!keepComplaintCity && result.chambers?.cityId) {
-        setComplaintCityId(result.chambers.cityId);
+      if (!keepComplaintCity) {
+        const nextComplaintCity =
+          result.detectedCity?.cityId ||
+          result.chambers?.cityId ||
+          preferredCityId;
+        if (nextComplaintCity) setComplaintCityId(nextComplaintCity);
       }
       if (result.error) setError(result.error);
     } catch (err) {
@@ -92,10 +88,6 @@ export function ContactHub({ preferredCityId }) {
   function handleComplaintCityChange(nextCityId) {
     setComplaintManual(true);
     setComplaintCityId(nextCityId);
-    setContext((current) => ({
-      ...(current ?? {}),
-      chambers: getChamberContacts(nextCityId),
-    }));
   }
 
   async function loadStandsForSelectedCity(nextCityId) {
@@ -119,9 +111,6 @@ export function ContactHub({ preferredCityId }) {
         stands: result.stands,
         districts: result.districts ?? [],
         standsProvider: result.provider,
-        chambers:
-          current?.chambers ??
-          getChamberContacts(preferredCityId || nextCityId),
       }));
     } catch (err) {
       if (err.name === "AbortError") return;
@@ -153,10 +142,12 @@ export function ContactHub({ preferredCityId }) {
       abortRef.current?.abort();
       standsAbortRef.current?.abort();
     };
-    // preferredCityId değişince ilk yükleme / şikayet güncellenir
   }, [preferredCityId]);
 
-  const chambers = context?.chambers;
+  const chambers = useMemo(
+    () => getChamberContacts(complaintCityId),
+    [complaintCityId],
+  );
   const selectedProvince = useMemo(
     () => PROVINCES.find((city) => city.id === standCityId),
     [standCityId],
@@ -206,7 +197,6 @@ export function ContactHub({ preferredCityId }) {
         .filter((stand) => stand.districtId === districtId)
         .slice(0, STANDS_DISPLAY_LIMIT);
     }
-    // İlçe seçilmeden: yalnızca gerçek konumlu duraklar
     return all
       .filter((stand) => !stand.approximate && stand.distanceLabel)
       .slice(0, STANDS_DISPLAY_LIMIT);
@@ -223,7 +213,6 @@ export function ContactHub({ preferredCityId }) {
     node?.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
 
-  // İlçe değişince seçimi temizle
   useEffect(() => {
     setSelectedStandId(null);
   }, [districtId]);

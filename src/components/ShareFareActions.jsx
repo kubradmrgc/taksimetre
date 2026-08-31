@@ -6,9 +6,7 @@ import {
   whatsappShareHref,
 } from "../lib/shareFare.js";
 
-/**
- * Ücret sonucunu kopyala / WhatsApp / sistem paylaşımı.
- */
+
 export function ShareFareActions({
   fare,
   cityLabel,

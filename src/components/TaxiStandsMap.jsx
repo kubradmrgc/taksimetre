@@ -36,10 +36,7 @@ function popupHtml(stand) {
   </div>`;
 }
 
-/**
- * Filtrelenmiş taksi duraklarını Leaflet haritasında gösterir.
- * Marker tıklanınca onSelect(stand) çağrılır.
- */
+
 export function TaxiStandsMap({
   stands = [],
   selectedId = null,

@@ -16,10 +16,6 @@ const INITIAL_STATE = {
   lastPosition: null,
 };
 
-/**
- * Canlı yolculuk durumu: GPS → Haversine mesafe + hız eşiğine göre bekleme.
- * status: idle | locating | active | ended
- */
 export function useTrip({
   estimate = null,
   fareTotal = 0,
@@ -81,7 +77,6 @@ export function useTrip({
     onError: handleError,
   });
 
-  // Geçen süre: GPS gelmese bile 1 sn'de bir artar
   useEffect(() => {
     if (!isLive || !state.startedAt) return undefined;
 

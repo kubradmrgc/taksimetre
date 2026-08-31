@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import { Header } from "../components/Header.jsx";
 import { useTheme } from "../hooks/useTheme.js";
 
-/**
- * Hesaplayıcı dışı sayfalar için ortak çerçeve (arka plan + header).
- */
+
 export function PageShell({ children }) {
   const { theme, toggleTheme } = useTheme();
 

@@ -280,7 +280,7 @@ function parseNamePhoneList(html, source) {
       let name;
       let phone;
 
-      // First pattern: name, phone — second: phone, display
+      // İsim+telefon veya telefon+görünen ad
       if (match[0].includes("<h3")) {
         name = stripTags(match[1]);
         phone = normalizePhone(match[2]);

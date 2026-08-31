@@ -7,10 +7,6 @@ export const DISTANCE_OVER_RATIO = 1.2;
 /** Rotadan sapma eşiği (metre). */
 export const ROUTE_DEVIATION_M = 250;
 
-/**
- * Yolculuk / hesap sırasında fiyat aralığı, mesafe ve rota sapmalarını değerlendirir.
- * @returns {{ level: 'ok' | 'warn' | 'danger', messages: string[], rangeStatus?: string }}
- */
 export function evaluateDeviation({
   estimate,
   fareTotal,

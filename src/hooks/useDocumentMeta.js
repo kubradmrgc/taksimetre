@@ -35,10 +35,7 @@ function upsertJsonLd(id, data) {
   if (!existing) document.head.appendChild(script);
 }
 
-/**
- * SPA'da sayfa başlığı, description, canonical ve isteğe bağlı JSON-LD yazar.
- * Asıl tarayıcı/SEO HTML kabuğu build script ile de üretilir.
- */
+
 export function useDocumentMeta({
   title,
   description,

@@ -1,7 +1,4 @@
-/**
- * İstanbul köprü / tünel geçişleri (HGS sınıf 1 otomobil, yaklaşık 2026).
- * Resmî güncel tutar için operatör tablosunu kontrol edin.
- */
+/** İstanbul HGS sınıf 1 geçiş tutarları (yaklaşık). */
 export const ISTANBUL_TOLLS = [
   {
     id: "bogazici",

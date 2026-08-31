@@ -1,13 +1,5 @@
 /**
- * Vite build sonrası SEO kabukları:
- * - dist/sehir/{id}/index.html  → şehir meta'sı gömülü SPA kabuğu
- * - dist/sehirler/index.html
- * - dist/sitemap.xml
- * - dist/404.html (SPA derin link yedeği)
- *
- * Neden? Google ve sosyal önizlemeler çoğu zaman JS çalıştırmadan
- * ilk HTML'deki <title> / description okur. Aynı JS bundle yüklenir;
- * React Router doğru sayfayı açar.
+ * Build sonrası dist içine şehir HTML kabukları, sitemap ve 404 yazar.
  */
 import { mkdirSync, readFileSync, writeFileSync, copyFileSync } from "node:fs";
 import { dirname, join } from "node:path";

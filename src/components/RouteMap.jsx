@@ -19,7 +19,7 @@ function makePinIcon(letter, color) {
 const ORIGIN_ICON = makePinIcon("A", "#f5c400");
 const DEST_ICON = makePinIcon("B", "#ece8df");
 
-/** OSRM GeoJSON [lon, lat] → Leaflet [lat, lon] */
+
 function toLatLngs(polyline) {
   if (!Array.isArray(polyline) || polyline.length === 0) return [];
   return polyline
@@ -32,9 +32,7 @@ function toLatLngs(polyline) {
     .filter(Boolean);
 }
 
-/**
- * Başlangıç (A) / varış (B) pinleri + OSRM sürüş rotası çizgisi.
- */
+
 export function RouteMap({
   origin,
   destination,

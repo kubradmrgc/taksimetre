@@ -1,7 +1,4 @@
-/**
- * İstanbul taksi segmentleri — 20 Temmuz 2026 İBB / UKOME zammı.
- * Bekleme: sarı saatlik 598,90 ₺ üzerinden segment oranıyla dakika.
- */
+/** İstanbul taksi segmentleri (İBB / UKOME, 20 Temmuz 2026). */
 export const ISTANBUL_SEGMENTS = [
   {
     id: "yellow",

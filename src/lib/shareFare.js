@@ -1,8 +1,6 @@
 import { formatDecimal, formatLira } from "./formatCurrency.js";
 
-/**
- * Ücret sonucundan paylaşılabilir düz metin üretir.
- */
+
 export function buildFareShareText({
   fare,
   cityLabel,

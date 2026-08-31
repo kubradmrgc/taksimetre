@@ -1,6 +1,6 @@
 import { formatDuration } from "../lib/geo.js";
 
-/** Varış rotası özeti (km / süre). Ücret aralığı FareRangeCard'ta; çizgi haritada. */
+
 export function RouteEstimate({ estimate, loading, error, destinationLabel }) {
   if (loading) {
     return (

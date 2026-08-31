@@ -8,13 +8,10 @@ const NOMINATIM_REVERSE = "https://nominatim.openstreetmap.org/reverse";
 const NOMINATIM_SEARCH = "https://nominatim.openstreetmap.org/search";
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 
-/** GPS / yakınım araması */
 const NEARBY_RADIUS_M = 4_000;
-/** İl merkezi seçildiğinde daha geniş alan */
 const CITY_RADIUS_M = 12_000;
 const MAX_STANDS = 20;
 
-/** Büyükşehir belediyesi olan iller */
 const METROPOLITAN_IDS = new Set([
   "adana",
   "ankara",
@@ -70,7 +67,7 @@ function telHref(phone) {
   return normalized ? `tel:${normalized}` : null;
 }
 
-/** TR cep → https://wa.me/905XXXXXXXXX */
+
 function whatsappHref(phone) {
   const digits = String(phone ?? "").replace(/\D/g, "");
   if (!digits) return null;
@@ -156,7 +153,6 @@ function dedupeStands(stands, { limit = MAX_STANDS } = {}) {
   }
 
   unique.sort((a, b) => {
-    // İlçeli / koordinatlı önce
     const aRank = a.approximate ? 1 : 0;
     const bRank = b.approximate ? 1 : 0;
     if (aRank !== bRank) return aRank - bRank;
@@ -189,9 +185,7 @@ export function getConfiguredStandProviders() {
   };
 }
 
-/**
- * chambersData'da kaydı olmayan iller için belediye + beyaz masa yedekleri.
- */
+
 export function buildMunicipalFallbackContacts(province) {
   if (!province?.id) return [];
 
@@ -224,10 +218,7 @@ export function buildMunicipalFallbackContacts(province) {
   ];
 }
 
-/**
- * chambersData.json içinden şehir + ulusal şikayet / oda iletişimlerini döner.
- * Kayıt yoksa belediye beyaz masa (153) ve santral yedekleri eklenir.
- */
+
 export function getChamberContacts(cityId) {
   const province = PROVINCES.find((item) => item.id === cityId) ?? null;
   const city = chambersData.cities.find((item) => item.id === cityId);
@@ -250,9 +241,7 @@ export function getChamberContacts(cityId) {
   };
 }
 
-/**
- * Konumdan il adını bulur (Nominatim reverse geocode).
- */
+
 export async function detectCityFromPosition(position, { signal } = {}) {
   if (!position?.lat || !position?.lon) {
     return { cityId: null, cityName: null, raw: null };
@@ -327,9 +316,7 @@ async function googlePlaceDetails(placeId, signal) {
   };
 }
 
-/**
- * Google Places: Nearby Search + Text Search (daha geniş kapsama).
- */
+/** Google Places. */
 export async function fetchNearbyStandsGoogle(
   position,
   { radiusM = NEARBY_RADIUS_M, signal } = {},
@@ -419,9 +406,7 @@ export async function fetchNearbyStandsGoogle(
   return { stands: dedupeStands(stands), provider: "google" };
 }
 
-/**
- * Foursquare Places API v3 — küresel POI.
- */
+/** Foursquare Places. */
 export async function fetchNearbyStandsFoursquare(
   position,
   { radiusM = NEARBY_RADIUS_M, signal } = {},
@@ -482,9 +467,7 @@ export async function fetchNearbyStandsFoursquare(
   return { stands: dedupeStands(stands), provider: "foursquare" };
 }
 
-/**
- * Geoapify Places — ücretsiz kota + iyi küresel kapsama.
- */
+/** Geoapify Places. */
 export async function fetchNearbyStandsGeoapify(
   position,
   { radiusM = NEARBY_RADIUS_M, signal } = {},
@@ -545,9 +528,7 @@ export async function fetchNearbyStandsGeoapify(
   return { stands: dedupeStands(stands), provider: "geoapify" };
 }
 
-/**
- * Genişletilmiş Overpass: amenity + isimde "taksi/taxi".
- */
+/** Overpass amenity + taksi. */
 export async function fetchNearbyStandsOverpass(
   position,
   { radiusM = NEARBY_RADIUS_M, signal } = {},
@@ -609,9 +590,7 @@ export async function fetchNearbyStandsOverpass(
   return { stands: dedupeStands(stands), provider: "overpass" };
 }
 
-/**
- * Nominatim metin araması: "taksi" + şehir / viewbox.
- */
+/** Nominatim taksi araması. */
 export async function fetchNearbyStandsNominatim(
   position,
   { radiusM = CITY_RADIUS_M, cityName = "", signal } = {},
@@ -676,10 +655,7 @@ export async function fetchNearbyStandsNominatim(
   return { stands: dedupeStands(stands), provider: "nominatim" };
 }
 
-/**
- * Yerel rehber senkronu (taksi724 / taksicibul / taksiciler).
- * public/data/stands/{cityId}.json dosyasından okur.
- */
+/** Yerel stands JSON. */
 export async function fetchStandsFromLocalDirectory(
   cityId,
   position,
@@ -699,7 +675,6 @@ export async function fetchStandsFromLocalDirectory(
       const lat = Number(stand.lat);
       const lon = Number(stand.lon);
       const hasCoords = Number.isFinite(lat) && Number.isFinite(lon);
-      // İlçesiz ve koordinatsız (eski il merkezi placeholder) kayıtları atla
       if (!hasCoords && !stand.districtId) return null;
       return makeStand({
         id: stand.id || `dir-${cityId}-${index}`,
@@ -728,12 +703,7 @@ export async function fetchStandsFromLocalDirectory(
   };
 }
 
-/**
- * Sağlayıcı zinciri:
- * 1) Yerel rehber (taksi724/taksicibul/taksiciler senkronu)
- * 2) Google → Foursquare → Geoapify
- * 3) OSM (Overpass + Nominatim)
- */
+/** Yerel → Google/FSQ/Geoapify → OSM. */
 export async function fetchNearbyTaxiStands(position, options = {}) {
   const { cityId = null, signal } = options;
   const configured = getConfiguredStandProviders();
@@ -813,9 +783,7 @@ export async function fetchNearbyTaxiStands(position, options = {}) {
   };
 }
 
-/**
- * Seçilen il merkezine göre yakındaki taksi duraklarını çeker.
- */
+
 export async function fetchStandsForCity(cityId, { signal, radiusM } = {}) {
   const province = getProvince(cityId);
   if (!province?.lat || !province?.lon) {
@@ -838,10 +806,7 @@ export async function fetchStandsForCity(cityId, { signal, radiusM } = {}) {
   };
 }
 
-/**
- * Konum al → şehir tespit et → oda bilgileri + yakındaki duraklar.
- * standCityId verilirse duraklar o il merkezine göre aranır.
- */
+
 export async function loadContactContext({
   preferredCityId = null,
   standCityId = null,

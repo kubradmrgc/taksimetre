@@ -1,6 +1,5 @@
 /**
- * Basit tek renkli / markalı PNG ikon üretir (ek bağımlılık yok).
- * PWA yükleme için 192 ve 512 PNG gerekir; SVG tek başına yetmez.
+ * PWA için 192/512 PNG ikon üretir.
  */
 import { deflateSync } from "node:zlib";
 import { mkdirSync, writeFileSync } from "node:fs";
@@ -74,18 +73,12 @@ function fillCircle(rgba, size, cx, cy, r, rgb) {
 
 function drawIcon(size) {
   const rgba = Buffer.alloc(size * size * 4);
-  // arka plan
-  fillRect(rgba, size, 0, 0, size, size, INK);
-
   const s = size / 32;
-  // gövde
+  fillRect(rgba, size, 0, 0, size, size, INK);
   fillRect(rgba, size, 7 * s, 14 * s, 25 * s, 20 * s, TAXI);
-  // tavan
   fillRect(rgba, size, 11 * s, 7 * s, 21 * s, 11 * s, TAXI);
-  // tekerlekler
   fillCircle(rgba, size, 10.2 * s, 22.4 * s, 2.2 * s, WHEEL);
   fillCircle(rgba, size, 21.8 * s, 22.4 * s, 2.2 * s, WHEEL);
-
   return rgba;
 }
 
@@ -101,7 +94,7 @@ function encodePng(size, rgba) {
   ihdr.writeUInt32BE(size, 0);
   ihdr.writeUInt32BE(size, 4);
   ihdr[8] = 8;
-  ihdr[9] = 6; // RGBA
+  ihdr[9] = 6;
   ihdr[10] = 0;
   ihdr[11] = 0;
   ihdr[12] = 0;

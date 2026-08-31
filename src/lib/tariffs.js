@@ -1,12 +1,7 @@
 import tariffData from "../data/tariffs.json";
 import { PROVINCES } from "./provinces.js";
 
-/**
- * Dakika bedeli tabloda yoksa yerel tamamlayıcı:
- * İstanbul İBB 2026 saatlik bekleme 598,90 ₺ / 60;
- * Ankara 7 ₺/dk; İzmir 4 ₺/dk.
- * taksifiyat.online sync perMinuteFee yazdıysa o kullanılır.
- */
+/** Tablo dışı dakika bedeli: İstanbul 598,90/60; Ankara 7; İzmir 4. */
 export const WAITING_FEE_FALLBACKS = {
   istanbul: Number((598.9 / 60).toFixed(2)),
   ankara: 7,

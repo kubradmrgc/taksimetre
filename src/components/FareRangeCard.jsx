@@ -1,8 +1,5 @@
 import { formatLira } from "../lib/formatCurrency.js";
 
-/**
- * Beklenen ücret aralığını (min–ort–max) ve anlık tutarın konumunu gösterir.
- */
 export function FareRangeCard({ range, fareTotal = null, sourceLabel }) {
   if (!range || !Number.isFinite(range.minFare) || !Number.isFinite(range.maxFare)) {
     return null;

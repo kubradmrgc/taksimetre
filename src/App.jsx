@@ -123,7 +123,6 @@ export default function App() {
     destinationRef.current = destination;
   }, [destination]);
 
-  // İlk açılışta GPS konumunu başlangıç yap (izin varsa)
   useEffect(() => {
     let cancelled = false;
     getCurrentPositionOnce().then((pos) => {
@@ -220,7 +219,6 @@ export default function App() {
     trip.status === "active" ||
     trip.status === "ended";
 
-  // GPS'ten gelen mesafe / beklemeyi forma yaz
   useEffect(() => {
     if (!trip.isLive && trip.status !== "ended") return;
 
@@ -231,7 +229,6 @@ export default function App() {
     }));
   }, [trip.isLive, trip.status, trip.distanceKm, trip.waitingMinutes]);
 
-  // Tarife / gidiş-dönüş / geçiş değişince tahmini fiyat aralığını güncelle
   useEffect(() => {
     if (!estimate || !destination) return;
 

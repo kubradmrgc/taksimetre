@@ -12,9 +12,7 @@ export function isKnownCityId(cityId) {
   return CITY_TARIFFS.some((city) => city.id === cityId);
 }
 
-/**
- * Örnek mesafe için tek yön, beklemesiz, geçişsiz ücret.
- */
+
 export function sampleFareForCity(tariff, distanceKm) {
   return calculateFare({
     distanceKm,

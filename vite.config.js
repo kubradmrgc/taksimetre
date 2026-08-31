@@ -104,7 +104,7 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
-          // Durak JSON'ları (~4MB) precache'e alınmaz; runtimeCaching ile ihtiyaçta önbelleğe alınır.
+          // public/data/stands ~4MB — precache dışı, runtime cache
           globPatterns: ["**/*.{js,css,html,svg,png,ico,txt,xml}"],
           navigateFallback: "index.html",
           runtimeCaching: [

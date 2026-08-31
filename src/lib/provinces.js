@@ -1,7 +1,4 @@
-/**
- * Türkiye'nin 81 ili: plaka kodu, kısa ad ve il merkezi (rota yedeği).
- * Tarife rakamları burada değil; `tariffs.json` senkronundan gelir.
- */
+
 export const PROVINCES = [
   { id: "adana", name: "Adana", shortName: "ADA", plate: "01", lat: 37.0, lon: 35.3213 },
   { id: "adiyaman", name: "Adıyaman", shortName: "ADY", plate: "02", lat: 37.7648, lon: 38.2786 },

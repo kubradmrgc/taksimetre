@@ -4,18 +4,11 @@ import { PwaInstallBanner } from "./components/PwaInstallBanner.jsx";
 import { CitiesIndexPage } from "./pages/CitiesIndexPage.jsx";
 import { CityTariffPage } from "./pages/CityTariffPage.jsx";
 
-/** Vite `base` (örn. /taksimetre/) → React Router basename */
 const routerBasename =
   import.meta.env.BASE_URL === "/"
     ? undefined
     : String(import.meta.env.BASE_URL).replace(/\/$/, "");
 
-/**
- * Tek sayfa uygulamasına URL rotaları ekler.
- * /              → hesaplayıcı
- * /sehirler      → 81 il dizini (SEO)
- * /sehir/:cityId → il tarife sayfası (SEO)
- */
 export function AppRouter() {
   return (
     <BrowserRouter basename={routerBasename}>

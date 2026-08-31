@@ -1,7 +1,4 @@
-/**
- * Aralık dışı / sapma bildirimleri.
- * Hem aydınlık hem karanlık temada okunaklıdır.
- */
+
 export function DeviationAlert({ alerts }) {
   if (!alerts || alerts.level === "ok" || !alerts.messages?.length) {
     return null;

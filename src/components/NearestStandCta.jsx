@@ -1,6 +1,4 @@
-/**
- * Filtrelenmiş listeden telefonu olan en yakın durağı tek tuşla arar.
- */
+
 export function NearestStandCta({ stand, onHighlight }) {
   if (!stand?.telHref) return null;
 
@@ -45,7 +43,7 @@ export function NearestStandCta({ stand, onHighlight }) {
   );
 }
 
-/** Telefonu olan, mesafeye göre en yakın durak. */
+
 export function pickNearestCallableStand(stands) {
   if (!Array.isArray(stands) || stands.length === 0) return null;
 
@@ -60,7 +58,6 @@ export function pickNearestCallableStand(stands) {
       ? b.distanceM
       : Number.POSITIVE_INFINITY;
     if (da !== db) return da - db;
-    // Gerçek konumlu olanlar önce
     if (a.approximate !== b.approximate) return a.approximate ? 1 : -1;
     return 0;
   });

@@ -9,10 +9,7 @@ const DEFAULT_OPTIONS = {
 /** Konum örneklerini birleştirme aralığı (ms). */
 export const MIN_INTERVAL_MS = 4_000;
 
-/**
- * Geolocation watchPosition sarmalayıcısı.
- * start/stop ile kontrol edilir; örnekler MIN_INTERVAL_MS ile throttle edilir.
- */
+
 export function useGeolocationWatch({ onPosition, onError } = {}) {
   const watchIdRef = useRef(null);
   const lastEmittedAtRef = useRef(0);

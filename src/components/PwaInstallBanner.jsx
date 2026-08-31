@@ -2,10 +2,7 @@ import { useEffect, useState } from "react";
 
 const DISMISS_KEY = "taksimetre-pwa-dismissed";
 
-/**
- * Chromium'da beforeinstallprompt ile "Ana ekrana ekle" bandı.
- * iOS'ta bu olay yok; kullanıcı Paylaş → Ana Ekrana Ekle yolunu kullanır.
- */
+
 export function PwaInstallBanner() {
   const [deferred, setDeferred] = useState(null);
   const [visible, setVisible] = useState(false);

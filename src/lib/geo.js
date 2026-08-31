@@ -17,10 +17,6 @@ function toRadians(degrees) {
   return (degrees * Math.PI) / 180;
 }
 
-/**
- * İki WGS84 noktası arasındaki büyük daire mesafesi (Haversine).
- * @returns {number} metre
- */
 export function haversineMeters(lat1, lon1, lat2, lon2) {
   const φ1 = toRadians(lat1);
   const φ2 = toRadians(lat2);
@@ -35,22 +31,12 @@ export function haversineMeters(lat1, lon1, lat2, lon2) {
   return EARTH_RADIUS_M * c;
 }
 
-export function haversineKm(lat1, lon1, lat2, lon2) {
-  return haversineMeters(lat1, lon1, lat2, lon2) / 1000;
-}
-
-/**
- * Mesafe (km) ve süre (saat) üzerinden anlık hız (km/s).
- */
 export function speedKmh(distanceKm, deltaSeconds) {
   if (!Number.isFinite(deltaSeconds) || deltaSeconds <= 0) return 0;
   return distanceKm / (deltaSeconds / 3600);
 }
 
-/**
- * Bir GPS örneğinin işlenmeye değer olup olmadığını ve bir önceki
- * noktaya göre mesafe/hız bilgisini döner.
- */
+
 export function evaluateGpsSample(previous, next) {
   const accuracy =
     typeof next.accuracy === "number" && Number.isFinite(next.accuracy)
@@ -109,10 +95,7 @@ export function evaluateGpsSample(previous, next) {
   };
 }
 
-/**
- * Polyline üzerindeki en yakın noktaya olan mesafe (metre).
- * Sapma kontrolü için kullanılır.
- */
+
 export function distanceToPolylineMeters(lat, lon, polyline) {
   if (!Array.isArray(polyline) || polyline.length === 0) return Infinity;
 

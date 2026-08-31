@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-/** Hedef tutara ease-out ile yumuşak geçiş yapar. */
 export function useAnimatedNumber(target, durationMs = 420) {
   const [displayValue, setDisplayValue] = useState(target);
   const displayRef = useRef(target);

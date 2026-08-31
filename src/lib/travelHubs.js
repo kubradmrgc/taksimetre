@@ -1,7 +1,4 @@
-/**
- * Sık kullanılan havalimanı / otogar noktaları (Nominatim yerine sabit koordinat).
- * cityId: hangi il seçilince gösterileceği.
- */
+
 export const TRAVEL_HUBS = [
   // İstanbul
   {

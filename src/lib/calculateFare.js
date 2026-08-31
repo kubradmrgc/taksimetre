@@ -1,15 +1,5 @@
 /**
- * Taksimetre ücret hesabı.
- *
- * Temel formül:
- *   araToplam = açılış + (mesafeKm × kmBaşıÜcret) + (beklemeDk × dakikaBaşıÜcret)
- *
- * Taban ücret kuralı:
- *   Hesaplanan ara toplam, girilen minimum (indi-bindi) ücretten küçükse
- *   yolcuya yansıtılan tutar indi-bindi ücretidir.
- *
- * Gidiş-dönüş: yolculuk bedeli (indi-bindi sonrası) × 2.
- * Geçişler: yolculuk bedeline eklenir (çarpan uygulanmaz).
+ * Ücret hesabı: açılış + km + bekleme; indi-bindi tabanı; isteğe bağlı ×2 ve geçişler.
  */
 export function calculateFare({
   distanceKm,
@@ -50,12 +40,10 @@ export function calculateFare({
     tolls: tollAmount,
     roundTrip: Boolean(roundTrip),
     legs,
-    /** Geriye dönük: nihai ödenecek (yolculuk + geçişler) */
     total,
   };
 }
 
-/** Boş, negatif veya geçersiz girdileri 0 kabul eder. */
 export function toNonNegativeNumber(value) {
   if (value === "" || value == null) return 0;
 

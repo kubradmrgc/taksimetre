@@ -1,9 +1,5 @@
 import { useCallback, useEffect, useRef } from "react";
 
-/**
- * Yolculuk sırasında ekranın uyku moduna geçmesini engeller (Wake Lock API).
- * Destek yoksa sessizce atlanır.
- */
 export function useWakeLock(active) {
   const lockRef = useRef(null);
 
