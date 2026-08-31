@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ContactCard } from "./ContactCard.jsx";
+import { NearestStandCta, pickNearestCallableStand } from "./NearestStandCta.jsx";
 import { TaxiStandCard } from "./TaxiStandCard.jsx";
 import { TaxiStandsMap } from "./TaxiStandsMap.jsx";
 import { FEATURED_CITY_IDS, PROVINCES } from "../lib/provinces.js";
@@ -171,6 +172,11 @@ export function ContactHub({ preferredCityId }) {
       .filter((stand) => !stand.approximate && stand.distanceLabel)
       .slice(0, STANDS_DISPLAY_LIMIT);
   }, [context?.stands, districtId]);
+
+  const nearestStand = useMemo(
+    () => pickNearestCallableStand(filteredStands),
+    [filteredStands],
+  );
 
   function handleSelectStand(stand) {
     setSelectedStandId(stand.id);
@@ -349,6 +355,13 @@ export function ContactHub({ preferredCityId }) {
               ? `${filteredStands.length} durak · seçili ilçe`
               : "Duraklar mesafeye göre sıralanır. İlçe seçerek telefonsuz konum kaydı olmayanları da görün."}
           </p>
+
+          {!standsLoading && nearestStand ? (
+            <NearestStandCta
+              stand={nearestStand}
+              onHighlight={handleSelectStand}
+            />
+          ) : null}
 
           {context?.needsApiKey && filteredStands.length > 0 ? (
             <p className="rounded-xl border border-stone-300/70 px-3 py-2 text-xs text-stone-500 dark:border-white/10 dark:text-stone-400">
