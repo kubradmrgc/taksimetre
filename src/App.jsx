@@ -9,6 +9,7 @@ import { FareResult } from "./components/FareResult.jsx";
 import { Header } from "./components/Header.jsx";
 import { RouteEstimate } from "./components/RouteEstimate.jsx";
 import { TariffMetaCard } from "./components/TariffMetaCard.jsx";
+import { TravelHubShortcuts } from "./components/TravelHubShortcuts.jsx";
 import { TripControls } from "./components/TripControls.jsx";
 import { TripHud } from "./components/TripHud.jsx";
 import { useTheme } from "./hooks/useTheme.js";
@@ -364,6 +365,13 @@ export default function App() {
               selected={destination}
               onSelect={handleDestinationSelect}
               onClear={handleDestinationClear}
+              disabled={trip.isLive}
+            />
+
+            <TravelHubShortcuts
+              cityId={cityId === "custom" ? DEFAULT_CITY_ID : cityId}
+              selectedId={destination?.id}
+              onSelect={handleDestinationSelect}
               disabled={trip.isLive}
             />
 
