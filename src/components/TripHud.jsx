@@ -25,34 +25,32 @@ export function TripHud({
   return (
     <section
       aria-live="polite"
-      className="overflow-hidden rounded-3xl border border-white/10 bg-[#12141a] text-stone-100 shadow-[0_20px_50px_-24px_rgba(0,0,0,0.65)]"
+      className="overflow-hidden rounded-3xl border border-stone-300/70 bg-card text-ink shadow-sm dark:border-white/10 dark:bg-[#12141a] dark:text-stone-100 dark:shadow-[0_20px_50px_-24px_rgba(0,0,0,0.65)]"
     >
-      <div className="flex items-center justify-between border-b border-white/10 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-taxi">
+      <div className="flex items-center justify-between border-b border-stone-200/90 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-taxi-dim dark:border-white/10 dark:text-taxi">
         <span>Taksimetre</span>
-        <span className="truncate pl-3 text-stone-400">{cityLabel}</span>
+        <span className="truncate pl-3 text-stone-500 dark:text-stone-400">
+          {cityLabel}
+        </span>
       </div>
 
       <div className="px-5 py-6">
-        <p className="text-xs font-medium uppercase tracking-widest text-stone-400">
+        <p className="text-xs font-medium uppercase tracking-widest text-stone-500 dark:text-stone-400">
           {appliedMinimum ? "İndi-bindi uygulandı" : "Anlık tutar"}
         </p>
-        <p className="mt-2 font-mono text-4xl font-semibold tabular-nums tracking-tight text-taxi sm:text-5xl">
+        <p className="mt-2 font-mono text-4xl font-semibold tabular-nums tracking-tight text-taxi-dim dark:text-taxi sm:text-5xl">
           {formatLira(animatedTotal)}
         </p>
-        <p className="mt-2 text-xs font-medium text-stone-400">{statusLabel}</p>
+        <p className="mt-2 text-xs font-medium text-stone-500 dark:text-stone-400">
+          {statusLabel}
+        </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-px border-t border-white/10 bg-white/10 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-px border-t border-stone-200/90 bg-stone-200/80 dark:border-white/10 dark:bg-white/10 sm:grid-cols-4">
         <Stat label="Mesafe" value={`${formatDecimal(distanceKm)} km`} />
         <Stat label="Geçen süre" value={formatDuration(elapsedSeconds)} />
-        <Stat
-          label="Bekleme"
-          value={formatDuration(waitingSeconds)}
-        />
-        <Stat
-          label="Anlık hız"
-          value={`${formatDecimal(speedKmh)} km/s`}
-        />
+        <Stat label="Bekleme" value={formatDuration(waitingSeconds)} />
+        <Stat label="Anlık hız" value={`${formatDecimal(speedKmh)} km/s`} />
       </div>
     </section>
   );
@@ -60,11 +58,11 @@ export function TripHud({
 
 function Stat({ label, value }) {
   return (
-    <div className="bg-[#0c0d11] px-4 py-3">
+    <div className="bg-card px-4 py-3 dark:bg-[#0c0d11]">
       <p className="text-[10px] font-semibold uppercase tracking-wider text-stone-500">
         {label}
       </p>
-      <p className="mt-1 font-mono text-sm font-medium tabular-nums text-stone-100">
+      <p className="mt-1 font-mono text-sm font-medium tabular-nums text-ink dark:text-stone-100">
         {value}
       </p>
     </div>
