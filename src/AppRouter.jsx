@@ -1,6 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import App from "./App.jsx";
-import { PwaInstallBanner } from "./components/PwaInstallBanner.jsx";
 import { CitiesIndexPage } from "./pages/CitiesIndexPage.jsx";
 import { CityTariffPage } from "./pages/CityTariffPage.jsx";
 
@@ -18,7 +17,6 @@ export function AppRouter() {
         <Route path="/sehir/:cityId" element={<CityTariffPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-      <PwaInstallBanner />
     </BrowserRouter>
   );
 }

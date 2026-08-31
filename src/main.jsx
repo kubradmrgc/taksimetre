@@ -6,6 +6,10 @@ import "./index.css";
 
 registerSW({ immediate: true });
 
+window.addEventListener("beforeinstallprompt", (event) => {
+  event.preventDefault();
+});
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AppRouter />
