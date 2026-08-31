@@ -1,8 +1,77 @@
 # Taksimetre
 
-Mesafe, bekleme süresi ve tarife bilgileriyle taksi ücretini anlık hesaplayan web uygulaması. İsteğe bağlı GPS ile canlı yolculuk takibi, tahmini rota (OSRM) ve sapma uyarısı destekler.
+### Taksi ücreti konusunda “acaba fazla mı kestiler?” diye düşünmeyin.
 
-## Çalıştırma
+**Taksimetre**, Türkiye’nin 81 ilinde güncel tarifelerle yolculuk tutarını saniyeler içinde hesaplayan modern bir web uygulaması. Mesafe girin, haritadan varış seçin veya GPS ile canlı takip edin — rakamlar net, kırılım açık, sürpriz yok.
+
+<br />
+
+<p align="center">
+  <a href="https://kubradmrgc.github.io/taksimetre/"><strong>Canlı demoyu aç →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://kubradmrgc.github.io/taksimetre/sehirler">81 il tarifeleri</a>
+  &nbsp;·&nbsp;
+  <a href="https://kubradmrgc.github.io/taksimetre/sehir/istanbul">İstanbul örnek sayfa</a>
+</p>
+
+<p align="center">
+  <a href="https://kubradmrgc.github.io/taksimetre/">
+    <img src="docs/screenshots/01-hesapla-light.png" alt="Taksimetre hesaplayıcı — aydınlık tema" width="900" />
+  </a>
+</p>
+
+<p align="center"><em>Aydınlık tema · 81 il · anlık ücret kırılımı · paylaşılabilir sonuç</em></p>
+
+---
+
+## Neden Taksimetre?
+
+Yolda herkesin aklında aynı soru vardır: **“Bu gidiş ne kadar tutar?”**  
+Taksimetre tam da bunun için var — resmi taksimetrenin yerini almaz; ama cebinizde dürüst bir referans olur.
+
+- **81 il, tek bakış** — İstanbul’dan Hakkâri’ye tarifeler hazır
+- **Anlık hesap** — açılış, km, bekleme, indi-bindi, geçişler, gidiş-dönüş
+- **Harita + rota** — varış seçin, OSRM ile gerçekçi mesafe ve ücret bandı görün
+- **Canlı yolculuk** — GPS ile biriken mesafe ve bekleme (HTTPS gerekir)
+- **Taksi çağır / şikayet** — yakındaki duraklar, Beyaz Masa, CİMER, 112
+- **Paylaş** — sonucu kopyala veya WhatsApp’tan gönder
+- **PWA** — ana ekrana ekleyin, uygulamayı cebinizde taşıyın
+
+<p align="center">
+  <img src="docs/screenshots/02-hesapla-dark.png" alt="Taksimetre hesaplayıcı — karanlık tema" width="900" />
+</p>
+
+<p align="center"><em>Karanlık tema — gece yolculuğuna yakışır sarı taksi vurgusu</em></p>
+
+---
+
+## İl sayfaları — “Bursa’da km kaç?” diye aratınca
+
+Her il için ayrı bir tarife sayfası var: açılış, km, indi-bindi ve 5 / 10 / 20 km örnekleri. Bilgiyi okuyun, tek tıkla hesaplayıcıya geçin.
+
+<p align="center">
+  <img src="docs/screenshots/03-sehirler.png" alt="81 il taksi tarifeleri dizini" width="900" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/04-istanbul.png" alt="İstanbul taksi ücreti tarife sayfası" width="900" />
+</p>
+
+---
+
+## Canlı demo
+
+| | |
+|---|---|
+| **Uygulama** | [kubradmrgc.github.io/taksimetre](https://kubradmrgc.github.io/taksimetre/) |
+| **İl tarifeleri** | [/sehirler](https://kubradmrgc.github.io/taksimetre/sehirler) |
+| **Örnek il** | [/sehir/istanbul](https://kubradmrgc.github.io/taksimetre/sehir/istanbul) |
+
+> Bilgilendirme amaçlıdır. Yolculukta **resmi taksimetre** esas alınır.
+
+---
+
+## Hızlı başlangıç (geliştirme)
 
 ```bash
 npm install
@@ -17,6 +86,8 @@ npm run preview
 ```
 
 Konum API’si yalnızca **HTTPS** veya **localhost** üzerinde çalışır. Canlı yolculukta tarayıcı konum izni ister; ekranın uykuya geçmesini engellemek için Wake Lock kullanılır (destekleyen tarayıcılarda).
+
+---
 
 ## Hesap
 
@@ -71,5 +142,16 @@ cp .env.example .env   # isteğe bağlı Google anahtarı
 npm run dev
 ```
 
+## GitHub Pages
 
+`main` dalına push sonrası Actions ile yayınlanır:
 
+**https://kubradmrgc.github.io/taksimetre/**
+
+Ekran görüntülerini yeniden almak için (isteğe bağlı):
+
+```bash
+npm install -D playwright
+npx playwright install chromium
+node scripts/capture-readme-shots.mjs
+```
