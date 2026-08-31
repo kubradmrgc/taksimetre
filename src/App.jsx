@@ -8,6 +8,7 @@ import { FareRangeCard } from "./components/FareRangeCard.jsx";
 import { FareResult } from "./components/FareResult.jsx";
 import { Header } from "./components/Header.jsx";
 import { RouteEstimate } from "./components/RouteEstimate.jsx";
+import { RouteMap } from "./components/RouteMap.jsx";
 import { TariffMetaCard } from "./components/TariffMetaCard.jsx";
 import { TravelHubShortcuts } from "./components/TravelHubShortcuts.jsx";
 import { TripControls } from "./components/TripControls.jsx";
@@ -61,6 +62,17 @@ function formatTripField(value, digits = 2) {
   return value.toFixed(digits);
 }
 
+function placeFromCityCenter(cityId) {
+  const center = getFallbackOrigin(cityId);
+  const tariff = getCityTariff(cityId === "custom" ? DEFAULT_CITY_ID : cityId);
+  return {
+    id: `origin-${tariff.id}`,
+    label: `${tariff.name} merkezi`,
+    lat: center.lat,
+    lon: center.lon,
+  };
+}
+
 export default function App() {
   const { theme, toggleTheme } = useTheme();
   const [cityId, setCityId] = useState(DEFAULT_CITY_ID);
@@ -68,11 +80,34 @@ export default function App() {
   const [roundTrip, setRoundTrip] = useState(false);
   const [selectedTollIds, setSelectedTollIds] = useState([]);
   const [values, setValues] = useState(createInitialValues);
+  const [origin, setOrigin] = useState(() => placeFromCityCenter(DEFAULT_CITY_ID));
   const [destination, setDestination] = useState(null);
   const [estimate, setEstimate] = useState(null);
   const [estimateLoading, setEstimateLoading] = useState(false);
   const [estimateError, setEstimateError] = useState(null);
   const estimateAbortRef = useRef(null);
+  const destinationRef = useRef(null);
+
+  useEffect(() => {
+    destinationRef.current = destination;
+  }, [destination]);
+
+  // İlk açılışta GPS konumunu başlangıç yap (izin varsa)
+  useEffect(() => {
+    let cancelled = false;
+    getCurrentPositionOnce().then((pos) => {
+      if (cancelled || !pos) return;
+      setOrigin({
+        id: "origin-gps",
+        label: "Konumunuz",
+        lat: pos.lat,
+        lon: pos.lon,
+      });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const selectedCity = getCityTariff(cityId === "custom" ? DEFAULT_CITY_ID : cityId);
   const segment =
@@ -199,7 +234,10 @@ export default function App() {
     roundTrip,
   ]);
 
-  async function buildEstimate(place) {
+  async function buildEstimate(place, startPoint = origin) {
+    if (!place?.lat || !place?.lon) return;
+    const start = startPoint ?? getFallbackOrigin(cityId);
+
     estimateAbortRef.current?.abort();
     const controller = new AbortController();
     estimateAbortRef.current = controller;
@@ -208,9 +246,7 @@ export default function App() {
     setEstimateError(null);
 
     try {
-      const origin =
-        (await getCurrentPositionOnce()) ?? getFallbackOrigin(cityId);
-      const route = await fetchDrivingRoute(origin, place, {
+      const route = await fetchDrivingRoute(start, place, {
         signal: controller.signal,
       });
       const range = estimateFareRange(route, {
@@ -254,6 +290,13 @@ export default function App() {
     const tariff = getCityTariff(nextCityId);
     setCityId(nextCityId);
     setSelectedTollIds([]);
+    if (!tripLocked) {
+      const nextOrigin = placeFromCityCenter(nextCityId);
+      setOrigin(nextOrigin);
+      if (destinationRef.current) {
+        buildEstimate(destinationRef.current, nextOrigin);
+      }
+    }
 
     if (nextCityId === "istanbul") {
       const nextSegment = getIstanbulSegment(DEFAULT_ISTANBUL_SEGMENT_ID);
@@ -314,7 +357,7 @@ export default function App() {
 
   function handleDestinationSelect(place) {
     setDestination(place);
-    buildEstimate(place);
+    buildEstimate(place, origin);
   }
 
   function handleDestinationClear() {
@@ -322,6 +365,17 @@ export default function App() {
     setEstimate(null);
     setEstimateError(null);
     estimateAbortRef.current?.abort();
+  }
+
+  function handleOriginChange(place) {
+    setOrigin(place);
+    const dest = destinationRef.current;
+    if (dest) buildEstimate(dest, place);
+  }
+
+  function handleMapDestinationChange(place) {
+    setDestination(place);
+    buildEstimate(place, origin);
   }
 
   function handleStartTrip() {
@@ -372,6 +426,14 @@ export default function App() {
               cityId={cityId === "custom" ? DEFAULT_CITY_ID : cityId}
               selectedId={destination?.id}
               onSelect={handleDestinationSelect}
+              disabled={trip.isLive}
+            />
+
+            <RouteMap
+              origin={origin}
+              destination={destination}
+              onOriginChange={handleOriginChange}
+              onDestinationChange={handleMapDestinationChange}
               disabled={trip.isLive}
             />
 

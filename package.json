@@ -13,6 +13,7 @@
     "prebuild": "node scripts/sync-tariffs.mjs --optional"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

@@ -51,3 +51,17 @@ html.dark select option {
   background-color: #15171e;
   color: #ece8df;
 }
+
+.taksimetre-map-pin {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-container {
+  z-index: 0;
+  font-family: inherit;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+}
