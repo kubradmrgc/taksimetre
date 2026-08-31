@@ -432,6 +432,7 @@ export default function App() {
             <RouteMap
               origin={origin}
               destination={destination}
+              polyline={estimate?.polyline}
               onOriginChange={handleOriginChange}
               onDestinationChange={handleMapDestinationChange}
               disabled={trip.isLive}

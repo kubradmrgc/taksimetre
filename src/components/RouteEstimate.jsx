@@ -1,6 +1,6 @@
 import { formatDuration } from "../lib/geo.js";
 
-/** Varış rotası özeti (km / süre). Ücret aralığı FareRangeCard'ta gösterilir. */
+/** Varış rotası özeti (km / süre). Ücret aralığı FareRangeCard'ta; çizgi haritada. */
 export function RouteEstimate({ estimate, loading, error, destinationLabel }) {
   if (loading) {
     return (
@@ -20,6 +20,10 @@ export function RouteEstimate({ estimate, loading, error, destinationLabel }) {
 
   if (!estimate) return null;
 
+  const pointCount = Array.isArray(estimate.polyline)
+    ? estimate.polyline.length
+    : 0;
+
   return (
     <section className="rounded-2xl border border-stone-300/70 bg-white/80 p-4 dark:border-white/10 dark:bg-white/5">
       <div className="flex items-start justify-between gap-3">
@@ -30,9 +34,17 @@ export function RouteEstimate({ estimate, loading, error, destinationLabel }) {
               {destinationLabel}
             </p>
           ) : null}
+          {pointCount > 0 ? (
+            <p className="mt-1 text-xs text-stone-500 dark:text-stone-400">
+              Haritada {pointCount.toLocaleString("tr-TR")} noktalı sürüş
+              çizgisi gösteriliyor.
+            </p>
+          ) : null}
         </div>
         <div className="text-right text-xs text-stone-500 dark:text-stone-400">
-          <p>{estimate.distanceKm.toFixed(1)} km</p>
+          <p className="font-mono text-sm font-semibold tabular-nums text-ink dark:text-stone-100">
+            {estimate.distanceKm.toFixed(1)} km
+          </p>
           <p>{formatDuration(estimate.durationSeconds)}</p>
         </div>
       </div>

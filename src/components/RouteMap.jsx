@@ -19,13 +19,26 @@ function makePinIcon(letter, color) {
 const ORIGIN_ICON = makePinIcon("A", "#f5c400");
 const DEST_ICON = makePinIcon("B", "#ece8df");
 
+/** OSRM GeoJSON [lon, lat] → Leaflet [lat, lon] */
+function toLatLngs(polyline) {
+  if (!Array.isArray(polyline) || polyline.length === 0) return [];
+  return polyline
+    .map((pair) => {
+      const lon = Number(pair?.[0]);
+      const lat = Number(pair?.[1]);
+      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+      return [lat, lon];
+    })
+    .filter(Boolean);
+}
+
 /**
- * Başlangıç (A) ve varış (B) pinleri — sürüklenebilir.
- * Haritaya tıklayınca varış güncellenir.
+ * Başlangıç (A) / varış (B) pinleri + OSRM sürüş rotası çizgisi.
  */
 export function RouteMap({
   origin,
   destination,
+  polyline = null,
   onOriginChange,
   onDestinationChange,
   disabled = false,
@@ -34,6 +47,7 @@ export function RouteMap({
   const mapRef = useRef(null);
   const originMarkerRef = useRef(null);
   const destMarkerRef = useRef(null);
+  const routeLineRef = useRef(null);
   const callbacksRef = useRef({ onOriginChange, onDestinationChange, disabled });
 
   useEffect(() => {
@@ -83,8 +97,8 @@ export function RouteMap({
       mapRef.current = null;
       originMarkerRef.current = null;
       destMarkerRef.current = null;
+      routeLineRef.current = null;
     };
-    // origin only for initial center
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -172,20 +186,54 @@ export function RouteMap({
     }
   }, [destination, disabled]);
 
+  // OSRM sürüş rotası çizgisi
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const latLngs = toLatLngs(polyline);
+
+    if (routeLineRef.current) {
+      routeLineRef.current.remove();
+      routeLineRef.current = null;
+    }
+
+    if (latLngs.length < 2) {
+      // Çizgi yoksa en azından pinlere sığdır
+      if (origin && destination) {
+        map.fitBounds(
+          L.latLngBounds(
+            [origin.lat, origin.lon],
+            [destination.lat, destination.lon],
+          ).pad(0.2),
+        );
+      }
+      return;
+    }
+
+    const line = L.polyline(latLngs, {
+      color: "#f5c400",
+      weight: 5,
+      opacity: 0.92,
+      lineJoin: "round",
+      lineCap: "round",
+    }).addTo(map);
+
+    routeLineRef.current = line;
+    map.fitBounds(line.getBounds().pad(0.15));
+  }, [polyline, origin?.lat, origin?.lon, destination?.lat, destination?.lon]);
+
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !origin) return;
-
-    if (destination) {
-      const bounds = L.latLngBounds(
-        [origin.lat, origin.lon],
-        [destination.lat, destination.lon],
-      );
-      map.fitBounds(bounds.pad(0.2));
-    } else {
+    // Polyline varken fitBounds orada yapılıyor; yoksa merkeze al
+    if (toLatLngs(polyline).length >= 2) return;
+    if (!destination) {
       map.setView([origin.lat, origin.lon], map.getZoom() || 12);
     }
-  }, [origin?.lat, origin?.lon, destination?.lat, destination?.lon]);
+  }, [origin?.lat, origin?.lon, destination, polyline]);
+
+  const hasRoute = toLatLngs(polyline).length >= 2;
 
   return (
     <div>
@@ -195,7 +243,9 @@ export function RouteMap({
             Rota haritası
           </p>
           <p className="mt-0.5 text-xs text-stone-500 dark:text-stone-400">
-            A başlangıç, B varış — pinleri sürükleyin veya haritaya tıklayın.
+            {hasRoute
+              ? "Sarı çizgi tahmini sürüş rotasıdır (OSRM)."
+              : "A başlangıç, B varış — pinleri sürükleyin veya haritaya tıklayın."}
           </p>
         </div>
       </div>
