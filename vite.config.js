@@ -57,6 +57,9 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
+    // GitHub Pages proje sitesi: VITE_BASE=/taksimetre/
+    // Yerel / özel domain: boş veya /
+    base: env.VITE_BASE || "/",
     plugins: [
       react(),
       tailwindcss(),
@@ -78,22 +81,22 @@ export default defineConfig(({ mode }) => {
           display: "standalone",
           orientation: "portrait-primary",
           lang: "tr",
-          start_url: "/",
-          scope: "/",
+          start_url: "./",
+          scope: "./",
           categories: ["travel", "utilities"],
           icons: [
             {
-              src: "/icons/pwa-192.png",
+              src: "icons/pwa-192.png",
               sizes: "192x192",
               type: "image/png",
             },
             {
-              src: "/icons/pwa-512.png",
+              src: "icons/pwa-512.png",
               sizes: "512x512",
               type: "image/png",
             },
             {
-              src: "/icons/pwa-512.png",
+              src: "icons/pwa-512.png",
               sizes: "512x512",
               type: "image/png",
               purpose: "maskable",
@@ -103,7 +106,7 @@ export default defineConfig(({ mode }) => {
         workbox: {
           // Durak JSON'ları (~4MB) precache'e alınmaz; runtimeCaching ile ihtiyaçta önbelleğe alınır.
           globPatterns: ["**/*.{js,css,html,svg,png,ico,txt,xml}"],
-          navigateFallback: "/index.html",
+          navigateFallback: "index.html",
           runtimeCaching: [
             {
               urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,

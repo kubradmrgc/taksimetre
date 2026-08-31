@@ -4,6 +4,12 @@ import { PwaInstallBanner } from "./components/PwaInstallBanner.jsx";
 import { CitiesIndexPage } from "./pages/CitiesIndexPage.jsx";
 import { CityTariffPage } from "./pages/CityTariffPage.jsx";
 
+/** Vite `base` (örn. /taksimetre/) → React Router basename */
+const routerBasename =
+  import.meta.env.BASE_URL === "/"
+    ? undefined
+    : String(import.meta.env.BASE_URL).replace(/\/$/, "");
+
 /**
  * Tek sayfa uygulamasına URL rotaları ekler.
  * /              → hesaplayıcı
@@ -12,7 +18,7 @@ import { CityTariffPage } from "./pages/CityTariffPage.jsx";
  */
 export function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/sehirler" element={<CitiesIndexPage />} />
